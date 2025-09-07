@@ -71,8 +71,68 @@ Domain Concepts Knowledge Graph created by static analysis
 Θα ήθελα να μου πείτε την γνώμη σας για αυτό το κομμάτι.
 
 ---
+**Concept Filter** :
 
 [stopwords_filter.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/stopwords_filter.py)
+
+- Δέχεται ως είσοδο το JSON που παράχθηκε από τον parser.
+
+- Καθαρίζει/φιλτράρει όλα τα strings του JSON (χωρίς να αλλάξει το σχήμα του) ώστε να μείνουν μόνο λέξεις/φράσεις με domain specific context.
+
+- Δουλεύει αναδρομικά σε όλο το JSON αντικείμενο (dicts, lists, strings) και επιστρέφει JSON ίδιου σχήματος με “καθαρισμένα” strings.
+
+- Φορτώνει τα περιεχόμενα από 4 jsons που περιέχουν common code words και stop words. Με αυτόν τον τρόπο δημιουργει το set STOPWORDS. Το set STOPWORDS χρησιμοποιειται για το φιλτραρισμα των strings.
+
+- Τα 4 επιμέρους json είναι :
+- 
+[common_code_words_manually_collected.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/common_code_words_manually_collected.json)
+
+[common_verbs_list.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/common_verbs_list.json)
+
+[nltk_english_stopwords.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/nltk_english_stopwords.json)
+
+[stopwords_list_from_stopwords_iso_github_repo.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/stopwords_list_from_stopwords_iso_github_repo.json)
+
+
+Φορτώνει λίστες stopwords από JSON αρχεία:
+common_code_words_manually_collected.json,
+stopwords_list_from_stopwords_iso_github_repo.json,
+nltk_english_stopwords.json,
+common_verbs_list.json.
+
+Εάν κάποιο αρχείο δεν υπάρχει, απλώς αγνοείται.
+
+Όλες οι λέξεις κανονικοποιούνται σε lower-case και ενώνονται σε ένα set: STOPWORDS.
+
+Κανόνες tokenization / split
+
+Διαχωρισμός CamelCase/PascalCase & ακρωνύμιων (π.χ. HTTPServer → HTTP Server, createdAt → created At).
+
+Διαχωρισμός σε _ - . (π.χ. foo_bar-baz.qux → foo bar baz qux).
+
+Όρια γραμμάτων/ψηφίων (π.χ. var1 → var 1, variable1X → variable 1 X).
+
+Μετατροπή όλων των μη-αλφαριθμητικών σε κενά (κρατάει μόνο “\w” = γράμματα/ψηφία/underscore).
+
+Κανόνες φιλτραρίσματος
+
+Αγνοεί tokens:
+
+με μήκος < 3,
+
+που είναι αμιγώς αριθμητικά (π.χ. 2024),
+
+που είναι hex-like μορφής 0x[0-9a-f]+,
+
+που περιλαμβάνονται στο STOPWORDS.
+
+Μετά το φιλτράρισμα, αφαιρεί διαδοχικά duplicates (π.χ. robot robot arm → robot arm).
+
+Επαναληπτικό καθάρισμα
+
+Η filter_string εφαρμόζει το _filter_once επανειλημμένα μέχρι το αποτέλεσμα να σταθεροποιηθεί ή να φτάσει max 5 επαναλήψεις (safety cap).
+
+Ο λόγος: κάποιες αφαιρέσεις/σπασίματα εκθέτουν νέα σημεία split στον επόμενο κύκλο.
 
 
 
