@@ -126,8 +126,15 @@ Domain Concepts Knowledge Graph created by static analysis
 
 **Create Knowledge Graph (KG) JSON**
 
+[json_creation_for_neo4j.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/json_creation_for_neo4j.py)
 
+Δέχεται ως είσοδο ένα cleaned JSON (μετά το φίλτρο εννοιών) και παράγει ένα JSON που περιέχει:
 
+Κόμβους για repos, αρχεία, imports, global variables, classes / nested classes, functions / nested functions, methods, params, local vars, attributes.
+
+Ακμές που συνδέουν τους κόμβους (π.χ. FILE_CONTAINS, HAS_METHOD, HAS_PARAM, κ.λπ.).
+
+Βάρη (weights) σε κόμβους και ακμές, ώστε να κωδικοποιούνται οι προτεραιότητες με DSL-oriented λογική.
 
 
 
