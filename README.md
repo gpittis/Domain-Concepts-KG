@@ -2,6 +2,30 @@
 Domain Concepts Knowledge Graph created by static analysis
 
 
+[c_lang_parser.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/c_lang_parser.py) : είναι ο parser για C codebases
+[cpp_parser.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/cpp_parser.py) : είναι ο parser για C++ codebases
+[java_parser.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/java_parser.py) : είναι ο parser για Java codebases
+[python_parser.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/python_parser.py) : είναι ο parser για Python codebases
+[babel_javascript_parser.js](https://github.com/gpittis/Domain-Concepts-KG/blob/main/babel_javascript_parser.js) : είναι ο parser για Javascript codebases
+[python_wrapper_for_js_parser.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/python_wrapper_for_js_parser.py) : είναι ο python wrapper που καλεί τον javascript parser και εκτελεί την ανάλυση
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Σηκώνω server :
 uvicorn api:app    
 
