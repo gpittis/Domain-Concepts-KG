@@ -144,7 +144,17 @@ Domain Concepts Knowledge Graph created by static analysis
   - LOCAL_VAR
   - ATTRIBUTE
 
-- Relationships που συνδέουν τα nodes.
+- Relationships που συνδέουν τα nodes. Επομένως, έχω τα ακόλουθα relationships types :
+  - FILE -[**EXISTS_IN**]-> REPO
+  - FILE -[**FILE_CONTAINS**]-> CLASS/FUNCTION
+  - FILE -[**IMPORTS**]-> IMPORT
+  - FILE -[**HAS_GLOBAL_VAR**]-> GLOBAL_VAR
+  - CLASS -[**HAS_ATTRIBUTE**]-> ATTRIBUTE
+  - CLASS -[**HAS_METHOD**]-> METHOD
+  - FUNCTION/METHOD -[**HAS_PARAM**]-> PARAM
+  - FUNCTION/METHOD -[**HAS_LOCAL_VAR**]-> LOCAL_VAR
+  - FUNCTION/METHOD -[**HAS_NESTED_FUNCTION**]-> NESTED_FUNCTION
+  - CLASS/FUNCTION -[**HAS_NESTED_CLASS**]-> NESTED_CLASS
 
 - Weights σε nodes και relationships, ώστε να κωδικοποιούνται οι προτεραιότητες με DSL-oriented λογική και επιπλέον να γίνεται πιο εύκολο το querying.
 
