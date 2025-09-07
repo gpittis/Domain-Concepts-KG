@@ -34,6 +34,18 @@ Domain Concepts Knowledge Graph created by static analysis
 
 Δοκίμασα τους parsers σε αληθινά codebases και έμεινα αρκετά ευχαριστημένος από τα αποτελέσματα.
 
+Όλοι οι parsers παράγουν JSON με το ίδιο format. Πιο συγκεκριμένα, έχουν το ίδιο βασικό format :
+
+```
+      [
+        {"file": ...},
+        {"imports": [...]},
+        {"global_variables": [...]},
+        {"functions": [...]},
+        {"classes": [...]}
+      ]
+```
+
 
 
 
