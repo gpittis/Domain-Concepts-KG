@@ -1,0 +1,17 @@
+{
+  "name": "api_domain_concepts",
+  "version": "1.0.0",
+  "main": "babel_javascript_parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/parser": "^7.28.3",
+    "@babel/traverse": "^7.28.3",
+    "@babel/types": "^7.28.2"
+  }
+}
