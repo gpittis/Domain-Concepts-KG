@@ -84,7 +84,7 @@ Domain Concepts Knowledge Graph created by static analysis
 - Φορτώνει τα περιεχόμενα από 4 jsons που περιέχουν common code words και stop words. Με αυτόν τον τρόπο δημιουργει το set STOPWORDS. Το set STOPWORDS χρησιμοποιειται για το φιλτραρισμα των strings.
 
 - Τα 4 επιμέρους json είναι :
-- 
+
 [common_code_words_manually_collected.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/common_code_words_manually_collected.json)
 
 [common_verbs_list.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/common_verbs_list.json)
@@ -92,6 +92,8 @@ Domain Concepts Knowledge Graph created by static analysis
 [nltk_english_stopwords.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/nltk_english_stopwords.json)
 
 [stopwords_list_from_stopwords_iso_github_repo.json](https://github.com/gpittis/Domain-Concepts-KG/blob/main/stopwords_list_from_stopwords_iso_github_repo.json)
+
+(τις πηγές των jsons τις αναφέρω στο stopwords_filter.py. Το chat gpt μου έδωσε κάποιες πολύ κοινές λέξεις που αποτελούν infrastructure σε πάρα πολλά codebases ανεξάρτητα από το domain που έχουν)
 
 
 Φορτώνει λίστες stopwords από JSON αρχεία:
