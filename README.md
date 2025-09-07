@@ -46,8 +46,9 @@ Domain Concepts Knowledge Graph created by static analysis
       ]
 ```
 
----
 Για τις ανάγκες της στατικής ανάλυσης, τα structs (σε c, cpp)  αντιμετωπίστηκαν ως classes. (Προκειμένου όλοι οι parsers να παράγουν json με ίδιο format)
+
+---
 
 Τα 3 παρακάτω αρχεία ΔΕΝ τα χρησιμοποίησα στο api :
 
