@@ -72,6 +72,8 @@ Domain Concepts Knowledge Graph created by static analysis
 
 ---
 
+[stopwords_filter.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/stopwords_filter.py)
+
 
 
 
