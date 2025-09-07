@@ -46,11 +46,15 @@ Domain Concepts Knowledge Graph created by static analysis
       ]
 ```
 
+---
 Για τις ανάγκες της στατικής ανάλυσης, τα structs (σε c, cpp)  αντιμετωπίστηκαν ως classes. (Προκειμένου όλοι οι parsers να παράγουν json με ίδιο format)
 
 Τα 3 παρακάτω αρχεία ΔΕΝ τα χρησιμοποίησα στο api :
+
 [cleaning_from_top_level_structs_the_nested_attributes_C_lang.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/cleaning_from_top_level_structs_the_nested_attributes_C_lang.py)
+
 [cleaning_the_top_level_classes_from_nested_elements_CPP.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/cleaning_the_top_level_classes_from_nested_elements_CPP.py)
+
 [cleaning_nested_attributes_JAVA.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/cleaning_nested_attributes_JAVA.py)
 
 Οι parsers που στηρίζονται στο srcML παρουσιάζουν το εξής πρόβλημα :
