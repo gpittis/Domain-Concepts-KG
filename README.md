@@ -158,18 +158,18 @@ Domain Concepts Knowledge Graph created by static analysis
 
 - Weights σε nodes και relationships, ώστε να κωδικοποιούνται οι προτεραιότητες με DSL-oriented λογική και επιπλέον να γίνεται πιο εύκολο το querying. Πιο συγκεκριμένα, έχω :
   - NODE WEIGHTS :
-    "REPO": 0.10
-    "FILE": 0.55
-    "IMPORT": 0.65
-    "GLOBAL_VAR": 0.70 
-    "CLASS": 0.95
-    "NESTED_CLASS": 0.70
-    "FUNCTION": 0.90
-    "NESTED_FUNCTION": 0.70
-    "METHOD": 0.85
-    "PARAM": 0.60
-    "LOCAL_VAR": 0.50
-    "ATTRIBUTE": 0.70
+    - "REPO": 0.10
+    - "FILE": 0.55
+    - "IMPORT": 0.65
+    - "GLOBAL_VAR": 0.70 
+    - "CLASS": 0.95
+    - "NESTED_CLASS": 0.70
+    - "FUNCTION": 0.90
+    - "NESTED_FUNCTION": 0.70
+    - "METHOD": 0.85
+    - "PARAM": 0.60
+    - "LOCAL_VAR": 0.50
+    - "ATTRIBUTE": 0.70
 
 
 
