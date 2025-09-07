@@ -96,19 +96,9 @@ Domain Concepts Knowledge Graph created by static analysis
 (τις πηγές των jsons τις αναφέρω στο stopwords_filter.py. Το chat gpt μου έδωσε κάποιες πολύ κοινές λέξεις που αποτελούν infrastructure σε πάρα πολλά codebases ανεξάρτητα από το domain που έχουν)
 
 
-Φορτώνει λίστες stopwords από JSON αρχεία:
-common_code_words_manually_collected.json,
-stopwords_list_from_stopwords_iso_github_repo.json,
-nltk_english_stopwords.json,
-common_verbs_list.json.
+- Κανόνες tokenization / split :
 
-Εάν κάποιο αρχείο δεν υπάρχει, απλώς αγνοείται.
-
-Όλες οι λέξεις κανονικοποιούνται σε lower-case και ενώνονται σε ένα set: STOPWORDS.
-
-Κανόνες tokenization / split
-
-Διαχωρισμός CamelCase/PascalCase & ακρωνύμιων (π.χ. HTTPServer → HTTP Server, createdAt → created At).
+  - Διαχωρισμός CamelCase/PascalCase & ακρωνύμιων (π.χ. HTTPServer → HTTP Server, createdAt → created At).
 
 Διαχωρισμός σε _ - . (π.χ. foo_bar-baz.qux → foo bar baz qux).
 
