@@ -14,6 +14,26 @@ Domain Concepts Knowledge Graph created by static analysis
 
 [python_wrapper_for_js_parser.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/python_wrapper_for_js_parser.py) : είναι ο python wrapper που καλεί τον javascript parser και εκτελεί την ανάλυση
 
+Ολοι οι **parsers** βρίκσουν :
+- File name
+- Imports
+- Global Variables
+- Functions with parameters and local variables
+- Classes with attributes and methods
+- Class Methods with parameters and local variables
+- Comments
+
+Ο **python parser** βρίσκει επιπλέον nested classes και nested functions.
+
+Οι **c και cpp parsers** βρίσκουν επιπλέον nested classes και nested functions , όμως δεν μπορούν να καταλάβουν το scope στο οποίο βρίσκονται αυτες οι nested δομές. 
+Επομένως, χειρίζονται τις nested classes και nested functions ως top-level Functions και Classes. Έκανα πάρα πολλές προσπάθειες για να το βελτιώσω αυτό αλλά δε τα κατάφερα.
+
+Ο **java parser** βρίσκει επιπλέον nested classes. 
+
+Ο **javascript parser** ΔΕΝ βρίσκει nested functions/classes.
+
+Δοκίμασα τους parsers σε αληθινά codebases και έμεινα αρκετά ευχαριστημένος από τα αποτελέσματα.
+
 
 
 
