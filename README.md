@@ -412,3 +412,10 @@ DETACH DELETE n
 
 ```Invoke-RestMethod -Method POST -Uri 'http://127.0.0.1:8000/parse' -ContentType 'application/json' -Body '{"choice":"1","repo_url":"https://github.com/robotics-4-all/intelligent_robot_systems"}'```
   
+---
+
+[pipeline%20execution%20photos](https://github.com/gpittis/Domain-Concepts-KG/tree/main/pipeline%20execution%20photos) : περιέχει πολλές photos που δείχνουν τα βήματα εκτέλεσης και τα αποτελέσματα 
+
+---
+
+[results_json](https://github.com/gpittis/Domain-Concepts-KG/tree/main/results_json) : Περιέχει όλα τα JSON αρχεία που παράγονται σε κάθε βήμα για κάθε parser
