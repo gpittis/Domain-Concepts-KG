@@ -241,6 +241,29 @@ Domain Concepts Knowledge Graph created by static analysis
 **Στην δικιά μου περίπτωση, πιστεύω πως το σταθμισμένο άθροισμα θα χαλούσε τα αποτελέσματα. Αυτό γιατί η επιλογή των βαρών όλων των nodes και των relationships έγινε με DSL-oriented λογική. Άρα, ο extra πολλαπλασιασμός με έναν αυθαίρετο συντελεστή είναι και περιττός και επικίνδυνος να χαλάσει τον διαχωρισμό που όρισα μεταξύ των nodes και των relationships.**
 
 
+- Με βάση τα final_weights των relationships που προκύπτουν με τον τύπο (from_w + to_w + edge_base)/3 , έχουμε :
+  - FILE -[**EXISTS_IN**]-> REPO      **final_weight = 0.316667**
+ 
+  - FILE -[**FILE_CONTAINS**]-> CLASS   **final_weight = 0.8**
+    
+  - FILE -[**FILE_CONTAINS**]-> FUNCTION   **final_weight = 0.783333**
+    
+  - FILE -[**IMPORTS**]-> IMPORT    **final_weight = 0.633333**
+    
+  - FILE -[**HAS_GLOBAL_VAR**]-> GLOBAL_VAR   **final_weight = 0.65**
+    
+  - CLASS -[**HAS_ATTRIBUTE**]-> ATTRIBUTE   **final_weight = 0.783333**
+    
+  - CLASS -[**HAS_METHOD**]-> METHOD   **final_weight = 0.9**
+    
+  - FUNCTION -[**HAS_PARAM**]-> PARAM   **final_weight = 0.716667**
+    
+  - METHOD -[**HAS_PARAM**]-> PARAM   **final_weight = 0.7**
+    
+  - FUNCTION -[**HAS_LOCAL_VAR**]-> LOCAL_VAR  **final_weight = 0.63333**
+    
+  - METHOD -[**HAS_LOCAL_VAR**]-> LOCAL_VAR  **final_weight = 0.616667**
+
 Σηκώνω server :
 uvicorn api:app    
 
