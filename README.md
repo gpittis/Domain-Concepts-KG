@@ -320,7 +320,11 @@ DETACH DELETE n
 
 Από την έρευνα που έκανα δεν βρήκα paper ή github repo που να φτιάχνει knowledge graph με δεδομένα στατικής ανάλυσης και να χρησιμοποιεί βάρη. Υπάρχουν κάποιοι KG που περιέχουν δεδομένα στατικής ανάλυσης αλλά ΔΕΝ περιέχουν βάρη. Ένα ενδεικτικό paper είναι : [paper](https://ieeexplore.ieee.org/document/10019850)
 
+---
 
+**Load to Knowledge Graph**
+
+[loader_script.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/loader_script.py)
 
 
 εννοειται να εχει εγκατασταθει το srcml διοτι αλλιως ΔΕΝ θα τρεξουν οι parsers (c, cpp, java) που το χρησιμοποιουν
