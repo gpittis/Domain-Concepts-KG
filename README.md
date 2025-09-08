@@ -326,5 +326,16 @@ DETACH DELETE n
 
 [loader_script.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/loader_script.py)
 
+Αυτό το script φορτώνει το Knowledge Graph JSON μέσα σε μια βάση Neo4j.
+
+Για κάθε node και relationship δημιουργούνται μοναδικά node/relationships αντίστοιχα με χρήση MERGE, ώστε να αποφεύγονται διπλότυπα.
+
+Επιπλέον υπολογίζεται το normalized_appearances για nodes και relationships :
+  - normalized_appearances για nodes : πλήθος εμφανίσεων κόμβου / συνολικό πλήθος κόμβων
+  - normalized_appearances για relationships : πλήθος εμφανίσεων relationship / συνολικό πλήθος relationships
+ 
+Για τα synthetic names (ANON nodes) κανονικοποιούνται με namespace που παράγεται από το repo_url ώστε να μην έχω collisions με διαφορετικά repos.
+
+---
 
 εννοειται να εχει εγκατασταθει το srcml διοτι αλλιως ΔΕΝ θα τρεξουν οι parsers (c, cpp, java) που το χρησιμοποιουν
