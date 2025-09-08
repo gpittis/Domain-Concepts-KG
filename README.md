@@ -171,23 +171,27 @@ Domain Concepts Knowledge Graph created by static analysis
     - "LOCAL_VAR": 0.50
     - "ATTRIBUTE": 0.70
 
-Core structures : (weight >= 0.85)
+**Core structures : (weight >= 0.85)**
+
 Έχω δώσει πολύ μεγάλα βάρη στα CLASS/FUNCTION/METHOD nodes, διότι αυτές οι δομές αποτελούν τον σκελετό κάθε προγράμματος και είναι ιδιαίτερα σημαντικά από τη σκοπιά της στατικής ανάλυσης. 
 Επίσης, αποτελούν και τον πυρήνα των DSLs που θα παραχθούν από το Knowledge Graph, διότι τα CLASS nodes αποτελούν entities και τα FUNCTION/METHOD nodes δηλώνουν συγκεκριμένα actions/behaviors. Οπότε, αυτά σε πρώτη φάση μπορούν να φτιάξουν τον πυρήνα μιας DSL.
 
-Attributes : (weight = 0.7)
+**Attributes : (weight = 0.7)**
+
 Είναι οι ιδιότητες των classes στην στατική ανάλυση. Επομένως, θα είναι οι ιδιότητες/properties των entities σε μια DSL. Εμπλουτίζουν σημαντικά τον σκελετό μιας DSL.
 
-global variables : (weight = 0.7)
+**global variables : (weight = 0.7)**
+
 Είναι μεταβλητές που ορίζονται σε επίπεδο αρχείου. Επομένως έχουν πρόσβαση σε αυτές όλα τα funcions και classes του αρχείου. Μπορεί να μαρτυρούν μια "κοινόχρηστη" κατάσταση μεταξύ των functions και classes σε ένα αρχείο. 
 
-Nested Classes / Nested Functions (weight = 0.70 + decay factor) :
+**Nested Classes / Nested Functions (weight = 0.70 + decay factor) :**
+
 Αποτελούν sub-entities που δεν στέκονται αυτόνομα αλλά εξαρτώνται από το parent class/function. Παίρνουν αρχικό βάρος 0.70 όταν βρίσκονται σε πρώτο επίπεδο nesting (μέσα σε top-level class ή function).
 Αν βρίσκονται βαθύτερα (δηλαδή το parent class/function είναι και αυτο nested), τότε εφαρμόζεται decay factor (LAMBDA_DECAY) ώστε το βάρος να μειώνεται εκθετικά.
 Επομένως, αναγνωρίζω τις nested functions/classes ως σημαντικές λεπτομέρειες, αλλά δίνω τη μεγάλη βαρύτητα στα top-level class/functions.
 
 
-
+Στα υπόλοιπα nodes αποδόθηκαν αντίστοιχα βάρη ανάλογα με τη σημαντικότητά τους. Όλα τα βάρη είναι σχετικά υψηλά, καθώς κάθε τύπος κόμβου μπορεί να περιέχει domain-specific πληροφορία που δεν πρέπει να αγνοηθεί. Με αυτήν την επιλογή βαρών δίνεται έμφαση στα πιο core DSL nodes (π.χ. Class, Function, Method, Attribute), αλλά ταυτόχρονα λαμβάνονται υπόψη και τα πιο δευτερεύοντα nodes (π.χ. Local_var, Param) ώστε να διατηρηθεί μια ισορροπημένη εικόνα του domain.
 
 
 Σηκώνω server :
