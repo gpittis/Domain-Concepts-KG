@@ -378,4 +378,18 @@ DETACH DELETE n
 
 - το αρχείο api.py να βρίσκεται στον ίδιο φάκελο με το .venv που θα δημιουργηθεί
 
+---
 
+**Pipeline εκτέλεσης**
+
+- Σηκώνω server : ```uvicorn api:app```
+
+- Στέλνω αίτημα GET /health με το Postman :
+  - ```GET http://127.0.0.1:8000/health```
+
+- Στέλνω αίτημα POST /parse με το Postman :
+  - ```POST http://127.0.0.1:8000/parse```
+  - ```{
+  "choice": "1",
+  "repo_url": "https://github.com/robotics-4-all/intelligent_robot_systems"
+}```
