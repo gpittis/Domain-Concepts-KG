@@ -207,6 +207,18 @@ Domain Concepts Knowledge Graph created by static analysis
    - "HAS_NESTED_FUNCTION": 0.70
    - "HAS_NESTED_CLASS": 0.70
 
+Η λογική που ακολουθώ με τα βάρη των relationships είναι παρόμοια με παραπάνω. Τα **FILE_CONTAINS**,  **HAS_METHOD** εμπλέκουν τα FUNCTIONS/CLASSES/METHODS των codebases. Δηλαδή, περιέχουν τον πυρήνα των DSLs και για τον λόγο αυτό έχουν πολύ υψηλά βάρη. Ακολουθούν τα **HAS_ATTRIBUTE**, **HAS_GLOBAL_VAR**, **IMPORTS**, **HAS_NESTED_FUNCTION**, **HAS_NESTED_CLASS** που περιέχουν domain specific λεπτομέρειες ώστε να εμπλουτίσουν τον πυρήνα της DSL. Οι υπόλοιπες relationships έχουν χαμηλότερα βάρη.
+
+
+**Δομή node**
+
+Περιέχει :
+- τύπο node
+- όνομα node
+- βάρος node
+- βάθος node
+
+
 Σηκώνω server :
 uvicorn api:app    
 
