@@ -307,6 +307,14 @@ WHERE r.final_weight >=0.7
 RETURN a, r, b
 ```
 
+Ακόμη μπορώ να τα διαγράψω πολύ εύκολα :
+```
+MATCH (n)
+WHERE n.name =~ "^(FILE|CLASS|REPO|FUNCTION|METHOD|NESTED_CLASS|NESTED_FUNCTION)_ANON_.*"
+RETURN n.name, labels(n)
+LIMIT 50
+```
+
 **Αν διαφωνείτε με αυτό, θα το αφαιρέσω.**
 
 
