@@ -414,7 +414,7 @@ DETACH DELETE n
   
 ---
 
-[pipeline%20execution%20photos](https://github.com/gpittis/Domain-Concepts-KG/tree/main/pipeline%20execution%20photos) : περιέχει πολλές photos που δείχνουν τα βήματα εκτέλεσης και τα αποτελέσματα 
+[pipeline_execution_photos](https://github.com/gpittis/Domain-Concepts-KG/tree/main/pipeline%20execution%20photos) : περιέχει πολλές photos που δείχνουν τα βήματα εκτέλεσης και τα αποτελέσματα 
 
 ---
 
