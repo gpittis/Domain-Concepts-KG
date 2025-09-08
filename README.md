@@ -389,7 +389,9 @@ DETACH DELETE n
 
 - Στέλνω αίτημα POST /parse με το Postman :
   - ```POST http://127.0.0.1:8000/parse```
-  - ```{
-  "choice": "1",
-  "repo_url": "https://github.com/robotics-4-all/intelligent_robot_systems"
-}```
+      ```
+      {
+        "choice": "1",
+        "repo_url": "https://github.com/robotics-4-all/intelligent_robot_systems"
+      }
+      ```
