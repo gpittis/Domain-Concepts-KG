@@ -216,7 +216,7 @@ Domain Concepts Knowledge Graph created by static analysis
 - τύπο node
 - όνομα node
 - βάρος node
-- βάθος node
+- βάθος node (0 αν ειναι top-level , >=1 αν ειναι nested)
 
 
 Σηκώνω server :
