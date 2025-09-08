@@ -193,6 +193,8 @@ Domain Concepts Knowledge Graph created by static analysis
 
 Στα υπόλοιπα nodes αποδόθηκαν αντίστοιχα βάρη ανάλογα με τη σημαντικότητά τους. Όλα τα βάρη είναι σχετικά υψηλά, καθώς κάθε τύπος κόμβου μπορεί να περιέχει domain-specific πληροφορία που δεν πρέπει να αγνοηθεί. Με αυτήν την επιλογή βαρών δίνεται έμφαση στα πιο core DSL nodes (π.χ. Class, Function, Method, Attribute), αλλά ταυτόχρονα λαμβάνονται υπόψη και τα πιο δευτερεύοντα nodes (π.χ. Local_var, Param) ώστε να διατηρηθεί μια ισορροπημένη εικόνα του domain.
 
+Τέλος, το node REPO δεν περιέχει domain specific context. Το έφτιαξα για να μπορέσω να συνδέσω όλα τα files μεταξύ τους.
+
  - EDGE_WEIGHTS :
    - "EXISTS_IN": 0.30
    - "FILE_CONTAINS": 0.90
