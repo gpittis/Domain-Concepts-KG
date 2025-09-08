@@ -219,6 +219,24 @@ Domain Concepts Knowledge Graph created by static analysis
 - βάθος node (0 αν ειναι top-level , >=1 αν ειναι nested)
 
 
+**Δομή relationship**
+
+Περιέχει :
+- τύπο relationship
+- όνομα node από τον οποίο φεύγει το relationship
+- όνομα node στον οποίο καταλήγει το relationship
+- τύπο node από τον οποίο φεύγει το relationship
+- τύπο node στον οποίο καταλήγει το relationship
+- βάρος node από τον οποίο φεύγει το relationship (το ονομάζω from_w)
+- βάρος node στον οποίο καταλήγει το relationship (το ονομάζω to_w)
+- βάρος relationship  (edge_base)
+- τελικό βάρος relationship (final_weight) = (from_w + to_w + edge_base)/3 
+           
+**Το τελικό βάρος του relationship υπολογίζεται με μέσο όρο. Με αυτόν τον τρόπο χειρίζομαι ισότιμα όλα τα βάρη που υπάρχουν στο relationship.**
+
+**Στο DeepGit , ο δημιουργος χρησιμοποιει σταθμισμένο άθροισμα : final_score = a*score_1 + b*score_2 + ..**
+
+
 Σηκώνω server :
 uvicorn api:app    
 
