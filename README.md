@@ -347,7 +347,12 @@ DETACH DELETE n
 
  - Unzip & προετοιμασία τοπικού workspace σε προσωρινό φάκελο.
 
- - Parsing του κώδικα με language-specific parser 
+ - Parsing του κώδικα με language-specific parser
+   - cpp (1)
+   - c (2)
+   - python (3)
+   - java (4)
+   - javascript (5)
 
  - Concept filter για καθαρισμό και φιλτράρισμα domain specific εννοιών
 
