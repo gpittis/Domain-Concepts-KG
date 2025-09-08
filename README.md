@@ -368,4 +368,14 @@ DETACH DELETE n
         - choice [η γλώσσα προγραμματισμού του REPO]
         - repo_url
 
-εννοειται να εχει εγκατασταθει το srcml διοτι αλλιως ΔΕΝ θα τρεξουν οι parsers (c, cpp, java) που το χρησιμοποιουν
+Για να τρέξει το api.py πρέπει :
+
+- ```pip install libcst lxml fastapi pydantic uvicorn neo4j```
+
+- ```npm install @babel/parser @babel/traverse```
+
+- να εχει εγκατασταθει το srcml διοτι αλλιως ΔΕΝ θα τρεξουν οι parsers (c, cpp, java) που το χρησιμοποιουν
+
+- το αρχείο api.py να βρίσκεται στον ίδιο φάκελο με το .venv που θα δημιουργηθεί
+
+
