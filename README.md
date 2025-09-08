@@ -274,9 +274,19 @@ Domain Concepts Knowledge Graph created by static analysis
     
   - METHOD -[**HAS_LOCAL_VAR**]-> LOCAL_VAR
     - **final_weight = 0.616667**
+   
+Με αντίστοιχο τρόπο και για τις nested functions/classes
 
   --- 
 - **ΚΑΝΟΝΕΣ querying με τα final_weights των relationships**
+  - **final_weight >= 0.8**  (the core of DSL) 
+    - Παίρνω CLASSES και METHODS  
+  - **final_weight >= 0.75** (the full skeleton of DSL)
+    - Παίρνω CLASSES , METHODS , FUNCTIONS, ATTRIBUTES
+  - **final_weight >= 0.7** 
+    - Παίρνω CLASSES , METHODS , FUNCTIONS, ATTRIBUTES, FUNCTION PARAMS, METHOD PARAMS
+  - **final_weight >= 0.6**
+    - Τα παίρνω όλα
 
 Σηκώνω server :
 uvicorn api:app    
