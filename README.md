@@ -340,4 +340,32 @@ DETACH DELETE n
 **API**
 
 [api.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/api.py)
+
+Αυτοματοποιεί όλη την διαδικασία : parsing github repo + concept filter + create KG JSON + Load to Neo4j 
+
+ - Λήψη GitHub repo (μέσω Github REST API)
+
+ - Unzip & προετοιμασία τοπικού workspace σε προσωρινό φάκελο.
+
+ - Parsing του κώδικα με language-specific parser 
+
+ - Concept filter για καθαρισμό και φιλτράρισμα domain specific εννοιών
+
+ - Knowledge Graph builder JSON : μετατροπή σε ενδιάμεσο JSON με nodes & relationships.
+
+ - Φόρτωση στο Neo4j με το loader script (nodes/relationships με βάρη και normalized appearances).
+
+ - Καθαρισμός temporary workspace.
+
+- Το project εκθέτει και REST API με FastAPI:
+
+  - **GET /health**
+    - Κάνω health check του server.
+
+  - **POST /parse**
+    - Τρέχει το pipeline για συγκεκριμένο GitHub repo
+      - Παίρνει παραμέτρους :
+        - choice [η γλώσσα προγραμματισμού του REPO]
+        - repo_url
+
 εννοειται να εχει εγκατασταθει το srcml διοτι αλλιως ΔΕΝ θα τρεξουν οι parsers (c, cpp, java) που το χρησιμοποιουν
