@@ -290,6 +290,8 @@ Domain Concepts Knowledge Graph created by static analysis
       
   - **final_weight >= 0.6**
     - Τα παίρνω όλα
+---
+
 
 Σηκώνω server :
 uvicorn api:app    
