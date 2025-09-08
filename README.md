@@ -337,5 +337,6 @@ DETACH DELETE n
 Για τα synthetic names (ANON nodes) κανονικοποιούνται με namespace που παράγεται από το repo_url ώστε να μην έχω collisions με διαφορετικά repos.
 
 ---
+**API**
 
 εννοειται να εχει εγκατασταθει το srcml διοτι αλλιως ΔΕΝ θα τρεξουν οι parsers (c, cpp, java) που το χρησιμοποιουν
