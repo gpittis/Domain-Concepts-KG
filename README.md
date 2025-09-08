@@ -275,6 +275,9 @@ Domain Concepts Knowledge Graph created by static analysis
   - METHOD -[**HAS_LOCAL_VAR**]-> LOCAL_VAR
     - **final_weight = 0.616667**
 
+   
+- **ΚΑΝΟΝΕΣ querying με τα final_weights των relationships**
+
 Σηκώνω server :
 uvicorn api:app    
 
