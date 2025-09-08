@@ -400,3 +400,15 @@ DETACH DELETE n
         "repo_url": "https://github.com/robotics-4-all/intelligent_robot_systems"
       }
       ```
+
+
+Εναλλακτικά, ανοίγω δεύτερο terminal στο Visual Studio Code :
+
+- GET /health :
+
+```curl http://127.0.0.1:8000/health```
+
+- POST /parse :
+
+```Invoke-RestMethod -Method POST -Uri 'http://127.0.0.1:8000/parse' -ContentType 'application/json' -Body '{"choice":"1","repo_url":"https://github.com/robotics-4-all/intelligent_robot_systems"}'```
+  
