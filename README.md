@@ -234,7 +234,7 @@ Domain Concepts Knowledge Graph created by static analysis
            
 **Το τελικό βάρος του relationship υπολογίζεται με μέσο όρο. Με αυτόν τον τρόπο χειρίζομαι ισότιμα όλα τα βάρη που υπάρχουν στο relationship.**
 
-**Στο DeepGit , ο δημιουργος χρησιμοποιει σταθμισμένο άθροισμα : final_score = a*score_1 + b*score_2 + ..**
+**Στο DeepGit , ο δημιουργος χρησιμοποιει σταθμισμένο άθροισμα : final_score = a * score_1 + b * score_2 + ..**
 
 
 Σηκώνω server :
