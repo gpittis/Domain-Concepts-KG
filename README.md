@@ -311,8 +311,7 @@ RETURN a, r, b
 ```
 MATCH (n)
 WHERE n.name =~ "^(FILE|CLASS|REPO|FUNCTION|METHOD|NESTED_CLASS|NESTED_FUNCTION)_ANON_.*"
-RETURN n.name, labels(n)
-LIMIT 50
+DETACH DELETE n
 ```
 
 **Αν διαφωνείτε με αυτό, θα το αφαιρέσω.**
