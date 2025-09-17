@@ -419,3 +419,15 @@ DETACH DELETE n
 ---
 
 [results_json](https://github.com/gpittis/Domain-Concepts-KG/tree/main/results_json) : Περιέχει όλα τα JSON αρχεία που παράγονται σε κάθε βήμα για κάθε parser
+
+---
+
+**BERTopic**
+
+[bertopic_comments_analysis.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/BERTopic_comments_analysis/bertopic_comments_analysis.py)
+
+Σπάζω τα comments που βρήκε ο parser σε documents. Κάθε γραμμή comments είναι 1 document. Έτσι, δημιουργώ ένα dataset από πολλά documents και το τροφοδοτώ στο bertopic. Το bertopic βρίσκει τα κυρίαρχα topics.
+
+- Θα πρέπει να αλλάζω κατάλληλα τα hyperparameters του bertopic για να πετύχω βέλτιστη απόδοση σε κάθε codebase.
+- Έκανα 2 δοκιμές με τα codebases : [intelligent_robot_systems](https://github.com/robotics-4-all/intelligent_robot_systems) και [streamsim](https://github.com/robotics-4-all/streamsim)
+- Τα αποτελέσματα είναι οι εικόνες στο φάκελο [BERTopic_comments_analysis](https://github.com/gpittis/Domain-Concepts-KG/tree/main/BERTopic_comments_analysis)
