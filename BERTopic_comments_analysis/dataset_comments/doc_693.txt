@@ -1,0 +1,1 @@
+disparity [int] Disparity of mutation in pixels at hill climbing

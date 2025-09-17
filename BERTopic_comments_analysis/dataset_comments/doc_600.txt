@@ -1,0 +1,1 @@
+argc [int] Number of input arguments

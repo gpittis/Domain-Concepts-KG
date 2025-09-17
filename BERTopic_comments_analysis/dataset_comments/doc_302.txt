@@ -1,0 +1,1 @@
+Returns the weight of a connection

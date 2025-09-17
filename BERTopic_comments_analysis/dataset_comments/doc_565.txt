@@ -1,0 +1,1 @@
+msg [const sensor_msgs::LaserScanConstPtr&] The sensor_msgs::LaserScan message

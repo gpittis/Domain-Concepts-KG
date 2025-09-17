@@ -1,0 +1,1 @@
+Deallocates the allocated nodes and clears the graph

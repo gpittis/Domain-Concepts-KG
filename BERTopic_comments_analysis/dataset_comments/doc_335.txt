@@ -1,0 +1,1 @@
+n.createTimer(ros::Duration(1.0/slamParams.trajectory_freq),

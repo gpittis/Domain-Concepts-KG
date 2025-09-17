@@ -1,0 +1,1 @@
+size_ [unsigned int] The map's size in pixels

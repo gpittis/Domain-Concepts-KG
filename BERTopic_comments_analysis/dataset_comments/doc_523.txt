@@ -1,0 +1,1 @@
+double The robot pose publishing frequency

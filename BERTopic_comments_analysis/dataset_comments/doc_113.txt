@@ -1,0 +1,1 @@
+Implement the visualization publisher in case we want to show the graph

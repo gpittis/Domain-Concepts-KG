@@ -1,0 +1,1 @@
+cell [Cell] The neighbor's cell

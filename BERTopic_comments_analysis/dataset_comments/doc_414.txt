@@ -1,0 +1,1 @@
+Returns the map info in a CrsmMapInfo structure

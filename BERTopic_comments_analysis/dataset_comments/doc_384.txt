@@ -1,0 +1,1 @@
+publishOGM(msg->header.stamp);

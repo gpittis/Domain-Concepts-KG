@@ -1,0 +1,1 @@
+Sets the trajectory_freq of CRSM_SlamParameters

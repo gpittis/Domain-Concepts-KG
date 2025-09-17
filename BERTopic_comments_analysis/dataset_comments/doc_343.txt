@@ -1,0 +1,1 @@
+Try to find distance between laser and robot center, else initialize to zero

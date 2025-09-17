@@ -1,0 +1,1 @@
+&CrsmSlam::publishRobotPoseTf,this,false,false);

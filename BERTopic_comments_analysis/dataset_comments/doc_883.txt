@@ -1,0 +1,1 @@
+Constructor. Allocates the neccessary structures for the scan to be stored in

@@ -1,0 +1,1 @@
+Creates a neighboring relation between two cells. If one of them

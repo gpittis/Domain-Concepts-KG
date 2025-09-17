@@ -1,0 +1,1 @@
+std::string The trajectory publishing topic

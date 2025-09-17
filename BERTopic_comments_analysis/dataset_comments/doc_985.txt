@@ -1,0 +1,1 @@
+Contains the parameters needed to execute CRSM slam. These parameters are dynamically loaded from the file crsm_slamParameters.yaml

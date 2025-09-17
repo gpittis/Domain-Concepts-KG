@@ -1,0 +1,1 @@
+Starts the laser subscriber, listening to laser_subscriber_topic from parameters

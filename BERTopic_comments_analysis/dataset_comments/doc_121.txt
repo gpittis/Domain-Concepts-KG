@@ -1,0 +1,1 @@
+cell [Cell] The cell to be removed

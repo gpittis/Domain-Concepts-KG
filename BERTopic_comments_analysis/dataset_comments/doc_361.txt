@@ -1,0 +1,1 @@
+if(laser.scan.distance[*it]==0 || laser.scan.distance[*it]==laser.info.laserMax)

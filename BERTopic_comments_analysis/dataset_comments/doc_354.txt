@@ -1,0 +1,1 @@
+laser.info.laserMax; // too far to measure

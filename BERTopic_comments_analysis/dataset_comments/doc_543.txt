@@ -1,0 +1,1 @@
+std::string Holds the base footprint frame - (x,y,yaw)

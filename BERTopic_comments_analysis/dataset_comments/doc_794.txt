@@ -1,0 +1,1 @@
+Gets the trajectory_publisher_frame_id of CRSM_SlamParameters

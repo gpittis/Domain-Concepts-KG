@@ -1,0 +1,1 @@
+scanSelections.erase(toBeErased[i]);

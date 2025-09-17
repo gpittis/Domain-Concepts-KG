@@ -1,0 +1,1 @@
+Returns all nodes of the graph

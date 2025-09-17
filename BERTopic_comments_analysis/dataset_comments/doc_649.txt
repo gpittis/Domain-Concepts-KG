@@ -1,0 +1,1 @@
+Updates map after finding the new robot pose

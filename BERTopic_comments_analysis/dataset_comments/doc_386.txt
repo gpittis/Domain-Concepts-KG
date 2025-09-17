@@ -1,0 +1,1 @@
+Publish tf before trajectory in order to update it

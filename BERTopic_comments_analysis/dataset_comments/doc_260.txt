@@ -1,0 +1,1 @@
+Each node's id is derived from it's coordinates

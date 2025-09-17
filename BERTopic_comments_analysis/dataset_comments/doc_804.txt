@@ -1,0 +1,1 @@
+Gets the map_frame of CRSM_SlamParameters

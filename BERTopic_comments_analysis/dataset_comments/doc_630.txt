@@ -1,0 +1,1 @@
+!< The mean laser scan density for a specific iteration

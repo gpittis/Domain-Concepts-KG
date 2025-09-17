@@ -1,0 +1,1 @@
+Sets the robot_width of CRSM_SlamParameters

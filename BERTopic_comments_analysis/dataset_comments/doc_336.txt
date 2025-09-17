@@ -1,0 +1,1 @@
+&CrsmSlam::publishTrajectory,this,false,false);

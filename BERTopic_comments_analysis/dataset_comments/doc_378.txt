@@ -1,0 +1,1 @@
+robotPose.theta=-(laser.info.laserAngleBegin+laser.info.laserAngleEnd)/2.0;

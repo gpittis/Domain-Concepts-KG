@@ -1,0 +1,1 @@
+Publishes the robot trajectory as nav_msgs::Path, posting with trajectory_freq Hz from parameters
