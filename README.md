@@ -58,17 +58,9 @@ Domain Concepts Knowledge Graph created by static analysis
 
 [cleaning_nested_attributes_JAVA.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/cleaning_nested_attributes_JAVA.py)
 
-Οι parsers που στηρίζονται στο srcML παρουσιάζουν το εξής πρόβλημα :
+ **Αποφασίσαμε να μη τα βάλουμε στο api διότι :**
 
-Όταν υπάρχουν nested classes , τότε τα attributes και τα methods των nested κλάσεων αποδίδονται και στη "parent" class που περιέχει τις nested classes. Έτσι, η parent class περιέχει επιπλέον και τα attributes και τα methods των child classes. Οπότε, με τα 3 αυτά scripts , επεξεργάζομαι το json που παράγει ο parser και αφαιρώ τα περιττά attributes και methods από τις parent classes. Η λογική που ακολουθούν αυτα τα 3 scripts είναι η εξής : 
-
-Αν όλα τα attributes και όλα τα methods που περιέχει μια κλάση Α, εμφανίζονται ταυτόχρονα και σε μια άλλη κλάση Β και αυτή η κλάση Β περιέχει και επιπλέον attributes και επιπλέον methods , τότε η B είναι η parent class και η Α είναι η child class. Οπότε, αφαιρώ από τη κλάση Β , όλα εκείνα τα attributes και όλα εκείνα τα methods που υπάρχουν και στη κλάση Α. 
-
-Ωστόσο, αυτη η πρακτική ΔΕΝ ΕΙΝΑΙ ΠΑΝΤΑ σωστή. Αυτό γιατί αν οι 2 κλάσεις περιέχουν όντως κοινα attributes και κοινά methods , τότε μπορεί να γίνει λανθασμένη διαγραφή και να χάσω πληροφορία. 
-
-Από την άλλη, θεωρώ πως δεν είναι λάθος να εμφανίζονται στην parent class και τα attributes/methods των childs, διότι με αυτό τον τρόπο στον Knowledge Graph οι parent και childs classes θα μοιράζονται πολλά κοινά nodes και έτσι θα φαίνεται ότι υπάρχει κάποια σύνδεση μεταξύ τους. 
-
-Θα ήθελα να μου πείτε την γνώμη σας για αυτό το κομμάτι.
+Δεν είναι λάθος να εμφανίζονται στην parent class και τα attributes/methods των childs, διότι με αυτό τον τρόπο στον Knowledge Graph οι parent και childs classes θα μοιράζονται πολλά κοινά nodes και έτσι θα φαίνεται ότι υπάρχει κάποια σύνδεση μεταξύ τους. 
 
 ---
 **Concept Filter** :
@@ -314,7 +306,7 @@ WHERE n.name =~ "^(FILE|CLASS|FUNCTION|METHOD|NESTED_CLASS|NESTED_FUNCTION)_ANON
 DETACH DELETE n
 ```
 
-**Αν διαφωνείτε με αυτό, θα το αφαιρέσω.**
+**Αυτό το κρατάμε στο structure graph και το αφαιρούμε στο knowledge graph**
 
 ---
 
