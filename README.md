@@ -1,5 +1,5 @@
 # Domain-Concepts-KG
-Domain Concepts Knowledge Graph (Structure Graph + Knowledge Graph) created by static analysis
+Domain Concepts Knowledge Graph (**Structure Graph** + **Knowledge Graph**) created by static analysis
 
 
 ## Structure Graph
