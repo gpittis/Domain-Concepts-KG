@@ -82,34 +82,40 @@ def split_letter_digit_boundaries(text: str) -> str:
 def _filter_once(s: str) -> str:
     """
     Perform one pass of normalization + tokenization + filtering:
-      1) Split letters/digits boundaries (adds spaces).
-      2) Replace any non-word char with space.
-      3) Split tokens on whitespace; for each token, further split on camel/acronym boundaries.
-      4) Normalize tokens (lowercase, strip underscores/dashes at ends).
-      5) Filter out:
-         - tokens with length < 3
-         - purely numeric tokens
-         - hex-like tokens matching '0x[0-9a-f]+'
-         - tokens present in STOPWORDS
-      6) Join the kept tokens back with single spaces.
+    First we normalize and tokenize the string until all tokens are fully split and cannot be broken further. 
+    After that, we apply all filters once.
+
+      Tokenization : 
+      - Split letters/digits boundaries (adds spaces).
+      - Replace any non-word char with space.
+      - Split tokens on whitespace; for each token, further split on camel/acronym boundaries.
+      - Normalize tokens (lowercase, strip underscores/dashes at ends).
+
+      Filtering:
+      - tokens with length < 3
+      - purely numeric tokens
+      - hex-like tokens matching '0x[0-9a-f]+'
+      - tokens present in STOPWORDS
+
+      Join the kept tokens back with single spaces.
     """
 
-    # 0) split letter<->digit boundaries to surface additional splits later
+    # split letter<->digit boundaries to surface additional splits later
     s = split_letter_digit_boundaries(s)
 
-    # 1) normalize non-word characters to spaces
+    # normalize non-word characters to spaces
     # This removes punctuation etc., leaving letters, digits, and underscore as word chars.
     s = re.sub(r"[^\w]", " ", s)
 
-    # 2) coarse tokenization on whitespace, then fine splitting for camel/acronym
+    # coarse tokenization on whitespace, then fine splitting for camel/acronym
     tokens: list[str] = []
     for raw in s.split():
         tokens.extend(split_token(raw))
 
-    # 3) lowercase and trim leading/trailing underscores/dashes that may remain
+    # lowercase and trim leading/trailing underscores/dashes that may remain
     tokens = [t.lower().strip("_-") for t in tokens if t]
 
-    # 4) filtering rules (strict)
+    # filtering rules (strict)
     kept: list[str] = []
     for t in tokens:
         # Drop very short tokens (< 3 chars).
@@ -126,35 +132,14 @@ def _filter_once(s: str) -> str:
             continue
         kept.append(t)
 
-    # 5) remove consecutive duplicates
+    # remove consecutive duplicates
     deduped: list[str] = []
     for t in kept:
         if not deduped or deduped[-1] != t:
             deduped.append(t)
 
-    # 5) return a space-joined string of the kept tokens
+    # return a space-joined string of the kept tokens
     return " ".join(deduped)
-
-
-def filter_string(s: str) -> str:
-    """
-    Repeatedly applies _filter_once until the string no longer changes or a max iteration cap is reached.
-    Rationale:
-      - Some transformations (splits, stopword removals) may expose new split opportunities on subsequent passes.
-      - Typically stabilizes in 1–2 passes; max_iters=5 is a safety cap to avoid infinite loops.
-    """
-    prev = None
-    cur = s
-    # Safety cap to ensure termination even if an edge case keeps toggling content.
-    max_iters = 5
-
-    for _ in range(max_iters):
-        if prev == cur:
-            break
-        prev = cur
-        cur = _filter_once(cur)
-
-    return cur
 
 # --- Recursive traversal for dict/list/str containers ---
 def recurse(x: Any) -> Any:
@@ -162,7 +147,7 @@ def recurse(x: Any) -> Any:
     Recursively traverse a JSON-like structure (dict/list/str/other):
       - dict: apply recursively to values (keys remain unchanged).
       - list: apply recursively to each element.
-      - str : apply filter_string (tokenization + cleaning).
+      - str : apply _filter_once (tokenization + cleaning).
       - other types: return as-is.
     Returns a structure of the same shape with strings cleaned.
     """
@@ -171,7 +156,7 @@ def recurse(x: Any) -> Any:
     elif isinstance(x, list):
         return [recurse(v) for v in x]
     elif isinstance(x, str):
-        return filter_string(x)
+        return _filter_once(x)
     else:
         return x
 
