@@ -1027,5 +1027,10 @@
   "sleep", 
   "slept", 
   "sleeping",
-  "component"
+  "component",
+  "hpp",
+  "cpp",
+  "java",
+  "javascript",
+  "python"
 ]
