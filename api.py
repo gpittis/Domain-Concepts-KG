@@ -1,4 +1,5 @@
 import sys
+import os
 import tempfile
 import shutil
 import zipfile
@@ -70,22 +71,16 @@ def _download_zip(url: str, out: Path):
     urllib.request.urlretrieve(url, out)
 
 def _unzip(z: Path, to: Path) -> Path:
-    """Unzip archive into target directory. Return root folder path."""
-
-    # Makes sure the target folder (to) exists.
-    # parents=True → create parent directories if needed.
-    # exist_ok=True → do nothing if the folder already exists.
     to.mkdir(parents=True, exist_ok=True)
-    
     print(f"[unzip] {z}")
-
-    # Extracts all files/folders inside the archive into the target directory (to)
-    with zipfile.ZipFile(z, "r") as zf: 
-        zf.extractall(to)
+    with zipfile.ZipFile(z, "r") as zf:
+        target = str(to.resolve())
+        if os.name == "nt" and not target.startswith(r"\\?\\"):
+            target = r"\\?\\" + target   # σωστό prefix για long paths
+        zf.extractall(target)
     entries = [p for p in to.iterdir()]
-
-    # If the zip has a single root folder → return it, else return unzip dir
     return entries[0] if len(entries) == 1 and entries[0].is_dir() else to
+
 
 def _prepare_workspace_github(url: str) -> tuple[Path, Path]:
     
@@ -100,7 +95,10 @@ def _prepare_workspace_github(url: str) -> tuple[Path, Path]:
     """
 
     # Create a temporary root directory for this workspace
-    tmp_root = Path(tempfile.mkdtemp(prefix="kg_ws_"))
+    base_tmp = Path("C:/kg_ws")   # κοντή ρίζα αντί για AppData\Temp
+    base_tmp.mkdir(parents=True, exist_ok=True)
+
+    tmp_root = Path(tempfile.mkdtemp(prefix="kg_ws_", dir=base_tmp))
 
     # If the URL is already a direct .zip link, download and unzip it directly (ΔΕΝ ΤΟ ΔΟΚΙΜΑΣΑ)
     if url.lower().endswith(".zip"):
@@ -192,7 +190,7 @@ def run_parser(choice: str, repo_url: str) -> None:
         # 5) load KG JSON into Neo4j and create/update Knowledge Graph
         try:
             if kg_json_path and Path(kg_json_path).exists():
-                nodes, rels = run_neo4j_loader(Path(kg_json_path), repo_url=str(repo_url))
+                nodes, rels = run_neo4j_loader(Path(kg_json_path), repo_url=str(repo_url), database="structured-graph")
                 print(
                     f"[neo4j-out] nodes={nodes} relationships={rels} ok=True")
             else:

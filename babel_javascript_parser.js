@@ -70,10 +70,18 @@ function normalizeImport(source) {
 
 // --- Parse each file and extract information ---
 filesToParse.forEach(filePath => {
-  const code = fs.readFileSync(filePath, 'utf8'); // Read JS file content
+  let code;
+  try {
+    code = fs.readFileSync(filePath, 'utf8'); // Read JS file content
+  } catch (e) {
+    console.warn(`[skip][read] ${filePath}: ${e.message}`);
+    return; // << skip file, continue
+  }
 
   // Parse file content into AST
-  const ast = parser.parse(code, {
+  let ast;
+  try {
+    ast = parser.parse(code, {
     sourceType: 'module', // allow ES modules
     plugins: [ // Enable Babel parser plugins so it can understand extra syntax
       'jsx',
@@ -87,9 +95,13 @@ filesToParse.forEach(filePath => {
       'exportDefaultFrom',
       'exportNamespaceFrom',
       'objectRestSpread'
-    ],
-  });
-
+      ],
+    });
+  } catch (e) {
+    console.warn(`[skip][parse] ${filePath}: ${e.message}`);
+    return; // << skip file, continue
+  }
+  
   // --- Data containers for this file ---
   const imports = [];  // List of imports
   const globalVariables = []; // List of global vars
@@ -118,7 +130,8 @@ filesToParse.forEach(filePath => {
 
 
   // --- Walk through the AST ---
-  traverse(ast, {
+  try {
+    traverse(ast, {
     // --- ES Module imports ---
     // This block runs whenever the parser finds an `ImportDeclaration` node,
     // e.g. in code like:
@@ -392,7 +405,11 @@ filesToParse.forEach(filePath => {
         exportsList.push('default export (expression)');
       }
     }
-  });
+     });
+  } catch (e) {
+    console.warn(`[skip][traverse] ${filePath}: ${e.message}`);
+    return; // << skip file, continue
+  }
 
 
   const relativePath = path.relative(inputPath, filePath).replace(/\\/g, '/');

@@ -322,7 +322,7 @@ def run_c_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin: st
     codebase_root = Path(codebase_dir).resolve()
     if output_dir is None:
         # Pick base tmp dir
-        base_tmp = Path(os.getenv("KG_TMP_BASE", tempfile.gettempdir()))
+        base_tmp = Path(os.getenv("KG_TMP_BASE", r"C:\kg_tmp"))
         # Build the default output folder path: <tmp>/kg_api_c_lang/c/<project_name>
         output_dir = base_tmp / "kg_api_c_lang" / "c" / codebase_root.name
 

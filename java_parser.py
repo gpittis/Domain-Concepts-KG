@@ -395,7 +395,7 @@ def run_java_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin:
     codebase_root = Path(codebase_dir).resolve()
     if output_dir is None:
         # Pick base tmp dir
-        base_tmp = Path(os.getenv("KG_TMP_BASE", tempfile.gettempdir()))
+        base_tmp = Path(os.getenv("KG_TMP_BASE", r"C:\kg_tmp"))
         # Build the default output folder path: <tmp>/kg_api_cpp/cpp/<project_name>
         output_dir = base_tmp / "kg_api_java" / "java" / codebase_root.name
 

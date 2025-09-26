@@ -7,7 +7,8 @@ from pathlib import Path
 def run_neo4j_loader(intermediate_json_path: str, 
                      uri: str = "bolt://localhost:7687", 
                      user: str = "neo4j", 
-                     password: str="11111111", 
+                     password: str="11111111",
+                     database: str = "neo4j", 
                      repo_url: str = "unknown-repo-url") -> tuple[int, int]:
 
     """
@@ -24,7 +25,7 @@ def run_neo4j_loader(intermediate_json_path: str,
 
     driver = GraphDatabase.driver(uri, auth=(user, password))
     try:
-        with driver.session() as s:
+        with driver.session(database=database) as s:
             # Ping DB
             # health check / connectivity test
             # Confirms that the Python driver can connect to the Neo4j database

@@ -411,7 +411,8 @@ def analyze_file(filepath: str) -> List[Dict]:
         ]
     except Exception as e:
         # If an error occurs, it returns a list of dictionaries with an error message
-        return [{"file": os.path.basename(filepath)}, {"error": str(e)}]
+        # return [{"file": os.path.basename(filepath)}, {"error": str(e)}]
+        return None
 
 # This function makes the static analysis of the whole codebase.
 def analyze_codebase(root_path: str, json_output_file: str) -> None:
@@ -422,7 +423,10 @@ def analyze_codebase(root_path: str, json_output_file: str) -> None:
             if filename.endswith(".py"):
                 full_path = os.path.join(dirpath, filename)
                 # Analysis of the codebase's python file using the analyze_file() function
-                result = analyze_file(full_path) 
+                result = analyze_file(full_path)
+                if result is None:
+                    # Αγνόησε το αρχείο με συντακτικό λάθος
+                    continue 
                 all_results.append(result)
 
                 # Parse Python file into a CST tree
@@ -461,7 +465,7 @@ def run_python_parser(codebase_dir: str, output_dir: str | None = None) -> tuple
 
     # default out dir : %TEMP%/kg_api_python/python/<repo_name>
     if output_dir is None:
-        base_tmp = Path(os.getenv("KG_TMP_BASE", tempfile.gettempdir()))
+        base_tmp = Path(os.getenv("KG_TMP_BASE", r"C:\kg_tmp"))
         output_dir = base_tmp / "kg_api_python" / "python" / codebase_root.name
     out_root = Path(output_dir).resolve()
     out_root.mkdir(parents=True, exist_ok=True)
