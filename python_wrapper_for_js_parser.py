@@ -70,7 +70,7 @@ def run_js_parser(codebase_dir: str, output_dir: str | None = None, node_script:
 
     # Default output directory: %TEMP%/kg_api_js/javascript/<repo_name>
     if output_dir is None:
-        base_tmp = Path(os.getenv("KG_TMP_BASE", tempfile.gettempdir()))
+        base_tmp = Path(os.getenv("KG_TMP_BASE", r"C:\kg_tmp"))
         output_dir = base_tmp / "kg_api_js" / "javascript" / codebase_root.name
     out_root = Path(output_dir).resolve()
     out_root.mkdir(parents=True, exist_ok=True) # ensure output folder exists
