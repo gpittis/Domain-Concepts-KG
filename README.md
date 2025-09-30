@@ -351,7 +351,7 @@ DETACH DELETE n
 
 Για να τρέξει το api.py πρέπει :
 
-- ```pip install libcst lxml fastapi pydantic uvicorn neo4j```
+- ```pip install libcst lxml fastapi pydantic uvicorn "neo4j==5.28.2" nltk```
 
 - ```npm install @babel/parser @babel/traverse```
 
