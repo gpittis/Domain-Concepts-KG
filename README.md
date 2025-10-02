@@ -324,6 +324,12 @@ DETACH DELETE n
    
 3. Στέλνει query στον Structured Graph και λαμβάνει το source_node_name , το target_node_name και το final_weight για κάθε relationship μέσα στο Structured_Graph. Εξαιρούνται τα relationships που περιέχουν nodes με REPO type, empty/NULL name ή synthetic name (e.g. __ANON__). (query stored in **CYPHER_RELS** variable).
 
+4. Χρησιμοποιεί τον **nltk Snowball Stemmer** και κάνει steme τα names όλων των structured nodes.
+
+5. Σπάει τα structured node names που περιέχουν >=2 words σε μεμονωμένα words/tokens. Για παράδειγμα, αν στο Structured Graph έχω node("render img") , τότε στο Knowledge Graph θα έχω 2 nodes με names "render" και "img" αντίστοιχα.
+
+6. Ακόμη, χρησιμοποιεί ένα Helper function για να κάνει **αλφαβητική κανονικοποίηση** των νέων nodes μέσα στα relationships. Για παράδειγμα, στο Structured Graph μπορεί να έχω σε κάποιο σημείο **robot --> sensor** και κάπου αλλού να έχω **sensor --> robot**. Αν δεν υπήρχε αυτός ο Helper τότε στο Knowledge Graph θα δημιουργούνταν 2 relationships που πρακτικά σημαίνουν το ίδιο πράγμα. Επομένως, πλέον γίνεται κανονικοποίηση (**robot < sensor**) και έτσι στο KG θα έχω πάντα **robot --> sensor με άθροιση των επιμέρων βαρών**.
+
 ---
 **API**
 
