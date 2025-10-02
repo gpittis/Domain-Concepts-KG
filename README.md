@@ -397,6 +397,44 @@ DETACH DELETE n
 }
 ```
 
+- **IMPORT("render img render img")** : προκύπτουν 2 μοναδικά nodes **render** και **img** αντίστοιχα με count = 2 το καθένα. 
+Άρα έχω την co-existense relationship : 
+
+(img) -[weight = 2 * 0.65 = **1.3**]-> (render) 
+
+- **FILE("render img")** : (img) -[weight = 1.3 + 2 * 0.55 = **2.4**]-> (render)
+
+- **FUNCTION("render img")** : (img) -[weight = 2.4 + 2 * 0.9 = **4.2** ]-> (render)
+
+
+- **("render img") -[FILE_CONTAINS]-> ("render img")** : προκύπτουν 2 relationships (img) -[weight = **0.783333** ]-> (render)
+  
+
+  **Έχω βάλει φίλτρο που απαγορεύει την δημιουργία σχέσων (img) -> (img) και (render) --> (render)**
+  
+
+  άρα έχω  (img) -[weight = 4.2 + 0.783333 + 0.783333 = **5.766666**]-> (render)
+
+- **("render img") -[HAS_LOCAL_VAR]-> ("img")** : προκύπτει 1 relationship (img) -[weight = **0.633333** ]-> (render)
+
+  άρα έχω  (img) -[weight = 5.766666 + 0.633333 = **6.399999**]-> (render)
+  
+
+  **ΤΕΛΙΚΑ**
+
+```
+{
+      "type": "RELATED_TO",
+      "from": "img",
+      "to": "render",
+      "final_weight": 6.399999,
+      "count": 6
+    }
+```
+
+
+
+
 ---
 **API**
 
