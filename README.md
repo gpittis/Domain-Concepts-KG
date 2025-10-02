@@ -313,6 +313,18 @@ DETACH DELETE n
 Για τα synthetic names (ANON nodes) κανονικοποιούνται με namespace που παράγεται από το repo_url ώστε να μην έχω collisions με διαφορετικά repos.
 
 ---
+
+**Knowledge Graph JSON created by Structured Graph**
+
+Το αρχείο [knowledge_graph_define_json.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/knowledge_graph_define_json.py) ορίζει τα nodes και τα relationships του Knowledge Graph. Πιο συγεκριμένα κάνει τα εξής :
+
+1. Συνδέεται στον Structured Graph
+   
+2. Στέλνει query στον Structured Graph και λαμβάνει τα type , τα names και τα weights όλων των nodes που υπάρχουν μέσα στο Structured Graph, ΕΚΤΟΣ από εκείνα που έχουν type REPO, έχουν synthetic name (e.g. __ANON__) ή empty/NULL name. (query stored in **CYPHER_NODES** variable).
+   
+3. Στέλνει query στον Structured Graph και λαμβάνει το source_node_name , το target_node_name και το final_weight για κάθε relationship μέσα στο Structured_Graph. Εξαιρούνται τα relationships που περιέχουν nodes με REPO type, empty/NULL name ή synthetic name (e.g. __ANON__). (query stored in **CYPHER_RELS** variable).
+
+---
 **API**
 
 [api.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/api.py)
