@@ -330,6 +330,10 @@ DETACH DELETE n
 
 6. Ακόμη, χρησιμοποιεί ένα Helper function για να κάνει **αλφαβητική κανονικοποίηση** των νέων nodes μέσα στα relationships. Για παράδειγμα, στο Structured Graph μπορεί να έχω σε κάποιο σημείο **robot --> sensor** και κάπου αλλού να έχω **sensor --> robot**. Αν δεν υπήρχε αυτός ο Helper τότε στο Knowledge Graph θα δημιουργούνταν 2 relationships που πρακτικά σημαίνουν το ίδιο πράγμα. Επομένως, πλέον γίνεται κανονικοποίηση (**robot < sensor**) και έτσι στο KG θα έχω πάντα **robot --> sensor με άθροιση των επιμέρων βαρών**.
 
+7. Η συνάρτηση **knowledge_graph_definition** είναι ο εγκέφαλος του script. Εκτελεί όλα τα παραπάνω βήματα. Επιπλέον, κάνει τα παρακάτω :
+
+  - Δημιουργεί **co-existence relationship** ανάμεσα σε nodes που συνυπήρχαν στο name ενός        node στο structured_graph. Για παράδειγμα, αντί για node("render img") έχω πλέον              node("render") και node("img"). Άρα, δημιουργείται η relationship **render -[RELATED_TO]-     > img** με **weight = 2 * node_weight**. Το node_weight είναι το βάρος του αρχικού            structured node. Για παράδειγμα, αν είχα CLASS("render img") τότε node_weight = 0.95 και      άρα έχω **render -[RELATED_TO {weight = 2 * 0.95 = 1.9}]-> img**
+
 ---
 **API**
 
