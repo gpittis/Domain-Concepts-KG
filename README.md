@@ -1,8 +1,8 @@
 # Domain-Concepts-KG
-Domain Concepts Knowledge Graph (**Structure Graph** + **Knowledge Graph**) created by static analysis
+Domain Concepts Knowledge Graph (**Structured Graph** + **Knowledge Graph**) created by static analysis
 
 
-## Structure Graph
+## Structured Graph
 
 [c_lang_parser.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/c_lang_parser.py) : είναι ο parser για C codebases
 
