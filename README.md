@@ -332,7 +332,11 @@ DETACH DELETE n
 
 7. Η συνάρτηση **knowledge_graph_definition** είναι ο εγκέφαλος του script. Εκτελεί όλα τα παραπάνω βήματα. Επιπλέον, κάνει τα παρακάτω :
 
-  - Δημιουργεί **co-existence relationship** ανάμεσα σε nodes που συνυπήρχαν στο name ενός        node στο structured_graph. Για παράδειγμα, αντί για node("render img") έχω πλέον              node("render") και node("img"). Άρα, δημιουργείται η relationship **render -[RELATED_TO]-     > img** με **weight = 2 * node_weight**. Το node_weight είναι το βάρος του αρχικού            structured node. Για παράδειγμα, αν είχα CLASS("render img") τότε node_weight = 0.95 και      άρα έχω **render -[RELATED_TO {weight = 2 * 0.95 = 1.9}]-> img**
+  - Δημιουργεί **co-existence relationship** ανάμεσα σε nodes που συνυπήρχαν στο name ενός node στο structured_graph. Για παράδειγμα, αντί για node("render img") έχω πλέον node("render") και node("img"). Άρα, δημιουργείται η relationship **render -[RELATED_TO]-> img** με **weight = 2 * node_weight**. Το node_weight είναι το βάρος του αρχικού structured node. Για παράδειγμα, αν είχα CLASS("render img") τότε node_weight = 0.95 και άρα έχω **render -[RELATED_TO {weight = 2 * 0.95 = 1.9}]-> img**. Εννοείται πως αν αυτο το pair εμφανιστεί ξανά το βάρος του θα αυξηθεί.
+    
+  - Για structured relationships που περιέχουν **single-word name nodes** (π.χ. **(robot) --> (sensor)** ) τότε στο Knowledge Graph παραμένουν ως έχουν. Το μόνο που αλλάζει είναι το type τους που γίνεται RELATED_TO. Το weight παραμένει ίσο με το final_weight της structured relationship. Εννοείται πως αν αυτο το pair εμφανιστεί ξανά το βάρος του θα αυξηθεί.
+
+  - 
 
 ---
 **API**
