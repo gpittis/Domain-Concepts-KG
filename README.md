@@ -326,7 +326,7 @@ DETACH DELETE n
 
 4. Χρησιμοποιεί τον **nltk Snowball Stemmer** και κάνει steme τα names όλων των structured nodes.
 
-5. Σπάει τα structured node names που περιέχουν >=2 words σε μεμονωμένα words/tokens. Για παράδειγμα, αν στο Structured Graph έχω node("render img") , τότε στο Knowledge Graph θα έχω 2 nodes με names "render" και "img" αντίστοιχα.
+5. Σπάει τα structured node names που περιέχουν >=2 **μοναδικά** words σε μεμονωμένα words/tokens. Για παράδειγμα, αν στο Structured Graph έχω node("render img") , τότε στο Knowledge Graph θα έχω 2 nodes με names "render" και "img" αντίστοιχα. Το ίδιο θα συνέβαινε και για node("render img render") διότι το render θα γίνει merge. Στη περίπτωση αυτή θα έχω node("img") με count = 1 και node("render") με count = 2.
 
 6. Ακόμη, χρησιμοποιεί ένα Helper function για να κάνει **αλφαβητική κανονικοποίηση** των νέων nodes μέσα στα relationships. Για παράδειγμα, στο Structured Graph μπορεί να έχω σε κάποιο σημείο **robot --> sensor** και κάπου αλλού να έχω **sensor --> robot**. Αν δεν υπήρχε αυτός ο Helper τότε στο Knowledge Graph θα δημιουργούνταν 2 relationships που πρακτικά σημαίνουν το ίδιο πράγμα. Επομένως, πλέον γίνεται κανονικοποίηση (**robot < sensor**) και έτσι στο KG θα έχω πάντα **robot --> sensor με άθροιση των επιμέρων βαρών**.
 
