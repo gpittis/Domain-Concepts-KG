@@ -298,11 +298,11 @@ DETACH DELETE n
 
 ---
 
-**Load to Knowledge Graph**
+**Load to Structured Graph**
 
 [loader_script.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/loader_script.py)
 
-Αυτό το script φορτώνει το Knowledge Graph JSON μέσα σε μια βάση Neo4j.
+Αυτό το script φορτώνει το Structured Graph JSON μέσα σε μια βάση Neo4j.
 
 Για κάθε node και relationship δημιουργούνται μοναδικά node/relationships αντίστοιχα με χρήση MERGE, ώστε να αποφεύγονται διπλότυπα.
 
