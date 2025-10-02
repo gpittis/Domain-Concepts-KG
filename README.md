@@ -336,7 +336,11 @@ DETACH DELETE n
     
   - Για structured relationships που περιέχουν **single-word name nodes** (π.χ. **(robot) --> (sensor)** ) τότε στο Knowledge Graph παραμένουν ως έχουν. Το μόνο που αλλάζει είναι το type τους που γίνεται RELATED_TO. Το weight παραμένει ίσο με το final_weight της structured relationship. Εννοείται πως αν αυτο το pair εμφανιστεί ξανά το βάρος του θα αυξηθεί.
 
-  - 
+  - Αν στο Structured Graph έχω για παράδειγμα **CLASS("render img") -[HAS_METHOD {final_weight = 0.9}]-> METHOD("depth color")**, τότε εκτελώ **cartesian product**. Άρα, στο Knowledge Graph έχω :
+    - (depth) -[RELATED_TO {final_weight = 0.9}]-> (render)
+    - (color) -[RELATED_TO {final_weight = 0.9}]-> (render)
+    - (depth) -[RELATED_TO {final_weight = 0.9}]-> (img)
+    - (color) -[RELATED_TO {final_weight = 0.9}]-> (img)
 
 ---
 **API**
