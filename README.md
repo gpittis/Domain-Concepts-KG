@@ -347,6 +347,55 @@ DETACH DELETE n
 
   - Για κάθε **μοναδικό relationship** μετράει το **count των εμφανίσεων του σε επίπεδο codebase**.
 
+  **ΠΑΡΑΔΕΙΓΜΑΤΑ**
+```
+  {
+  "nodes": [
+    {
+      "type": "IMPORT",
+      "name": "render img render img",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "render img",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "render img",
+      "weight": 0.9,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "FILE_CONTAINS",
+      "from": "render img",
+      "to": "render img",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "render img",
+      "to": "img",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    }
+  ]
+}
+```
 
 ---
 **API**
