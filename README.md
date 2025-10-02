@@ -341,6 +341,7 @@ DETACH DELETE n
     - (color) -[RELATED_TO {final_weight = 0.9}]-> (render)
     - (depth) -[RELATED_TO {final_weight = 0.9}]-> (img)
     - (color) -[RELATED_TO {final_weight = 0.9}]-> (img)
+    - **(οι κατευθύνσεις των relationships διαμορφώνονται με βάση των αλφαβητική κανονικοποίηση)**. Δεν σημαίνουν κάτι, είναι καθαρά τεχνικό ζήτημα.
 
 ---
 **API**
