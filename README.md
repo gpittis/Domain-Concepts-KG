@@ -498,7 +498,7 @@ DETACH DELETE n
 
 [create_update_knowledge_graph.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/create_update_knowledge_graph.py)
 
-Φορτώνει τα περιεχόμενα του **knowledge_graph.json** στο final Knowledge Graph. Κάνει MERGE και κρατά μοναδικά concepts και relationships. Κάνει **update τα counts** των concepts και των nodes **σε επίπεδο Knowledge Graph**(δηλαδή για όλα τα codebases που αναλύθηκαν). 
+Φορτώνει τα περιεχόμενα του **knowledge_graph.json** στο final Knowledge Graph. Κάνει MERGE και κρατά μοναδικά concepts και relationships. Κάνει **update τα counts** των concepts και των relationships **σε επίπεδο Knowledge Graph**(δηλαδή για όλα τα codebases που αναλύθηκαν). 
 
 ---
 **API**
