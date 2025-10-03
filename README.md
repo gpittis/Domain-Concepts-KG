@@ -349,6 +349,7 @@ DETACH DELETE n
 
   **ΠΑΡΑΔΕΙΓΜΑΤΑ**
 
+**NODES**
 ```
 {
       "type": "IMPORT",
@@ -388,7 +389,25 @@ DETACH DELETE n
     }
 ```
 
-  
+- **IMPORT("render img render img")** : προκύπτουν 2 μοναδικά nodes/concepts **render** και **img** αντίστοιχα με **count = 2** το καθένα.
+- **GLOBAL_VAR("img")** :  concept **img** με **count = 2 + 1 = 3**
+- **PARAM("img")** : concept **img** με **count = 3 + 1 = 4**
+- **LOCAL_VAR("img")**: concept **img** με **count = 4 + 1 = 5**
+- **FILE("render img")** : concept **img** με **count = 5 + 1 = 6**
+- **FUNCTION("render img")** : concept **img** με **count = 6 + 1 = 7**
+
+**ΤΕΛΙΚΑ**
+
+```
+{
+      "type": "CONCEPT",
+      "name": "img",
+      "count": 7
+    }
+```
+
+
+**RELATIONSHIPS**
 ```
   {
   "nodes": [
