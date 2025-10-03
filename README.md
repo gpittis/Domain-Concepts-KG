@@ -505,7 +505,9 @@ DETACH DELETE n
 
 [api.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/api.py)
 
-Αυτοματοποιεί όλη την διαδικασία : parsing github repo + concept filter + create KG JSON + Load to Neo4j 
+**Αυτοματοποιεί όλη την διαδικασία :** 
+
+**parsing github repo + concept filter + create Structured Graph JSON + Load to Neo4j and create temporary Structured Graph + Create KG JSON from Structured Graph + Create/Update the final KG + Cleanup tmp Structured Graph**
 
  - Λήψη GitHub repo (μέσω Github REST API)
 
