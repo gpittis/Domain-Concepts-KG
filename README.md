@@ -492,7 +492,11 @@ DETACH DELETE n
     }
 ```
 
+---
 
+**Create/Update the final Knowledge Graph**
+
+[create_update_knowledge_graph.py](https://github.com/gpittis/Domain-Concepts-KG/blob/main/create_update_knowledge_graph.py)
 
 
 ---
