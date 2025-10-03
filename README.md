@@ -515,9 +515,15 @@ DETACH DELETE n
 
  - Concept filter για καθαρισμό και φιλτράρισμα domain specific εννοιών
 
- - Knowledge Graph builder JSON : μετατροπή σε ενδιάμεσο JSON με nodes & relationships.
+ - Structured Graph builder JSON : μετατροπή σε ενδιάμεσο JSON με nodes & relationships.
 
- - Φόρτωση στο Neo4j με το loader script (nodes/relationships με βάρη και normalized appearances).
+ - Φόρτωση στο Neo4j με το loader script (nodes/relationships με βάρη και normalized appearances) και δημιουργία temporary Structured Graph.
+
+ - Δημιουργία Knowledge Graph JSON από τον temporary Structured Graph.
+
+ - Δημιουργία ή update του final Knowledge Graph.
+
+ - Καθαρισμός του temporary Structured Graph.
 
  - Καθαρισμός temporary workspace.
 
