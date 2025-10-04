@@ -590,7 +590,7 @@ DETACH DELETE n
 
 ---
 
-[results_json](https://github.com/gpittis/Domain-Concepts-KG/tree/main/results_json) : Περιέχει όλα τα JSON αρχεία που παράγονται σε κάθε βήμα για κάθε parser
+[kg_tmp](https://github.com/gpittis/Domain-Concepts-KG/tree/main/kg_tmp) : Περιέχει όλα τα JSON αρχεία που παράγονται σε κάθε βήμα για κάθε parser
 
 ---
 
