@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    }
+  ],
+  "edges": []
+}

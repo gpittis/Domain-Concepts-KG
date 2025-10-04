@@ -1,0 +1,33 @@
+[
+  {
+    "file": "objects_srv.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "rospy.Service('data_fusion_geotiff', GetGeotiff, send_objects)"
+    ]
+  },
+  {
+    "file": "save_mission_client.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "talker.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "objects_srv.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "save_csv.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  }
+]

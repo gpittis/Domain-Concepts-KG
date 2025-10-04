@@ -1,0 +1,3489 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "react router dom",
+        "constants",
+        "",
+        "",
+        "",
+        "bots",
+        "bot",
+        "",
+        "metadata",
+        "quit",
+        "fetch kelp",
+        "kelp",
+        "",
+        "login redirect",
+        "interceptor",
+        "animation",
+        "react"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "",
+            "fetch metadata",
+            "quit",
+            "quit",
+            "",
+            "",
+            "",
+            "backend",
+            "fetch kelp",
+            "",
+            "bot",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "fetch metadata",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "quit",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "unmount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "backend"
+              ],
+              "local_variables": [
+                "",
+                "kelp",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "backend",
+                "kelp"
+              ],
+              "local_variables": [
+                "",
+                "bot",
+                "named",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "fetch kelp",
+              "params": [],
+              "local_variables": [
+                "",
+                "kelp",
+                ""
+              ]
+            },
+            {
+              "name": "backend",
+              "params": [
+                "kelp uui"
+              ],
+              "local_variables": [
+                "network",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "kelp",
+                "bot",
+                "named",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "kelp",
+                "bot",
+                "named",
+                "",
+                "uui",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "bot",
+              "params": [
+                "bot",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "quit",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "pubnet bots",
+                "",
+                "",
+                "quit",
+                "banner",
+                "bot",
+                "bot",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "react dom",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "badge"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "badge"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "badge",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "clz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "bot assets"
+    },
+    {
+      "imports": [
+        "react",
+        "bot assets",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "bot assets",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "local"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "bot bid"
+    },
+    {
+      "imports": [
+        "react",
+        "bot bid",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "bot bid",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "spread",
+                "spread pct"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "bot exchange"
+    },
+    {
+      "imports": [
+        "react",
+        "bot exchange",
+        "badge"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "bot exchange",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "badge",
+                "badge"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "classnames",
+        "constants",
+        "",
+        "",
+        "animation",
+        "metric event"
+      ]
+    },
+    {
+      "global_variables": [
+        "sizes",
+        "sizes"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "track",
+            "metric event",
+            "",
+            "props",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "metric event",
+              "params": [],
+              "local_variables": [
+                "",
+                "event"
+              ]
+            },
+            {
+              "name": "track",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "ico day",
+        "ico",
+        "ico",
+        "ico",
+        "ico",
+        "ico",
+        "ico download",
+        "ico",
+        "ico",
+        "ico wave",
+        "ico caret",
+        "ico caret",
+        "ico caret",
+        "ico",
+        "ico alert",
+        "ico",
+        "ico",
+        "ico",
+        "ico",
+        "ico arrow",
+        "ico chevron",
+        "ico chevron",
+        "ico chevron",
+        "ico chevron"
+      ]
+    },
+    {
+      "global_variables": [
+        "box",
+        "icons"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "props"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "prop",
+        "react lite",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "input"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "classnames",
+        "input",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "input",
+          "attributes": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "percent",
+            "",
+            "props",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "props",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "props"
+              ],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "event"
+              ],
+              "local_variables": [
+                "",
+                "event",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "input"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "input"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "input"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "input"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "percent",
+              "params": [
+                "input"
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "input",
+                "suffix",
+                "suffix",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "classnames",
+        "",
+        "prop"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "padding",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "animation"
+    },
+    {
+      "imports": [
+        "react",
+        "animation"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "animation",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "pill"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "pill",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "pill",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "calculate",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "uniques",
+                ""
+              ]
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "symbol"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "",
+        "constants"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "advance dots"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "unmount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "advance dots",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "title"
+    },
+    {
+      "imports": [
+        "react",
+        "title"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "title",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "section"
+    },
+    {
+      "imports": [
+        "react",
+        "section"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "section",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "section title"
+    },
+    {
+      "imports": [
+        "react",
+        "section title"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "section title",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "segmented control"
+    },
+    {
+      "imports": [
+        "react",
+        "segmented control"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "segmented control",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "segments",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "",
+        "constants"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "props",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "variant",
+                "",
+                "event",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "advanced wrapper"
+    },
+    {
+      "imports": [
+        "react",
+        "classnames",
+        "advanced wrapper",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "advanced wrapper",
+          "attributes": [
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "bot card"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "pill",
+        "",
+        "bot card",
+        "pill group",
+        "",
+        "bot exchange",
+        "bot assets",
+        "bot bid",
+        "",
+        "constants",
+        "popover",
+        "",
+        "",
+        "bot",
+        "",
+        "bot"
+      ]
+    },
+    {
+      "global_variables": [
+        "bot",
+        "bot interval millis",
+        "bot interval millis",
+        "bot timeout millis"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "bot card",
+          "attributes": [
+            "",
+            "bot",
+            "",
+            "bot",
+            "bot",
+            "bot",
+            "tick",
+            "",
+            "",
+            "",
+            "bot",
+            "details",
+            "offers",
+            "market",
+            "bot",
+            "",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "bot",
+              "params": [],
+              "local_variables": [
+                "controller",
+                ""
+              ]
+            },
+            {
+              "name": "mount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "unmount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "bot",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "bot",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "bot",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "bot",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "tick",
+              "params": [],
+              "local_variables": [
+                "",
+                "diff",
+                "elapsed"
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "bot",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "details",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "offers",
+              "params": [],
+              "local_variables": [
+                "trading account",
+                "network",
+                ""
+              ]
+            },
+            {
+              "name": "market",
+              "params": [],
+              "local_variables": [
+                "code",
+                "quote code",
+                ""
+              ]
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "popover",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "",
+        "ico",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "prop"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "elem",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fiat feed"
+    },
+    {
+      "imports": [
+        "react",
+        "fiat feed",
+        "prop",
+        "input",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "fiat feed",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "group"
+    },
+    {
+      "imports": [
+        "react",
+        "group"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "group",
+          "attributes": [
+            "props"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "classnames"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "props"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "wrapper"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "grid",
+        "badge",
+        "input",
+        "",
+        "section title",
+        "",
+        "segmented control",
+        "section",
+        "",
+        "",
+        "",
+        "advanced wrapper",
+        "section",
+        "group",
+        "price feed asset",
+        "fiat feed",
+        "price feed formula",
+        "",
+        "",
+        "",
+        "fetch price",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "fiat prefix",
+        "fiat currency",
+        "currency layer website"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "formula",
+            "formula price",
+            "fetch",
+            "price feed",
+            "fiat",
+            "",
+            "price feed asset",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "numerical",
+            "numerical",
+            "numerical",
+            "",
+            "",
+            "fiat feed",
+            "extract currency code fiat",
+            "fiat",
+            "feed transform fiat",
+            "",
+            "trigger",
+            "fetch dot notation",
+            "tracker millis",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "extract fiat",
+              "params": [
+                "props"
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "feed transform fiat",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "feed",
+                "currency code"
+              ]
+            },
+            {
+              "name": "unmount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "formula",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "formula price",
+              "params": [
+                "ator",
+                "price"
+              ],
+              "local_variables": [
+                "price missing"
+              ]
+            },
+            {
+              "name": "fetch dot notation",
+              "params": [
+                "",
+                "path"
+              ],
+              "local_variables": [
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "numerical"
+              ]
+            },
+            {
+              "name": "numerical",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "price feed",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "fiat",
+              "params": [],
+              "local_variables": [
+                "numerator fiat feed",
+                "denominator fiat feed"
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "price feed asset",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "feed",
+                "feed",
+                "instructions"
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "amt spread",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "subfield",
+                ""
+              ],
+              "local_variables": [
+                "numerical",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "subfield"
+              ],
+              "local_variables": [
+                "numerical",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "trigger",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "fiat feed",
+              "params": [
+                "",
+                "currency code"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "extract currency code fiat",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "fiat",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "numerical",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "numerical"
+              ]
+            },
+            {
+              "name": "numerical",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "numerical"
+              ]
+            },
+            {
+              "name": "fetch",
+              "params": [],
+              "local_variables": [
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "net",
+                "network",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "section"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "section",
+        "classnames",
+        "grid"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "section",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "wrapper",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "kelp logo",
+        "grid",
+        "",
+        "logout"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "",
+        "",
+        "",
+        "",
+        "input",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "modal"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "modal",
+        "classnames",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "modal",
+          "attributes": [
+            "props",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "wrapper",
+                "bullets",
+                "",
+                "title",
+                "",
+                "bullets",
+                "",
+                "event prefix",
+                "",
+                "action",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "pill group"
+    },
+    {
+      "imports": [
+        "react",
+        "pill group"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "pill group",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "popover"
+    },
+    {
+      "imports": [
+        "react",
+        "popover"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "popover",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "price feed asset"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "price feed asset",
+        "",
+        "price feed",
+        "price feed selector",
+        "animation"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "price feed asset",
+          "attributes": [
+            "",
+            "query price",
+            "",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "query price",
+              "params": [],
+              "local_variables": [
+                "",
+                "current",
+                ""
+              ]
+            },
+            {
+              "name": "unmount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "price",
+                "",
+                "",
+                "selector"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "price feed"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "price feed",
+        "animation",
+        "classnames",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "price feed",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "price capped"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "price feed formula"
+    },
+    {
+      "imports": [
+        "react",
+        "price feed formula",
+        "",
+        "classnames",
+        "grid",
+        "animation",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "price feed formula",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "quote",
+                "outer"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "price feed selector"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "price feed selector",
+        "",
+        "input",
+        "grid"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "price feed selector",
+          "attributes": [
+            "render single",
+            "render recursive",
+            "",
+            "",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [
+                "abridged",
+                "",
+                "",
+                "",
+                "cur"
+              ]
+            },
+            {
+              "name": "render single",
+              "params": [
+                "",
+                "metadata",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "render recursive",
+              "params": [
+                "",
+                "metadata",
+                ""
+              ],
+              "local_variables": [
+                "wrapper",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "title",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "",
+        "stellar sdk",
+        "grid",
+        "",
+        "",
+        "input"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "input elem",
+                "elem",
+                "",
+                "pubkey elem",
+                "pubkey",
+                "pubkeypair"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "classnames",
+        "",
+        "kelp symbol"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "",
+            "",
+            "quit"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "quit",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "wrapper",
+                "kelp logo",
+                "",
+                "quit",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "bots"
+    },
+    {
+      "imports": [
+        "react",
+        "prop",
+        "bot card",
+        "",
+        "",
+        "",
+        "grid",
+        "autogenerate",
+        "bots",
+        "constants",
+        "modal"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "bots",
+          "attributes": [
+            "",
+            "fetch bots",
+            "details",
+            "autogenerate bot",
+            "bot",
+            "",
+            "prop"
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "unmount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "mount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "details",
+              "params": [
+                "bot"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "fetch bots",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "autogenerate bot",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "bot",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "cards",
+                "bot",
+                "bot",
+                "bot",
+                "",
+                "modal",
+                "indexed",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "details"
+    },
+    {
+      "imports": [
+        "react",
+        "details",
+        "grid",
+        "",
+        "",
+        "",
+        "",
+        "pill group",
+        "pill",
+        "bot assets",
+        "bot exchange",
+        "bot bid",
+        "chart",
+        "section title"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "details",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "title",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "spacer",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "divider",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "group title",
+              "params": [
+                "title"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "login redirect"
+    },
+    {
+      "imports": [
+        "react",
+        "react"
+      ]
+    },
+    {
+      "global_variables": [
+        "login redirect"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "login redirect",
+          "params": [],
+          "local_variables": [
+            "user",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "logout"
+    },
+    {
+      "imports": [
+        "react",
+        "react"
+      ]
+    },
+    {
+      "global_variables": [
+        "logout"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "logout",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bot"
+    },
+    {
+      "imports": [
+        "react",
+        "",
+        "bot",
+        "bot",
+        "upsert bot",
+        "fetch metadata",
+        "animation"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "bot",
+          "attributes": [
+            "",
+            "",
+            "",
+            "",
+            "bot",
+            "",
+            "dot notation",
+            "metadata",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "constructor",
+              "params": [
+                "props"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "unmount",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "metadata",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "bot",
+              "params": [
+                "bot"
+              ],
+              "local_variables": [
+                ""
+              ]
+            },
+            {
+              "name": "dot notation",
+              "params": [
+                "",
+                "path",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "current",
+                ""
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                "path",
+                "event",
+                "instructions"
+              ],
+              "local_variables": [
+                "json",
+                "",
+                "",
+                "dot notation",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "render",
+              "params": [],
+              "local_variables": [
+                "segment network",
+                "search",
+                "bot encoded",
+                "bot",
+                "details",
+                "title"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "constants"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "constants"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "react",
+        "react dom",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "autogenerate"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bot"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "fetch kelp"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "fetch metadata"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "fetch price"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "gen bot"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bot"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bot"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bot"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "user"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "interceptor"
+    },
+    {
+      "imports": [
+        "fetch intercept"
+      ]
+    },
+    {
+      "global_variables": [
+        "access token",
+        "interceptor"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bots"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "quit"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "kelp"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "metric event"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "metadata"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "upsert bot"
+    },
+    {
+      "imports": [
+        "user"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "localhost"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "register",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "register",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "installing"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "unregister",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "asset",
+          "params": [
+            "code",
+            "issuer"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "cap sdex precision",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "file": "mock_robot.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Spawn a new thread, as this service has to return first",
+      "Spawn move robot service"
+    ]
+  }
+]

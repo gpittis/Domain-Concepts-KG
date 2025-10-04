@@ -1,0 +1,1029 @@
+[
+  [
+    {
+      "file": "candle.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Candle",
+          "attributes": [
+            "open_time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "close_time"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "open_time",
+                "open",
+                "high",
+                "low",
+                "close",
+                "volume",
+                "close_time"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__repr__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "config.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "LEVERAGE",
+        "EPSILON",
+        "INF",
+        "WALLET_USAGE_PERCENT",
+        "STRATEGIES_COUNT",
+        "MAXIMUM_NUMBER_OF_API_CALL_TRIES",
+        "INDICATORS_DICT_FILENAME",
+        "ORDERS_DICT_FILENAME",
+        "ONE_MINUTE_IN_MILLISECONDS",
+        "MAXIMUM_KLINE_CANDLES_PER_REQUEST",
+        "ERROR",
+        "SUCCESSFUL",
+        "SLEEP_INTERVAL",
+        "HANDLING_POSITIONS_TIME_SECOND",
+        "FIRST_COIN_SYMBOL",
+        "SECOND_COIN_SYMBOL",
+        "CONTRACT_SYMBOL",
+        "TIMEFRAME",
+        "TAKE_PROFIT_PERCENTS",
+        "STOP_LOSS_PERCENTS",
+        "PRICE_DECIMAL_DIGITS",
+        "INDICATORS_DECIMAL_DIGITS",
+        "POSITION_QUANTITY_DECIMAL_DIGITS",
+        "PRICE_DIRECTION_INDICATOR_NAME_1",
+        "PRICE_DIRECTION_INDICATOR_NAME_2",
+        "NEW_CLIENT_ORDER_ID_PREFIX",
+        "LAST_ACCOUNT_BALANCES_LIST_MAX_LENGTH",
+        "IMPORTANT_CANDLES_COUNT",
+        "SEND_TELEGRAM_MESSAGE",
+        "HEDGE_MODE",
+        "IS_TESTNET",
+        "URL_BASE_PRODUCTION",
+        "URL_BASE_TESTNET"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "credentials.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "API_KEY_PRODUCTION",
+        "SECRET_KEY_PRODUCTION",
+        "API_KEY_TESTNET",
+        "SECRET_KEY_TESTNET",
+        "TELEGRAM_API_KEY",
+        "TELEGRAM_USER_ID"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicators.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "get_wma",
+          "params": [
+            "candles"
+          ],
+          "local_variables": [
+            "coe",
+            "base",
+            "coe_sum",
+            "sum"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_ma",
+          "params": [
+            "candles"
+          ],
+          "local_variables": [
+            "rs",
+            "rs"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_new_ema",
+          "params": [
+            "last_ema",
+            "price",
+            "count"
+          ],
+          "local_variables": [
+            "m",
+            "price",
+            "s1",
+            "s2"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "init_indicators_dict.py"
+    },
+    {
+      "imports": [
+        "pickle"
+      ]
+    },
+    {
+      "global_variables": [
+        "indicators_dict_btcusdt_m1",
+        "indicators_dict_btcusdt_h1",
+        "indicators_dict_ethusdt_m1",
+        "indicators_dict_ethusdt_m15",
+        "indicators_dict_ethbusd_m15",
+        "indicators_dict_dogebusd_m1",
+        "indicators_dict_dogebusd_m15",
+        "indicators_dict_xrpbusd_m1",
+        "indicators_dict_xrpbusd_m15"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "init_orders_dict.py"
+    },
+    {
+      "imports": [
+        "pickle"
+      ]
+    },
+    {
+      "global_variables": [
+        "orders_dict"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "main.py"
+    },
+    {
+      "imports": [
+        "time.sleep",
+        "pickle",
+        "logging",
+        "sys",
+        "candle.Candle",
+        "binance.um_futures.UMFutures"
+      ]
+    },
+    {
+      "global_variables": [
+        "is_price_increasing",
+        "is_price_decreasing",
+        "is_macd_increasing",
+        "is_macd_decreasing",
+        "is_macd_positive",
+        "is_macd_negative",
+        "account_available_balance",
+        "total_account_balance",
+        "is_bot_started",
+        "current_time",
+        "indicators_dict",
+        "orders_dict",
+        "contract_open_orders_count",
+        "open_orders_list",
+        "last_account_available_balances_list",
+        "last_total_account_balances_list"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "update_current_time",
+          "params": [],
+          "local_variables": [
+            "last_time",
+            "current_time"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_local_timestamp",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "convert_binance_data_list_to_candles_list",
+          "params": [
+            "binance_data_list"
+          ],
+          "local_variables": [
+            "candles_list",
+            "candle"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_m1_candles",
+          "params": [
+            "contract_symbol",
+            "start_datetime",
+            "end_datetime"
+          ],
+          "local_variables": [
+            "start_timestamp",
+            "end_timestamp",
+            "number_of_kline_candles_requests",
+            "all_m1_candles_list",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_start",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_end",
+            "klines",
+            "current_time_range_m1_candles_list"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_m15_candles",
+          "params": [
+            "contract_symbol",
+            "start_datetime",
+            "end_datetime"
+          ],
+          "local_variables": [
+            "start_timestamp",
+            "end_timestamp",
+            "number_of_kline_candles_requests",
+            "all_m15_candles_list",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_start",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_end",
+            "klines",
+            "current_time_range_m15_candles_list"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_h1_candles",
+          "params": [
+            "contract_symbol",
+            "start_datetime",
+            "end_datetime"
+          ],
+          "local_variables": [
+            "start_timestamp",
+            "end_timestamp",
+            "number_of_kline_candles_requests",
+            "all_h1_candles_list",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_start",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_end",
+            "klines",
+            "current_time_range_h1_candles_list"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_h2_candles",
+          "params": [
+            "contract_symbol",
+            "start_datetime",
+            "end_datetime"
+          ],
+          "local_variables": [
+            "start_timestamp",
+            "end_timestamp",
+            "number_of_kline_candles_requests",
+            "all_h2_candles_list",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_start",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_end",
+            "klines",
+            "current_time_range_h2_candles_list"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_h4_candles",
+          "params": [
+            "contract_symbol",
+            "start_datetime",
+            "end_datetime"
+          ],
+          "local_variables": [
+            "start_timestamp",
+            "end_timestamp",
+            "number_of_kline_candles_requests",
+            "all_h4_candles_list",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_start",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_end",
+            "klines",
+            "current_time_range_h4_candles_list"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_d1_candles",
+          "params": [
+            "contract_symbol",
+            "start_datetime",
+            "end_datetime"
+          ],
+          "local_variables": [
+            "start_timestamp",
+            "end_timestamp",
+            "number_of_kline_candles_requests",
+            "all_d1_candles_list",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_start",
+            "current_time_range_start",
+            "current_time_range_end",
+            "current_time_range_end",
+            "klines",
+            "current_time_range_d1_candles_list"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_recent_prices_list",
+          "params": [
+            "contract_symbol",
+            "current_time",
+            "candles_count",
+            "timeframe"
+          ],
+          "local_variables": [
+            "start_time",
+            "end_time",
+            "recent_candles_list",
+            "recent_m1_open_prices_list",
+            "recent_m1_high_prices_list",
+            "recent_m1_low_prices_list",
+            "recent_m1_close_prices_list",
+            "start_time",
+            "end_time",
+            "recent_candles_list",
+            "recent_m15_open_prices_list",
+            "recent_m15_high_prices_list",
+            "recent_m15_low_prices_list",
+            "recent_m15_close_prices_list",
+            "start_time",
+            "end_time",
+            "recent_candles_list",
+            "recent_h1_open_prices_list",
+            "recent_h1_high_prices_list",
+            "recent_h1_low_prices_list",
+            "recent_h1_close_prices_list",
+            "start_time",
+            "end_time",
+            "recent_candles_list",
+            "recent_h2_open_prices_list",
+            "recent_h2_high_prices_list",
+            "recent_h2_low_prices_list",
+            "recent_h2_close_prices_list",
+            "start_time",
+            "end_time",
+            "recent_candles_list",
+            "recent_h4_open_prices_list",
+            "recent_h4_high_prices_list",
+            "recent_h4_low_prices_list",
+            "recent_h4_close_prices_list",
+            "start_time",
+            "end_time",
+            "recent_candles_list",
+            "recent_d1_open_prices_list",
+            "recent_d1_high_prices_list",
+            "recent_d1_low_prices_list",
+            "recent_d1_close_prices_list"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "load_orders_dict",
+          "params": [],
+          "local_variables": [
+            "orders_dict"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "load_orders_dict_from_file",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "save_orders_dict",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "save_orders_dict_to_file",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "update_orders_dict",
+          "params": [
+            "current_time",
+            "key",
+            "value"
+          ],
+          "local_variables": [
+            "orders_dict[\"timestamp\"]",
+            "orders_dict[key]"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "load_indicators_dict",
+          "params": [],
+          "local_variables": [
+            "indicators_dict"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "load_indicators_dict_from_file",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "save_indicators_dict",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "save_indicators_dict_to_file",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "update_indicators_dict",
+          "params": [
+            "contract_symbol",
+            "current_time",
+            "timeframe"
+          ],
+          "local_variables": [
+            "candles_list",
+            "candles_list",
+            "candles_list",
+            "close_prices_list",
+            "open_times_list",
+            "close_times_list",
+            "_ema_50",
+            "_ema_40",
+            "_ema_30",
+            "_ema_20",
+            "_ema_10",
+            "_macd_ema_12",
+            "_macd_ema_26",
+            "_macd_line",
+            "_signal_line",
+            "_close_price",
+            "_open_time",
+            "_close_time",
+            "_ema_50",
+            "_ema_40",
+            "_ema_30",
+            "_ema_20",
+            "_ema_10",
+            "_macd_ema_12",
+            "_macd_ema_26",
+            "_macd_line",
+            "_signal_line",
+            "indicators_dict"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_account_balance_and_unrealized_profit",
+          "params": [
+            "first_coin_symbol"
+          ],
+          "local_variables": [
+            "last_account_available_balances_list",
+            "last_total_account_balances_list",
+            "balance_list",
+            "account_available_balance",
+            "total_account_balance",
+            "account_available_balance",
+            "total_account_balance",
+            "unrealized_profit"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_contract_last_price",
+          "params": [
+            "contract_symbol"
+          ],
+          "local_variables": [
+            "contract_last_price"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "close_all_open_positions_market_price",
+          "params": [],
+          "local_variables": [
+            "all_open_positions",
+            "position_quantity"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "init_bot",
+          "params": [],
+          "local_variables": [
+            "binance_futures_api",
+            "binance_futures_api"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_is_price_increasing",
+          "params": [
+            "price_direction_indicator_name_1",
+            "price_direction_indicator_name_2"
+          ],
+          "local_variables": [
+            "last_is_price_increasing",
+            "is_price_increasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_is_price_decreasing",
+          "params": [
+            "price_direction_indicator_name_1",
+            "price_direction_indicator_name_2"
+          ],
+          "local_variables": [
+            "last_is_price_decreasing",
+            "is_price_decreasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_is_macd_increasing",
+          "params": [],
+          "local_variables": [
+            "last_is_macd_increasing",
+            "is_macd_increasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_is_macd_decreasing",
+          "params": [],
+          "local_variables": [
+            "last_is_macd_decreasing",
+            "is_macd_decreasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_is_macd_positive",
+          "params": [],
+          "local_variables": [
+            "last_is_macd_positive",
+            "is_macd_positive"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "update_is_macd_negative",
+          "params": [],
+          "local_variables": [
+            "last_is_macd_negative",
+            "is_macd_negative"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "is_take_profit_unexecuted",
+          "params": [
+            "contract_symbol",
+            "strategy_id"
+          ],
+          "local_variables": [
+            "order_id",
+            "order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "is_stop_loss_unexecuted",
+          "params": [
+            "contract_symbol",
+            "strategy_id"
+          ],
+          "local_variables": [
+            "order_id",
+            "order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "is_position_active",
+          "params": [
+            "contract_symbol",
+            "strategy_id"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "cancel_extra_open_order",
+          "params": [
+            "contract_symbol",
+            "strategy_id"
+          ],
+          "local_variables": [
+            "order_id",
+            "order_id",
+            "order_id"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "is_it_time_to_open_long_position",
+          "params": [
+            "strategy_id",
+            "current_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "is_it_time_to_open_short_position",
+          "params": [
+            "strategy_id",
+            "current_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "is_it_time_to_update_and_trade",
+          "params": [
+            "current_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "is_it_time_to_cancel_extra_open_orders",
+          "params": [
+            "current_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "cancel_symbol_open_orders",
+          "params": [
+            "contract_symbol"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "set_leverage",
+          "params": [
+            "contract_symbol",
+            "leverage"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "set_position_mode",
+          "params": [
+            "hedge_mode"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "open_long_position",
+          "params": [
+            "contract_symbol",
+            "first_coin_amount",
+            "take_profit_percent",
+            "stop_loss_percent",
+            "strategy_id"
+          ],
+          "local_variables": [
+            "market_order_created",
+            "position_quantity",
+            "order_id",
+            "market_order",
+            "market_order_created",
+            "position_entry_price",
+            "market_order",
+            "position_entry_price",
+            "take_profit_price",
+            "stop_loss_price",
+            "take_profit_price_limit",
+            "stop_loss_price_limit",
+            "take_profit_order",
+            "stop_loss_order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "open_short_position",
+          "params": [
+            "contract_symbol",
+            "first_coin_amount",
+            "take_profit_percent",
+            "stop_loss_percent",
+            "strategy_id"
+          ],
+          "local_variables": [
+            "market_order_created",
+            "position_quantity",
+            "order_id",
+            "market_order",
+            "market_order_created",
+            "position_entry_price",
+            "market_order",
+            "position_entry_price",
+            "take_profit_price",
+            "stop_loss_price",
+            "take_profit_price_limit",
+            "stop_loss_price_limit",
+            "take_profit_order",
+            "stop_loss_order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "check_and_cancel_extra_open_orders",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "main",
+          "params": [],
+          "local_variables": [
+            "is_bot_started"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "log_results",
+          "params": [],
+          "local_variables": [
+            "output"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "telegram_message_sender.py"
+    },
+    {
+      "imports": [
+        "telegram",
+        "credentials.TELEGRAM_API_KEY",
+        "credentials.TELEGRAM_USER_ID",
+        "config.SEND_TELEGRAM_MESSAGE",
+        "logging"
+      ]
+    },
+    {
+      "global_variables": [
+        "telegram_bot"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "send_new_order_message",
+          "params": [
+            "symbol",
+            "side",
+            "quantity"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "send_open_long_position_message",
+          "params": [
+            "order_id"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "send_open_short_position_message",
+          "params": [
+            "order_id"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "send_cancel_order_message",
+          "params": [
+            "order_id"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "send_cancel_open_orders_for_symbol_message",
+          "params": [
+            "symbol"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "send_message",
+          "params": [
+            "message"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "utils.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "round_down",
+          "params": [
+            "x",
+            "precision"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "retry",
+          "params": [
+            "max_retries",
+            "on_fail"
+          ],
+          "local_variables": [],
+          "nested_functions": [
+            {
+              "name": "wrapper",
+              "params": [
+                "fn"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "inner",
+                  "params": [],
+                  "local_variables": [
+                    "so_far",
+                    "exceptions",
+                    "exceptions"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

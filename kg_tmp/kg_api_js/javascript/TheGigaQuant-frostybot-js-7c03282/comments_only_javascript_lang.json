@@ -1,0 +1,3240 @@
+[
+  {
+    "file": "app.js",
+    "comments": [
+      "// Set App Title",
+      "// Load Modules",
+      "// Routers",
+      "// Load Express",
+      "// Get Listen Port",
+      "// Get Reverse Proxy Address ",
+      "// Trust reverse proxy if used",
+      "// Only use this if you are configuring Frostybot behind a reverse proxy",
+      "// Currently disabled to prevent source address spoofing using X-Forward-For headers",
+      "// app.set('trust proxy', true); ",
+      "// Save raw buffer for command parsing",
+      "// Body parsers",
+      "// Unique Request ID (HTTP Context)",
+      "// Cookie Middleware",
+      "// Setting up Views",
+      "// Static Assets",
+      "// Router Configuration",
+      "// Redirect to the GUI",
+      "  //  next();",
+      "// Exception Handler",
+      "// Export app"
+    ]
+  },
+  {
+    "file": "core.api.js",
+    "comments": [
+      "// API Routes",
+      "    // Simple Webhook API",
+      "    // Full REST API",
+      "        // Account Handling",
+      "        // Cache Handling",
+      "        // Configuration",
+      "        // Symbol Map Handling",
+      "        // Whitelist Handling",
+      "        // User Handling",
+      "        //'post|/user/multiuser_enable'       :   'user:multiuser_enable',   // Enable Multi-User Mode (MySQL Required)",
+      "        //'post|/user/multiuser_disable'      :   'user:multiuser_disable',  // Disable Multi-User Mode (MySQL Required)",
+      "        // Trading",
+      "        // Signal Provider Signals",
+      "        // Websocket Management",
+      "        // Register user"
+    ]
+  },
+  {
+    "file": "core.database.base.js",
+    "comments": [
+      "// Database Abstraction Layer",
+      "    // Constructor",
+      "    // Select data from the database",
+      "    // Insert into table",
+      "    // Select data from the database",
+      "    // Delete data from the database"
+    ]
+  },
+  {
+    "file": "core.database.mysql.js",
+    "comments": [
+      "// Database Abstraction Layer",
+      "    // Constructor",
+      "    // Parse result",
+      "    // Query data from the database",
+      "    // Execute a SQL statement",
+      "    // Insert or Replace",
+      "        //var updList = [];",
+      "            //actList.push(val);",
+      "            //updList.push(\"`\" + key + \"`= ?\");",
+      "//        sql = \"INSERT INTO `\" + table + \"` (`\" + colList.join(\"`,`\") + \"`) VALUES (\" + valList.join(\",\") + \") ON DUPLICATE KEY UPDATE \" + updList.join(\",\") + \";\";"
+    ]
+  },
+  {
+    "file": "core.database.sqlite.js",
+    "comments": [
+      "// Database Abstraction Layer",
+      "    // Constructor",
+      "    // Query data from the database",
+      "    // Execute a SQL statement",
+      "    // Insert or Replace"
+    ]
+  },
+  {
+    "file": "core.gui.js",
+    "comments": [
+      "// GUI Routes",
+      "    // GUI",
+      "        // GUI Content",
+      "        //'get|/auth_callback'             :  'gui:auth_callback',    // OAuth Login Callback"
+    ]
+  },
+  {
+    "file": "core.loader.js",
+    "comments": [
+      "// Main program loader"
+    ]
+  },
+  {
+    "file": "core.test.js",
+    "comments": [
+      "// Bootloader for Unit Tests",
+      "        // Outout MOTD",
+      "        // Load and link modules"
+    ]
+  },
+  {
+    "file": "mod.accounts.js",
+    "comments": [
+      "// Accounts Handling Module",
+      "    // Constructor",
+      "    // Get account silently (no log output, used internally)",
+      "    // Get account(s)",
+      "                //if (!this.utils.is_array(results))",
+      "                //results = results.hasOwnProperty('stub') ? [results] : results;",
+      "                //var accounts = {};",
+      "                //for(var i = 0; i < results.length; i++) ",
+      "                //    accounts[results[i].stub] = this.utils.lower_props(results[i]);",
+      "                //this.output.success('account_retrieve', [ Object.values(accounts).length + ' accounts' ]);",
+      "                //this.output.success('account_retrieve', stub);",
+      "    // Censor account output",
+      "    // Check if account stub exists",
+      "    // Extract CCXT Test Parameters ",
+      "    // Create new account",
+      "    // Alias for create",
+      "    // Update account",
+      "    // Delete account",
+      "    // Alias for delete",
+      "    // Get account connection info",
+      "    // Test account",
+      "    // Get exchange ID from stub",
+      "    // Get exchange shortname from stub"
+    ]
+  },
+  {
+    "file": "mod.base.js",
+    "comments": [
+      "// Frostybot Module Base Class",
+      "    // Constructor",
+      "    // Create Module Mappings",
+      "    // Create a module link"
+    ]
+  },
+  {
+    "file": "mod.cache.js",
+    "comments": [
+      "// Caching Subsystem",
+      "    // Constructor",
+      "    // Set an item in cache",
+      "    // Get an item from cache",
+      "    // Get cache stats",
+      "    // Flush cache",
+      "    // Cache auto flush (garbage collection)"
+    ]
+  },
+  {
+    "file": "mod.classes.js",
+    "comments": [
+      "// Frostybot Custom Classes",
+      "// The base class (All Frostybot classes are derived from this)",
+      "// Account Balance Object",
+      "// Market Object",
+      "    //this.raw = raw;",
+      "// Position Base Object",
+      "    //this.raw = raw;",
+      "// Futures Position Object",
+      "// Spot Position Object",
+      "// Order Object",
+      "    //raw = null",
+      "      // Convert epoch timestamp to millisecond timestamp",
+      "    /*",
+      "            let day = (\"0\" + dateobj.getDate()).slice(-2);",
+      "            let month = (\"0\" + (dateobj.getMonth() + 1)).slice(-2);",
+      "            let year = dateobj.getFullYear();",
+      "            let hour = dateobj.getHours();",
+      "            let minute = dateobj.getMinutes();",
+      "            let second = dateobj.getSeconds();",
+      "            this.datetime = year + \"-\" + month + \"-\" + day + \" \" + hour + \":\" + minute + \":\" + second;",
+      "        */",
+      "    //this.raw = raw;",
+      "// Output Object",
+      "// Performance Metric",
+      "// Frostybot Exchange Handler",
+      "    // Constructor",
+      "    // Create module shortcuts",
+      "    // Load exchange handler for stub",
+      "      //this['accounts'] = global.frostybot._modules_['accounts'];",
+      "          //return this.output.error('account_retrieve', 'Undefined stub')",
+      "    // Load Method",
+      "    // Normalizer and CCXT Execution Handler",
+      "    // Get Exchange property",
+      "// Frostybot Websocket Ticker",
+      "// Frostybot Websocket Trade",
+      "// Frostybot Websocket Order"
+    ]
+  },
+  {
+    "file": "mod.config.js",
+    "comments": [
+      "// Config Handling Module",
+      "    // Constructor",
+      "    // Get all config parameters for a user",
+      "    // Get config parameter",
+      "        // Internal ",
+      "        // User",
+      "        // Cycle through params and validate",
+      "                    //else",
+      "                    //    this.output.warning('config_get', [key])        ",
+      "    // Validate stub in config key",
+      "    // Validate symbol in config key",
+      "    // Find a matching config key",
+      "    // Validate config key",
+      "    // Validate supplied config ",
+      "    // Set config parameter",
+      "        // Internal ",
+      "        // User",
+      "        // Cycle through params and validate",
+      "        // Retrun result",
+      "    // Delete config parameter"
+    ]
+  },
+  {
+    "file": "mod.core.js",
+    "comments": [
+      "// Frostybot core module",
+      "// Method exported to the API",
+      "    // Constructor",
+      "    // Initalize",
+      "    // Verify if access is allowed using a valid token or whitelist",
+      "            //uuid = core_uuid;",
+      "            //context.set('uuid', uuid);",
+      "    // Parse request",
+      "        // Single pre-parsed command parameter",
+      "        // Multiple pre-parsed command parameters",
+      "        // Raw request body",
+      "    // Parse raw text into parameter object",
+      "    // Parse Command Parameter Object",
+      "                // \"trade:\" was excluded from the command, add it",
+      "    // Check if module exists and initialize it",
+      "    // Check if a given method exists in a given module",
+      "    // Execute Frostybot Command(s)",
+      "    // Execute Multiple Commands",
+      "    // Execute a Single Command",
+      "            //this.output.notice('command_params', [{ ...{ command: module + \":\" + method}, ...(this.utils.remove_props(params,['_raw_'])) }]);",
+      "                //this.output.debug('loaded_module', module)    ",
+      "                    // If no symbol is supplied, use the default symbol",
+      "                    // If stub is supplied, and not adding a new stub, make sure the account exists",
+      "                    // Check for symbol mapping and use it if required, verify that market exists",
+      "                                // Check if TradingView syminfo.tickerid supplied in tvsymbol parameter",
+      "                                // Check for symbolmap and use it if configured",
+      "                                // Check that market symbol is valid"
+    ]
+  },
+  {
+    "file": "mod.encryption.js",
+    "comments": [
+      "// Encryption/Decryption Subsystem",
+      "    // Constructor",
+      "    // Initialize",
+      "    // Generate a UUID",
+      "    // Get Core UUID",
+      "    // Check is value is encrypted",
+      "    // Encrypt a String",
+      "    // Decrypt a String"
+    ]
+  },
+  {
+    "file": "mod.gui.js",
+    "comments": [
+      "    // Constructor",
+      "    // Enable GUI",
+      "    // Disable GUI",
+      "    // Check if GUI is enabled",
+      "    // Check if multi-user is enabled",
+      "    // Extract request and response parameters",
+      "    // Load Main GUI Page",
+      "        //} else {",
+      "        //    return this.render_page(res, \"pages/main\", { pageTitle: 'Configuration', uuid: uuid });",
+      "        //} ",
+      "    // Load Login Page",
+      "        /*",
+      "        var auth = await this.get_auth_config();",
+      "        if (auth !== false) {",
+      "            const oauth2Client = new OAuth2(auth.clientid, auth.secret, auth.url + '/ui/auth_callback');    ",
+      "            const loginLink = oauth2Client.generateAuthUrl({",
+      "                access_type: 'offline', ",
+      "                scope: [",
+      "                    'https://www.googleapis.com/auth/plus.me', ",
+      "                    'https://www.googleapis.com/auth/userinfo.email',              ",
+      "                ]",
+      "            });",
+      "            return this.render_page(res, \"pages/login\", { pageTitle: 'Login', loginLink: loginLink });",
+      "        }",
+      "        return res.send(auth);        ",
+      "        */",
+      "    // Register User",
+      "    // Get Content",
+      "    // 2FA Form",
+      "    // Accounts Table",
+      "    // Accounts Form",
+      "    // Account Config Form",
+      "    // Logout",
+      "    // Verify Recaptcha Response",
+      "    // Render Page",
+      "    // Render Error"
+    ]
+  },
+  {
+    "file": "mod.output.js",
+    "comments": [
+      "// Module to handle output to the console, the client and the log file",
+      "    // Constructor",
+      "    // Initialize",
+      "    // Load language if required",
+      "            //this.output_debug = await this.settings.get('config', 'debug:output', true);",
+      "            //this.notice('output_debug', (this.output_debug ? 'enabled' : 'disabled'));",
+      "    // Enable debug output",
+      "    /*",
+      "    async enable_debug() {",
+      "        await this.settings.set('config', 'debug:output', true);",
+      "        this.output_debug = true;",
+      "        return true;",
+      "    }",
+      "",
+      "",
+      "    // Enable debug output",
+      "",
+      "    async disable_debug() {",
+      "        await this.settings.set('config', 'debug:output', false);",
+      "        this.output_debug = false;",
+      "        return true;",
+      "    }",
+      "    */",
+      "    // Check if message has been outputted",
+      "    // Output log message to the database",
+      "    // Outpuyt log message tp websocket",
+      "    // Expand object in console output",
+      "    // Translate message and add to output",
+      "        // If object supplied, just output it directly",
+      "        // Else perform language translation",
+      "            // If serialized object is too long to fit on console, output it on multiple lines",
+      "            // Else parse normally",
+      "    // Some helper functions",
+      "        /*if (e instanceof ccxt.ExchangeError) {",
+      "            var testmessage = JSON.parse(e.message.error.message);",
+      "            console.log(testmessage);",
+      "        }",
+      "        console.log(message);",
+      "        */",
+      "    // Start a new section",
+      "    // Start a New Subsection",
+      "    // Reset output object",
+      "    // Get class of an object",
+      "    // Add statictic to output",
+      "    // Add data to the output",
+      "    // Create a blank line in the output log",
+      "    // Add a message to the output",
+      "            //this.add_message(type, \"{\".padStart(3, \" \"), { toLog: false, toResults: false, noTrim: true });",
+      "            //this.add_message(type, \"}\".padStart(3, \" \"), { toLog: false, toResults: false, noTrim: true });",
+      "    // Output health status (for load balancers)",
+      "    // Parse raw output into a frostybot_output object",
+      "    // Combine multiple command outputs into a single command output"
+    ]
+  },
+  {
+    "file": "mod.queue.js",
+    "comments": [
+      "// Order processing queue",
+      "    // Constructor",
+      "    // Initialize a queue",
+      "    // Clear order queue",
+      "    // Add order to queue",
+      "    // Process order queue (submit orders to the exchange)",
+      "                //output.set_exitcode(-1);"
+    ]
+  },
+  {
+    "file": "mod.settings.js",
+    "comments": [
+      "// Module to manage program settings in the database settings table",
+      "    // Constructor",
+      "    // Get settings(s)",
+      "        //if (result = this.cache.get(cachekey)) {",
+      "        //    return result;",
+      "        //}",
+      "        //var query = this.database.type == 'mysql' ? { uuid: uuid } : {};",
+      "    // Set Settings(s)",
+      "        //var query = this.database.type == 'mysql' ? { uuid: uuid } : {};",
+      "    // Delete Settings(s)"
+    ]
+  },
+  {
+    "file": "mod.signals.js",
+    "comments": [
+      "// Signal provider management",
+      "    // Get signal provider by UUID",
+      "    // Set signal provider data by UUID",
+      "    // Get user config by UUID",
+      "    // Get user accounts by UUID",
+      "    // Get list of signal provider",
+      "    // Get supported providers by account stub",
+      "    // Get symbol ignore list for stub",
+      "    // Set symbol ignore list for stub",
+      "    // Set if a symbol is ignored for a stub",
+      "    // Add new signal provider",
+      "    // Add exchange for signal provider",
+      "    // Remove exchange for signal provider",
+      "    // Add whitelisted IP for signal provider",
+      "    // Remove whitelisted IP from signal provider",
+      "    // Send provider signal",
+      "            /*",
+      "            if (['long', 'short', 'buy', 'sell'].includes(signal)) {",
+      "                cmd['size'] = config[account.stub+':defsize'];",
+      "            }",
+      "            */",
+      "        //if (!user)",
+      "        //    return this.output.error('invalid_user', [user_uuid]);"
+    ]
+  },
+  {
+    "file": "mod.symbolmap.js",
+    "comments": [
+      "// Symbol Mapping Module",
+      "    // Constructor",
+      "    // Get mappings",
+      "    // Add symbol mapping",
+      "    // Delete symbol mapping",
+      "    // Map symbol"
+    ]
+  },
+  {
+    "file": "mod.trade.js",
+    "comments": [
+      "// Trade Handling Module",
+      "    // Constructor",
+      "    // Initialize exchange handler",
+      "    // Check if an order is an advanced order (layered orders, relative pricing, etc)",
+      "    // Check if order pricing is layered",
+      "    // Check if number is relative (starts with + or -)",
+      "    // Flip relative price",
+      "    // Round a number to a given precision",
+      "    // Floor a number to a given precision",
+      "    // Round a price to the supported market precision",
+      "    // Round an order amount to the supported market precision",
+      "    // Floor an order amount to the supported market precision",
+      "    // Get relative price",
+      "    // Get USD size of current position from exchange",
+      "    // Get current position for symbol",
+      "    // Get relative numbers operator (+ or -)",
+      "    // Apply operator to number",
+      "    // Get market price",
+      "    // Convert base, quote or USD order size to order amount",
+      "        // Override sizing for stop loss and take profit orders",
+      "        // Default size when no size provided for stoploss and takeprofit",
+      "        // If size provided, assume it's the quote size",
+      "        // Get market data for symbol",
+      "        // Base and quote prices",
+      "        // Get indicative market price and convert price if it is relative",
+      "        // Size provided in USD",
+      "        // Amount based on Exchange's order sizing (base or quote)",
+      "    // Get order parameters for layered pricing and sizing",
+      "    // Check if sizing is a factor",
+      "    // Get factored size (size provided in x or %)",
+      "    // Get relative size",
+      "    // Get target position size",
+      "        // Check market symbol",
+      "        // This order is part of a layered set of orders",
+      "        // Check for base and quote factored sizing",
+      "        // Check if no size was given for close order",
+      "        // size=xxx is the same as usd=xxx",
+      "        // Determine what kind of sizing was supplied and get the amount",
+      "        // Determine current position size",
+      "        // Convert relative size",
+      "        // Convert scale parameter",
+      "        // Maxsize checks",
+      "            // Check if long or short order would exceed maxsize",
+      "            // Check if buy or sell order would exceed maxsize",
+      "        // Check if already long or short more than requested (non relative orders only)",
+      "        // Check if long or short relative order would cause a flip and prevent it",
+      "        // Check if close order would exceed current position size",
+      "        // Check for a position flip ",
+      "        // Ensure that when closing all of position and the exchange uses base sizing that the order size equals the current base size",
+      "        // Ensure that when closing all of position and the exchange uses quote sizing that the order size equals the current quote size",
+      "        // Return result",
+      "    // Check if the maximum amount of allowable positions is configured and if it has been met",
+      "    // Check if the maximum amount of allowable positions is configured and if it has been met",
+      "    // Generate order parameters for standard orders (market, limit)",
+      "        // Cancel open orders if requested",
+      "        // Calculate order sizing and direction (side)",
+      "        // Extract params",
+      "        // Get parameters from the normalizer",
+      "        //Check if an order is an advanced order (layered orders, relative pricing, etc)",
+      "            //if (this.utils.is_array(level_params) && level_params.length > 1)",
+      "            //    params['is_layered'] = true;",
+      "        // Base order params object",
+      "        // Add additional parameters",
+      "        // Get normalizer custom params (if defined)",
+      "    // Generate paramaters for conditional orders (stop loss or take profit)",
+      "        // If takeprofit and profitsize is percentage, calculate size",
+      "        // Get parameters from the normalizer",
+      "        //this.initialize_exchange(params);",
+      "        //console.log(params);",
+      "        //console.log(this.exchange[stub]);",
+      "        //return false;",
+      "        // Get marker info",
+      "        //Check if stoptrigger or stopprice is relative and convert if necessary",
+      "        // Convert percentage price to value for trailstop",
+      "        // If side is undefined, assume side based on trigger above or below market price",
+      "        // Base order params object",
+      "        // Add additional parameters",
+      "        // Trigger for TP/SL",
+      "        //if ((order_params.type == 'STOP_LOSS_LIMIT') && (order_params.price == null)) {",
+      "        //    order_params.price = (trigger * 1)+1",
+      "        //}",
+      "        // Trigger type for TP/SL",
+      "        //order_params.params[this.param_map.tag]    = tag;",
+      "        // Get normalizer custom params (if defined)",
+      "    // Add default stoploss and/or take profit to order if none provided and a default exists (pair-level take precendence over stub-level)",
+      "    // Get total size of orders",
+      "    // Parse params and create an order",
+      "        // Order includes a stoploss or takeprofit component (long and short orders only)",
+      "    // Clear order queue, create orders, and process the queue (submit orders to the exchange)",
+      "    // ------------------------------------------------------------------------------------------- //",
+      "    //                        The methods below are exposed to the API                             //",
+      "    // ------------------------------------------------------------------------------------------- //",
+      "    // Long Order",
+      "    // Short Order",
+      "    // Buy Order",
+      "    // Sell Order",
+      "    // Stoploss Order",
+      "    // Takeprofit Order",
+      "    // Trailstop Order",
+      "    // Close Order",
+      "    // Close All Positions on a Stub",
+      "    // Get list of orders",
+      "    // Cancel orders",
+      "    // Cancel all orders",
+      "    // Get position",
+      "    // Get positions",
+      "            /*",
+      "            result.forEach(position => {",
+      "                this.output.debug('custom_object', [position.symbol, position]);",
+      "            });",
+      "            */",
+      "    // Get balances",
+      "    // Get market",
+      "    // Get markets",
+      "    // Set leverage for symbol"
+    ]
+  },
+  {
+    "file": "mod.user.js",
+    "comments": [
+      "// User Module",
+      "    // Constructor",
+      "    // Initialize",
+      "    // Check if any users have been created yet",
+      "    // Enable Multi-User Mode",
+      "    // Disable Multi-User Mode ",
+      "    // Check if Multi-User is Enabled",
+      "        //if (this.database.type != 'mysql') ",
+      "        //    return false;",
+      "    // Get user UUID by email address",
+      "    // Get use token or see if it is still valid for the UI access to the API",
+      "    // Verify token",
+      "    // Set core user email and password",
+      "    // User Registration",
+      "    // Login user",
+      "    // Logout",
+      "    // Create a new user token",
+      "    // Change password",
+      "    // Enable 2FA for user",
+      "    // Disable 2FA for user",
+      "    // Create new 2FA barcode",
+      "    // Check if 2FA is enabled",
+      "    // Test Verify 2FA Token Before ",
+      "    // Check if user email address already exists",
+      "    // Add New User (returns the user UUID)",
+      "    // Delete user",
+      "    // Delete user by mail",
+      "    // Reset user password (CLI Only)"
+    ]
+  },
+  {
+    "file": "mod.utils.js",
+    "comments": [
+      "// Commonly used utility and helper functions",
+      "    // Constructor",
+      "    // Check if value is JSON",
+      "    // Check if value is a string",
+      "    // Check if value is boolean",
+      "    // Check if value is numeric",
+      "    // Check if value is true",
+      "    // Check if value is false",
+      "    // Check if value is an object",
+      "    // Check if value is an array",
+      "    // Check if a value is empty",
+      "    // Check if a value is an IP address",
+      "    // Check if a value is a function",
+      "    // Convert timestamp milliseconds to datetime str",
+      "    // Force a value to be an array if it not already an array",
+      "    // Check if the object is missing any of the supplied properties",
+      "    // Change all of an objects keys to lowercase",
+      "    // Walk over object and encrypt properties matching the names provided in the filter array",
+      "    // If no filter is supplied, then all properties will be encrypted",
+      "    // If no UUID is supplied, the core UUID will be used",
+      "    // Walk over object and decrypt properties matching the names provided in the filter array",
+      "    // If no filter is supplied, then all encrypted values will be decrypted",
+      "    // If no UUID is supplied, the core UUID will be used",
+      "    // Trim whitespace from object values recursively",
+      "    // Walk over object and remove properties with the names provided in the props array element",
+      "    // Walk over object and remove properties that have the values provided in the vals array element",
+      "    // Walk over object properties recursively and execute a callback function for each of the given properties (if supplied), or all of the properties is no filter is supplied",
+      "    // Asyncronously Walk over object properties recursively and execute a callback function for each of the given properties (if supplied), or all of the properties is no filter is supplied",
+      "    // Walk over object and uppercase the values of the given property name filter, or for all propterties if the filter is ommited",
+      "    // Walk over object and uppercase the values of the given property name filter, or for all propterties if the filter is ommited",
+      "    // Recursively trim object values and change the property names to lowercase",
+      "    // Walk over object and censor properties that match provided array elements",
+      "    // Filter array of objects by field values",
+      "    // Extract given object properties into an array",
+      "    // Get base directory",
+      "    // Count the number of decimals in a number",
+      "    // Serialize object (and strip out any api keys or secrets)",
+      "    // Serialize array",
+      "    // Serialize a value for output to the log",
+      "    // Capitilize first letter in a stirng",
+      "    // Capitilize first letter of every word in a sentence",
+      "    // Get currently running module and method",
+      "    // Method parameter validator",
+      "        //schema = this.lower_props(schema);",
+      "            // Check that one of the specified required params is present",
+      "            // Param is required but not present",
+      "                // Check param type",
+      "                // Param is the incorrect type",
+      "                // Param is the incorrect format",
+      "                // Param is not in the list of allowed values"
+    ]
+  },
+  {
+    "file": "mod.websocket.js",
+    "comments": [
+      "// Websocket Server",
+      "  // Constructor",
+      "  // Initialize Module",
+      "  // Load all account stubs and connect to the relevant websocket APIs",
+      "      /* ",
+      "      var accounts = await this.accounts.get()",
+      "      var stubs = Object.keys(accounts);",
+      "      if (!this.hasOwnProperty('ws')) {",
+      "        this.ws = {}",
+      "      }",
+      "      for (var i = 0; i < stubs.length; i++) {",
+      "        var stub = stubs[i];",
+      "        await this.connect_stub(stub)",
+      "      }",
+      "      var account = this.accounts.getaccount('deribit');",
+      "      if (account != false) {",
+      "        var params = this.accounts.ccxtparams(account);",
+      "        var conf = {",
+      "          exchange: 'deribit',",
+      "          stub: 'deribit',",
+      "          apikey: params.parameters.apiKey,",
+      "          secret: params.parameters.secret,",
+      "          url: 'wss://' + params.parameters.urls.api.replace ('https://', '') + '/ws/api/v2',",
+      "        }",
+      "        const frostybot_wss_client_deribit = require('../exchanges/wss.client.deribit')",
+      "        this.ws['test'] = new frostybot_wss_client_deribit(conf)",
+      "        await this.ws['test'].connect()",
+      "        this.ws['test'].subscribe('trades','BTC-PERPETUAL')",
+      "      }",
+      "      */",
+      "  // Load Websocket API for a specific stub",
+      "  // Websocket message receiver",
+      "  // Subscribe to channel",
+      "  // Unsubscribe "
+    ]
+  },
+  {
+    "file": "mod.whitelist.js",
+    "comments": [
+      "// Whitelist Module for IP Access Control ",
+      "    // Constructor",
+      "    // Add TradingView IPs",
+      "    // Get whitelist",
+      "        //this.tradingview();",
+      "    // Add IP to whitelist",
+      "    // Delete IP from whitelist",
+      "    // Enable whitelist verification",
+      "    // Disable whitelist verification",
+      "    // Check if whitelist is enabled",
+      "    // Verify IP in whitelist"
+    ]
+  },
+  {
+    "file": "exchange.base.js",
+    "comments": [
+      "// Exchange Base Class",
+      "// Normalizer base class",
+      "    // Set method cache time",
+      "    // Load account",
+      "    // Create module shortcuts",
+      "    // Execute method",
+      "    // Cache Execute",
+      "    // Normalizer Wrapper",
+      "    // CCXT Wrapper",
+      "    // Get market by ID",
+      "    // Get market by Symbol",
+      "    // Get market by ID or symbol",
+      "    // Index markets by ID and symbol",
+      "    // Update non-stablecoin quoted markets with USD price from a stablecoin-quoted market with same base",
+      "    // Get USD price for a currency",
+      "    // Get account balances",
+      "    // Get total of all equity assets in USD",
+      "    // Get free USD balance",
+      "    // Get total USD balance",
+      "    // Merge orders",
+      "    // Parse orders",
+      "    // Get order parameter mappings",
+      "    // Get exchange order sizing (base or quote)",
+      "    // Get market for specific filter",
+      "    // Get ticker for a symbol",
+      "    // Get position for specific filter",
+      "    // Create new order",
+      "    // Get orders",
+      "    // Cancel all orders",
+      "    // Default leverage function (if not supported by exchange)"
+    ]
+  },
+  {
+    "file": "exchange.binance.base.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of markets from exchange",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.binance.coinm.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Custom params",
+      "    // Set leverage for symbol",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "        // Get futures positions",
+      "    // Get list of markets from exchange",
+      "    // Fetch tickers",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.binance.futures.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Custom params",
+      "        /*",
+      "        if (!order_params.hasOwnProperty('params')) {",
+      "            order_params.params = {};",
+      "        }",
+      "        var position_mode = await this.ccxtobj.fapiPrivateGetPositionSideDual();",
+      "        var dual = position_mode.hasOwnProperty('dualSidePosition') ? position_mode.dualSidePosition : false;",
+      "        */",
+      "    // Set leverage for symbol",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "        // Get futures positions",
+      "    // Get list of markets from exchange",
+      "    // Fetch tickers",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.binance.margin.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Custom params",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "        // Emulate spot \"positions\" against USD for non-stablecoin balances",
+      "        /*this.stablecoins.concat('BTC').forEach(async (stablecoin) => {",
+      "            balances.forEach(async (balance) => {",
+      "                if (!this.stablecoins.includes(balance.currency)) {",
+      "                    const symbol = balance.currency + '/' + stablecoin;",
+      "                    const market = await this.get_market_by_symbol(symbol);",
+      "                    if (market != null) {",
+      "                        const direction = 'long';",
+      "                        const base_size = balance.base.total;",
+      "                        const position = new this.classes.position_spot(market, direction, base_size);",
+      "                        positions.push(position)",
+      "                    }",
+      "                }",
+      "            });",
+      "        });",
+      "        */",
+      "    // Get list of markets from exchange",
+      "                //const precision = raw_market.precision;",
+      "    // Fetch tickers",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.binance.spot.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Custom params",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "        // Emulate spot \"positions\" against USD for non-stablecoin balances",
+      "        /*this.stablecoins.concat('BTC').forEach(async (stablecoin) => {",
+      "            balances.forEach(async (balance) => {",
+      "                if (!this.stablecoins.includes(balance.currency)) {",
+      "                    const symbol = balance.currency + '/' + stablecoin;",
+      "                    const market = await this.get_market_by_symbol(symbol);",
+      "                    if (market != null) {",
+      "                        const direction = 'long';",
+      "                        const base_size = balance.base.total;",
+      "                        const position = new this.classes.position_spot(market, direction, base_size);",
+      "                        positions.push(position)",
+      "                    }",
+      "                }",
+      "            });",
+      "        });",
+      "        */",
+      "    // Get list of markets from exchange",
+      "                //const precision = raw_market.precision;",
+      "    // Fetch tickers",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.binanceus.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Custom params",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "        // Emulate spot \"positions\" against USD for non-stablecoin balances",
+      "        /*this.stablecoins.concat('BTC').forEach(async (stablecoin) => {",
+      "            balances.forEach(async (balance) => {",
+      "                if (!this.stablecoins.includes(balance.currency)) {",
+      "                    const symbol = balance.currency + '/' + stablecoin;",
+      "                    const market = await this.get_market_by_symbol(symbol);",
+      "                    if (market != null) {",
+      "                        const direction = 'long';",
+      "                        const base_size = balance.base.total;",
+      "                        const position = new this.classes.position_spot(market, direction, base_size);",
+      "                        positions.push(position)",
+      "                    }",
+      "                }",
+      "            });",
+      "        });",
+      "        */",
+      "    // Get list of markets from exchange",
+      "                //const precision = raw_market.precision;",
+      "    // Fetch tickers",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.bitmex.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Get order parameters",
+      "                                        //order_params.params.execInst = custom_params.reduce ? \"Close\" : \"\"",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "    // Get list of markets from exchange",
+      "            //.filter(raw_market => raw_market.info.typ == 'FFWCSX')",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.deribit.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Custom params",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "    // Get current balances (need to override for Deribit because CCXT is broken)",
+      "    // Switch the Deribit code",
+      "    // Get tickers",
+      "    // Get list of markets from exchange",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "exchange.ftx.js",
+    "comments": [
+      "    // Class constructor",
+      "    // Custom params",
+      "    // Get available equity in USD for placing an order on a specific symbol using size as a factor of equity (size=1x)",
+      "    // Get list of current positions",
+      "        // Get futures positions",
+      "        // Emulate spot \"positions\" against USD for non-stablecoin balances",
+      "    // Get list of markets from exchange",
+      "    // Get open orders",
+      "    // Get all order history",
+      "    // Cancel orders",
+      "    // Parse CCXT order format into Frostybot order format"
+    ]
+  },
+  {
+    "file": "websocket.base.js",
+    "comments": [
+      "// Websocket Normalizer base class",
+      "  // Create module shortcuts",
+      "  // Load Event Handler",
+      "  // Subscribe to channel ",
+      "  // Unsubscribe to channel ",
+      "  /*",
+      "    const WebSocket = require('ws');",
+      "    const EventEmitter = require('events');",
+      "    const crypto = require('crypto');",
+      "    ",
+      "    const wait = n => new Promise(r => setTimeout(r, n));",
+      "    ",
+      "    const PONG = '{\"type\": \"pong\"}';",
+      "    ",
+      "    const STALE_TIMEOUT = 2000;",
+      "    ",
+      "    // this endpoint is used by the sample code on",
+      "    // https://github.com/ftexchange/ftx/blob/d387304bcc6f479e0ecae8273ad84eda986f5237/websocket/client.py#L13",
+      "    const DEFAULT_ENDPOINT = 'ftx.com/ws/';",
+      "    */",
+      "  // pass optional params: { key, secret, subaccount, endpoint }",
+      "        //clearInterval(this.heartbeat);",
+      "      //this.heartbeat = setInterval(this.ping, 5 * 1000);",
+      "  // not a proper op, but forces a response so",
+      "  // we know the connection isn't stale",
+      "  /*",
+      "      ping() {",
+      "        if(this.pingAt && this.pongAt > this.pingAt && this.pongAt - this.pingAt > STALE_TIMEOUT) {",
+      "          console.error(new Date, '[FTX] did NOT receive pong in time, reconnecting', {",
+      "            pingAt: this.pingAt,",
+      "            pongAt: this.pongAt",
+      "          });",
+      "          return this.terminate();",
+      "        }",
+      "    ",
+      "        this.pingAt = +new Date;",
+      "    //    this.sendMessage({op: 'ping'});",
+      "      }",
+      "    ",
+      "      // note: when this method returns",
+      "      // we do not know what auth status is",
+      "      // since FTX doesn't ACK",
+      "      */",
+      "    //payload.stub = 'STUB' + this.stub;",
+      "    /*",
+      "        if (payload.id != undefined) {",
+      "            const request = this.findRequest(payload.id);",
+      "",
+      "            if(!request) {",
+      "            return console.error('received response to request not send:', payload);",
+      "            }",
+      "        }",
+      "        */",
+      "    /*",
+      "    if (this.subscriptions.hasOwnProperty(id)) {",
+      "        return console.error (",
+      "        new Date (),",
+      "        'refusing to channel subscribe twice',",
+      "        market,",
+      "        channel",
+      "      );",
+      "    }",
+      "    */  "
+    ]
+  },
+  {
+    "file": "websocket.deribit.js",
+    "comments": [
+      "// Deribit Websocket Normalizer",
+      "  // Authenticate websocket client",
+      "    //setTimeout(await this.refreshTokenFn, 1000)",
+      "    //if(resp.error) {",
+      "    //  throw new Error(resp.error.message);",
+      "    //}",
+      "    /*",
+      "    this.token = resp.result.access_token;",
+      "    this.refreshToken = resp.result.refresh_token;",
+      "    this.authenticated = true;",
+      "",
+      "    if(!resp.result.expires_in) {",
+      "      throw new Error('Deribit did not provide expiry details');",
+      "    }",
+      "",
+      "    setTimeout(this.refreshTokenFn, resp.result.expires_in - 10 * 60 * 1000);",
+      "    */",
+      "  // Refresh auth token",
+      "    //this.token = resp.result.access_token;",
+      "    //this.refreshToken = resp.result.refresh_token;",
+      "    //if(!resp.result.expires_in) {",
+      "    //  throw new Error('Deribit did not provide expiry details');",
+      "    //}",
+      "    //setTimeout(this.refreshTokenFn, resp.result.expires_in - 10 * 60 * 1000);",
+      "  // Subscribe to channel",
+      "  // Unsubscribe to channel",
+      "    //setTimeout(this.ws.refreshTokenFn, 1000);",
+      "    //setTimeout(this.ws.refreshTokenFn, message.result.expires_in - 10 * 60 * 1000);"
+    ]
+  },
+  {
+    "file": "websocket.ftx.js",
+    "comments": [
+      "// FTX Websocket Normalizer",
+      "  // Authenticate websocket client",
+      "  // Subscribe to channel",
+      "      //market: (sub.market != null ? sub.market : undefined),",
+      "  // Unsubscribe from channel",
+      "      //market: (sub.market != null ? sub.market : undefined),",
+      "      //default           : var results = [JSON.stringify (message)];"
+    ]
+  },
+  {
+    "file": "wss.client.base.js",
+    "comments": [
+      "    // Constructor",
+      "    // On Message Handler",
+      "    // Connect Websocket Connection",
+      "                //clearInterval(this.heartbeat);",
+      "            //this.heartbeat = setInterval(this.ping, 5 * 1000);",
+      "    // Reconnect a dropped connection",
+      "        //Object.values(this.subscriptions).forEach (sub => {",
+      "        //  this._subscribe (sub);",
+      "        //});",
+      "    // Disconnect Websocket Connection",
+      "    // Send Command"
+    ]
+  },
+  {
+    "file": "wss.client.deribit.js",
+    "comments": [
+      "    // Constructor",
+      "    // Get Next Command ID",
+      "    // Format Command",
+      "    // Authenticate websocket client"
+    ]
+  },
+  {
+    "file": "lang.en.js",
+    "comments": [
+      "// Language module for handling English (en) translations throughout the application"
+    ]
+  },
+  {
+    "file": "routes.api.js",
+    "comments": [
+      "// Create routes",
+      "        //route = baseapi + route",
+      "            // Get Reverse Proxy Address ",
+      "            // Get Source IP Address"
+    ]
+  },
+  {
+    "file": "routes.gui.js",
+    "comments": [
+      "// Create routes",
+      "        //route = baseapi + route",
+      "            // Get Reverse Proxy Address ",
+      "            // Get Source IP Address",
+      "            //if (await core.verify_access(uuid, ip)) {",
+      "                //res.send(result);"
+    ]
+  },
+  {
+    "file": "test.mod.config.js",
+    "comments": [
+      "// ================================================================================",
+      "//  Frostybot Unit Tests: Config Module (mod.config.js)",
+      "// ================================================================================",
+      "// Load all modules",
+      "// Load Unit Test Modules",
+      "// Unit Test Definitions",
+      "    // get()",
+      "    // set()"
+    ]
+  },
+  {
+    "file": "test.mod.encryption.js",
+    "comments": [
+      "// ================================================================================",
+      "//  Frostybot Unit Tests: Encryption Module (mod.encryption.js)",
+      "// ================================================================================",
+      "// Load all modules",
+      "// Load Unit Test Modules",
+      "// Unit Test Definitions",
+      "    // new_uuid()",
+      "    // core_uuid()",
+      "    // is_encrypted()",
+      "    // encrypt()",
+      "    // decrypt()"
+    ]
+  },
+  {
+    "file": "test.mod.user.js",
+    "comments": [
+      "// ================================================================================",
+      "//  Frostybot Unit Tests: Multi-User Module (mod.user.js)",
+      "// ================================================================================",
+      "// Load all modules",
+      "// Load Unit Test Modules",
+      "// Unit Test Definitions",
+      "    // multiuser_isenabled()",
+      "    // multiuser_enable()",
+      "    // multiuser_disable()"
+    ]
+  },
+  {
+    "file": "test.mod.utils.js",
+    "comments": [
+      "// ================================================================================",
+      "//  Frostybot Unit Tests: Helper Functions (mod.utils.js)",
+      "// ================================================================================",
+      "// Load all modules",
+      "// Load Unit Test Modules",
+      "// Unit Test Definitions",
+      "    // is_json()",
+      "    // is_string()",
+      "    // is_bool()",
+      "    // is_numeric()",
+      "    // is_true()",
+      "    // is_false()",
+      "    // is_object()",
+      "    // is_array()",
+      "    // is_empty()",
+      "    // is_ip()",
+      "    // force_array()",
+      "    // missing_props()",
+      "    // lower_props()",
+      "    // encrypt_values()",
+      "    // decrypt_values()",
+      "    // trim_values()",
+      "    // remove_props()",
+      "    // remove_values()",
+      "    // clean_object()",
+      "    // censor_props()",
+      "    // filter_objects()",
+      "    // extract_props()",
+      "    // base_dir()",
+      "    // num_decimals()",
+      "    // serialize_object()",
+      "    // serialize_array()",
+      "    // serialize()",
+      "    // uppercase_values()",
+      "    // lowercase_values()",
+      "    // uc_first()",
+      "    // uc_words()",
+      "    // validator()"
+    ]
+  },
+  {
+    "file": "globalize.culture.cs-CZ.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture cs-CZ",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.de-DE.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture de-DE",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.en-CA.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture en-CA",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.en-US.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture en-US",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.fr-FR.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture fr-FR",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.he-IL.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture he-IL",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.hr-HR.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture hr-HR",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.hu-HU.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture hu-HU",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.it-IT.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture it-IT",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.ja-JP.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture ja-JP",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.lt.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture lt",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.ru-RU.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture ru-RU",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.culture.sa-IN.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*",
+      " * Globalize Culture sa-IN",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " *",
+      " * This file was generated by the Globalize Culture Generator",
+      " * Translation: bugs found in this file need to be fixed in the generator",
+      " */",
+      "\t// Assume CommonJS",
+      "\t// Global variable"
+    ]
+  },
+  {
+    "file": "globalize.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "/*!",
+      " * Globalize",
+      " *",
+      " * http://github.com/jquery/globalize",
+      " *",
+      " * Copyright Software Freedom Conservancy, Inc.",
+      " * Dual licensed under the MIT or GPL Version 2 licenses.",
+      " * http://jquery.org/license",
+      " */",
+      "\t// private variables",
+      "\t// private JavaScript utility functions",
+      "\t// private Globalization utility functions",
+      "// Global variable (Globalize) or CommonJS module (globalize)",
+      "\t// Assume CommonJS",
+      "\t// Export as global variable",
+      "// 1. When defining a culture, all fields are required except the ones stated as optional.",
+      "// 2. Each culture should have a \".calendars\" object with at least one calendar named \"standard\"",
+      "//    which serves as the default calendar in use by that culture.",
+      "// 3. Each culture should have a \".calendar\" object which is the current calendar being used,",
+      "//    it may be dynamically changed at any time to one of the calendars in \".calendars\".",
+      "\t// A unique name for the culture in the form <language code>-<country/region code>",
+      "\t// the name of the culture in the english language",
+      "\t// the name of the culture in its own language",
+      "\t// whether the culture uses right-to-left text",
+      "\t// \"language\" is used for so-called \"specific\" cultures.",
+      "\t// For example, the culture \"es-CL\" means \"Spanish, in Chili\".",
+      "\t// It represents the Spanish-speaking culture as it is in Chili,",
+      "\t// which might have different formatting rules or even translations",
+      "\t// than Spanish in Spain. A \"neutral\" culture is one that is not",
+      "\t// specific to a region. For example, the culture \"es\" is the generic",
+      "\t// Spanish culture, which may be a more generalized version of the language",
+      "\t// that may or may not be what a specific culture expects.",
+      "\t// For a specific culture like \"es-CL\", the \"language\" field refers to the",
+      "\t// neutral, generic culture information for the language it is using.",
+      "\t// This is not always a simple matter of the string before the dash.",
+      "\t// For example, the \"zh-Hans\" culture is netural (Simplified Chinese).",
+      "\t// And the \"zh-SG\" culture is Simplified Chinese in Singapore, whose lanugage",
+      "\t// field is \"zh-CHS\", not \"zh\".",
+      "\t// This field should be used to navigate from a specific culture to it's",
+      "\t// more general, neutral culture. If a culture is already as general as it",
+      "\t// can get, the language may refer to itself.",
+      "\t// numberFormat defines general number formatting rules, like the digits in",
+      "\t// each grouping, the group separator, and how negative numbers are displayed.",
+      "\t\t// [negativePattern]",
+      "\t\t// Note, numberFormat.pattern has no \"positivePattern\" unlike percent and currency,",
+      "\t\t// but is still defined as an array for consistency with them.",
+      "\t\t//   negativePattern: one of \"(n)|-n|- n|n-|n -\"",
+      "\t\t// number of decimal places normally shown",
+      "\t\t// string that separates number groups, as in 1,000,000",
+      "\t\t// string that separates a number from the fractional portion, as in 1.99",
+      "\t\t// array of numbers indicating the size of each number group.",
+      "\t\t// TODO: more detailed description and example",
+      "\t\t// symbol used for positive numbers",
+      "\t\t// symbol used for negative numbers",
+      "\t\t// symbol used for NaN (Not-A-Number)",
+      "\t\t// symbol used for Negative Infinity",
+      "\t\t// symbol used for Positive Infinity",
+      "\t\t\t// [negativePattern, positivePattern]",
+      "\t\t\t//   negativePattern: one of \"-n %|-n%|-%n|%-n|%n-|n-%|n%-|-% n|n %-|% n-|% -n|n- %\"",
+      "\t\t\t//   positivePattern: one of \"n %|n%|%n|% n\"",
+      "\t\t\t// number of decimal places normally shown",
+      "\t\t\t// array of numbers indicating the size of each number group.",
+      "\t\t\t// TODO: more detailed description and example",
+      "\t\t\t// string that separates number groups, as in 1,000,000",
+      "\t\t\t// string that separates a number from the fractional portion, as in 1.99",
+      "\t\t\t// symbol used to represent a percentage",
+      "\t\t\t// [negativePattern, positivePattern]",
+      "\t\t\t//   negativePattern: one of \"($n)|-$n|$-n|$n-|(n$)|-n$|n-$|n$-|-n $|-$ n|n $-|$ n-|$ -n|n- $|($ n)|(n $)\"",
+      "\t\t\t//   positivePattern: one of \"$n|n$|$ n|n $\"",
+      "\t\t\t// number of decimal places normally shown",
+      "\t\t\t// array of numbers indicating the size of each number group.",
+      "\t\t\t// TODO: more detailed description and example",
+      "\t\t\t// string that separates number groups, as in 1,000,000",
+      "\t\t\t// string that separates a number from the fractional portion, as in 1.99",
+      "\t\t\t// symbol used to represent currency",
+      "\t// calendars defines all the possible calendars used by this culture.",
+      "\t// There should be at least one defined with name \"standard\", and is the default",
+      "\t// calendar used by the culture.",
+      "\t// A calendar contains information about how dates are formatted, information about",
+      "\t// the calendar's eras, a standard set of the date formats,",
+      "\t// translations for day and month names, and if the calendar is not based on the Gregorian",
+      "\t// calendar, conversion functions to and from the Gregorian calendar.",
+      "\t\t\t// name that identifies the type of calendar this is",
+      "\t\t\t// separator of parts of a date (e.g. \"/\" in 11/05/1955)",
+      "\t\t\t// separator of parts of a time (e.g. \":\" in 05:44 PM)",
+      "\t\t\t// the first day of the week (0 = Sunday, 1 = Monday, etc)",
+      "\t\t\t\t// full day names",
+      "\t\t\t\t// abbreviated day names",
+      "\t\t\t\t// shortest day names",
+      "\t\t\t\t// full month names (13 months for lunar calendards -- 13th month should be \"\" if not lunar)",
+      "\t\t\t\t// abbreviated month names",
+      "\t\t\t// AM and PM designators in one of these forms:",
+      "\t\t\t// The usual view, and the upper and lower case versions",
+      "\t\t\t//   [ standard, lowercase, uppercase ]",
+      "\t\t\t// The culture does not use AM or PM (likely all standard date formats use 24 hour time)",
+      "\t\t\t//   null",
+      "\t\t\t\t// eras in reverse chronological order.",
+      "\t\t\t\t// name: the name of the era in this culture (e.g. A.D., C.E.)",
+      "\t\t\t\t// start: when the era starts in ticks (gregorian, gmt), null if it is the earliest supported era.",
+      "\t\t\t\t// offset: offset in years from gregorian calendar",
+      "\t\t\t// when a two digit year is given, it will never be parsed as a four digit",
+      "\t\t\t// year greater than this year (in the appropriate era for the culture)",
+      "\t\t\t// Set it as a full year (e.g. 2029) or use an offset format starting from",
+      "\t\t\t// the current year: \"+19\" would correspond to 2029 if the current year 2010.",
+      "\t\t\t// set of predefined date and time patterns used by the culture",
+      "\t\t\t// these represent the format someone in this culture would expect",
+      "\t\t\t// to see given the portions of the date that are shown.",
+      "\t\t\t\t// short date pattern",
+      "\t\t\t\t// long date pattern",
+      "\t\t\t\t// short time pattern",
+      "\t\t\t\t// long time pattern",
+      "\t\t\t\t// long date, short time pattern",
+      "\t\t\t\t// long date, long time pattern",
+      "\t\t\t\t// month/day pattern",
+      "\t\t\t\t// month/year pattern",
+      "\t\t\t\t// S is a sortable format that does not vary by culture",
+      "\t\t\t// optional fields for each calendar:",
+      "\t\t\t/*",
+      "\t\t\tmonthsGenitive:",
+      "\t\t\t\tSame as months but used when the day preceeds the month.",
+      "\t\t\t\tOmit if the culture has no genitive distinction in month names.",
+      "\t\t\t\tFor an explaination of genitive months, see http://blogs.msdn.com/michkap/archive/2004/12/25/332259.aspx",
+      "\t\t\tconvert:",
+      "\t\t\t\tAllows for the support of non-gregorian based calendars. This convert object is used to",
+      "\t\t\t\tto convert a date to and from a gregorian calendar date to handle parsing and formatting.",
+      "\t\t\t\tThe two functions:",
+      "\t\t\t\t\tfromGregorian( date )",
+      "\t\t\t\t\t\tGiven the date as a parameter, return an array with parts [ year, month, day ]",
+      "\t\t\t\t\t\tcorresponding to the non-gregorian based year, month, and day for the calendar.",
+      "\t\t\t\t\ttoGregorian( year, month, day )",
+      "\t\t\t\t\t\tGiven the non-gregorian year, month, and day, return a new Date() object",
+      "\t\t\t\t\t\tset to the corresponding date in the gregorian calendar.",
+      "\t\t\t*/",
+      "\t// For localized strings",
+      "//",
+      "// private variables",
+      "//",
+      "//",
+      "// private JavaScript utility functions",
+      "//",
+      "\t// Handle a deep copy situation",
+      "\t\t// skip the boolean and the target",
+      "\t// Handle case when target is a string or something (possible in deep copy)",
+      "\t\t// Only deal with non-null/undefined values",
+      "\t\t\t// Extend the base object",
+      "\t\t\t\t// Prevent never-ending loop",
+      "\t\t\t\t// Recurse if we're merging plain objects or arrays",
+      "\t\t\t\t\t// Never move original objects, clone them",
+      "\t\t\t\t// Don't bring in undefined values",
+      "\t// Return the modified object",
+      "//",
+      "// private Globalization utility functions",
+      "//",
+      "\t// appends pre- and post- token match strings while removing escaped characters.",
+      "\t// Returns a single quote count which is used to determine if the token occurs",
+      "\t// in a string literal.",
+      "\t// expands unspecified or single character date formats into the full pattern.",
+      "\t\t// %X escape format -- intended as a custom format string that is only one character, not a built-in format.",
+      "\t\t\t\t// non-gregorian calendar, so we cannot use built-in toLocaleString()",
+      "\t// Start with an empty string",
+      "\t//function padZeros( num, c ) {",
+      "\t//\tvar r, s = num + \"\";",
+      "\t//\tif ( c > 1 && s.length < c ) {",
+      "\t//\t\tr = ( zeros[c - 2] + s);",
+      "\t//\t\treturn r.substr( r.length - c, c );",
+      "\t//\t}",
+      "\t//\telse {",
+      "\t//\t\tr = s;",
+      "\t//\t}",
+      "\t//\treturn r;",
+      "\t//}",
+      "\t\t// Save the current index",
+      "\t\t\t// Look for the next pattern",
+      "\t\t// Append the text before the pattern (or the end of the string if not found)",
+      "\t\t// do not replace any matches that occur inside a string literal.",
+      "\t\t\t\t//Day of the week, as a three-letter abbreviation",
+      "\t\t\t\t// Day of the week, using the full name",
+      "\t\t\t\t// Day of month, without leading zero for single-digit days",
+      "\t\t\t\t// Day of month, with leading zero for single-digit days",
+      "\t\t\t\t// Month, as a three-letter abbreviation",
+      "\t\t\t\t// Month, using the full name",
+      "\t\t\t\t// Month, as digits, with no leading zero for single-digit months",
+      "\t\t\t\t// Month, as digits, with leading zero for single-digit months",
+      "\t\t\t\t// Year, as two digits, but with no leading zero for years less than 10",
+      "\t\t\t\t// Year, as two digits, with leading zero for years less than 10",
+      "\t\t\t\t// Year represented by four full digits",
+      "\t\t\t\t// Hours with no leading zero for single-digit hours, using 12-hour clock",
+      "\t\t\t\t// Hours with leading zero for single-digit hours, using 12-hour clock",
+      "\t\t\t\t// Hours with no leading zero for single-digit hours, using 24-hour clock",
+      "\t\t\t\t// Hours with leading zero for single-digit hours, using 24-hour clock",
+      "\t\t\t\t// Minutes with no leading zero for single-digit minutes",
+      "\t\t\t\t// Minutes with leading zero for single-digit minutes",
+      "\t\t\t\t// Seconds with no leading zero for single-digit seconds",
+      "\t\t\t\t// Seconds with leading zero for single-digit seconds",
+      "\t\t\t\t// One character am/pm indicator (\"a\" or \"p\")",
+      "\t\t\t\t// Multicharacter am/pm indicator",
+      "\t\t\t\t// Deciseconds",
+      "\t\t\t\t// Centiseconds",
+      "\t\t\t\t// Milliseconds",
+      "\t\t\t\t// Time zone offset, no leading zero",
+      "\t\t\t\t// Time zone offset with leading zero",
+      "\t\t\t\t// Time zone offset with leading zero",
+      "\t\t\t\t\t// Hard coded \":\" separator, rather than using cal.TimeSeparator",
+      "\t\t\t\t\t// Repeated here for consistency, plus \":\" was already assumed in date parsing.",
+      "// formatNumber",
+      "\t\t\t\t/* falls through */",
+      "\t\t\t\t/* falls through */",
+      "\t\t\t\t\t// don't make 0 negative",
+      "\t// regular expression for matching date and time tokens in format strings.",
+      "\t\t// convert normal gregorian year to era-shifted gregorian",
+      "\t\t// year by subtracting the era offset",
+      "// parseExact",
+      "\t\t// expands 2-digit year into 4 digits.",
+      "\t\t// converts a format string into a regular expression with groups that",
+      "\t\t// can be used to extract date fields from a date string.",
+      "\t\t// check for a cached parse regex.",
+      "\t\t// expand single digit formats, then escape regular expression characters.",
+      "\t\t// iterate through each date token found.",
+      "\t\t\t// don't replace any matches that occur inside a string literal.",
+      "\t\t\t// add a regex group for the token.",
+      "\t\t// allow whitespace to differ when matching formats.",
+      "\t\t// cache the regex for this format.",
+      "\t\t// \"he-IL\" has non-breaking space in weekday names.",
+      "\t\t// try to parse the date string by matching against the format string",
+      "\t\t// while using the specified culture for date field names.",
+      "\t\t\t// convert date formats into regular expressions with groupings.",
+      "\t\t\t// use the regexp to determine the input format and extract the date fields.",
+      "\t\t// found a date format that matches the input.",
+      "\t\t// iterate the format groups to extract and set the date fields.",
+      "\t\t\t\t\t\t// Day of month.",
+      "\t\t\t\t\t\t// check that date is generally in valid range, also checking overflow below.",
+      "\t\t\t\t\t\t// Month.",
+      "\t\t\t\t\t\t// Hours (12-hour clock).",
+      "\t\t\t\t\t\t// Hours (24-hour clock).",
+      "\t\t\t\t\t\t// Minutes.",
+      "\t\t\t\t\t\t// Seconds.",
+      "\t\t\t\t\t\t// AM/PM designator.",
+      "\t\t\t\t\t\t// see if it is standard, upper, or lower case PM. If not, ensure it is at least one of",
+      "\t\t\t\t\t\t// the AM tokens. If not, fail the parse for this format.",
+      "\t\t\t\t\t\t// Deciseconds.",
+      "\t\t\t\t\t\t// Centiseconds.",
+      "\t\t\t\t\t\t// Milliseconds.",
+      "\t\t\t\t\t\t// Day of week.",
+      "\t\t\t\t\t\t// Day of week.",
+      "\t\t\t\t\t\t// Time zone offset in +/- hours:min.",
+      "\t\t\t\t\t\t// Time zone offset in +/- hours.",
+      "\t\t\t\t\t\t// could not find an era with that name",
+      "\t\t\t// year must be shifted to normal gregorian year",
+      "\t\t\t// but not if year was not specified, its already normal gregorian",
+      "\t\t\t// per the main if clause above.",
+      "\t\t// set default day and month to 1 and January, so if unspecified, these are the defaults",
+      "\t\t// instead of the current day/month.",
+      "\t\t// now have year, month, and date, but in the culture's calendar.",
+      "\t\t// convert to gregorian if necessary",
+      "\t\t\t// conversion failed, must be an invalid match",
+      "\t\t\t// have to set year, month and date together to avoid overflow based on current date.",
+      "\t\t\t// check to see if date overflowed for specified month (only checked 1-31 above).",
+      "\t\t\t// invalid day of week.",
+      "\t\t// if pm designator token was found make sure the hours fit the 24-hour clock.",
+      "\t\t\t// adjust timezone to utc before applying local offset.",
+      "\t\t\t// Safari limits hours and minutes to the range of -127 to 127.  We need to use setHours",
+      "\t\t\t// to ensure both these fields will not exceed this range.\tadjustedMin will range",
+      "\t\t\t// somewhere between -1440 and 1500, so we only need to split this into hours.",
+      "\t\t\t/* falls through */",
+      "\t\t\t/* falls through */",
+      "//",
+      "// public instance functions",
+      "//",
+      "//",
+      "// public singleton functions",
+      "//",
+      "\t\t// cultureName argument is optional string. If not specified, assume info is first",
+      "\t\t// and only argument. Specified info deep-extends current culture.",
+      "\t\t// baseCultureName argument is optional string. If not specified, assume info is second",
+      "\t\t// argument. Specified info deep-extends specified culture.",
+      "\t\t// If specified culture does not exist, create by deep-extending default",
+      "\t\t// cultureName and baseCultureName specified. Assume a new culture is being created",
+      "\t\t// by deep-extending an specified base culture",
+      "\t// Make the standard calendar the current culture if it's a new culture",
+      "\t\t// exact match",
+      "\t\t// neutral language match",
+      "\t\t\t\t// strip off the last part. e.g. en-US => en",
+      "\t\t// last resort: match first culture using that language",
+      "\t// radix argument is optional",
+      "\t\t// remove currency symbol",
+      "\t\t// replace decimal seperator",
+      "\t//Remove percentage character from number string before parsing",
+      "\t// remove spaces: leading, trailing and between - and number. Used for negative currency pt-BR",
+      "\t// allow infinity or hexidecimal",
+      "\t\t// determine sign and number",
+      "\t\t// #44 - try parsing as \"(n)\"",
+      "\t\t// try parsing as \"-n\"",
+      "\t\t// determine exponent and number",
+      "\t\t// determine decimal position",
+      "\t\t// handle groups (e.g. 1,000,000)",
+      "\t\t// build a natively parsable number string",
+      "\t\t\t// exponent itself may have a number patternd",
+      "\t// setter",
+      "\t// getter"
+    ]
+  },
+  {
+    "file": "jqx-all.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */",
+      "/*!",
+      "         * Sizzle CSS Selector Engine",
+      "         * Copyright 2012 JQXLite Foundation and other contributors",
+      "         * Released under the MIT license",
+      "         * http://sizzlejs.com/",
+      "         */"
+    ]
+  },
+  {
+    "file": "jqxangular.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxbargauge.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxbulletchart.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxbuttongroup.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxbuttons.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxcalendar.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxchart.annotations.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxchart.api.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxchart.core.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxchart.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxchart.rangeselector.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxchart.waterfall.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxcheckbox.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxcolorpicker.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxcombobox.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxcomplexinput.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxcore.elements.js",
+    "comments": []
+  },
+  {
+    "file": "jqxcore.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */",
+      "/*!",
+      "         * Sizzle CSS Selector Engine",
+      "         * Copyright 2012 JQXLite Foundation and other contributors",
+      "         * Released under the MIT license",
+      "         * http://sizzlejs.com/",
+      "         */"
+    ]
+  },
+  {
+    "file": "jqxdata.export.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdata.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdatatable.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdate.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdatetimeinput.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdocking.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdockinglayout.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdockpanel.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdragdrop.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdraw.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdropdownbutton.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxdropdownlist.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxeditor.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxexpander.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxexport.js",
+    "comments": [
+      "/* eslint-disable */",
+      "        /*",
+      "         * \"style\" object definition (all properties are optional):",
+      "         *",
+      "         * «any valid CSS property» - applied to whole table",
+      "         * header (Object)",
+      "         *      «any valid CSS property» - applied to header cells",
+      "         *      «any column name» (Object)",
+      "         *          «any valid CSS property» - applied to particular column header cell",
+      "         * columns (Object)",
+      "         *      «any valid CSS property» - applied to column cells",
+      "         *      «any column name» (Object)",
+      "         *          «any valid CSS property» - applied to the cells of particular column",
+      "         *          format - applicable to numeric and date columns",
+      "         *          «n» (Object), where «n» is a row index (related to use of \"ConditionalFormatting\" object)",
+      "         *              background",
+      "         *              border",
+      "         *              color",
+      "         * rows (Object)",
+      "         *      «any valid CSS property» - applied to rows",
+      "         *      alternationCount",
+      "         *      alternationStart",
+      "         *      alternationEnd",
+      "         *      alternationIndex«n»Color, where «n» is an integer",
+      "         *      alternationIndex«n»BorderColor, where «n» is an integer",
+      "         *      alternationIndex«n»BackgroundColor, where «n» is an integer",
+      "         *      «n» (Object), where «n» is a row index",
+      "         *          «any valid CSS property» - applied to particular row",
+      "         */",
+      "    /**",
+      "     * Generates and downloads a file.",
+      "     */",
+      "    /**",
+      "     * Exports data.",
+      "     */",
+      "            // eslint-disable-next-line",
+      "    /**",
+      "     * Exports to CSV and TSV.",
+      "     */",
+      "    /**",
+      "     * Exports to HTML.",
+      "     */",
+      "    /**",
+      "     * Exports to an image (PNG/JPEG).",
+      "     */",
+      "    /**",
+      "     * Gets merged cells information (for use in HTML and PDF export).",
+      "     */",
+      "    /**",
+      "     * Gets alternation index.",
+      "     */",
+      "    /**",
+      "     * Gets formatted numeric or date value (for use in HTML and PDF export).",
+      "     */",
+      "    /**",
+      "     * Exports to JSON.",
+      "     */",
+      "    /**",
+      "     * Exports to PDF.",
+      "     */",
+      "    /**",
+      "     * Gets the header content when exporting to PDF.",
+      "     */",
+      "    /**",
+      "     * Stores style in object to be applied to generated PDF.",
+      "     */",
+      "    /**",
+      "     * Enables column wrapping when exporting to PDF.",
+      "     */",
+      "    /**",
+      "     * Gets the header content when exporting to PDF.",
+      "     */",
+      "    /**",
+      "     * Creates group header rows when exporting to PDF.",
+      "     */",
+      "    /**",
+      "     * Gets unique cell style when exporting to PDF.",
+      "     */",
+      "    /**",
+      "     * Sets the indentation of a PDF cell.",
+      "     */",
+      "    /**",
+      "     * Exports to XLSX.",
+      "     */",
+      "            // eslint-disable-next-line",
+      "    /**",
+      "     * Processes grouping information.",
+      "     */",
+      "                // gets data type of column (not necessary if the Grid provides this information)",
+      "                                // makes sorting stable",
+      "    /**",
+      "     * Exports to XML.",
+      "     */",
+      "    /**",
+      "     * Formats a date.",
+      "     */",
+      "    /**",
+      "     * Formats a number.",
+      "     */",
+      "    /**",
+      "     * Generates auxiliary files necessary for XLSX.",
+      "     */",
+      "        // _rels\\.rels",
+      "        // docProps\\app.xml",
+      "        // docProps\\core.xml",
+      "        // xl\\_rels\\workbook.xml.rels",
+      "        // xl\\theme\\theme1.xml",
+      "        // xl\\workbook.xml",
+      "        // [Content_Types].xml",
+      "    /**",
+      "     * Generates default style object (for use in XLSX export).",
+      "     */",
+      "    /**",
+      "     * Generates group row.",
+      "     */",
+      "    /**",
+      "     * Generates sharedStrings.xml.",
+      "     */",
+      "    /**",
+      "     * Generates sheet1.xml.",
+      "     */",
+      "    /**",
+      "     * Generates sheet1.xml with grouping.",
+      "     */",
+      "    /**",
+      "     * Gets actual spreadsheet cell data.",
+      "     */",
+      "        // numeric cells",
+      "    /**",
+      "     * Gets column labels.",
+      "     */",
+      "    /**",
+      "     * Gets column style.",
+      "     */",
+      "    /**",
+      "     * Gets custom column widths.",
+      "     */",
+      "    /**",
+      "     * Returns customFilter tag.",
+      "     */",
+      "    /**",
+      "     * Gets custom row height.",
+      "     */",
+      "    /**",
+      "     * Gets datafields.",
+      "     */",
+      "    /**",
+      "     * Returns autoFilter XML.",
+      "     */",
+      "    /**",
+      "     * Gets group labels based on data.",
+      "     */",
+      "    /**",
+      "     * Gets the header content when exporting to HTML.",
+      "     */",
+      "    /**",
+      "     * Gets conditional formatting XML.",
+      "     */",
+      "    /**",
+      "     * Gets conditional formatting XML attributes.",
+      "     */",
+      "    /**",
+      "     * Gets merged cells XML.",
+      "     */",
+      "    /**",
+      "     * Gets numFmt index.",
+      "     */",
+      "    /**",
+      "        * Returns outlineLevel.",
+      "        */",
+      "    /**",
+      "     * Gets row style.",
+      "     */",
+      "    /**",
+      "     * Gets table style.",
+      "     */",
+      "    /**",
+      "     * Gets the \"s\" (style) attribute of an XLSX cell.",
+      "     */",
+      "    /**",
+      "     * Gets the \"s\" (style) attribute of an XLSX cell.",
+      "     */",
+      "    /**",
+      "     * Processes column styles.",
+      "     */",
+      "    /**",
+      "     * Processes complex header object.",
+      "     */",
+      "    /**",
+      "     * Processes hierarchical data.",
+      "     */",
+      "    /**",
+      "     * Processes nested hierarchical data.",
+      "     */",
+      "    /**",
+      "     * Processes row styles.",
+      "     */",
+      "    /**",
+      "     * Stores cell style in \"styleMap\" object.",
+      "     */",
+      "    /**",
+      "     * Returns an Alpha Red Green Blue color value.",
+      "     */",
+      "    /**",
+      "     * Adds toggleable functionality.",
+      "     */",
+      "    /**",
+      "     * Generates styles.xml.",
+      "     */",
+      "            // default style"
+    ]
+  },
+  {
+    "file": "jqxfileupload.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxform.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxformattedinput.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgauge.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.aggregates.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.chart.js",
+    "comments": [
+      "/* eslint-disable */",
+      "\t\t // 1. Let O be ? ToObject(this value).",
+      "\t\t  // 2. Let len be ? ToLength(? Get(O, \"length\")).",
+      "\t\t  // 3. If IsCallable(predicate) is false, throw a TypeError exception.",
+      "\t\t  // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.",
+      "\t\t  // 5. Let k be 0.",
+      "\t\t  // 6. Repeat, while k < len",
+      "\t\t\t// a. Let Pk be ! ToString(k).",
+      "\t\t\t// b. Let kValue be ? Get(O, Pk).",
+      "\t\t\t// c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).",
+      "\t\t\t// d. If testResult is true, return kValue.",
+      "\t\t\t// e. Increase k by 1.",
+      "\t\t  // 7. Return undefined.",
+      "\t\t // 1. Let O be ? ToObject(this value).",
+      "\t\t  // 2. Let len be ? ToLength(? Get(O, \"length\")).",
+      "\t\t  // 3. If IsCallable(predicate) is false, throw a TypeError exception.",
+      "\t\t  // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.",
+      "\t\t  // 5. Let k be 0.",
+      "\t\t  // 6. Repeat, while k < len",
+      "\t\t\t// a. Let Pk be ! ToString(k).",
+      "\t\t\t// b. Let kValue be ? Get(O, Pk).",
+      "\t\t\t// c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).",
+      "\t\t\t// d. If testResult is true, return k.",
+      "\t\t\t// e. Increase k by 1.",
+      "\t\t  // 7. Return -1."
+    ]
+  },
+  {
+    "file": "jqxgrid.columnsreorder.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.columnsresize.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.edit.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.export.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.filter.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.grouping.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.pager.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.selection.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.sort.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxgrid.storage.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxheatmap.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqximport.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */",
+      "            /* if (config.dataSource && config.dataSource.length > 0) {",
+      "                 const keys = Object.keys(config.dataSource[0]);",
+      "",
+      "                 //     that.dataFields = [];",
+      "",
+      "                 for (let i = 0; i < keys.length; i++) {",
+      "",
+      "                 }",
+      "             }",
+      "             */",
+      "        //const that = this;",
+      "        // build hierarchical source.",
+      "            // stdev, stdevp, var, varp.",
+      "            // stdev - Standard deviation on a sample.",
+      "            // varp - Variance on an entire population.",
+      "            // let - Variance on a sample.",
+      "            // Boolean properties are set based on the presence of the attribute: if the attribute exists at all, the value is true.",
+      "            // searches by both selectors when necessary.",
+      "                //let filteredCount = 0;",
+      "                        //filteredCount++;",
+      "            // gets data type of column (not necessary if the Grid provides this information)",
+      "                        // makes sorting stable",
+      "            // gets data type of column (not necessary if the Grid provides this information)",
+      "                        // makes sorting stable",
+      "        // prepare fetch config",
+      "        // fetch resource",
+      "                        // \"data\" represents the whole XLSX/ZIP file",
+      "                        // string",
+      "                        // boolean",
+      "                        // number or date"
+    ]
+  },
+  {
+    "file": "jqxinput.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxkanban.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxknob.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxknockout.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxlayout.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxlistbox.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxlistmenu.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxloader.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxmaskedinput.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxmaterialcolorpicker.js",
+    "comments": [
+      "/* tslint:disable */",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxmenu.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxnavbar.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxnavigationbar.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxnotification.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxnumberinput.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxpanel.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxpasswordinput.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxpivot.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxpivotdesigner.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxpivotgrid.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxpopover.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxprogressbar.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxradiobutton.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxrangeselector.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxrating.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxresponse.js",
+    "comments": []
+  },
+  {
+    "file": "jqxresponsivepanel.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxribbon.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxscheduler.api.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxscheduler.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxscrollbar.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxscrollview.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxslider.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxsortable.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxsplitter.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxswitchbutton.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtabs.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtagcloud.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtextarea.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtimepicker.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtoolbar.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtooltip.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtouch.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtree.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtreegrid.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxtreemap.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxvalidator.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "jqxwindow.js",
+    "comments": [
+      "/*",
+      "jQWidgets v11.0.1 (2020-Dec)",
+      "Copyright (c) 2011-2020 jQWidgets.",
+      "License: https://jqwidgets.com/license/",
+      "*/",
+      "/* eslint-disable */"
+    ]
+  },
+  {
+    "file": "frostybot.js",
+    "comments": [
+      "    // ---------------------------------------------------------",
+      "    //   Show Toast Message",
+      "    // ---------------------------------------------------------",
+      "    // Show success toast message",
+      "    // Show notice toast message",
+      "    // Show warning toast message",
+      "    // Show error toast message",
+      "    // ---------------------------------------------------------",
+      "    //   Cache Subsystem",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //   AJAX Loading Icon",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //   Form field validators",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //   API",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //   Session Management",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //  User Registration",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //  User Login",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //   Main Menu",
+      "    // ---------------------------------------------------------",
+      "        // get the clicked LI element.",
+      "            //if (tab_id == 'tab_accounts') {",
+      "            //    updateContent('table_accounts', {});",
+      "            //}",
+      "    // ---------------------------------------------------------",
+      "    //   Accounts Tab : Accounts Table",
+      "    // ---------------------------------------------------------",
+      "    // Accounts Tab Default Content",
+      "    // Account Table Content Hooks",
+      "        // Set Page Title",
+      "        // Show/Hide Content",
+      "        // Add Account Button",
+      "        // Refresh Accounts Table",
+      "        // Test Account",
+      "        // Edit Account",
+      "        // Delete Account",
+      "        // Account Config",
+      "    // ---------------------------------------------------------",
+      "    //   Accounts Tab : Accounts Form",
+      "    // ---------------------------------------------------------",
+      "    // Accounts Form Content Hooks",
+      "        // Show/Hide Content",
+      "        // Set Page Title",
+      "        // Dynamic Form Fields        ",
+      "        // Submit  Form",
+      "        // Cancel Form",
+      "            // Show/Hide Content",
+      "            // Set Page Title",
+      "    // ---------------------------------------------------------",
+      "    //   Accounts Tab : Account Config Management",
+      "    // ---------------------------------------------------------",
+      "    // Account Config Form Content Hooks",
+      "        // Show Form",
+      "        // Set title",
+      "        // Update Function",
+      "        // Load Pair Config Grid",
+      "        // Load Combo Boxes",
+      "        // Signal Provider Update",
+      "        // Max Positions Update",
+      "        // Default Size Update",
+      "        // Default Stop Trigger Update",
+      "        // Default Take Profit Update",
+      "        // Default Profit Size Update",
+      "        // Cancel Button",
+      "    // ---------------------------------------------------------",
+      "    //   Security Tab : Change Password Form",
+      "    // ---------------------------------------------------------",
+      "    // Secuurity Tab Content Hooks",
+      "        // Load 2FA form",
+      "        // Submit Change Password Form",
+      "    // ---------------------------------------------------------",
+      "    //   Security Tab : 2FA Form",
+      "    // ---------------------------------------------------------",
+      "    // Account Config Form Content Hooks",
+      "        // Enable 2FA button",
+      "        // Verify 2FA Submit",
+      "        // Unregister 2FA ",
+      "    // ---------------------------------------------------------",
+      "    //   Log Viewer",
+      "    // ---------------------------------------------------------",
+      "    // ---------------------------------------------------------",
+      "    //   Logout ",
+      "    // ---------------------------------------------------------"
+    ]
+  },
+  {
+    "file": "md5.js",
+    "comments": [
+      "/* there needs to be support for Unicode here,",
+      " * unless we pretend that we can redefine the MD-5",
+      " * algorithm for multi-byte characters (perhaps",
+      " * by adding every four 16-bit characters and",
+      " * shortening the sum to 32 bits). Otherwise",
+      " * I suggest performing MD-5 as if every character",
+      " * was two bytes--e.g., 0040 0025 = @%--but then",
+      " * how will an ordinary MD-5 sum be matched?",
+      " * There is no way to standardize text to something",
+      " * like UTF-8 before transformation; speed cost is",
+      " * utterly prohibitive. The JavaScript standard",
+      " * itself needs to look at this: it should start",
+      " * providing access to strings as preformed UTF-8",
+      " * 8-bit unsigned value arrays.",
+      " */",
+      "/* this function is much faster,",
+      "so if possible we use it. Some IEs",
+      "are the only ones I know of that",
+      "need the idiotic second function,",
+      "generated by an if clause.  */"
+    ]
+  },
+  {
+    "file": "mod.frostybot.js",
+    "comments": [
+      "    // Make an API call"
+    ]
+  }
+]

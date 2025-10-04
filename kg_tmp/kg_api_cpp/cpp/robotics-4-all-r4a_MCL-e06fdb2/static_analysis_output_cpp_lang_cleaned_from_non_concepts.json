@@ -1,0 +1,972 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "art localization particle filters ogm particle filter"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "particle filter"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "particle"
+    },
+    {
+      "imports": [
+        "art localization particle filters ogm particle"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "particle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "particle",
+          "params": [
+            "",
+            "height",
+            "",
+            "",
+            "resolution"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "theta",
+            "",
+            "particle"
+          ]
+        },
+        {
+          "name": "particle theta",
+          "params": [
+            "",
+            "",
+            "theta"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "theta"
+          ]
+        },
+        {
+          "name": "particle",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "particle",
+          "params": [
+            "angle",
+            "",
+            "height",
+            "",
+            "resolution",
+            ""
+          ],
+          "local_variables": [
+            "distance",
+            "",
+            "",
+            "particle",
+            "",
+            "",
+            "particle"
+          ]
+        },
+        {
+          "name": "particle sense",
+          "params": [
+            "rfid pose"
+          ],
+          "local_variables": [
+            "",
+            "rfid theta",
+            "particle theta",
+            "",
+            "",
+            "rfid theta",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "particle weight",
+          "params": [
+            "",
+            "height",
+            "",
+            "resolution",
+            "",
+            "",
+            "increment",
+            "angle",
+            "rfid pose",
+            "subs",
+            "strict"
+          ],
+          "local_variables": [
+            "distances",
+            "",
+            "",
+            "",
+            "weight",
+            "weight",
+            "particle",
+            "distances",
+            "",
+            "weight"
+          ]
+        },
+        {
+          "name": "particle calculate motion",
+          "params": [
+            "linear",
+            "angular",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "linear",
+            "angular"
+          ]
+        },
+        {
+          "name": "particle noise",
+          "params": [
+            "deviation"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "particle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "particle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "particle theta",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "particle weight",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "particle filter"
+    },
+    {
+      "imports": [
+        "art localization particle filters ogm particle filter"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "particle filter particle filter",
+          "params": [],
+          "local_variables": [
+            "",
+            "particle",
+            "linear",
+            "angular",
+            "current angular",
+            "current linear",
+            "",
+            "",
+            "motion",
+            "particles initialized",
+            "",
+            "",
+            "visualization pub",
+            "particles initialized",
+            "velocity",
+            "odometry",
+            "timer"
+          ]
+        },
+        {
+          "name": "particle filter particles",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "motion",
+            "current",
+            "",
+            "angular",
+            "linear",
+            "",
+            "motion"
+          ]
+        },
+        {
+          "name": "particle filter resample",
+          "params": [],
+          "local_variables": [
+            "average",
+            "",
+            "",
+            "",
+            "",
+            "particles",
+            "",
+            "beta",
+            "weight",
+            "",
+            "",
+            "",
+            "",
+            "average",
+            "",
+            "weight",
+            "",
+            "particles",
+            "average"
+          ]
+        },
+        {
+          "name": "particle filter velocity",
+          "params": [
+            "twist"
+          ],
+          "local_variables": [
+            "",
+            "current linear",
+            "current angular",
+            "",
+            "angular",
+            "linear",
+            "",
+            "motion",
+            "current",
+            "",
+            "angular",
+            "linear",
+            ""
+          ]
+        },
+        {
+          "name": "particle filter odometry",
+          "params": [
+            "odometry"
+          ],
+          "local_variables": [
+            "",
+            "current linear",
+            "current angular",
+            "",
+            "angular",
+            "linear",
+            "",
+            "motion",
+            "current",
+            "",
+            "angular",
+            "linear",
+            ""
+          ]
+        },
+        {
+          "name": "particle filter visualize",
+          "params": [
+            "resolution"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "pose initialized",
+            "",
+            "",
+            "",
+            "weight",
+            "",
+            "",
+            "",
+            "",
+            "transform",
+            "",
+            "frame",
+            "stamp",
+            "",
+            "action",
+            "",
+            "",
+            "scale",
+            "scale",
+            "scale",
+            "color",
+            "color",
+            "color",
+            "color",
+            "",
+            "",
+            "frame",
+            "stamp",
+            "",
+            "action",
+            "",
+            "",
+            "scale",
+            "scale",
+            "scale",
+            "color",
+            "color",
+            "color",
+            "color",
+            "weight",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "pose initialized",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "robot perception"
+    },
+    {
+      "imports": [
+        "art localization particle filters ogm robot perception"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "robot perception robot perception",
+          "params": [],
+          "local_variables": [
+            "map initialized",
+            "map",
+            "laser",
+            "rfid",
+            "rfid reader"
+          ]
+        },
+        {
+          "name": "robot perception map",
+          "params": [
+            "occupancy grid"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "map",
+            "map height",
+            "map resolution",
+            "map",
+            "map",
+            "map",
+            "map initialized"
+          ]
+        },
+        {
+          "name": "robot perception rfid",
+          "params": [
+            "rfid"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "rfid"
+          ]
+        },
+        {
+          "name": "robot perception rfid reader",
+          "params": [
+            "rfid reader"
+          ],
+          "local_variables": [
+            "rfid",
+            "rfid"
+          ]
+        },
+        {
+          "name": "robot perception rfid pose",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "robot perception laser",
+          "params": [
+            "laser scan"
+          ],
+          "local_variables": [
+            "",
+            "increment",
+            "angle",
+            "laser",
+            "",
+            "laser"
+          ]
+        },
+        {
+          "name": "robot perception map",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception map height",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception map resolution",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception map cell",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception map",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception laser",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception angle increment",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception angle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception rfid",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception rfid",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "robot perception rfid pose",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "particle"
+    },
+    {
+      "imports": [
+        "ros",
+        "ros",
+        "cstdlib",
+        "math"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "particle",
+          "attributes": [
+            "",
+            "",
+            "theta",
+            "",
+            "",
+            "dtheta",
+            "weight",
+            "particle",
+            "linear",
+            "angular"
+          ],
+          "methods": [
+            {
+              "name": "particle",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "particle",
+              "params": [
+                "",
+                "height",
+                "",
+                "",
+                "resolution"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "angle",
+                "",
+                "height",
+                "",
+                "resolution",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "sense",
+              "params": [
+                "rfid pose"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "particle weight",
+              "params": [
+                "",
+                "height",
+                "",
+                "resolution",
+                "",
+                "",
+                "increment",
+                "angle",
+                "rfid pose",
+                "subs",
+                "strict"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculate motion",
+              "params": [
+                "linear",
+                "angular",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "noise",
+              "params": [
+                "deviation"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "theta",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "weight",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "theta",
+              "params": [
+                "",
+                "",
+                "theta"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "particle filter"
+    },
+    {
+      "imports": [
+        "art localization particle filters ogm particle",
+        "art localization particle filters ogm robot perception",
+        "visualization marker",
+        "geometry twist",
+        "nav odometry",
+        "transform",
+        "transform broadcaster",
+        "art localization particle filters ogm particle srv"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "particle filter",
+          "attributes": [
+            "",
+            "particle initialization",
+            "visualization pub",
+            "velocity",
+            "odometry",
+            "current",
+            "",
+            "timer",
+            "",
+            "velocity topic",
+            "odometry topic",
+            "robot percept",
+            "particles",
+            "duration",
+            "noise",
+            "noise",
+            "current linear",
+            "current angular",
+            "linear",
+            "angular",
+            "particles",
+            "visualization",
+            "particles initialized",
+            "",
+            "motion",
+            "subs",
+            "strict",
+            "",
+            "",
+            "",
+            "theta"
+          ],
+          "methods": [
+            {
+              "name": "particle filter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "particles",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "visualize",
+              "params": [
+                "resolution"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "particles",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "velocity",
+              "params": [
+                "twist"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "odometry",
+              "params": [
+                "odometry"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resample",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "robot perception"
+    },
+    {
+      "imports": [
+        "ros",
+        "ros",
+        "nav occupancy grid",
+        "sensor laser scan",
+        "stdr rfid sensor measurement",
+        "stdr rfid",
+        "stdr rfid",
+        "fstream",
+        "sstream",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "robot perception",
+          "attributes": [
+            "",
+            "map topic",
+            "laser topic",
+            "rfid reader topic",
+            "rfid topic",
+            "map",
+            "laser",
+            "rfid reader",
+            "rfid",
+            "map",
+            "map height",
+            "map resolution",
+            "map",
+            "laser",
+            "rfid",
+            "rfid",
+            "rfid pose",
+            "rfid",
+            "rfid",
+            "rfid",
+            "rfid",
+            "",
+            "increment",
+            "angle",
+            "map initialized"
+          ],
+          "methods": [
+            {
+              "name": "robot perception",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "occupancy grid"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser",
+              "params": [
+                "laser scan"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rfid reader",
+              "params": [
+                "rfid reader"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rfid",
+              "params": [
+                "rfid"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rfid pose",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map height",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map resolution",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map cell",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "angle increment",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "angle",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "rfid",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "rfid",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "rfid pose",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

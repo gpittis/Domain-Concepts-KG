@@ -1,0 +1,5044 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_1",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "selectors",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "partitions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "selectivity",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "runid",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "sigma",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "indpb",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "mutpb",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "cxpb",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "constants",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "product",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "selector",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "evaluation",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "shlex",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "subprocess",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "numpy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "typing",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "termcolor colored",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "partitions",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution individual",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "objective soft maximum worst",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "trades",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "strategy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "andividual",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "command",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "repr",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "mate",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "instrument",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "strategy",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "objective",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "compress",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "period",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "normalized",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "normalized period",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "output",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "cmdline",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "normalize",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "period",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "convert",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "pct",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "minutes",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "runzen",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "cmdline",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ansi escape",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "profit",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "profit",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trades",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trades",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "zen",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "cmdline",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "days",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "periods",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "cmd",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_evaluation_1",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "days",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "partitions",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "delta",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "splits",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "fabfile",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "shlex",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "subprocess",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "fabric",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "fabric",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "fabric local",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "sim",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "instrument",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "days",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "popsize",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "strategy",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "cmd",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "remote",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "cmd",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "logfile",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "backfill remote",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "days",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "products",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "cmd",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "backfill local",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "days",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "products",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "cmd",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "halloffame",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "attrgetter",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "runid",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "objective hall fame",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "maxsize",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_objective hall fame_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "maxsize",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_objective hall fame_2",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "newpop",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "repr",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "report",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "persist",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_2",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "functools partial",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deap",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deap mut gaussian",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "scoop shared",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "termcolor colored",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "indpb",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sigma",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "partitions",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "selectors",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evaluation zen",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evaluation andividual",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution evolve",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "blue",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "green",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "instrument",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "days",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "popsize",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "popsize",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "strategy",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "strategy",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_FILE_ANON_GLOBAL_2_1",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "instrument",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "days",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "popsize",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "strategy",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "strategies",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "objective",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "soft maximum worst",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "ind",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_3",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "shlex",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "subprocess",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "trades",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "stuff",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "strategy",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "strat",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ansi escape",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "strats",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "groups",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "output",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "strategies",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ansi escape",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "strats",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "groups",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "output",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_4",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "zendividual",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "core",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deap history",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deap statistics",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "termcolor colored",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "cxpb",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "mutpb",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "stuff",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "algorithm",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "individual",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "popsize",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "map",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "breed",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "mutate",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "stats",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "history",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hof",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "population",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "population",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "offspring",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "mutants",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "survivors",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "population",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "group",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "population",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "map",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ind",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitnesses",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "breed",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "population",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "offspring",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "parent",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "parent",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "child",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "child",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "mutate",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "population",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "mutants",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "individual",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deepcopy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deap fitness",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "partitions",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "fitness",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "weights",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "individual",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "mate",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "mutate",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "fitness",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "objective",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "repr",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "deepcopy",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "memodict",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_individual_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "child",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "child",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "invert",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "mutant",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "selection",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "attrgetter",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "typing iterable",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "typing",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "termcolor colored",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "partitions",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution individual",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "harsh winter",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "population",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "elitist",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "specialist",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "elites",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "difference",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "specialists",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "survivors",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "difference",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "population",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "population",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "elites",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "individuals",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "elites",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "specialists",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "individuals",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "guilds",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "specialists",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "stuff",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "elites",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "specialists",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_5",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "networkx",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "numpy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deap statistics",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "matplotlib pyplot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "termcolor colored",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "runid",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "objective soft maximum worst",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "history",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "toolbox",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "graph",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "graph",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "colors inds",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "colors",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "stuff",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "history",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hof",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "population",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "stats",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "record",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "statsa",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "stats",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_6",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "functools partial",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "deap history",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "scoop futures",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution core algorithm",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution core breed",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution core mutate",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "halloffame objective hall fame",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "selection harsh winter",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "statsa",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "evolve",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "popsize",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "history",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "stats",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hof",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "evaluation",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evaluation fuzz product",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "strategy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "unittest patch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "strategies",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "asd",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "evolution",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution evolve",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "evolution individual",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "evolve",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "NESTED_CLASS",
+      "name": "individual",
+      "weight": 0.7,
+      "depth": 1
+    },
+    {
+      "type": "FILE",
+      "name": "integration",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "subprocess",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "unittest patch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "myoutput",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "cmdline",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "integration",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "objective",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "unittest magic",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "objective soft maximum worst",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_7",
+      "weight": 0.55,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "selectors",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "partitions",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "selectivity",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "runid",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "sigma",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "indpb",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "mutpb",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "cxpb",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "constants",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "constants",
+      "to": "product",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "constants",
+      "to": "selector",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "evaluation",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "shlex",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "subprocess",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "numpy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "typing",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "termcolor colored",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "partitions",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "evolution individual",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "objective soft maximum worst",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "trades",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "strategy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evaluation",
+      "to": "andividual",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "andividual",
+      "to": "command",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "repr",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "mate",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "instrument",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "strategy",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "objective",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "compress",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "compress",
+      "to": "period",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "compress",
+      "to": "normalized",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "compress",
+      "to": "normalized period",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "compress",
+      "to": "output",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "cmdline",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "normalize",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "normalize",
+      "to": "period",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "andividual",
+      "to": "convert",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evaluation",
+      "to": "pct",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evaluation",
+      "to": "minutes",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evaluation",
+      "to": "runzen",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "runzen",
+      "to": "cmdline",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "runzen",
+      "to": "ansi escape",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "runzen",
+      "to": "profit",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "runzen",
+      "to": "profit",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "runzen",
+      "to": "trades",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "runzen",
+      "to": "trades",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evaluation",
+      "to": "zen",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "zen",
+      "to": "cmdline",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "zen",
+      "to": "days",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "zen",
+      "to": "periods",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "zen",
+      "to": "fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "zen",
+      "to": "cmd",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "zen",
+      "to": "fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evaluation",
+      "to": "FUNCTION_ANON_evaluation_1",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_evaluation_1",
+      "to": "days",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_evaluation_1",
+      "to": "partitions",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_evaluation_1",
+      "to": "delta",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_evaluation_1",
+      "to": "splits",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "fabfile",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "fabfile",
+      "to": "shlex",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "fabfile",
+      "to": "subprocess",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "fabfile",
+      "to": "fabric",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "fabfile",
+      "to": "fabric",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "fabfile",
+      "to": "fabric local",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "fabfile",
+      "to": "sim",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "sim",
+      "to": "instrument",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "sim",
+      "to": "days",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "sim",
+      "to": "popsize",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "sim",
+      "to": "strategy",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "sim",
+      "to": "cmd",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "fabfile",
+      "to": "remote",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "remote",
+      "to": "cmd",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "remote",
+      "to": "logfile",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "fabfile",
+      "to": "backfill remote",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "backfill remote",
+      "to": "days",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "backfill remote",
+      "to": "products",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "backfill remote",
+      "to": "cmd",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "fabfile",
+      "to": "backfill local",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "backfill local",
+      "to": "days",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "backfill local",
+      "to": "products",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "backfill local",
+      "to": "cmd",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "halloffame",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "halloffame",
+      "to": "attrgetter",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "halloffame",
+      "to": "runid",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "halloffame",
+      "to": "objective hall fame",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "objective hall fame",
+      "to": "maxsize",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "objective hall fame",
+      "to": "METHOD_ANON_objective hall fame_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_objective hall fame_1",
+      "to": "maxsize",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "objective hall fame",
+      "to": "METHOD_ANON_objective hall fame_2",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_objective hall fame_2",
+      "to": "newpop",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "objective hall fame",
+      "to": "repr",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "repr",
+      "to": "report",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "objective hall fame",
+      "to": "persist",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "functools partial",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "deap",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "deap mut gaussian",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "scoop shared",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "termcolor colored",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "indpb",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "sigma",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "partitions",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "selectors",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "evaluation zen",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "evaluation andividual",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "evolution evolve",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "blue",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "green",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "instrument",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "days",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "popsize",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "popsize",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "strategy",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "strategy",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "FUNCTION_ANON_FILE_ANON_GLOBAL_2_1",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_2_1",
+      "to": "instrument",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_2_1",
+      "to": "days",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_2_1",
+      "to": "popsize",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_2_1",
+      "to": "strategy",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_2_1",
+      "to": "strategies",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "objective",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "objective",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "objective",
+      "to": "soft maximum worst",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "soft maximum worst",
+      "to": "ind",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "shlex",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "subprocess",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "trades",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "trades",
+      "to": "stuff",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "strategy",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "strategy",
+      "to": "strat",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategy",
+      "to": "ansi escape",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategy",
+      "to": "strats",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategy",
+      "to": "groups",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategy",
+      "to": "output",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "strategies",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategies",
+      "to": "ansi escape",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategies",
+      "to": "strats",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategies",
+      "to": "groups",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategies",
+      "to": "output",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_4",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "zendividual",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "core",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "core",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "core",
+      "to": "deap history",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "core",
+      "to": "deap statistics",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "core",
+      "to": "termcolor colored",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "core",
+      "to": "cxpb",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "core",
+      "to": "mutpb",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "core",
+      "to": "stuff",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "core",
+      "to": "algorithm",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "individual",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "popsize",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "breed",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "mutate",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "stats",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "history",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "algorithm",
+      "to": "hof",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "algorithm",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "algorithm",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "algorithm",
+      "to": "offspring",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "algorithm",
+      "to": "mutants",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "algorithm",
+      "to": "survivors",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "algorithm",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "core",
+      "to": "group",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "group",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "group",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "group",
+      "to": "ind",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "group",
+      "to": "fitnesses",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "core",
+      "to": "breed",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "breed",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "breed",
+      "to": "offspring",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "breed",
+      "to": "parent",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "breed",
+      "to": "parent",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "breed",
+      "to": "child",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "breed",
+      "to": "child",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "core",
+      "to": "mutate",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "mutate",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "mutate",
+      "to": "mutants",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "individual",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "individual",
+      "to": "deepcopy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "individual",
+      "to": "deap fitness",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "individual",
+      "to": "partitions",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "individual",
+      "to": "fitness",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "fitness",
+      "to": "weights",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "individual",
+      "to": "individual",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "individual",
+      "to": "mate",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "individual",
+      "to": "mutate",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "individual",
+      "to": "fitness",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "individual",
+      "to": "objective",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "individual",
+      "to": "repr",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "individual",
+      "to": "deepcopy",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "deepcopy",
+      "to": "memodict",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "individual",
+      "to": "METHOD_ANON_individual_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "METHOD_ANON_individual_1",
+      "to": "child",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "METHOD_ANON_individual_1",
+      "to": "child",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "individual",
+      "to": "invert",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "invert",
+      "to": "mutant",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "selection",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "selection",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "selection",
+      "to": "attrgetter",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "selection",
+      "to": "typing iterable",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "selection",
+      "to": "typing",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "selection",
+      "to": "termcolor colored",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "selection",
+      "to": "partitions",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "selection",
+      "to": "evolution individual",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "selection",
+      "to": "harsh winter",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "harsh winter",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "elitist",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "specialist",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "elites",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "difference",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "specialists",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "survivors",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "difference",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "harsh winter",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "selection",
+      "to": "elites",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "elites",
+      "to": "individuals",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "elites",
+      "to": "elites",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "selection",
+      "to": "specialists",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "specialists",
+      "to": "individuals",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "specialists",
+      "to": "guilds",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "specialists",
+      "to": "specialists",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "selection",
+      "to": "stuff",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "stuff",
+      "to": "elites",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "stuff",
+      "to": "specialists",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "networkx",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "numpy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "deap statistics",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "matplotlib pyplot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "termcolor colored",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "runid",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "objective soft maximum worst",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "to": "history",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "to": "toolbox",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "to": "graph",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "to": "graph",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "to": "colors inds",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "to": "colors",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_FILE_ANON_GLOBAL_5_1",
+      "to": "positions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "stuff",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "stuff",
+      "to": "history",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "stuff",
+      "to": "hof",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "stuff",
+      "to": "population",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "stuff",
+      "to": "stats",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "stuff",
+      "to": "record",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "statsa",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "statsa",
+      "to": "stats",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "functools partial",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "deap history",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "scoop futures",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "evolution core algorithm",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "evolution core breed",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "evolution core mutate",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "halloffame objective hall fame",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "selection harsh winter",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "statsa",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_6",
+      "to": "evolve",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "evolve",
+      "to": "popsize",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "evolve",
+      "to": "history",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "evolve",
+      "to": "stats",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "evolve",
+      "to": "hof",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "evaluation",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "evaluation fuzz product",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "strategy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evaluation",
+      "to": "unittest patch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evaluation",
+      "to": "strategies",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "strategies",
+      "to": "asd",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "evolution",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evolution",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evolution",
+      "to": "evolution evolve",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "evolution",
+      "to": "evolution individual",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "evolution",
+      "to": "evolve",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_NESTED_CLASS",
+      "from": "evolve",
+      "to": "individual",
+      "from_type": "FUNCTION",
+      "to_type": "NESTED_CLASS",
+      "from_weight": 0.9,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.766667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "integration",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "integration",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "integration",
+      "to": "subprocess",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "integration",
+      "to": "unittest patch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "integration",
+      "to": "myoutput",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "myoutput",
+      "to": "cmdline",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "integration",
+      "to": "integration",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "objective",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "objective",
+      "to": "unittest magic",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "objective",
+      "to": "objective soft maximum worst",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_7",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    }
+  ]
+}

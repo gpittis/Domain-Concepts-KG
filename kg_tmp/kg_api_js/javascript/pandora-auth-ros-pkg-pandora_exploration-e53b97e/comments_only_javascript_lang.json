@@ -1,0 +1,423 @@
+[
+  {
+    "file": "annotated.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_alignment_cost_function.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_distance_cost_function.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_exploration_controller.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_frontier.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_frontier_cost_function.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_frontier_goal_selector.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_frontier_path_generator.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_frontier_search.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_goal_selector.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_map_frontier_search.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_navfn_frontier_path_generator.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_navfn_service_frontier_path_generator.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_size_cost_function.js",
+    "comments": []
+  },
+  {
+    "file": "classpandora__exploration_1_1_visited_cost_function.js",
+    "comments": []
+  },
+  {
+    "file": "files.js",
+    "comments": []
+  },
+  {
+    "file": "hierarchy.js",
+    "comments": []
+  },
+  {
+    "file": "jquery.js",
+    "comments": [
+      "/*",
+      " * jQuery JavaScript Library v1.3.2",
+      " * http://jquery.com/",
+      " *",
+      " * Copyright (c) 2009 John Resig",
+      " * Dual licensed under the MIT and GPL licenses.",
+      " * http://docs.jquery.com/License",
+      " *",
+      " * Date: 2009-02-19 17:34:21 -0500 (Thu, 19 Feb 2009)",
+      " * Revision: 6246",
+      " */",
+      "/*",
+      " * Sizzle CSS Selector Engine - v0.9.3",
+      " *  Copyright 2009, The Dojo Foundation",
+      " *  Released under the MIT, BSD, and GPL Licenses.",
+      " *  More information: http://sizzlejs.com/",
+      " */",
+      "/*",
+      " * jQuery hashchange event - v1.3 - 7/21/2010",
+      " * http://benalman.com/projects/jquery-hashchange-plugin/",
+      " * ",
+      " * Copyright (c) 2010 \"Cowboy\" Ben Alman",
+      " * Dual licensed under the MIT and GPL licenses.",
+      " * http://benalman.com/about/license/",
+      " */",
+      "/*",
+      " * jQuery UI 1.7.2",
+      " *",
+      " * Copyright (c) 2009 AUTHORS.txt (http://jqueryui.com/about)",
+      " * Dual licensed under the MIT (MIT-LICENSE.txt)",
+      " * and GPL (GPL-LICENSE.txt) licenses.",
+      " *",
+      " * http://docs.jquery.com/UI",
+      " */",
+      "/**",
+      " * jQuery.ScrollTo - Easy element scrolling using jQuery.",
+      " * Copyright (c) 2008 Ariel Flesler - aflesler(at)gmail(dot)com",
+      " * Licensed under GPL license (http://www.opensource.org/licenses/gpl-license.php).",
+      " * Date: 2/8/2008",
+      " * @author Ariel Flesler",
+      " * @version 1.3.2",
+      " */"
+    ]
+  },
+  {
+    "file": "navtree.js",
+    "comments": []
+  },
+  {
+    "file": "navtreeindex.js",
+    "comments": []
+  },
+  {
+    "file": "resize.js",
+    "comments": []
+  },
+  {
+    "file": "all_61.js",
+    "comments": []
+  },
+  {
+    "file": "all_63.js",
+    "comments": []
+  },
+  {
+    "file": "all_64.js",
+    "comments": []
+  },
+  {
+    "file": "all_65.js",
+    "comments": []
+  },
+  {
+    "file": "all_66.js",
+    "comments": []
+  },
+  {
+    "file": "all_67.js",
+    "comments": []
+  },
+  {
+    "file": "all_68.js",
+    "comments": []
+  },
+  {
+    "file": "all_69.js",
+    "comments": []
+  },
+  {
+    "file": "all_6d.js",
+    "comments": []
+  },
+  {
+    "file": "all_6e.js",
+    "comments": []
+  },
+  {
+    "file": "all_6f.js",
+    "comments": []
+  },
+  {
+    "file": "all_70.js",
+    "comments": []
+  },
+  {
+    "file": "all_73.js",
+    "comments": []
+  },
+  {
+    "file": "all_76.js",
+    "comments": []
+  },
+  {
+    "file": "all_79.js",
+    "comments": []
+  },
+  {
+    "file": "all_7e.js",
+    "comments": []
+  },
+  {
+    "file": "classes_61.js",
+    "comments": []
+  },
+  {
+    "file": "classes_64.js",
+    "comments": []
+  },
+  {
+    "file": "classes_65.js",
+    "comments": []
+  },
+  {
+    "file": "classes_66.js",
+    "comments": []
+  },
+  {
+    "file": "classes_67.js",
+    "comments": []
+  },
+  {
+    "file": "classes_6d.js",
+    "comments": []
+  },
+  {
+    "file": "classes_6e.js",
+    "comments": []
+  },
+  {
+    "file": "classes_73.js",
+    "comments": []
+  },
+  {
+    "file": "classes_76.js",
+    "comments": []
+  },
+  {
+    "file": "files_61.js",
+    "comments": []
+  },
+  {
+    "file": "files_63.js",
+    "comments": []
+  },
+  {
+    "file": "files_64.js",
+    "comments": []
+  },
+  {
+    "file": "files_65.js",
+    "comments": []
+  },
+  {
+    "file": "files_66.js",
+    "comments": []
+  },
+  {
+    "file": "files_67.js",
+    "comments": []
+  },
+  {
+    "file": "files_6d.js",
+    "comments": []
+  },
+  {
+    "file": "files_6e.js",
+    "comments": []
+  },
+  {
+    "file": "files_73.js",
+    "comments": []
+  },
+  {
+    "file": "files_76.js",
+    "comments": []
+  },
+  {
+    "file": "functions_61.js",
+    "comments": []
+  },
+  {
+    "file": "functions_64.js",
+    "comments": []
+  },
+  {
+    "file": "functions_65.js",
+    "comments": []
+  },
+  {
+    "file": "functions_66.js",
+    "comments": []
+  },
+  {
+    "file": "functions_67.js",
+    "comments": []
+  },
+  {
+    "file": "functions_6d.js",
+    "comments": []
+  },
+  {
+    "file": "functions_6e.js",
+    "comments": []
+  },
+  {
+    "file": "functions_6f.js",
+    "comments": []
+  },
+  {
+    "file": "functions_70.js",
+    "comments": []
+  },
+  {
+    "file": "functions_73.js",
+    "comments": []
+  },
+  {
+    "file": "functions_76.js",
+    "comments": []
+  },
+  {
+    "file": "functions_79.js",
+    "comments": []
+  },
+  {
+    "file": "functions_7e.js",
+    "comments": []
+  },
+  {
+    "file": "namespaces_70.js",
+    "comments": []
+  },
+  {
+    "file": "related_6d.js",
+    "comments": []
+  },
+  {
+    "file": "search.js",
+    "comments": [
+      "// Search script generated by doxygen",
+      "// Copyright (C) 2009 by Dimitri van Heesch.",
+      "// The code in this file is loosly based on main.js, part of Natural Docs,",
+      "// which is Copyright (C) 2003-2008 Greg Valure",
+      "// Natural Docs is licensed under the GPL.",
+      "/* A class handling everything associated with the search panel.",
+      "",
+      "   Parameters:",
+      "   name - The name of the global variable that will be ",
+      "          storing this instance.  Is needed to be able to set timeouts.",
+      "   resultPath - path to use for external files",
+      "*/",
+      "  // ---------- Instance variables",
+      "  // ----------- DOM Elements",
+      "  // ------------ Event Handlers",
+      "  // Called when focus is added or removed from the search field.",
+      "      // show search selection popup",
+      "      // show search selection popup",
+      "    // stop selection hide timer",
+      "  // Called when the content of the search field is changed.",
+      "    // strip whitespaces",
+      "        // set timer for search update",
+      "  // Called when an search filter selection is made.",
+      "  // set item with index id as the active item",
+      "  // --------- Actions",
+      "  // Closes the results window.",
+      "  // Performs a search.",
+      "    // strip leading whitespace",
+      "  // -------- Activation Functions",
+      "  // Activates or deactivates the search panel, resetting things to ",
+      "  // their default values if necessary. ",
+      "// -----------------------------------------------------------------------",
+      "// The class that handles everything on the search results page.",
+      "    // The number of matches from the last run of <Search()>.",
+      "    // Toggles the visibility of the passed element ID.",
+      "    // Searches for the passed string.  If there is no parameter,",
+      "    // it takes it from the URL query.",
+      "    //",
+      "    // Always returns true, since other documents may try to call it",
+      "    // and that may or may not be possible.",
+      "    // return the first item with index index or higher that is visible"
+    ]
+  },
+  {
+    "file": "typedefs_64.js",
+    "comments": []
+  },
+  {
+    "file": "typedefs_66.js",
+    "comments": []
+  },
+  {
+    "file": "typedefs_67.js",
+    "comments": []
+  },
+  {
+    "file": "typedefs_6d.js",
+    "comments": []
+  },
+  {
+    "file": "variables_63.js",
+    "comments": []
+  },
+  {
+    "file": "variables_66.js",
+    "comments": []
+  },
+  {
+    "file": "variables_68.js",
+    "comments": []
+  },
+  {
+    "file": "variables_69.js",
+    "comments": []
+  },
+  {
+    "file": "variables_6d.js",
+    "comments": []
+  },
+  {
+    "file": "variables_6e.js",
+    "comments": []
+  },
+  {
+    "file": "variables_70.js",
+    "comments": []
+  },
+  {
+    "file": "variables_73.js",
+    "comments": []
+  }
+]

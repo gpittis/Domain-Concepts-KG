@@ -1,0 +1,3658 @@
+[
+  [
+    {
+      "file": "setup.py"
+    },
+    {
+      "imports": [
+        "distutils.core.setup",
+        "catkin_pkg.python_setup.generate_distutils_setup"
+      ]
+    },
+    {
+      "global_variables": [
+        "dist"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "agent_standalone.py"
+    },
+    {
+      "imports": [
+        "rospy",
+        "sys",
+        "pandora_fsm.Agent"
+      ]
+    },
+    {
+      "global_variables": [
+        "strategy",
+        "strategy",
+        "agent"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "mocks.py"
+    },
+    {
+      "imports": [
+        "rospy.init_node",
+        "rospy.spin",
+        "pandora_data_fusion_msgs.msg.ChooseVictimAction",
+        "pandora_data_fusion_msgs.msg.ValidateVictimAction",
+        "pandora_end_effector_controller.msg.MoveEndEffectorAction",
+        "pandora_exploration_msgs.msg.DoExplorationAction",
+        "pandora_fsm.topics",
+        "pandora_fsm.mocks.MockActionServer",
+        "pandora_fsm.mocks.MoveBaseServer",
+        "pandora_fsm.mocks.DataFusionServer",
+        "pandora_gui_msgs.msg.ValidateVictimGUIAction",
+        "pandora_data_fusion_msgs.msg.ChooseVictimAction",
+        "pandora_data_fusion_msgs.msg.ChooseVictimResult",
+        "pandora_data_fusion_msgs.msg.ValidateVictimAction",
+        "pandora_data_fusion_msgs.msg.ValidateVictimResult"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "config.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "VERIFICATION_THRESHOLD",
+        "IDENTIFICATION_THRESHOLD",
+        "VERIFICATION_TIMEOUT",
+        "STATE_CHANGE_TIMEOUT",
+        "MOVE_BASE_RETRY_LIMIT",
+        "MOVE_BASE_TIMEOUT",
+        "BASE_THRESHOLD"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "target.py"
+    },
+    {
+      "imports": [
+        "threading",
+        "pandora_data_fusion_msgs.msg.VictimInfo",
+        "config",
+        "utils.logger",
+        "utils.distance_2d"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Target",
+          "attributes": [
+            "dispatcher",
+            "info",
+            "verified",
+            "identified",
+            "is_empty"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "dispatcher"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "set",
+              "params": [
+                "self",
+                "info"
+              ],
+              "local_variables": [
+                "id",
+                "probability"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "update",
+              "params": [
+                "self",
+                "targets"
+              ],
+              "local_variables": [
+                "new_pose",
+                "old_pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "update_move_base_goal",
+              "params": [
+                "self",
+                "new_pose",
+                "old_pose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "is_verified",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "is_identified",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "clean",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "topics.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "delete_victim",
+        "validate_victim",
+        "visit_qr",
+        "get_world_model",
+        "choose_target",
+        "qr_notification",
+        "robocup_score",
+        "area_covered",
+        "world_model",
+        "gui_validation",
+        "robot_reset",
+        "robot_restart",
+        "destroy_agent",
+        "do_exploration",
+        "arena_type",
+        "move_base",
+        "state_changer",
+        "state_monitor",
+        "agent_interrupt",
+        "move_end_effector_controller"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "utils.py"
+    },
+    {
+      "imports": [
+        "numpy",
+        "signal",
+        "threading",
+        "time",
+        "logging",
+        "colorlog.ColoredFormatter",
+        "rospy.Duration",
+        "rospy.sleep"
+      ]
+    },
+    {
+      "global_variables": [
+        "FAILURE_STATES",
+        "ACTION_STATES",
+        "TERMINAL_STATES",
+        "GLOBAL_STATES",
+        "logger"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "listify",
+          "params": [
+            "obj"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "distance_2d",
+          "params": [
+            "pose_a",
+            "pose_b"
+          ],
+          "local_variables": [
+            "a",
+            "b"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "distance_3d",
+          "params": [
+            "pose_a",
+            "pose_b"
+          ],
+          "local_variables": [
+            "a",
+            "b"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "retry_action",
+          "params": [
+            "client",
+            "goal",
+            "timeout",
+            "msg"
+          ],
+          "local_variables": [
+            "timeout",
+            "success",
+            "goal_state",
+            "verbose_err"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "setup_logger",
+          "params": [],
+          "local_variables": [
+            "formatter",
+            "logger",
+            "handler"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "TimeoutException",
+          "attributes": [],
+          "methods": []
+        },
+        {
+          "name": "InterruptException",
+          "attributes": [],
+          "methods": []
+        },
+        {
+          "name": "TimeLimiter",
+          "attributes": [
+            "timeout",
+            "task"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "timeout"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__call__",
+              "params": [
+                "self",
+                "task"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "signal_handler",
+              "params": [
+                "self",
+                "signum",
+                "frame"
+              ],
+              "local_variables": [
+                "err_msg"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "Interrupt",
+          "attributes": [
+            "after",
+            "task"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "after"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__call__",
+              "params": [
+                "self",
+                "task"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "interrupt_handler",
+              "params": [
+                "self",
+                "signum",
+                "frame"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "Timer",
+          "attributes": [
+            "stop_flag",
+            "interval",
+            "callback",
+            "kwargs",
+            "args"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "stop_flag",
+                "interval",
+                "callback",
+                "args"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "run",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": [
+        "agent.Agent",
+        "target.Target",
+        "utils.TimeoutException",
+        "utils.TimeLimiter"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "data_fusion.py"
+    },
+    {
+      "imports": [
+        "actionlib.SimpleActionClient",
+        "actionlib.GoalStatus",
+        "pandora_data_fusion_msgs.msg.ChooseVictimAction",
+        "pandora_data_fusion_msgs.msg.ChooseVictimGoal",
+        "pandora_data_fusion_msgs.msg.ValidateVictimAction",
+        "pandora_data_fusion_msgs.msg.ValidateVictimGoal",
+        "pandora_data_fusion_msgs.msg.VisitQRActionGoal",
+        "pandora_data_fusion_msgs.msg.VisitQRAction",
+        "pandora_data_fusion_msgs.srv.GetWorldModel",
+        "rospy.wait_for_service",
+        "rospy.ServiceProxy",
+        "rospy.ServiceException",
+        "pandora_fsm.topics",
+        "pandora_fsm.utils.logger",
+        "pandora_fsm.utils.ACTION_STATES"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DataFusion",
+          "attributes": [
+            "verbose",
+            "deletion",
+            "validation",
+            "selection",
+            "visit"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "visit_qr",
+              "params": [
+                "self",
+                "qr_id"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "get_qrs",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "delete_victim",
+              "params": [
+                "self",
+                "victim_id"
+              ],
+              "local_variables": [
+                "goal",
+                "status",
+                "result",
+                "verbose_status"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "validate_victim",
+              "params": [
+                "self",
+                "victim_id",
+                "valid",
+                "verified"
+              ],
+              "local_variables": [
+                "goal",
+                "victim_status",
+                "status",
+                "result",
+                "verbose_status"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "announce_target",
+              "params": [
+                "self",
+                "victim_id"
+              ],
+              "local_variables": [
+                "goal",
+                "status",
+                "result",
+                "verbose_status"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "classify_target",
+              "params": [
+                "self",
+                "valid",
+                "verified"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "effector.py"
+    },
+    {
+      "imports": [
+        "functools.partial",
+        "time.sleep",
+        "actionlib.SimpleActionClient",
+        "pandora_end_effector_controller.msg.MoveEndEffectorAction",
+        "pandora_end_effector_controller.msg.MoveEndEffectorGoal",
+        "pandora_fsm.topics",
+        "pandora_fsm.utils.retry_action",
+        "pandora_fsm.utils.logger"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Effector",
+          "attributes": [
+            "verbose",
+            "client"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "verbose"
+              ],
+              "local_variables": [
+                "goal",
+                "func",
+                "goal",
+                "func"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "cancel_all_goals",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "point_to",
+              "params": [
+                "self",
+                "target",
+                "center"
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "slowly_point_to",
+              "params": [
+                "self",
+                "target",
+                "center"
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "scan",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "explorer.py"
+    },
+    {
+      "imports": [
+        "threading.Event",
+        "rospy.sleep",
+        "geometry_msgs.msg.PoseStamped",
+        "actionlib.GoalStatus",
+        "actionlib.SimpleActionClient",
+        "pandora_exploration_msgs.msg.DoExplorationAction",
+        "pandora_exploration_msgs.msg.DoExplorationGoal",
+        "pandora_fsm.topics",
+        "pandora_fsm.utils.logger",
+        "pandora_fsm.utils.TERMINAL_STATES",
+        "pandora_fsm.utils.ACTION_STATES"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Explorer",
+          "attributes": [
+            "dispatcher",
+            "client",
+            "verbose",
+            "exploration_pending",
+            "pose_stamped"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "dispatcher",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "explore",
+              "params": [
+                "self",
+                "exploration_type"
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "cancel_all_goals",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "exploration_done",
+              "params": [
+                "self",
+                "status",
+                "result"
+              ],
+              "local_variables": [
+                "verbose_status"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "gui.py"
+    },
+    {
+      "imports": [
+        "time.sleep",
+        "actionlib.SimpleActionClient",
+        "actionlib.GoalStatus",
+        "pandora_gui_msgs.msg.ValidateVictimGUIAction",
+        "pandora_gui_msgs.msg.ValidateVictimGUIGoal",
+        "pandora_fsm.topics",
+        "pandora_fsm.utils.ACTION_STATES",
+        "pandora_fsm.utils.logger"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "GUI",
+          "attributes": [
+            "verbose",
+            "gui_result",
+            "client"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "cancel_all_goals",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "send_request",
+              "params": [
+                "self",
+                "target"
+              ],
+              "local_variables": [
+                "goal",
+                "status",
+                "verbose_status"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "result",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "navigator.py"
+    },
+    {
+      "imports": [
+        "math.pi",
+        "threading.Event",
+        "time.sleep",
+        "geometry_msgs.msg.PoseStamped",
+        "actionlib.GoalStatus",
+        "actionlib.SimpleActionClient",
+        "move_base_msgs.msg.MoveBaseAction",
+        "move_base_msgs.msg.MoveBaseGoal",
+        "tf.transformations.euler_from_quaternion",
+        "tf.transformations.quaternion_from_euler",
+        "pandora_fsm.topics",
+        "pandora_fsm.utils.ACTION_STATES",
+        "pandora_fsm.utils.TERMINAL_STATES",
+        "pandora_fsm.utils.logger"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Navigator",
+          "attributes": [
+            "verbose",
+            "dispatcher",
+            "client",
+            "base_pending",
+            "current_pose",
+            "target_pose"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "dispatcher",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "cancel_all_goals",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "move_base",
+              "params": [
+                "self",
+                "target"
+              ],
+              "local_variables": [
+                "roll",
+                "pitch",
+                "yaw",
+                "transformend_orientation",
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "move_base_done",
+              "params": [
+                "self",
+                "status",
+                "result"
+              ],
+              "local_variables": [
+                "verbose_status"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "base_feedback",
+              "params": [
+                "self",
+                "pose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": [
+        "navigator.Navigator",
+        "explorer.Explorer",
+        "data_fusion.DataFusion",
+        "effector.Effector",
+        "gui.GUI"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "machine.py"
+    },
+    {
+      "imports": [
+        "functools.partial",
+        "collections.OrderedDict",
+        "pandora_fsm.utils.listify",
+        "state.State",
+        "event.Event",
+        "transition.Transition"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Machine",
+          "attributes": [
+            "model",
+            "states",
+            "events",
+            "current_state",
+            "send_event",
+            "auto_transitions",
+            "_initial"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "model",
+                "states",
+                "initial",
+                "transitions",
+                "send_event",
+                "auto_transitions",
+                "ordered_transitions"
+              ],
+              "local_variables": [
+                "initial",
+                "transitions"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "is_state",
+              "params": [
+                "self",
+                "state"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "get_state",
+              "params": [
+                "self",
+                "state"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "set_state",
+              "params": [
+                "self",
+                "state"
+              ],
+              "local_variables": [
+                "state"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "add_state",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "add_states",
+              "params": [
+                "self",
+                "states",
+                "on_enter",
+                "on_exit"
+              ],
+              "local_variables": [
+                "states",
+                "state",
+                "state",
+                "state_name"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "add_transition",
+              "params": [
+                "self",
+                "trigger",
+                "source",
+                "dest",
+                "conditions",
+                "unless",
+                "before",
+                "after"
+              ],
+              "local_variables": [
+                "source",
+                "transition"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "add_ordered_transitions",
+              "params": [
+                "self",
+                "states",
+                "trigger",
+                "loop",
+                "loop_includes_initial"
+              ],
+              "local_variables": [
+                "states"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "callback",
+              "params": [
+                "self",
+                "func",
+                "event_data"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__getattr__",
+              "params": [
+                "self",
+                "name"
+              ],
+              "local_variables": [
+                "terms",
+                "name",
+                "state"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "MachineError",
+          "attributes": [
+            "value"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "value"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__str__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "state.py"
+    },
+    {
+      "imports": [
+        "pandora_fsm.utils.listify"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "State",
+          "attributes": [
+            "name",
+            "on_enter",
+            "on_exit"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "name",
+                "on_enter",
+                "on_exit"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "enter",
+              "params": [
+                "self",
+                "event_data"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "exit",
+              "params": [
+                "self",
+                "event_data"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "add_callback",
+              "params": [
+                "self",
+                "trigger",
+                "func"
+              ],
+              "local_variables": [
+                "callback_list"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "empty",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "transition.py"
+    },
+    {
+      "imports": [
+        "pandora_fsm.utils.listify"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Transition",
+          "attributes": [
+            "source",
+            "dest",
+            "before",
+            "after",
+            "conditions"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "source",
+                "dest",
+                "conditions",
+                "unless",
+                "before",
+                "after"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "execute",
+              "params": [
+                "self",
+                "event_data"
+              ],
+              "local_variables": [
+                "machine"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "add_callback",
+              "params": [
+                "self",
+                "trigger",
+                "func"
+              ],
+              "local_variables": [
+                "callback_list"
+              ],
+              "nested_functions": []
+            }
+          ],
+          "nested_classes": [
+            {
+              "name": "Condition",
+              "attributes": [
+                "func",
+                "target"
+              ],
+              "methods": [
+                {
+                  "name": "__init__",
+                  "params": [
+                    "self",
+                    "func",
+                    "target"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "check",
+                  "params": [
+                    "self",
+                    "model"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": [
+        "machine.Machine",
+        "state.State"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "action_servers.py"
+    },
+    {
+      "imports": [
+        "rospy.loginfo",
+        "rospy.logwarn",
+        "rospy.sleep",
+        "rospy.Subscriber",
+        "roslib",
+        "std_msgs.msg.String",
+        "std_msgs.msg.Bool",
+        "actionlib.SimpleActionServer",
+        "msgs.create_victim_info",
+        "msgs.create_world_model",
+        "move_base_msgs.msg",
+        "move_base_msgs.msg.MoveBaseAction",
+        "pandora_data_fusion_msgs.msg.ChooseVictimAction",
+        "pandora_data_fusion_msgs.msg.ChooseVictimResult",
+        "pandora_data_fusion_msgs.msg.ValidateVictimAction",
+        "pandora_data_fusion_msgs.msg.ValidateVictimResult",
+        "pandora_gui_msgs.msg.ValidateVictimGUIResult"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MockActionServer",
+          "attributes": [
+            "_topic",
+            "_name",
+            "_action_type",
+            "timeout",
+            "action_result",
+            "_server"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "name",
+                "topic",
+                "action_type"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "receive_commands",
+              "params": [
+                "self",
+                "msg"
+              ],
+              "local_variables": [
+                "callback",
+                "timeout"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "abort",
+              "params": [
+                "self",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "success",
+              "params": [
+                "self",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "preempt",
+              "params": [
+                "self",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "set_gui_result",
+              "params": [
+                "self",
+                "msg"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "DataFusionServer",
+          "attributes": [
+            "name",
+            "result",
+            "topic",
+            "action_type",
+            "timeout",
+            "server"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "name",
+                "topic",
+                "action_type",
+                "result_type"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "receive_commands",
+              "params": [
+                "self",
+                "msg"
+              ],
+              "local_variables": [
+                "callback",
+                "timeout"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "create_random_world_model",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "victims",
+                "visited"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "success",
+              "params": [
+                "self",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "abort",
+              "params": [
+                "self",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "MoveBaseServer",
+          "attributes": [
+            "_name",
+            "action_result",
+            "_feedback",
+            "_result",
+            "abort_with_feedback",
+            "_topic",
+            "_server",
+            "timeout"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "name",
+                "topic"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "receive_commands",
+              "params": [
+                "self",
+                "msg"
+              ],
+              "local_variables": [
+                "callback",
+                "timeout"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "execute",
+              "params": [
+                "self",
+                "goal"
+              ],
+              "local_variables": [
+                "success",
+                "start_x",
+                "start_y",
+                "goal_x",
+                "goal_y",
+                "_result"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "msgs.py"
+    },
+    {
+      "imports": [
+        "random.randint",
+        "random.random",
+        "rospy",
+        "roslib",
+        "geometry_msgs.msg.PoseStamped",
+        "geometry_msgs.msg.Pose",
+        "geometry_msgs.msg.Point",
+        "geometry_msgs.msg.Quaternion",
+        "pandora_data_fusion_msgs.msg.WorldModel",
+        "pandora_data_fusion_msgs.msg.VictimInfo"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "create_pose",
+          "params": [],
+          "local_variables": [
+            "msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "create_point",
+          "params": [
+            "x",
+            "y",
+            "z"
+          ],
+          "local_variables": [
+            "msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "create_quaternion",
+          "params": [
+            "x",
+            "y",
+            "z",
+            "w"
+          ],
+          "local_variables": [
+            "msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "create_pose_stamped",
+          "params": [],
+          "local_variables": [
+            "msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "create_victim_info",
+          "params": [
+            "id",
+            "victim_frame_id",
+            "sensors",
+            "valid",
+            "probability"
+          ],
+          "local_variables": [
+            "msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "create_world_model",
+          "params": [
+            "victims",
+            "visitedVictims"
+          ],
+          "local_variables": [
+            "msg"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "publishers.py"
+    },
+    {
+      "imports": [
+        "random.randint",
+        "random.random",
+        "rospy",
+        "rospy.loginfo",
+        "rospy.sleep",
+        "rospy.Publisher",
+        "rospy.Subscriber",
+        "rospy.Timer",
+        "rospy.Duration",
+        "roslib",
+        "std_msgs.msg.String",
+        "std_msgs.msg.Int32",
+        "pandora_fsm.topics",
+        "geometry_msgs.msg.PoseStamped",
+        "geometry_msgs.msg.Pose",
+        "geometry_msgs.msg.Point",
+        "geometry_msgs.msg.Quaternion",
+        "pandora_data_fusion_msgs.msg.WorldModel",
+        "pandora_data_fusion_msgs.msg.VictimInfo",
+        "msgs"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "WorldModelPub",
+          "attributes": [
+            "_pub"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "send_random",
+              "params": [
+                "self",
+                "duration",
+                "new_victims",
+                "old_victims"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "send_custom",
+              "params": [
+                "self",
+                "victims",
+                "visited",
+                "duration"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": [
+        "__future__.absolute_import",
+        "action_servers.MockActionServer",
+        "action_servers.MoveBaseServer",
+        "action_servers.DataFusionServer",
+        "publishers.WorldModelPub"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "end.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "state_manager_msgs.msg.RobotModeMsg",
+        "pandora_fsm.Agent"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestEndState",
+          "attributes": [
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_global_state_change",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "final"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "exploration.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "threading.Thread",
+        "mock.patch",
+        "rospy",
+        "roslib",
+        "rospy.Publisher",
+        "rospy.sleep",
+        "std_msgs.msg.String",
+        "state_manager_msgs.msg.RobotModeMsg",
+        "pandora_fsm.Agent",
+        "pandora_fsm.mocks.msgs",
+        "pandora_fsm.utils.logger"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestExplorationState",
+          "attributes": [
+            "agent",
+            "explorer",
+            "events"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "random_victims",
+              "params": [
+                "self",
+                "times",
+                "delay"
+              ],
+              "local_variables": [
+                "visited",
+                "victim",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_target_found_after_exploration",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_to_end",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_long_wait_for_victim",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_retry_on_explorer_abort",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_retry_on_explorer_reject",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_poi_found_once",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_global_state_change",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "final"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_with_target_on_enter",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_with_available_targets",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_with_wrong_target",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_wrong_target_with_available_victims",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target",
+                "target2"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fusion_validation.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "rospy.Publisher",
+        "std_msgs.msg.String",
+        "pandora_fsm.Agent",
+        "pandora_fsm.mocks.msgs"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestFusionValidationState",
+          "attributes": [
+            "agent",
+            "fusion_validate",
+            "target"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_true_positive",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_false_positive",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_true_negative",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_false_negative",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_invalid_victim",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "identification.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "threading.Thread",
+        "mock.patch",
+        "rospy",
+        "roslib",
+        "rospy.Publisher",
+        "rospy.sleep",
+        "std_msgs.msg.String",
+        "geometry_msgs.msg.PoseStamped",
+        "geometry_msgs.msg.Pose",
+        "pandora_data_fusion_msgs.msg.WorldModel",
+        "state_manager_msgs.msg.RobotModeMsg",
+        "pandora_fsm.Agent",
+        "pandora_fsm.mocks.msgs",
+        "pandora_fsm.config"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestIdentificationState",
+          "attributes": [
+            "move_base_mock",
+            "agent",
+            "events"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "send_updated_pose",
+              "params": [
+                "self",
+                "delay"
+              ],
+              "local_variables": [
+                "pose_stamped",
+                "target",
+                "msg"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "send_identified_victim",
+              "params": [
+                "self",
+                "delay",
+                "probability"
+              ],
+              "local_variables": [
+                "target",
+                "msg"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_global_state_change",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "final"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_identification_with_move_base",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_identification_with_high_probability",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_identification_with_convergence",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_abort_victim",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_unresponsive_move_base",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_update_move_base",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "x",
+                "y"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_update_move_base_timer",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "x",
+                "y",
+                "pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_no_move_base_update",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "x",
+                "y"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "init.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "rospy.Publisher",
+        "std_msgs.msg.String",
+        "state_manager_msgs.msg.RobotModeMsg",
+        "pandora_fsm.Agent",
+        "pandora_fsm.TimeoutException",
+        "pandora_fsm.TimeLimiter"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestInitState",
+          "attributes": [
+            "effector_mock",
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_init_to_exploration",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_initialization_with_effector_failure",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "init_wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "init_wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "test_global_state_change",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "initial_state",
+                "final_state"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "operator_validation.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "rospy.Publisher",
+        "std_msgs.msg.String",
+        "std_msgs.msg.Bool",
+        "pandora_fsm.Agent",
+        "pandora_fsm.mocks.msgs"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestOperatorValidationState",
+          "attributes": [
+            "agent",
+            "gui",
+            "gui_result"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_to_fusion_validation_by_success",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_to_fusion_validation_by_abort",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_update_victims_valid",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_update_victims_invalid",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "sensor_hold.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "threading.Thread",
+        "rospy",
+        "roslib",
+        "rospy.sleep",
+        "state_manager_msgs.msg.RobotModeMsg",
+        "pandora_fsm.Agent",
+        "pandora_fsm.mocks.msgs",
+        "pandora_fsm.config"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestSensorHoldState",
+          "attributes": [
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "send_victim",
+              "params": [
+                "self",
+                "delay",
+                "probability"
+              ],
+              "local_variables": [
+                "victim",
+                "visited",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_to_operator_validation",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_to_fusion_validation",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_global_state_change",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "final"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "victim_deletion.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "time.sleep",
+        "roslib",
+        "rospy",
+        "pandora_fsm.Agent",
+        "pandora_fsm.mocks.msgs",
+        "rospy.Publisher",
+        "std_msgs.msg.String"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestVictimDeletionState",
+          "attributes": [
+            "delete_victim_mock",
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_delete_victim_success",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_delete_victim_fail",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fsm_framework.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "pandora_fsm.fsm.Machine",
+        "pandora_fsm.fsm.State"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Stuff",
+          "attributes": [
+            "state",
+            "machine",
+            "message",
+            "exit_message"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "this_passes",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "this_fails",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "goodbye",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "hello_world",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "hello_F",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "set_message",
+              "params": [
+                "self",
+                "message"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "extract_message",
+              "params": [
+                "self",
+                "event_data"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "on_enter_E",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "on_exit_E",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "on_enter_F",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "InheritedStuff",
+          "attributes": [
+            "state"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "states",
+                "initial"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "this_passes",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "this_fails",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "TestTransitions",
+          "attributes": [
+            "stuff"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "tearDown",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_init_machine_with_hella_arguments",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states",
+                "transitions",
+                "s"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_transition_definitions",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states",
+                "transitions",
+                "m",
+                "transitions",
+                "m"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_transitioning",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "s"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_conditions",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "s"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_multiple_add_transitions_from_state",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "s"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_use_machine_as_model",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states",
+                "m"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_state_change_listeners",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "s"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_state_model_change_listeners",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "s"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_inheritance",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states",
+                "s"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_send_event_data",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states",
+                "s",
+                "m"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_auto_transitions",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states",
+                "m",
+                "m"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_ordered_transitions",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "states",
+                "m",
+                "m",
+                "m",
+                "m"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_silent_wrong_transition",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "state",
+                "m"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "utilities.py"
+    },
+    {
+      "imports": [
+        "threading",
+        "time",
+        "unittest",
+        "mock.patch",
+        "roslib",
+        "rospy.Subscriber",
+        "geometry_msgs.msg.PoseStamped",
+        "pandora_fsm.utils.distance_2d",
+        "pandora_fsm.utils.distance_3d",
+        "pandora_fsm.utils.Timer",
+        "pandora_fsm.Agent",
+        "pandora_fsm.Explorer",
+        "pandora_fsm.Navigator",
+        "pandora_fsm.DataFusion",
+        "pandora_fsm.GUI",
+        "pandora_fsm.Effector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestUtils",
+          "attributes": [
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_agent_initialization",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_load",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_distance_2d",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "a",
+                "b"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_distance_3d",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "a",
+                "b"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "ThreadTimer",
+          "attributes": [
+            "flag"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "callback",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "callback_kwargs",
+              "params": [
+                "self",
+                "arg",
+                "a",
+                "b"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_simple_call",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_no_calls",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_restart",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_passing_arguments",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "args"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "world_model.py"
+    },
+    {
+      "imports": [
+        "threading.Thread",
+        "unittest",
+        "mock.patch",
+        "roslib",
+        "time.sleep",
+        "pandora_fsm.mocks.msgs",
+        "pandora_fsm.mocks.WorldModelPub",
+        "pandora_fsm.config",
+        "pandora_fsm.Agent"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "empty",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "WorldModelSub",
+          "attributes": [
+            "agent",
+            "world_model"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_connection",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_update_target",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current_victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_choose_new_victim",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current_victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_non_existent_victim",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target",
+                "target2",
+                "visited",
+                "current_victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_identification_threshold",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current_victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_verification_threshold",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current_victims",
+                "model"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "ChooseTarget",
+          "attributes": [
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_empty_targets",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "targets",
+                "next_target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_with_one_target",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target",
+                "next_target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_equal_distance_targets",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target1",
+                "target2",
+                "next_target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_with_normal_targets",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target1",
+                "target2",
+                "target3",
+                "next_target"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "data_fusion.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "pandora_fsm.clients.DataFusion",
+        "std_msgs.msg.String",
+        "actionlib_msgs.msg.GoalStatus"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestDeleteVictim",
+          "attributes": [
+            "mock_deletion",
+            "df"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_victim_deletion_success",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_victim_deletion_abort",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_classification",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res",
+                "res",
+                "res",
+                "res"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "effector.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "rospy.Publisher",
+        "rospy.sleep",
+        "std_msgs.msg.String",
+        "actionlib_msgs.msg.GoalStatus",
+        "pandora_fsm.mocks.msgs",
+        "pandora_fsm.Agent",
+        "pandora_fsm.TimeLimiter",
+        "pandora_fsm.TimeoutException"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestEndEffector",
+          "attributes": [
+            "effector_mock",
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_park_end_effector",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "infinite_delay",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "test_end_effector",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "infinite_delay",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "test_scan",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_point_sensors",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "explorer.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "rospy.Publisher",
+        "rospy.sleep",
+        "std_msgs.msg.String",
+        "actionlib_msgs.msg.GoalStatus",
+        "pandora_fsm.Agent"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestExplorer",
+          "attributes": [
+            "explorer_mock",
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_explore",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_preempt",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_explorer_abort",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_explorer_success",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "gui.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "rospy.Publisher",
+        "rospy.sleep",
+        "std_msgs.msg.String",
+        "std_msgs.msg.Bool",
+        "actionlib_msgs.msg.GoalStatus",
+        "pandora_fsm.mocks.msgs",
+        "pandora_fsm.Agent"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestValidateGUI",
+          "attributes": [
+            "agent",
+            "validate_gui_mock",
+            "gui_result"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_validated_true",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_validated_false",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_validation_aborted",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "msg"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "navigator.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "time.sleep",
+        "rospy.Publisher",
+        "std_msgs.msg.String",
+        "actionlib_msgs.msg.GoalStatus",
+        "pandora_fsm.mocks.msgs",
+        "pandora_fsm.Agent"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestNavigator",
+          "attributes": [
+            "move_base_mock",
+            "agent"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_move_base_abort",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "random_pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_move_base_success",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "random_pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_move_base_preempt",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "random_pose"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

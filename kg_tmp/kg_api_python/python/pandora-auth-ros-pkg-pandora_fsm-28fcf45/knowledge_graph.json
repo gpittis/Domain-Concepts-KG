@@ -1,0 +1,3982 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "absolut",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "action",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "actionlib",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "arena",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "catkin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "center",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "changer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "choos",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "classif",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "classifi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "clean",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "collect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "colorlog",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "command",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "condit",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "connect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "control",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "converg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "core",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cover",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "custom",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "definit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delay",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delet",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dest",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dispatch",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distanc",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distutil",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "durat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "effector",
+      "count": 13
+    },
+    {
+      "type": "CONCEPT",
+      "name": "equal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "euler",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "event",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "explor",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "extract",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "failur",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "feedback",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frame",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "framework",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fsm",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "functool",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fusion",
+      "count": 19
+    },
+    {
+      "type": "CONCEPT",
+      "name": "futur",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "generat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "geometri",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "getattr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "goal",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "goodby",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hella",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "identif",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "identifi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "infinit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "inherit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "initi",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interrupt",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interv",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kwarg",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "limit",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "listifi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loginfo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "logwarn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "machin",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "manag",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "math",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mode",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "model",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "monitor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "multipl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "navig",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "negat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "normal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notif",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "numpi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "orient",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pandora",
+      "count": 32
+    },
+    {
+      "type": "CONCEPT",
+      "name": "park",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "partial",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pass",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "patch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pend",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pitch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "poi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pose",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "posit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "preempt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "probabl",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pub",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "publish",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "qrs",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "quaternion",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "randint",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "random",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reject",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "restart",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "robocup",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "robot",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roll",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roslib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rospi",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scan",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "score",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "select",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sensor",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "signal",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "signum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "silent",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simpl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slowli",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sourc",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "srv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stamp",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "standalon",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "std",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strategi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stuff",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subscrib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sys",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "target",
+      "count": 19
+    },
+    {
+      "type": "CONCEPT",
+      "name": "task",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tear",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "term",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "termin",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "thread",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "threshold",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timeout",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timer",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "topic",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transformend",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transit",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trigger",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unittest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unrespons",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "valid",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "verbos",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "verif",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "victim",
+      "count": 31
+    },
+    {
+      "type": "CONCEPT",
+      "name": "visit",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wrapper",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wrong",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "yaw",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "absolut",
+      "to": "futur",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "actionlib",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "choos",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "command",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "control",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "effector",
+      "final_weight": 3.199999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "explor",
+      "final_weight": 3.199999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "fsm",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "fusion",
+      "final_weight": 14.416663,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "goal",
+      "final_weight": 2.65,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "loginfo",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "logwarn",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "model",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "navig",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "pandora",
+      "final_weight": 13.566665,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "preempt",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "rospi",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "simpl",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "subscrib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "timeout",
+      "final_weight": 2.133333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "topic",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "verbos",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "victim",
+      "final_weight": 7.699998,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "visit",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "effector",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "explor",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "fusion",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "goal",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "navig",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "simpl",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arena",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "catkin",
+      "to": "distutil",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "catkin",
+      "to": "generat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "slowli",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "changer",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "current",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "distanc",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "equal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "fusion",
+      "final_weight": 5.166666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "goal",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "model",
+      "final_weight": 2.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "normal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "pandora",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "target",
+      "final_weight": 7.516667,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "victim",
+      "final_weight": 6.216667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "choos",
+      "to": "visit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classif",
+      "to": "victim",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classifi",
+      "to": "fusion",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classifi",
+      "to": "target",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clean",
+      "to": "target",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "machin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "colorlog",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "fusion",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "timeout",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "condit",
+      "to": "target",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "condit",
+      "to": "transit",
+      "final_weight": 3.166666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "connect",
+      "to": "model",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "effector",
+      "final_weight": 5.266666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "goal",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "pandora",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "converg",
+      "to": "identif",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "distutil",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "exist",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "identif",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "machin",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "navig",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "pose",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "target",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "threshold",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "verif",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "victim",
+      "final_weight": 2.233334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "custom",
+      "to": "durat",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "custom",
+      "to": "model",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "custom",
+      "to": "pub",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "custom",
+      "to": "victim",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "custom",
+      "to": "visit",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "definit",
+      "to": "transit",
+      "final_weight": 3.216667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delay",
+      "to": "effector",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delay",
+      "to": "identifi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delay",
+      "to": "infinit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delay",
+      "to": "park",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delay",
+      "to": "pose",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delay",
+      "to": "random",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delay",
+      "to": "victim",
+      "final_weight": 2.1,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "fsm",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "fusion",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "pandora",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "rospi",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "victim",
+      "final_weight": 9.666666,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dest",
+      "to": "transit",
+      "final_weight": 1.483333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dispatch",
+      "to": "explor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dispatch",
+      "to": "navig",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dispatch",
+      "to": "target",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "equal",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "fsm",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "pandora",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "pose",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "target",
+      "final_weight": 3.85,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distutil",
+      "to": "generat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "random",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "rospi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "failur",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "fsm",
+      "final_weight": 4.466665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "functool",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "goal",
+      "final_weight": 3.466666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "infinit",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "initi",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "limit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "pandora",
+      "final_weight": 8.333331,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "park",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "partial",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "rospi",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "scan",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "sensor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "slowli",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "timeout",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "topic",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "verbos",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "wrapper",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "equal",
+      "to": "target",
+      "final_weight": 3.216667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "euler",
+      "to": "navig",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "euler",
+      "to": "quaternion",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "euler",
+      "to": "transform",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "explor",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "extract",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "identif",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "machin",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "navig",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "thread",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "transit",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exist",
+      "to": "model",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exist",
+      "to": "target",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exist",
+      "to": "victim",
+      "final_weight": 2.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exist",
+      "to": "visit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "fsm",
+      "final_weight": 4.466665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "geometri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "goal",
+      "final_weight": 4.083333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "manag",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "mode",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "pandora",
+      "final_weight": 8.333331,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "patch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "pend",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "poi",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "pose",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "preempt",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "publish",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "random",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "reject",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "robot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "roslib",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "rospi",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "stamp",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "std",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "target",
+      "final_weight": 6.2,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "termin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "thread",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "topic",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "unittest",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "verbos",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "victim",
+      "final_weight": 2.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "wrong",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "extract",
+      "to": "stuff",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "failur",
+      "to": "initi",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "failur",
+      "to": "wrapper",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feedback",
+      "to": "navig",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feedback",
+      "to": "pose",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "interrupt",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "signal",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "victim",
+      "final_weight": 1.916667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "fsm",
+      "final_weight": 2.366666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "inherit",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "machin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "pandora",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "stuff",
+      "final_weight": 1.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "transit",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "framework",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "fusion",
+      "final_weight": 4.466665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "identif",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "inherit",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "limit",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "listifi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "machin",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "model",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "navig",
+      "final_weight": 3.833332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "pandora",
+      "final_weight": 20.766666,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "pub",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "standalon",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "stuff",
+      "final_weight": 1.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "termin",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "timeout",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "timer",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "topic",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "transit",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "valid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fsm",
+      "to": "victim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "functool",
+      "to": "machin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "functool",
+      "to": "partial",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "goal",
+      "final_weight": 6.433332,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "identif",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "model",
+      "final_weight": 4.133333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "negat",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "pandora",
+      "final_weight": 21.899996,
+      "count": 23
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "posit",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "publish",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "qrs",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "random",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "roslib",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "rospi",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "select",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "sensor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "srv",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "std",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "target",
+      "final_weight": 3.216666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "timeout",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "topic",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "unittest",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "valid",
+      "final_weight": 8.766666,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "verbos",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "victim",
+      "final_weight": 12.933332,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "visit",
+      "final_weight": 5.549999,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "identif",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "navig",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "pose",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "publish",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "quaternion",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "stamp",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "getattr",
+      "to": "machin",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "getattr",
+      "to": "term",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "navig",
+      "final_weight": 2.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "pandora",
+      "final_weight": 7.8,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "pose",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "preempt",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "scan",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "slowli",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "target",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "victim",
+      "final_weight": 4.516667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "visit",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goodby",
+      "to": "stuff",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hella",
+      "to": "machin",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hella",
+      "to": "transit",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "identifi",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "manag",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "mode",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "model",
+      "final_weight": 2.15,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "pandora",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "patch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "pose",
+      "final_weight": 2.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "probabl",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "robot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "rospi",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "target",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "thread",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "threshold",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "timer",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "unrespons",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "victim",
+      "final_weight": 2.416667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "visit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identifi",
+      "to": "probabl",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identifi",
+      "to": "target",
+      "final_weight": 2.3,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identifi",
+      "to": "victim",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "infinit",
+      "to": "park",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "inherit",
+      "to": "pass",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "inherit",
+      "to": "stuff",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "machin",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "transit",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "wrapper",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interrupt",
+      "to": "signum",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interrupt",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interrupt",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interv",
+      "to": "timer",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kwarg",
+      "to": "timer",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "limit",
+      "to": "pandora",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "limit",
+      "to": "signal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "limit",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "limit",
+      "to": "timeout",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "listifi",
+      "to": "machin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "listifi",
+      "to": "pandora",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "listifi",
+      "to": "transit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loginfo",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loginfo",
+      "to": "rospi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logwarn",
+      "to": "rospi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "machin",
+      "to": "model",
+      "final_weight": 2.483333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "machin",
+      "to": "pandora",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "machin",
+      "to": "partial",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "machin",
+      "to": "stuff",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "machin",
+      "to": "transit",
+      "final_weight": 5.633333,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "mode",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "robot",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "math",
+      "to": "navig",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "robot",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "pandora",
+      "final_weight": 5.166666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "patch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "pub",
+      "final_weight": 5.916666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "publish",
+      "final_weight": 2.733333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "random",
+      "final_weight": 3.216667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "srv",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "target",
+      "final_weight": 2.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "thread",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "threshold",
+      "final_weight": 3.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "transit",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "verif",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "victim",
+      "final_weight": 6.316669,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "visit",
+      "final_weight": 1.333334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "monitor",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multipl",
+      "to": "transit",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "pandora",
+      "final_weight": 3.833332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "pend",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "pose",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "preempt",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "quaternion",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "rospi",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "target",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "termin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "thread",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "topic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "transform",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "verbos",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "negat",
+      "to": "valid",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "rospi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "normal",
+      "to": "target",
+      "final_weight": 3.216667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "notif",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "transformend",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "pub",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "publish",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "srv",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "standalon",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "target",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "termin",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "timeout",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "timer",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "topic",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "transit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "valid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "victim",
+      "final_weight": 12.333333,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "visit",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pass",
+      "to": "stuff",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pass",
+      "to": "timer",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "preempt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "publish",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "random",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "stamp",
+      "final_weight": 6.116667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "target",
+      "final_weight": 2.016667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "timer",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "valid",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "preempt",
+      "to": "random",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "probabl",
+      "to": "victim",
+      "final_weight": 2.116667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "publish",
+      "final_weight": 2.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "random",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "quaternion",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "randint",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "random",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "rospi",
+      "final_weight": 5.099998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "subscrib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "timer",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "topic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "valid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "victim",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "quaternion",
+      "to": "transform",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "randint",
+      "to": "random",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "random",
+      "to": "victim",
+      "final_weight": 3.633334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "random",
+      "to": "visit",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "restart",
+      "to": "robot",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "restart",
+      "to": "timer",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "restart",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robocup",
+      "to": "score",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robocup",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "topic",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roslib",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roslib",
+      "to": "valid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roslib",
+      "to": "victim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "spin",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "standalon",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "subscrib",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "timer",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "valid",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "victim",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "score",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "thread",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "valid",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "victim",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "signal",
+      "to": "signum",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "silent",
+      "to": "transit",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "silent",
+      "to": "wrong",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "simpl",
+      "to": "timer",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slowli",
+      "to": "target",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sourc",
+      "to": "transit",
+      "final_weight": 2.1,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "standalon",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "standalon",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "std",
+      "to": "valid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "std",
+      "to": "victim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stuff",
+      "to": "transit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "thread",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "threshold",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "topic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "valid",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "verbos",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "verif",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "victim",
+      "final_weight": 6.733335,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "visit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "wrong",
+      "final_weight": 4.633334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "tear",
+      "to": "transit",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "threshold",
+      "to": "verif",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "threshold",
+      "to": "victim",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "threshold",
+      "to": "visit",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "timeout",
+      "to": "verif",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "topic",
+      "to": "valid",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "topic",
+      "to": "victim",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "topic",
+      "to": "visit",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "transit",
+      "to": "trigger",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "transit",
+      "to": "wrong",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "unittest",
+      "to": "valid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "unittest",
+      "to": "victim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "valid",
+      "to": "victim",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "verbos",
+      "to": "victim",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "verif",
+      "to": "victim",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "verif",
+      "to": "visit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "victim",
+      "to": "visit",
+      "final_weight": 3.666668,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "victim",
+      "to": "wrong",
+      "final_weight": 1.7,
+      "count": 1
+    }
+  ]
+}

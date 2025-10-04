@@ -1,0 +1,436 @@
+[
+  {
+    "file": "setup.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "agent_standalone.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Start the agent."
+    ]
+  },
+  {
+    "file": "mocks.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Action Servers"
+    ]
+  },
+  {
+    "file": "config.py",
+    "comments": [
+      "Agent's parameters and configuration.",
+      "Probability limit for a target to be verified as victim.",
+      "Probability limit for a target to be identified as a potential victim.",
+      "Time needed for the sensors to verify the current target.",
+      "Time limit for a global state change.",
+      "Number of MoveBase failures before the agent aborts the current goal.",
+      "Time limit for the MoveBase to succeed at a given goal.",
+      "Minimum radius to classify a pose as different from the current goal."
+    ]
+  },
+  {
+    "file": "target.py",
+    "comments": [
+      "Agent's target.",
+      "Set a new point of interest.\n\n        :param info: A VictimInfo instance to mark as the point of interest.",
+      "Reset the target's state.",
+      "Updates the current MoveBase goal while the target's pose\n        is updated.\n\n        If the distance between the new and the old pose is big enough\n        the agent is informed through the dispatcher to send a new\n        MoveBase goal.\n\n        :param new_pose: The target's new pose.\n        :param old_pose: The target's current pose.",
+      "Return True if the probability of the target is greater\n        than the VERIFICATION_THRESHOLD.",
+      "Return True if the probability of the target is greater\n        than the IDENTIFICATION_THRESHOLD.",
+      "Reset the info."
+    ]
+  },
+  {
+    "file": "topics.py",
+    "comments": [
+      "Module with interfaces used by the Agent to communicate with\n    the rest of the system.",
+      "Data fusion",
+      "Action to delete a victim from the data fusion's registry.",
+      "Action to validate a victim.",
+      "Mark QRs as visited.",
+      "Service for the world model.",
+      "Action to notify data fusion about the current target.",
+      "Publishing QR notificatios from the data fusion's registry.",
+      "Holds the score for the robocup competition.",
+      "Keeps track of the covered area.",
+      "Used by data fusion to publish the world model.",
+      "GUI",
+      "Action to wait for validation from the operator.",
+      "Used to reset the robot.",
+      "Used to restart the robot.",
+      "Close the agent's process",
+      "Navigation",
+      "Action to communicate with the navigation node.",
+      "Subscriber on the navigation node.",
+      "Possible arena types:",
+      "- Yellow         -> 0",
+      "- Orange         -> 1",
+      "- YellowAndBlack -> 2",
+      "- Red            -> 3",
+      "Moves the robot.",
+      "Global state",
+      "Action to change the global state.",
+      "Monitors the number of clients registered in the State Manager.",
+      "Stops the current task.",
+      "Control",
+      "Moves end effector to a point of interest."
+    ]
+  },
+  {
+    "file": "utils.py",
+    "comments": [
+      "Module with useful functions and tools used within the package.",
+      "Returns an object as a list if it isn't already.",
+      "Calculates euclidean distance between two points in the plane.\n\n    :param :pose_a The first Pose object.\n    :param :pose_b The second Pose object.",
+      "Calculates euclidean distance between two points in space.\n\n    :param :pose_a The first Pose object.\n    :param :pose_b The second Pose object.",
+      "Decorator class to limit the runtime of a function.",
+      "Initializing the decorator.\n\n        :param :timeout Time limit in seconds.",
+      "Executed if the task hasn't finished before the time limit.",
+      "Decorator that stops the execution of a function and starts another.",
+      "Initializing the decorator.\n\n        :param :after A function to execute after the interrupt.",
+      "Meta function that creates partials to test action servers.\n\n        :param :client The instance of the client we will use for the test.\n        :param :goal The goal we will send to the action server.\n        :param :timeout The amount of time the client will wait before\n                        attempts a retry.\n        :param :msg A text for debugging.",
+      "Custom timer that executes a callback every N seconds.",
+      ":param stop_flag: Threading Event to control the timer externally.\n        :param interval: An interval to execute the callback.\n        :param callback: The function to execute every interval.\n        :parm kwargs: Keyword parameters for the callback.",
+      "Start the timer.",
+      "Return a logger with a default ColoredFormatter."
+    ]
+  },
+  {
+    "file": "__init__.py",
+    "comments": [
+      "Modules exported from the package."
+    ]
+  },
+  {
+    "file": "data_fusion.py",
+    "comments": [
+      "Data fusion client. Updates the data fusion registry after\n    identification or validation from the operator.",
+      "Delete a victim from the data fusion registry.\n\n        :param :victim_id The ID of the victim to be deleted.",
+      "Update the data fusion registry with valid or not victims.\n\n        :param :victim_id The victim's ID.\n        :param :valid True if it was validated from the operator.\n        :param :verified True if got into the sensor hold state.",
+      "Notify data fusion about the current target.\n\n        :param victim_id: The id of the current target/victim.",
+      "Characterize the target as true negative, false negative,\n        false positive or true positive.\n\n        :param valid: Response from the operator.\n        :param valid: Robot's prediction."
+    ]
+  },
+  {
+    "file": "effector.py",
+    "comments": [
+      "Controls the end effector planner.",
+      "Points end effector to a target.\n\n        :param target: The victim frame ID.\n        :param center: The center of the frame the we will use.",
+      "Points end effector to a target, slow enough so the image\n        is staying still.\n\n        :param target: The victim frame ID.\n        :param center: The center of the frame the we will use.",
+      "The end effector starts scanning."
+    ]
+  },
+  {
+    "file": "explorer.py",
+    "comments": [
+      "Explorer client for the Agent. A wrapper API for easy communication\n    and error handling for the exploration module.",
+      "If the explorer is waiting on a goal."
+    ]
+  },
+  {
+    "file": "gui.py",
+    "comments": [
+      "Communication with the operator.",
+      "Sends a validation request to the robot operator.\n\n        :param :target A target to be validated."
+    ]
+  },
+  {
+    "file": "navigator.py",
+    "comments": [
+      "Navigation client that is responsible for moving the robot\n        on the map.",
+      "Move base to a point of interest.\n\n        :param :target A PoseStamped point of interest."
+    ]
+  },
+  {
+    "file": "__init__.py",
+    "comments": []
+  },
+  {
+    "file": "machine.py",
+    "comments": [
+      "Module with the Machine class",
+      "The Machine is high level abstraction representing the FSM\n        that holds together the states, the transitions, the events\n        and the model.",
+      ":param :model The object whose states we want to manage. If None,\n                      the current Machine instance will be used the model\n                      (i.e., all triggering events will be attached to the\n                      Machine itself).\n        :param :states A list of valid states. Each element can be either a\n                       string or a State instance. If string, a new generic\n                       State instance will be created that has the same name\n                       as the string.\n        :param :initial The initial state of the Machine. Defaults to 'initial'\n        :param :transitions An optional list of transitions. Each element is a\n                            dictionary of named arguments to be passed onto the\n                            Transition initializer.\n        :param :send_event When True, any arguments passed to trigger methods\n                           will be wrapped in an EventData object, allowing\n                           indirect and encapsulated access to data.\n                           When False, all positional and keyword arguments\n                           will be passed directly to all callback methods.\n        :param :auto_transitions When True (default), every state will\n                                 automatically have an associated to_{state}()\n                                 convenience trigger in the base model.\n        :param :ordered_transitions Convenience argument that calls\n                                    add_ordered_transitions() at the end of\n                                    initialization if set to True.",
+      "Check whether the current state matches the named state.",
+      "Return the State instance with the passed name.",
+      "Set the current state.\n\n        :param :state A State instance or the name of a state.",
+      "Creates a `state` attribute in the context class",
+      "holding the name of the current state of the machine.",
+      "Alias for add_states.",
+      "Add new state(s).\n\n        :param :state A list, a State instance, the name of a new state,\n                      or a dict with keywords to pass on to the State\n                      initializer. If a list, each element can be of any of the\n                      latter three types.\n        :param :on_enter Callbacks to trigger when the state is entered.\n                         Only valid if first argument is string.\n        :param :on_exit Callbacks to trigger when the state is exited.\n                        Only valid if first argument is string.",
+      "The `states` lists holds all the available State instances.",
+      "Creates an is_`state` method in the context class for this state,",
+      "checking whether the context class is in the `state`.",
+      "Creates a on_enter_`state` and on_exit_`state` method for the",
+      "context class.",
+      "Add automatic transitions after all states have been created.",
+      "Create a new Transition instance and add it to the internal list.\n\n        :param :trigger The name of the method that will trigger the\n                        transition. This will be attached to the currently\n                        specified model (e.g., passing trigger='advance' will\n                        create a new advance() method in the model that\n                        triggers the transition.)\n        :param :source The name of the source state--i.e., the state we are\n                       transitioning away from.\n        :param :dest The name of the destination State--i.e., the state\n                     we are transitioning into.\n        :param :conditions Condition(s) that must pass in order for the\n                           transition to take place. Either a list providing\n                           the name of a callable, or a list of callables.\n                           For the transition to occur, ALL callables must\n                           return True.\n        :param :unless Condition(s) that must return False in order for the\n                       transition to occur. Behaves just like conditions arg\n                       otherwise.\n        :param :before Callables to call before the transition.\n        :param :after Callables to call after the transition.",
+      "Use the wildcard `*` to use all the available states as the source.",
+      "Add a set of transitions that move linearly from state to state.\n\n        :param :states A list of state names defining the order of the\n                       transitions. E.g., ['A', 'B', 'C'] will generate\n                       transitions for A --> B, B --> C,\n                       and C --> A (if loop is True). If states is None,\n                       all states in the current instance will be used.\n        :param :trigger The name of the trigger method that advances to\n                        the next state in the sequence.\n        :param :loop Whether or not to add a transition from the last\n                     state to the first state.\n        :param :loop_includes_initial If no initial state was defined in\n                the machine, setting this to True will cause the _initial state\n                placeholder to be included in the added transitions.",
+      "need to listify for Python3",
+      "Trigger a callback function, possibly wrapping it in an EventData\n            instance.\n\n        :param :func The callback function.\n        :param :event_data An EventData instance to pass to the callback\n                           (if event sending is enabled) or to extract\n                           arguments from (if event sending is disabled).",
+      "General Exception for the Machine"
+    ]
+  },
+  {
+    "file": "state.py",
+    "comments": [
+      "Module with functions and classes related to the state object",
+      "Implements a state of the Finite State Machine.",
+      ":param :name The name of the state\n        :param :on_enter Optional callable(s) to trigger when a state\n                         is entered. Can be either a string providing the\n                         name of a callable, or a list of strings.\n        :param :on_exit Optional callable(s) to trigger when a state is\n                        exited. Can be either a string providing the name of a\n                        callable, or a list of strings.",
+      "Holds all the callbacks for the enter event.",
+      "Holds all the callbacks for the exit event.",
+      "Triggered when a state is entered. Executes\n            in series all the callbacks in the on_enter list.\n\n            :param :event_data Packed data to pass into the callback.",
+      "Triggered when a state is exited.Executes\n            in series all the callbacks in the on_exit list.\n\n            :param :event_data Packed data to pass into the callback.",
+      "Adds a new enter or exit callback. Depending on the type of\n            the event (enter, exit) we need a different list to store\n            the callback.\n\n        :param :trigger The type of triggering event. Must be one of\n                        'enter' or 'exit'.\n        :param :func The name of the callback function.",
+      "Removes all the callbacks from a state."
+    ]
+  },
+  {
+    "file": "transition.py",
+    "comments": [
+      "Module about the transition",
+      "Implements a transition on the Finite State Machine",
+      "Check whether the condition passes.\n\n            :param :model The data model attached to the current Machine.",
+      ":param :source The name of the source State.\n        :param :dest The name of the destination State.\n        :param :conditions Condition(s) that must pass in order for the\n                           transition to take place. Either a string\n                           providing the name of a callable, or a list of\n                           callables. For the transition to occur, ALL\n                           callables must return True.\n        :param :unless Condition(s) that must return False in order for the\n                       transition to occur. Behaves just like conditions arg\n                       otherwise.\n        :param :before Callbacks to trigger before the transition.\n        :param :after Callbacks to trigger after the transition.",
+      "Execute the transition.\n\n        :param :event_data An instance of class EventData.",
+      "Check if all the conditions are met.",
+      "Starting the transition.",
+      "First run all the before callbacks.",
+      "Exit the current state and run the on_exit",
+      "callback for the current state.",
+      "Enter the next state.",
+      "Run the on_enter callback for the next state.",
+      "Finally run all the after callbacks.",
+      "The transition completed.",
+      "Add a new before or after callback.\n\n        :param :trigger The type of triggering event. Must be one of\n                        'before' or 'after'.\n        :param :func The name of the callback function."
+    ]
+  },
+  {
+    "file": "__init__.py",
+    "comments": []
+  },
+  {
+    "file": "action_servers.py",
+    "comments": [
+      "! /usr/bin/env python",
+      "Mock action servers.",
+      "Messages",
+      "MockActionServer base class",
+      "Creating a custom mock action server.",
+      "Decides the result of the next call.",
+      "Aborts any incoming goal.",
+      "Succeeds any incoming goal.",
+      "Preempts any incoming goal.",
+      "Sets the result of the goal.",
+      "Make a move.",
+      "Send feedback"
+    ]
+  },
+  {
+    "file": "msgs.py",
+    "comments": [
+      "! /usr/bin/env python",
+      "Mock messages factories."
+    ]
+  },
+  {
+    "file": "publishers.py",
+    "comments": [
+      "! /usr/bin/env python",
+      "Mock Publishers.",
+      "Messages",
+      "Mock publisher for the world_model."
+    ]
+  },
+  {
+    "file": "__init__.py",
+    "comments": []
+  },
+  {
+    "file": "end.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the end state."
+    ]
+  },
+  {
+    "file": "exploration.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the exploration state.",
+      "Spawn a thread and send a potential victim instead of using a\n            mock Publisher which is not so predictable or easy to configure.",
+      "A target has been discovered after exploration.",
+      "This goal will move the agent to the end state.",
+      "The agent will wait for a victim indefinitely.",
+      "Long goals that will not affect the test.",
+      "The agent will keep sending goals if the explorer fails.",
+      "The agent will keep sending goals if the explorer fails.",
+      "Poi_found should be called only once.",
+      "Only one thread should acquire the lock.",
+      "The global state should be MODE_EXPLORATION_RESCUE",
+      "A target has been acquired before exploration.",
+      "There are available targets before exploration.",
+      "The target is not in the available_targets.",
+      "Choose a target after the wrong one."
+    ]
+  },
+  {
+    "file": "fusion_validation.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the fusion validation state."
+    ]
+  },
+  {
+    "file": "identification.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the identification state.",
+      "The global state should be MODE_IDENTIFICATION.",
+      "The base has moved to the victim's pose.",
+      "The move_base has failed but the victim has high probability.",
+      "The agent is close enough to the victim to be identified.",
+      "The mock should be called only once because the updated goal is",
+      "within the acceptable limits"
+    ]
+  },
+  {
+    "file": "init.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the init state.",
+      "If the end effector is not responsive the init",
+      "task will loop forever. Using this decorator",
+      "we limit the execution time of the task.",
+      "Wrap your function and test the wrapper."
+    ]
+  },
+  {
+    "file": "operator_validation.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the operator validation state.",
+      "Expecting to add the valid victim",
+      "Expecting to ignore this victim"
+    ]
+  },
+  {
+    "file": "sensor_hold.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the sensor_hold state.",
+      "Spawn a thread and send a potential victim instead of using a\n            mock Publisher which is not so predictable or easy to configure.",
+      "The probability is higher than the VERIFICATION_THRESHOLD.",
+      "The probability is lower than the VERIFICATION_THRESHOLD.",
+      "The global state should be MODE_SENSOR_HOLD"
+    ]
+  },
+  {
+    "file": "victim_deletion.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the victim deletion state."
+    ]
+  },
+  {
+    "file": "fsm_framework.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Tests for the core functionality of the FSM framework",
+      "Define with list of dictionaries",
+      "Define with list of lists",
+      "First pass positional and keyword args directly to the callback",
+      "Now wrap arguments in an EventData instance",
+      "Should fail if auto transitions is off...",
+      "Include initial state in loop",
+      "Test user-determined sequence and trigger name",
+      "Via init argument"
+    ]
+  },
+  {
+    "file": "utilities.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Unit Tests for utility methods.",
+      "Initialization",
+      "Make sure the action clients are instantiated.",
+      "Make sure the subscribers are instantiated.",
+      "Make sure global state transition functios have been generated.",
+      "Empty variables",
+      "TODO Write test with full functionality",
+      "The callback should be called in the simplest occasion.",
+      "The callback should not be executed if the flag is set.",
+      "The timer should start again after a stop.",
+      "The callback should accept args and kwargs."
+    ]
+  },
+  {
+    "file": "world_model.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Unit test for the world_model subscriber.",
+      "Dummy patch function.",
+      "Tests for the agent callbacks.",
+      "The receive_world_model should be called.",
+      "Set up testing mocks",
+      "Tests that the target is updated.",
+      "Tests that the target is updated.",
+      "Tests that the target is identified.",
+      "Tests that the target is verified.",
+      "Test choose_target function.",
+      "Should throw an error and return None.",
+      "Should return the one target.",
+      "Should return the first target.",
+      "Should return the nearest target."
+    ]
+  },
+  {
+    "file": "data_fusion.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Unit tests for the DataFusion action client."
+    ]
+  },
+  {
+    "file": "effector.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Unit tests for EndEffector action client.",
+      "Tests for the end effector action client.",
+      "Register the mock servers."
+    ]
+  },
+  {
+    "file": "explorer.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Unit tests for the Explorer action client.",
+      "Tests for the explorer action client",
+      "Register the mock servers."
+    ]
+  },
+  {
+    "file": "gui.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Unit tests for GUI action client.",
+      "Tests the validate gui client",
+      "The operator has stated this victim isvalid",
+      "The operator has stated this victim is not valid"
+    ]
+  },
+  {
+    "file": "navigator.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Unit tests for the MoveBase action client.",
+      "Tests for the base action client",
+      "Register the mock servers."
+    ]
+  }
+]

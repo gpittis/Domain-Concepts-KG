@@ -1,0 +1,26 @@
+[
+  {
+    "file": "__init__.py",
+    "comments": []
+  },
+  {
+    "file": "base.py",
+    "comments": [
+      "@abstractmethod",
+      "Format: e.g. {'exchange': 'gatecoin', 'ticker': 'BTCHKD', 'data': [{price: (int)30.5}]}",
+      "@abstractmethod"
+    ]
+  },
+  {
+    "file": "loader.py",
+    "comments": []
+  },
+  {
+    "file": "mod_imports.py",
+    "comments": []
+  },
+  {
+    "file": "__init__.py",
+    "comments": []
+  }
+]

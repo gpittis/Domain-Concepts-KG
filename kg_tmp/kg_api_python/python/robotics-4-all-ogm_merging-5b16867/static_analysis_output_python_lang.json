@@ -1,0 +1,48 @@
+[
+  [
+    {
+      "file": "map.py"
+    },
+    {
+      "imports": [
+        "nav_msgs.msg.OccupancyGrid",
+        "numpy"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Map",
+          "attributes": [
+            "ros_ogm",
+            "height",
+            "width",
+            "origin",
+            "resolution",
+            "frame_id",
+            "ogm",
+            "mapImage"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "ogm",
+                "frame_id"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

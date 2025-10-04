@@ -1,0 +1,3381 @@
+[
+  [
+    {
+      "file": "sensor planner"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "sensor coverage sensor planner"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "sensor planner sensor planner",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "octomap subscriber",
+            "occupancy grid subscriber",
+            "current"
+          ]
+        },
+        {
+          "name": "sensor planner transition",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "current"
+          ]
+        },
+        {
+          "name": "sensor planner complete trasition",
+          "params": [],
+          "local_variables": [
+            "sensor planning",
+            "sensor planning",
+            "sensor planning",
+            "sensor planning",
+            "sensor planning"
+          ]
+        },
+        {
+          "name": "sensor planner octomap",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map"
+          ]
+        },
+        {
+          "name": "sensor planner occupancy grid",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "covered space origin orientation"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sensor planner node"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sensor planner"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "boost",
+        "boost shared ptr",
+        "ros",
+        "std srvs",
+        "octomap",
+        "octomap",
+        "nav occupancy grid",
+        "manager"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "sensor planner",
+          "attributes": [
+            "",
+            "octomap subscriber",
+            "occupancy grid subscriber",
+            "sensor planning",
+            "current",
+            "covered surface",
+            "covered space"
+          ],
+          "methods": [
+            {
+              "name": "sensor planner",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "complete transition",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "map"
+              ],
+              "local_variables": [
+                "covered surface"
+              ]
+            },
+            {
+              "name": "octomap",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "occupancy grid",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "coverage"
+    },
+    {
+      "imports": [
+        "",
+        "pandora sensor coverage"
+      ]
+    },
+    {
+      "global_variables": [
+        "coverage map ptr",
+        "coverage occupied cell thres",
+        "coverage height",
+        "coverage footprint",
+        "coverage footprint height"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "coverage",
+          "params": [
+            "",
+            "frame"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "coverage",
+          "params": [
+            "sensor transform",
+            "transform"
+          ],
+          "local_variables": [
+            "sensor position",
+            "robot position"
+          ]
+        },
+        {
+          "name": "coverage",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "ros console",
+        "pandora sensor coverage sensor coverage"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "sensor coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sensor"
+    },
+    {
+      "imports": [
+        "",
+        "boost shared ptr",
+        "nav occupancy grid",
+        "pandora sensor coverage sensor"
+      ]
+    },
+    {
+      "global_variables": [
+        "sensor map ptr",
+        "sensor frame",
+        "sensor robot frame"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "sensor",
+          "params": [
+            "",
+            "frame",
+            "map origin"
+          ],
+          "local_variables": [
+            "initialized",
+            "sensor",
+            "coverage updater"
+          ]
+        },
+        {
+          "name": "sensor notify",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "sensor",
+            "sensor",
+            "sensor",
+            "sensor",
+            "sensor"
+          ]
+        },
+        {
+          "name": "sensor flush coverage",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "sensor coverage",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "",
+            "sensor transform",
+            "transform",
+            "",
+            "initialized"
+          ]
+        },
+        {
+          "name": "sensor",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sensor coverage"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "pandora sensor coverage sensor coverage"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "sensor coverage sensor coverage",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "frames track",
+            "",
+            "map subscriber",
+            "map subscriber",
+            "flush",
+            "fused coverage publisher",
+            "fusing coverage",
+            "current",
+            "coverage fuser"
+          ]
+        },
+        {
+          "name": "sensor coverage fuse coverage",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "fused coverage ptr stamp"
+          ]
+        },
+        {
+          "name": "sensor coverage transition",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "current"
+          ]
+        },
+        {
+          "name": "sensor coverage complete transition",
+          "params": [],
+          "local_variables": [
+            "",
+            "fusing coverage",
+            "fusing coverage"
+          ]
+        },
+        {
+          "name": "sensor coverage map",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map",
+            ""
+          ]
+        },
+        {
+          "name": "sensor coverage map",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "map ptr"
+          ]
+        },
+        {
+          "name": "sensor coverage flush coverage",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "sensor coverage fused coverage",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "surface"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "",
+        "pandora sensor coverage surface"
+      ]
+    },
+    {
+      "global_variables": [
+        "surface orientation circle"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "surface",
+          "params": [
+            "",
+            "frame"
+          ],
+          "local_variables": [
+            "topic",
+            "covered surface ptr",
+            "coverage publisher"
+          ]
+        },
+        {
+          "name": "surface",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "surface coverage",
+          "params": [
+            "sensor transform",
+            "transform"
+          ],
+          "local_variables": [
+            "yaw curr",
+            "pitch curr",
+            "fov",
+            "fov",
+            "wall",
+            "angle",
+            "angle",
+            "direction",
+            "node",
+            "coverage",
+            "yaw curr",
+            "pitch curr"
+          ]
+        },
+        {
+          "name": "surface coverage",
+          "params": [
+            "wall",
+            "direction"
+          ],
+          "local_variables": [
+            "normal wall"
+          ]
+        },
+        {
+          "name": "surface metric",
+          "params": [
+            "normal wall",
+            "direction"
+          ],
+          "local_variables": [
+            "unit wall"
+          ]
+        },
+        {
+          "name": "surface normal wall",
+          "params": [
+            "",
+            "normal"
+          ],
+          "local_variables": [
+            "",
+            "wall",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "angle",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "wall",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "wall",
+            "",
+            "",
+            "",
+            "normal",
+            "normal",
+            "normal"
+          ]
+        },
+        {
+          "name": "surface diameter wall",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "dist",
+            "dist",
+            "wall",
+            "",
+            "",
+            "dist",
+            "dist",
+            "wall"
+          ]
+        },
+        {
+          "name": "surface publish coverage",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "",
+            "stamp",
+            "frame",
+            "",
+            "",
+            "resolution"
+          ]
+        },
+        {
+          "name": "surface coverage",
+          "params": [],
+          "local_variables": [
+            "resolution",
+            "covered surface ptr"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "cstdlib",
+        "ros console",
+        "transform datatypes",
+        "nav occupancy grid",
+        "pandora sensor coverage"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "align map",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "map",
+            "meta",
+            "yaw diff",
+            "diff",
+            "diff",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "coords",
+            "",
+            "diff",
+            "height diff",
+            "",
+            "",
+            "",
+            "",
+            "meta",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "coords",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "map dilation",
+          "params": [
+            "",
+            "",
+            "coords",
+            "map"
+          ],
+          "local_variables": [
+            "",
+            "cell",
+            "coords",
+            "coords",
+            "coords",
+            "coords",
+            "coords",
+            "coords",
+            "coords",
+            "coords"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "coverage"
+    },
+    {
+      "imports": [
+        "",
+        "boost shared ptr",
+        "ros",
+        "transform datatypes",
+        "octomap ros conversions",
+        "octomap conversions",
+        "octomap",
+        "octomap",
+        "nav occupancy grid",
+        "pandora fusion"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "coverage",
+          "attributes": [
+            "",
+            "frame",
+            "coverage publisher",
+            "sensor roll",
+            "sensor pitch",
+            "sensor yaw",
+            "sensor position",
+            "robot roll",
+            "robot pitch",
+            "robot yaw",
+            "robot position",
+            "map ptr",
+            "map ptr",
+            "fused coverage ptr",
+            "sensor",
+            "sensor hfov",
+            "sensor vfov",
+            "occupied cell thres",
+            "height",
+            "footprint",
+            "footprint height"
+          ],
+          "methods": [
+            {
+              "name": "coverage",
+              "params": [
+                "",
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [
+                "sensor transform",
+                "transform"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish coverage",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "map ptr"
+              ],
+              "local_variables": [
+                "map ptr"
+              ]
+            },
+            {
+              "name": "share fused coverage",
+              "params": [
+                "fused ptr"
+              ],
+              "local_variables": [
+                "fused coverage ptr"
+              ]
+            },
+            {
+              "name": "map",
+              "params": [
+                "map ptr"
+              ],
+              "local_variables": [
+                "map ptr"
+              ]
+            },
+            {
+              "name": "occupied cell thres",
+              "params": [
+                "occupied cell thres"
+              ],
+              "local_variables": [
+                "occupied cell thres"
+              ]
+            },
+            {
+              "name": "height",
+              "params": [
+                "height"
+              ],
+              "local_variables": [
+                "height"
+              ]
+            },
+            {
+              "name": "footprint",
+              "params": [
+                "orientation circle"
+              ],
+              "local_variables": [
+                "footprint"
+              ]
+            },
+            {
+              "name": "footprint height",
+              "params": [
+                "footprint height"
+              ],
+              "local_variables": [
+                "footprint height"
+              ]
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "sensor"
+    },
+    {
+      "imports": [
+        "",
+        "boost shared ptr",
+        "manager robot mode",
+        "pandora fusion finder",
+        "pandora fusion",
+        "pandora fusion",
+        "pandora sensor coverage space",
+        "pandora sensor coverage surface"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "sensor",
+          "attributes": [
+            "",
+            "coverage updater",
+            "sensor",
+            "frame",
+            "surface coverage",
+            "initialized",
+            "",
+            "space",
+            "surface",
+            "map ptr",
+            "map ptr",
+            "frame",
+            "robot frame",
+            "exploration",
+            "identification",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "sensor",
+              "params": [
+                "",
+                "frame",
+                "map origin"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "notify",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "flush coverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "map ptr"
+              ],
+              "local_variables": [
+                "map ptr"
+              ]
+            },
+            {
+              "name": "share fused coverage",
+              "params": [
+                "fused ptr"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "map ptr"
+              ],
+              "local_variables": [
+                "map ptr"
+              ]
+            },
+            {
+              "name": "frame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": [
+                "frame"
+              ]
+            },
+            {
+              "name": "robot frame",
+              "params": [
+                "robot frame"
+              ],
+              "local_variables": [
+                "robot frame"
+              ]
+            },
+            {
+              "name": "occupied cell thres",
+              "params": [
+                "occupied cell thres"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "sensor coverage"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "boost",
+        "boost shared ptr",
+        "ros",
+        "std srvs",
+        "octomap",
+        "octomap",
+        "nav occupancy grid",
+        "manager",
+        "pandora sensor coverage sensor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "sensor coverage",
+          "attributes": [
+            "",
+            "coverage fuser",
+            "map subscriber",
+            "map subscriber",
+            "flush",
+            "fused coverage publisher",
+            "fusing coverage",
+            "fused coverage ptr",
+            "current",
+            "map ptr",
+            "map ptr",
+            "registered sensors"
+          ],
+          "methods": [
+            {
+              "name": "sensor coverage",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "fuse coverage",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "complete transition",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "flush coverage",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "fused coverage",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "space"
+    },
+    {
+      "imports": [
+        "",
+        "boost shared ptr",
+        "pandora sensor coverage",
+        "pandora sensor coverage",
+        "pandora sensor coverage space hxx"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "space",
+          "attributes": [
+            "",
+            "covering unknown",
+            "surface coverage",
+            "covered space",
+            "coverage map",
+            "covered",
+            "coverage publisher"
+          ],
+          "methods": [
+            {
+              "name": "space",
+              "params": [
+                "",
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "space coverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [
+                "sensor transform",
+                "transform"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish coverage",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "coverage map",
+              "params": [
+                "map ptr"
+              ],
+              "local_variables": [
+                "coverage map"
+              ]
+            },
+            {
+              "name": "map",
+              "params": [
+                "map ptr"
+              ],
+              "local_variables": [
+                "map ptr"
+              ]
+            },
+            {
+              "name": "cell coverage",
+              "params": [
+                "cell",
+                "height"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "space hxx"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "std",
+        "pandora sensor coverage"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "space",
+          "params": [
+            "",
+            "frame"
+          ],
+          "local_variables": [
+            "topic",
+            "coverage publisher",
+            "coverage publisher"
+          ]
+        },
+        {
+          "name": "space coverage",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "space coverage",
+          "params": [
+            "sensor transform",
+            "transform"
+          ],
+          "local_variables": [
+            "resolution",
+            "curr",
+            "curr",
+            "fov",
+            "cell",
+            "",
+            "angle",
+            "covered",
+            "cells covered",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "cell",
+            "cell",
+            "",
+            "",
+            "covered",
+            "covered",
+            "cell covered space",
+            "cell fused coverage ptr",
+            "",
+            "",
+            "covered",
+            "",
+            "",
+            "cell covered space",
+            "cell fused coverage ptr"
+          ]
+        },
+        {
+          "name": "space cell coverage",
+          "params": [
+            "cell",
+            "height"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "ray",
+            "covers space",
+            "occupied",
+            "covered space",
+            "",
+            "unoccupied space",
+            "",
+            "node",
+            "coord",
+            "coord",
+            "coord",
+            "occupied",
+            "covers space",
+            "occupied",
+            "covers space",
+            "",
+            "covers space",
+            "",
+            "occupied",
+            "covers space",
+            "occupied",
+            "covers space",
+            ""
+          ]
+        },
+        {
+          "name": "space publish coverage",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "",
+            "covered space stamp",
+            "covered space frame",
+            ""
+          ]
+        },
+        {
+          "name": "space coverage",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "surface"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "",
+        "boost shared ptr",
+        "octomap color",
+        "pandora sensor coverage"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "surface",
+          "attributes": [
+            "",
+            "factor",
+            "covered surface ptr",
+            "orientation circle"
+          ],
+          "methods": [
+            {
+              "name": "surface",
+              "params": [
+                "",
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "surface",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [
+                "sensor transform",
+                "transform"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish coverage",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "orientation circle",
+              "params": [
+                "orientation circle"
+              ],
+              "local_variables": [
+                "orientation circle"
+              ]
+            },
+            {
+              "name": "coverage map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "metric",
+              "params": [
+                "normal wall",
+                "direction"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "coverage",
+              "params": [
+                "wall",
+                "direction"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "normal wall",
+              "params": [
+                "",
+                "normal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "diameter wall",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "ros console",
+        "transform datatypes",
+        "nav occupancy grid"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "align map",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map dilation",
+              "params": [
+                "",
+                "",
+                "coords",
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "resolution",
+                "precision"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "exploration controller"
+    },
+    {
+      "imports": [
+        "pandora explorer exploration controller"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "exploration controller exploration controller",
+          "params": [],
+          "local_variables": [
+            "goal timeout",
+            "goal timeout"
+          ]
+        },
+        {
+          "name": "exploration controller",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "",
+            "goal selector ptr",
+            "",
+            "goal",
+            "",
+            "goal searches",
+            "",
+            "goal searches",
+            "",
+            "goal target pose"
+          ]
+        },
+        {
+          "name": "exploration controller goal reached",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "exploration controller feedback",
+          "params": [
+            "feedback"
+          ],
+          "local_variables": [
+            "feedback position"
+          ]
+        },
+        {
+          "name": "exploration controller",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "exploration controller preempt",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "exploration controller goal reached",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "dist",
+            "dist",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "exploration controller reached",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exploration controller node"
+    },
+    {
+      "imports": [
+        "pandora explorer exploration controller"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "exploration controller"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "frontier goal selector"
+    },
+    {
+      "imports": [
+        "pandora explorer frontier goal selector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "frontier goal selector frontier goal selector",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "dist scale",
+            "scale",
+            "alignment scale",
+            "visited scale",
+            "duration",
+            "expiration",
+            "map frontier search",
+            "cost",
+            "distance cost",
+            "alignment cost",
+            "visited cost",
+            "frontier marker pub"
+          ]
+        },
+        {
+          "name": "frontier goal selector goal",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "pose",
+            "",
+            "",
+            "current frontier",
+            "goal frame",
+            "goal stamp",
+            "goal pose"
+          ]
+        },
+        {
+          "name": "frontier goal selector frontier",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "frontier goal selector calculate goal orientation",
+          "params": [
+            "frontier"
+          ],
+          "local_variables": [
+            "",
+            "semifinal",
+            "angle",
+            "frontier path poses"
+          ]
+        },
+        {
+          "name": "frontier goal selector visualize frontiers",
+          "params": [],
+          "local_variables": [
+            "markers",
+            "",
+            "",
+            "marker",
+            "paths marker",
+            "frontier marker",
+            "marker",
+            "marker frame",
+            "marker stamp",
+            "marker",
+            "marker",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose orientation",
+            "marker",
+            "marker action",
+            "marker scale",
+            "marker scale",
+            "marker scale",
+            "marker color",
+            "marker color",
+            "marker",
+            "marker pose position",
+            "marker",
+            "marker",
+            "marker",
+            "marker",
+            "marker",
+            "marker",
+            "paths marker",
+            "paths marker frame",
+            "paths marker stamp",
+            "paths marker action",
+            "paths marker",
+            "paths marker",
+            "paths marker scale",
+            "paths marker color",
+            "paths marker color",
+            "paths marker pose orientation",
+            "frontier marker",
+            "frontier marker frame",
+            "frontier marker stamp",
+            "frontier marker action",
+            "frontier marker",
+            "frontier marker",
+            "frontier marker scale",
+            "frontier marker color",
+            "frontier marker color",
+            "frontier marker color",
+            "frontier marker color",
+            "frontier marker pose orientation",
+            "",
+            "marker frame",
+            "marker stamp",
+            "marker",
+            "marker",
+            "marker pose position",
+            "marker pose orientation",
+            "marker",
+            "marker action",
+            "marker scale",
+            "marker scale",
+            "marker scale",
+            "marker color",
+            "marker color",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position",
+            "marker pose position"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map frontier search"
+    },
+    {
+      "imports": [
+        "costmap cost",
+        "boost foreach",
+        "pandora explorer costmap",
+        "pandora explorer map frontier search"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map frontier search map frontier search",
+          "params": [
+            "costmap",
+            "costmap frame"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map frontier search",
+          "params": [
+            "position"
+          ],
+          "local_variables": [
+            "frontier",
+            "lock",
+            "",
+            "",
+            "map",
+            "",
+            "",
+            "frontier",
+            "visited",
+            "bfs",
+            "",
+            "pos",
+            "",
+            "frontier",
+            "visited bfs",
+            "visited nbr",
+            "frontier nbr"
+          ]
+        },
+        {
+          "name": "map frontier search frontier",
+          "params": [
+            "initial cell",
+            "",
+            "frontier"
+          ],
+          "local_variables": [
+            "output",
+            "",
+            "",
+            "bfs",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "distance",
+            "midpoint",
+            "",
+            "output centroid",
+            "output centroid",
+            "output",
+            "output distance",
+            "frontier nbr",
+            "output midpoint",
+            "output midpoint",
+            "output distance",
+            "output middle",
+            "output middle",
+            "output midpoint",
+            "output midpoint",
+            "output stamp",
+            "output frame"
+          ]
+        },
+        {
+          "name": "map frontier search frontier cell",
+          "params": [
+            "",
+            "frontier"
+          ],
+          "local_variables": [
+            "map"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "navfn frontier path generator"
+    },
+    {
+      "imports": [
+        "pandora explorer navfn frontier path generator"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "navfn frontier path generator navfn frontier path generator",
+          "params": [
+            "",
+            "frontier representation",
+            "costmap ros"
+          ],
+          "local_variables": [
+            "planner",
+            "",
+            "planner"
+          ]
+        },
+        {
+          "name": "navfn frontier path generator paths",
+          "params": [
+            "",
+            "frontier"
+          ],
+          "local_variables": [
+            "plan",
+            "goal",
+            "goal",
+            "goal pose position",
+            "goal pose position",
+            "goal pose position",
+            "goal pose position",
+            "goal pose orientation",
+            "plan",
+            "frontier path"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "navfn frontier path generator"
+    },
+    {
+      "imports": [
+        "pandora explorer navfn frontier path generator"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "navfn frontier path generator navfn frontier path generator",
+          "params": [
+            "",
+            "frontier representation",
+            "duration"
+          ],
+          "local_variables": [
+            "",
+            "path"
+          ]
+        },
+        {
+          "name": "navfn frontier path generator paths",
+          "params": [
+            "",
+            "frontier"
+          ],
+          "local_variables": [
+            "",
+            "srv",
+            "srv",
+            "srv goal",
+            "srv goal pose position",
+            "srv goal pose position",
+            "srv goal pose position",
+            "srv goal pose position",
+            "srv goal pose orientation",
+            "frontier path"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "frontier selector"
+    },
+    {
+      "imports": [
+        "ros",
+        "pandora explorer frontier goal selector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "frontier selector"
+          ],
+          "local_variables": [
+            "rate",
+            "goal"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "frontier selector",
+            "frontier",
+            "frontier"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "costmap"
+    },
+    {
+      "imports": [
+        "",
+        "costmap",
+        "boost foreach",
+        "pandora explorer costmap",
+        "gtest"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "edge",
+        "edge",
+        "",
+        "input",
+        "",
+        "input",
+        "",
+        "input",
+        "",
+        "input",
+        "expected",
+        "real",
+        "input",
+        "expected",
+        "real"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "neighbour",
+          "attributes": [
+            "costmap"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        },
+        {
+          "name": "nearest cell",
+          "attributes": [
+            "costmap"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [
+                "map",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "costmap",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "cost"
+              ]
+            },
+            {
+              "name": "expectation reality",
+              "params": [
+                "expected",
+                "real"
+              ],
+              "local_variables": [
+                "expect",
+                "real",
+                "expect",
+                "real"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map frontier search"
+    },
+    {
+      "imports": [
+        "costmap",
+        "pandora explorer map frontier search",
+        "iostream",
+        "gtest"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "origin",
+        "origin",
+        "initial",
+        "initial",
+        "initial",
+        "",
+        "",
+        "yolo"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map frontier search",
+          "attributes": [
+            "map frontier search ptr",
+            "costmap"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "costmap",
+              "params": [
+                "",
+                "cost"
+              ],
+              "local_variables": [
+                "map",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "costmap",
+              "params": [
+                "",
+                "cost"
+              ],
+              "local_variables": [
+                "map",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "name": "costmap",
+              "params": [],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "cost"
+              ]
+            },
+            {
+              "name": "map single frontier",
+              "params": [
+                "",
+                "",
+                "resolution",
+                "origin",
+                "origin"
+              ],
+              "local_variables": [
+                "map"
+              ]
+            },
+            {
+              "name": "map frontier",
+              "params": [
+                "",
+                "",
+                "resolution",
+                "origin",
+                "origin"
+              ],
+              "local_variables": [
+                "map"
+              ]
+            },
+            {
+              "name": "map explored",
+              "params": [
+                "",
+                "",
+                "resolution",
+                "origin",
+                "origin"
+              ],
+              "local_variables": [
+                "map"
+              ]
+            },
+            {
+              "name": "map unknown",
+              "params": [
+                "",
+                "",
+                "resolution",
+                "origin",
+                "origin"
+              ],
+              "local_variables": [
+                "map"
+              ]
+            },
+            {
+              "name": "map mid",
+              "params": [
+                "",
+                "",
+                "resolution",
+                "origin",
+                "origin"
+              ],
+              "local_variables": [
+                "map"
+              ]
+            },
+            {
+              "name": "map unknown mid",
+              "params": [
+                "",
+                "",
+                "resolution",
+                "origin",
+                "origin"
+              ],
+              "local_variables": [
+                "map"
+              ]
+            },
+            {
+              "name": "frontier",
+              "params": [
+                "initial cell",
+                "",
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frontier cell",
+              "params": [
+                "",
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resolution",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "costmap cell",
+              "params": [
+                "",
+                "",
+                "cost"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "alignment cost"
+    },
+    {
+      "imports": [
+        "pandora explorer cost alignment cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "alignment cost alignment cost",
+          "params": [
+            "scale",
+            "robot pose"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "alignment cost score frontiers",
+          "params": [
+            "frontier"
+          ],
+          "local_variables": [
+            "goal pose",
+            "angle goal",
+            "angle",
+            "goal pose",
+            "goal pose"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "distance cost"
+    },
+    {
+      "imports": [
+        "cmath",
+        "pandora explorer cost distance cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "distance cost distance cost",
+          "params": [
+            "scale"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "distance cost score frontiers",
+          "params": [
+            "frontier"
+          ],
+          "local_variables": [
+            "path",
+            "path dist",
+            "path",
+            "frontier cost"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cost"
+    },
+    {
+      "imports": [
+        "cmath",
+        "pandora explorer cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "cost",
+          "params": [
+            "scale"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "cost score frontiers",
+          "params": [
+            "frontier"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "visited cost"
+    },
+    {
+      "imports": [
+        "pandora explorer cost visited cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "visited cost visited cost",
+          "params": [
+            "scale",
+            "goals"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "visited cost score frontiers",
+          "params": [
+            "frontier"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "costmap"
+    },
+    {
+      "imports": [
+        "geometry polygon stamped",
+        "geometry stamped",
+        "costmap",
+        "boost foreach",
+        "ros"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "nhood",
+          "params": [
+            "",
+            "costmap"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "nhood",
+          "params": [
+            "",
+            "costmap"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "nearest cell",
+          "params": [
+            "",
+            "",
+            "",
+            "costmap"
+          ],
+          "local_variables": [
+            "map",
+            "",
+            "",
+            "bfs",
+            "visited",
+            "",
+            "visited",
+            "",
+            "visited nbr"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exploration controller"
+    },
+    {
+      "imports": [
+        "ros",
+        "boost foreach",
+        "actionlib simple action",
+        "actionlib simple action",
+        "pandora exploration action",
+        "action",
+        "pandora explorer goal selector",
+        "pandora explorer frontier goal selector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "exploration controller",
+          "attributes": [
+            "",
+            "",
+            "exploration",
+            "",
+            "goal selector map",
+            "goal timeout",
+            "",
+            "abortions",
+            "",
+            "goal searches",
+            "goal searches",
+            "goal reached dist",
+            "current goal",
+            "feedback",
+            "computation",
+            "",
+            "goal expired"
+          ],
+          "methods": [
+            {
+              "name": "exploration controller",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "feedback",
+              "params": [
+                "feedback"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "preempt",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "goal reached",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "reached",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "goal reached",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "frontier"
+    },
+    {
+      "imports": [
+        "",
+        "boost shared ptr",
+        "geometry",
+        "nav path",
+        "std"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "frontier",
+          "attributes": [
+            "",
+            "",
+            "distance",
+            "cost",
+            "initial",
+            "centroid",
+            "middle",
+            "midpoint",
+            "frontier",
+            "path"
+          ],
+          "methods": [
+            {
+              "name": "frontier",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "frontier goal selector"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "costmap ros",
+        "costmap",
+        "transform",
+        "visualization marker",
+        "pandora explorer goal selector",
+        "pandora explorer frontier",
+        "pandora explorer map frontier search",
+        "pandora explorer navfn frontier path generator",
+        "pandora explorer navfn frontier path generator",
+        "pandora explorer cost distance cost",
+        "pandora explorer cost",
+        "pandora explorer cost alignment cost",
+        "pandora explorer cost visited cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "frontier goal selector",
+          "attributes": [
+            "frontier marker pub",
+            "explore costmap ros",
+            "frontier",
+            "",
+            "current robot pose",
+            "frontier search vec",
+            "frontier cost vec",
+            "frontier path generator",
+            "frontier representation",
+            "visualize paths",
+            "current frontier"
+          ],
+          "methods": [
+            {
+              "name": "frontier goal selector",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "goal",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frontier goal selector",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "frontier",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculate goal orientation",
+              "params": [
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "visualize frontiers",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "frontier path generator"
+    },
+    {
+      "imports": [
+        "",
+        "nav path",
+        "pandora explorer frontier"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "frontier path generator",
+          "attributes": [
+            "",
+            "frontier representation"
+          ],
+          "methods": [
+            {
+              "name": "paths",
+              "params": [
+                "",
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frontier path generator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "frontier path generator",
+              "params": [
+                "",
+                "frontier representation"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "frontier search"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "boost shared ptr",
+        "geometry",
+        "costmap",
+        "pandora explorer frontier"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "frontier search",
+          "attributes": [
+            "costmap",
+            "costmap frame"
+          ],
+          "methods": [
+            {
+              "name": "search",
+              "params": [
+                "position"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frontier search",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "frontier search",
+              "params": [
+                "costmap",
+                "costmap frame"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "goal selector"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "boost shared ptr",
+        "geometry pose stamped"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "goal selector",
+          "attributes": [
+            "",
+            "goals"
+          ],
+          "methods": [
+            {
+              "name": "goal",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "goal",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "goal selector",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "goal selector",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map frontier search"
+    },
+    {
+      "imports": [
+        "pandora explorer frontier search"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map frontier search",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "map frontier search",
+              "params": [
+                "costmap",
+                "costmap frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "search",
+              "params": [
+                "position"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map frontier search",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "frontier",
+              "params": [
+                "initial cell",
+                "",
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frontier cell",
+              "params": [
+                "",
+                "frontier"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "navfn frontier path generator"
+    },
+    {
+      "imports": [
+        "",
+        "ros",
+        "nav plan",
+        "boost foreach",
+        "costmap ros",
+        "nav core planner",
+        "pluginlib loader",
+        "pandora explorer frontier path generator"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "navfn frontier path generator",
+          "attributes": [
+            "pnh",
+            "planner",
+            "planner loader",
+            "costmap ros"
+          ],
+          "methods": [
+            {
+              "name": "navfn frontier path generator",
+              "params": [
+                "",
+                "frontier representation",
+                "costmap ros"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "paths",
+              "params": [
+                "",
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "navfn frontier path generator",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "navfn frontier path generator"
+    },
+    {
+      "imports": [
+        "",
+        "ros",
+        "nav plan",
+        "boost foreach",
+        "pandora explorer frontier path generator"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "navfn frontier path generator",
+          "attributes": [
+            "",
+            "pnh",
+            "duration",
+            "path"
+          ],
+          "methods": [
+            {
+              "name": "navfn frontier path generator",
+              "params": [
+                "",
+                "frontier representation",
+                "duration"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "paths",
+              "params": [
+                "",
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "expiration",
+              "params": [
+                "duration"
+              ],
+              "local_variables": [
+                "duration"
+              ]
+            },
+            {
+              "name": "navfn frontier path generator",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "alignment cost"
+    },
+    {
+      "imports": [
+        "boost foreach",
+        "",
+        "angles",
+        "pandora explorer cost frontier cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "alignment cost",
+          "attributes": [
+            "robot pose"
+          ],
+          "methods": [
+            {
+              "name": "alignment cost",
+              "params": [
+                "scale",
+                "robot pose"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "score frontiers",
+              "params": [
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "alignment cost",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "distance cost"
+    },
+    {
+      "imports": [
+        "boost foreach",
+        "pandora explorer cost frontier cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "distance cost",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "distance cost",
+              "params": [
+                "scale"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "score frontiers",
+              "params": [
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "distance cost",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "frontier cost"
+    },
+    {
+      "imports": [
+        "pandora explorer frontier"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "frontier cost",
+          "attributes": [
+            "scale"
+          ],
+          "methods": [
+            {
+              "name": "score frontiers",
+              "params": [
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frontier cost",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "frontier cost",
+              "params": [
+                "scale"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "cost"
+    },
+    {
+      "imports": [
+        "boost foreach",
+        "pandora explorer cost frontier cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "cost",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "cost",
+              "params": [
+                "scale"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "score frontiers",
+              "params": [
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "cost",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "visited cost"
+    },
+    {
+      "imports": [
+        "",
+        "boost foreach",
+        "",
+        "angles",
+        "pandora explorer cost frontier cost"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "visited cost",
+          "attributes": [
+            "goals"
+          ],
+          "methods": [
+            {
+              "name": "visited cost",
+              "params": [
+                "scale",
+                "goals"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "score frontiers",
+              "params": [
+                "frontier"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "visited cost",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

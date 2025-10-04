@@ -1,0 +1,214 @@
+[
+  {
+    "file": "PriceBean.java.xml",
+    "comments": []
+  },
+  {
+    "file": "PriceReader.java.xml",
+    "comments": []
+  },
+  {
+    "file": "PriceWriter.java.xml",
+    "comments": []
+  },
+  {
+    "file": "DBB.java.xml",
+    "comments": [
+      "//Low volatility case",
+      "//Low volatility case"
+    ]
+  },
+  {
+    "file": "EMA.java.xml",
+    "comments": [
+      "/**\n * EXPONENTIAL MOVING AVERAGE\n */",
+      "//Initial SMA",
+      "//Dont use latest unclosed candle;",
+      "// EMA = (Close - EMA(previousBar)) * multiplier + EMA(previousBar)"
+    ]
+  },
+  {
+    "file": "Indicator.java.xml",
+    "comments": [
+      "//Used to get the latest indicator value updated with closed candle",
+      "//Used to get value of indicator simulated with the latest non-closed price",
+      "//Used in constructor to set initial value",
+      "//Used to update value with latest closed candle closing price",
+      "//Used to check for buy signal"
+    ]
+  },
+  {
+    "file": "MACD.java.xml",
+    "comments": [
+      "//Default setting in crypto are period of 9, short 12 and long 26.",
+      "//MACD = 12 EMA - 26 EMA and compare to 9 period of MACD value.",
+      "//Will be the EMA object for shortEMA-",
+      "//Will be the EMA object for longEMA.",
+      "//Only value that has to be calculated in setInitial.",
+      "//true, because history is needed in MACD calculations.",
+      "//true for the same reasons.",
+      "//initializing the calculations to get current MACD and signal line.",
+      "//Difference between the values.",
+      "//temporary values",
+      "//Getting the difference between the two signals.",
+      "//Initial signal line",
+      "//i = longEMA.getPeriod(); because the sizes of shortEMA and longEMA are different.",
+      "//i value with shortEMA gets changed to compensate the list size difference",
+      "//Everything after the first calculation of signal line.",
+      "//Updating the EMA values before updating MACD and Signal line.",
+      "/*if (change < -MACD.change) {\n            explanation = \"MACD histogram fell by \" + Formatter.formatPercent(change);\n            return -1;\n        }*/"
+    ]
+  },
+  {
+    "file": "RSI.java.xml",
+    "comments": [
+      "//Initial SMA values",
+      "//Dont use latest unclosed value"
+    ]
+  },
+  {
+    "file": "SMA.java.xml",
+    "comments": [
+      "//Initial sum"
+    ]
+  },
+  {
+    "file": "Backtesting.java.xml",
+    "comments": []
+  },
+  {
+    "file": "Collection.java.xml",
+    "comments": [
+      "//TODO: Identify cause and fix occasional date regression (maybe related to resending?)",
+      "// March 1 00:00:00 1583020800000",
+      "// April 1 00:00:00 1585699200000",
+      "//TODO: Method to get csv with indicators for ML (5min, interval, realtime)",
+      "//https://github.com/markrkalder/crypto-ds/blob/transformer/src/main/java/ml/DataCalculator.java"
+    ]
+  },
+  {
+    "file": "Live.java.xml",
+    "comments": [
+      "//TODO: This try block doesn't work",
+      "//This doesn't seem to do anything",
+      "//localAccount.getRealAccount().setUpdateTime(1);",
+      "//TODO: Open price for existing currencies"
+    ]
+  },
+  {
+    "file": "Simulation.java.xml",
+    "comments": [
+      "//The currency class contains all of the method calls that drive the activity of our bot"
+    ]
+  },
+  {
+    "file": "ConfigException.java.xml",
+    "comments": []
+  },
+  {
+    "file": "ConfigSetup.java.xml",
+    "comments": [
+      "//12 is the number of configuration elements in the file."
+    ]
+  },
+  {
+    "file": "Formatter.java.xml",
+    "comments": [
+      "//TODO: This adds an \"?\" to the MACD value in simulation in the exe for some reason"
+    ]
+  },
+  {
+    "file": "Main.java.xml",
+    "comments": [
+      "//Program config.",
+      "//TODO: Change mode selection to single character",
+      "//Init collection mode.",
+      "//Init live mode.",
+      "//Init simulation mode.",
+      "//Init Backtesting mode.",
+      "//From this point we only use the main thread to check how the bot is doing"
+    ]
+  },
+  {
+    "file": "Mode.java.xml",
+    "comments": []
+  },
+  {
+    "file": "BuySell.java.xml",
+    "comments": [
+      "//Used by strategy",
+      "//If no fiat is available, we cant trade",
+      "//Current price of the currency",
+      "//Converting fiat value to coin value",
+      "//Used by trade",
+      "//Converting coin value back to fiat",
+      "//TODO: Implement limit ordering",
+      "//Round amount to base precision and LOT_SIZE",
+      "//Check LOT_SIZE to make sure amount is not too small",
+      "//Convert amount to an integer multiple of LOT_SIZE and convert to asset precision"
+    ]
+  },
+  {
+    "file": "Currency.java.xml",
+    "comments": [
+      "//Backtesting data",
+      "//Used for SIMULATION and LIVE",
+      "//Every currency needs to contain and update our indicators",
+      "//We set the initial values to check against in onMessage based on the latest candle in history",
+      "//We add a websocket listener that automatically updates our values and triggers our strategy or trade logic as needed",
+      "//Every message and the resulting indicator and strategy calculations is handled concurrently",
+      "//System.out.println(Thread.currentThread().getId());",
+      "//We want to toss messages that provide no new information",
+      "//Used for BACKTESTING",
+      "//TODO: Fix slight mismatch between MACD backtesting and server values.",
+      "//Make sure we dont get concurrency issues",
+      "//0 Confluence should be reserved in the config for doing nothing",
+      "//We can disable the strategy and trading logic to only check indicator and price accuracy",
+      "//We only allow one active trade per currency, this means we only need to do one of the following:",
+      "//Update the active trade stop-loss and high values"
+    ]
+  },
+  {
+    "file": "CurrentAPI.java.xml",
+    "comments": []
+  },
+  {
+    "file": "LocalAccount.java.xml",
+    "comments": [
+      "//To give the account a specific final amount of money.",
+      "/**\n     * Wallet value will most probably be 0 at first, but you could start\n     * with an existing wallet value as well.\n     */",
+      "//Maker fees are",
+      "// paid when you add liquidity to our order book",
+      "// by placing a limit order below the ticker price for buy, and above the ticker price for sell.",
+      "//Taker fees are paid when you remove",
+      "// liquidity from our order book by placing any order that is executed against an order on the order book.",
+      "//Example: If the current market/ticker price is $2000 for 1 BTC and you market buy bitcoins starting at the market price of $2000, then you will pay the taker fee. In this instance, you have taken liquidity/coins from the order book.",
+      "//",
+      "//If the current market/ticker price is $2000 for 1 BTC and you",
+      "//place a limit buy for bitcoins at $1995, then",
+      "//you will pay the maker fee IF the market/ticker price moves into your limit order at $1995.",
+      "//All backend.Trade methods",
+      "//All the get methods.",
+      "/**\n     * Method has backend.Currency names as keys and the amount of certain currency as value.\n     * i.e {\"BTCUSDT : 3.23}\n     *\n     * @return\n     */",
+      "/**\n     * Method will calculate current profit off of all the active trades\n     *\n     * @return returns the sum of all the percentages wether the profit is below 0 or above.\n     */",
+      "//All wallet methods",
+      "/**\n     * Method allows to add currencies to wallet hashmap.\n     *\n     * @param key   Should be the name of the currency ie \"BTCUSDT\"\n     * @param value The amount how much was bought.\n     */",
+      "/**\n     * Method allows to remove values from keys.\n     **/"
+    ]
+  },
+  {
+    "file": "Trade.java.xml",
+    "comments": [
+      "//Set the highest price",
+      "//It's in percentages, but using double for comfort.",
+      "//It's in percentages, but using double for comfort.",
+      "//Starting price of a trade (when logic decides to buy)",
+      "//What cryptocurrency is used.",
+      "//How much are you buying or selling. I.E 6 bitcoins or smth.",
+      "//Getters and setters",
+      "//for getting the currency to calculate what the price is now.",
+      "//Allows user to get the profit percentages on one specific trade.",
+      "//Checks if there is a new highest price for the trade or if the trade has dropped below the stoploss."
+    ]
+  }
+]

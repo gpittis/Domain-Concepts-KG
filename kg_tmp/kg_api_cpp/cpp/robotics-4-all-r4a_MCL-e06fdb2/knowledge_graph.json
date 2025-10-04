@@ -1,0 +1,1932 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "action",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "angl",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "angular",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "art",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "averag",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "beta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "broadcast",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calcul",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cell",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cstdlib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "deviat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distanc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dtheta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "durat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "event",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "filter",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frame",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fstream",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "geometri",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "grid",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "height",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "increment",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "initi",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "laser",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "linear",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "local",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "marker",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "math",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "measur",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "motion",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nav",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nois",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "occup",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "odometri",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ogm",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "particl",
+      "count": 38
+    },
+    {
+      "type": "CONCEPT",
+      "name": "percept",
+      "count": 18
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pose",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pub",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reader",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resampl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resolut",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rfid",
+      "count": 19
+    },
+    {
+      "type": "CONCEPT",
+      "name": "robot",
+      "count": 18
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ros",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scale",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scan",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sens",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sensor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "srv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sstream",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stamp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stdr",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strict",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sub",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "theta",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timer",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "topic",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "twist",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "veloc",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "visual",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "weight",
+      "count": 5
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "filter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "increment",
+      "final_weight": 3.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "laser",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "particl",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "percept",
+      "final_weight": 8.383332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "robot",
+      "final_weight": 8.383332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "calcul",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "current",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "filter",
+      "final_weight": 7.266663,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "motion",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "odometri",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "particl",
+      "final_weight": 10.033329,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "veloc",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "art",
+      "to": "filter",
+      "final_weight": 7.733332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "art",
+      "to": "local",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "art",
+      "to": "ogm",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "art",
+      "to": "particl",
+      "final_weight": 8.366665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "art",
+      "to": "percept",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "art",
+      "to": "robot",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "art",
+      "to": "srv",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "averag",
+      "to": "filter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "averag",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "averag",
+      "to": "resampl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "beta",
+      "to": "filter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "beta",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "beta",
+      "to": "resampl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "broadcast",
+      "to": "filter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "broadcast",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "broadcast",
+      "to": "transform",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "linear",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "motion",
+      "final_weight": 3.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "particl",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "map",
+      "final_weight": 3.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "percept",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "robot",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "filter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cstdlib",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "filter",
+      "final_weight": 9.316662,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "linear",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "odometri",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "particl",
+      "final_weight": 9.949995,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "veloc",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deviat",
+      "to": "nois",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deviat",
+      "to": "particl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "particl",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "weight",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dtheta",
+      "to": "particl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "filter",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "particl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "filter",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "particl",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "frame",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "geometri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "initi",
+      "final_weight": 3.466665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "linear",
+      "final_weight": 7.266663,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "local",
+      "final_weight": 7.733332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "marker",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "motion",
+      "final_weight": 3.949998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "nav",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "nois",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "odometri",
+      "final_weight": 7.666665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "ogm",
+      "final_weight": 7.733332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "particl",
+      "final_weight": 51.499988,
+      "count": 55
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "percept",
+      "final_weight": 3.349999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "pose",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "pub",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "resampl",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "resolut",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "robot",
+      "final_weight": 3.349999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "scale",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "srv",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "strict",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "sub",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "theta",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "timer",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "topic",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "transform",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "twist",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "veloc",
+      "final_weight": 6.316665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "visual",
+      "final_weight": 6.949998,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "weight",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fstream",
+      "to": "percept",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fstream",
+      "to": "robot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "twist",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "map",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "nav",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "occup",
+      "final_weight": 2.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "percept",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "robot",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "map",
+      "final_weight": 6.533333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "particl",
+      "final_weight": 2.833334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "percept",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "robot",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increment",
+      "to": "laser",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increment",
+      "to": "particl",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increment",
+      "to": "percept",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increment",
+      "to": "robot",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increment",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "map",
+      "final_weight": 3.033333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "particl",
+      "final_weight": 7.266665,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "percept",
+      "final_weight": 2.683332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "pose",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "robot",
+      "final_weight": 2.683332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "percept",
+      "final_weight": 8.299998,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "robot",
+      "final_weight": 8.299998,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "scan",
+      "final_weight": 3.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "motion",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "odometri",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "particl",
+      "final_weight": 10.033329,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "veloc",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "ogm",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "particl",
+      "final_weight": 8.366665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "percept",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "robot",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "srv",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "occup",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "percept",
+      "final_weight": 22.916661,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "resolut",
+      "final_weight": 6.533333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "robot",
+      "final_weight": 22.916661,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "visual",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "math",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "measur",
+      "to": "percept",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "measur",
+      "to": "rfid",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "measur",
+      "to": "robot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "measur",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "measur",
+      "to": "stdr",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motion",
+      "to": "odometri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motion",
+      "to": "particl",
+      "final_weight": 8.066664,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motion",
+      "to": "veloc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "occup",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "odometri",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "particl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "percept",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "robot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nois",
+      "to": "particl",
+      "final_weight": 4.266666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "percept",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "robot",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "odometri",
+      "to": "particl",
+      "final_weight": 7.666665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "odometri",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ogm",
+      "to": "particl",
+      "final_weight": 8.366665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ogm",
+      "to": "percept",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ogm",
+      "to": "robot",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ogm",
+      "to": "srv",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "percept",
+      "final_weight": 3.349999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "pose",
+      "final_weight": 2.766667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "pub",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "resampl",
+      "final_weight": 4.116666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "resolut",
+      "final_weight": 3.550001,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "rfid",
+      "final_weight": 2.766667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "robot",
+      "final_weight": 3.349999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "ros",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "scale",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "sens",
+      "final_weight": 4.116666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "srv",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "strict",
+      "final_weight": 2.2,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "sub",
+      "final_weight": 2.2,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "theta",
+      "final_weight": 9.299998,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "timer",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "topic",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "transform",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "twist",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "veloc",
+      "final_weight": 6.316665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "visual",
+      "final_weight": 6.949998,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "particl",
+      "to": "weight",
+      "final_weight": 9.399998,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "pose",
+      "final_weight": 4.266666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "reader",
+      "final_weight": 7.033332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "resolut",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "rfid",
+      "final_weight": 20.866662,
+      "count": 24
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "robot",
+      "final_weight": 54.033324,
+      "count": 49
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "ros",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "scan",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "sensor",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "sstream",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "stdr",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percept",
+      "to": "topic",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "rfid",
+      "final_weight": 6.1,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "robot",
+      "final_weight": 4.266666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "sens",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "visual",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reader",
+      "to": "rfid",
+      "final_weight": 11.966667,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reader",
+      "to": "robot",
+      "final_weight": 7.033332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reader",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resampl",
+      "to": "weight",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "robot",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "visual",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rfid",
+      "to": "robot",
+      "final_weight": 20.866662,
+      "count": 24
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rfid",
+      "to": "sens",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rfid",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rfid",
+      "to": "stdr",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rfid",
+      "to": "theta",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rfid",
+      "to": "topic",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rfid",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "ros",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "scan",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "sensor",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "sstream",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "stdr",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "topic",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scale",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scan",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sens",
+      "to": "theta",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "stdr",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stamp",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strict",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sub",
+      "to": "weight",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "topic",
+      "to": "veloc",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "transform",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "twist",
+      "to": "veloc",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "visual",
+      "to": "weight",
+      "final_weight": 0.633333,
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,1197 @@
+[
+  [
+    {
+      "file": "move_base.cpp.xml"
+    },
+    {
+      "imports": [
+        "<pandora_move_base/move_base.h>",
+        "<cmath>",
+        "<boost/algorithm/string.hpp>",
+        "<boost/thread.hpp>",
+        "<geometry_msgs/Twist.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MoveBase::MoveBase",
+          "params": [
+            "tf"
+          ],
+          "local_variables": [
+            "private_nh",
+            "nh",
+            "global_planner",
+            "local_planner",
+            "action_nh",
+            "simple_nh",
+            "classes",
+            "i",
+            "ex",
+            "classes",
+            "i",
+            "ex",
+            "cb",
+            "as_",
+            "oscillation_pose_.pose.orientation.z",
+            "planner_plan_",
+            "latest_plan_",
+            "controller_plan_",
+            "planner_thread_",
+            "vel_pub_",
+            "current_goal_pub_",
+            "action_goal_pub_",
+            "goal_sub_",
+            "planner_costmap_ros_",
+            "global_planner",
+            "planner_",
+            "controller_costmap_ros_",
+            "local_planner",
+            "tc_",
+            "make_plan_srv_",
+            "clear_costmaps_srv_",
+            "state_",
+            "recovery_trigger_",
+            "recovery_index_",
+            "dsrv_"
+          ]
+        },
+        {
+          "name": "MoveBase::reconfigureCB",
+          "params": [
+            "config",
+            "level"
+          ],
+          "local_variables": [
+            "l",
+            "old_planner",
+            "classes",
+            "i",
+            "lock",
+            "ex",
+            "old_planner",
+            "classes",
+            "i",
+            "ex",
+            "last_config_",
+            "default_config_",
+            "setup_",
+            "config",
+            "config.restore_defaults",
+            "planner_frequency_",
+            "p_freq_change_",
+            "controller_frequency_",
+            "c_freq_change_",
+            "planner_patience_",
+            "controller_patience_",
+            "oscillation_timeout_",
+            "oscillation_recovery_time_",
+            "oscillation_distance_",
+            "oscillation_angle_",
+            "recovery_behavior_enabled_",
+            "clear_costmap_recovery_allowed_",
+            "collision_recovery_allowed_",
+            "rotate_recovery_allowed_",
+            "conservative_reset_dist_",
+            "aggressive_reset_dist_",
+            "linear_escape_vel_",
+            "angular_escape_vel_",
+            "rotate_angle_",
+            "shutdown_costmaps_",
+            "config.base_global_planner",
+            "planner_",
+            "planner_",
+            "config.base_global_planner",
+            "config.base_local_planner",
+            "tc_",
+            "tc_",
+            "config.base_local_planner",
+            "last_config_"
+          ]
+        },
+        {
+          "name": "MoveBase::~MoveBase",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "MoveBase::executeCycle",
+          "params": [
+            "goal",
+            "global_plan"
+          ],
+          "local_variables": [
+            "ecl",
+            "cmd_vel",
+            "global_pose",
+            "current_position",
+            "feedback",
+            "temp_plan",
+            "lock",
+            "lock",
+            "lock",
+            "lock",
+            "attempt_end",
+            "lock",
+            "lock",
+            "lock",
+            "feedback.base_position",
+            "last_oscillation_reset_",
+            "oscillation_pose_",
+            "recovery_index_",
+            "new_global_plan_",
+            "controller_plan_",
+            "latest_plan_",
+            "runPlanner_",
+            "recovery_index_",
+            "runPlanner_",
+            "runPlanner_",
+            "state_",
+            "recovery_trigger_",
+            "last_valid_control_",
+            "recovery_index_",
+            "state_",
+            "recovery_trigger_",
+            "last_valid_plan_",
+            "state_",
+            "runPlanner_",
+            "last_oscillation_reset_",
+            "state_",
+            "runPlanner_",
+            "runPlanner_"
+          ]
+        },
+        {
+          "name": "MoveBase::clearCostmapsService",
+          "params": [
+            "req",
+            "resp"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "MoveBase::planService",
+          "params": [
+            "req",
+            "resp"
+          ],
+          "local_variables": [
+            "global_pose",
+            "start",
+            "resolution",
+            "global_plan",
+            "p",
+            "found_legal",
+            "i",
+            "start",
+            "p",
+            "p.pose.position.y",
+            "p.pose.position.x",
+            "found_legal",
+            "resp.plan.poses[i]"
+          ]
+        },
+        {
+          "name": "MoveBase::goalCB",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "action_goal",
+            "action_goal.header.stamp",
+            "action_goal.goal.target_pose"
+          ]
+        },
+        {
+          "name": "MoveBase::clearCostmapWindows",
+          "params": [
+            "size_x",
+            "size_y"
+          ],
+          "local_variables": [
+            "global_pose",
+            "clear_poly",
+            "x",
+            "y",
+            "pt",
+            "pt.x",
+            "pt.y",
+            "pt.x",
+            "pt.y",
+            "pt.x",
+            "pt.y",
+            "pt.x",
+            "pt.y",
+            "x",
+            "y",
+            "pt.x",
+            "pt.y",
+            "pt.x",
+            "pt.y",
+            "pt.x",
+            "pt.y",
+            "pt.x",
+            "pt.y"
+          ]
+        },
+        {
+          "name": "MoveBase::makePlan",
+          "params": [
+            "goal",
+            "plan"
+          ],
+          "local_variables": [
+            "lock",
+            "global_pose",
+            "start"
+          ]
+        },
+        {
+          "name": "MoveBase::publishZeroVelocity",
+          "params": [],
+          "local_variables": [
+            "cmd_vel",
+            "cmd_vel.linear.x",
+            "cmd_vel.linear.y",
+            "cmd_vel.angular.z"
+          ]
+        },
+        {
+          "name": "MoveBase::distance",
+          "params": [
+            "p1",
+            "p2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "MoveBase::angle",
+          "params": [
+            "p1",
+            "p2"
+          ],
+          "local_variables": [
+            "q1",
+            "q2"
+          ]
+        },
+        {
+          "name": "MoveBase::isQuaternionValid",
+          "params": [
+            "q"
+          ],
+          "local_variables": [
+            "tf_q",
+            "up",
+            "dot"
+          ]
+        },
+        {
+          "name": "MoveBase::goalToGlobalFrame",
+          "params": [
+            "goal_pose_msg"
+          ],
+          "local_variables": [
+            "global_frame",
+            "goal_pose",
+            "global_pose",
+            "ex",
+            "global_pose_msg",
+            "goal_pose.stamp_"
+          ]
+        },
+        {
+          "name": "MoveBase::planThread",
+          "params": [],
+          "local_variables": [
+            "n",
+            "r",
+            "lock",
+            "temp_goal",
+            "gotPlan",
+            "temp_plan",
+            "attempt_end",
+            "r",
+            "p_freq_change_",
+            "planner_plan_",
+            "latest_plan_",
+            "last_valid_plan_",
+            "new_global_plan_",
+            "state_",
+            "runPlanner_",
+            "state_",
+            "recovery_trigger_"
+          ]
+        },
+        {
+          "name": "MoveBase::executeCb",
+          "params": [
+            "move_base_goal"
+          ],
+          "local_variables": [
+            "goal",
+            "lock",
+            "global_plan",
+            "r",
+            "n",
+            "new_goal",
+            "start",
+            "done",
+            "t_diff",
+            "planner_goal_",
+            "runPlanner_",
+            "last_valid_control_",
+            "last_valid_plan_",
+            "last_oscillation_reset_",
+            "r",
+            "c_freq_change_",
+            "goal",
+            "recovery_index_",
+            "state_",
+            "planner_goal_",
+            "runPlanner_",
+            "last_valid_control_",
+            "last_valid_plan_",
+            "last_oscillation_reset_",
+            "goal",
+            "recovery_index_",
+            "state_",
+            "planner_goal_",
+            "runPlanner_",
+            "last_valid_control_",
+            "last_valid_plan_",
+            "last_oscillation_reset_",
+            "runPlanner_"
+          ]
+        },
+        {
+          "name": "MoveBase::loadRecoveryBehaviors",
+          "params": [
+            "node"
+          ],
+          "local_variables": [
+            "behavior_list",
+            "i",
+            "j",
+            "name_i",
+            "name_j",
+            "i",
+            "classes",
+            "i",
+            "behavior",
+            "ex",
+            "behavior_list[i][\"type\"]"
+          ]
+        },
+        {
+          "name": "MoveBase::loadDefaultRecoveryBehaviors",
+          "params": [],
+          "local_variables": [
+            "n",
+            "aggressive_clear",
+            "conservative_collision",
+            "rotate",
+            "ex"
+          ]
+        },
+        {
+          "name": "MoveBase::resetState",
+          "params": [],
+          "local_variables": [
+            "state_",
+            "recovery_index_",
+            "recovery_trigger_"
+          ]
+        },
+        {
+          "name": "MoveBase::findValidGoalApproximate",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "lock",
+            "costmap",
+            "mx",
+            "my",
+            "yaw",
+            "direction[2]",
+            "previous_point",
+            "new_point",
+            "new_point.x",
+            "new_point.y",
+            "previous_point",
+            "goal->pose.position.x",
+            "goal->pose.position.y"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "move_base_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<pandora_move_base/move_base.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "tf",
+            "move_base"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "move_base.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "<ros/ros.h>",
+        "<actionlib/server/simple_action_server.h>",
+        "<move_base_msgs/MoveBaseAction.h>",
+        "<nav_core/base_local_planner.h>",
+        "<nav_core/base_global_planner.h>",
+        "<nav_core/recovery_behavior.h>",
+        "<geometry_msgs/PoseStamped.h>",
+        "<costmap_2d/costmap_2d_ros.h>",
+        "<costmap_2d/costmap_2d.h>",
+        "<nav_msgs/GetPlan.h>",
+        "<pluginlib/class_loader.h>",
+        "<std_srvs/Empty.h>",
+        "<dynamic_reconfigure/server.h>",
+        "\"pandora_move_base/MoveBaseConfig.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "PLANNING",
+        "CONTROLLING",
+        "CLEARING",
+        "PLANNING_R",
+        "CONTROLLING_R",
+        "OSCILLATION_R"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MoveBase",
+          "attributes": [
+            "tf_",
+            "as_",
+            "tc_",
+            "planner_costmap_ros_",
+            "controller_costmap_ros_",
+            "planner_",
+            "robot_base_frame_",
+            "global_frame_",
+            "recovery_behaviors_",
+            "recovery_index_",
+            "global_pose_",
+            "planner_frequency_",
+            "controller_frequency_",
+            "inscribed_radius_",
+            "circumscribed_radius_",
+            "planner_patience_",
+            "controller_patience_",
+            "clearing_radius_",
+            "current_goal_pub_",
+            "vel_pub_",
+            "action_goal_pub_",
+            "goal_sub_",
+            "make_plan_srv_",
+            "clear_costmaps_srv_",
+            "max_trans_vel_",
+            "max_rot_vel_",
+            "oscillation_timeout_",
+            "oscillation_recovery_time_",
+            "oscillation_distance_",
+            "oscillation_angle_",
+            "shutdown_costmaps_",
+            "recovery_behavior_enabled_",
+            "clear_costmap_recovery_allowed_",
+            "collision_recovery_allowed_",
+            "rotate_recovery_allowed_",
+            "conservative_reset_dist_",
+            "aggressive_reset_dist_",
+            "linear_escape_vel_",
+            "angular_escape_vel_",
+            "rotate_angle_",
+            "state_",
+            "recovery_trigger_",
+            "last_valid_plan_",
+            "last_valid_control_",
+            "last_oscillation_reset_",
+            "oscillation_pose_",
+            "bgp_loader_",
+            "blp_loader_",
+            "recovery_loader_",
+            "planner_plan_",
+            "latest_plan_",
+            "controller_plan_",
+            "runPlanner_",
+            "planner_mutex_",
+            "planner_cond_",
+            "planner_goal_",
+            "planner_thread_",
+            "configuration_mutex_",
+            "dsrv_",
+            "last_config_",
+            "default_config_",
+            "setup_",
+            "p_freq_change_",
+            "c_freq_change_",
+            "new_global_plan_"
+          ],
+          "methods": [
+            {
+              "name": "MoveBase",
+              "params": [
+                "tf"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~MoveBase",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "executeCycle",
+              "params": [
+                "goal",
+                "global_plan"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "clearCostmapsService",
+              "params": [
+                "req",
+                "resp"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "planService",
+              "params": [
+                "req",
+                "resp"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "goalCB",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "clearCostmapWindows",
+              "params": [
+                "size_x",
+                "size_y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "makePlan",
+              "params": [
+                "goal",
+                "plan"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publishZeroVelocity",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "distance",
+              "params": [
+                "p1",
+                "p2"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "angle",
+              "params": [
+                "p1",
+                "p2"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "isQuaternionValid",
+              "params": [
+                "q"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "goalToGlobalFrame",
+              "params": [
+                "goal_pose_msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "planThread",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "executeCb",
+              "params": [
+                "move_base_goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loadRecoveryBehaviors",
+              "params": [
+                "node"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loadDefaultRecoveryBehaviors",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "resetState",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "findValidGoalApproximate",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "reconfigureCB",
+              "params": [
+                "config",
+                "level"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ackermann_to_twist.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"pandora_monstertruck_2dnav/ackermann_to_twist.h\"",
+        "<math.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Ackermann2Twist::Ackermann2Twist",
+          "params": [],
+          "local_variables": [
+            "publishAckermann",
+            "publishTwist",
+            "ackermannInputTopic",
+            "twistOutputTopic",
+            "twistInputTopic",
+            "ackermannOutputTopic",
+            "ackermannSub_",
+            "twistPub_",
+            "twistSub_",
+            "ackermannPub_"
+          ]
+        },
+        {
+          "name": "Ackermann2Twist::~Ackermann2Twist",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Ackermann2Twist::ackermannDriveCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "twist",
+            "twist.linear.x",
+            "twist.angular.z"
+          ]
+        },
+        {
+          "name": "Ackermann2Twist::twistCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "ackermannDrive",
+            "ackermannDrive.speed",
+            "ackermannDrive.steering_angle",
+            "ackermannDrive.steering_angle"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ackermann_to_twist_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"pandora_monstertruck_2dnav/ackermann_to_twist.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "ackermann2Twist"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "navigation_goals_loop_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<move_base_msgs/MoveBaseAction.h>",
+        "<actionlib/client/simple_action_client.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "nodeName",
+            "nh",
+            "goalList",
+            "ii",
+            "jj",
+            "ac",
+            "ii",
+            "goal",
+            "goal.target_pose.header.frame_id",
+            "goal.target_pose.header.stamp",
+            "goal.target_pose.pose.position.x",
+            "goal.target_pose.pose.position.y",
+            "goal.target_pose.pose.orientation.z",
+            "goal.target_pose.pose.orientation.w"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ackermann_to_twist.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<geometry_msgs/Twist.h>",
+        "<ackermann_msgs/AckermannDrive.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Ackermann2Twist",
+          "attributes": [
+            "nodeHandle_",
+            "ackermannSub_",
+            "twistSub_",
+            "ackermannPub_",
+            "twistPub_",
+            "wheelbase_"
+          ],
+          "methods": [
+            {
+              "name": "Ackermann2Twist",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~Ackermann2Twist",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "ackermannDriveCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "twistCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "point_cloud_cropper.cpp.xml"
+    },
+    {
+      "imports": [
+        "<boost/algorithm/string.hpp>",
+        "<sensor_msgs/PointCloud2.h>",
+        "<pcl_ros/point_cloud.h>",
+        "<pcl_ros/transforms.h>",
+        "<pcl/point_types.h>",
+        "<pcl_conversions/pcl_conversions.h>",
+        "\"pandora_costmap/FilterConfig.h\"",
+        "\"pandora_costmap/point_cloud_cropper.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "PointCloudCropper::PointCloudCropper",
+          "params": [],
+          "local_variables": [
+            "nodeName_",
+            "cloudInSubscriber_",
+            "cloudOutPublisher_"
+          ]
+        },
+        {
+          "name": "PointCloudCropper::filterParamsCb",
+          "params": [
+            "config",
+            "level"
+          ],
+          "local_variables": [
+            "min_elevation_",
+            "max_elevation_",
+            "inlier_radius_",
+            "min_neighbours_num_",
+            "leaf_size_"
+          ]
+        },
+        {
+          "name": "PointCloudCropper::pointCloudCallback",
+          "params": [
+            "cloudMsg"
+          ],
+          "local_variables": [
+            "withoutNan",
+            "indices",
+            "voxelized",
+            "sor",
+            "transformed",
+            "cool",
+            "ex",
+            "withoutOutliers",
+            "outlier",
+            "pointCloudMsgOut",
+            "cool",
+            "pointCloudMsgOut->header.stamp",
+            "pointCloudMsgOut->header.frame_id"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv[]"
+          ],
+          "local_variables": [
+            "cropper"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "range_to_point_cloud_converter.cpp.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<sensor_msgs/Range.h>",
+        "<sensor_msgs/PointCloud2.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "RangeToPCConverter::RangeToPCConverter",
+          "params": [],
+          "local_variables": [
+            "rangeTopic_",
+            "rangeSubscriber_",
+            "rangePublisher_"
+          ]
+        },
+        {
+          "name": "RangeToPCConverter::~RangeToPCConverter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "RangeToPCConverter::rangeCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "fieldOfView",
+            "range",
+            "cloud",
+            "field",
+            "step",
+            "theta",
+            "phi",
+            "x",
+            "y",
+            "z",
+            "xData",
+            "yData",
+            "zData",
+            "cloud.header.stamp",
+            "cloud.header.frame_id",
+            "cloud.height",
+            "cloud.width",
+            "cloud.is_bigendian",
+            "cloud.is_dense",
+            "cloud.point_step",
+            "field.name",
+            "field.offset",
+            "field.datatype",
+            "field.count",
+            "field.name",
+            "field.offset",
+            "field.name",
+            "field.offset",
+            "x",
+            "y",
+            "z",
+            "xData",
+            "yData",
+            "zData",
+            "cloud.row_step"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "rangeToPCConverter"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "RangeToPCConverter",
+          "attributes": [
+            "nodeHandle_",
+            "rangeSubscriber_",
+            "rangePublisher_",
+            "rangeTopic_",
+            "angleResolution_",
+            "maxRange_"
+          ],
+          "methods": [
+            {
+              "name": "rangeCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "RangeToPCConverter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~RangeToPCConverter",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "point_cloud_cropper.h.xml"
+    },
+    {
+      "imports": [
+        "<boost/shared_ptr.hpp>",
+        "<boost/foreach.hpp>",
+        "<ros/ros.h>",
+        "<sensor_msgs/PointCloud2.h>",
+        "<tf/transform_listener.h>",
+        "<tf/tf.h>",
+        "<pcl_ros/point_cloud.h>",
+        "<pcl_ros/transforms.h>",
+        "<pcl/point_types.h>",
+        "<pcl_conversions/pcl_conversions.h>",
+        "<pcl/filters/voxel_grid.h>",
+        "<pcl/filters/filter.h>",
+        "<pcl/filters/radius_outlier_removal.h>",
+        "<dynamic_reconfigure/server.h>",
+        "\"pandora_costmap/FilterConfig.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "PointCloudCropper",
+          "attributes": [
+            "nh_",
+            "pnh_",
+            "nodeName_",
+            "server_ptr_",
+            "f_type",
+            "cloudInSubscriber_",
+            "in_topic_",
+            "cloudOutPublisher_",
+            "out_topic_",
+            "listener_",
+            "reference_frame_",
+            "min_elevation_",
+            "max_elevation_",
+            "inlier_radius_",
+            "min_neighbours_num_",
+            "leaf_size_"
+          ],
+          "methods": [
+            {
+              "name": "PointCloudCropper",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pointCloudCallback",
+              "params": [
+                "cloudMsg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "filterParamsCb",
+              "params": [
+                "config",
+                "level"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

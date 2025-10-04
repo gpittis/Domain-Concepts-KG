@@ -1,0 +1,72 @@
+[
+  [
+    {
+      "file": "victim"
+    },
+    {
+      "imports": [
+        "",
+        "ros",
+        "actionlib simple action",
+        "pandora victim action",
+        "pandora victim action goal"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "victim",
+          "attributes": [
+            "",
+            "action",
+            "",
+            "",
+            "validation"
+          ],
+          "methods": [
+            {
+              "name": "victim",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "victim",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                "goal"
+              ],
+              "local_variables": [
+                "validation victim",
+                "validation victim",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

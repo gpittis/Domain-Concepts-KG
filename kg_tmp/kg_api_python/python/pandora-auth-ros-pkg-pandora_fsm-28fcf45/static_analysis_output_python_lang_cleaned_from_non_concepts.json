@@ -1,0 +1,3658 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "distutils core",
+        "catkin generate distutils"
+      ]
+    },
+    {
+      "global_variables": [
+        "dist"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "standalone"
+    },
+    {
+      "imports": [
+        "rospy",
+        "sys",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": [
+        "strategy",
+        "strategy",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "rospy node",
+        "rospy spin",
+        "pandora fusion choose victim action",
+        "pandora fusion victim action",
+        "pandora effector controller effector action",
+        "pandora exploration action",
+        "pandora fsm topics",
+        "pandora fsm action",
+        "pandora fsm",
+        "pandora fsm fusion",
+        "pandora victim action",
+        "pandora fusion choose victim action",
+        "pandora fusion choose victim",
+        "pandora fusion victim action",
+        "pandora fusion victim"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "verification threshold",
+        "identification threshold",
+        "verification timeout",
+        "timeout",
+        "",
+        "timeout",
+        "threshold"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "target"
+    },
+    {
+      "imports": [
+        "threading",
+        "pandora fusion victim",
+        "",
+        "",
+        "distance"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "target",
+          "attributes": [
+            "dispatcher",
+            "",
+            "",
+            "identified",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "dispatcher"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "probability"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "targets"
+              ],
+              "local_variables": [
+                "pose",
+                "pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "goal",
+              "params": [
+                "",
+                "pose",
+                "pose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "identified",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "clean",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "topics"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "victim",
+        "victim",
+        "visit",
+        "model",
+        "choose target",
+        "notification",
+        "robocup score",
+        "covered",
+        "model",
+        "validation",
+        "robot",
+        "robot restart",
+        "",
+        "exploration",
+        "arena",
+        "",
+        "changer",
+        "monitor",
+        "interrupt",
+        "effector controller"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "numpy",
+        "signal",
+        "threading",
+        "",
+        "",
+        "colorlog colored",
+        "rospy duration",
+        "rospy"
+      ]
+    },
+    {
+      "global_variables": [
+        "failure",
+        "action",
+        "terminal",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "listify",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "distance",
+          "params": [
+            "pose",
+            "pose"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "distance",
+          "params": [
+            "pose",
+            "pose"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "action",
+          "params": [
+            "",
+            "goal",
+            "timeout",
+            ""
+          ],
+          "local_variables": [
+            "timeout",
+            "",
+            "goal",
+            "verbose"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "timeout",
+          "attributes": [],
+          "methods": []
+        },
+        {
+          "name": "interrupt",
+          "attributes": [],
+          "methods": []
+        },
+        {
+          "name": "limiter",
+          "attributes": [
+            "timeout",
+            "task"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "timeout"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "task"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "signal",
+              "params": [
+                "",
+                "signum",
+                "frame"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "interrupt",
+          "attributes": [
+            "",
+            "task"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "task"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "interrupt",
+              "params": [
+                "",
+                "signum",
+                "frame"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "timer",
+          "attributes": [
+            "",
+            "interval",
+            "",
+            "kwargs",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "interval",
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "target",
+        "timeout",
+        "limiter"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "fusion"
+    },
+    {
+      "imports": [
+        "actionlib simple action",
+        "actionlib goal",
+        "pandora fusion choose victim action",
+        "pandora fusion choose victim goal",
+        "pandora fusion victim action",
+        "pandora fusion victim goal",
+        "pandora fusion visit action goal",
+        "pandora fusion visit action",
+        "pandora fusion srv model",
+        "rospy",
+        "rospy",
+        "rospy",
+        "pandora fsm topics",
+        "pandora fsm",
+        "pandora fsm action"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "fusion",
+          "attributes": [
+            "verbose",
+            "deletion",
+            "validation",
+            "selection",
+            "visit"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "visit",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "qrs",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                "",
+                "victim"
+              ],
+              "local_variables": [
+                "goal",
+                "",
+                "",
+                "verbose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                "",
+                "victim",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "goal",
+                "victim",
+                "",
+                "",
+                "verbose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "target",
+              "params": [
+                "",
+                "victim"
+              ],
+              "local_variables": [
+                "goal",
+                "",
+                "",
+                "verbose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "classify target",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "effector"
+    },
+    {
+      "imports": [
+        "functools partial",
+        "",
+        "actionlib simple action",
+        "pandora effector controller effector action",
+        "pandora effector controller effector goal",
+        "pandora fsm topics",
+        "pandora fsm action",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "effector",
+          "attributes": [
+            "verbose",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "verbose"
+              ],
+              "local_variables": [
+                "goal",
+                "",
+                "goal",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "goals",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "target",
+                "center"
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "slowly",
+              "params": [
+                "",
+                "target",
+                "center"
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "scan",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "explorer"
+    },
+    {
+      "imports": [
+        "threading event",
+        "rospy",
+        "geometry pose stamped",
+        "actionlib goal",
+        "actionlib simple action",
+        "pandora exploration action",
+        "pandora exploration goal",
+        "pandora fsm topics",
+        "pandora fsm",
+        "pandora fsm terminal",
+        "pandora fsm action"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "explorer",
+          "attributes": [
+            "dispatcher",
+            "",
+            "verbose",
+            "exploration pending",
+            "pose stamped"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "dispatcher",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "explore",
+              "params": [
+                "",
+                "exploration"
+              ],
+              "local_variables": [
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "goals",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "exploration",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "verbose"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "actionlib simple action",
+        "actionlib goal",
+        "pandora victim action",
+        "pandora victim goal",
+        "pandora fsm topics",
+        "pandora fsm action",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "verbose",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "goals",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "target"
+              ],
+              "local_variables": [
+                "goal",
+                "",
+                "verbose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "navigator"
+    },
+    {
+      "imports": [
+        "math",
+        "threading event",
+        "",
+        "geometry pose stamped",
+        "actionlib goal",
+        "actionlib simple action",
+        "action",
+        "goal",
+        "transformations euler quaternion",
+        "transformations quaternion euler",
+        "pandora fsm topics",
+        "pandora fsm action",
+        "pandora fsm terminal",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "navigator",
+          "attributes": [
+            "verbose",
+            "dispatcher",
+            "",
+            "pending",
+            "current pose",
+            "target pose"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "dispatcher",
+                "verbose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "goals",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "target"
+              ],
+              "local_variables": [
+                "roll",
+                "pitch",
+                "yaw",
+                "transformend orientation",
+                "goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "verbose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "feedback",
+              "params": [
+                "",
+                "pose"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "navigator",
+        "explorer",
+        "fusion",
+        "effector",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "machine"
+    },
+    {
+      "imports": [
+        "functools partial",
+        "collections",
+        "pandora fsm listify",
+        "",
+        "event",
+        "transition"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "machine",
+          "attributes": [
+            "model",
+            "",
+            "events",
+            "current",
+            "event",
+            "transitions",
+            "initial"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "model",
+                "",
+                "initial",
+                "transitions",
+                "event",
+                "transitions",
+                "transitions"
+              ],
+              "local_variables": [
+                "initial",
+                "transitions"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "transition",
+              "params": [
+                "",
+                "trigger",
+                "source",
+                "dest",
+                "conditions",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "source",
+                "transition"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "transitions",
+              "params": [
+                "",
+                "",
+                "trigger",
+                "",
+                "initial"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getattr",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "terms",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "machine",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "pandora fsm listify"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "trigger",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "transition"
+    },
+    {
+      "imports": [
+        "pandora fsm listify"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "transition",
+          "attributes": [
+            "source",
+            "dest",
+            "",
+            "",
+            "conditions"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "source",
+                "dest",
+                "conditions",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [
+                "machine"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "trigger",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ],
+          "nested_classes": [
+            {
+              "name": "condition",
+              "attributes": [
+                "",
+                "target"
+              ],
+              "methods": [
+                {
+                  "name": "",
+                  "params": [
+                    "",
+                    "",
+                    "target"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "",
+                    "model"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "machine",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "action"
+    },
+    {
+      "imports": [
+        "rospy loginfo",
+        "rospy logwarn",
+        "rospy",
+        "rospy subscriber",
+        "roslib",
+        "std",
+        "std",
+        "actionlib simple action",
+        "victim",
+        "model",
+        "",
+        "action",
+        "pandora fusion choose victim action",
+        "pandora fusion choose victim",
+        "pandora fusion victim action",
+        "pandora fusion victim",
+        "pandora victim"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "action",
+          "attributes": [
+            "topic",
+            "",
+            "action",
+            "timeout",
+            "action",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "topic",
+                "action"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "commands",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "timeout"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "preempt",
+              "params": [
+                "",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "fusion",
+          "attributes": [
+            "",
+            "",
+            "topic",
+            "action",
+            "timeout",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "topic",
+                "action",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "commands",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "timeout"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "random model",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "victims",
+                "visited"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "goal"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "action",
+            "feedback",
+            "",
+            "feedback",
+            "topic",
+            "",
+            "timeout"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "topic"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "commands",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "timeout"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "goal"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "goal",
+                "goal",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "random randint",
+        "random",
+        "rospy",
+        "roslib",
+        "geometry pose stamped",
+        "geometry pose",
+        "geometry",
+        "geometry quaternion",
+        "pandora fusion model",
+        "pandora fusion victim"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "pose",
+          "params": [],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "quaternion",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "pose stamped",
+          "params": [],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "victim",
+          "params": [
+            "",
+            "victim frame",
+            "sensors",
+            "",
+            "probability"
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "model",
+          "params": [
+            "victims",
+            "visited victims"
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "publishers"
+    },
+    {
+      "imports": [
+        "random randint",
+        "random",
+        "rospy",
+        "rospy loginfo",
+        "rospy",
+        "rospy publisher",
+        "rospy subscriber",
+        "rospy timer",
+        "rospy duration",
+        "roslib",
+        "std",
+        "std",
+        "pandora fsm topics",
+        "geometry pose stamped",
+        "geometry pose",
+        "geometry",
+        "geometry quaternion",
+        "pandora fusion model",
+        "pandora fusion victim",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "model pub",
+          "attributes": [
+            "pub"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "random",
+              "params": [
+                "",
+                "duration",
+                "victims",
+                "victims"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "custom",
+              "params": [
+                "",
+                "victims",
+                "visited",
+                "duration"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "future absolute",
+        "action",
+        "action",
+        "action fusion",
+        "publishers model pub"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "manager robot mode",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "exploration"
+    },
+    {
+      "imports": [
+        "unittest",
+        "threading",
+        "patch",
+        "rospy",
+        "roslib",
+        "rospy publisher",
+        "rospy",
+        "std",
+        "manager robot mode",
+        "pandora fsm",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "exploration",
+          "attributes": [
+            "",
+            "explorer",
+            "events"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "random victims",
+              "params": [
+                "",
+                "",
+                "delay"
+              ],
+              "local_variables": [
+                "visited",
+                "victim",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "target exploration",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "explorer",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "explorer reject",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "poi",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "target",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "targets",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "wrong target",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "wrong target victims",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "target"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fusion validation"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "rospy publisher",
+        "std",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "fusion validation",
+          "attributes": [
+            "",
+            "fusion",
+            "target"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "positive",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "positive",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "negative",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "negative",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "identification"
+    },
+    {
+      "imports": [
+        "unittest",
+        "threading",
+        "patch",
+        "rospy",
+        "roslib",
+        "rospy publisher",
+        "rospy",
+        "std",
+        "geometry pose stamped",
+        "geometry pose",
+        "pandora fusion model",
+        "manager robot mode",
+        "pandora fsm",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "identification",
+          "attributes": [
+            "",
+            "",
+            "events"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "pose",
+              "params": [
+                "",
+                "delay"
+              ],
+              "local_variables": [
+                "pose stamped",
+                "target",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "identified victim",
+              "params": [
+                "",
+                "delay",
+                "probability"
+              ],
+              "local_variables": [
+                "target",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "identification",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "identification probability",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "identification convergence",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "unresponsive",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "timer",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "rospy publisher",
+        "std",
+        "manager robot mode",
+        "pandora fsm",
+        "pandora fsm timeout",
+        "pandora fsm limiter"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "effector",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "exploration",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "initialization effector failure",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "wrapper",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "initial",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "validation"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "rospy publisher",
+        "std",
+        "std",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "validation",
+          "attributes": [
+            "",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "fusion validation",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "fusion validation",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victims",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "victims",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "sensor"
+    },
+    {
+      "imports": [
+        "unittest",
+        "threading",
+        "rospy",
+        "roslib",
+        "rospy",
+        "manager robot mode",
+        "pandora fsm",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "sensor",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                "",
+                "delay",
+                "probability"
+              ],
+              "local_variables": [
+                "victim",
+                "visited",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "validation",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "fusion validation",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "victim deletion"
+    },
+    {
+      "imports": [
+        "unittest",
+        "",
+        "roslib",
+        "rospy",
+        "pandora fsm",
+        "pandora fsm",
+        "rospy publisher",
+        "std"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "victim deletion",
+          "attributes": [
+            "victim",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "victim",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fsm framework"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "pandora fsm machine",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "stuff",
+          "attributes": [
+            "",
+            "machine",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "passes",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "goodbye",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "extract",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "inherited stuff",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "initial"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "passes",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "transitions",
+          "attributes": [
+            "stuff"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "tear",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "machine hella",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "transitions",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "transition definitions",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "transitions",
+                "",
+                "transitions",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "transitioning",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "conditions",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "multiple transitions",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "machine model",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "model",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "event",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "transitions",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "transitions",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "silent wrong transition",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "threading",
+        "",
+        "unittest",
+        "patch",
+        "roslib",
+        "rospy subscriber",
+        "geometry pose stamped",
+        "pandora fsm distance",
+        "pandora fsm distance",
+        "pandora fsm timer",
+        "pandora fsm",
+        "pandora fsm explorer",
+        "pandora fsm navigator",
+        "pandora fsm fusion",
+        "pandora fsm",
+        "pandora fsm effector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "initialization",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "distance",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "distance",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "timer",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "kwargs",
+              "params": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "simple",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "restart",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "passing",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "model"
+    },
+    {
+      "imports": [
+        "threading",
+        "unittest",
+        "patch",
+        "roslib",
+        "",
+        "pandora fsm",
+        "pandora fsm model pub",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "model",
+          "attributes": [
+            "",
+            "model"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "connection",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "target",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "choose victim",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "existent victim",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "target",
+                "visited",
+                "current victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "identification threshold",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current victims",
+                "model"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "verification threshold",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "visited",
+                "current victims",
+                "model"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "choose target",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "targets",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "targets",
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "target",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "equal distance targets",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "target",
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "normal targets",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target",
+                "target",
+                "target",
+                "target"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fusion"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rospy",
+        "roslib",
+        "pandora fsm fusion",
+        "std",
+        "actionlib goal"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "victim",
+          "attributes": [
+            "deletion",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victim deletion",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "victim deletion",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "classification",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "effector"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "rospy publisher",
+        "rospy",
+        "std",
+        "actionlib goal",
+        "pandora fsm",
+        "pandora fsm",
+        "pandora fsm limiter",
+        "pandora fsm timeout"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "effector",
+          "attributes": [
+            "effector",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "park effector",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "infinite delay",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "effector",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "infinite delay",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "scan",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sensors",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "explorer"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "rospy publisher",
+        "rospy",
+        "std",
+        "actionlib goal",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "explorer",
+          "attributes": [
+            "explorer",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "explore",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "preempt",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "explorer",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "explorer",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "rospy publisher",
+        "rospy",
+        "std",
+        "std",
+        "actionlib goal",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "validation",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "navigator"
+    },
+    {
+      "imports": [
+        "unittest",
+        "roslib",
+        "rospy",
+        "",
+        "rospy publisher",
+        "std",
+        "actionlib goal",
+        "pandora fsm",
+        "pandora fsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "navigator",
+          "attributes": [
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "random pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "random pose"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "preempt",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "random pose"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

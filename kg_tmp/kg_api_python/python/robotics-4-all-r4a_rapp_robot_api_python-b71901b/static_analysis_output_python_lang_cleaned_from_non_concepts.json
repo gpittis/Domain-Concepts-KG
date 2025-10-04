@@ -1,0 +1,1436 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "sys",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rapp robot audio"
+    },
+    {
+      "imports": [
+        "abc meta",
+        "abc abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "audio",
+          "attributes": [
+            "metaclass"
+          ],
+          "methods": [
+            {
+              "name": "speak",
+              "params": [
+                "",
+                "",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "recording",
+              "params": [
+                "",
+                "filename",
+                "audio",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "recording",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "filename"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "volume",
+              "params": [
+                "",
+                "volume"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "record",
+              "params": [
+                "",
+                "filename",
+                "",
+                "audio",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "speech detection",
+              "params": [
+                "",
+                "vocabulary",
+                "",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp robot humanoid motion"
+    },
+    {
+      "imports": [
+        "abc meta",
+        "abc abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "humanoid motion",
+          "attributes": [
+            "metaclass"
+          ],
+          "methods": [
+            {
+              "name": "joint angles",
+              "params": [
+                "",
+                "joints",
+                "angles",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles",
+              "params": [
+                "",
+                "joints"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "hand",
+              "params": [
+                "",
+                "hand"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "hand",
+              "params": [
+                "",
+                "hand"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "posture",
+              "params": [
+                "",
+                "posture",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "posture",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp robot motion"
+    },
+    {
+      "imports": [
+        "abc meta",
+        "abc abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "motion",
+          "attributes": [
+            "metaclass"
+          ],
+          "methods": [
+            {
+              "name": "motors",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "motors",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "velocity",
+              "params": [
+                "",
+                "vel",
+                "vel",
+                "theta vel"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                "theta"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "velocities",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp robot sensors"
+    },
+    {
+      "imports": [
+        "abc meta",
+        "abc abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "sensors",
+          "attributes": [
+            "metaclass"
+          ],
+          "methods": [
+            {
+              "name": "battery",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sonars measurements",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "tactile measurements",
+              "params": [
+                "",
+                "",
+                "history"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp robot vision"
+    },
+    {
+      "imports": [
+        "abc meta",
+        "abc abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "vision",
+          "attributes": [
+            "metaclass"
+          ],
+          "methods": [
+            {
+              "name": "capture photo",
+              "params": [
+                "",
+                "filepath",
+                "camera",
+                "resolution"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "audio record playback"
+    },
+    {
+      "imports": [
+        "",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "nao"
+    },
+    {
+      "imports": [
+        "",
+        "path",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "touched"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "posture"
+    },
+    {
+      "imports": [
+        "",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "speech recognition"
+    },
+    {
+      "imports": [
+        "",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vision"
+    },
+    {
+      "imports": [
+        "",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vision"
+    },
+    {
+      "imports": [
+        "",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rapp device audio"
+    },
+    {
+      "imports": [
+        "rapp robot audio"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "device audio",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "speak",
+              "params": [
+                "",
+                "",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "recording",
+              "params": [
+                "",
+                "filename",
+                "audio",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "recording",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "filename"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "volume",
+              "params": [
+                "",
+                "volume"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "record",
+              "params": [
+                "",
+                "filename",
+                "",
+                "audio",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "speech detection",
+              "params": [
+                "",
+                "vocabulary",
+                "",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp device humanoid motion"
+    },
+    {
+      "imports": [
+        "rapp robot humanoid motion humanoid motion"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "device humanoid motion",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles",
+              "params": [
+                "",
+                "joints",
+                "angles",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles",
+              "params": [
+                "",
+                "joints"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "hand",
+              "params": [
+                "",
+                "hand"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "hand",
+              "params": [
+                "",
+                "hand"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "posture",
+              "params": [
+                "",
+                "posture",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "posture",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp device motion"
+    },
+    {
+      "imports": [
+        "rapp robot motion"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "device motion",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "motors",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "motors",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "velocity",
+              "params": [
+                "",
+                "vel",
+                "vel",
+                "theta vel"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                "theta"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "velocities",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp device sensors"
+    },
+    {
+      "imports": [
+        "rapp robot sensors"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "device sensors",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "battery",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sonars measurements",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "tactile measurements",
+              "params": [
+                "",
+                "",
+                "history"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp device vision"
+    },
+    {
+      "imports": [
+        "rapp robot vision"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "device vision",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "capture photo",
+              "params": [
+                "",
+                "filepath",
+                "camera",
+                "resolution"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp robot"
+    },
+    {
+      "imports": [
+        "rapp device audio device audio",
+        "rapp device motion device motion",
+        "rapp device sensors device sensors",
+        "rapp device humanoid motion device humanoid motion",
+        "rapp device vision device vision"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "rapp robot",
+          "attributes": [
+            "",
+            "audio",
+            "motion",
+            "sensors",
+            "humanoid motion",
+            "vision"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp nao unit"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rapp robot rapp robot"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "rapp nao audio",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "speak wrong language",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "speak language",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "speak wrong",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "speak correct language",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "recording filename",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "recording wrong audiotype",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "recording wrong filepath",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "recording wrong samplerate",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "recording wrong channels",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "existent",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "volume",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "record wrong filepath",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "record wrong",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "speech detection wrong voc",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "speech detection voc",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "speech detection wrong",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "rapp nao humanoid motion",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles joints",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles joint",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles joint",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles angle",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles wrong speed",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "joint angles wrong joint",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "hand wrong hand",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "hand wrong hand",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "hand wrong hand",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "hand wrong hand",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "posture wrong posture",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "posture wrong posture",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "posture wrong speed",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "rapp nao motion",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "velocity inputs",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "velocity",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "inputs",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "rapp nao sensors",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "tactile",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "tactile history",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "rapp nao vision",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "vision capture wrong path",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

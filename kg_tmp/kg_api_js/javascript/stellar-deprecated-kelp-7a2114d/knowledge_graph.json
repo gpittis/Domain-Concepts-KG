@@ -1,0 +1,2989 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "abridg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "access",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "account",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "action",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "advanc",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alert",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "amt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "anim",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "arrow",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "asset",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ator",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "autogener",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backend",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "badg",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "banner",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bid",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bot",
+      "count": 34
+    },
+    {
+      "type": "CONCEPT",
+      "name": "box",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bullet",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calcul",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cap",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "card",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "caret",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chart",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chevron",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "classnam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "clz",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "code",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "constant",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "constructor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "control",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cur",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "currenc",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "day",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "denomin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "detail",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diff",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "divid",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dom",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dot",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "download",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "elaps",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "elem",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "encod",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "event",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exchang",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "extract",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "feed",
+      "count": 26
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fetch",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fiat",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "formula",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gen",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "grid",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "group",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ico",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "icon",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "index",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "instal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "instruct",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "intercept",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interceptor",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "issuer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "json",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kelp",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "layer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lite",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "local",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "localhost",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "login",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "logo",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "logout",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "market",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "metadata",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "metric",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "milli",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "miss",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "modal",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mount",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "name",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "net",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "network",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notat",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "numer",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "offer",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "outer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pad",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pct",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "percent",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pill",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "popov",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "precis",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prefix",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "price",
+      "count": 26
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prop",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pubkey",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pubkeypair",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pubnet",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "queri",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "quit",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "quot",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "react",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "recurs",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "redirect",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "render",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "router",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sdex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sdk",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "search",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "section",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "segment",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "selector",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "singl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "size",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spacer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spread",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stellar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subfield",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "suffix",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "symbol",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tick",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timeout",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "titl",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "token",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "track",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tracker",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trade",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trigger",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "uniqu",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unmount",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unregist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "upsert",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "user",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "uui",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "variant",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wave",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "websit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wrapper",
+      "count": 4
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "access",
+      "to": "interceptor",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "access",
+      "to": "token",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "offer",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "trade",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "advanc",
+      "to": "classnam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "advanc",
+      "to": "constructor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "advanc",
+      "to": "dot",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "advanc",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "advanc",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "advanc",
+      "to": "wrapper",
+      "final_weight": 7.166666,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alert",
+      "to": "ico",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "amt",
+      "to": "spread",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "asset",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "bot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "feed",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "formula",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "price",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arrow",
+      "to": "ico",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "bot",
+      "final_weight": 7.799999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "card",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "code",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "constructor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "detail",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "feed",
+      "final_weight": 12.149999,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "instruct",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "issuer",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "mount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "price",
+      "final_weight": 13.216665,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "prop",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "queri",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "react",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "render",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "unmount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ator",
+      "to": "formula",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ator",
+      "to": "price",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "autogener",
+      "to": "bot",
+      "final_weight": 5.416666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "autogener",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backend",
+      "to": "kelp",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backend",
+      "to": "network",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backend",
+      "to": "uui",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "badg",
+      "to": "bot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "badg",
+      "to": "exchang",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "badg",
+      "to": "prop",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "badg",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "badg",
+      "to": "render",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "banner",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "bot",
+      "final_weight": 7.799999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "card",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "detail",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "card",
+      "final_weight": 13.966664,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "constant",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "constructor",
+      "final_weight": 2.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "control",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "detail",
+      "final_weight": 5.966665,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "dot",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "encod",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "exchang",
+      "final_weight": 7.799999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "fetch",
+      "final_weight": 5.416666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "gen",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "grid",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "group",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "interv",
+      "final_weight": 2.05,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "market",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "metadata",
+      "final_weight": 2.316666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "milli",
+      "final_weight": 4.1,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "modal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "mount",
+      "final_weight": 2.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "notat",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "offer",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "pill",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "popov",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "prop",
+      "final_weight": 2.833332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "pubnet",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "react",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "render",
+      "final_weight": 7.250001,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "tick",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "timeout",
+      "final_weight": 2.05,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "unmount",
+      "final_weight": 2.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "upsert",
+      "final_weight": 3.033333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "user",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullet",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "pill",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "uniqu",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cap",
+      "to": "precis",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cap",
+      "to": "price",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cap",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cap",
+      "to": "sdex",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "constant",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "constructor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "detail",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "exchang",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "group",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "interv",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "market",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "milli",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "mount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "offer",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "pill",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "popov",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "prop",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "render",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "tick",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "timeout",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "card",
+      "to": "unmount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "caret",
+      "to": "ico",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "detail",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chevron",
+      "to": "ico",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classnam",
+      "to": "feed",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classnam",
+      "to": "formula",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classnam",
+      "to": "input",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classnam",
+      "to": "modal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classnam",
+      "to": "price",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classnam",
+      "to": "section",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classnam",
+      "to": "wrapper",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clz",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "currenc",
+      "final_weight": 5.3,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "extract",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "feed",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "fiat",
+      "final_weight": 4.416667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "market",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "quot",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "transform",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "feed",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "input",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "price",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "prop",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "selector",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "wrapper",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "segment",
+      "final_weight": 7.166666,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "extract",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "feed",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "fiat",
+      "final_weight": 5.816667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "layer",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "transform",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "websit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "dot",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "notat",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "price",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "queri",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "ico",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "denomin",
+      "to": "feed",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "denomin",
+      "to": "fiat",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "divid",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "exchang",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "grid",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "group",
+      "final_weight": 1.533333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "pill",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "render",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "section",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "spacer",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "titl",
+      "final_weight": 1.533333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "tick",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "react",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "router",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dot",
+      "to": "fetch",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dot",
+      "to": "notat",
+      "final_weight": 7.2,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dot",
+      "to": "path",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "download",
+      "to": "ico",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elaps",
+      "to": "tick",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elem",
+      "to": "input",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elem",
+      "to": "pubkey",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elem",
+      "to": "render",
+      "final_weight": 1.850001,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "encod",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "metric",
+      "final_weight": 6.116667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "prefix",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "render",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "extract",
+      "to": "fiat",
+      "final_weight": 4.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "extract",
+      "to": "prop",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "fiat",
+      "final_weight": 17.216667,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "formula",
+      "final_weight": 7.166666,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "grid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "input",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "instruct",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "mount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "numer",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "price",
+      "final_weight": 39.699996,
+      "count": 39
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "prop",
+      "final_weight": 5.666664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "queri",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "react",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "recurs",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "render",
+      "final_weight": 7.866666,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "selector",
+      "final_weight": 7.799999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "singl",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "transform",
+      "final_weight": 3.716667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "unmount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "intercept",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "interceptor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "kelp",
+      "final_weight": 6.116667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "metadata",
+      "final_weight": 5.5,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "notat",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "path",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "price",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fiat",
+      "to": "input",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fiat",
+      "to": "numer",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fiat",
+      "to": "prefix",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fiat",
+      "to": "prop",
+      "final_weight": 2.116666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fiat",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fiat",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fiat",
+      "to": "transform",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "formula",
+      "to": "grid",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "formula",
+      "to": "miss",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "formula",
+      "to": "price",
+      "final_weight": 11.583333,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "formula",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "formula",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gen",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "price",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "section",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "pill",
+      "final_weight": 7.166666,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "prop",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "react",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "render",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "titl",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ico",
+      "to": "wave",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "index",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "mount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "percent",
+      "final_weight": 2.383333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "price",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "prop",
+      "final_weight": 3.099999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "render",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "instal",
+      "to": "regist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "instruct",
+      "to": "price",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "intercept",
+      "to": "interceptor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interceptor",
+      "to": "token",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interv",
+      "to": "milli",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kelp",
+      "to": "logo",
+      "final_weight": 2.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kelp",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kelp",
+      "to": "symbol",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kelp",
+      "to": "user",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kelp",
+      "to": "uui",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "layer",
+      "to": "websit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lite",
+      "to": "react",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "login",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "login",
+      "to": "redirect",
+      "final_weight": 8.466666,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "login",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logo",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logout",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "quot",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metadata",
+      "to": "recurs",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metadata",
+      "to": "render",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metadata",
+      "to": "singl",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "milli",
+      "to": "timeout",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "milli",
+      "to": "tracker",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "price",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "modal",
+      "to": "prop",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "modal",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "modal",
+      "to": "render",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mount",
+      "to": "price",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "net",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "network",
+      "to": "offer",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "network",
+      "to": "render",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "network",
+      "to": "segment",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "notat",
+      "to": "path",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "offer",
+      "to": "trade",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "outer",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pad",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pct",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pct",
+      "to": "spread",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pill",
+      "to": "prop",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pill",
+      "to": "react",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pill",
+      "to": "render",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "popov",
+      "to": "react",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "popov",
+      "to": "render",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "precis",
+      "to": "sdex",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prefix",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "prop",
+      "final_weight": 4.249998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "queri",
+      "final_weight": 4.783333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "react",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "recurs",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "render",
+      "final_weight": 8.2,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "selector",
+      "final_weight": 7.799999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "singl",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "unmount",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prop",
+      "to": "section",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prop",
+      "to": "selector",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pubkey",
+      "to": "render",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pubkeypair",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pubnet",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "quit",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "quot",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "react",
+      "to": "redirect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "react",
+      "to": "router",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "react",
+      "to": "section",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "react",
+      "to": "segment",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "react",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "react",
+      "to": "titl",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "react",
+      "to": "wrapper",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "recurs",
+      "to": "render",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "recurs",
+      "to": "selector",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "recurs",
+      "to": "wrapper",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "redirect",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "search",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "section",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "segment",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "selector",
+      "final_weight": 4.883333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "singl",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "spread",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "suffix",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "symbol",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "titl",
+      "final_weight": 2.416667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "variant",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "wrapper",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sdk",
+      "to": "stellar",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "section",
+      "to": "titl",
+      "final_weight": 7.166666,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "singl",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "upsert",
+      "to": "user",
+      "final_weight": 0.633333,
+      "count": 1
+    }
+  ]
+}

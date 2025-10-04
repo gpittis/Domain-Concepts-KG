@@ -1,0 +1,1567 @@
+[
+  [
+    {
+      "file": "backtester"
+    },
+    {
+      "imports": [
+        "",
+        "pickle",
+        "random",
+        "",
+        "pytz",
+        "indicators",
+        "",
+        "binance",
+        "",
+        "position",
+        "plot maker",
+        "report maker",
+        "candle",
+        "position candles position candles"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "backtester",
+          "attributes": [
+            "positions csv report",
+            "deposit csv report",
+            "position",
+            "position",
+            "position",
+            "position",
+            "position",
+            "coins symbol",
+            "deposit",
+            "coins",
+            "leverage",
+            "position fee percent",
+            "position fee percent",
+            "positions",
+            "positions",
+            "profit percents",
+            "loss percents",
+            "",
+            "",
+            "",
+            "",
+            "candles path",
+            "report percentiles",
+            "train csv path",
+            "csv path",
+            "csv delimiter",
+            "timeframes",
+            "timeframe",
+            "indicators timeframe",
+            "candles timeframe",
+            "candles",
+            "maximum positions",
+            "positions",
+            "positions",
+            "positions",
+            "positions",
+            "profit wins",
+            "wins",
+            "candles",
+            "minimum candles trading",
+            "coin maximum price",
+            "position timeframe",
+            "ratio",
+            "plot path",
+            "positions csv report path",
+            "deposit csv report path",
+            "candles plot path",
+            "candles",
+            "positions",
+            "positions",
+            "position",
+            "position candles",
+            "candles",
+            "candles abs",
+            "candles random",
+            "candles",
+            "candles",
+            "candles",
+            "candles",
+            "candles abs",
+            "candles percent",
+            "candles abs percent",
+            "candles random percent",
+            "candles percent",
+            "candles percent",
+            "candles percent",
+            "candles percent",
+            "candles abs percent",
+            "price increasing",
+            "price decreasing",
+            "price increasing",
+            "price decreasing",
+            "macd increasing",
+            "macd decreasing",
+            "macd increasing",
+            "macd decreasing",
+            "fast ema",
+            "slow ema",
+            "macd fast ema",
+            "macd slow ema",
+            "signal",
+            "macd",
+            "faster ema",
+            "fast ema",
+            "slow ema",
+            "macd fast ema",
+            "macd slow ema",
+            "signal",
+            "candles",
+            "prices",
+            "prices",
+            "prices",
+            "prices",
+            "macd",
+            "plot prices",
+            "plot prices datetimes",
+            "plot deposits",
+            "plot deposit datetimes",
+            "plot candles",
+            "plot candle colors",
+            "deposit",
+            "train",
+            "",
+            "positions profit percents",
+            "positions profit percents",
+            "positions profit percents",
+            "deposit daily percent",
+            "deposit weekly percent",
+            "deposit biweekly percent",
+            "deposit monthly percent",
+            "deposit bimonthly percent",
+            "deposit trimonthly percent",
+            "deposit yearly percent",
+            "candles",
+            "current candle"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "coins symbol",
+                "deposit",
+                "leverage",
+                "position fee percent",
+                "position fee percent",
+                "positions",
+                "positions",
+                "profit percents",
+                "loss percents",
+                "",
+                "month",
+                "day",
+                "hour",
+                "minute",
+                "",
+                "",
+                "month",
+                "day",
+                "hour",
+                "minute",
+                "",
+                "report percentiles",
+                "train csv path",
+                "csv path",
+                "csv delimiter",
+                "timeframes",
+                "timeframe",
+                "indicators timeframe",
+                "minimum candles trading",
+                "candles timeframe",
+                "candles",
+                "coin maximum price",
+                "position timeframe",
+                "ratio",
+                "plot path",
+                "positions csv report path",
+                "deposit csv report path",
+                "candles plot path"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "download candles",
+              "params": [
+                "",
+                "timeframe"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "download timeframes candles",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "indicators",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "indicators",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles",
+              "params": [
+                "",
+                "candles timeframe"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "current candle timeframe",
+              "params": [
+                "",
+                "timeframe",
+                "offset"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "indicators",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plot",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plot price",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plot deposit",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "position",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "condition",
+                "",
+                "positions",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "position",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "condition",
+                "",
+                "positions",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "plot candles",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime",
+                "ontime",
+                "candle"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "position",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "current position"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "position",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "current position"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "positions statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "positions"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "positions statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "positions"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "conditions position",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "condition",
+                "positions",
+                "candles",
+                "candles",
+                "candles",
+                "candles",
+                "candles",
+                "position candles",
+                "current position",
+                "current position profit"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "conditions position",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "condition",
+                "positions",
+                "candles",
+                "candles",
+                "candles",
+                "candles",
+                "candles",
+                "position candles",
+                "current position",
+                "current position profit"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "positions",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "positions"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "positions",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "positions"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "backtest",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "prepare train",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "position candles"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "train csv",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plots",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles plot",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plots",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles statistical",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "prepare positions statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "positions statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "prepare deposit statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "deposit statistics",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "positions csv",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "deposit csv",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "progress percent",
+                "progress percent"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "backtest",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "binance"
+    },
+    {
+      "imports": [
+        "",
+        "candle",
+        "",
+        "json",
+        "simple",
+        "math",
+        "pytz"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "symbol",
+            "interval",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "candles",
+            "",
+            "otime",
+            "ctime"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [
+            "arr",
+            "",
+            "",
+            "",
+            "candles",
+            "candles",
+            "candles",
+            "candles",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "timeframe",
+            "",
+            "",
+            "symbol",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candle"
+    },
+    {
+      "imports": [
+        "pandas"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "candle",
+          "attributes": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "volume",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "volume",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles",
+              "params": [
+                "candles"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "candles pandas dataframe",
+              "params": [
+                "candles"
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "coins symbol",
+        "coin maximum price",
+        "deposit",
+        "leverage",
+        "position fee percent",
+        "position fee percent",
+        "positions",
+        "positions",
+        "profit percents",
+        "loss percents",
+        "average",
+        "",
+        "month",
+        "day",
+        "hour",
+        "minute",
+        "",
+        "",
+        "month",
+        "day",
+        "hour",
+        "minute",
+        "",
+        "timeframe",
+        "indicators timeframe",
+        "candles timeframe",
+        "candles",
+        "position timeframe",
+        "timeframes",
+        "report percentiles",
+        "train csv path",
+        "csv path",
+        "csv delimiter",
+        "plot path",
+        "candles plot path",
+        "positions csv report path",
+        "deposit csv report path",
+        "ratio",
+        "minimum candles trading"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicators"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "wma",
+          "params": [
+            "prices"
+          ],
+          "local_variables": [
+            "coe",
+            "",
+            "coe",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            "prices"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "ema",
+          "params": [
+            "ema",
+            "price",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "price",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "backtester",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "backtester"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "plot maker"
+    },
+    {
+      "imports": [
+        "matplotlib pyplot",
+        "matplotlib",
+        "mplfinance"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "plot maker",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plot",
+              "params": [
+                "axis",
+                "prices",
+                "datetimes",
+                "subplot",
+                "subplot",
+                "subplot"
+              ],
+              "local_variables": [
+                "axis"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "candles plot",
+              "params": [
+                "candles dataframe",
+                "candle colors"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles plot",
+              "params": [
+                "candles dataframe",
+                "candle colors",
+                "path"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plots",
+              "params": [],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plot",
+              "params": [
+                "path"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "plot",
+              "params": [],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "position"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "position",
+          "attributes": [
+            "position",
+            "",
+            "",
+            "leverage",
+            "coins position",
+            "price",
+            "price",
+            "profit percent",
+            "",
+            "profit percent",
+            "profit percent",
+            "profit price",
+            "loss price",
+            "exchange fee",
+            "candles",
+            "candles"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "position",
+                "",
+                "",
+                "leverage",
+                "coins position",
+                "price",
+                "price",
+                "profit percent",
+                "",
+                "profit percent",
+                "profit percent",
+                "profit price",
+                "loss price",
+                "exchange fee",
+                "candles",
+                "candles"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "position candles"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "position candles",
+          "attributes": [
+            "prices",
+            "prices",
+            "prices",
+            "prices",
+            "win"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "prices",
+                "prices",
+                "prices",
+                "prices",
+                "win"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "target",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "report maker"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "generate positions csv report",
+          "params": [
+            "path",
+            "csv",
+            "positions"
+          ],
+          "local_variables": [
+            "output"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "generate deposit csv report",
+          "params": [
+            "path",
+            "csv",
+            "deposit",
+            "deposit",
+            "deposit monthly percent",
+            "deposit trimonthly percent",
+            "deposit yearly percent"
+          ],
+          "local_variables": [
+            "output"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "statistical",
+          "params": [
+            "",
+            "input",
+            "percentiles"
+          ],
+          "local_variables": [
+            "input",
+            "input",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "convert candles",
+          "params": [
+            "frame",
+            "timeframe"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

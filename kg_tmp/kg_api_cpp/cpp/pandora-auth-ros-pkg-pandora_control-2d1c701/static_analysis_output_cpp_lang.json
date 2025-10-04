@@ -1,0 +1,1108 @@
+[
+  [
+    {
+      "file": "motors_keyop.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"pandora_teleop/motors_keyop.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "cooked",
+        "raw",
+        "kfd"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "quit",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "MotorsKeyop::MotorsKeyop",
+          "params": [
+            "max_linear",
+            "max_angular"
+          ],
+          "local_variables": [
+            "twist_pub_",
+            "pub_thread_"
+          ]
+        },
+        {
+          "name": "MotorsKeyop::~MotorsKeyop",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "MotorsKeyop::getLinearScale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "MotorsKeyop::getAngularScale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "MotorsKeyop::publishTwist",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "twist",
+            "rate",
+            "lock",
+            "twist.linear .x",
+            "twist.angular .z"
+          ]
+        },
+        {
+          "name": "MotorsKeyop::keyLoop",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "c",
+            "dirty",
+            "raw.c_cc[VEOL]",
+            "raw.c_cc[VEOF]",
+            "dirty",
+            "angular_",
+            "dirty",
+            "dirty",
+            "angular_",
+            "dirty",
+            "dirty",
+            "linear_",
+            "dirty",
+            "dirty",
+            "linear_",
+            "dirty",
+            "linear_",
+            "angular_",
+            "dirty",
+            "linear_",
+            "linear_",
+            "angular_",
+            "angular_",
+            "dirty"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "motors_keyop_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"pandora_teleop/motors_keyop.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "motorsKeyop",
+            "motorsKeyop",
+            "motorsKeyop"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "motors_keyop.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<boost/thread.hpp>",
+        "<boost/thread/mutex.hpp>",
+        "<geometry_msgs/Twist.h>",
+        "<signal.h>",
+        "<termios.h>",
+        "<stdio.h>",
+        "<iostream>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "quit",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "MotorsKeyop",
+          "attributes": [
+            "nh_",
+            "linear_",
+            "linear_scale_",
+            "angular_",
+            "angular_scale_",
+            "twist_pub_",
+            "pub_thread_",
+            "lock_"
+          ],
+          "methods": [
+            {
+              "name": "MotorsKeyop",
+              "params": [
+                "max_linear",
+                "max_angular"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~MotorsKeyop",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getLinearScale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getAngularScale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publishTwist",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "keyLoop",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "stabilizer_control.cpp.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<algorithm>",
+        "\"pandora_stabilizer_control/stabilizer_control.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "clamp",
+          "params": [
+            "val",
+            "min_val",
+            "max_val"
+          ],
+          "local_variables": [
+            "val"
+          ]
+        },
+        {
+          "name": "StabilizerController::StabilizerController",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "imuTopic",
+            "rollCommandTopic",
+            "pitchCommandTopic",
+            "ii",
+            "imuTopic",
+            "rollCommandTopic",
+            "pitchCommandTopic",
+            "imuSubscriber_",
+            "laserRollPublisher_",
+            "laserPitchPublisher_",
+            "bufferCounter_"
+          ]
+        },
+        {
+          "name": "StabilizerController::serveImuMessage",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "imuRoll",
+            "imuPitch",
+            "str",
+            "command[2]",
+            "ii",
+            "imuRoll",
+            "imuPitch",
+            "rollBuffer_[bufferCounter_]",
+            "pitchBuffer_[bufferCounter_]",
+            "bufferCounter_",
+            "command[0]",
+            "command[1]",
+            "command[0]",
+            "command[1]",
+            "str.data",
+            "str.data"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stabilizer_control_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"pandora_stabilizer_control/stabilizer_control.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "stabilizerController"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stabilizer_control.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<boost/math/constants/constants.hpp>",
+        "<ros/ros.h>",
+        "<tf/tf.h>",
+        "<std_msgs/Float64.h>",
+        "<pandora_sensor_msgs/ImuRPY.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "StabilizerController",
+          "attributes": [
+            "nodeHandle_",
+            "imuSubscriber_",
+            "laserRollPublisher_",
+            "laserPitchPublisher_",
+            "rollBuffer_",
+            "pitchBuffer_",
+            "bufferSize_",
+            "bufferCounter_",
+            "minRoll_",
+            "maxRoll_",
+            "minPitch_",
+            "maxPitch_",
+            "rollOffset_",
+            "pitchOffset_"
+          ],
+          "methods": [
+            {
+              "name": "serveImuMessage",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "StabilizerController",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "sensor_orientation_controller.cpp.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<algorithm>",
+        "<limits>",
+        "<pandora_sensor_orientation_controller/sensor_orientation_controller.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "clamp",
+          "params": [
+            "val",
+            "min_val",
+            "max_val"
+          ],
+          "local_variables": [
+            "val"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::SensorOrientationActionServer",
+          "params": [
+            "actionName",
+            "nodeHandle"
+          ],
+          "local_variables": [
+            "ii",
+            "targetPosition",
+            "scanYawTimer_",
+            "softScanTimer_",
+            "scanPitchTimer_",
+            "pointSensorTimer_",
+            "scanRate_",
+            "sensorPitchPublisher_",
+            "sensorYawPublisher_",
+            "imuSubscriber_",
+            "bufferCounter_",
+            "targetPosition.data",
+            "lastPitchTarget_",
+            "lastYawTarget_",
+            "direction_",
+            "firstOfSoftScan_",
+            "position_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::~SensorOrientationActionServer",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "SensorOrientationActionServer::callback",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "command_",
+            "pointOfInterest_",
+            "pointThreshold_",
+            "pointThreshold_",
+            "pointThreshold_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::preemptCallback",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "SensorOrientationActionServer::getcontrollerParams",
+          "params": [],
+          "local_variables": [
+            "pitchStep_",
+            "pitchStep_",
+            "yawStep_",
+            "yawStep_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::testSensor",
+          "params": [],
+          "local_variables": [
+            "pitchTargetPosition_.data",
+            "yawTargetPosition_.data",
+            "position_",
+            "lastPitchTarget_",
+            "lastYawTarget_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::centerSensor",
+          "params": [],
+          "local_variables": [
+            "pitchTargetPosition_.data",
+            "yawTargetPosition_.data",
+            "lastPitchTarget_",
+            "lastYawTarget_",
+            "position_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::scan",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_",
+            "yawScan_",
+            "pitchScan_",
+            "position_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::softScan",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "pitchScan_",
+            "yawScan_",
+            "firstOfSoftScan_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::stabilizePitch",
+          "params": [
+            "event"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "SensorOrientationActionServer::imuCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "imuPitch",
+            "str",
+            "ii",
+            "imuPitch",
+            "pitchBuffer_[bufferCounter_]",
+            "bufferCounter_",
+            "stabilizedPitch_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::publishScanPitchCommand",
+          "params": [],
+          "local_variables": [
+            "pitchTargetPosition_.data",
+            "lastPitchTarget_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::publishScanYawCommand",
+          "params": [],
+          "local_variables": [
+            "yawTargetPosition_.data",
+            "lastYawTarget_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::pointSensor",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "lastTf",
+            "sensorTransform",
+            "ex",
+            "targetTransform",
+            "ex",
+            "desiredVectorX",
+            "baseVectorZ",
+            "desiredVectorZ",
+            "desiredVectorY",
+            "desiredCameraBasis",
+            "roll",
+            "pitch",
+            "yaw",
+            "lastTf",
+            "desiredVectorX",
+            "desiredVectorX",
+            "desiredVectorZ",
+            "desiredVectorY",
+            "pitchTargetPosition_.data",
+            "yawTargetPosition_.data",
+            "lastPitchTarget_",
+            "lastYawTarget_",
+            "position_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::stopPreviousTimers",
+          "params": [],
+          "local_variables": [
+            "firstOfSoftScan_"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::checkGoalCompletion",
+          "params": [],
+          "local_variables": [
+            "begin",
+            "pitchTransform",
+            "yawTransform",
+            "roll",
+            "pitch",
+            "yaw",
+            "tempPitch",
+            "ex",
+            "ex",
+            "pitch",
+            "yaw"
+          ]
+        },
+        {
+          "name": "SensorOrientationActionServer::setGoalState",
+          "params": [
+            "state"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "SensorOrientationActionServer::checkAngleLimits",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "nodeHandle",
+            "actionName",
+            "sensorOrientationActionServer"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sensor_orientation_controller.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<vector>",
+        "<boost/math/constants/constants.hpp>",
+        "<ros/ros.h>",
+        "<tf/transform_listener.h>",
+        "<actionlib/server/simple_action_server.h>",
+        "<std_msgs/Float64.h>",
+        "<pandora_sensor_orientation_controller/MoveSensorAction.h>",
+        "<pandora_sensor_msgs/ImuRPY.h>"
+      ]
+    },
+    {
+      "global_variables": [
+        "START",
+        "UP_LEFT_ONE",
+        "UP_LEFT_TWO",
+        "DOWN_LEFT",
+        "DOWN_CENTER",
+        "DOWN_RIGHT",
+        "UP_RIGHT_TWO",
+        "UP_RIGHT_ONE",
+        "UP_CENTER",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "SensorOrientationActionServer",
+          "attributes": [
+            "nodeHandle_",
+            "actionName_",
+            "actionServer_",
+            "sensorPitchPublisher_",
+            "sensorYawPublisher_",
+            "imuSubscriber_",
+            "scanYawTimer_",
+            "softScanTimer_",
+            "scanPitchTimer_",
+            "pointSensorTimer_",
+            "position_",
+            "command_",
+            "pitchStep_",
+            "yawStep_",
+            "minPitch_",
+            "minYaw_",
+            "maxPitch_",
+            "maxYaw_",
+            "scanRate_",
+            "softScanRate_",
+            "pitchRate_",
+            "commandTimeout_",
+            "pointThreshold_",
+            "movementThreshold_",
+            "laxMovementThreshold_",
+            "pitchJointParent_",
+            "pitchJointChild_",
+            "yawJointParent_",
+            "yawJointChild_",
+            "imuTopic_",
+            "pitchCommandTopic_",
+            "yawCommandTopic_",
+            "sensorFrame_",
+            "pointOfInterest_",
+            "pitchBuffer_",
+            "stabilizedPitch_",
+            "bufferSize_",
+            "bufferCounter_",
+            "firstOfSoftScan_",
+            "direction_",
+            "pitchScan_",
+            "offsetPitch_",
+            "yawScan_",
+            "offsetYaw_",
+            "lastPitchTarget_",
+            "lastYawTarget_",
+            "pitchTargetPosition_",
+            "yawTargetPosition_",
+            "tfListener_"
+          ],
+          "methods": [
+            {
+              "name": "imuCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "callback",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "preemptCallback",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getcontrollerParams",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "testSensor",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "centerSensor",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scan",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "softScan",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "stabilizePitch",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "pointSensor",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publishScanPitchCommand",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publishScanYawCommand",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "checkGoalCompletion",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setGoalState",
+              "params": [
+                "state"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "checkAngleLimits",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "stopPreviousTimers",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "SensorOrientationActionServer",
+              "params": [
+                "name",
+                "nodeHandle_"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~SensorOrientationActionServer",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "linear_actuator_controller.cpp.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<pandora_linear_actuator_controller/linear_actuator_controller.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "LinearActuatorActionServer::LinearActuatorActionServer",
+          "params": [
+            "actionName"
+          ],
+          "local_variables": [
+            "targetPosition",
+            "linearActuatorCommandPublisher_",
+            "targetPosition.data"
+          ]
+        },
+        {
+          "name": "LinearActuatorActionServer::~LinearActuatorActionServer",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "LinearActuatorActionServer::callback",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "command_"
+          ]
+        },
+        {
+          "name": "LinearActuatorActionServer::getControllerParams",
+          "params": [],
+          "local_variables": [
+            "model_param_name",
+            "robot_model_str",
+            "model",
+            "link",
+            "movementThreshold_",
+            "minElevation_"
+          ]
+        },
+        {
+          "name": "LinearActuatorActionServer::testLinearActuator",
+          "params": [],
+          "local_variables": [
+            "linearActuatorTransform",
+            "ex",
+            "startX",
+            "step",
+            "targetPosition",
+            "begin",
+            "linearZ",
+            "ex",
+            "step",
+            "targetPosition.data",
+            "linearZ"
+          ]
+        },
+        {
+          "name": "LinearActuatorActionServer::lowerLinearActuator",
+          "params": [],
+          "local_variables": [
+            "targetPosition",
+            "begin",
+            "linearActuatorTransform",
+            "linearZ",
+            "ex",
+            "targetPosition.data",
+            "linearZ"
+          ]
+        },
+        {
+          "name": "LinearActuatorActionServer::moveLinearActuator",
+          "params": [
+            "pointOfInterest",
+            "centerPoint",
+            "movementThreshold"
+          ],
+          "local_variables": [
+            "lastTf",
+            "rate",
+            "targetPosition",
+            "linearActuatorTransform",
+            "ex",
+            "linearActuatorToTargetTransform",
+            "ex",
+            "linearActuatorToCenterTransform",
+            "ex",
+            "deltaZ",
+            "targetZ",
+            "lastTf",
+            "targetPosition.data",
+            "targetPosition.data",
+            "targetPosition.data",
+            "previousTarget_"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "linearActuatorActionServer"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "linear_actuator_controller.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<ros/ros.h>",
+        "<std_msgs/Float64.h>",
+        "<actionlib/server/simple_action_server.h>",
+        "<tf/transform_listener.h>",
+        "<urdf_parser/urdf_parser.h>",
+        "<pandora_linear_actuator_controller/MoveLinearActuatorAction.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "LinearActuatorActionServer",
+          "attributes": [
+            "nodeHandle_",
+            "privateNodeHandle_",
+            "actionName_",
+            "actionServer_",
+            "linearActuatorCommandPublisher_",
+            "command_",
+            "minElevation_",
+            "minCommand_",
+            "maxCommand_",
+            "movementThreshold_",
+            "laxMovementThreshold_",
+            "commandTimeout_",
+            "previousTarget_",
+            "linearActuatorCommandTopic_",
+            "linearActuatorFrame_",
+            "tfListener_"
+          ],
+          "methods": [
+            {
+              "name": "LinearActuatorActionServer",
+              "params": [
+                "name"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~LinearActuatorActionServer",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "callback",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getControllerParams",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "testLinearActuator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "lowerLinearActuator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "moveLinearActuator",
+              "params": [
+                "pointOfInterest",
+                "centerPoint",
+                "movementThreshold"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

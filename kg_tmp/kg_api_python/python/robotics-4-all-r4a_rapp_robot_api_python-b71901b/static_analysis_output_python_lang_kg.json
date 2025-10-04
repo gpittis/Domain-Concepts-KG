@@ -1,0 +1,3735 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_1",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp robot audio",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc meta",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc abstractmethod",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "audio",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "metaclass",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speak",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "language",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filename",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "audio",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "samplerate",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "channels",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_audio_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filename",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "volume",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "volume",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "record",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filename",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "audio",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "samplerate",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "channels",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speech detection",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "vocabulary",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "language",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp robot humanoid motion",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc meta",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc abstractmethod",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "humanoid motion",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "metaclass",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "joints",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "angles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "speed",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "joints",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hand",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hand",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "posture",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "posture",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "speed",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "posture",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp robot motion",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc meta",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc abstractmethod",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "motion",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "metaclass",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "motors",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "motors",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "velocity",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "vel",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "vel",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "theta vel",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_motion_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "theta",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "velocities",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp robot sensors",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc meta",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc abstractmethod",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "sensors",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "metaclass",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "battery",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "sonars measurements",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "tactile measurements",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "history",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp robot vision",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc meta",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "abc abstractmethod",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "vision",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "metaclass",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "capture photo",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filepath",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "camera",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "resolution",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "audio record playback",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "nao",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "path",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "touched",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "posture",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "speech recognition",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "vision",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "vision",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp device audio",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot audio",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "device audio",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speak",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "language",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filename",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "audio",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "samplerate",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "channels",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_device audio_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filename",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "volume",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "volume",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "record",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filename",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "audio",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "samplerate",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "channels",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speech detection",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "vocabulary",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "language",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp device humanoid motion",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot humanoid motion humanoid motion",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "device humanoid motion",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "joints",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "angles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "speed",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "joints",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hand",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hand",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "posture",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "posture",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "speed",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "posture",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp device motion",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot motion",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "device motion",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "motors",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "motors",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "velocity",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "vel",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "vel",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "theta vel",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_device motion_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "theta",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "velocities",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp device sensors",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot sensors",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "device sensors",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "battery",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "sonars measurements",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "tactile measurements",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "history",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp device vision",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot vision",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "device vision",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "capture photo",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "filepath",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "camera",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "resolution",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp robot",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp device audio device audio",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp device motion device motion",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp device sensors device sensors",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp device humanoid motion device humanoid motion",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp device vision device vision",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "rapp robot",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "audio",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "motion",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "sensors",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "humanoid motion",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "vision",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rapp nao unit",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "unittest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rapp robot rapp robot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "rapp nao audio",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speak wrong language",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speak language",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speak wrong",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speak correct language",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording filename",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording wrong audiotype",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording wrong filepath",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording wrong samplerate",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "recording wrong channels",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "existent",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "volume",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "record wrong filepath",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "record wrong",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speech detection wrong voc",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speech detection voc",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "speech detection wrong",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "rapp nao humanoid motion",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles joints",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles joint",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles joint",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles angle",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles wrong speed",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "joint angles wrong joint",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand wrong hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand wrong hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand wrong hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hand wrong hand",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "posture wrong posture",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "posture wrong posture",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "posture wrong speed",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "rapp nao motion",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "velocity inputs",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "velocity",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "inputs",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "rapp nao sensors",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "tactile",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "tactile history",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "rapp nao vision",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "vision capture wrong path",
+      "weight": 0.85,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp robot audio",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot audio",
+      "to": "abc meta",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot audio",
+      "to": "abc abstractmethod",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp robot audio",
+      "to": "audio",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "audio",
+      "to": "metaclass",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "audio",
+      "to": "speak",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "speak",
+      "to": "language",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "audio",
+      "to": "recording",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "filename",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "audio",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "samplerate",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "channels",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "audio",
+      "to": "recording",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "audio",
+      "to": "METHOD_ANON_audio_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_audio_1",
+      "to": "filename",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "audio",
+      "to": "volume",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "volume",
+      "to": "volume",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "audio",
+      "to": "record",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "filename",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "audio",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "samplerate",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "channels",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "audio",
+      "to": "speech detection",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "speech detection",
+      "to": "vocabulary",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "speech detection",
+      "to": "language",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp robot humanoid motion",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot humanoid motion",
+      "to": "abc meta",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot humanoid motion",
+      "to": "abc abstractmethod",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp robot humanoid motion",
+      "to": "humanoid motion",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "humanoid motion",
+      "to": "metaclass",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "humanoid motion",
+      "to": "joint angles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "joints",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "angles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "speed",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "humanoid motion",
+      "to": "joint angles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "joints",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "humanoid motion",
+      "to": "hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "hand",
+      "to": "hand",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "humanoid motion",
+      "to": "hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "hand",
+      "to": "hand",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "humanoid motion",
+      "to": "posture",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "posture",
+      "to": "posture",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "posture",
+      "to": "speed",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "humanoid motion",
+      "to": "posture",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp robot motion",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot motion",
+      "to": "abc meta",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot motion",
+      "to": "abc abstractmethod",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp robot motion",
+      "to": "motion",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "motion",
+      "to": "metaclass",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "motion",
+      "to": "motors",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "motion",
+      "to": "motors",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "motion",
+      "to": "velocity",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "velocity",
+      "to": "vel",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "velocity",
+      "to": "vel",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "velocity",
+      "to": "theta vel",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "motion",
+      "to": "METHOD_ANON_motion_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_motion_1",
+      "to": "theta",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "motion",
+      "to": "velocities",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp robot sensors",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot sensors",
+      "to": "abc meta",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot sensors",
+      "to": "abc abstractmethod",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp robot sensors",
+      "to": "sensors",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "sensors",
+      "to": "metaclass",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "sensors",
+      "to": "battery",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "sensors",
+      "to": "sonars measurements",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "sensors",
+      "to": "tactile measurements",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "tactile measurements",
+      "to": "history",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp robot vision",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot vision",
+      "to": "abc meta",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot vision",
+      "to": "abc abstractmethod",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp robot vision",
+      "to": "vision",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "vision",
+      "to": "metaclass",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "vision",
+      "to": "capture photo",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "capture photo",
+      "to": "filepath",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "capture photo",
+      "to": "camera",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "capture photo",
+      "to": "resolution",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "audio record playback",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "audio record playback",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "nao",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "nao",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "nao",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "nao",
+      "to": "touched",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "posture",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "posture",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "speech recognition",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "speech recognition",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "vision",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "vision",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "vision",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "vision",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp device audio",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp device audio",
+      "to": "rapp robot audio",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp device audio",
+      "to": "device audio",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device audio",
+      "to": "speak",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "speak",
+      "to": "language",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device audio",
+      "to": "recording",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "filename",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "audio",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "samplerate",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "recording",
+      "to": "channels",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device audio",
+      "to": "recording",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device audio",
+      "to": "METHOD_ANON_device audio_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_device audio_1",
+      "to": "filename",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device audio",
+      "to": "volume",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "volume",
+      "to": "volume",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device audio",
+      "to": "record",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "filename",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "audio",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "samplerate",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "record",
+      "to": "channels",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device audio",
+      "to": "speech detection",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "speech detection",
+      "to": "vocabulary",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "speech detection",
+      "to": "language",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp device humanoid motion",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp device humanoid motion",
+      "to": "rapp robot humanoid motion humanoid motion",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp device humanoid motion",
+      "to": "device humanoid motion",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device humanoid motion",
+      "to": "joint angles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "joints",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "angles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "speed",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device humanoid motion",
+      "to": "joint angles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "joint angles",
+      "to": "joints",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device humanoid motion",
+      "to": "hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "hand",
+      "to": "hand",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device humanoid motion",
+      "to": "hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "hand",
+      "to": "hand",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device humanoid motion",
+      "to": "posture",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "posture",
+      "to": "posture",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "posture",
+      "to": "speed",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device humanoid motion",
+      "to": "posture",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp device motion",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp device motion",
+      "to": "rapp robot motion",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp device motion",
+      "to": "device motion",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device motion",
+      "to": "motors",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device motion",
+      "to": "motors",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device motion",
+      "to": "velocity",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "velocity",
+      "to": "vel",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "velocity",
+      "to": "vel",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "velocity",
+      "to": "theta vel",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device motion",
+      "to": "METHOD_ANON_device motion_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_device motion_1",
+      "to": "theta",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device motion",
+      "to": "velocities",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp device sensors",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp device sensors",
+      "to": "rapp robot sensors",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp device sensors",
+      "to": "device sensors",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device sensors",
+      "to": "battery",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device sensors",
+      "to": "sonars measurements",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device sensors",
+      "to": "tactile measurements",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "tactile measurements",
+      "to": "history",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp device vision",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp device vision",
+      "to": "rapp robot vision",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp device vision",
+      "to": "device vision",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "device vision",
+      "to": "capture photo",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "capture photo",
+      "to": "filepath",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "capture photo",
+      "to": "camera",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "capture photo",
+      "to": "resolution",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp robot",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot",
+      "to": "rapp device audio device audio",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot",
+      "to": "rapp device motion device motion",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot",
+      "to": "rapp device sensors device sensors",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot",
+      "to": "rapp device humanoid motion device humanoid motion",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp robot",
+      "to": "rapp device vision device vision",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp robot",
+      "to": "rapp robot",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp robot",
+      "to": "audio",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp robot",
+      "to": "motion",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp robot",
+      "to": "sensors",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp robot",
+      "to": "humanoid motion",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp robot",
+      "to": "vision",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rapp nao unit",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp nao unit",
+      "to": "unittest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rapp nao unit",
+      "to": "rapp robot rapp robot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp nao unit",
+      "to": "rapp nao audio",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp nao audio",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "speak wrong language",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "speak language",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "speak wrong",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "speak correct language",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "recording filename",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "recording wrong audiotype",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "recording wrong filepath",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "recording wrong samplerate",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "recording wrong channels",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "existent",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "volume",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "record wrong filepath",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "record wrong",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "speech detection wrong voc",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "speech detection voc",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao audio",
+      "to": "speech detection wrong",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp nao unit",
+      "to": "rapp nao humanoid motion",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp nao humanoid motion",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "joint angles joints",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "joint angles joint",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "joint angles joint",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "joint angles angle",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "joint angles wrong speed",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "joint angles wrong joint",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "hand wrong hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "hand wrong hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "hand wrong hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "hand wrong hand",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "posture wrong posture",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "posture wrong posture",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao humanoid motion",
+      "to": "posture wrong speed",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp nao unit",
+      "to": "rapp nao motion",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp nao motion",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao motion",
+      "to": "velocity inputs",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao motion",
+      "to": "velocity",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao motion",
+      "to": "inputs",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp nao unit",
+      "to": "rapp nao sensors",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp nao sensors",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao sensors",
+      "to": "tactile",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao sensors",
+      "to": "tactile history",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rapp nao unit",
+      "to": "rapp nao vision",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "rapp nao vision",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "rapp nao vision",
+      "to": "vision capture wrong path",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    }
+  ]
+}

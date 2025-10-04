@@ -1,0 +1,304 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtest"
+    },
+    {
+      "imports": [
+        "bignumber",
+        "colors",
+        "moment",
+        "",
+        "env"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "colors",
+        "moment",
+        "env",
+        "pair",
+        "connection",
+        "connection ssl",
+        "loss pnl",
+        "profit pnl",
+        "nbt prefix",
+        "",
+        "report",
+        "trading fees",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "pair"
+          ],
+          "local_variables": [
+            "query"
+          ]
+        },
+        {
+          "name": "backtest",
+          "params": [
+            "lines"
+          ],
+          "local_variables": [
+            "curr pnl",
+            "price",
+            "price",
+            "price",
+            "pnl",
+            "pnl",
+            "trading",
+            "sold",
+            "trading report",
+            "trading",
+            "trading win",
+            "trading loss",
+            "pnl",
+            "prices",
+            "volumes",
+            "trades",
+            "sentiments",
+            "srsis",
+            "",
+            "bids",
+            "loss",
+            "profit",
+            "",
+            "",
+            "price",
+            "trade",
+            "volume",
+            "sentiment",
+            "srsi",
+            "interv vols",
+            "price",
+            "bid price",
+            "depth report",
+            "makers",
+            "lpnl",
+            "days"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "lines",
+            "backtest"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "env"
+    },
+    {
+      "imports": [
+        "dotenv",
+        "envalid",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "envalid",
+        "json"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "express",
+        "",
+        "path",
+        "binance node",
+        "moment",
+        "bignumber",
+        "lodash",
+        "tulind",
+        "axios",
+        "",
+        "env"
+      ]
+    },
+    {
+      "global_variables": [
+        "express",
+        "",
+        "path",
+        "binance",
+        "moment",
+        "",
+        "",
+        "tulind",
+        "axios",
+        "env",
+        "",
+        "",
+        "",
+        "connection",
+        "connection ssl",
+        "signal bva",
+        "bva",
+        "",
+        "timeframe",
+        "nbt vers",
+        "pairs",
+        "stratname",
+        "pair",
+        "signals",
+        "nbt prefix",
+        "interv",
+        "",
+        "",
+        "binance"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "track",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "candle",
+          "params": [
+            "pair",
+            "candle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "candle",
+          "params": [
+            "pair",
+            "candle"
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "pair",
+          "params": [
+            "pair"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "track pair",
+          "params": [
+            "pair"
+          ],
+          "local_variables": [
+            "candles",
+            "",
+            "",
+            "depth report",
+            "bids",
+            "",
+            "makers",
+            "makers",
+            "maker ratio",
+            "price",
+            "price",
+            "price",
+            "price",
+            "price",
+            "bid price",
+            "",
+            "query",
+            "signal",
+            "signal",
+            "signal",
+            "signal",
+            "signal",
+            "pnl",
+            "signal"
+          ]
+        },
+        {
+          "name": "signal",
+          "params": [
+            "pair"
+          ],
+          "local_variables": [
+            "rsi",
+            "rsi",
+            "macd",
+            "macd",
+            "macd",
+            "macd"
+          ]
+        },
+        {
+          "name": "pair",
+          "params": [
+            "pair"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

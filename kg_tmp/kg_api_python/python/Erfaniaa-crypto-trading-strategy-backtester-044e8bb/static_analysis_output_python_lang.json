@@ -1,0 +1,1567 @@
+[
+  [
+    {
+      "file": "backtester.py"
+    },
+    {
+      "imports": [
+        "os",
+        "pickle",
+        "random",
+        "datetime",
+        "pytz",
+        "indicators",
+        "config",
+        "binance_api",
+        "utils",
+        "position",
+        "plot_maker",
+        "report_maker",
+        "candle",
+        "position_result_and_candles.PositionResultAndCandles"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Backtester",
+          "attributes": [
+            "POSITIONS_CSV_REPORT_COLUMN_NAMES",
+            "DEPOSIT_CHANGES_CSV_REPORT_COLUMN_NAMES",
+            "NO_POSITION",
+            "OPEN_LONG_POSITION",
+            "CLOSE_LONG_POSITION",
+            "OPEN_SHORT_POSITION",
+            "CLOSE_SHORT_POSITION",
+            "coins_symbol",
+            "start_deposit",
+            "total_first_coins",
+            "leverage",
+            "open_position_fee_percent",
+            "close_position_fee_percent",
+            "use_long_positions",
+            "use_short_positions",
+            "take_profit_percents_list",
+            "stop_loss_percents_list",
+            "start_date",
+            "end_date",
+            "start_date_timestamp",
+            "end_date_timestamp",
+            "candles_file_path",
+            "report_percentiles_count",
+            "train_csv_file_path",
+            "test_csv_file_path",
+            "csv_file_delimiter",
+            "all_timeframes_list",
+            "timeframe",
+            "indicators_timeframe",
+            "important_recent_candles_timeframe",
+            "important_recent_candles_count",
+            "maximum_open_positions_count",
+            "open_positions_value",
+            "open_long_positions_list",
+            "open_short_positions_list",
+            "closed_positions_list",
+            "total_take_profit_wins",
+            "total_wins",
+            "important_recent_candles_list",
+            "minimum_number_of_candles_to_start_trading",
+            "coin_maximum_price",
+            "open_position_timeframe",
+            "test_set_size_ratio",
+            "plot_file_path",
+            "positions_csv_report_file_path",
+            "deposit_changes_csv_report_file_path",
+            "candles_plot_file_path",
+            "candles_list",
+            "open_short_positions_value",
+            "open_long_positions_value",
+            "last_position_status",
+            "position_result_and_candles_list",
+            "candles_open_to_close_list",
+            "candles_open_to_close_abs_list",
+            "candles_open_to_close_random_signed_list",
+            "candles_open_to_high_list",
+            "candles_open_to_low_list",
+            "candles_low_to_high_list",
+            "candles_low_and_high_to_open_list",
+            "candles_low_and_high_to_open_abs_list",
+            "candles_open_to_close_percent_list",
+            "candles_open_to_close_abs_percent_list",
+            "candles_open_to_close_random_signed_percent_list",
+            "candles_open_to_high_percent_list",
+            "candles_open_to_low_percent_list",
+            "candles_low_to_high_percent_list",
+            "candles_low_and_high_to_open_percent_list",
+            "candles_low_and_high_to_open_abs_percent_list",
+            "is_price_increasing",
+            "is_price_decreasing",
+            "last_is_price_increasing",
+            "last_is_price_decreasing",
+            "is_macd_increasing",
+            "is_macd_decreasing",
+            "last_is_macd_increasing",
+            "last_is_macd_decreasing",
+            "fast_ema",
+            "slow_ema",
+            "macd_fast_ema",
+            "macd_slow_ema",
+            "signal_line",
+            "macd_line",
+            "last_faster_ema",
+            "last_fast_ema",
+            "last_slow_ema",
+            "last_macd_fast_ema",
+            "last_macd_slow_ema",
+            "last_signal_line",
+            "candles_open_time_to_index_dict",
+            "recent_open_prices_list",
+            "recent_high_prices_list",
+            "recent_low_prices_list",
+            "recent_close_prices_list",
+            "last_macd_line",
+            "plot_close_prices_list",
+            "plot_close_prices_datetimes_list",
+            "plot_deposits_list",
+            "plot_deposit_datetimes_list",
+            "plot_candles_list",
+            "plot_candle_colors_list",
+            "final_deposit",
+            "train_set_list",
+            "test_set_list",
+            "closed_positions_max_profit_percents_list",
+            "closed_positions_min_profit_percents_list",
+            "closed_positions_profit_percents_list",
+            "deposit_daily_changes_percent",
+            "deposit_weekly_changes_percent",
+            "deposit_biweekly_changes_percent",
+            "deposit_monthly_changes_percent",
+            "deposit_bimonthly_changes_percent",
+            "deposit_trimonthly_changes_percent",
+            "deposit_yearly_changes_percent",
+            "candles_index",
+            "current_candle"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "coins_symbol",
+                "start_deposit",
+                "leverage",
+                "open_position_fee_percent",
+                "close_position_fee_percent",
+                "use_long_positions",
+                "use_short_positions",
+                "take_profit_percents_list",
+                "stop_loss_percents_list",
+                "start_year",
+                "start_month",
+                "start_day",
+                "start_hour",
+                "start_minute",
+                "start_second",
+                "end_year",
+                "end_month",
+                "end_day",
+                "end_hour",
+                "end_minute",
+                "end_second",
+                "report_percentiles_count",
+                "train_csv_file_path",
+                "test_csv_file_path",
+                "csv_file_delimiter",
+                "all_timeframes_list",
+                "timeframe",
+                "indicators_timeframe",
+                "minimum_number_of_candles_to_start_trading",
+                "important_recent_candles_timeframe",
+                "important_recent_candles_count",
+                "coin_maximum_price",
+                "open_position_timeframe",
+                "test_set_size_ratio",
+                "plot_file_path",
+                "positions_csv_report_file_path",
+                "deposit_changes_csv_report_file_path",
+                "candles_plot_file_path"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_download_or_load_candles",
+              "params": [
+                "self",
+                "timeframe"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_download_or_load_all_timeframes_candles",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_init_candles_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_candles_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_init_indicators",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_init_index_dicts",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_is_it_time_to_update_indicators",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_important_recent_candles",
+              "params": [
+                "self",
+                "important_recent_candles_timeframe"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_get_current_candle_in_another_timeframe",
+              "params": [
+                "self",
+                "timeframe",
+                "index_offset"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_indicators",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_init_plot_lists",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_plot_price_lists",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_plot_deposit_lists",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_is_it_time_to_open_long_position",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "main_condition",
+                "is_too_early",
+                "is_positions_list_empty",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_is_it_time_to_open_short_position",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "main_condition",
+                "is_too_early",
+                "is_positions_list_empty",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_plot_candles_list",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "is_ontime",
+                "candle"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_open_long_position",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "current_long_position"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_open_short_position",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "current_short_position"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_open_long_positions_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "open_long_positions_count"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_open_short_positions_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "open_short_positions_count"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_check_conditions_to_close_long_position",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "main_condition",
+                "open_long_positions_count",
+                "recent_candles_list",
+                "recent_candles_close_list",
+                "recent_candles_open_list",
+                "recent_candles_high_list",
+                "recent_candles_low_list",
+                "position_result_and_candles",
+                "current_position_value",
+                "current_position_profit"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_check_conditions_to_close_short_position",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "main_condition",
+                "open_short_positions_count",
+                "recent_candles_list",
+                "recent_candles_close_list",
+                "recent_candles_open_list",
+                "recent_candles_high_list",
+                "recent_candles_low_list",
+                "position_result_and_candles",
+                "current_position_value",
+                "current_position_profit"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_open_long_positions_value",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "open_long_positions_count"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_update_open_short_positions_value",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "open_short_positions_count"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_print_main_backtest_results",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_prepare_train_set_and_test_set",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "position_result_and_candles_list_len"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "_save_train_set_and_test_set_to_csv",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_save_plots_to_file",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_show_and_save_candles_plot_to_file",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_show_plots",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_print_candles_statistical_parameters",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_prepare_closed_positions_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_print_closed_positions_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_prepare_deposit_changes_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_print_deposit_changes_statistics",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_save_closed_positions_to_csv",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_save_deposit_changes_to_csv",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_iterate_candles",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "last_progress_percent",
+                "progress_percent"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "backtest",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "binance_api.py"
+    },
+    {
+      "imports": [
+        "datetime.datetime",
+        "candle.Candle",
+        "requests",
+        "json",
+        "types.SimpleNamespace",
+        "math",
+        "pytz"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "count_m1_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_m5_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_m15_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_m30_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_h1_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_h2_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_h4_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_d1_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "count_w1_candles",
+          "params": [
+            "start_timestamp",
+            "end_timestamp"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_in_range",
+          "params": [
+            "symbol",
+            "interval",
+            "start_time",
+            "end_time",
+            "limit"
+          ],
+          "local_variables": [
+            "start_time",
+            "end_time",
+            "headers",
+            "r",
+            "m",
+            "candles",
+            "i",
+            "otime",
+            "ctime"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_m1",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_m5",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_m15",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_m30",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_h1",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_h2",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_h4",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_d1",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles_w1",
+          "params": [
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [
+            "arr",
+            "start_timestamp",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp",
+            "total_candles_count",
+            "total_candles_count",
+            "candles",
+            "candles",
+            "start_timestamp_temp",
+            "end_date_timestamp_temp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_candles",
+          "params": [
+            "timeframe",
+            "start_timestamp",
+            "end_timestamp",
+            "symbol",
+            "show_log"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candle.py"
+    },
+    {
+      "imports": [
+        "pandas"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Candle",
+          "attributes": [
+            "open_time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "close_time"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "open_time",
+                "open",
+                "high",
+                "low",
+                "close",
+                "volume",
+                "close_time"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__repr__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "to_tuple",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candles_list_to_tuples_list",
+              "params": [
+                "candles_list"
+              ],
+              "local_variables": [
+                "tuples_list"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "candles_list_to_pandas_dataframe",
+              "params": [
+                "candles_list"
+              ],
+              "local_variables": [
+                "tuples_list",
+                "df"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "config.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "COINS_SYMBOL",
+        "COIN_MAXIMUM_PRICE",
+        "START_DEPOSIT",
+        "LEVERAGE",
+        "OPEN_POSITION_FEE_PERCENT",
+        "CLOSE_POSITION_FEE_PERCENT",
+        "USE_LONG_POSITIONS",
+        "USE_SHORT_POSITIONS",
+        "TAKE_PROFIT_PERCENTS_LIST",
+        "STOP_LOSS_PERCENTS_LIST",
+        "MOVING_AVERAGE_SIZE",
+        "START_YEAR",
+        "START_MONTH",
+        "START_DAY",
+        "START_HOUR",
+        "START_MINUTE",
+        "START_SECOND",
+        "END_YEAR",
+        "END_MONTH",
+        "END_DAY",
+        "END_HOUR",
+        "END_MINUTE",
+        "END_SECOND",
+        "TIMEFRAME",
+        "INDICATORS_TIMEFRAME",
+        "IMPORTANT_RECENT_CANDLES_TIMEFRAME",
+        "IMPORTANT_RECENT_CANDLES_COUNT",
+        "OPEN_POSITION_TIMEFRAME",
+        "ALL_TIMEFRAMES_LIST",
+        "REPORT_PERCENTILES_COUNT",
+        "TRAIN_CSV_FILE_PATH",
+        "TEST_CSV_FILE_PATH",
+        "CSV_FILE_DELIMITER",
+        "PLOT_FILE_PATH",
+        "CANDLES_PLOT_FILE_PATH",
+        "POSITIONS_CSV_REPORT_FILE_PATH",
+        "DEPOSIT_CHANGES_CSV_REPORT_FILE_PATH",
+        "TEST_SET_SIZE_RATIO",
+        "MINIMUM_NUMBER_OF_CANDLES_TO_START_TRADING"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicators.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "get_wma",
+          "params": [
+            "prices_list"
+          ],
+          "local_variables": [
+            "coe",
+            "base",
+            "coe_sum",
+            "sum"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_ma",
+          "params": [
+            "prices_list"
+          ],
+          "local_variables": [
+            "ret",
+            "ret"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_new_ema",
+          "params": [
+            "lastEMA",
+            "price",
+            "count"
+          ],
+          "local_variables": [
+            "m",
+            "price",
+            "s1",
+            "s2"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "main.py"
+    },
+    {
+      "imports": [
+        "backtester",
+        "config"
+      ]
+    },
+    {
+      "global_variables": [
+        "backtester"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "plot_maker.py"
+    },
+    {
+      "imports": [
+        "matplotlib.pyplot",
+        "matplotlib",
+        "mplfinance"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "PlotMaker",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "add_plot",
+              "params": [
+                "y_axis_label",
+                "prices_list",
+                "datetimes_list",
+                "subplot_rows",
+                "subplot_columns",
+                "subplot_index"
+              ],
+              "local_variables": [
+                "x_axis"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "add_candles_plot",
+              "params": [
+                "candles_dataframe",
+                "candle_colors_list"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "save_candles_plot",
+              "params": [
+                "candles_dataframe",
+                "candle_colors_list",
+                "file_path"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "clear_all_plots",
+              "params": [],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "save_plot_to_file",
+              "params": [
+                "file_path"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "show_plot",
+              "params": [],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "position.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Position",
+          "attributes": [
+            "position_type",
+            "entry_time",
+            "exit_time",
+            "leverage",
+            "first_coins_in_position",
+            "entry_price",
+            "exit_price",
+            "profit_percent",
+            "exit_type",
+            "max_profit_percent",
+            "min_profit_percent",
+            "take_profit_price",
+            "stop_loss_price",
+            "exchange_fee",
+            "recent_candles_list",
+            "candles_index"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "position_type",
+                "entry_time",
+                "exit_time",
+                "leverage",
+                "first_coins_in_position",
+                "entry_price",
+                "exit_price",
+                "profit_percent",
+                "exit_type",
+                "max_profit_percent",
+                "min_profit_percent",
+                "take_profit_price",
+                "stop_loss_price",
+                "exchange_fee",
+                "recent_candles_list",
+                "candles_index"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__repr__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "position_result_and_candles.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "PositionResultAndCandles",
+          "attributes": [
+            "open_prices_list",
+            "high_prices_list",
+            "low_prices_list",
+            "close_prices_list",
+            "win"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "open_prices_list",
+                "high_prices_list",
+                "low_prices_list",
+                "close_prices_list",
+                "win"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__repr__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "get_data_list",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "get_target_list",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "report_maker.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "generate_positions_csv_report",
+          "params": [
+            "file_path",
+            "csv_columns_str",
+            "positions"
+          ],
+          "local_variables": [
+            "output_file"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "generate_deposit_changes_csv_report",
+          "params": [
+            "file_path",
+            "csv_columns_str",
+            "start_deposit",
+            "final_deposit",
+            "deposit_monthly_changes_percent",
+            "deposit_trimonthly_changes_percent",
+            "deposit_yearly_changes_percent"
+          ],
+          "local_variables": [
+            "output_file"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "print_statistical_parameters",
+          "params": [
+            "list_name",
+            "input_list",
+            "percentiles_count"
+          ],
+          "local_variables": [
+            "input_list_len",
+            "input_list",
+            "idx"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "utils.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "round_down_m1_to_h1_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "round_up_m1_to_h1_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "round_down_m1_to_d1_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "round_up_m1_to_d1_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "round_down_m1_to_h2_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [
+            "h",
+            "h_round_down",
+            "h_round_down_str",
+            "h_round_down_str"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "round_up_m1_to_h2_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [
+            "h",
+            "h_round_up",
+            "h_round_up_str",
+            "h_round_up_str"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "round_down_m1_to_m15_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [
+            "m",
+            "m_round_down",
+            "m_round_down_str",
+            "m_round_down_str"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "round_up_m1_to_m15_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [
+            "m",
+            "m_round_up",
+            "m_round_up_str",
+            "m_round_up_str"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "round_down_m1_to_h4_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [
+            "h",
+            "h_round_down",
+            "h_round_down_str",
+            "h_round_down_str"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "round_up_m1_to_h4_time",
+          "params": [
+            "m1_time"
+          ],
+          "local_variables": [
+            "h",
+            "h_round_up",
+            "h_round_up_str",
+            "h_round_up_str"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "convert_candles_count",
+          "params": [
+            "lower_time_frame",
+            "higher_timeframe"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

@@ -1,0 +1,782 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "axio",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backtest",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bid",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bignumb",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "binanc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bva",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "candl",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "connect",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "curr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "day",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "depth",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dotenv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "env",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "envalid",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "express",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fee",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interv",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "json",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "line",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lodash",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loss",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lpnl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "macd",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "maker",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "moment",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nbt",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pair",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pnl",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prefix",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "price",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "profit",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "queri",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ratio",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "report",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rsi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sentiment",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "signal",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sold",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "srsi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "srsis",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ssl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stratnam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timefram",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "track",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trade",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tulind",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ver",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vol",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "volum",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "win",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "bid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "bignumb",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "color",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "connect",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "curr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "day",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "depth",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "env",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "fee",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "interv",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "line",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "loss",
+      "final_weight": 1.916666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "lpnl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "maker",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "moment",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "nbt",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "pair",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "pnl",
+      "final_weight": 2.566666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "prefix",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "price",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "profit",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "report",
+      "final_weight": 1.916666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "sentiment",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "sold",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "srsi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "srsis",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "ssl",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "trade",
+      "final_weight": 4.449998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "vol",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "volum",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "win",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "pair",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "price",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "track",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bva",
+      "to": "signal",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "pair",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "track",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "connect",
+      "to": "ssl",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "curr",
+      "to": "pnl",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "depth",
+      "to": "pair",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "depth",
+      "to": "report",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "depth",
+      "to": "track",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dotenv",
+      "to": "env",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "env",
+      "to": "envalid",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "env",
+      "to": "json",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "trade",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interv",
+      "to": "vol",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "pnl",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "trade",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "signal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "pair",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "ratio",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "track",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nbt",
+      "to": "prefix",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nbt",
+      "to": "ver",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "pnl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "price",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "queri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "ratio",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "report",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "signal",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "track",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pnl",
+      "to": "profit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pnl",
+      "to": "track",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "track",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "queri",
+      "to": "track",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "track",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "report",
+      "to": "track",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "report",
+      "to": "trade",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rsi",
+      "to": "signal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "signal",
+      "to": "track",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "trade",
+      "to": "win",
+      "final_weight": 1.0,
+      "count": 1
+    }
+  ]
+}

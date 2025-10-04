@@ -1,0 +1,6325 @@
+[
+  [
+    {
+      "file": "DroneMovementModel.cpp.xml"
+    },
+    {
+      "imports": [
+        "<libPF/CRandomNumberGenerator.h>",
+        "\"particle_filter/DroneMovementModel.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "DroneMovementModel::DroneMovementModel",
+          "params": [
+            "nh",
+            "tfBuffer",
+            "worldFrameID",
+            "baseFootprintFrameID",
+            "baseLinkID"
+          ],
+          "local_variables": [
+            "m_RNG"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::~DroneMovementModel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::drift",
+          "params": [
+            "state",
+            "dt"
+          ],
+          "local_variables": [
+            "currentPose",
+            "currentOrientation",
+            "odomTransform",
+            "newOrientation",
+            "roll",
+            "pitch",
+            "yaw",
+            "currentPose.position.x",
+            "currentPose.position.y",
+            "currentPose.position.z",
+            "currentPose.orientation"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::diffuse",
+          "params": [
+            "state",
+            "dt"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::setXStdDev",
+          "params": [
+            "d"
+          ],
+          "local_variables": [
+            "_XStdDev"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::getXStdDev",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::setYStdDev",
+          "params": [
+            "d"
+          ],
+          "local_variables": [
+            "_YStdDev"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::getYStdDev",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::setZStdDev",
+          "params": [
+            "d"
+          ],
+          "local_variables": [
+            "_ZStdDev"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::getZStdDev",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::setRollStdDev",
+          "params": [
+            "d"
+          ],
+          "local_variables": [
+            "_RollStdDev"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::getRollStdDev",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::setPitchStdDev",
+          "params": [
+            "d"
+          ],
+          "local_variables": [
+            "_PitchStdDev"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::getPitchStdDev",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::setYawStdDev",
+          "params": [
+            "d"
+          ],
+          "local_variables": [
+            "_YawStdDev"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::getYawStdDev",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::setLastOdomPose",
+          "params": [
+            "odomPose"
+          ],
+          "local_variables": [
+            "_odometryReceived",
+            "_lastOdomPose"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::reset",
+          "params": [],
+          "local_variables": [
+            "_odometryReceived"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::getLastOdomPose",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneMovementModel::computeOdomTransform",
+          "params": [
+            "currentPose"
+          ],
+          "local_variables": [
+            "lastOdom",
+            "curPose",
+            "output"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::applyOdomTransform",
+          "params": [
+            "odomTransform",
+            "statePose"
+          ],
+          "local_variables": [
+            "odomTF",
+            "pose",
+            "output",
+            "output"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::lookupOdomPose",
+          "params": [
+            "t",
+            "odomPose"
+          ],
+          "local_variables": [
+            "identity",
+            "e",
+            "identity.header.frame_id",
+            "identity.header.stamp"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::lookupOdomTransform",
+          "params": [
+            "t",
+            "odomTransform"
+          ],
+          "local_variables": [
+            "odomPose",
+            "odomTransform"
+          ]
+        },
+        {
+          "name": "DroneMovementModel::lookupTargetToBaseTransform",
+          "params": [
+            "targetFrame",
+            "t",
+            "localTransform"
+          ],
+          "local_variables": [
+            "e",
+            "localTransform"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "DroneObservationModel.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"particle_filter/DroneObservationModel.h\"",
+        "\"particle_filter/MapModel.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "DroneObservationModel::DroneObservationModel",
+          "params": [
+            "nh",
+            "_mapModel"
+          ],
+          "local_variables": [
+            "_map"
+          ]
+        },
+        {
+          "name": "DroneObservationModel::~DroneObservationModel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneObservationModel::measure",
+          "params": [
+            "state"
+          ],
+          "local_variables": [
+            "particlePose",
+            "particlePose_g",
+            "particlePoseOrientation",
+            "globalLaserOriginTf",
+            "originP",
+            "globalLaserOrigin",
+            "transformMsg",
+            "tmp",
+            "pcTransformed",
+            "pcIter",
+            "rangesIter",
+            "weight",
+            "p",
+            "obsRange",
+            "raycastRange",
+            "direction",
+            "end",
+            "colorNode",
+            "z",
+            "particlePose_g.translation.x",
+            "particlePose_g.translation.y",
+            "particlePose_g.translation.z",
+            "particlePoseOrientation",
+            "transformMsg",
+            "direction",
+            "colorNode",
+            "raycastRange"
+          ]
+        },
+        {
+          "name": "DroneObservationModel::setMap",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "_map"
+          ]
+        },
+        {
+          "name": "DroneObservationModel::setBaseToSensorTransform",
+          "params": [
+            "baseToSensorTF"
+          ],
+          "local_variables": [
+            "_baseToSensorTransform"
+          ]
+        },
+        {
+          "name": "DroneObservationModel::setObservedMeasurements",
+          "params": [
+            "observed",
+            "ranges"
+          ],
+          "local_variables": [
+            "_observedMeasurement",
+            "_observedRanges"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "DroneState.cpp.xml"
+    },
+    {
+      "imports": [
+        "<cmath>",
+        "\"particle_filter/DroneState.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "DroneState::DroneState",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::~DroneState",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::operator=",
+          "params": [
+            "other"
+          ],
+          "local_variables": [
+            "x_pos",
+            "y_pos",
+            "z_pos",
+            "roll",
+            "pitch",
+            "yaw"
+          ]
+        },
+        {
+          "name": "DroneState::operator+=",
+          "params": [
+            "other"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::operator*",
+          "params": [
+            "factor"
+          ],
+          "local_variables": [
+            "newState",
+            "newState.x_pos",
+            "newState.y_pos",
+            "newState.z_pos",
+            "newState.roll",
+            "newState.pitch",
+            "newState.yaw"
+          ]
+        },
+        {
+          "name": "DroneState::getXPos",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::setXPos",
+          "params": [
+            "x"
+          ],
+          "local_variables": [
+            "x_pos"
+          ]
+        },
+        {
+          "name": "DroneState::getYPos",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::setYPos",
+          "params": [
+            "y"
+          ],
+          "local_variables": [
+            "y_pos"
+          ]
+        },
+        {
+          "name": "DroneState::getZPos",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::setZPos",
+          "params": [
+            "z"
+          ],
+          "local_variables": [
+            "z_pos"
+          ]
+        },
+        {
+          "name": "DroneState::getRoll",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::setRoll",
+          "params": [
+            "r"
+          ],
+          "local_variables": [
+            "roll"
+          ]
+        },
+        {
+          "name": "DroneState::getPitch",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::setPitch",
+          "params": [
+            "p"
+          ],
+          "local_variables": [
+            "pitch"
+          ]
+        },
+        {
+          "name": "DroneState::getYaw",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneState::setYaw",
+          "params": [
+            "y"
+          ],
+          "local_variables": [
+            "yaw"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "DroneStateDistribution.cpp.xml"
+    },
+    {
+      "imports": [
+        "<cmath>",
+        "<libPF/CRandomNumberGenerator.h>",
+        "\"particle_filter/DroneStateDistribution.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "DroneStateDistribution::DroneStateDistribution",
+          "params": [
+            "xmin",
+            "xmax",
+            "ymin",
+            "ymax",
+            "zmin",
+            "zmax",
+            "rollmin",
+            "rollmax",
+            "pitchmin",
+            "pitchmax",
+            "yawmin",
+            "yawmax"
+          ],
+          "local_variables": [
+            "m_RNG",
+            "_uniform"
+          ]
+        },
+        {
+          "name": "DroneStateDistribution::DroneStateDistribution",
+          "params": [
+            "xStd",
+            "yStd",
+            "zStd",
+            "rollStd",
+            "pitchStd",
+            "yawStd",
+            "xMean",
+            "yMean",
+            "zMean",
+            "rollMean",
+            "pitchMean",
+            "yawMean",
+            "gaussian"
+          ],
+          "local_variables": [
+            "_XStdDev",
+            "_YStdDev",
+            "_ZStdDev",
+            "_RollStdDev",
+            "_PitchStdDev",
+            "_YawStdDev",
+            "_xMean",
+            "_yMean",
+            "_zMean",
+            "_rollMean",
+            "_pitchMean",
+            "_yawMean",
+            "m_RNG",
+            "_uniform"
+          ]
+        },
+        {
+          "name": "DroneStateDistribution::DroneStateDistribution",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "zmin",
+            "zmax",
+            "_map",
+            "m_RNG",
+            "_RollMin",
+            "_PitchMin",
+            "_YawMin",
+            "_RollMax",
+            "_PitchMax",
+            "_YawMax",
+            "_uniform"
+          ]
+        },
+        {
+          "name": "DroneStateDistribution::~DroneStateDistribution",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "DroneStateDistribution::setUniform",
+          "params": [
+            "uniform"
+          ],
+          "local_variables": [
+            "_uniform"
+          ]
+        },
+        {
+          "name": "DroneStateDistribution::setStdDev",
+          "params": [
+            "x",
+            "y",
+            "z",
+            "r",
+            "p",
+            "yaw"
+          ],
+          "local_variables": [
+            "_XStdDev",
+            "_YStdDev",
+            "_ZStdDev",
+            "_RollStdDev",
+            "_PitchStdDev",
+            "_YawStdDev"
+          ]
+        },
+        {
+          "name": "DroneStateDistribution::setMean",
+          "params": [
+            "x",
+            "y",
+            "z",
+            "r",
+            "p",
+            "yaw"
+          ],
+          "local_variables": [
+            "_xMean",
+            "_yMean",
+            "_zMean",
+            "_rollMean",
+            "_pitchMean",
+            "_yawMean"
+          ]
+        },
+        {
+          "name": "DroneStateDistribution::DroneStateDistribution::draw",
+          "params": [],
+          "local_variables": [
+            "state"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "MapModel.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"particle_filter/MapModel.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MapModel::MapModel",
+          "params": [
+            "nh"
+          ],
+          "local_variables": [
+            "_motionObstacleDist"
+          ]
+        },
+        {
+          "name": "MapModel::~MapModel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "MapModel::getMap",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "MapModel::isOccupied",
+          "params": [
+            "point"
+          ],
+          "local_variables": [
+            "ocNode"
+          ]
+        },
+        {
+          "name": "MapModel::isOccupied",
+          "params": [
+            "node"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "OccupancyMap::OccupancyMap",
+          "params": [
+            "nh"
+          ],
+          "local_variables": [
+            "srvName",
+            "req",
+            "resp",
+            "colorTree",
+            "x",
+            "y",
+            "z"
+          ]
+        },
+        {
+          "name": "OccupancyMap::~OccupancyMap",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "OccupancyMap::isOccupied",
+          "params": [
+            "node"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "OccupancyMap::toPCL",
+          "params": [],
+          "local_variables": [
+            "itleaf",
+            "endleaf",
+            "octoMapFullPointCloud",
+            "tmp",
+            "tmp.x",
+            "tmp.y",
+            "tmp.z",
+            "tmp.r",
+            "tmp.g",
+            "tmp.b"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "particle_filter.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"particle_filter/particle_filter.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Particles::Particles",
+          "params": [],
+          "local_variables": [
+            "_initialized",
+            "_receivedSensorData",
+            "_firstRun",
+            "_mm",
+            "_mapModel",
+            "_om",
+            "_pf",
+            "_tfListener",
+            "_tfBroadcaster",
+            "_poseArray.header.frame_id",
+            "_posePublisher",
+            "_poseArrayPublisher",
+            "_filteredPointCloudPublisher",
+            "_init_pose_pub",
+            "_globalLocalizationService",
+            "_initPoseService",
+            "_repairPoseService",
+            "_latestTransformTimer",
+            "_truth_sub",
+            "_scanListener",
+            "_scanFilter",
+            "_initialPoseListener",
+            "_initialPoseFilter"
+          ]
+        },
+        {
+          "name": "Particles::~Particles",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Particles::scanCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "timediff",
+            "odomPose",
+            "start",
+            "dt",
+            "pcFiltered",
+            "laserRanges",
+            "t",
+            "sensorToBase",
+            "baseToSensor",
+            "laser",
+            "tdiff",
+            "baseToSensor",
+            "_lastLocalizedPose",
+            "_receivedSensorData",
+            "_lastLocalizedPose",
+            "_firstRun",
+            "_lastLaserTime"
+          ]
+        },
+        {
+          "name": "Particles::latestTransformTimerCallback",
+          "params": [
+            "timer_event"
+          ],
+          "local_variables": [
+            "transform",
+            "transform.header.frame_id",
+            "transform.header.stamp",
+            "transform.child_frame_id",
+            "transform.transform"
+          ]
+        },
+        {
+          "name": "Particles::initialPoseCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "transform",
+            "roll",
+            "pitch",
+            "yaw",
+            "distribution",
+            "_initialized",
+            "_receivedSensorData",
+            "_firstRun"
+          ]
+        },
+        {
+          "name": "Particles::globalLocalizationCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": [
+            "distribution",
+            "_receivedSensorData",
+            "_initialized",
+            "_firstRun"
+          ]
+        },
+        {
+          "name": "Particles::initialPoseSrvCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": [
+            "x_pos",
+            "y_pos",
+            "z_pos",
+            "roll",
+            "pitch",
+            "yaw",
+            "init_pose",
+            "tf2_quat",
+            "init_pose.header.stamp",
+            "init_pose.header.frame_id",
+            "init_pose.pose.pose.position.x",
+            "init_pose.pose.pose.position.y",
+            "init_pose.pose.pose.position.z",
+            "init_pose.pose.pose.orientation"
+          ]
+        },
+        {
+          "name": "Particles::repairPoseSrvCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "Particles::truePoseCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "_true_pose.header",
+            "_true_pose.pose"
+          ]
+        },
+        {
+          "name": "Particles::publishPoseEstimate",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "i",
+            "temp_pose",
+            "temp_pose_orien",
+            "bestState",
+            "bestPose",
+            "temp_pose_orien",
+            "worldToMap",
+            "temp_tf2Transform",
+            "temp_geomTransform",
+            "temp_pose_orien",
+            "temp_poseStamped",
+            "e",
+            "transform_expiration",
+            "tmp_tf_stamped",
+            "_poseArray.header.stamp",
+            "temp_pose.position.x",
+            "temp_pose.position.y",
+            "temp_pose.position.z",
+            "temp_pose.orientation",
+            "_poseArray.poses[i]",
+            "bestPose.header.frame_id",
+            "bestPose.header.stamp",
+            "bestPose.pose.position.x",
+            "bestPose.pose.position.y",
+            "bestPose.pose.position.z",
+            "bestPose.pose.orientation",
+            "temp_geomTransform.translation.x",
+            "temp_geomTransform.translation.y",
+            "temp_geomTransform.translation.z",
+            "temp_geomTransform.rotation",
+            "temp_poseStamped.header.frame_id",
+            "temp_poseStamped.header.stamp",
+            "tmp_tf_stamped.header.frame_id",
+            "tmp_tf_stamped.header.stamp",
+            "tmp_tf_stamped.child_frame_id"
+          ]
+        },
+        {
+          "name": "Particles::prepareLaserPointCloud",
+          "params": [
+            "scan",
+            "pc",
+            "ranges"
+          ],
+          "local_variables": [
+            "numBeams",
+            "step",
+            "numBeamsSkipped",
+            "laserMin",
+            "beamId",
+            "range",
+            "laserAngle",
+            "laserAngleRotation",
+            "laserEndpointTransform",
+            "pt",
+            "uniformSampling",
+            "cloudPtr",
+            "sampledIndices",
+            "rangesSparse",
+            "i",
+            "pc.is_dense",
+            "rangesSparse[i]",
+            "ranges"
+          ]
+        },
+        {
+          "name": "Particles::isAboveMotionThreshold",
+          "params": [
+            "odom_pose"
+          ],
+          "local_variables": [
+            "lastLocalizedPose",
+            "odomPose",
+            "odomTransform",
+            "yaw",
+            "pitch",
+            "roll",
+            "isAbove",
+            "isAbove"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "particle_filter_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"particle_filter/particle_filter.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "particles"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "DroneMovementModel.h.xml"
+    },
+    {
+      "imports": [
+        "<libPF/MovementModel.h>",
+        "\"particle_filter/DroneState.h\"",
+        "<geometry_msgs/PoseStamped.h>",
+        "<geometry_msgs/TransformStamped.h>",
+        "<nav_msgs/Odometry.h>",
+        "<tf2_ros/transform_listener.h>",
+        "<tf2_ros/transform_broadcaster.h>",
+        "<tf2/LinearMath/Transform.h>",
+        "<tf2_geometry_msgs/tf2_geometry_msgs.h>",
+        "<tf2_ros/message_filter.h>",
+        "<tf2/LinearMath/Matrix3x3.h>",
+        "<tf/transform_listener.h>",
+        "<tf/transform_datatypes.h>",
+        "<message_filters/subscriber.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DroneMovementModel",
+          "attributes": [
+            "m_RNG",
+            "_odometryReceived",
+            "_worldFrameID",
+            "_baseFootprintFrameID",
+            "_baseLinkFrameID",
+            "_tfBuffer",
+            "_tfListener",
+            "_lastOdomPose",
+            "_XStdDev",
+            "_YStdDev",
+            "_ZStdDev",
+            "_RollStdDev",
+            "_PitchStdDev",
+            "_YawStdDev",
+            "_xMean",
+            "_yMean",
+            "_zMean",
+            "_rollMean",
+            "_pitchMean",
+            "_yawMean"
+          ],
+          "methods": [
+            {
+              "name": "DroneMovementModel",
+              "params": [
+                "nh",
+                "tfBuffer",
+                "worldFrameID",
+                "baseFootprintID",
+                "baseLinkID"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~DroneMovementModel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "drift",
+              "params": [
+                "state",
+                "dt"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "diffuse",
+              "params": [
+                "state",
+                "dt"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setXStdDev",
+              "params": [
+                "d"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getXStdDev",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setYStdDev",
+              "params": [
+                "d"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getYStdDev",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setZStdDev",
+              "params": [
+                "d"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getZStdDev",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setRollStdDev",
+              "params": [
+                "d"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getRollStdDev",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setPitchStdDev",
+              "params": [
+                "d"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getPitchStdDev",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setYawStdDev",
+              "params": [
+                "d"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getYawStdDev",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setLastOdomPose",
+              "params": [
+                "odomPose"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "reset",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getLastOdomPose",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "computeOdomTransform",
+              "params": [
+                "currentPose"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "applyOdomTransform",
+              "params": [
+                "odomTransform",
+                "statePose"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "lookupOdomPose",
+              "params": [
+                "t",
+                "pose"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "lookupOdomTransform",
+              "params": [
+                "t",
+                "odomTransform"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "lookupTargetToBaseTransform",
+              "params": [
+                "targetFrame",
+                "t",
+                "localTransform"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "DroneObservationModel.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<libPF/ObservationModel.h>",
+        "\"particle_filter/DroneState.h\"",
+        "<particle_filter/MapModel.h>",
+        "<tf2/LinearMath/Transform.h>",
+        "<tf2_eigen/tf2_eigen.h>",
+        "<tf2_geometry_msgs/tf2_geometry_msgs.h>",
+        "<tf/transform_datatypes.h>",
+        "<pcl/point_cloud.h>",
+        "<pcl/common/transforms.h>",
+        "<pcl/point_types.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DroneObservationModel",
+          "attributes": [
+            "_map",
+            "_baseToSensorTransform",
+            "_observedRanges",
+            "_observedMeasurement",
+            "_ZHit",
+            "_ZShort",
+            "_ZRand",
+            "_ZMax",
+            "_SigmaHit",
+            "_LambdaShort",
+            "_minRange",
+            "_maxRange"
+          ],
+          "methods": [
+            {
+              "name": "DroneObservationModel",
+              "params": [
+                "nh",
+                "_mapModel"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~DroneObservationModel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "measure",
+              "params": [
+                "state"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMap",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setBaseToSensorTransform",
+              "params": [
+                "baseToSensorTF"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setObservedMeasurements",
+              "params": [
+                "observed",
+                "ranges"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "DroneState.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DroneState",
+          "attributes": [
+            "x_pos",
+            "y_pos",
+            "z_pos",
+            "roll",
+            "pitch",
+            "yaw"
+          ],
+          "methods": [
+            {
+              "name": "DroneState",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~DroneState",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "operator=",
+              "params": [
+                "other"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "operator+=",
+              "params": [
+                "other"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "operator*",
+              "params": [
+                "factor"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getXPos",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setXPos",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getYPos",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setYPos",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getZPos",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setZPos",
+              "params": [
+                "z"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getRoll",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setRoll",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getPitch",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setPitch",
+              "params": [
+                "p"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getYaw",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setYaw",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "DroneStateDistribution.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<memory>",
+        "<ros/ros.h>",
+        "<libPF/StateDistribution.h>",
+        "<libPF/CRandomNumberGenerator.h>",
+        "\"particle_filter/DroneState.h\"",
+        "\"particle_filter/MapModel.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DroneStateDistribution",
+          "attributes": [
+            "_XMin",
+            "_XMax",
+            "_YMin",
+            "_YMax",
+            "_ZMin",
+            "_ZMax",
+            "_RollMin",
+            "_RollMax",
+            "_PitchMin",
+            "_PitchMax",
+            "_YawMin",
+            "_YawMax",
+            "_XStdDev",
+            "_YStdDev",
+            "_ZStdDev",
+            "_RollStdDev",
+            "_PitchStdDev",
+            "_YawStdDev",
+            "_xMean",
+            "_yMean",
+            "_zMean",
+            "_rollMean",
+            "_pitchMean",
+            "_yawMean",
+            "_uniform",
+            "_map",
+            "m_RNG"
+          ],
+          "methods": [
+            {
+              "name": "DroneStateDistribution",
+              "params": [
+                "xmin",
+                "xmax",
+                "ymin",
+                "ymax",
+                "zmin",
+                "zmax",
+                "rollmin",
+                "rollmax",
+                "pitchmin",
+                "pitchmax",
+                "yawmin",
+                "yawmax"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "DroneStateDistribution",
+              "params": [
+                "xStd",
+                "yStd",
+                "zStd",
+                "rollStd",
+                "pitchStd",
+                "yawStd",
+                "xMean",
+                "yMean",
+                "zMean",
+                "rollMean",
+                "pitchMean",
+                "yawMean",
+                "gaussian"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "DroneStateDistribution",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~DroneStateDistribution",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setUniform",
+              "params": [
+                "uniform"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setStdDev",
+              "params": [
+                "x",
+                "y",
+                "z",
+                "r",
+                "p",
+                "yaw"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMean",
+              "params": [
+                "x",
+                "y",
+                "z",
+                "r",
+                "p",
+                "yaw"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "draw",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "MapModel.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<octomap/octomap_types.h>",
+        "<octomap/ColorOcTree.h>",
+        "<octomap_msgs/GetOctomap.h>",
+        "<octomap_msgs/conversions.h>",
+        "<pcl/point_cloud.h>",
+        "<pcl/point_types.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MapModel",
+          "attributes": [
+            "_map",
+            "_motionObstacleDist"
+          ],
+          "methods": [
+            {
+              "name": "MapModel",
+              "params": [
+                "nh"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~MapModel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "isOccupied",
+              "params": [
+                "point"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "isOccupied",
+              "params": [
+                "node"
+              ],
+              "local_variables": []
+            }
+          ]
+        },
+        {
+          "name": "OccupancyMap",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "OccupancyMap",
+              "params": [
+                "nh"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~OccupancyMap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "isOccupied",
+              "params": [
+                "node"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "toPCL",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "particle_filter.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<iomanip>",
+        "<vector>",
+        "<string>",
+        "<memory>",
+        "<boost/bind.hpp>",
+        "<ros/ros.h>",
+        "<ros/service.h>",
+        "<tf2_ros/transform_listener.h>",
+        "<tf2_ros/transform_broadcaster.h>",
+        "<tf2/LinearMath/Transform.h>",
+        "<tf2/LinearMath/Quaternion.h>",
+        "<tf2/LinearMath/Vector3.h>",
+        "<tf2_geometry_msgs/tf2_geometry_msgs.h>",
+        "<tf2_ros/message_filter.h>",
+        "<tf2/utils.h>",
+        "<tf2/transform_datatypes.h>",
+        "<std_srvs/Empty.h>",
+        "<ros/time.h>",
+        "<ros/timer.h>",
+        "<ros/duration.h>",
+        "<message_filters/subscriber.h>",
+        "<sensor_msgs/LaserScan.h>",
+        "<nav_msgs/Odometry.h>",
+        "<geometry_msgs/PoseArray.h>",
+        "<geometry_msgs/PoseWithCovarianceStamped.h>",
+        "<geometry_msgs/Pose.h>",
+        "<geometry_msgs/Vector3.h>",
+        "<libPF/ParticleFilter.h>",
+        "<pcl_conversions/pcl_conversions.h>",
+        "<pcl_ros/point_cloud.h>",
+        "<pcl/keypoints/uniform_sampling.h>",
+        "\"particle_filter/DroneObservationModel.h\"",
+        "\"particle_filter/DroneMovementModel.h\"",
+        "\"particle_filter/DroneStateDistribution.h\"",
+        "\"particle_filter/MapModel.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Particles",
+          "attributes": [
+            "_nh",
+            "_om",
+            "_mm",
+            "_mapModel",
+            "_pf",
+            "_numParticles",
+            "_truth_sub",
+            "_scanListener",
+            "_scanFilter",
+            "_initialPoseListener",
+            "_initialPoseFilter",
+            "_particlePublisher",
+            "_posePublisher",
+            "_poseArrayPublisher",
+            "_filteredPointCloudPublisher",
+            "_init_pose_pub",
+            "_globalLocalizationService",
+            "_initPoseService",
+            "_repairPoseService",
+            "_mapFrameID",
+            "_worldFrameID",
+            "_baseFootprintFrameID",
+            "_baseLinkFrameID",
+            "_tfBuffer",
+            "_tfListener",
+            "_tfBroadcaster",
+            "_latestTransform",
+            "_poseArray",
+            "_lastLocalizedPose",
+            "_true_pose",
+            "_initialized",
+            "_firstRun",
+            "_receivedSensorData",
+            "_publishUpdated",
+            "_filterMinRange",
+            "_filterMaxRange",
+            "_observationThresholdTranslation",
+            "_observationThresholdRotation",
+            "_sensorSampleDist",
+            "_transformTolerance",
+            "_XStdDev",
+            "_YStdDev",
+            "_ZStdDev",
+            "_RollStdDev",
+            "_PitchStdDev",
+            "_YawStdDev",
+            "_lastLaserTime",
+            "_latestTransformTimer",
+            "_percentage_of_particles"
+          ],
+          "methods": [
+            {
+              "name": "publishPoseEstimate",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "prepareLaserPointCloud",
+              "params": [
+                "scan",
+                "pc",
+                "ranges"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "isAboveMotionThreshold",
+              "params": [
+                "odomPose"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scanCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "truePoseCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "latestTransformTimerCallback",
+              "params": [
+                "timer_event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initialPoseCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "globalLocalizationCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initialPoseSrvCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "repairPoseSrvCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Particles",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~Particles",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "CRandomNumberGenerator.cpp.xml"
+    },
+    {
+      "imports": [
+        "<cstdlib>",
+        "<cmath>",
+        "<ctime>",
+        "\"libPF/CRandomNumberGenerator.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CRandomNumberGenerator::CRandomNumberGenerator",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CRandomNumberGenerator::~CRandomNumberGenerator",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CRandomNumberGenerator::init",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CRandomNumberGenerator::getGaussian",
+          "params": [
+            "standardDeviation"
+          ],
+          "local_variables": [
+            "x1",
+            "x2",
+            "w",
+            "y1",
+            "y2",
+            "standardDeviation",
+            "m_GaussianBufferFilled",
+            "x1",
+            "x2",
+            "w",
+            "w",
+            "y1",
+            "y2",
+            "m_GaussianBufferVariable",
+            "m_GaussianBufferFilled"
+          ]
+        },
+        {
+          "name": "CRandomNumberGenerator::getUniform",
+          "params": [
+            "min",
+            "max"
+          ],
+          "local_variables": [
+            "range"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "CompareParticleWeights.h.xml"
+    },
+    {
+      "imports": [
+        "\"libPF/Particle.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CompareParticleWeights",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "operator()",
+              "params": [
+                "p1",
+                "p2"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "CRandomNumberGenerator.h.xml"
+    },
+    {
+      "imports": [
+        "\"libPF/RandomNumberGenerationStrategy.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CRandomNumberGenerator",
+          "attributes": [
+            "m_GaussianBufferFilled",
+            "m_GaussianBufferVariable"
+          ],
+          "methods": [
+            {
+              "name": "CRandomNumberGenerator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~CRandomNumberGenerator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getGaussian",
+              "params": [
+                "standardDeviation"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getUniform",
+              "params": [
+                "min",
+                "max"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "init",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ImportanceResampling.h.xml"
+    },
+    {
+      "imports": [
+        "\"libPF/CRandomNumberGenerator.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ImportanceResampling<StateType>::ImportanceResampling",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ImportanceResampling<StateType>::~ImportanceResampling",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ImportanceResampling<StateType>::resample",
+          "params": [
+            "sourceList",
+            "destinationList"
+          ],
+          "local_variables": [
+            "inverseNum",
+            "start",
+            "cumulativeWeight",
+            "sourceIndex",
+            "destIndex",
+            "probSum",
+            "sourceIndex",
+            "*"
+          ]
+        },
+        {
+          "name": "ImportanceResampling<StateType>::setRNG",
+          "params": [
+            "rng"
+          ],
+          "local_variables": [
+            "m_RNG"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "ImportanceResampling",
+          "attributes": [
+            "m_RNG",
+            "m_DefaultRNG"
+          ],
+          "methods": [
+            {
+              "name": "ImportanceResampling<StateType>",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~ImportanceResampling",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "resample",
+              "params": [
+                "source",
+                "destination"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setRNG",
+              "params": [
+                "rng"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "MovementModel.h.xml"
+    },
+    {
+      "imports": [
+        "<cmath>",
+        "<algorithm>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MovementModel<StateType>::~MovementModel",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "MovementModel",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "~MovementModel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "drift",
+              "params": [
+                "state",
+                "dt"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "diffuse",
+              "params": [
+                "state",
+                "dt"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ObservationModel.h.xml"
+    },
+    {
+      "imports": [
+        "<cmath>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ObservationModel<StateType>::~ObservationModel",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "ObservationModel",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "~ObservationModel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "measure",
+              "params": [
+                "state"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "Particle.h.xml"
+    },
+    {
+      "imports": [
+        "\"libPF/ParticleFilter.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Particle<StateType>::Particle",
+          "params": [
+            "state",
+            "weight"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "Particle<StateType>::~Particle<StateType>",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Particle<StateType>::getState",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Particle<StateType>::setState",
+          "params": [
+            "newState"
+          ],
+          "local_variables": [
+            "m_State"
+          ]
+        },
+        {
+          "name": "Particle<StateType>::getWeight",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Particle<StateType>::setWeight",
+          "params": [
+            "newWeight"
+          ],
+          "local_variables": [
+            "m_Weight"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "Particle",
+          "attributes": [
+            "m_State",
+            "m_Weight"
+          ],
+          "methods": [
+            {
+              "name": "Particle<StateType>",
+              "params": [
+                "state",
+                "weight"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~Particle",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getState",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setState",
+              "params": [
+                "newState"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getWeight",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setWeight",
+              "params": [
+                "newWeight"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ParticleFilter.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<ctime>",
+        "<cassert>",
+        "<limits>",
+        "\"libPF/ObservationModel.h\"",
+        "\"libPF/MovementModel.h\"",
+        "\"libPF/ResamplingStrategy.h\"",
+        "\"libPF/ImportanceResampling.h\"",
+        "\"libPF/CompareParticleWeights.h\"",
+        "\"libPF/Particle.h\"",
+        "\"libPF/StateDistribution.h\"",
+        "\"ParticleFilter.hxx\""
+      ]
+    },
+    {
+      "global_variables": [
+        "RESAMPLE_NEVER",
+        "RESAMPLE_ALWAYS",
+        "RESAMPLE_NEFF"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "ParticleFilter",
+          "attributes": [
+            "m_CurrentList",
+            "m_LastList",
+            "m_NumParticles",
+            "m_ObservationModel",
+            "m_MovementModel",
+            "m_ResamplingStrategy",
+            "m_DefaultResamplingStrategy",
+            "m_LastDriftTime",
+            "m_FirstRun",
+            "m_ResamplingMode"
+          ],
+          "methods": [
+            {
+              "name": "ParticleFilter<StateType>",
+              "params": [
+                "numParticles",
+                "os",
+                "ms"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~ParticleFilter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "numParticles",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setObservationModel",
+              "params": [
+                "os"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getObservationModel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setMovementModel",
+              "params": [
+                "ms"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getMovementModel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setResamplingStrategy",
+              "params": [
+                "rs"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getResamplingStrategy",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setResamplingMode",
+              "params": [
+                "mode"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getResamplingMode",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getNumEffectiveParticles",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setPriorState",
+              "params": [
+                "priorState"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "drawAllFromDistribution",
+              "params": [
+                "distribution"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resetTimer",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getBestParticle",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getBestState",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getWeight",
+              "params": [
+                "i"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "filter",
+              "params": [
+                "dt"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getParticle",
+              "params": [
+                "particleNo"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getState",
+              "params": [
+                "particleNo"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getMmseEstimate",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getBestXPercentEstimate",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resample",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "drift",
+              "params": [
+                "dt"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "diffuse",
+              "params": [
+                "dt"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "measure",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "particleListBegin",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "particleListEnd",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "sort",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "normalize",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ParticleFilter.hxx.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ParticleFilter<StateType>::ParticleFilter",
+          "params": [
+            "numParticles",
+            "os",
+            "ms"
+          ],
+          "local_variables": [
+            "initialWeight",
+            "i",
+            "m_CurrentList[i]",
+            "m_LastList[i]"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::~ParticleFilter",
+          "params": [],
+          "local_variables": [
+            "iter"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::numParticles",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::setObservationModel",
+          "params": [
+            "os"
+          ],
+          "local_variables": [
+            "m_ObservationModel"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getObservationModel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::setMovementModel",
+          "params": [
+            "ms"
+          ],
+          "local_variables": [
+            "m_MovementModel"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getMovementModel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::setResamplingStrategy",
+          "params": [
+            "rs"
+          ],
+          "local_variables": [
+            "m_ResamplingStrategy"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getResamplingStrategy",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::setResamplingMode",
+          "params": [
+            "mode"
+          ],
+          "local_variables": [
+            "m_ResamplingMode"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getResamplingMode",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::setPriorState",
+          "params": [
+            "priorState"
+          ],
+          "local_variables": [
+            "iter"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::drawAllFromDistribution",
+          "params": [
+            "distribution"
+          ],
+          "local_variables": [
+            "iter"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::resetTimer",
+          "params": [],
+          "local_variables": [
+            "m_FirstRun"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::filter",
+          "params": [
+            "dt"
+          ],
+          "local_variables": [
+            "currentTime",
+            "m_FirstRun",
+            "m_LastDriftTime",
+            "dt",
+            "m_LastDriftTime"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getParticle",
+          "params": [
+            "particleNo"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::getState",
+          "params": [
+            "particleNo"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::getWeight",
+          "params": [
+            "particleNo"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::sort",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::normalize",
+          "params": [],
+          "local_variables": [
+            "weightSum",
+            "iter",
+            "factor",
+            "newWeight"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::resample",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::drift",
+          "params": [
+            "dt"
+          ],
+          "local_variables": [
+            "i"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::diffuse",
+          "params": [
+            "dt"
+          ],
+          "local_variables": [
+            "i"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::measure",
+          "params": [],
+          "local_variables": [
+            "i",
+            "weight"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getNumEffectiveParticles",
+          "params": [],
+          "local_variables": [
+            "squareSum",
+            "i",
+            "weight"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getBestParticle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::getBestState",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::getMmseEstimate",
+          "params": [],
+          "local_variables": [
+            "estimate",
+            "i"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::getBestXPercentEstimate",
+          "params": [
+            "percentage"
+          ],
+          "local_variables": [
+            "estimate",
+            "weightSum",
+            "numToConsider",
+            "i",
+            "estimate"
+          ]
+        },
+        {
+          "name": "ParticleFilter<StateType>::particleListBegin",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ParticleFilter<StateType>::particleListEnd",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "RandomNumberGenerationStrategy.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "RandomNumberGenerationStrategy",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "RandomNumberGenerationStrategy",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~RandomNumberGenerationStrategy",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getGaussian",
+              "params": [
+                "standardDeviation"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getUniform",
+              "params": [
+                "min",
+                "max"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ResamplingStrategy.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"libPF/Particle.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ResamplingStrategy<StateType>::~ResamplingStrategy",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "ResamplingStrategy",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "~ResamplingStrategy",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "resample",
+              "params": [
+                "source",
+                "destination"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "StateDistribution.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "StateDistribution<StateType>::StateDistribution",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "StateDistribution<StateType>::~StateDistribution",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "StateDistribution",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "StateDistribution<StateType>",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~StateDistribution",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "draw",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "height_receiver.cpp.xml"
+    },
+    {
+      "imports": [
+        "<drone_gazebo/height_receiver.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Estimator::Estimator",
+          "params": [],
+          "local_variables": [
+            "tfBuffer",
+            "tfListener",
+            "transformStamped",
+            "ex",
+            "height_.data",
+            "_distance_from_base_link",
+            "transformStamped",
+            "_distance_from_base_link",
+            "pub_",
+            "sub_"
+          ]
+        },
+        {
+          "name": "Estimator::~Estimator",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Estimator::laserCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "height_avg",
+            "number_of_ranges",
+            "sum",
+            "i",
+            "height_avg",
+            "height_.data",
+            "height_.header.stamp",
+            "height_.header.frame_id"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "height_receiver_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<drone_gazebo/height_receiver.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "object"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "message_to_tf.cpp.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<nav_msgs/Odometry.h>",
+        "<geometry_msgs/PoseStamped.h>",
+        "<geometry_msgs/Vector3Stamped.h>",
+        "<geometry_msgs/TransformStamped.h>",
+        "<sensor_msgs/Imu.h>",
+        "<tf/transform_broadcaster.h>",
+        "<tf/transform_listener.h>",
+        "<tf/transform_datatypes.h>",
+        "<topic_tools/shape_shifter.h>"
+      ]
+    },
+    {
+      "global_variables": [
+        "g_odometry_topic",
+        "g_pose_topic",
+        "g_imu_topic",
+        "g_topic",
+        "g_frame_id",
+        "g_footprint_frame_id",
+        "g_position_frame_id",
+        "g_stabilized_frame_id",
+        "g_child_frame_id",
+        "g_publish_roll_pitch",
+        "g_tf_prefix",
+        "g_transform_broadcaster",
+        "g_pose_publisher",
+        "g_euler_publisher"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "addTransform",
+          "params": [
+            "transforms",
+            "tf"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sendTransform",
+          "params": [
+            "pose",
+            "header",
+            "child_frame_id"
+          ],
+          "local_variables": [
+            "transforms",
+            "tf",
+            "orientation",
+            "yaw",
+            "pitch",
+            "roll",
+            "position",
+            "pose_stamped",
+            "euler_stamped",
+            "tf.stamp_",
+            "tf.frame_id_",
+            "tf.frame_id_",
+            "tf.frame_id_",
+            "child_frame_id",
+            "child_frame_id",
+            "tf.child_frame_id_",
+            "tf.child_frame_id_",
+            "yaw",
+            "roll",
+            "pitch",
+            "tf.frame_id_",
+            "tf.child_frame_id_",
+            "tf.frame_id_",
+            "tf.child_frame_id_",
+            "pose_stamped.pose",
+            "pose_stamped.header",
+            "euler_stamped.vector.x",
+            "euler_stamped.vector.y",
+            "euler_stamped.vector.z",
+            "euler_stamped.header"
+          ]
+        },
+        {
+          "name": "odomCallback",
+          "params": [
+            "odometry"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "poseCallback",
+          "params": [
+            "pose"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "tfCallback",
+          "params": [
+            "tf"
+          ],
+          "local_variables": [
+            "pose",
+            "pose.position.x",
+            "pose.position.y",
+            "pose.position.z",
+            "pose.orientation"
+          ]
+        },
+        {
+          "name": "imuCallback",
+          "params": [
+            "imu"
+          ],
+          "local_variables": [
+            "transforms",
+            "child_frame_id",
+            "tf",
+            "orientation",
+            "yaw",
+            "pitch",
+            "roll",
+            "rollpitch",
+            "pose_stamped",
+            "tf.stamp_",
+            "tf.frame_id_",
+            "child_frame_id",
+            "child_frame_id",
+            "tf.child_frame_id_",
+            "pose_stamped.header.stamp",
+            "pose_stamped.header.frame_id"
+          ]
+        },
+        {
+          "name": "multiCallback",
+          "params": [
+            "input"
+          ],
+          "local_variables": [
+            "odom",
+            "pose",
+            "imu",
+            "tf"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "priv_nh",
+            "node",
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "subscribers",
+            "publish_pose",
+            "publish_pose_topic",
+            "publish_euler",
+            "publish_euler_topic",
+            "g_footprint_frame_id",
+            "g_stabilized_frame_id",
+            "g_topic",
+            "g_publish_roll_pitch",
+            "g_tf_prefix",
+            "g_transform_broadcaster",
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "g_pose_publisher",
+            "g_pose_publisher",
+            "g_euler_publisher",
+            "g_euler_publisher"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "teleop_pr2_keyboard_modificato.cpp.xml"
+    },
+    {
+      "imports": [
+        "<termios.h>",
+        "<signal.h>",
+        "<math.h>",
+        "<stdio.h>",
+        "<stdlib.h>",
+        "<ros/ros.h>",
+        "<geometry_msgs/Twist.h>",
+        "<geometry_msgs/TwistStamped.h>"
+      ]
+    },
+    {
+      "global_variables": [
+        "kfd",
+        "cooked",
+        "raw"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "quit",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "tpk"
+          ]
+        },
+        {
+          "name": "TeleopPR2Keyboard::keyboardLoop",
+          "params": [],
+          "local_variables": [
+            "c",
+            "dirty",
+            "raw.c_cc[VEOL]",
+            "raw.c_cc[VEOF]",
+            "cmd.linear.x",
+            "cmd.linear.x",
+            "dirty",
+            "cmd.linear.x",
+            "dirty",
+            "cmd.linear.y",
+            "dirty",
+            "cmd.linear.y",
+            "dirty",
+            "cmd.angular.z",
+            "dirty",
+            "cmd.angular.z",
+            "dirty",
+            "cmd.linear.z",
+            "dirty",
+            "cmd.linear.z",
+            "dirty",
+            "dirty",
+            "cmd.linear.x",
+            "dirty",
+            "cmd.linear.x",
+            "dirty",
+            "cmd.linear.y",
+            "dirty",
+            "cmd.linear.y",
+            "dirty",
+            "cmd.angular.z",
+            "dirty",
+            "cmd.angular.z",
+            "dirty",
+            "cmd.linear.z",
+            "dirty",
+            "cmd.linear.z",
+            "dirty",
+            "stamped_cmd.twist",
+            "stamped_cmd.header.stamp"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "TeleopPR2Keyboard",
+          "attributes": [
+            "walk_vel",
+            "run_vel",
+            "yaw_rate",
+            "yaw_rate_run",
+            "cmd",
+            "stamped_cmd",
+            "n_",
+            "vel_pub_",
+            "stamped_vel_pub_"
+          ],
+          "methods": [
+            {
+              "name": "init",
+              "params": [],
+              "local_variables": [
+                "cmd.linear.x",
+                "vel_pub_",
+                "stamped_vel_pub_",
+                "n_private"
+              ]
+            },
+            {
+              "name": "~TeleopPR2Keyboard",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "keyboardLoop",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "height_receiver.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<vector>",
+        "<math.h>",
+        "<ros/ros.h>",
+        "<sensor_msgs/LaserScan.h>",
+        "\"drone_gazebo/Float64Stamped.h\"",
+        "<std_msgs/Float64.h>",
+        "<geometry_msgs/TransformStamped.h>",
+        "<tf2_ros/transform_listener.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Estimator",
+          "attributes": [
+            "nh_",
+            "height_",
+            "pub_",
+            "sub_",
+            "_distance_from_base_link"
+          ],
+          "methods": [
+            {
+              "name": "laserCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Estimator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~Estimator",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "coverage.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_coverage/coverage.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Coverage::Coverage",
+          "params": [],
+          "local_variables": [
+            "startTime",
+            "sensor_shape",
+            "method",
+            "dt",
+            "_octomap_loaded",
+            "_ogm_loaded",
+            "_ogm",
+            "_map_sub",
+            "_ogm_sub",
+            "_covered_pub",
+            "_vis_pub",
+            "_waypoints_pub",
+            "_rfid_hfov",
+            "_rfid_vfov",
+            "_init_pose[0]",
+            "_init_pose[1]",
+            "_init_pose[2]",
+            "_covered",
+            "_sensor_position.x()",
+            "_sensor_position.y()",
+            "_sensor_position.z()",
+            "_graph",
+            "_xy_points",
+            "_points",
+            "_points"
+          ]
+        },
+        {
+          "name": "Coverage::~Coverage",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Coverage::octomapCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "abstract",
+            "coloroctree",
+            "_octomap",
+            "_octomap_resolution",
+            "_octomap_loaded"
+          ]
+        },
+        {
+          "name": "Coverage::ogmCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "_ogm->data",
+            "_ogm->info",
+            "_ogm->header",
+            "_ogm_loaded"
+          ]
+        },
+        {
+          "name": "Coverage::calculateWaypoints",
+          "params": [],
+          "local_variables": [
+            "wall_point",
+            "ray_success",
+            "point_inserted",
+            "best_yaw",
+            "node",
+            "obstacle_found",
+            "safe_check",
+            "direction",
+            "pose",
+            "_sensor_position.x()",
+            "obstacle_found",
+            "_sensor_position.x()",
+            "_sensor_position.x()",
+            "_sensor_position.x()",
+            "_sensor_position.x()",
+            "_sensor_position.y()",
+            "_sensor_position.x()",
+            "_sensor_position.x()",
+            "_sensor_position.y()"
+          ]
+        },
+        {
+          "name": "Coverage::postprocessWaypoints",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Coverage::removeNonVisibleWaypoints",
+          "params": [],
+          "local_variables": [
+            "final_points",
+            "undiscovered_nodes",
+            "root",
+            "i",
+            "_discovered_nodes.at(root)",
+            "undiscovered_nodes",
+            "_points"
+          ]
+        },
+        {
+          "name": "Coverage::reduceDimensionality",
+          "params": [],
+          "local_variables": [
+            "i",
+            "xy",
+            "it",
+            "index",
+            "xy",
+            "it"
+          ]
+        },
+        {
+          "name": "Coverage::calculateOrthogonalCoverage",
+          "params": [],
+          "local_variables": [
+            "wall_point",
+            "i",
+            "yaw",
+            "horizontal",
+            "vertical",
+            "direction",
+            "ray_success"
+          ]
+        },
+        {
+          "name": "Coverage::calculateCircularCoverage",
+          "params": [],
+          "local_variables": [
+            "wall_point",
+            "i",
+            "yaw",
+            "horizontal",
+            "vertical",
+            "direction",
+            "ray_success"
+          ]
+        },
+        {
+          "name": "Coverage::evaluateCoverage",
+          "params": [
+            "octomap",
+            "covered"
+          ],
+          "local_variables": [
+            "octomap_volume",
+            "covered_volume",
+            "percentage"
+          ]
+        },
+        {
+          "name": "Coverage::calculateOccupiedVolume",
+          "params": [
+            "octomap"
+          ],
+          "local_variables": [
+            "vol_occ",
+            "bbxMinX",
+            "bbxMinY",
+            "bbxMinZ",
+            "bbxMaxX",
+            "bbxMaxY",
+            "bbxMaxZ",
+            "min",
+            "max",
+            "it",
+            "end",
+            "exclude",
+            "key",
+            "i",
+            "first_neighbor_key",
+            "first_node",
+            "second_neighbor_key",
+            "second_node",
+            "exclude"
+          ]
+        },
+        {
+          "name": "Coverage::findNeighbors",
+          "params": [
+            "root"
+          ],
+          "local_variables": [
+            "i",
+            "distance",
+            "_discovered_nodes.at(i)"
+          ]
+        },
+        {
+          "name": "Coverage::safeCheckFrom2D",
+          "params": [
+            "sensor_position"
+          ],
+          "local_variables": [
+            "cell_x",
+            "cell_y"
+          ]
+        },
+        {
+          "name": "Coverage::findBestYaw",
+          "params": [
+            "sensor_position",
+            "best_yaw"
+          ],
+          "local_variables": [
+            "wall_point",
+            "best_coverage",
+            "yaw",
+            "direction",
+            "ray_success",
+            "coverage",
+            "best_coverage",
+            "best_yaw"
+          ]
+        },
+        {
+          "name": "Coverage::findCoverage",
+          "params": [
+            "wall_point",
+            "direction"
+          ],
+          "local_variables": [
+            "coverage",
+            "normals",
+            "normal",
+            "offset_to_check",
+            "it",
+            "end",
+            "new_wall_point",
+            "i",
+            "unit_vector",
+            "coverage",
+            "coverage"
+          ]
+        },
+        {
+          "name": "Coverage::revertTo6D",
+          "params": [
+            "xy_points",
+            "_xyzrpy_points",
+            "method"
+          ],
+          "local_variables": [
+            "output",
+            "is_low",
+            "i",
+            "xy",
+            "index",
+            "k",
+            "tmp",
+            "j",
+            "i",
+            "xy",
+            "index",
+            "k",
+            "tmp",
+            "j",
+            "index",
+            "is_low",
+            "is_low",
+            "index"
+          ]
+        },
+        {
+          "name": "Coverage::postprocessPath",
+          "params": [
+            "nh",
+            "points"
+          ],
+          "local_variables": [
+            "output",
+            "step_xy",
+            "step_z",
+            "eliminate",
+            "i",
+            "x",
+            "y",
+            "z",
+            "x_previous",
+            "y_previous",
+            "z_previous",
+            "x_next",
+            "y_next",
+            "z_next",
+            "eliminate",
+            "eliminate"
+          ]
+        },
+        {
+          "name": "Coverage::proceedOneStep",
+          "params": [
+            "coord"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "Coverage::publishCoveredSurface",
+          "params": [],
+          "local_variables": [
+            "msg",
+            "msg.header.stamp",
+            "msg.header.frame_id",
+            "msg.binary",
+            "msg.id",
+            "msg.resolution"
+          ]
+        },
+        {
+          "name": "Coverage::visualizeWaypoints",
+          "params": [
+            "points"
+          ],
+          "local_variables": [
+            "idx",
+            "marker",
+            "marker.header.frame_id",
+            "marker.header.stamp",
+            "marker.ns",
+            "marker.id",
+            "marker.type",
+            "marker.text",
+            "marker.action",
+            "marker.pose.position.x",
+            "marker.pose.position.y",
+            "marker.pose.position.z",
+            "marker.pose.orientation.x",
+            "marker.pose.orientation.y",
+            "marker.pose.orientation.z",
+            "marker.pose.orientation.w",
+            "marker.scale.z",
+            "marker.color.a",
+            "marker.color.r",
+            "marker.color.g",
+            "marker.color.b"
+          ]
+        },
+        {
+          "name": "Coverage::publishWaypoints",
+          "params": [
+            "points",
+            "method"
+          ],
+          "local_variables": [
+            "msg",
+            "i",
+            "msg.header.stamp",
+            "msg.header.frame_id",
+            "msg.points[i]",
+            "msg.points[i]",
+            "msg.points[i]",
+            "msg.points[i]",
+            "msg.points[i]",
+            "msg.points[i]",
+            "msg.points[i]"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "drone_coverage_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<drone_coverage/coverage.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "graph_utils.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_coverage/graph_utils.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "distanceXY",
+          "params": [
+            "i",
+            "j"
+          ],
+          "local_variables": [
+            "dist_x",
+            "dist_y"
+          ]
+        },
+        {
+          "name": "generateGraph",
+          "params": [
+            "nh",
+            "points"
+          ],
+          "local_variables": [
+            "edges",
+            "weights",
+            "rfid_range",
+            "i",
+            "j",
+            "distance",
+            "g"
+          ]
+        },
+        {
+          "name": "calculateOptimalPath",
+          "params": [
+            "nh",
+            "graph",
+            "points",
+            "octomap"
+          ],
+          "local_variables": [
+            "order",
+            "new_order",
+            "best_order",
+            "it",
+            "weightmap",
+            "p",
+            "d",
+            "total_distance",
+            "best_distance",
+            "current_node",
+            "iterations",
+            "restarts",
+            "desired_distance",
+            "rs",
+            "it",
+            "current_index",
+            "start",
+            "near_distance",
+            "view_point",
+            "point_to_test",
+            "near_distance",
+            "view_point",
+            "point_to_test",
+            "iter",
+            "distance",
+            "next_node",
+            "random_node",
+            "new_distance",
+            "view_point",
+            "point_to_test",
+            "order.at(it - order.begin())",
+            "best_order",
+            "current_node",
+            "start",
+            "current_node",
+            "start",
+            "current_node",
+            "start",
+            "distance",
+            "next_node",
+            "current_node",
+            "total_distance",
+            "best_distance",
+            "best_order",
+            "order"
+          ]
+        },
+        {
+          "name": "reorderPoints",
+          "params": [
+            "points",
+            "order"
+          ],
+          "local_variables": [
+            "ordered_points",
+            "i"
+          ]
+        },
+        {
+          "name": "calculateCost",
+          "params": [
+            "graph",
+            "order",
+            "p",
+            "d"
+          ],
+          "local_variables": [
+            "cost",
+            "i",
+            "start"
+          ]
+        },
+        {
+          "name": "getRandomNumber",
+          "params": [
+            "i",
+            "j"
+          ],
+          "local_variables": [
+            "seed",
+            "generator",
+            "distribution"
+          ]
+        },
+        {
+          "name": "getNextOrder",
+          "params": [
+            "order",
+            "first_index",
+            "second_index"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "checkIfVisible",
+          "params": [
+            "view_point",
+            "point_to_test",
+            "octomap"
+          ],
+          "local_variables": [
+            "key_ray",
+            "point_to_test_key",
+            "key",
+            "node"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "online_coverage.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_coverage/online_coverage.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "OnlineCoverage::OnlineCoverage",
+          "params": [],
+          "local_variables": [
+            "_octomap_loaded",
+            "_map_sub",
+            "_pose_sub",
+            "_covered_pub",
+            "_percentage_pub",
+            "_volume_pub",
+            "_rfid_hfov",
+            "_rfid_vfov"
+          ]
+        },
+        {
+          "name": "OnlineCoverage::~OnlineCoverage",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "OnlineCoverage::octomapCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "abstract",
+            "coloroctree",
+            "_octomap",
+            "_octomap_resolution",
+            "_octomap_volume",
+            "_covered",
+            "_octomap_loaded"
+          ]
+        },
+        {
+          "name": "OnlineCoverage::poseCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "OnlineCoverage::calculateOrthogonalCoverage",
+          "params": [
+            "pose"
+          ],
+          "local_variables": [
+            "wall_point",
+            "position",
+            "orientation",
+            "yaw",
+            "horizontal",
+            "vertical",
+            "direction",
+            "node"
+          ]
+        },
+        {
+          "name": "OnlineCoverage::calculateCircularCoverage",
+          "params": [
+            "pose"
+          ],
+          "local_variables": [
+            "wall_point",
+            "position",
+            "orientation",
+            "yaw",
+            "horizontal",
+            "vertical",
+            "direction",
+            "node"
+          ]
+        },
+        {
+          "name": "OnlineCoverage::publishCoveredSurface",
+          "params": [],
+          "local_variables": [
+            "msg",
+            "msg.header.stamp",
+            "msg.header.frame_id",
+            "msg.binary",
+            "msg.id",
+            "msg.resolution"
+          ]
+        },
+        {
+          "name": "OnlineCoverage::calculateOccupiedVolume",
+          "params": [
+            "octomap"
+          ],
+          "local_variables": [
+            "vol_occ",
+            "bbxMinX",
+            "bbxMinY",
+            "bbxMinZ",
+            "bbxMaxX",
+            "bbxMaxY",
+            "bbxMaxZ",
+            "min",
+            "max",
+            "it",
+            "end"
+          ]
+        },
+        {
+          "name": "OnlineCoverage::calculateOccupiedVolume",
+          "params": [
+            "octomap"
+          ],
+          "local_variables": [
+            "vol_occ",
+            "bbxMinX",
+            "bbxMinY",
+            "bbxMinZ",
+            "bbxMaxX",
+            "bbxMaxY",
+            "bbxMaxZ",
+            "min",
+            "max",
+            "it",
+            "end",
+            "exclude",
+            "key",
+            "i",
+            "first_neighbor_key",
+            "first_node",
+            "second_neighbor_key",
+            "second_node",
+            "exclude"
+          ]
+        },
+        {
+          "name": "OnlineCoverage::publishPercentage",
+          "params": [],
+          "local_variables": [
+            "covered_volume",
+            "msg",
+            "msg.header.stamp",
+            "msg.data",
+            "msg.data"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "online_coverage_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<drone_coverage/online_coverage.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "online_coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "waypoint_publisher.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_coverage/waypoint_publisher.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "WaypointPublisher::WaypointPublisher",
+          "params": [],
+          "local_variables": [
+            "_goal_reached",
+            "_waypoints_sub",
+            "_feedback_sub",
+            "_goal_pub",
+            "_vis_pub",
+            "_startTime",
+            "_vis_array_pub"
+          ]
+        },
+        {
+          "name": "WaypointPublisher::~WaypointPublisher",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "WaypointPublisher::waypointCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "markerarray",
+            "idx",
+            "marker",
+            "start_position[2]",
+            "transform",
+            "i",
+            "next_goal",
+            "marker.header.frame_id",
+            "marker.header.stamp",
+            "marker.ns",
+            "marker.id",
+            "marker.type",
+            "marker.text",
+            "marker.action",
+            "marker.pose.position.x",
+            "marker.pose.position.y",
+            "marker.pose.position.z",
+            "marker.pose.orientation.x",
+            "marker.pose.orientation.y",
+            "marker.pose.orientation.z",
+            "marker.pose.orientation.w",
+            "marker.scale.z",
+            "marker.color.a",
+            "marker.color.r",
+            "marker.color.g",
+            "marker.color.b",
+            "_number_of_waypoints",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "next_goal.header.stamp",
+            "next_goal.header.frame_id",
+            "next_goal.transform"
+          ]
+        },
+        {
+          "name": "WaypointPublisher::feedbackCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "next_goal",
+            "dt",
+            "next_goal",
+            "start_position[3]",
+            "next_goal.header.stamp",
+            "next_goal.header.frame_id",
+            "next_goal.transform",
+            "next_goal.header.stamp",
+            "next_goal.header.frame_id",
+            "next_goal.transform.translation.x",
+            "next_goal.transform.translation.y",
+            "next_goal.transform.translation.z",
+            "next_goal.transform.rotation.x",
+            "next_goal.transform.rotation.y",
+            "next_goal.transform.rotation.z",
+            "next_goal.transform.rotation.w"
+          ]
+        },
+        {
+          "name": "WaypointPublisher::publish_in_rviz",
+          "params": [
+            "next_goal"
+          ],
+          "local_variables": [
+            "marker",
+            "marker.header.frame_id",
+            "marker.header.stamp",
+            "marker.ns",
+            "marker.id",
+            "marker.type",
+            "marker.action",
+            "marker.pose.position.x",
+            "marker.pose.position.y",
+            "marker.pose.position.z",
+            "marker.pose.orientation.x",
+            "marker.pose.orientation.y",
+            "marker.pose.orientation.z",
+            "marker.pose.orientation.w",
+            "marker.scale.x",
+            "marker.scale.y",
+            "marker.scale.z",
+            "marker.color.a",
+            "marker.color.r",
+            "marker.color.g",
+            "marker.color.b"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "pub"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "coverage.h.xml"
+    },
+    {
+      "imports": [
+        "\"drone_coverage/graph_utils.h\"",
+        "<iostream>",
+        "<vector>",
+        "<ros/ros.h>",
+        "<octomap_msgs/Octomap.h>",
+        "<octomap/octomap.h>",
+        "<octomap/ColorOcTree.h>",
+        "<octomap/OcTree.h>",
+        "<octomap_msgs/conversions.h>",
+        "<octomap_ros/conversions.h>",
+        "<geometry_msgs/Pose.h>",
+        "<nav_msgs/OccupancyGrid.h>",
+        "<trajectory_msgs/MultiDOFJointTrajectory.h>",
+        "\"visualization_msgs/Marker.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Coverage",
+          "attributes": [
+            "_nh",
+            "_map_sub",
+            "_ogm_sub",
+            "_covered_pub",
+            "_vis_pub",
+            "_waypoints_pub",
+            "_octomap",
+            "_covered",
+            "_octomap_resolution",
+            "_ogm",
+            "_points",
+            "_xy_points",
+            "_xyzrpy_points",
+            "_min_bounds[3]",
+            "_max_bounds[3]",
+            "_init_pose[3]",
+            "_sampling_step",
+            "_uav_radius",
+            "_uav_safety_offset",
+            "_rfid_range",
+            "_rfid_hfov",
+            "_rfid_vfov",
+            "_rfid_direction_x",
+            "_rfid_direction_y",
+            "_rfid_direction_z",
+            "_min_obstacle_height",
+            "_max_obstacle_height",
+            "_sensor_position",
+            "_octomap_loaded",
+            "_ogm_loaded",
+            "_graph",
+            "_discovered_nodes"
+          ],
+          "methods": [
+            {
+              "name": "octomapCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ogmCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Coverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~Coverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "calculateWaypoints",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "postprocessWaypoints",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "removeNonVisibleWaypoints",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "reduceDimensionality",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "calculateOrthogonalCoverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "calculateCircularCoverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "evaluateCoverage",
+              "params": [
+                "octomap",
+                "covered"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateOccupiedVolume",
+              "params": [
+                "octomap"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findNeighbors",
+              "params": [
+                "root"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "safeCheckFrom2D",
+              "params": [
+                "sensor_position"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findBestYaw",
+              "params": [
+                "sensor_position",
+                "yaw"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findCoverage",
+              "params": [
+                "wall_point",
+                "direction"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "proceedOneStep",
+              "params": [
+                "coord"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publishCoveredSurface",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "visualizeWaypoints",
+              "params": [
+                "points"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publishWaypoints",
+              "params": [
+                "points",
+                "method"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "revertTo6D",
+              "params": [
+                "xy_points",
+                "_xyzrpy_points",
+                "method"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "postprocessPath",
+              "params": [
+                "nh",
+                "points"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "graph_utils.h.xml"
+    },
+    {
+      "imports": [
+        "<cmath>",
+        "<algorithm>",
+        "<utility>",
+        "<vector>",
+        "<chrono>",
+        "<ctime>",
+        "<ros/ros.h>",
+        "<octomap_msgs/conversions.h>",
+        "<boost/graph/graph_traits.hpp>",
+        "<boost/graph/adjacency_list.hpp>",
+        "<boost/graph/dijkstra_shortest_paths.hpp>",
+        "<boost/graph/astar_search.hpp>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "generateGraph",
+          "params": [
+            "nh",
+            "points"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calculateOptimalPath",
+          "params": [
+            "nh",
+            "graph",
+            "points",
+            "octomap"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "reorderPoints",
+          "params": [
+            "points",
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calculateCost",
+          "params": [
+            "graph",
+            "order",
+            "p",
+            "d"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getRandomNumber",
+          "params": [
+            "i",
+            "j"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getProbability",
+          "params": [
+            "difference",
+            "temperature"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getNextOrder",
+          "params": [
+            "order",
+            "first_index",
+            "second_index"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "checkIfVisible",
+          "params": [
+            "view_point",
+            "point_to_test",
+            "octomap"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "distanceXY",
+          "params": [
+            "i",
+            "j"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "online_coverage.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<vector>",
+        "<ros/ros.h>",
+        "\"drone_gazebo/Float64Stamped.h\"",
+        "<octomap_msgs/Octomap.h>",
+        "<octomap/octomap.h>",
+        "<octomap/ColorOcTree.h>",
+        "<octomap/OcTree.h>",
+        "<octomap_msgs/conversions.h>",
+        "<octomap_ros/conversions.h>",
+        "<geometry_msgs/PoseStamped.h>",
+        "<geometry_msgs/Pose.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "OnlineCoverage",
+          "attributes": [
+            "_nh",
+            "_map_sub",
+            "_pose_sub",
+            "_covered_pub",
+            "_percentage_pub",
+            "_volume_pub",
+            "_octomap",
+            "_covered",
+            "_octomap_resolution",
+            "_octomap_volume",
+            "_rfid_range",
+            "_rfid_hfov",
+            "_rfid_vfov",
+            "_sensor_shape",
+            "_rfid_direction_x",
+            "_rfid_direction_y",
+            "_rfid_direction_z",
+            "_min_obstacle_height",
+            "_max_obstacle_height",
+            "_octomap_loaded"
+          ],
+          "methods": [
+            {
+              "name": "octomapCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "poseCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "OnlineCoverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~OnlineCoverage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "calculateOrthogonalCoverage",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateCircularCoverage",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateOccupiedVolume",
+              "params": [
+                "octomap"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateOccupiedVolume",
+              "params": [
+                "octomap"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publishCoveredSurface",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publishPercentage",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "waypoint_publisher.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<queue>",
+        "<ros/ros.h>",
+        "<trajectory_msgs/MultiDOFJointTrajectory.h>",
+        "<std_msgs/Bool.h>",
+        "<geometry_msgs/TransformStamped.h>",
+        "<visualization_msgs/Marker.h>",
+        "<visualization_msgs/MarkerArray.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "WaypointPublisher",
+          "attributes": [
+            "_nh",
+            "_waypoints_sub",
+            "_feedback_sub",
+            "_goal_pub",
+            "_vis_pub",
+            "_vis_array_pub",
+            "_startTime",
+            "_goal_reached",
+            "_waypoints",
+            "_number_of_waypoints"
+          ],
+          "methods": [
+            {
+              "name": "waypointCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "feedbackCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish_in_rviz",
+              "params": [
+                "next_goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "WaypointPublisher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~WaypointPublisher",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "navigate.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_3d_nav/navigate.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Navigator::Navigator",
+          "params": [],
+          "local_variables": [
+            "_f",
+            "_must_exit",
+            "_waypoint_number",
+            "_waypoints_received",
+            "_dt",
+            "_hovering",
+            "_error_x",
+            "_error_y",
+            "_error_z",
+            "_error_roll",
+            "_error_pitch",
+            "_error_yaw",
+            "_prev_error_x",
+            "_prev_error_y",
+            "_prev_error_z",
+            "_prev_error_roll",
+            "_prev_error_pitch",
+            "_prev_error_yaw",
+            "_proportional_x",
+            "_proportional_y",
+            "_proportional_z",
+            "_proportional_roll",
+            "_proportional_pitch",
+            "_proportional_yaw",
+            "_integral_x",
+            "_integral_y",
+            "_integral_z",
+            "_integral_roll",
+            "_integral_pitch",
+            "_integral_yaw",
+            "_derivative_x",
+            "_derivative_y",
+            "_derivative_z",
+            "_derivative_roll",
+            "_derivative_pitch",
+            "_derivative_yaw",
+            "_action_x",
+            "_action_y",
+            "_action_z",
+            "_action_roll",
+            "_action_pitch",
+            "_action_yaw",
+            "_vel_pub",
+            "_stamped_vel_pub",
+            "_goal_reached_pub",
+            "_pose_sub",
+            "_waypoints_sub"
+          ]
+        },
+        {
+          "name": "Navigator::~Navigator",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Navigator::dynamicParamCallback",
+          "params": [
+            "config",
+            "level"
+          ],
+          "local_variables": [
+            "_x_kp",
+            "_x_ki",
+            "_x_kd",
+            "_y_kp",
+            "_y_ki",
+            "_y_kd",
+            "_z_kp",
+            "_z_ki",
+            "_z_kd",
+            "_attitude_kp",
+            "_attitude_ki",
+            "_attitude_kd",
+            "_xy_tolerance",
+            "_z_tolerance",
+            "_yaw_tolerance",
+            "_xy_max_speed",
+            "_z_max_speed",
+            "_rot_max_speed"
+          ]
+        },
+        {
+          "name": "Navigator::waypointCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "i",
+            "_waypoint_number",
+            "_number_of_waypoints",
+            "_current_goal",
+            "_waypoints_received",
+            "_must_exit",
+            "_hovering"
+          ]
+        },
+        {
+          "name": "Navigator::poseCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "current_goal_quat",
+            "pose_quat",
+            "pose_roll",
+            "pose_pitch",
+            "pose_yaw",
+            "current_goal_yaw",
+            "final_action_x",
+            "final_action_y",
+            "feedback",
+            "_pose.translation.x",
+            "_pose.translation.y",
+            "_pose.translation.z",
+            "_pose.rotation",
+            "_dt",
+            "_error_x",
+            "_error_y",
+            "_error_z",
+            "_error_roll",
+            "_error_pitch",
+            "_proportional_x",
+            "_proportional_y",
+            "_proportional_z",
+            "_proportional_roll",
+            "_proportional_pitch",
+            "_integral_x",
+            "_integral_y",
+            "_integral_z",
+            "_integral_roll",
+            "_integral_pitch",
+            "_derivative_x",
+            "_derivative_y",
+            "_derivative_z",
+            "_derivative_roll",
+            "_derivative_pitch",
+            "_prev_error_x",
+            "_prev_error_y",
+            "_prev_error_z",
+            "_prev_error_roll",
+            "_prev_error_pitch",
+            "_action_x",
+            "_action_y",
+            "_action_z",
+            "_action_roll",
+            "_action_pitch",
+            "_twist.linear.x",
+            "_twist.linear.y",
+            "_twist.linear.z",
+            "_twist.angular.x",
+            "_twist.angular.y",
+            "_twist.angular.z",
+            "_hovering",
+            "_waypoints_received",
+            "feedback.data",
+            "_current_goal",
+            "_must_exit",
+            "_twist_stamped.twist",
+            "_twist_stamped.header.stamp"
+          ]
+        },
+        {
+          "name": "Navigator::controlYaw",
+          "params": [
+            "current_goal_yaw",
+            "pose_yaw"
+          ],
+          "local_variables": [
+            "_error_yaw",
+            "_error_yaw",
+            "_proportional_yaw",
+            "_integral_yaw",
+            "_derivative_yaw",
+            "_prev_error_yaw",
+            "_action_yaw",
+            "_twist.linear.x",
+            "_twist.linear.y",
+            "_twist.linear.z",
+            "_twist.angular.x",
+            "_twist.angular.y",
+            "_twist.angular.z"
+          ]
+        },
+        {
+          "name": "Navigator::clamp",
+          "params": [
+            "action",
+            "max_action"
+          ],
+          "local_variables": [
+            "action"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "nav"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "produce_odom.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_3d_nav/produce_odom.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "firstCallFlag"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "Converter::Converter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Converter::Converter",
+          "params": [
+            "argv[]"
+          ],
+          "local_variables": [
+            "sync",
+            "_height_listener",
+            "_imu_listener",
+            "_velocity_listener",
+            "_outputFrame",
+            "_baseFrame",
+            "_previousOdom.header.frame_id",
+            "_previousOdom.child_frame_id",
+            "_previousOdom.pose.pose.orientation.x",
+            "_previousOdom.pose.pose.orientation.y",
+            "_previousOdom.pose.pose.orientation.z",
+            "_previousOdom.pose.pose.orientation.w",
+            "_previousOdom.pose.covariance",
+            "_previousOdom.twist.twist.linear",
+            "_previousOdom.twist.twist.angular",
+            "_previousOdom.twist.covariance",
+            "_odomPublisher"
+          ]
+        },
+        {
+          "name": "Converter::~Converter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Converter::syncedCallback",
+          "params": [
+            "height",
+            "imu",
+            "velocity"
+          ],
+          "local_variables": [
+            "odom_msg",
+            "delta_t",
+            "temp_quat",
+            "yaw",
+            "odom_msg.header.frame_id",
+            "odom_msg.child_frame_id",
+            "_lastTime",
+            "firstCallFlag",
+            "odom_msg.header.stamp",
+            "odom_msg.pose.pose.position.x",
+            "odom_msg.pose.pose.position.y",
+            "odom_msg.pose.pose.position.z",
+            "odom_msg.pose.pose.orientation",
+            "odom_msg.twist.twist.linear",
+            "odom_msg.twist.twist.angular",
+            "_lastTime"
+          ]
+        },
+        {
+          "name": "Converter::publishOdometry",
+          "params": [],
+          "local_variables": [
+            "rate"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "converter"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "produce_trajectory.cpp.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<geometry_msgs/Vector3.h>",
+        "<geometry_msgs/Quaternion.h>",
+        "<geometry_msgs/Transform.h>",
+        "<trajectory_msgs/MultiDOFJointTrajectory.h>",
+        "<visualization_msgs/Marker.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "visualizeWaypoints",
+          "params": [
+            "points"
+          ],
+          "local_variables": [
+            "nr",
+            "vis_pub",
+            "idx",
+            "marker",
+            "marker.header.frame_id",
+            "marker.header.stamp",
+            "marker.ns",
+            "marker.id",
+            "marker.type",
+            "marker.action",
+            "marker.pose.position.x",
+            "marker.pose.position.y",
+            "marker.pose.position.z",
+            "marker.pose.orientation.x",
+            "marker.pose.orientation.y",
+            "marker.pose.orientation.z",
+            "marker.pose.orientation.w",
+            "marker.scale.x",
+            "marker.scale.y",
+            "marker.scale.z",
+            "marker.color.a",
+            "marker.color.r",
+            "marker.color.g",
+            "marker.color.b"
+          ]
+        },
+        {
+          "name": "createStraightLine",
+          "params": [
+            "number_of_points"
+          ],
+          "local_variables": [
+            "points",
+            "point",
+            "transform",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]"
+          ]
+        },
+        {
+          "name": "createSpiral",
+          "params": [
+            "number_of_points"
+          ],
+          "local_variables": [
+            "points",
+            "point",
+            "transform",
+            "max_height",
+            "angle",
+            "a",
+            "b",
+            "i",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "angle",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]"
+          ]
+        },
+        {
+          "name": "createSpiralForWarehouse",
+          "params": [
+            "number_of_points"
+          ],
+          "local_variables": [
+            "points",
+            "point",
+            "transform",
+            "max_height",
+            "angle",
+            "a",
+            "b",
+            "i",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "angle",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]"
+          ]
+        },
+        {
+          "name": "createMeander",
+          "params": [
+            "number_of_points"
+          ],
+          "local_variables": [
+            "points",
+            "point",
+            "transform",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]"
+          ]
+        },
+        {
+          "name": "createMeanderForWarehouse",
+          "params": [
+            "number_of_points"
+          ],
+          "local_variables": [
+            "points",
+            "point",
+            "transform",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]",
+            "transform.translation.x",
+            "transform.translation.y",
+            "transform.translation.z",
+            "transform.rotation.x",
+            "transform.rotation.y",
+            "transform.rotation.z",
+            "transform.rotation.w",
+            "point.transforms[0]"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "nh",
+            "trajectory_pub",
+            "msg",
+            "type",
+            "msg.header.stamp",
+            "msg.header.frame_id",
+            "msg.points",
+            "msg.points",
+            "msg.points",
+            "msg.points",
+            "msg.points"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "navigate.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<queue>",
+        "<geometry_msgs/Twist.h>",
+        "<geometry_msgs/TwistStamped.h>",
+        "<geometry_msgs/PoseStamped.h>",
+        "<geometry_msgs/Transform.h>",
+        "<nav_msgs/Odometry.h>",
+        "<std_msgs/Bool.h>",
+        "<visualization_msgs/MarkerArray.h>",
+        "<visualization_msgs/Marker.h>",
+        "<tf2/LinearMath/Quaternion.h>",
+        "<tf2/LinearMath/Matrix3x3.h>",
+        "<tf2/transform_datatypes.h>",
+        "<tf2_geometry_msgs/tf2_geometry_msgs.h>",
+        "<tf2/impl/utils.h>",
+        "<trajectory_msgs/MultiDOFJointTrajectory.h>",
+        "<dynamic_reconfigure/server.h>",
+        "<drone_3d_nav/pidConfig.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Navigator",
+          "attributes": [
+            "_nh",
+            "_vel_pub",
+            "_stamped_vel_pub",
+            "_goal_reached_pub",
+            "_waypoints_sub",
+            "_pose_sub",
+            "_marker_array_msg",
+            "_waypoints",
+            "_number_of_waypoints",
+            "_waypoints_received",
+            "_hovering",
+            "_server",
+            "_f",
+            "_current_goal",
+            "_xy_tolerance",
+            "_z_tolerance",
+            "_yaw_tolerance",
+            "_rot_max_speed",
+            "_xy_max_speed",
+            "_z_max_speed",
+            "_dt",
+            "_x_kp",
+            "_x_ki",
+            "_x_kd",
+            "_y_kp",
+            "_y_ki",
+            "_y_kd",
+            "_z_kp",
+            "_z_ki",
+            "_z_kd",
+            "_attitude_kp",
+            "_attitude_ki",
+            "_attitude_kd",
+            "_error_x",
+            "_error_y",
+            "_error_z",
+            "_error_roll",
+            "_error_pitch",
+            "_error_yaw",
+            "_prev_error_x",
+            "_prev_error_y",
+            "_prev_error_z",
+            "_prev_error_roll",
+            "_prev_error_pitch",
+            "_prev_error_yaw",
+            "_proportional_x",
+            "_proportional_y",
+            "_proportional_z",
+            "_proportional_roll",
+            "_proportional_pitch",
+            "_proportional_yaw",
+            "_integral_x",
+            "_integral_y",
+            "_integral_z",
+            "_integral_roll",
+            "_integral_pitch",
+            "_integral_yaw",
+            "_derivative_x",
+            "_derivative_y",
+            "_derivative_z",
+            "_derivative_roll",
+            "_derivative_pitch",
+            "_derivative_yaw",
+            "_action_x",
+            "_action_y",
+            "_action_z",
+            "_action_roll",
+            "_action_pitch",
+            "_action_yaw",
+            "_pose",
+            "_twist",
+            "_twist_stamped",
+            "_must_exit",
+            "_waypoint_number"
+          ],
+          "methods": [
+            {
+              "name": "waypointCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "poseCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "dynamicParamCallback",
+              "params": [
+                "config",
+                "level"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "clamp",
+              "params": [
+                "action",
+                "max_action"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "controlYaw",
+              "params": [
+                "current_goal_yaw",
+                "pose_yaw"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Navigator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~Navigator",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "produce_odom.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<cmath>",
+        "<ros/ros.h>",
+        "<geometry_msgs/Quaternion.h>",
+        "<geometry_msgs/TransformStamped.h>",
+        "<geometry_msgs/Twist.h>",
+        "<geometry_msgs/TwistStamped.h>",
+        "<geometry_msgs/PoseWithCovarianceStamped.h>",
+        "<nav_msgs/Odometry.h>",
+        "<std_msgs/Float64.h>",
+        "<sensor_msgs/Imu.h>",
+        "\"drone_gazebo/Float64Stamped.h\"",
+        "<tf2/LinearMath/Quaternion.h>",
+        "<tf2/transform_datatypes.h>",
+        "<tf2_geometry_msgs/tf2_geometry_msgs.h>",
+        "<tf2/impl/utils.h>",
+        "<message_filters/subscriber.h>",
+        "<message_filters/synchronizer.h>",
+        "<message_filters/sync_policies/approximate_time.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Converter",
+          "attributes": [
+            "_nh",
+            "_odomPublisher",
+            "_height_listener",
+            "_imu_listener",
+            "_velocity_listener",
+            "_outputFrame",
+            "_baseFrame",
+            "_height",
+            "_previousOdom",
+            "_lastTime"
+          ],
+          "methods": [
+            {
+              "name": "publishOdometry",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "syncedCallback",
+              "params": [
+                "height",
+                "imu",
+                "velocity"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Converter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "Converter",
+              "params": [
+                "argv[]"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~Converter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getPreviousOdom",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setPreviousOdom",
+              "params": [
+                "odometry"
+              ],
+              "local_variables": [
+                "_previousOdom"
+              ]
+            },
+            {
+              "name": "updateOdomTime",
+              "params": [
+                "t"
+              ],
+              "local_variables": [
+                "_previousOdom.header.stamp"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "control.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_2d_nav/control.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Controller::Controller",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Controller::Controller",
+          "params": [
+            "argv[]"
+          ],
+          "local_variables": [
+            "loop_rate",
+            "_heightListener",
+            "_moveBaseListener",
+            "_cmdvelPublisher"
+          ]
+        },
+        {
+          "name": "Controller::~Controller",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Controller::heightCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "currentHeight",
+            "z",
+            "z",
+            "z",
+            "z"
+          ]
+        },
+        {
+          "name": "Controller::moveBaseCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "velMsg",
+            "velMsg.linear.x",
+            "velMsg.linear.y",
+            "velMsg.linear.z",
+            "velMsg.angular.x",
+            "velMsg.angular.y",
+            "velMsg.angular.z"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "control_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_2d_nav/control.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "controller"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "error_detector.cpp.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<message_filters/subscriber.h>",
+        "<message_filters/synchronizer.h>",
+        "<message_filters/sync_policies/approximate_time.h>",
+        "<geometry_msgs/PoseWithCovarianceStamped.h>",
+        "<nav_msgs/Odometry.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "callback",
+          "params": [
+            "amcl_pose",
+            "gnd_state"
+          ],
+          "local_variables": [
+            "error_x",
+            "error_y",
+            "error_x",
+            "error_y"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "nh",
+            "amcl_sub",
+            "gnd_sub",
+            "sync"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "velocity_to_odom.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"drone_2d_nav/velocity_to_odom.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "firstCallFlag"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "Converter::Converter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Converter::Converter",
+          "params": [
+            "argv[]"
+          ],
+          "local_variables": [
+            "_outputFrame",
+            "_baseFrame",
+            "_previousOdom.header.stamp",
+            "_previousOdom.header.frame_id",
+            "_previousOdom.child_frame_id",
+            "_previousOdom.pose.pose.position.z",
+            "_previousOdom.pose.pose.orientation.x",
+            "_previousOdom.pose.pose.orientation.y",
+            "_previousOdom.pose.pose.orientation.z",
+            "_previousOdom.pose.pose.orientation.w",
+            "_previousOdom.pose.covariance",
+            "_previousOdom.twist.twist.linear",
+            "_previousOdom.twist.twist.angular",
+            "_previousOdom.twist.covariance",
+            "_cmdVelListener",
+            "_odomPublisher"
+          ]
+        },
+        {
+          "name": "Converter::~Converter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Converter::cmdVelCallback",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "odom_msg",
+            "delta_t",
+            "temp_quat",
+            "theta",
+            "s",
+            "w",
+            "dev",
+            "rng",
+            "dist",
+            "previous_orientation",
+            "rotation_quat",
+            "ha",
+            "l",
+            "ss",
+            "odom_msg.header.frame_id",
+            "odom_msg.child_frame_id",
+            "_lastTime",
+            "firstCallFlag",
+            "odom_msg.header.stamp",
+            "odom_msg.pose.pose.position.x",
+            "odom_msg.pose.pose.position.y",
+            "odom_msg.pose.pose.position.z",
+            "odom_msg.pose.pose.position.x",
+            "odom_msg.pose.pose.position.y",
+            "rotation_quat",
+            "rotation_quat",
+            "odom_msg.pose.pose.orientation",
+            "odom_msg.twist.twist.linear",
+            "odom_msg.twist.twist.angular",
+            "_lastTime"
+          ]
+        },
+        {
+          "name": "Converter::publishOdometry",
+          "params": [],
+          "local_variables": [
+            "rate"
+          ]
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "converter"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "control.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<cstdlib>",
+        "<math.h>",
+        "<ros/ros.h>",
+        "\"geometry_msgs/PoseStamped.h\"",
+        "\"geometry_msgs/Twist.h\"",
+        "\"std_msgs/Float64.h\"",
+        "\"drone_gazebo/Float64Stamped.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Controller",
+          "attributes": [
+            "_nh",
+            "_heightListener",
+            "_moveBaseListener",
+            "_cmdvelPublisher",
+            "_desiredHeight",
+            "_zLinear"
+          ],
+          "methods": [
+            {
+              "name": "heightCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "moveBaseCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Controller",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "Controller",
+              "params": [
+                "argv[]"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~Controller",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getDesiredHeight",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setDesiredHeight",
+              "params": [
+                "value"
+              ],
+              "local_variables": [
+                "_desiredHeight"
+              ]
+            },
+            {
+              "name": "setZLinear",
+              "params": [
+                "value"
+              ],
+              "local_variables": [
+                "_zLinear"
+              ]
+            },
+            {
+              "name": "getZLinear",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "velocity_to_odom.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<cmath>",
+        "<ros/ros.h>",
+        "\"geometry_msgs/Twist.h\"",
+        "<geometry_msgs/PoseWithCovarianceStamped.h>",
+        "\"nav_msgs/Odometry.h\"",
+        "\"std_msgs/Float64.h\"",
+        "\"geometry_msgs/Quaternion.h\"",
+        "<geometry_msgs/TransformStamped.h>",
+        "<geometry_msgs/Vector3.h>",
+        "<tf2/LinearMath/Quaternion.h>",
+        "<tf2/transform_datatypes.h>",
+        "<tf2_geometry_msgs/tf2_geometry_msgs.h>",
+        "<tf2/impl/utils.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Converter",
+          "attributes": [
+            "_nh",
+            "_cmdVelListener",
+            "_odomPublisher",
+            "_outputFrame",
+            "_baseFrame",
+            "_previousOdom",
+            "_lastTime"
+          ],
+          "methods": [
+            {
+              "name": "publishOdometry",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "cmdVelCallback",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Converter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "Converter",
+              "params": [
+                "argv[]"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~Converter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getPreviousOdom",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setPreviousOdom",
+              "params": [
+                "odometry"
+              ],
+              "local_variables": [
+                "_previousOdom"
+              ]
+            },
+            {
+              "name": "updateOdomTime",
+              "params": [
+                "t"
+              ],
+              "local_variables": [
+                "_previousOdom.header.stamp"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

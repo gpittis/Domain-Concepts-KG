@@ -1,0 +1,277 @@
+[
+  {
+    "file": "setup.py",
+    "comments": [
+      "! DO NOT MANUALLY INVOKE THIS setup.py, USE CATKIN INSTEAD",
+      "fetch values from package.xml"
+    ]
+  },
+  {
+    "file": "images_to_bag.py",
+    "comments": [
+      "!/usr/bin/python",
+      "this package name",
+      "Generates a list of files from the directory",
+      "Creates a bag file with camera images"
+    ]
+  },
+  {
+    "file": "split_bag.py",
+    "comments": [
+      "!/usr/bin/python"
+    ]
+  },
+  {
+    "file": "__init__.py",
+    "comments": []
+  },
+  {
+    "file": "hazmat_benchmark_test.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Initialize the node"
+    ]
+  },
+  {
+    "file": "rgb_depth_thermal_synchronizer.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Software License Agreement",
+      "Redistribution and use in source and binary forms, with or without",
+      "modification, are permitted provided that the following conditions",
+      "are met:",
+      "* Redistributions of source code must retain the above copyright",
+      "notice, this list of conditions and the following disclaimer.",
+      "* Redistributions in binary form must reproduce the above",
+      "copyright notice, this list of conditions and the following",
+      "disclaimer in the documentation and/or other materials provided",
+      "with the distribution.",
+      "* Neither the name of P.A.N.D.O.R.A. Team nor the names of its",
+      "contributors may be used to endorse or promote products derived",
+      "from this software without specific prior written permission.",
+      "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS",
+      "\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT",
+      "LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS",
+      "FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE",
+      "COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,",
+      "INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,",
+      "BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;",
+      "LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER",
+      "CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT",
+      "LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN",
+      "ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE",
+      "POSSIBILITY OF SUCH DAMAGE.",
+      "Here the synchronized messages from kinect and flir are sent",
+      "to the synchronizer node as one united message.",
+      "Check if topic for synchronized message has been given properly if yes pass it to the variable",
+      "Make topic's name absolute",
+      "rospy.loginfo(\"[Rgbdt_synchronizer] is publishing to: %s\", synch_topic)",
+      "Publisher of PointCloud2 and flirLeptonMsg messages",
+      "Pack the message to be sent.",
+      "Publish the message to the synchronizer node",
+      "Check if topic for synchronized message has been given properly if yes pass it to the variable",
+      "Make topic's name absolute",
+      "rospy.loginfo(\"[Rgbdt_synchronizer] is publishing to: %s\", synch_topic)",
+      "Publisher of PointCloud2 and flirLeptonMsg messages",
+      "Pack the message to be sent.",
+      "Publish the message to the synchronizer node",
+      "Initialization of rgbdt_synchronizer node",
+      "Check if kinect topic has been given properly if yes pass it to the variable",
+      "Check if flir topic has been given properly if yes pass it to the variable",
+      "Check in which mode Hole package is running",
+      "Continue the process based on packages mode. If mode = true thermal",
+      "included",
+      "Subscribers of kinect and flir messages",
+      "Synchronize kinect and flir topics"
+    ]
+  },
+  {
+    "file": "hole_benchmark_test.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Initialize the node"
+    ]
+  },
+  {
+    "file": "hole_detector_test.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Software License Agreement",
+      "Redistribution and use in source and binary forms, with or without",
+      "modification, are permitted provided that the following conditions",
+      "are met:",
+      "* Redistributions of source code must retain the above copyright",
+      "notice, this list of conditions and the following disclaimer.",
+      "* Redistributions in binary form must reproduce the above",
+      "copyright notice, this list of conditions and the following",
+      "disclaimer in the documentation and/or other materials provided",
+      "with the distribution.",
+      "* Neither the name of P.A.N.D.O.R.A. Team nor the names of its",
+      "contributors may be used to endorse or promote products derived",
+      "from this software without specific prior written permission.",
+      "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS",
+      "\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT",
+      "LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS",
+      "FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE",
+      "COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,",
+      "INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,",
+      "BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;",
+      "LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER",
+      "CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT",
+      "LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN",
+      "ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE",
+      "POSSIBILITY OF SUCH DAMAGE.",
+      "tests the function of the hole detector package",
+      "how many alert messages have been published",
+      "how many alerts have been sent with the first message",
+      "the coordinates of the first valid hole's keypoint",
+      "the coordinates of the first valid hole's keypoint relative to the",
+      "center of the image",
+      "the hole's expected yaw",
+      "the hole's expected pitch",
+      "tests the function of the depth node",
+      "how many alert messages have been published",
+      "how many alerts have been sent with the first message",
+      "make assertions about the first candidate hole",
+      "the coordinates of the first valid hole's data",
+      "are halved because of the wavelet analysis used",
+      "The first hole's keypoint",
+      "There should be equal number of elements in both vertices vectors",
+      "The first hole's bounding box is itself bounded",
+      "in a bounding box",
+      "There should be equal number of elements in both outline vectors",
+      "The minimum x coordinate of the bounding box's points",
+      "The minimum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The first hole's outline is bounded by its bounding box",
+      "make assertions about the second candidate hole",
+      "the coordinates of the second valid hole's data",
+      "are halved because of the wavelet analysis used",
+      "The second hole's keypoint",
+      "There should be equal number of elements in both vertices vectors",
+      "The second hole's bounding box is itself bounded in a bounding box",
+      "There should be equal number of elements in both outline vectors",
+      "The minimum x coordinate of the bounding box's points",
+      "The minimum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The first hole's outline is bounded by its bounding box",
+      "tests the function of the rgb node",
+      "how many alert messages have been published",
+      "how many alerts have been sent with the first message",
+      "make assertions about the first candidate hole",
+      "the coordinates of the first valid hole's data",
+      "are halved because of the wavelet analysis used",
+      "The first hole's keypoint",
+      "There should be equal number of elements in both vertices vectors",
+      "The first hole's bounding box is itself bounded",
+      "in a bounding box",
+      "There should be equal number of elements in both outline vectors",
+      "The minimum x coordinate of the bounding box's points",
+      "The minimum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The first hole's outline is bounded by its bounding box",
+      "make assertions about the second candidate hole",
+      "the coordinates of the second valid hole's data",
+      "are halved because of the wavelet analysis used",
+      "The second hole's keypoint",
+      "There should be equal number of elements in both vertices vectors",
+      "The second hole's bounding box is itself bounded in a bounding box",
+      "There should be equal number of elements in both outline vectors",
+      "The minimum x coordinate of the bounding box's points",
+      "The minimum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The maximum x coordinate of the bounding box's points",
+      "The first hole's outline is bounded by its bounding box",
+      "how many alert messages have been published",
+      "how many alerts have been sent with the first message",
+      "depth analysis is possible",
+      "the first hole",
+      "The first hole's keypoint",
+      "There should be equal number of elements in both vertices vectors",
+      "The first hole's bounding box is itself bounded",
+      "in a bounding box"
+    ]
+  },
+  {
+    "file": "landoltc_benchmark_test.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "accuracy_test.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "pkg.develspace.context.pc.py",
+    "comments": [
+      "generated from catkin/cmake/template/pkg.context.pc.in"
+    ]
+  },
+  {
+    "file": "pkg.installspace.context.pc.py",
+    "comments": [
+      "generated from catkin/cmake/template/pkg.context.pc.in"
+    ]
+  },
+  {
+    "file": "barrel_benchmark_test.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Initialize the node"
+    ]
+  },
+  {
+    "file": "rename_bag_topic.py",
+    "comments": []
+  },
+  {
+    "file": "qrcode_benchmark_test.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Initialize the node"
+    ]
+  },
+  {
+    "file": "accuracy_test.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "setup.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "__init__.py",
+    "comments": []
+  },
+  {
+    "file": "__init__.py",
+    "comments": []
+  },
+  {
+    "file": "victim_benchmark_test.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Wait for the alert to arrive.",
+      "Set the processor block to notify the program that the processor",
+      "answered",
+      "Notify the program that an alert has been received.",
+      "Initialize the node"
+    ]
+  },
+  {
+    "file": "accuracy_test.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  }
+]

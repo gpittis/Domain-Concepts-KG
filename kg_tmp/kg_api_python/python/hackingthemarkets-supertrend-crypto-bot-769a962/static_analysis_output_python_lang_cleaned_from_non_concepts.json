@@ -1,0 +1,126 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "binance",
+        "binance"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "supertrend"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "",
+        "schedule",
+        "pandas",
+        "",
+        "numpy",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "exchange",
+        "position"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "atr",
+          "params": [
+            "",
+            "period"
+          ],
+          "local_variables": [
+            "",
+            "atr"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "supertrend",
+          "params": [
+            "",
+            "period",
+            "atr multiplier"
+          ],
+          "local_variables": [
+            "",
+            "atr",
+            "upperband",
+            "lowerband",
+            "uptrend",
+            "",
+            "uptrend current",
+            "uptrend current",
+            "uptrend current",
+            "lowerband current",
+            "upperband current"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "sell signals",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "order",
+            "position",
+            "order",
+            "position"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "bot",
+          "params": [],
+          "local_variables": [
+            "bars",
+            "",
+            "",
+            "supertrend"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

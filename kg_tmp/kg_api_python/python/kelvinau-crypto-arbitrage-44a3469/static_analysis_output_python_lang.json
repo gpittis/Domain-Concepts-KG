@@ -1,0 +1,196 @@
+[
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "base.py"
+    },
+    {
+      "imports": [
+        "abc.ABCMeta",
+        "abc.abstractmethod",
+        "json"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "ExchangeEngineBase",
+          "attributes": [
+            "__metaclass__",
+            "key"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "load_key",
+              "params": [
+                "self",
+                "filename"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_send_request",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "place_order",
+              "params": [
+                "self",
+                "ticker",
+                "action",
+                "amount",
+                "price"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "get_balance",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "get_ticker_history",
+              "params": [
+                "self",
+                "ticker"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "parseTickerData",
+              "params": [
+                "self",
+                "tickerData"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "loader.py"
+    },
+    {
+      "imports": [
+        "sys",
+        "os"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "EngineLoader",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "getEngine",
+              "params": [
+                "exchange",
+                "keyFile"
+              ],
+              "local_variables": [
+                "mod",
+                "engine"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "mod_imports.py"
+    },
+    {
+      "imports": [
+        "json",
+        "requests",
+        "grequests",
+        "hmac",
+        "hashlib",
+        "base64",
+        "time",
+        "urllib",
+        "base.ExchangeEngineBase"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

@@ -1,0 +1,2074 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "ab",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "arr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "averag",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "axi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backtest",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bimonth",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "binanc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "biweek",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "candl",
+      "count": 45
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coe",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coin",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "condit",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "convert",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "csv",
+      "count": 23
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ctime",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "daili",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datafram",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datetim",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "day",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "decreas",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delimit",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "deposit",
+      "count": 24
+    },
+    {
+      "type": "CONCEPT",
+      "name": "download",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ema",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exchang",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fast",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "faster",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fee",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frame",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "generat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hour",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "increas",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "indic",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "json",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "leverag",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loss",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "macd",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "maker",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "math",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "matplotlib",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "maximum",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "minimum",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "minut",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "month",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mplfinanc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "offset",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ontim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "otim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "panda",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 20
+    },
+    {
+      "type": "CONCEPT",
+      "name": "percent",
+      "count": 26
+    },
+    {
+      "type": "CONCEPT",
+      "name": "percentil",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pickl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "plot",
+      "count": 21
+    },
+    {
+      "type": "CONCEPT",
+      "name": "posit",
+      "count": 38
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prepar",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "price",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "profit",
+      "count": 10
+    },
+    {
+      "type": "CONCEPT",
+      "name": "progress",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pyplot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pytz",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "random",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ratio",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "report",
+      "count": 15
+    },
+    {
+      "type": "CONCEPT",
+      "name": "repr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "signal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simpl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slow",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "statist",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subplot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "symbol",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "target",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timefram",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trade",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "train",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trimonth",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "volum",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "week",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "win",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "year",
+      "count": 2
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "ab",
+      "to": "backtest",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ab",
+      "to": "candl",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ab",
+      "to": "percent",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arr",
+      "to": "candl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "axi",
+      "to": "plot",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "bimonth",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "binanc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "biweek",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "candl",
+      "final_weight": 20.066661,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "coin",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "color",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "condit",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "csv",
+      "final_weight": 8.183331,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "current",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "daili",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "datetim",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "decreas",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "delimit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "deposit",
+      "final_weight": 12.999996,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "download",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "ema",
+      "final_weight": 3.916665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "fast",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "faster",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "fee",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "increas",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "indic",
+      "final_weight": 2.316666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "leverag",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "loss",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "macd",
+      "final_weight": 3.916665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "maker",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "maximum",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "minimum",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "month",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "path",
+      "final_weight": 5.483331,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "percent",
+      "final_weight": 10.966662,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "percentil",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "pickl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "plot",
+      "final_weight": 12.299997,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "posit",
+      "final_weight": 14.349996,
+      "count": 18
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "prepar",
+      "final_weight": 2.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "price",
+      "final_weight": 5.599998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "profit",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "pytz",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "random",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "ratio",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "report",
+      "final_weight": 4.549998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "signal",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "slow",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "statist",
+      "final_weight": 5.4,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "symbol",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "timefram",
+      "final_weight": 5.716665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "trade",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "train",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "trimonth",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "week",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "win",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "year",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bimonth",
+      "to": "deposit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bimonth",
+      "to": "percent",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "candl",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "json",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "math",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "pytz",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "biweek",
+      "to": "deposit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "biweek",
+      "to": "percent",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "color",
+      "final_weight": 3.3,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "condit",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "convert",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "ctime",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "current",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "datafram",
+      "final_weight": 5.2,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "download",
+      "final_weight": 3.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "frame",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "interv",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "maker",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "minimum",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "offset",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "ontim",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "otim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "panda",
+      "final_weight": 3.933333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "path",
+      "final_weight": 6.1,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "percent",
+      "final_weight": 4.816667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "plot",
+      "final_weight": 13.116667,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "posit",
+      "final_weight": 10.316667,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "prepar",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "price",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "progress",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "random",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "repr",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "statist",
+      "final_weight": 3.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "symbol",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "target",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "timefram",
+      "final_weight": 10.933334,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "trade",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "train",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "volum",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "win",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coe",
+      "to": "wma",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "maximum",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "posit",
+      "final_weight": 3.383333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "price",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "symbol",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "plot",
+      "final_weight": 2.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "condit",
+      "to": "current",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "condit",
+      "to": "posit",
+      "final_weight": 5.400002,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "condit",
+      "to": "profit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convert",
+      "to": "frame",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convert",
+      "to": "timefram",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "delimit",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "deposit",
+      "final_weight": 12.483335,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "generat",
+      "final_weight": 5.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "maker",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "month",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "output",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "path",
+      "final_weight": 17.433334,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "percent",
+      "final_weight": 2.150001,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "posit",
+      "final_weight": 10.333334,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "report",
+      "final_weight": 17.4,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "train",
+      "final_weight": 5.7,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "trimonth",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "year",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "offset",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "posit",
+      "final_weight": 3.850001,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "profit",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "timefram",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "daili",
+      "to": "deposit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "daili",
+      "to": "percent",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "panda",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "plot",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datetim",
+      "to": "deposit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datetim",
+      "to": "plot",
+      "final_weight": 3.5,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datetim",
+      "to": "price",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "decreas",
+      "to": "macd",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "decreas",
+      "to": "price",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "generat",
+      "final_weight": 4.666668,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "maker",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "month",
+      "final_weight": 3.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "path",
+      "final_weight": 4.716667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "percent",
+      "final_weight": 15.550001,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "plot",
+      "final_weight": 4.5,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "prepar",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "report",
+      "final_weight": 10.850001,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "statist",
+      "final_weight": 3.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "trimonth",
+      "final_weight": 3.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "week",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "year",
+      "final_weight": 3.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "download",
+      "to": "timefram",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "fast",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "faster",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "indic",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "macd",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "price",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "slow",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "fee",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "posit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "macd",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "percent",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "posit",
+      "final_weight": 4.783333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "maker",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "month",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "output",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "path",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "percent",
+      "final_weight": 2.150001,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "posit",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "report",
+      "final_weight": 5.166666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "trimonth",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "year",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increas",
+      "to": "macd",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increas",
+      "to": "price",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indic",
+      "to": "timefram",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indic",
+      "to": "wma",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "statist",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "leverag",
+      "to": "posit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "percent",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "posit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "price",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "slow",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "matplotlib",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "mplfinanc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "plot",
+      "final_weight": 8.6,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "posit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "pyplot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "report",
+      "final_weight": 3.966666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "statist",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "matplotlib",
+      "to": "plot",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "matplotlib",
+      "to": "pyplot",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maximum",
+      "to": "posit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maximum",
+      "to": "price",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "minimum",
+      "to": "trade",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "month",
+      "to": "percent",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "month",
+      "to": "report",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mplfinanc",
+      "to": "plot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "offset",
+      "to": "timefram",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ontim",
+      "to": "plot",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ontim",
+      "to": "posit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "report",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "plot",
+      "final_weight": 9.4,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "posit",
+      "final_weight": 4.716667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "report",
+      "final_weight": 9.433334,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "train",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "posit",
+      "final_weight": 6.183333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "profit",
+      "final_weight": 8.0,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "progress",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "random",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "report",
+      "final_weight": 2.150001,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "trimonth",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "week",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "year",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percentil",
+      "to": "report",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percentil",
+      "to": "statist",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "price",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "pyplot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "subplot",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "prepar",
+      "final_weight": 2.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "price",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "profit",
+      "final_weight": 4.583333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "report",
+      "final_weight": 8.7,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "repr",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "statist",
+      "final_weight": 4.016667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "target",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "timefram",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "train",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "win",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "statist",
+      "final_weight": 3.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "train",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "profit",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "wma",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "profit",
+      "to": "win",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "report",
+      "to": "statist",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "report",
+      "to": "trimonth",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "report",
+      "to": "year",
+      "final_weight": 0.716667,
+      "count": 1
+    }
+  ]
+}

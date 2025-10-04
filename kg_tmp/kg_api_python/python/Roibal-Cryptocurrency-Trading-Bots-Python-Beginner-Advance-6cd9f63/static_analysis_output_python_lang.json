@@ -1,0 +1,2601 @@
+[
+  [
+    {
+      "file": "BinanceKeys.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "BinanceKey1"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "BinanceTriArbTrader.py"
+    },
+    {
+      "imports": [
+        "binance.client.Client",
+        "time",
+        "datetime.datetime",
+        "matplotlib",
+        "matplotlib.cm",
+        "matplotlib.pyplot",
+        "pprint",
+        "math",
+        "BinanceKeys.BinanceKey1"
+      ]
+    },
+    {
+      "global_variables": [
+        "api_key",
+        "api_secret",
+        "client"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "set_time_binance",
+          "params": [],
+          "local_variables": [
+            "gt",
+            "tt"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "initialize_arb",
+          "params": [],
+          "local_variables": [
+            "welcome_message",
+            "bot_start_time",
+            "status",
+            "withdraws",
+            "balance_list",
+            "list_of_symbols2",
+            "list_of_symbols3",
+            "list_of_symbols4",
+            "list_of_symbols5",
+            "list_of_symbols6",
+            "list_of_symbols7",
+            "list_of_symbols8",
+            "list_of_symbols9",
+            "list_of_symbols10",
+            "list_of_symbols11",
+            "list_of_symbols12",
+            "list_of_symbols13",
+            "list_of_symbols14",
+            "list_of_symbols15",
+            "list_of_symbols16",
+            "list_of_symbols17",
+            "list_of_symbols18",
+            "list_of_symbols19",
+            "list_of_symbols20",
+            "list_of_symbols21",
+            "list_of_symbols22",
+            "list_of_symbols23",
+            "list_of_symbols24",
+            "list_of_symbols25",
+            "list_of_symbols26",
+            "list_of_symbols27",
+            "list_of_symbols28",
+            "list_of_symbols29",
+            "list_of_symbols30",
+            "list_of_symbols31",
+            "list_of_symbols32",
+            "list_of_symbols33",
+            "list_of_symbols34",
+            "list_of_symbols35",
+            "list_of_symbols36",
+            "list_of_symbols37",
+            "list_of_symbols38",
+            "list_of_symbols39",
+            "list_of_symbols40",
+            "list_of_symbols41",
+            "list_of_symbols42",
+            "list_of_symbols43",
+            "list_of_symbols44",
+            "list_of_symbols45",
+            "list_of_symbols46",
+            "list_of_symbols47",
+            "list_of_symbols48",
+            "list_of_symbols49",
+            "list_of_symbols50",
+            "list_of_symbols51",
+            "list_of_symbols52",
+            "list_of_symbols53",
+            "list_of_symbols54",
+            "list_of_symbols55",
+            "list_of_symbols56",
+            "list_of_symbols57",
+            "list_of_symbols58",
+            "list_of_symbols59",
+            "list_of_symbols60",
+            "list_of_symbols61",
+            "list_of_symbols62",
+            "list_of_symbols63",
+            "list_of_symbols64",
+            "list_of_symbols65",
+            "list_of_symbols66",
+            "list_of_symbols67",
+            "list_of_symbols68",
+            "list_of_symbols69",
+            "list_of_symbols70",
+            "list_of_symbols71",
+            "list_of_symbols72",
+            "list_of_symbols73",
+            "list_of_symbols74",
+            "list_of_symbols75",
+            "list_of_symbols76",
+            "list_of_symbols77",
+            "list_of_symbols78",
+            "list_of_symbols79",
+            "list_of_symbols80",
+            "list_of_symbols81",
+            "list_of_symbols82",
+            "list_of_symbols83",
+            "list_of_symbols84",
+            "list_of_symbols85",
+            "list_of_symbols86",
+            "list_of_symbols87",
+            "list_of_symbols88",
+            "list_of_symbols89",
+            "list_of_symbols90",
+            "list_of_symbols91",
+            "list_of_symbols92",
+            "list_of_symbols93",
+            "list_of_symbols94",
+            "list_of_symbols95",
+            "list_of_symbols96",
+            "list_of_symbols97",
+            "list_of_symbols98",
+            "list_of_symbols99",
+            "list_of_symbols100",
+            "list_of_symbols101",
+            "list_of_symbols102",
+            "list_of_symbols103",
+            "list_of_symbols104",
+            "list_of_symbols105",
+            "list_of_symbols106",
+            "list_of_symbols107",
+            "list_of_symbols108",
+            "list_of_symbols109",
+            "list_of_symbols110",
+            "list_of_symbols111",
+            "list_of_symbols112",
+            "list_of_symbols113",
+            "list_of_symbols114",
+            "list_of_symbols115",
+            "list_of_symbols116",
+            "list_of_symbols117",
+            "list_of_symbols118",
+            "list_of_symbols119",
+            "list_of_symbols120",
+            "list_of_symbols121",
+            "list_of_symbols122",
+            "list_of_symbols123",
+            "list_of_symbols124",
+            "list_of_symbols125",
+            "list_of_symbols126",
+            "list_of_symbols127",
+            "list_of_symbols128",
+            "list_of_symbols129",
+            "list_of_symbols130",
+            "list_of_symbols131",
+            "list_of_symbols132",
+            "list_of_symbols133",
+            "list_of_symbols134",
+            "list_of_symbols135",
+            "list_of_symbols136",
+            "list_of_symbols137",
+            "list_of_symbols138",
+            "list_of_symbols139",
+            "list_of_symbols140",
+            "list_of_symbols141",
+            "list_of_symbols142",
+            "list_of_symbols143",
+            "list_of_symbols144",
+            "list_of_symbols145",
+            "list_of_symbols146",
+            "list_of_symbols147",
+            "list_of_symbols148",
+            "list_of_symbols149",
+            "list_of_symbols150",
+            "list_of_symbols151",
+            "list_of_symbols152",
+            "list_of_symbols153",
+            "list_of_symbols154",
+            "list_of_symbols155",
+            "list_of_symbols156",
+            "list_of_symbols157",
+            "list_of_symbols158",
+            "list_of_symbols159",
+            "list_of_symbols160",
+            "list_of_symbols161",
+            "list_of_symbols162",
+            "list_of_symbols163",
+            "list_of_symbols164",
+            "list_of_symbols165",
+            "list_of_symbols166",
+            "list_of_symbols167",
+            "list_of_symbols168",
+            "list_of_symbols169",
+            "list_of_symbols170",
+            "list_of_symbols171",
+            "list_of_symbols172",
+            "list_of_symbols173",
+            "list_of_symbols174",
+            "list_of_symbols175",
+            "list_of_symbols176",
+            "list_of_symbols177",
+            "list_of_symbols178",
+            "list_of_symbols179",
+            "list_of_symbols180",
+            "list_of_symbols181",
+            "list_of_symbols182",
+            "list_of_symbols183",
+            "list_of_symbols184",
+            "list_of_symbols185",
+            "list_of_symbols186",
+            "list_of_symbols187",
+            "list_of_symbols188",
+            "list_of_symbols189",
+            "list_of_symbols190",
+            "list_of_symbols191",
+            "list_of_symbols192",
+            "list_of_symbols193",
+            "list_of_symbols194",
+            "list_of_symbols195",
+            "list_of_symbols196",
+            "list_of_symbols197",
+            "list_of_symbols198",
+            "list_of_symbols199",
+            "list_of_symbols200",
+            "list_of_symbols201",
+            "list_of_symbols202",
+            "list_of_symbols203",
+            "list_of_symbols204",
+            "list_of_symbols205",
+            "list_of_symbols206",
+            "list_of_symbols207",
+            "list_of_symbols208",
+            "list_of_symbols209",
+            "list_of_symbols210",
+            "list_of_symbols211",
+            "list_of_symbols212",
+            "list_of_symbols213",
+            "list_of_symbols214",
+            "list_of_symbols215",
+            "list_of_symbols216",
+            "list_of_symbols217",
+            "list_of_symbols218",
+            "list_of_symbols219",
+            "list_of_symbols220",
+            "list_of_symbols221",
+            "list_of_symbols222",
+            "list_of_symbols223",
+            "list_of_symbols224",
+            "list_of_symbols225",
+            "list_of_symbols226",
+            "list_of_symbols227",
+            "list_of_symbols228",
+            "list_of_symbols229",
+            "list_of_symbols230",
+            "list_of_symbols231",
+            "list_of_symbols232",
+            "list_of_symbols233",
+            "list_of_symbols234",
+            "list_of_symbols235",
+            "list_of_symbols236",
+            "list_of_symbols237",
+            "list_of_symbols238",
+            "list_of_symbols239",
+            "list_of_symbols240",
+            "list_of_symbols241",
+            "list_of_symbols242",
+            "list_of_symbols243",
+            "list_of_symbols244",
+            "list_of_symbols245",
+            "list_of_symbols246",
+            "list_of_symbols247",
+            "list_of_symbols248",
+            "list_of_symbols249",
+            "list_of_symbols250",
+            "list_of_symbols251",
+            "list_of_symbols252",
+            "list_of_symbols253",
+            "list_of_symbols254",
+            "list_of_symbols255",
+            "list_of_symbols256",
+            "list_of_symbols257",
+            "list_of_symbols258",
+            "list_of_symbols259",
+            "list_of_symbols260",
+            "list_of_symbols261",
+            "list_of_symbols262",
+            "list_of_symbols263",
+            "list_of_symbols264",
+            "list_of_symbols265",
+            "list_of_symbols266",
+            "list_of_symbols267",
+            "list_of_symbols268",
+            "list_of_symbols269",
+            "list_of_symbols270",
+            "list_of_symbols271",
+            "list_of_symbols272",
+            "list_of_symbols273",
+            "list_of_symbols274",
+            "list_of_symbols275",
+            "list_of_symbols276",
+            "list_of_symbols277",
+            "list_of_symbols278",
+            "list_of_symbols279",
+            "list_of_symbols280",
+            "list_of_symbols281",
+            "list_of_symbols282",
+            "list_of_symbols283",
+            "list_of_symbols284",
+            "list_of_symbols285",
+            "list_of_symbols286",
+            "list_of_arb_sym",
+            "msg1",
+            "tickers",
+            "portfolio",
+            "read_data",
+            "load_portfolio",
+            "load_portfolio",
+            "i",
+            "portf_msg",
+            "calc_profit_list",
+            "exp_profit",
+            "m",
+            "n",
+            "exp_profit",
+            "m",
+            "exp_profitx",
+            "profit_message",
+            "arb_list_data",
+            "arb_start_time"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "data_log_to_file",
+          "params": [
+            "message"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "portf_file_save",
+          "params": [
+            "portfolio",
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "arbitrage_bin",
+          "params": [
+            "list_of_sym",
+            "tickers",
+            "portfolio",
+            "cycle_num",
+            "cycle_time",
+            "place_order",
+            "real_order"
+          ],
+          "local_variables": [
+            "arb_message",
+            "fee_percentage",
+            "list_exch_rate_list",
+            "i",
+            "exch_rate_list",
+            "profit_fee_list",
+            "data_collect_message1",
+            "currency_pair",
+            "depth",
+            "price1",
+            "price3",
+            "Exch_rate1",
+            "depth",
+            "price2",
+            "Exch_rate2",
+            "rate1",
+            "buy_price",
+            "rate2",
+            "sell_price",
+            "arb_1_msg",
+            "arb_profit",
+            "arb_profit_fees",
+            "arb_profit_adjust",
+            "place_order_msg",
+            "final",
+            "start",
+            "portfolio",
+            "coin3",
+            "coin2",
+            "coin3fee",
+            "final",
+            "coin2fee",
+            "portfolio2",
+            "start1",
+            "real_order_msg",
+            "quantity",
+            "real_order_msg1",
+            "amt_coin1",
+            "port",
+            "amt_coin2",
+            "amt_coin3",
+            "amt_coin_final",
+            "coin_amts",
+            "coin_amts",
+            "real_order_start_time",
+            "price_order_1",
+            "quantity_1",
+            "order_1",
+            "price_order_2",
+            "quantity_2",
+            "order_2",
+            "price_order_3",
+            "quantity_3",
+            "order_3",
+            "real_order_stop_time",
+            "real_order_msg_prices",
+            "real_order_quantity",
+            "list_of_orders",
+            "portfolio",
+            "arb_2_msg",
+            "exch_msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "tri_arb_paper",
+          "params": [
+            "portfolio1",
+            "sym_list",
+            "list_exch_rates",
+            "fees",
+            "fee"
+          ],
+          "local_variables": [
+            "tri_arb_paper_msg",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "start_amount",
+            "amt_coin2",
+            "amt_coin2_no_fee",
+            "amt_coin2_fee",
+            "amt_coin2_adj",
+            "amt_coin3",
+            "amt_coin3_no_fee",
+            "amt_coin3_fee",
+            "amt_coin3_adj",
+            "final_amount",
+            "final_amount_no_fee",
+            "final_amount_fee",
+            "final_amount_adj",
+            "tri_arb_paper_msg",
+            "coin2_fee_amounts",
+            "coin3_fee_amounts",
+            "final_coin_fee_amounts",
+            "list_of_fees",
+            "portfolio1[portf_pos]",
+            "portfolio1",
+            "start_amount",
+            "coin3_fee_amounts",
+            "coin2_fee_amounts",
+            "final_coin_fee_amounts",
+            "amt_coin2",
+            "amt_coin3",
+            "final_amount",
+            "tri_arb_paper_msg",
+            "portfolio1[portf_pos]",
+            "portfolio1"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "viz_arb_data",
+          "params": [
+            "list_exch_rate_list",
+            "arb_market",
+            "start_time",
+            "end_time",
+            "Tweet_message",
+            "msg"
+          ],
+          "local_variables": [
+            "viz_msg",
+            "msg",
+            "rateA",
+            "rateB",
+            "rateB_fee",
+            "price1",
+            "price2",
+            "time_list",
+            "profit_list",
+            "rateB1",
+            "viz_msg2",
+            "host",
+            "fig",
+            "par1",
+            "par2",
+            "p1",
+            "p1",
+            "p2",
+            "p3",
+            "tkw",
+            "lines",
+            "fname",
+            "print_figure_message",
+            "msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "make_patch_spines_invisible",
+          "params": [
+            "ax"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "Binance_Triangular_Arbitrage_DataCollection.py"
+    },
+    {
+      "imports": [
+        "binance.client.Client",
+        "time",
+        "datetime.datetime",
+        "matplotlib",
+        "matplotlib.cm",
+        "matplotlib.pyplot",
+        "pprint",
+        "math",
+        "BinanceKeys.BinanceKey1",
+        "tweepy"
+      ]
+    },
+    {
+      "global_variables": [
+        "api_key",
+        "api_secret",
+        "consumer_key",
+        "consumer_secret",
+        "access_token",
+        "access_token_secret",
+        "auth",
+        "api",
+        "client"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "set_time_binance",
+          "params": [],
+          "local_variables": [
+            "gt",
+            "tt"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "initialize_arb",
+          "params": [],
+          "local_variables": [
+            "welcome_message",
+            "bot_start_time",
+            "status",
+            "withdraws",
+            "coin_list",
+            "balance_list",
+            "list_of_symbols2",
+            "list_of_symbols3",
+            "list_of_symbols4",
+            "list_of_symbols5",
+            "list_of_symbols6",
+            "list_of_symbols7",
+            "list_of_symbols8",
+            "list_of_symbols9",
+            "list_of_symbols10",
+            "list_of_symbols11",
+            "list_of_symbols12",
+            "list_of_symbols13",
+            "list_of_symbols14",
+            "list_of_symbols15",
+            "list_of_symbols16",
+            "list_of_symbols17",
+            "list_of_symbols18",
+            "list_of_symbols19",
+            "list_of_symbols20",
+            "list_of_symbols21",
+            "list_of_symbols22",
+            "list_of_symbols23",
+            "list_of_symbols24",
+            "list_of_symbols25",
+            "list_of_symbols26",
+            "list_of_symbols27",
+            "list_of_symbols28",
+            "list_of_symbols29",
+            "list_of_symbols30",
+            "list_of_symbols31",
+            "list_of_symbols32",
+            "list_of_symbols33",
+            "list_of_symbols34",
+            "list_of_symbols35",
+            "list_of_symbols36",
+            "list_of_symbols37",
+            "list_of_symbols38",
+            "list_of_symbols39",
+            "list_of_symbols40",
+            "list_of_symbols41",
+            "list_of_symbols42",
+            "list_of_symbols43",
+            "list_of_symbols44",
+            "list_of_symbols45",
+            "list_of_symbols46",
+            "list_of_symbols47",
+            "list_of_symbols48",
+            "list_of_symbols49",
+            "list_of_symbols50",
+            "list_of_symbols51",
+            "list_of_symbols52",
+            "list_of_symbols53",
+            "list_of_symbols54",
+            "list_of_symbols55",
+            "list_of_symbols56",
+            "list_of_symbols57",
+            "list_of_symbols58",
+            "list_of_symbols59",
+            "list_of_symbols60",
+            "list_of_symbols61",
+            "list_of_symbols62",
+            "list_of_symbols63",
+            "list_of_symbols64",
+            "list_of_symbols65",
+            "list_of_symbols66",
+            "list_of_symbols67",
+            "list_of_symbols68",
+            "list_of_symbols69",
+            "list_of_symbols70",
+            "list_of_symbols71",
+            "list_of_symbols72",
+            "list_of_symbols73",
+            "list_of_symbols74",
+            "list_of_symbols75",
+            "list_of_symbols76",
+            "list_of_symbols77",
+            "list_of_symbols78",
+            "list_of_symbols79",
+            "list_of_symbols80",
+            "list_of_symbols81",
+            "list_of_symbols82",
+            "list_of_symbols83",
+            "list_of_symbols84",
+            "list_of_symbols85",
+            "list_of_symbols86",
+            "list_of_symbols87",
+            "list_of_symbols88",
+            "list_of_symbols89",
+            "list_of_symbols90",
+            "list_of_symbols91",
+            "list_of_symbols92",
+            "list_of_symbols93",
+            "list_of_symbols94",
+            "list_of_symbols95",
+            "list_of_symbols96",
+            "list_of_symbols97",
+            "list_of_symbols98",
+            "list_of_symbols99",
+            "list_of_symbols100",
+            "list_of_symbols101",
+            "list_of_symbols102",
+            "list_of_symbols103",
+            "list_of_symbols104",
+            "list_of_symbols105",
+            "list_of_symbols106",
+            "list_of_symbols107",
+            "list_of_symbols108",
+            "list_of_symbols109",
+            "list_of_symbols110",
+            "list_of_symbols111",
+            "list_of_symbols112",
+            "list_of_symbols113",
+            "list_of_symbols114",
+            "list_of_symbols115",
+            "list_of_symbols116",
+            "list_of_symbols117",
+            "list_of_symbols118",
+            "list_of_symbols119",
+            "list_of_symbols120",
+            "list_of_symbols121",
+            "list_of_symbols122",
+            "list_of_symbols123",
+            "list_of_symbols124",
+            "list_of_symbols125",
+            "list_of_symbols126",
+            "list_of_symbols127",
+            "list_of_symbols128",
+            "list_of_symbols129",
+            "list_of_symbols130",
+            "list_of_symbols131",
+            "list_of_symbols132",
+            "list_of_symbols133",
+            "list_of_symbols134",
+            "list_of_symbols135",
+            "list_of_symbols136",
+            "list_of_symbols137",
+            "list_of_symbols138",
+            "list_of_symbols139",
+            "list_of_symbols140",
+            "list_of_symbols141",
+            "list_of_symbols142",
+            "list_of_symbols143",
+            "list_of_symbols144",
+            "list_of_symbols145",
+            "list_of_symbols146",
+            "list_of_symbols147",
+            "list_of_symbols148",
+            "list_of_symbols149",
+            "list_of_symbols150",
+            "list_of_symbols151",
+            "list_of_symbols152",
+            "list_of_symbols153",
+            "list_of_symbols154",
+            "list_of_symbols155",
+            "list_of_symbols156",
+            "list_of_symbols157",
+            "list_of_symbols158",
+            "list_of_symbols159",
+            "list_of_symbols160",
+            "list_of_symbols161",
+            "list_of_symbols162",
+            "list_of_symbols163",
+            "list_of_symbols164",
+            "list_of_symbols165",
+            "list_of_symbols166",
+            "list_of_symbols167",
+            "list_of_symbols168",
+            "list_of_symbols169",
+            "list_of_symbols170",
+            "list_of_symbols171",
+            "list_of_symbols172",
+            "list_of_symbols173",
+            "list_of_symbols174",
+            "list_of_symbols175",
+            "list_of_symbols176",
+            "list_of_symbols177",
+            "list_of_symbols178",
+            "list_of_symbols179",
+            "list_of_symbols180",
+            "list_of_symbols181",
+            "list_of_symbols182",
+            "list_of_symbols183",
+            "list_of_symbols184",
+            "list_of_symbols185",
+            "list_of_symbols186",
+            "list_of_symbols187",
+            "list_of_symbols188",
+            "list_of_symbols189",
+            "list_of_symbols190",
+            "list_of_symbols191",
+            "list_of_symbols192",
+            "list_of_symbols193",
+            "list_of_symbols194",
+            "list_of_symbols195",
+            "list_of_symbols196",
+            "list_of_symbols197",
+            "list_of_symbols198",
+            "list_of_symbols199",
+            "list_of_symbols200",
+            "list_of_symbols201",
+            "list_of_symbols202",
+            "list_of_symbols203",
+            "list_of_symbols204",
+            "list_of_symbols205",
+            "list_of_symbols206",
+            "list_of_symbols207",
+            "list_of_symbols208",
+            "list_of_symbols209",
+            "list_of_symbols210",
+            "list_of_symbols211",
+            "list_of_symbols212",
+            "list_of_symbols213",
+            "list_of_symbols214",
+            "list_of_symbols215",
+            "list_of_symbols216",
+            "list_of_symbols217",
+            "list_of_symbols218",
+            "list_of_symbols219",
+            "list_of_symbols220",
+            "list_of_symbols221",
+            "list_of_symbols222",
+            "list_of_symbols223",
+            "list_of_symbols224",
+            "list_of_symbols225",
+            "list_of_symbols226",
+            "list_of_symbols227",
+            "list_of_symbols228",
+            "list_of_symbols229",
+            "list_of_symbols230",
+            "list_of_symbols231",
+            "list_of_symbols232",
+            "list_of_symbols233",
+            "list_of_symbols234",
+            "list_of_symbols235",
+            "list_of_symbols236",
+            "list_of_symbols237",
+            "list_of_symbols238",
+            "list_of_symbols239",
+            "list_of_symbols240",
+            "list_of_symbols241",
+            "list_of_symbols242",
+            "list_of_symbols243",
+            "list_of_symbols244",
+            "list_of_symbols245",
+            "list_of_symbols246",
+            "list_of_symbols247",
+            "list_of_symbols248",
+            "list_of_symbols249",
+            "list_of_symbols250",
+            "list_of_symbols251",
+            "list_of_symbols252",
+            "list_of_symbols253",
+            "list_of_symbols254",
+            "list_of_symbols255",
+            "list_of_symbols256",
+            "list_of_symbols257",
+            "list_of_symbols258",
+            "list_of_symbols259",
+            "list_of_symbols260",
+            "list_of_symbols261",
+            "list_of_symbols262",
+            "list_of_symbols263",
+            "list_of_symbols264",
+            "list_of_symbols265",
+            "list_of_symbols266",
+            "list_of_symbols267",
+            "list_of_symbols268",
+            "list_of_symbols269",
+            "list_of_symbols270",
+            "list_of_symbols271",
+            "list_of_symbols272",
+            "list_of_symbols273",
+            "list_of_symbols274",
+            "list_of_symbols275",
+            "list_of_symbols276",
+            "list_of_symbols277",
+            "list_of_symbols278",
+            "list_of_symbols279",
+            "list_of_symbols280",
+            "list_of_symbols281",
+            "list_of_symbols282",
+            "list_of_symbols283",
+            "list_of_symbols284",
+            "list_of_symbols285",
+            "list_of_symbols286",
+            "list_of_arb_sym",
+            "msg1",
+            "tickers",
+            "portfolio",
+            "read_data",
+            "load_portfolio",
+            "load_portfolio",
+            "i",
+            "portf_msg",
+            "calc_profit_list",
+            "exp_profit",
+            "m",
+            "n",
+            "exp_profit",
+            "m",
+            "exp_profitx",
+            "profit_message",
+            "arb_list_data",
+            "arb_start_time",
+            "arb_end_time"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "data_log_to_file",
+          "params": [
+            "message"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "portf_file_save",
+          "params": [
+            "portfolio",
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "arbitrage_bin",
+          "params": [
+            "list_of_sym",
+            "tickers",
+            "portfolio",
+            "cycle_num",
+            "cycle_time",
+            "place_order",
+            "real_order"
+          ],
+          "local_variables": [
+            "arb_message",
+            "fee_percentage",
+            "list_exch_rate_list",
+            "i",
+            "exch_rate_list",
+            "profit_fee_list",
+            "data_collect_message1",
+            "currency_pair",
+            "depth",
+            "price1",
+            "price3",
+            "Exch_rate1",
+            "depth",
+            "price2",
+            "Exch_rate2",
+            "rate1",
+            "buy_price",
+            "rate2",
+            "sell_price",
+            "arb_1_msg",
+            "arb_profit",
+            "arb_profit_fees",
+            "arb_profit_adjust",
+            "place_order_msg",
+            "final",
+            "start",
+            "portfolio",
+            "coin3",
+            "coin2",
+            "coin3fee",
+            "final",
+            "coin2fee",
+            "portfolio2",
+            "start1",
+            "real_order_msg",
+            "quantity",
+            "real_order_msg1",
+            "amt_coin1",
+            "port",
+            "amt_coin2",
+            "amt_coin3",
+            "amt_coin_final",
+            "coin_amts",
+            "coin_amts",
+            "real_order_start_time",
+            "price_order_1",
+            "quantity_1",
+            "order_1",
+            "price_order_2",
+            "quantity_2",
+            "order_2",
+            "price_order_3",
+            "quantity_3",
+            "order_3",
+            "real_order_stop_time",
+            "real_order_msg_prices",
+            "real_order_quantity",
+            "list_of_orders",
+            "portfolio",
+            "arb_2_msg",
+            "exch_msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "tri_arb_paper",
+          "params": [
+            "portfolio1",
+            "sym_list",
+            "list_exch_rates",
+            "fees",
+            "fee"
+          ],
+          "local_variables": [
+            "tri_arb_paper_msg",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "start_amount",
+            "amt_coin2",
+            "amt_coin2_no_fee",
+            "amt_coin2_fee",
+            "amt_coin2_adj",
+            "amt_coin3",
+            "amt_coin3_no_fee",
+            "amt_coin3_fee",
+            "amt_coin3_adj",
+            "final_amount",
+            "final_amount_no_fee",
+            "final_amount_fee",
+            "final_amount_adj",
+            "tri_arb_paper_msg",
+            "coin2_fee_amounts",
+            "coin3_fee_amounts",
+            "final_coin_fee_amounts",
+            "list_of_fees",
+            "portfolio1[portf_pos]",
+            "portfolio1",
+            "start_amount",
+            "coin3_fee_amounts",
+            "coin2_fee_amounts",
+            "final_coin_fee_amounts",
+            "amt_coin2",
+            "amt_coin3",
+            "final_amount",
+            "tri_arb_paper_msg",
+            "portfolio1[portf_pos]",
+            "portfolio1"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "viz_arb_data",
+          "params": [
+            "list_exch_rate_list",
+            "arb_market",
+            "start_time",
+            "end_time",
+            "Tweet_message",
+            "msg"
+          ],
+          "local_variables": [
+            "viz_msg",
+            "msg",
+            "rateA",
+            "rateB",
+            "rateB_fee",
+            "price1",
+            "price2",
+            "time_list",
+            "profit_list",
+            "rateB1",
+            "viz_msg2",
+            "host",
+            "fig",
+            "par1",
+            "par2",
+            "p1",
+            "p1",
+            "p2",
+            "p3",
+            "tkw",
+            "lines",
+            "fname",
+            "print_figure_message",
+            "msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "make_patch_spines_invisible",
+          "params": [
+            "ax"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "save_historical_data_Roibal.py"
+    },
+    {
+      "imports": [
+        "time",
+        "dateparser",
+        "pytz",
+        "json",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "matplotlib.ticker",
+        "matplotlib.dates",
+        "mpl_finance",
+        "datetime.datetime",
+        "binance.client.Client",
+        "BinanceKeys.BinanceKey1"
+      ]
+    },
+    {
+      "global_variables": [
+        "api_key",
+        "api_secret",
+        "client",
+        "list_of_symbols"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [
+            "status",
+            "withdraws",
+            "info"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "market_depth",
+          "params": [
+            "sym",
+            "num_entries"
+          ],
+          "local_variables": [
+            "i",
+            "depth",
+            "j"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "coin_prices",
+          "params": [
+            "watch_list"
+          ],
+          "local_variables": [
+            "prices"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "coin_tickers",
+          "params": [
+            "watch_list"
+          ],
+          "local_variables": [
+            "tickers"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "date_to_milliseconds",
+          "params": [
+            "date_str"
+          ],
+          "local_variables": [
+            "epoch",
+            "d",
+            "d"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "interval_to_milliseconds",
+          "params": [
+            "interval"
+          ],
+          "local_variables": [
+            "ms",
+            "seconds_per_unit",
+            "unit",
+            "ms"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "convert_time_binance",
+          "params": [
+            "gt"
+          ],
+          "local_variables": [
+            "aa",
+            "bb",
+            "aa",
+            "gg",
+            "ff",
+            "uu",
+            "yy",
+            "tt"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_historical_klines",
+          "params": [
+            "symbol",
+            "interval",
+            "start_str",
+            "end_str"
+          ],
+          "local_variables": [
+            "client",
+            "output_data",
+            "limit",
+            "timeframe",
+            "start_ts",
+            "end_ts",
+            "end_ts",
+            "idx",
+            "symbol_existed",
+            "temp_data",
+            "symbol_existed",
+            "start_ts"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "save_historic_klines_csv",
+          "params": [
+            "symbol",
+            "start",
+            "end",
+            "interval"
+          ],
+          "local_variables": [
+            "klines",
+            "ochl",
+            "list_of_open",
+            "three_period_moving_ave",
+            "time3",
+            "five_period_moving_ave",
+            "ten_period_moving_ave",
+            "time10",
+            "time1",
+            "open1",
+            "Low",
+            "High",
+            "Close",
+            "Volume",
+            "format_kline",
+            "price3",
+            "price10",
+            "fig",
+            "ax"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "save_historic_klines_datafile",
+          "params": [
+            "symbol",
+            "start",
+            "end",
+            "interval"
+          ],
+          "local_variables": [
+            "klines"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "Stochastic_Crypto_Pandas_Stock.py"
+    },
+    {
+      "imports": [
+        "pandas",
+        "datetime",
+        "matplotlib.pyplot",
+        "matplotlib.style",
+        "numpy"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [
+            "url",
+            "btc90day",
+            "btc_30_sma",
+            "ax",
+            "url2",
+            "DJIA",
+            "DJIA",
+            "DJIA_30_sma",
+            "ax",
+            "urlalltime",
+            "btcalltime"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "simple_moving_average",
+          "params": [
+            "prices",
+            "period"
+          ],
+          "local_variables": [
+            "weights",
+            "sma"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "fast_stochastic",
+          "params": [
+            "lowp",
+            "highp",
+            "closep",
+            "period",
+            "smoothing"
+          ],
+          "local_variables": [
+            "low_min",
+            "high_max",
+            "k_fast",
+            "k_fast",
+            "d_fast"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "slow_stochastic",
+          "params": [
+            "lowp",
+            "highp",
+            "closep",
+            "period",
+            "smoothing"
+          ],
+          "local_variables": [
+            "d_fast",
+            "k_fast",
+            "k_slow",
+            "d_slow"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "Advanced_Cryptocurrency_Trading_Bot.py"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "time",
+        "matplotlib.pyplot",
+        "random",
+        "pprint.pprint"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [
+            "portfolio"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "arbitrage",
+          "params": [
+            "cycle_num",
+            "cycle_time"
+          ],
+          "local_variables": [
+            "fee_percentage",
+            "coins",
+            "exchange1",
+            "symbols",
+            "exchange1_info",
+            "pairs",
+            "arb_list",
+            "j",
+            "final",
+            "list_exch_rate_list",
+            "i",
+            "exch_rate_list",
+            "depth",
+            "rateA",
+            "rateB",
+            "rateB_fee",
+            "price1",
+            "price2",
+            "time_list",
+            "host",
+            "fig",
+            "par1",
+            "par2",
+            "p1",
+            "p1",
+            "p2",
+            "p3",
+            "tkw",
+            "lines"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "make_patch_spines_invisible",
+          "params": [
+            "ax"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "diversify",
+          "params": [],
+          "local_variables": [
+            "exch"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "ActiveTrader",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "initialize",
+          "params": [],
+          "local_variables": [
+            "all_symbols",
+            "micro_cap_coins",
+            "i",
+            "list_of_symbols",
+            "exch",
+            "symbols",
+            "currencies",
+            "rand_sym"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "market_depth",
+          "params": [
+            "sym",
+            "exchange",
+            "num_entries"
+          ],
+          "local_variables": [
+            "i",
+            "depth",
+            "ask_tot",
+            "ask_price",
+            "ask_quantity",
+            "bid_price",
+            "bid_quantity",
+            "bid_tot",
+            "place_order_ask_price",
+            "place_order_bid_price",
+            "max_order_ask",
+            "max_order_bid",
+            "max_order_ask",
+            "place_order_ask_price",
+            "j",
+            "max_order_bid",
+            "place_order_bid_price"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "scalping_orders",
+          "params": [
+            "exchange",
+            "coin",
+            "wait",
+            "tot_time"
+          ],
+          "local_variables": [
+            "proj_spread",
+            "max_bid",
+            "place_ask_order",
+            "ap",
+            "place_bid_order",
+            "bq",
+            "min_ask",
+            "bp",
+            "spread",
+            "aq"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "visualize_market_depth",
+          "params": [
+            "wait_time_sec",
+            "tot_time",
+            "sym",
+            "precision",
+            "exchange"
+          ],
+          "local_variables": [
+            "cycles",
+            "start_time",
+            "fig",
+            "ax",
+            "ask_order",
+            "bid_order",
+            "ask_pri",
+            "bid_pri",
+            "ask_quan",
+            "bid_quan",
+            "max_bid",
+            "min_ask",
+            "max_quant",
+            "spread",
+            "proj_order_spread",
+            "price"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "coin_prices",
+          "params": [
+            "watch_list"
+          ],
+          "local_variables": [
+            "prices"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "coin_tickers",
+          "params": [
+            "watch_list"
+          ],
+          "local_variables": [
+            "tickers"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "portfolio_management",
+          "params": [
+            "deposit",
+            "withdraw",
+            "portfolio_amt",
+            "portfolio_type",
+            "test_acct"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "Bollinger_Bands",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "buy_sell_bot",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "position_sizing",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "trailing_stop_loss",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "Crypto_Sentiment_Analysis_SocialMedia_Bot.py"
+    },
+    {
+      "imports": [
+        "tweepy",
+        "textblob",
+        "time",
+        "datetime.datetime",
+        "re",
+        "tweepy",
+        "tweepy.OAuthHandler",
+        "textblob.TextBlob",
+        "matplotlib.pyplot",
+        "requests",
+        "json",
+        "time.sleep"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "main",
+          "params": [],
+          "local_variables": [
+            "api",
+            "search_term",
+            "list_coins",
+            "count1",
+            "list_coin_val",
+            "start_time",
+            "tweets",
+            "ptweets",
+            "positive_tweet_percentage",
+            "ntweets",
+            "negative_tweet_percentage",
+            "neutral_tweet_percentage",
+            "current_price",
+            "end_time"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "save_to_file",
+          "params": [
+            "coin",
+            "positive_tweet_percentage",
+            "negative_tweet_percentage",
+            "neutral_tweet_percentage",
+            "time",
+            "current_price",
+            "filename"
+          ],
+          "local_variables": [
+            "line"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "getBitcoinPrice",
+          "params": [],
+          "local_variables": [
+            "URL",
+            "r",
+            "priceFloat"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "tweet_file",
+          "params": [
+            "self",
+            "message",
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "historic_data_viz",
+          "params": [
+            "self"
+          ],
+          "local_variables": [
+            "historic_data_list",
+            "i",
+            "lines",
+            "data",
+            "start_time",
+            "end_time"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "trading",
+          "params": [
+            "current_price",
+            "positive_sentiment_percent",
+            "negative_sentiment_percent"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "data_visualize",
+          "params": [
+            "api",
+            "list_coins",
+            "start_time",
+            "end_time"
+          ],
+          "local_variables": [
+            "visualize_price",
+            "name_list",
+            "positive_tweet",
+            "negative_tweet",
+            "neutral_tweet",
+            "time_list",
+            "fig",
+            "ax1",
+            "color",
+            "ax2",
+            "color",
+            "filename",
+            "msg"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "TwitterClient",
+          "attributes": [
+            "auth",
+            "api",
+            "message",
+            "filename"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "consumer_key",
+                "consumer_secret",
+                "access_token",
+                "access_token_secret"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "clean_tweet",
+              "params": [
+                "self",
+                "tweet"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "get_tweet_sentiment",
+              "params": [
+                "self",
+                "tweet"
+              ],
+              "local_variables": [
+                "analysis"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "tweet_file",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "get_tweets",
+              "params": [
+                "self",
+                "query",
+                "count"
+              ],
+              "local_variables": [
+                "tweets",
+                "fetched_tweets",
+                "list_of_tweets",
+                "parsed_tweet",
+                "parsed_tweet['text']",
+                "parsed_tweet['sentiment']"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "Roibal_BinanceBot.py"
+    },
+    {
+      "imports": [
+        "binance.client.Client",
+        "time",
+        "matplotlib",
+        "matplotlib.cm",
+        "matplotlib.pyplot",
+        "save_historical_data_Roibal",
+        "BinanceKeys.BinanceKey1"
+      ]
+    },
+    {
+      "global_variables": [
+        "api_key",
+        "api_secret",
+        "client",
+        "address"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [
+            "list_of_symbols",
+            "micro_cap_coins",
+            "status",
+            "withdraws",
+            "info",
+            "order",
+            "trades",
+            "hist_trades",
+            "agg_trades"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "convert_time_binance",
+          "params": [
+            "gt"
+          ],
+          "local_variables": [
+            "aa",
+            "bb",
+            "aa",
+            "gg",
+            "ff",
+            "uu",
+            "yy",
+            "tt"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "market_depth",
+          "params": [
+            "sym",
+            "num_entries"
+          ],
+          "local_variables": [
+            "i",
+            "depth",
+            "ask_tot",
+            "ask_price",
+            "ask_quantity",
+            "bid_price",
+            "bid_quantity",
+            "bid_tot",
+            "place_order_ask_price",
+            "place_order_bid_price",
+            "max_order_ask",
+            "max_order_bid",
+            "max_order_ask",
+            "place_order_ask_price",
+            "j",
+            "max_order_bid",
+            "place_order_bid_price"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "scalping_orders",
+          "params": [
+            "coin",
+            "wait",
+            "tot_time"
+          ],
+          "local_variables": [
+            "proj_spread",
+            "max_bid",
+            "place_ask_order",
+            "ap",
+            "place_bid_order",
+            "bq",
+            "min_ask",
+            "bp",
+            "spread",
+            "aq"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "visualize_market_depth",
+          "params": [
+            "wait_time_sec",
+            "tot_time",
+            "sym",
+            "precision"
+          ],
+          "local_variables": [
+            "cycles",
+            "start_time",
+            "fig",
+            "ax",
+            "ask_order",
+            "bid_order",
+            "ask_pri",
+            "bid_pri",
+            "ask_quan",
+            "bid_quan",
+            "max_bid",
+            "min_ask",
+            "max_quant",
+            "spread",
+            "proj_order_spread",
+            "price"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "coin_prices",
+          "params": [
+            "watch_list"
+          ],
+          "local_variables": [
+            "prices"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "coin_tickers",
+          "params": [
+            "watch_list"
+          ],
+          "local_variables": [
+            "tickers"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "portfolio_management",
+          "params": [
+            "deposit",
+            "withdraw",
+            "portfolio_amt",
+            "portfolio_type",
+            "test_acct"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "Bollinger_Bands",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "buy_sell_bot",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "position_sizing",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "trailing_stop_loss",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "TradingView_SignalScraper.py"
+    },
+    {
+      "imports": [
+        "requests",
+        "json",
+        "time",
+        "datetime",
+        "BinanceKeys.BinanceKey1",
+        "tweepy",
+        "samplekeys.keys",
+        "samplekeys.keys2",
+        "samplekeys.keys3",
+        "samplekeys.rkey"
+      ]
+    },
+    {
+      "global_variables": [
+        "api_key",
+        "api_secret",
+        "list_of_accts",
+        "consumer_key",
+        "consumer_secret",
+        "access_token",
+        "access_token_secret",
+        "auth",
+        "api"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "mlog",
+          "params": [
+            "market"
+          ],
+          "local_variables": [
+            "text",
+            "text",
+            "datestamp"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "get_signal",
+          "params": [
+            "market",
+            "candle"
+          ],
+          "local_variables": [
+            "headers",
+            "url",
+            "payload",
+            "resp",
+            "oscillator",
+            "signal"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [
+            "market_list",
+            "candle_list",
+            "signals_list",
+            "signal1",
+            "msg",
+            "signal"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "save_signals",
+          "params": [
+            "market_list",
+            "candle_list",
+            "signals_list"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "tweet",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "msg"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "CryptoTriangularArbitrageBinanceBot.py"
+    },
+    {
+      "imports": [
+        "binance.client.Client",
+        "time",
+        "datetime.datetime",
+        "matplotlib",
+        "matplotlib.cm",
+        "matplotlib.pyplot",
+        "BinanceKeys.BinanceKey1"
+      ]
+    },
+    {
+      "global_variables": [
+        "api_key",
+        "api_secret",
+        "client"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "initialize_arb",
+          "params": [],
+          "local_variables": [
+            "welcome_message",
+            "bot_start_time",
+            "status",
+            "withdraws",
+            "list_of_symbols",
+            "list_of_symbols2",
+            "list_of_symbols3",
+            "list_of_arb_sym",
+            "tickers",
+            "portfolio",
+            "read_data",
+            "load_portfolio",
+            "load_portfolio",
+            "i",
+            "portf_msg",
+            "calc_profit_list",
+            "exp_profit",
+            "n",
+            "m",
+            "exp_profit",
+            "m",
+            "profit_message",
+            "arb_list_data",
+            "arb_start_time",
+            "arb_end_time"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "data_log_to_file",
+          "params": [
+            "message"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "portf_file_save",
+          "params": [
+            "portfolio"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "arbitrage_bin",
+          "params": [
+            "list_of_sym",
+            "tickers",
+            "portfolio",
+            "cycle_num",
+            "cycle_time",
+            "place_order"
+          ],
+          "local_variables": [
+            "arb_message",
+            "fee_percentage",
+            "list_exch_rate_list",
+            "i",
+            "exch_rate_list",
+            "data_collect_message1",
+            "currency_pair",
+            "depth",
+            "inv1",
+            "Exch_rate1",
+            "depth",
+            "inv2",
+            "Exch_rate2",
+            "rate1",
+            "buy_price",
+            "rate2",
+            "sell_price",
+            "arb_1_msg",
+            "arb_profit",
+            "place_order_msg",
+            "portfolio",
+            "arb_2_msg",
+            "exch_msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "tri_arb_paper",
+          "params": [
+            "portfolio1",
+            "sym_list",
+            "list_exch_rates"
+          ],
+          "local_variables": [
+            "tri_arb_paper_msg",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "start_amount",
+            "amt_coin2",
+            "amt_coin3",
+            "final_amount",
+            "tri_arb_paper_msg",
+            "portfolio1[portf_pos]",
+            "portfolio1"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "viz_arb_data",
+          "params": [
+            "list_exch_rate_list",
+            "arb_market",
+            "start_time",
+            "end_time"
+          ],
+          "local_variables": [
+            "viz_msg",
+            "rateA",
+            "rateB",
+            "rateB_fee",
+            "price1",
+            "price2",
+            "time_list",
+            "profit_list",
+            "rateB1",
+            "viz_msg2",
+            "host",
+            "fig",
+            "par1",
+            "par2",
+            "p1",
+            "p1",
+            "p2",
+            "p3",
+            "tkw",
+            "lines",
+            "fname",
+            "print_figure_message"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "make_patch_spines_invisible",
+          "params": [
+            "ax"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "Private_TriArbBot.py"
+    },
+    {
+      "imports": [
+        "binance.client.Client",
+        "time",
+        "datetime.datetime",
+        "matplotlib",
+        "matplotlib.cm",
+        "matplotlib.pyplot",
+        "pprint",
+        "BinanceKeys.BinanceKey1"
+      ]
+    },
+    {
+      "global_variables": [
+        "client"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "initialize_arb",
+          "params": [],
+          "local_variables": [
+            "welcome_message",
+            "bot_start_time",
+            "balance",
+            "status",
+            "withdraws",
+            "coin_list",
+            "list_of_symbols",
+            "list_of_symbols2",
+            "list_of_symbols3",
+            "list_of_arb_sym",
+            "tickers",
+            "portfolio",
+            "read_data",
+            "load_portfolio",
+            "load_portfolio",
+            "i",
+            "portf_msg",
+            "calc_profit_list",
+            "exp_profit",
+            "n",
+            "m",
+            "exp_profit",
+            "m",
+            "profit_message",
+            "arb_list_data",
+            "arb_start_time",
+            "arb_end_time"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "binance_portfolio",
+          "params": [
+            "coin_list"
+          ],
+          "local_variables": [
+            "binance_portfolio",
+            "balance"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "data_log_to_file",
+          "params": [
+            "message"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "portf_file_save",
+          "params": [
+            "portfolio",
+            "portf_file"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "arbitrage_bin",
+          "params": [
+            "list_of_sym",
+            "tickers",
+            "portfolio",
+            "cycle_num",
+            "cycle_time",
+            "place_order",
+            "real_order"
+          ],
+          "local_variables": [
+            "arb_message",
+            "fee_percentage",
+            "list_exch_rate_list",
+            "i",
+            "exch_rate_list",
+            "data_collect_message1",
+            "currency_pair",
+            "depth",
+            "inv1",
+            "Exch_rate1",
+            "depth",
+            "inv2",
+            "Exch_rate2",
+            "rate1",
+            "buy_price",
+            "rate2",
+            "sell_price",
+            "arb_1_msg",
+            "arb_profit",
+            "place_order_msg",
+            "real_order_msg",
+            "i",
+            "quantity",
+            "order",
+            "order",
+            "plc_order_msg",
+            "portfolio",
+            "arb_2_msg",
+            "exch_msg"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "tri_arb_paper",
+          "params": [
+            "portfolio1",
+            "sym_list",
+            "list_exch_rates"
+          ],
+          "local_variables": [
+            "tri_arb_paper_msg",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "portf_pos",
+            "start_amount",
+            "amt_coin2",
+            "amt_coin3",
+            "final_amount",
+            "tri_arb_paper_msg",
+            "portfolio1[portf_pos]",
+            "portfolio1"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "viz_arb_data",
+          "params": [
+            "list_exch_rate_list",
+            "arb_market",
+            "start_time",
+            "end_time"
+          ],
+          "local_variables": [
+            "viz_msg",
+            "rateA",
+            "rateB",
+            "rateB_fee",
+            "price1",
+            "price2",
+            "time_list",
+            "profit_list",
+            "rateB1",
+            "viz_msg2",
+            "host",
+            "fig",
+            "par1",
+            "par2",
+            "p1",
+            "p1",
+            "p2",
+            "p3",
+            "tkw",
+            "lines",
+            "fname",
+            "print_figure_message"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "make_patch_spines_invisible",
+          "params": [
+            "ax"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "Binance",
+          "attributes": [
+            "time_offset",
+            "b"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "public_key",
+                "secret_key",
+                "sync"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "_get_time_offset",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "synced",
+              "params": [
+                "self",
+                "fn_name"
+              ],
+              "local_variables": [
+                "args['timestamp']"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

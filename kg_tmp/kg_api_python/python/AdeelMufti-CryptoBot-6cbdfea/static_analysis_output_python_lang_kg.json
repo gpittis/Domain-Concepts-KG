@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "live features",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "model features",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pymongo",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "books",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "delta",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "csv",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "csv path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "sep",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "current utc",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "book",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "book",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_1",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_2",
+      "weight": 0.55,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "live features",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "live features",
+      "to": "model features",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "live features",
+      "to": "pymongo",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "live features",
+      "to": "books",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "live features",
+      "to": "delta",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "live features",
+      "to": "csv",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "csv",
+      "to": "csv path",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "csv",
+      "to": "sep",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "live features",
+      "to": "current utc",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "live features",
+      "to": "book",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "book",
+      "to": "book",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    }
+  ]
+}

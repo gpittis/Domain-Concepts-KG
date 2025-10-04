@@ -1,0 +1,888 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "action",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "anam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "anchor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "annot",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "box",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "child",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "children",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "classpandora",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "code",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "convert",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "costmap",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "div",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dom",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "elem",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "evt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expand",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expir",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "focus",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frame",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "head",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "height",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "img",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "imm",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "indent",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jqueri",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "match",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "namespac",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "namespacepandora",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nav",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "navtre",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "navtreeindex",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "obstacl",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "parent",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "patch",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "patcher",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pos",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prevent",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "relpath",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resiz",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "restor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "root",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scope",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "script",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "search",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "section",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sidenav",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "src",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strip",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "target",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "toroot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "variabl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "win",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "elem",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "search",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anam",
+      "to": "node",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anchor",
+      "to": "nav",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anchor",
+      "to": "node",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "child",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "code",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "dom",
+      "final_weight": 2.266666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "elem",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "frame",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "hex",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "node",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "path",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "search",
+      "final_weight": 6.116665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "win",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "child",
+      "to": "search",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "children",
+      "to": "node",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classpandora",
+      "to": "costmap",
+      "final_weight": 7.6,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classpandora",
+      "to": "map",
+      "final_weight": 5.1,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classpandora",
+      "to": "obstacl",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classpandora",
+      "to": "patch",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "classpandora",
+      "to": "patcher",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "hex",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "code",
+      "to": "search",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convert",
+      "to": "search",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "map",
+      "final_weight": 12.7,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "namespacepandora",
+      "final_weight": 15.2,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "obstacl",
+      "final_weight": 7.6,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "patch",
+      "final_weight": 7.6,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "patcher",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "div",
+      "to": "nav",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "div",
+      "to": "node",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "div",
+      "to": "target",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "indent",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "node",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "search",
+      "final_weight": 3.266666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elem",
+      "to": "search",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evt",
+      "to": "prevent",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expand",
+      "to": "imm",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expand",
+      "to": "navtre",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expand",
+      "to": "node",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expand",
+      "to": "root",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "focus",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "search",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "script",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "resiz",
+      "final_weight": 3.216666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "root",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hex",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "img",
+      "to": "indent",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "img",
+      "to": "node",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imm",
+      "to": "node",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indent",
+      "to": "navtre",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indent",
+      "to": "node",
+      "final_weight": 2.066667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "namespacepandora",
+      "final_weight": 7.6,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "patch",
+      "final_weight": 12.7,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "patcher",
+      "final_weight": 5.1,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "match",
+      "to": "search",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "namespac",
+      "to": "search",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "namespacepandora",
+      "to": "obstacl",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "namespacepandora",
+      "to": "patch",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "navtre",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "relpath",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "restor",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "target",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "toroot",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navtre",
+      "to": "node",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navtre",
+      "to": "path",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navtre",
+      "to": "resiz",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navtre",
+      "to": "root",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navtre",
+      "to": "script",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navtre",
+      "to": "strip",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "root",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "src",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "target",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "parent",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "patch",
+      "to": "patcher",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "search",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "strip",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pos",
+      "to": "search",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prevent",
+      "to": "resiz",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resiz",
+      "to": "restor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resiz",
+      "to": "sidenav",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "section",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "variabl",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "win",
+      "final_weight": 0.633333,
+      "count": 1
+    }
+  ]
+}

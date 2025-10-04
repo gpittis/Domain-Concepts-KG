@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "book",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "csv",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "featur",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "live",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "model",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pymongo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sep",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "utc",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "book",
+      "to": "featur",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "book",
+      "to": "live",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "featur",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "live",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "path",
+      "final_weight": 1.916667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "sep",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "featur",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "live",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "utc",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delta",
+      "to": "featur",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delta",
+      "to": "live",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "featur",
+      "to": "live",
+      "final_weight": 1.733333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "featur",
+      "to": "model",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "featur",
+      "to": "pymongo",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "featur",
+      "to": "utc",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "live",
+      "to": "model",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "live",
+      "to": "pymongo",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "live",
+      "to": "utc",
+      "final_weight": 0.783333,
+      "count": 1
+    }
+  ]
+}

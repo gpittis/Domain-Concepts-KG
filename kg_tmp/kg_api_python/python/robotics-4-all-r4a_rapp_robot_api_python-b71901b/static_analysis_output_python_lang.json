@@ -1,0 +1,1436 @@
+[
+  [
+    {
+      "file": "app.py"
+    },
+    {
+      "imports": [
+        "time",
+        "sys",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": [
+        "rh"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rapp_robot_api_audio.py"
+    },
+    {
+      "imports": [
+        "abc.ABCMeta",
+        "abc.abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Audio",
+          "attributes": [
+            "__metaclass__"
+          ],
+          "methods": [
+            {
+              "name": "speak",
+              "params": [
+                "self",
+                "text",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "startRecording",
+              "params": [
+                "self",
+                "filename",
+                "audio_type",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "stopRecording",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "playFile",
+              "params": [
+                "self",
+                "filename"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "setVolume",
+              "params": [
+                "self",
+                "volume"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "record",
+              "params": [
+                "self",
+                "filename",
+                "seconds",
+                "audio_type",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "speechDetection",
+              "params": [
+                "self",
+                "vocabulary",
+                "wait",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_robot_api_humanoid_motion.py"
+    },
+    {
+      "imports": [
+        "abc.ABCMeta",
+        "abc.abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "HumanoidMotion",
+          "attributes": [
+            "__metaclass__"
+          ],
+          "methods": [
+            {
+              "name": "setJointAngles",
+              "params": [
+                "self",
+                "joints",
+                "angles",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getJointAngles",
+              "params": [
+                "self",
+                "joints"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "openHand",
+              "params": [
+                "self",
+                "hand_name"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "closeHand",
+              "params": [
+                "self",
+                "hand_name"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "goToPosture",
+              "params": [
+                "self",
+                "posture",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getPosture",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_robot_api_motion.py"
+    },
+    {
+      "imports": [
+        "abc.ABCMeta",
+        "abc.abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Motion",
+          "attributes": [
+            "__metaclass__"
+          ],
+          "methods": [
+            {
+              "name": "enableMotors",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "disableMotors",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "moveByVelocity",
+              "params": [
+                "self",
+                "x_vel",
+                "y_vel",
+                "theta_vel"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "moveTo",
+              "params": [
+                "self",
+                "x",
+                "y",
+                "theta"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "stop",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getVelocities",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_robot_api_sensors.py"
+    },
+    {
+      "imports": [
+        "abc.ABCMeta",
+        "abc.abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Sensors",
+          "attributes": [
+            "__metaclass__"
+          ],
+          "methods": [
+            {
+              "name": "getBatteryLevels",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getSonarsMeasurements",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getTactileMeasurements",
+              "params": [
+                "self",
+                "wait",
+                "get_history"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_robot_api_vision.py"
+    },
+    {
+      "imports": [
+        "abc.ABCMeta",
+        "abc.abstractmethod"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Vision",
+          "attributes": [
+            "__metaclass__"
+          ],
+          "methods": [
+            {
+              "name": "capturePhoto",
+              "params": [
+                "self",
+                "filepath",
+                "camera_id",
+                "resolution"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "audio_record_and_playback.py"
+    },
+    {
+      "imports": [
+        "time",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": [
+        "rh"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "full_nao_check.py"
+    },
+    {
+      "imports": [
+        "time",
+        "os.path",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": [
+        "rh",
+        "touched"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "posture_examples.py"
+    },
+    {
+      "imports": [
+        "time",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": [
+        "rh"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "speech_recognition.py"
+    },
+    {
+      "imports": [
+        "time",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": [
+        "rh"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vision_test.py"
+    },
+    {
+      "imports": [
+        "time",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": [
+        "rh"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vision_test_from_pc.py"
+    },
+    {
+      "imports": [
+        "time",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": [
+        "rh"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rapp_DEVICE_api_audio.py"
+    },
+    {
+      "imports": [
+        "rapp_robot_api_audio.Audio"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DeviceAudio",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "parameters"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "speak",
+              "params": [
+                "self",
+                "text",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "startRecording",
+              "params": [
+                "self",
+                "filename",
+                "audio_type",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "stopRecording",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "playFile",
+              "params": [
+                "self",
+                "filename"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "setVolume",
+              "params": [
+                "self",
+                "volume"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "record",
+              "params": [
+                "self",
+                "filename",
+                "seconds",
+                "audio_type",
+                "samplerate",
+                "channels"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "speechDetection",
+              "params": [
+                "self",
+                "vocabulary",
+                "wait",
+                "language"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_DEVICE_api_humanoid_motion.py"
+    },
+    {
+      "imports": [
+        "rapp_robot_api_humanoid_motion.HumanoidMotion"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DeviceHumanoidMotion",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "parameters"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "setJointAngles",
+              "params": [
+                "self",
+                "joints",
+                "angles",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getJointAngles",
+              "params": [
+                "self",
+                "joints"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "openHand",
+              "params": [
+                "self",
+                "hand_name"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "closeHand",
+              "params": [
+                "self",
+                "hand_name"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "goToPosture",
+              "params": [
+                "self",
+                "posture",
+                "speed"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getPosture",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_DEVICE_api_motion.py"
+    },
+    {
+      "imports": [
+        "rapp_robot_api_motion.Motion"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DeviceMotion",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "parameters"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "enableMotors",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "disableMotors",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "moveByVelocity",
+              "params": [
+                "self",
+                "x_vel",
+                "y_vel",
+                "theta_vel"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "moveTo",
+              "params": [
+                "self",
+                "x",
+                "y",
+                "theta"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "stop",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getVelocities",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_DEVICE_api_sensors.py"
+    },
+    {
+      "imports": [
+        "rapp_robot_api_sensors.Sensors"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DeviceSensors",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "parameters"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getBatteryLevels",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getSonarsMeasurements",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "getTactileMeasurements",
+              "params": [
+                "self",
+                "wait",
+                "get_history"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_DEVICE_api_vision.py"
+    },
+    {
+      "imports": [
+        "rapp_robot_api_vision.Vision"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DeviceVision",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "parameters"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "capturePhoto",
+              "params": [
+                "self",
+                "filepath",
+                "camera_id",
+                "resolution"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_robot_api.py"
+    },
+    {
+      "imports": [
+        "rapp_DEVICE_api_audio.DeviceAudio",
+        "rapp_DEVICE_api_motion.DeviceMotion",
+        "rapp_DEVICE_api_sensors.DeviceSensors",
+        "rapp_DEVICE_api_humanoid_motion.DeviceHumanoidMotion",
+        "rapp_DEVICE_api_vision.DeviceVision"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "RappRobot",
+          "attributes": [
+            "parameters",
+            "audio",
+            "motion",
+            "sensors",
+            "humanoid_motion",
+            "vision"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rapp_nao_unit_tests.py"
+    },
+    {
+      "imports": [
+        "unittest",
+        "rapp_robot_api.RappRobot"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "RappNaoAPIAudioTests",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_speak_wrong_language",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_speak_no_language",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_speak_wrong_text_format",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_speak_correct_language",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_startRecording_no_filename",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_startRecording_wrong_audiotype",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_startRecording_wrong_filepath",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_startRecording_wrong_samplerate",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_startRecording_wrong_channels",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_play_non_existent_file",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_set_volume",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res",
+                "res",
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_record_wrong_filepath",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res",
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_record_wrong_seconds",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_speech_detection_wrong_voc",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_speech_detection_empty_voc",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_speech_detection_wrong_wait",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "RappNaoAPIHumanoidMotionTests",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_set_joint_angles_no_joints",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_set_joint_angles_joint_is_not_a_list",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_set_joint_angles_joint_is_not_a_string",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_set_joint_angles_angle_is_a_string",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_set_joint_angles_wrong_speed",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res",
+                "res",
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_set_joint_angles_wrong_joint",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_open_hand_wrong_hand_number",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_open_hand_wrong_hand_string",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_close_hand_wrong_hand_number",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_close_hand_wrong_hand_string",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_go_to_posture_wrong_posture_string",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_go_to_posture_wrong_posture_number",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_go_to_posture_wrong_speed",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res",
+                "res",
+                "res"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "RappNaoAPIMotionTests",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_move_velocity_string_inputs",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "ret",
+                "ret",
+                "ret"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_move_velocity_out_of_bounds",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "ret",
+                "ret",
+                "ret",
+                "ret",
+                "ret",
+                "ret"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_move_to_string_inputs",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "ret",
+                "ret",
+                "ret",
+                "ret",
+                "ret",
+                "ret"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "RappNaoAPISensorsTests",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_tactile_wait_not_a_number",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "ret",
+                "ret"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_tactile_get_history_not_bool",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "ret",
+                "ret"
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "RappNaoAPIVisionTests",
+          "attributes": [
+            "robot"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_vision_capture_wrong_path",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "ret",
+                "ret",
+                "ret"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

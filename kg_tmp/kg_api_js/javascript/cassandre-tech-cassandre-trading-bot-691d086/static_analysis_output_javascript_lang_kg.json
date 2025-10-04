@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "account",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "isomorphic fetch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "authentication",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "isomorphic fetch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_1",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "isomorphic fetch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "order",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "isomorphic fetch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "position",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "isomorphic fetch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "strategy",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "isomorphic fetch",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "trade",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "isomorphic fetch",
+      "weight": 0.65,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "account",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "account",
+      "to": "isomorphic fetch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "authentication",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "authentication",
+      "to": "isomorphic fetch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "isomorphic fetch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "order",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "order",
+      "to": "isomorphic fetch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "position",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "position",
+      "to": "isomorphic fetch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "strategy",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "strategy",
+      "to": "isomorphic fetch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "trade",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "trade",
+      "to": "isomorphic fetch",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    }
+  ]
+}

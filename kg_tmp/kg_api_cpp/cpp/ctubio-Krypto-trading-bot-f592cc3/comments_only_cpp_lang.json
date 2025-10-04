@@ -1,0 +1,245 @@
+[
+  {
+    "file": "static_code_analysis.cxx.xml",
+    "comments": [
+      "// This is an independent project of an individual developer. Dear PVS-Studio, please check it.",
+      "// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com"
+    ]
+  },
+  {
+    "file": "unit_testing_framework.cxx.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Configure and run our session of test units.",
+      "//! \\def",
+      "//! \\link https://github.com/catchorg/Catch2/blob/master/docs/own-main.md",
+      "//! \\brief     Run test units on EXIT_SUCCESS code, otherwise just exit.",
+      "//! \\param[in] code Allows any exit code.",
+      "//! \\note      Uncomment all 3 lines about --durations argument to",
+      "//!            visualize and understand the execution order of test units.",
+      "//! \\note      While using --durations, the output should be read from top to bottom,",
+      "//!            but the output inside each scenario should be read from bottom to top.",
+      "// const char *argv[] = {\"K\", \"--durations yes\", nullptr};",
+      "// const int argc = sizeof(argv) / sizeof(char*) - 1;",
+      "// argc, argv"
+    ]
+  },
+  {
+    "file": "Krypto.ninja-apis.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Exchange API integrations.",
+      "//BO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions below)...",
+      "/**/",
+      "// call        async order  data from exchange.",
+      "/**/",
+      "// call   price async order  data from exchange.",
+      "/**/",
+      "// call  by uuid async order  data from exchange.",
+      "/**/",
+      "// call by symbol async orders data from exchange.",
+      "/**/",
+      "/**/",
+      "// call async wallet data from exchange.",
+      "/**/",
+      "// call   sync wallet data from exchange.",
+      "//EO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions above)...",
+      "//BO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions below).",
+      "/**/",
+      "// may return too a nullptr instead of a child gateway class, if string is unknown.",
+      "//EO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions above).",
+      "//BO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions below).",
+      "/**/",
+      "// send subcription messages to remote server and return channel names.",
+      "/**/",
+      "// read message one by one from remote server and call async observers.",
+      "//EO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions above).",
+      "//BO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions below).",
+      "/**/",
+      "// return logon message.",
+      "//EO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions above).",
+      "//BO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions below).",
+      "/**/",
+      "// return jwt token.",
+      "//EO non-free Gw class member functions from lib build-*/lib/K-*.a (it just redefines all virtual gateway functions above)."
+    ]
+  },
+  {
+    "file": "Krypto.ninja-bots.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Minimal user application framework.",
+      "//! \\brief     Call all endingFn once and print a last log msg.",
+      "//! \\param[in] reason Allows any (colorful?) string.",
+      "//! \\brief     Call all endingFn once and print a last error log msg.",
+      "//! \\param[in] prefix Allows any string, if possible with a length of 2.",
+      "//! \\param[in] reason Allows any (colorful?) string.",
+      "// Humans! go to any random path to check your luck."
+    ]
+  },
+  {
+    "file": "Krypto.ninja-data.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Data transport/transform helpers."
+    ]
+  },
+  {
+    "file": "Krypto.ninja-lang.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Available language interface.",
+      "//! \\def",
+      "//! \\brief Run test units on exit unless NDEBUG.",
+      "//! \\note  See test/unit_testing_framework.cxx.",
+      "//! \\def",
+      "//! \\brief Number of ticks in milliseconds.",
+      "//! \\since Thu Jan  1 00:00:00 1970.",
+      "//! \\since Beginning of execution.",
+      "//! \\def",
+      "//! \\brief Archimedes of Syracuse was here.",
+      "//! \\since Two millenniums ago.",
+      "//! \\def",
+      "//! \\brief ANSI escape sequences.",
+      "//! \\def",
+      "//! \\brief Do like if we care about macos or winy.",
+      "//! \\def",
+      "//! \\brief Redundant placeholder to enforce private references.",
+      "//! \\def",
+      "//! \\brief Redundant placeholder to enforce private nested declarations.",
+      "//! \\def",
+      "//! \\brief Redundant placeholder to enforce public nested declarations.",
+      "//! \\def",
+      "//! \\brief Any number used as impossible or unset value, when 0 is not appropiate.",
+      "//! \\since Having seen Bourbon brutality after the fall of Valencia,",
+      "//!        Barcelona decided to resist. The 14-month Siege of Barcelona",
+      "//!        began on July 7th 1713 and 25,000 Franco-Castilian troops",
+      "//!        surrounded the city defended by 5,000 civilians.",
+      "//!        After some Catalan successes, Bourbon reinforcements arrived",
+      "//!        and the attackers now numbered 40,000.",
+      "//!        After a heroic defence, Barcelona finally fell,",
+      "//!        on September 11th 1714.",
+      "//!        Catalonia then ceased to exist as an independent state.",
+      "//!        The triumphant forces systematically dismantled all Catalan",
+      "//!        institutions, established a new territory for the whole Spain,",
+      "//!        suppressed Catalan universities, banned the Catalan language,",
+      "//!        and repressed with violence any kind of dissidence.",
+      "//! \\note  \"any\" means \"year\" in Catalan.",
+      "//! \\link  wikipedia.org/wiki/National_Day_of_Catalonia"
+    ]
+  },
+  {
+    "file": "Krypto.ninja-main.cxx.xml",
+    "comments": [
+      "/*                                 */",
+      "// youtu.be/dVlGmdl-g9Q",
+      "/*         Wherever you go..     */",
+      "/*       Whatever you do..     */",
+      "// youtu.be/DKSO5YlYbOg",
+      "/*     I will be right here  */",
+      "/*    waiting for coins.   */",
+      "// youtu.be/FornpYhezt4",
+      "/* .-\"\"-._    Whatever it takes..   */",
+      "/*(  <>  )`-. Or how my OS breaks,  */",
+      "// youtu.be/Wd2fSSt4MDg",
+      "/*|`-..-'|  | I will be right here  */",
+      "/*|     :|._/  waiting for coins.   */",
+      "// youtu.be/02OHHWG1EQY",
+      "/*`.____;'    Day after day.        */",
+      "/*                               :wq*/",
+      "// youtu.be/AMCeEoOgSvc",
+      "/*                                    */",
+      "// youtu.be/dp5hsDgENLk",
+      "/*K\\*/",
+      "/*    .        kKKKKK,       .         *\n                       kKKKK  KK,\n     .         ,kFIREKKKKLET  `KK,_         *\n          ,RUNNERV'      KKKK   `K,`\\\n        ,KKK    KK   .    KTHE   `V\n     kKKKV'     KK         KKKK    \\_              .\n *   V   l   .   KK        KKKFIRE         .\n     l    \\       KK,     FKK  KKKKKK,\n    /            KK l    IKK    RUN `K,\n                KK  l   RKK     K K, `K,          *\n      .        KK      EKK      K  K, `l\n               K        KK      V  `K   \\\n               V        RKK     l   V\n    K          l        V Uk        l      .\n     \\          \\       l  Nk\n                  \\         K     *    X\n                       \\    V    /    /        K\n                 X   \\  \\ X |  / X  /        /\n                  \\       \\\\|/ /  /\n_____ youtu.be/he9MKrsZTN8 \\|/ youtu.be/l13OfmQlov8 _____\n\\* ### youtu.be/w4xWGNQwJCs x youtu.be/LC-W2YV9Tbc ### */"
+    ]
+  },
+  {
+    "file": "Krypto.ninja-test.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Unit testing framework and general test untis.",
+      "//! \\note  Test units about benchmarks are removed after a while,",
+      "//!        but if you need some examples, see https://github.com/catchorg/Catch2/blob/master/projects/SelfTest/UsageTests/Benchmark.tests.cpp"
+    ]
+  },
+  {
+    "file": "+portfolios.data.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Welcome user! (just a manager of portfolios)."
+    ]
+  },
+  {
+    "file": "+portfolios.main.h.xml",
+    "comments": []
+  },
+  {
+    "file": "hello-world.data.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Welcome user! (just a working example to begin with)."
+    ]
+  },
+  {
+    "file": "hello-world.main.h.xml",
+    "comments": []
+  },
+  {
+    "file": "scaling-bot.ansi.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Color palette override for terminals.",
+      "//! \\note  ANSI color codes to override ANSI_* colors:",
+      "//!          \"0\" BLACK     \"4\" BLUE",
+      "//!          \"1\" RED       \"5\" MAGENTA",
+      "//!          \"2\" GREEN     \"6\" CYAN",
+      "//!          \"3\" YELLOW    \"7\" WHITE",
+      "//! \\def",
+      "//! \\brief Define color red     as magenta.",
+      "//! \\def",
+      "//! \\brief Define color magenta as red.",
+      "//! \\def",
+      "//! \\brief Define color green   as yellow.",
+      "//! \\def",
+      "//! \\brief Define color yellow  as green."
+    ]
+  },
+  {
+    "file": "scaling-bot.data.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Welcome user! (just a scaling bot to open/close positions while price decrements/increments)."
+    ]
+  },
+  {
+    "file": "scaling-bot.main.h.xml",
+    "comments": []
+  },
+  {
+    "file": "stable--bot.data.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Welcome user! (just a stable bot for flat markets with constant buy/sell prices)."
+    ]
+  },
+  {
+    "file": "stable--bot.main.h.xml",
+    "comments": []
+  },
+  {
+    "file": "trading-bot.data.h.xml",
+    "comments": [
+      "//! \\file",
+      "//! \\brief Trading logistics (welcome user! forked from https://github.com/michaelgrosner/tribeca)."
+    ]
+  },
+  {
+    "file": "trading-bot.main.h.xml",
+    "comments": []
+  },
+  {
+    "file": "trading-bot.test.h.xml",
+    "comments": []
+  }
+]

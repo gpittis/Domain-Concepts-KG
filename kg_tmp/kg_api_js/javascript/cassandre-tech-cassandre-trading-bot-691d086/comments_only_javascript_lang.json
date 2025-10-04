@@ -1,0 +1,50 @@
+[
+  {
+    "file": "account.test.js",
+    "comments": [
+      "\t// The result we are expecting from the GraphQL API.",
+      "\t// The query of the GraphQL API server."
+    ]
+  },
+  {
+    "file": "authentication.test.js",
+    "comments": [
+      "\t// The query of the GraphQL API server."
+    ]
+  },
+  {
+    "file": "configuration.test.js",
+    "comments": [
+      "\t// The result we are expecting from the GraphQL API.",
+      "\t// The query of the GraphQL API server."
+    ]
+  },
+  {
+    "file": "order.test.js",
+    "comments": [
+      "\t// The result we are expecting from the GraphQL API.",
+      "\t// The query of the GraphQL API server."
+    ]
+  },
+  {
+    "file": "position.test.js",
+    "comments": [
+      "\t// The result we are expecting from the GraphQL API.",
+      "\t// The query of the GraphQL API server."
+    ]
+  },
+  {
+    "file": "strategy.test.js",
+    "comments": [
+      "\t// The result we are expecting from the GraphQL API.",
+      "\t// The query of the GraphQL API server."
+    ]
+  },
+  {
+    "file": "trade.test.js",
+    "comments": [
+      "\t// The result we are expecting from the GraphQL API.",
+      "\t// The query of the GraphQL API server."
+    ]
+  }
+]

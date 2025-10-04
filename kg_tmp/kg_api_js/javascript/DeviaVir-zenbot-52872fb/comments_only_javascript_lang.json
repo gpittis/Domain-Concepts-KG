@@ -1,0 +1,2095 @@
+[
+  {
+    "file": "boot.js",
+    "comments": [
+      "  // 1. load conf overrides file if present",
+      "  // 2. load conf.js if present",
+      "  // 3. Load conf-sample.js and merge",
+      "    // authMechanism could be a conf.js parameter to support more mongodb authentication methods"
+    ]
+  },
+  {
+    "file": "backfill.consume.function.js",
+    "comments": [
+      "/* This module provides a function, used in the backfill process, to consume trades. ",
+      "",
+      "    It is accompanied by another class which processes those trades. In this case,",
+      "    processing means storing in the database.",
+      "",
+      "    It makes a call to a service to get trades. If trades are returned, it stores",
+      "    them in a queue. Finally, regardless, a status code is returned. Its either cp_process, ",
+      "    to process the trades, or cp_exit, exit the consume-and-process flow.",
+      "*/"
+    ]
+  },
+  {
+    "file": "backfill.function.js",
+    "comments": [
+      "  /**",
+      "\t * Backfilling consists of two steps: consuming the trades, and processing (persisting) them.",
+      "\t * This function sets up the service that manages that.",
+      "\t */"
+    ]
+  },
+  {
+    "file": "backfill.process.function.js",
+    "comments": [
+      "/*",
+      "\tProcesses the trades..",
+      "*/",
+      "          //  if number we can skip to === currtrade",
+      "          // this is past our time limit..."
+    ]
+  },
+  {
+    "file": "backfill.update-screen.function.js",
+    "comments": []
+  },
+  {
+    "file": "backfill.js",
+    "comments": [
+      "            // for backward scan, if the oldest_time is within another marker's range, skip to the other marker's start point.",
+      "            // for forward scan, if the newest_time is within another marker's range, skip to the other marker's end point."
+    ]
+  },
+  {
+    "file": "balance.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "    //.option('--all', 'output all balances')"
+    ]
+  },
+  {
+    "file": "buy.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars"
+    ]
+  },
+  {
+    "file": "list-selectors.js",
+    "comments": [
+      "// eslint-disable-next-line no-unused-vars"
+    ]
+  },
+  {
+    "file": "list-strategies.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars"
+    ]
+  },
+  {
+    "file": "new_backfill.js",
+    "comments": [
+      "            // TODO: Make this say: \"Done. Last processed trade happened on January 37, 2018 10:02 ",
+      "            //  will have to call the DB, get the trade finalTradeId, and display its time."
+    ]
+  },
+  {
+    "file": "sell.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars"
+    ]
+  },
+  {
+    "file": "sim.js",
+    "comments": [
+      "        //console.log('start_capital', s.start_capital)",
+      "        //console.log('start_price', n(s.start_price).format('0.00000000'))",
+      "        //console.log('close', n(s.period.close).format('0.00000000'))",
+      "        //console.log('buy hold', buy_hold.format('0.00000000'))"
+    ]
+  },
+  {
+    "file": "trade.js",
+    "comments": [
+      "      /* Implementing statistical Exit */",
+      "        // Build stats for UI",
+      "          //for API",
+      "              //ymd",
+      "      /* The end of printTrade */",
+      "      /* Implementing statistical status dump every 10 secs */",
+      "        // Build stats for UI",
+      "          //for API",
+      "          //ymd",
+      "          //console.log('\\nwrote'.grey, out_target)",
+      "          // @todo: cancel open orders before exit",
+      "              // TODO not the nicest place to verify the state, but did not found a better one",
+      "              // Not sure if I should just handle exit code directly or thru printTrade.  Decided on printTrade being if code is added there for clean exits this can just take advantage of it.",
+      "            // ignore duplicate key errors"
+    ]
+  },
+  {
+    "file": "conf-sample.js",
+    "comments": [
+      "// mongo configuration",
+      "// Must provide EITHER c.mongo.connectionString OR c.mongo.host,port,username,password",
+      "// The following is not needed when c.mongo.connectionString is provided:",
+      "// when using mongodb replication, i.e. when running a mongodb cluster, you can define your replication set here; when you are not using replication (most of the users), just set it to `null` (default).",
+      "// default selector. only used if omitting [selector] argument from a command.",
+      "// name of default trade strategy",
+      "// Exchange API keys:",
+      "// to enable GDAX trading, enter your API credentials:",
+      "// set to true to trade on the sandbox platform API",
+      "// to enable Poloniex trading, enter your API credentials:",
+      "// please note: poloniex does not support market orders via the API",
+      "// to enable Kraken trading, enter your API credentials:",
+      "// Please read API TOS on https://www.kraken.com/u/settings/api",
+      "// to enable Binance trading, enter your API credentials:",
+      "// to enable Binance US trading, enter your API credentials:",
+      "// to enable Bittrex trading, enter your API credentials:",
+      "// make sure to give your API key access to only: \"Trade Limit\" and \"Read Info\",",
+      "// please note that this might change in the future.",
+      "// please note that bittrex API is limited, you cannot use backfills or sims (paper/live trading only)",
+      "// to enable Bitfinex trading, enter your API credentials:",
+      "// May use 'exchange' or 'margin' wallet balances",
+      "// to enable Bitstamp trading, enter your API credentials:",
+      "// A client ID is required on Bitstamp",
+      "// to enable CEX.IO trading, enter your API credentials:",
+      "// to enable Gemini trading, enter your API credentials:",
+      "// set to false to trade on the live platform API",
+      "// to enable hitBTC trading, enter your API credentials:",
+      "// to enable therock trading, enter your API credentials:",
+      "// Optional stop-order triggers:",
+      "// sell if price drops below this % of bought price (0 to disable)",
+      "// buy if price surges above this % of sold price (0 to disable)",
+      "// enable trailing sell stop when reaching this % profit (0 to disable)",
+      "// maintain a trailing stop this % below the high-water mark of profit",
+      "// Order execution rules:",
+      "// avoid trading at a slippage above this pct",
+      "// buy with this % of currency balance (WARNING : sim won't work properly if you set this value to 100)",
+      "// sell with this % of asset balance (WARNING : sim won't work properly if you set this value to 100)",
+      "// ms to adjust non-filled order after",
+      "// avoid selling at a loss below this pct set to 0 to ensure selling at a higher price...",
+      "// avoid buying at a loss above this pct set to 0 to ensure buying at a lower price...",
+      "// ms to poll order status",
+      "// ms to wait for settlement (after an order cancel)",
+      "// % to mark down buy price for orders",
+      "// % to mark up sell price for orders",
+      "// become a market taker (high fees) or a market maker (low fees)",
+      "// when supported by the exchange, use post only type orders.",
+      "// use separated fee currency such as binance's BNB.",
+      "// Misc options:",
+      "// default # days for backfill and sim commands",
+      "// defaults to a high number of lookback periods",
+      "// ms to poll new trades at",
+      "// amount of currency to start simulations with",
+      "// amount of asset to start simulations with",
+      "// for sim, reverse time at the end of the graph, normalizing buy/hold to 0",
+      "// number of periods to calculate RSI at",
+      "// period to record balances for stats",
+      "// avg. amount of slippage to apply to sim trades",
+      "// time to leave an order open, default to 1 day (this feature is not supported on all exchanges, currently: GDAX)",
+      "// load and use previous trades for stop-order triggers and loss protection (live/paper mode only)",
+      "// minimum number of previous trades to load if use_prev_trades is enabled, set to 0 to disable and use trade time instead",
+      "// Notifiers:",
+      "//common",
+      "// xmpp config",
+      "// end xmpp configs",
+      "// pushbullets configs",
+      "// end pushbullets configs",
+      "// ifttt configs",
+      "// end ifttt configs",
+      "// slack config",
+      "// end slack config",
+      "// ADAMANT Messenger config",
+      "// end ADAMANT Messenger config",
+      "// discord configs",
+      "// end discord configs",
+      "// prowl configs",
+      "// end prowl configs",
+      "// textbelt configs",
+      "// end textbelt configs",
+      "// pushover configs",
+      "// end pushover configs",
+      "// telegram configs",
+      "// end telegram configs",
+      "// output",
+      "// REST API"
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "  /**",
+      "  * Convert BNB-BTC to BNB/BTC",
+      "  *",
+      "  * @param product_id BNB-BTC",
+      "  * @returns {string}",
+      "  */",
+      "          // client.fetchTrades() only returns trades in an 1 hour interval.",
+      "          // So we use fetchOHLCV() to detect trade appart from more than 1h.",
+      "          // Note: it's done only in forward mode.",
+      "            // startTime is older than 1 hour ago.",
+      "        // match error against string:",
+      "        // \"binance {\"code\":-2011,\"msg\":\"UNKNOWN_ORDER\"}\"",
+      "          // decide if this error is allowed for a retry",
+      "            // retry is allowed for this error",
+      "        // decide if this error is allowed for a retry:",
+      "        // {\"code\":-1013,\"msg\":\"Filter failure: MIN_NOTIONAL\"}",
+      "        // {\"code\":-2010,\"msg\":\"Account has insufficient balance for requested action\"}",
+      "        // decide if this error is allowed for a retry:",
+      "        // {\"code\":-1013,\"msg\":\"Filter failure: MIN_NOTIONAL\"}",
+      "        // {\"code\":-2010,\"msg\":\"Account has insufficient balance for requested action\"}"
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "  /**",
+      "  * Convert BNB-BTC to BNB/BTC",
+      "  *",
+      "  * @param product_id BNB-BTC",
+      "  * @returns {string}",
+      "  */",
+      "          // client.fetchTrades() only returns trades in an 1 hour interval.",
+      "          // So we use fetchOHLCV() to detect trade appart from more than 1h.",
+      "          // Note: it's done only in forward mode.",
+      "            // startTime is older than 1 hour ago.",
+      "        // match error against string:",
+      "        // \"binanceus {\"code\":-2011,\"msg\":\"UNKNOWN_ORDER\"}\"",
+      "          // decide if this error is allowed for a retry",
+      "            // retry is allowed for this error",
+      "        // decide if this error is allowed for a retry:",
+      "        // {\"code\":-1013,\"msg\":\"Filter failure: MIN_NOTIONAL\"}",
+      "        // {\"code\":-2010,\"msg\":\"Account has insufficient balance for requested action\"}",
+      "        // decide if this error is allowed for a retry:",
+      "        // {\"code\":-1013,\"msg\":\"Filter failure: MIN_NOTIONAL\"}",
+      "        // {\"code\":-2010,\"msg\":\"Account has insufficient balance for requested action\"}"
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "    // https://bitfinex.readme.io/v2/reference#ws-auth-orders",
+      "    // We only use the 'trades' channel for heartbeats. That one should be most frequently updated.",
+      "      // we need also more position updates here, but messages are completely undocumented",
+      "      // https://bitfinex.readme.io/v1/reference#ws-auth-position-updates",
+      "      // <pn|pu|pc> possible only \"pu\" for update",
+      "  /**",
+      "   *",
+      "   * @param position ['tXRPUSD']",
+      "   * @returns {string}",
+      "   */",
+      "    // tXRPUSD",
+      "  /**",
+      "   * We have no wallet on margin orders; fake current asset capital via open position",
+      "   *",
+      "   * @param positions",
+      "   * @see https://bitfinex.readme.io/v1/reference#ws-auth-position-snapshot",
+      "   */",
+      "    // skip non margin",
+      "    // current positions in request",
+      "    // we need it for clear",
+      "    // clear non open positions; which are not existing anymore",
+      "    /*",
+      "    [ 'sym',",
+      "    'tBTCUSD',",
+      "    [ 101.11144665, // \"all\" - \"active positions\"",
+      "      179.11144665, // \"all\"",
+      "      78.11144665, // \"all\" - \"active positions\" - \"active unfilled orders\"",
+      "      78.11144665, // \"all\" - \"active positions\" - \"active unfilled orders\" ?",
+      "      null,",
+      "      null,",
+      "      null,",
+      "      null",
+      "   ]",
+      "    */",
+      "    // tBTCUSD",
+      "    // not nice but values are not splitted",
+      "    // \"tBTCUSD\" extract => \"USD\"",
+      "    // \"tDASHUSD\" extract => \"USD\"",
+      "    // which array index to use to get available balance? :)",
+      "      // Backfilling using the REST API",
+      "          // only 1 request per second allowed https://bitcoin.stackexchange.com/questions/36952/bitfinex-api-limit",
+      "          // but during testing I have discovered that 1 second is not enough, so double timeout looks better",
+      "        // We're live now (i.e. opts.from is set), use websockets",
+      "      // only exchange need a prefix; no needed for margin",
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "// The use of bitstamp-ws  requires that",
+      "// Knowledge of the asset/currency pair",
+      "// before the first call for a trade",
+      "// As zenbot dont returns the currency pair",
+      "// before the first trade is requested",
+      "// it has been neccessary to get it from",
+      "// the command line arguments",
+      "  //-----------------------------------------------------",
+      "  //  The websocket functions",
+      "  //",
+      "    // if pair data was not received from cli args, parse it from the selector",
+      "    // fetch initial order book from REST",
+      "    // bitstamp publishes all data over just 2 channels",
+      "    // make sure we only subscribe to each channel once",
+      "    // subscribe on open",
+      "  // Placeholders",
+      "  //-----------------------------------------------------",
+      "    //-----------------------------------------------------",
+      "    // Public API functions",
+      "    // getQuote() and getTrades() are using Bitstamp websockets",
+      "    // The data is not done by calling the interface function,",
+      "    // but rather pulled from the \"wstrades\" and \"wsquotes\" JSOM objects",
+      "    // Those objects are populated by the websockets event handlers",
+      "    //-----------------------------------------------------",
+      "    // Private (authenticated) functions",
+      "    //",
+      "        // Dirty hack to avoid engine.js bailing out when balance has 0 value",
+      "        // The added amount is small enough to not have any significant effect",
+      "      // Bitstamp has no \"post only\" trade type",
+      "            // Statuses:",
+      "            // 'In Queue', 'Open', 'Finished'",
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "    // generic error handler data was null and err was null",
+      "    // specific handlers",
+      "      // accomplish back trades using 2 calls. ticks and getMarket and create a hybrid result.",
+      "      // first run do the full deal. 2nd run only returns the last trades",
+      "                // todo: unsure about the >. if the price is greater than the last one should this one be a buy or sell. figure it out.",
+      "                  // selector should get overwritten by backfill, but was a point where it was missing in the backfill function so this was put in so it is never missed",
+      "                      // trade_id: trade.Id,",
+      "                      // selector should get overwritten by backfill, but was a point where it was missing in the backfill function so this was put in so it is never missed",
+      "                      // selector:",
+      "                // make sure all times come out sorted correctly. there is a chance they can appear in the array out of order otherwise.",
+      "                // trade_id: trade.Id,",
+      "                  // selector should get overwritten by backfill, but was a point where it was missing in the backfill function so this was put in so it is never missed",
+      "            // Sorting at this point may be redundant.",
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "      // subscribe to user channels which need fully auth data",
+      "      // initialize a cache for the websocket connection",
+      "        // all messages with user_id are related to trades for current authenticated user",
+      "      /*",
+      "      order canceled by user or on platform: which must be retried see \"reason\":",
+      "      { type: 'done',",
+      "        side: 'sell',",
+      "        order_id: 'xxxx',",
+      "        reason: 'canceled',",
+      "        product_id: 'LTC-EUR',",
+      "        price: '142.33000000',",
+      "        remaining_size: '1.24390150',",
+      "        sequence: 1337,",
+      "        user_id: '5a2aeXXX',",
+      "        profile_id: 'xxx',",
+      "        time: '2018-03-09T16:28:49.293000Z'",
+      "      }",
+      "",
+      "      complete order response; no further action:",
+      "      { type: 'done',",
+      "        side: 'sell',",
+      "        order_id: 'xxxx',",
+      "        reason: 'filled',",
+      "        product_id: 'LTC-EUR',",
+      "        price: '142.81000000',",
+      "        remaining_size: '0.00000000',",
+      "        sequence: 1337,",
+      "        user_id: '5a2aeXXX',",
+      "        profile_id: 'xxx',",
+      "        time: '2018-03-09T16:56:39.352000Z'",
+      "      }",
+      "      */",
+      "      // get order \"reason\":",
+      "      //  - \"canceled\" by user or platform",
+      "      //  - \"filled\" order successfully placed and filled",
+      "      // \"canceled\" is not a success order instead it must be retried",
+      "      // force zenbot a order retry; see \"engine.js\" for possible retry conditions",
+      "        // move cursor into the future",
+      "        // move cursor into the past",
+      "      // check for locally cached trades from the websocket feed",
+      "        // trim cache",
+      "      // check websocket cache first",
+      "          // order was cancelled. recall from cache",
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "test.js",
+    "comments": []
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  //let recoverableErrors = new RegExp(/(ESOCKETTIMEOUT|ESOCKETTIMEDOUT|ETIMEDOUT|ECONNRESET|ECONNREFUSED|ENOTFOUND|Invalid nonce|Rate limit exceeded|URL request error)/)",
+      "      // it can take up to 30 seconds for hitbtc to update with an order change.",
+      "  // function handleErrors(command, err, data, args, callback) {",
+      "  //   if (err)",
+      "  //   {",
+      "  //     if (err.message && err.message.match(recoverableErrors)) {",
+      "  //       return retry(command, args, err)",
+      "  //     }",
+      "  //     return callback(err, [])     ",
+      "  //   }",
+      "  //   if (typeof data !== 'object') {",
+      "  //     console.log(`bittrex API ${command} had an abnormal response, quitting.`)",
+      "  //     return callback(null, [])",
+      "  //   }",
+      "  //   // generic error handler data was null and err was null",
+      "  //   if (data == null)",
+      "  //   {",
+      "  //     return retry(command, args, err)",
+      "  //   }",
+      "  //   // specific handlers",
+      "  //   if ((command == 'getQuote' || command == 'getTrades') && data.result == null )",
+      "  //   {",
+      "  //     return retry(command, args, data)",
+      "  //   }",
+      "  //   if(!data.success) {",
+      "  //     if (data.message && data.message.match(recoverableErrors)) {",
+      "  //       return retry(command, args, data.message)",
+      "  //     }",
+      "  //     return callback(null, [])",
+      "  //   }",
+      "  //   return true",
+      "  // }",
+      "          // order was cancelled. recall from cache"
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "  // var recoverableErrors = new RegExp(/(ESOCKETTIMEDOUT|ETIMEDOUT|ECONNRESET|ECONNREFUSED|ENOTFOUND|API:Invalid nonce|API:Rate limit exceeded|between Cloudflare and the origin web server)/)",
+      "  // This is to deal with a silly bug where kraken doesn't use a consistent definition for currency",
+      "  // with certain assets they will mix the use of 'Z' and 'X' prefixes",
+      "    // silence common timeout errors",
+      "    // The limit for the public API is not documented, 1750 ms between getTrades in backfilling seems to do the trick to omit warning messages.",
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "        // add 12 hours",
+      "        // subtract 12 hours",
+      "          // sometimes the order gets cancelled on the server side for some reason and we get this. ignore that case...",
+      "          //console.error(body)",
+      "    // return the property used for range querying."
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // When orders change in any way, it's likely our \"_hold\" values have changed. Recalculate them",
+      "    // Add estimated slippage to price",
+      "    // Compute fees",
+      "    // Update balance",
+      "    // Process existing order size changes",
+      "    // Add estimated slippage to price",
+      "    // Compute fees",
+      "    // Update balance",
+      "    // Process existing order size changes"
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "          // order was cancelled. recall from cache"
+    ]
+  },
+  {
+    "file": "exchange.js",
+    "comments": [
+      "  // TODO: phase out, in favor of calling the method getDirection().",
+      "  //  It will help define a clean interface/design for future exchange plugins.",
+      "  // TODO: phase the use of the name out.. define a cleaner interface for exchanges, so its easier to define how to write one.",
+      "      // TODO: handle the case where there is no server on the other end"
+    ]
+  },
+  {
+    "file": "_codemap.js",
+    "comments": []
+  },
+  {
+    "file": "adamant.js",
+    "comments": []
+  },
+  {
+    "file": "discord.js",
+    "comments": []
+  },
+  {
+    "file": "ifttt.js",
+    "comments": []
+  },
+  {
+    "file": "prowl.js",
+    "comments": []
+  },
+  {
+    "file": "pushbullet.js",
+    "comments": []
+  },
+  {
+    "file": "pushover.js",
+    "comments": []
+  },
+  {
+    "file": "slack.js",
+    "comments": []
+  },
+  {
+    "file": "telegram.js",
+    "comments": []
+  },
+  {
+    "file": "textbelt.js",
+    "comments": []
+  },
+  {
+    "file": "xmpp.js",
+    "comments": []
+  },
+  {
+    "file": "api.js",
+    "comments": [
+      "    // eslint-disable-next-line no-unused-vars",
+      "  // set up rate limiter: maximum of fifty requests per minute"
+    ]
+  },
+  {
+    "file": "_codemap.js",
+    "comments": []
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // calculate Bollinger Bands",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    //get market trend",
+      "    // compute Stochastic RSI",
+      "    // compute CCI",
+      "      // Sideways Market",
+      "        // Buy signal",
+      "        // Sell signal",
+      "        //cb()",
+      "      // Buy signal",
+      "      // Sell signal",
+      "    // -- common",
+      "    // -- strategy",
+      "/* Made by talvasconcelos*/"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // default start is 30, 108, 60.",
+      "    // these are relative to period length.",
+      "    /*",
+      "        Positive simulations during testing:",
+      "",
+      "        zenbot sim kraken.XXRP-ZEUR --period=\"120m\" --strategy=crossover_vwap --currency_capital=700 --asset_capital=0 --max_slippage_pct=100 --days=60 --avg_slippage_pct=0.045 --vwap_max=8000 --markup_sell_pct=0.5 --markdown_buy_pct=0.5 --emalen1=50",
+      "        zenbot sim kraken.XXRP-ZEUR --period=\"120m\" --strategy=crossover_vwap --currency_capital=700 --asset_capital=0 --max_slippage_pct=100 --days=60 --avg_slippage_pct=0.045 --vwap_max=8000 --markup_sell_pct=0.5 --markdown_buy_pct=0.5 --emalen1=30",
+      "      */",
+      "      // helper functions",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods",
+      "    // compture DEMA",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "/*",
+      "",
+      "Author: Travis",
+      "",
+      "Adapted from: https://www.tradingview.com/script/Q0eQz7ll-Fisher-Transform-Indicator-by-Ehlers-Strategy/",
+      "",
+      "Description: Market prices do not have a Gaussian probability density function ",
+      "as many traders think. Their probability curve is not bell-shaped. ",
+      "But trader can create a nearly Gaussian PDF for prices by normalizing ",
+      "them or creating a normalized indicator such as the relative strength ",
+      "index and applying the Fisher transform . Such a transformed output ",
+      "creates the peak swings as relatively rare events. ",
+      "Fisher transform formula is: y = 0.5 * ln ((1+x)/(1-x)) ",
+      "The sharp turning points of these peak swings clearly and unambiguously ",
+      "identify price reversals in a timely manner. ",
+      "",
+      "Author Notes: ",
+      "pos = 1 indicates the fisher transform value for the period was ABOVE the previous period",
+      "pos = -1 indicates the fisher transform value for the period was BELOW the previous period",
+      "pos_length = 1 does default behavior from the original tradingview strategy.  ",
+      "If pos_length > 1, make sure pos_length number of previous periods have opposite pos values. ",
+      "",
+      "Sample sim command:",
+      "zenbot sim gdax.LTC-USD --strategy ehlers_ft --period_length 15m --days 3 --order_type maker --fish_pct_change 0 --length 10 --pos_length 1 --src HAohlc4 --min_periods 20 ",
+      "",
+      "If you have found this strategy useful and would like to show your appreciation, please consider donating ",
+      "ETH, BTC, or LTC to the developer, Travis.  ",
+      "ETH: 0xdA963A127BeCB08227583d11f912F400D5347060 ",
+      "BTC: 3KKHdBJpEGxghxGazoE4X7ihyr2q6nHUvW",
+      "LTC: MSePEwGJF8W4wvGCbJBqMtatwdBGYhT8FM",
+      "",
+      "Please direct feedback concerning this strategy to the zenbot strategies discord channel @Travis: ",
+      "https://discordapp.com/channels/316120967200112642/383023593942155274",
+      "",
+      "*/",
+      "    // console.log('')",
+      "    // cleanup",
+      "    //General Options",
+      "    //Strategy Specific",
+      "/*",
+      "",
+      "// Original pinescript",
+      "// From https://www.tradingview.com/script/Q0eQz7ll-Fisher-Transform-Indicator-by-Ehlers-Strategy/",
+      "",
+      "study(title=\"Fisher Transform Indicator by Ehlers Strategy\", shorttitle=\"Fisher Transform Indicator by Ehlers\")",
+      "Length = input(10, minval=1)",
+      "xHL2 = hl2",
+      "xMaxH = highest(xHL2, Length)",
+      "xMinL = lowest(xHL2,Length)",
+      "nValue1 = 0.33 * 2 * ((xHL2 - xMinL) / (xMaxH - xMinL) - 0.5) + 0.67 * nz(nValue1[1])",
+      "nValue2 = iff(nValue1 > .99,  .999,",
+      "\t        iff(nValue1 < -.99, -.999, nValue1))",
+      "nFish = 0.5 * log((1 + nValue2) / (1 - nValue2)) + 0.5 * nz(nFish[1])",
+      "pos =\tiff(nFish > nz(nFish[1]), 1,",
+      "\t    iff(nFish < nz(nFish[1]), -1, nz(pos[1], 0))) ",
+      "barcolor(pos == -1 ? red: pos == 1 ? green : blue )",
+      "plot(nFish, color=green, title=\"Fisher\")",
+      "plot(nz(nFish[1]), color=red, title=\"Trigger\")",
+      "",
+      "*/"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "/*",
+      "                    ======= Ehlers MESA Adaptive Moving Average =======",
+      "",
+      "Developed by John Ehlers, the MESA Adaptive Moving Average is a technical trend-following indicator which, ",
+      "according to its creator, adapts to price movement “based on the rate change of phase as measured by the ",
+      "Hilbert Transform Discriminator”. This method of adaptation features a fast and a slow moving average so ",
+      "that the composite moving average swiftly responds to price changes and holds the average value until the ",
+      "next bar’s close. Ehlers states that because the average’s fallback is slow, you can create trading systems ",
+      "with almost whipsaw-free trades.",
+      "",
+      "Basically the indicator looks like two moving averages, but instead of curving around the price action, ",
+      "the MESA Adaptive MA moves in a staircase manner as the price ratchets. It produces two outputs, MAMA and FAMA. ",
+      "FAMA (Following Adaptive Moving Average) is a result of MAMA being applied to the first MAMA line. The FAMA ",
+      "is synchronized in time with MAMA, but its vertical movement comes with a lag. Thus, the two don’t cross unless ",
+      "a major change in market direction occurs, resulting in a moving average crossover system which is “virtually ",
+      "free of whipsaw trades”, according to Ehlers.",
+      "",
+      "If you appreciate the work and the man hours that went into creating this strategy, please consider giving back.",
+      "",
+      "LoneWolf345 ETH = 0xa42f6d21f1e52f7fbaeaa0f58d1cc4b9a58f2dcc , BTC = 15L8QstCQG4ho6139hVaqLxkAzcjnqBbf6",
+      "Travis      ETH = 0xdA963A127BeCB08227583d11f912F400D5347060 , BTC = 3KKHdBJpEGxghxGazoE4X7ihyr2q6nHUvW",
+      "",
+      "*/",
+      "    // this.option('mama_periods', '', Number, 5)",
+      "      //s.mama.src.unshift((s.period.high + s.period.low) / 2)",
+      "    //General Options",
+      "    //Strategy Specific"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // -- common",
+      "    //Strategy Specific"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // The below lines cause the bot to buy when the price is above the kumo cloud and sell when the price is inside",
+      "      // or below the kumo cloud. There are many different ways to trade the Ichimoku Cloud and all of them can be",
+      "      // implemented using the indicators above.",
+      "    //General Options",
+      "    //Strategy Specific"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "//                    ======= Ichimoku Signals Score =======",
+      "/*",
+      "",
+      "The Ichimoku signals, indeed all Ichimoku elements, should never be taken in isolation, but considered in the context",
+      "of the overall chart.  Ichimoku Kinko Hyo is a visual technical analysis system and the charts are designed to be",
+      "considered in their entirety, with regard given to the relationships between all of the elements, including the price.",
+      "As such, Ichimoku is not suitable for automated or \"single event\" decision making.",
+      "",
+      "Remember that Ichimoku Kinko Hyo is a technical trend trading charting system and trends can and do change, so your",
+      "readings of the charts should be probabilistic, rather than predictive.  As with most technical analysis methods,",
+      "Ichimoku is likely to produce frequent conflicting signals in non-trending markets.",
+      "",
+      "The five kinds of signal are described below.  Most can be classified as strong, neutral, or weak by their proximate",
+      "relationship to the Kumo (cloud), but each signal may be further strengthened, weakened, or nullified by the",
+      "relationships between other elements.  All signals must be considered in respect to the overall chart.",
+      "",
+      "For a better understanding of how to read ichimoku please refer to http://www.ichimokutrader.com/signals.html",
+      "Code based on a TradingView.com script at https://www.tradingview.com/v/u0NN8zNu/",
+      "",
+      "If you appreciate the work and the man hours that went into creating this strategy, please consider giving back.",
+      "LoneWolf345 ETH = 0xa42f6d21f1e52f7fbaeaa0f58d1cc4b9a58f2dcc , BTC = 15L8QstCQG4ho6139hVaqLxkAzcjnqBbf6",
+      "Travis      ETH = 0xdA963A127BeCB08227583d11f912F400D5347060 , BTC = 3KKHdBJpEGxghxGazoE4X7ihyr2q6nHUvW",
+      "",
+      "*/",
+      "    // == ichimoku inputs ==",
+      "    // == score inputs ==",
+      "      // == == generate ichimoku data == ==",
+      "      // have to wait until displacement periods have passed",
+      "        // == == calculate score == ==",
+      "    //    == Debugging ==",
+      "    // == == Buy / Sell Signals == ==",
+      "    //General Options",
+      "    //Strategy Specific",
+      "// == == Helpers == ==",
+      "// == == ichimoku cloud signals == ==",
+      "// == Tenkan Sen (turning line) / Kijun Sen (standard line) Cross ==",
+      "// == Price and Kijun Sen (standard line) Cross ==",
+      "// == Kumo Breakouts ==",
+      "// == Senkou Span Cross ==",
+      "// The Senkou Span Cross signal occurs when the Senkou Span A (1st leading line) crosses the Senkou Span B (2nd leading line).",
+      "// NOTE: this cross occurs ahead of the price, since it's displaced to the right; this displacement must be removed",
+      "// == Chikou Span Cross ==",
+      "// The Chikou Span Cross signal occurs when the Chikou Span (Lagging line) rises above or falls below the price.",
+      "// == price relative to cloud ==",
+      "// == lag line releative to cloud ==",
+      "    // above",
+      "    // below"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // calculate Keltner Channels",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods",
+      "    // compute MACD",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // PIVOT",
+      "    // this.option('period_length', 'period length', String, '30m')",
+      "    // MACD / TA_MACD",
+      "    //this.option('period', 'period length, same as --period_length', String, '1h')",
+      "    //this.option('period_length', 'period length, same as --period', String, '1h')",
+      "    //this.option('min_periods', 'min. number of history periods', Number, 52)",
+      "    // ETHLERS_FT",
+      "    //this.option('period', 'period length, same as --period_length', String, '30m')",
+      "    //this.option('period_length', 'period length, same as --period', String, '30m')",
+      "    // MOMENTUM",
+      "    //this.option('period', 'period length, same as --period_length', String, '1h')",
+      "    //this.option('period_length', 'period length, same as --period', String, '1h')",
+      "    // -- common",
+      "    //sell_stop_pct: Phenotypes.Range0(1, 50),",
+      "    //buy_stop_pct: Phenotypes.Range0(1, 50),",
+      "    //profit_stop_enable_pct: Phenotypes.Range0(1, 20),",
+      "    //profit_stop_pct: Phenotypes.Range(1,20),",
+      "    //profit_stop_enable_pct: Phenotypes.RangeFloat(0.5, 1),",
+      "    //quarentine_time: Phenotypes.ListOption([240, 270, 300]),",
+      "    // macd",
+      "    // ehlers_ft",
+      "    // momentum"
+    ]
+  },
+  {
+    "file": "conf-example.js",
+    "comments": [
+      "/// This conf is for NEURAL strategy as a profitable sim example, use --period=1m",
+      "// mongo configuration",
+      "// when using mongodb replication, i.e. when running a mongodb cluster, you can define your replication set here; when you are not using replication (most of the users), just set it to `null` (default).",
+      "// default selector. only used if omitting [selector] argument from a command.",
+      "// name of default trade strategy",
+      "// Exchange API keys:",
+      "// to enable GDAX trading, enter your API credentials:",
+      "// to enable Poloniex trading, enter your API credentials:",
+      "// please note: poloniex does not support market orders via the API",
+      "// to enable Kraken trading, enter your API credentials:",
+      "// Please read API TOS on https://www.kraken.com/u/settings/api",
+      "// to enable Binance trading, enter your API credentials:",
+      "// to enable Bittrex trading, enter your API credentials:",
+      "// make sure to give your API key access to only: \"Trade Limit\" and \"Read Info\",",
+      "// please note that this might change in the future.",
+      "// please note that bittrex API is limited, you cannot use backfills or sims (paper/live trading only)",
+      "// to enable Bitfinex trading, enter your API credentials:",
+      "// May use 'exchange' or 'trading' wallet balances. However margin trading may not work...read the API documentation.",
+      "// to enable Bitstamp trading, enter your API credentials:",
+      "// A client ID is required on Bitstamp",
+      "// to enable CEX.IO trading, enter your API credentials:",
+      "// to enable Gemini trading, enter your API credentials:",
+      "// set to false to trade on the live platform API",
+      "// to enable hitBTC trading, enter your API credentials:",
+      "// to enable therock trading, enter your API credentials:",
+      "// Optional stop-order triggers:",
+      "// sell if price drops below this % of bought price (0 to disable)",
+      "// buy if price surges above this % of sold price (0 to disable)",
+      "// enable trailing sell stop when reaching this % profit (0 to disable)",
+      "// maintain a trailing stop this % below the high-water mark of profit",
+      "// Order execution rules:",
+      "// avoid trading at a slippage above this pct",
+      "// buy with this % of currency balance (WARNING : sim won't work properly if you set this value to 100)",
+      "// sell with this % of asset balance (WARNING : sim won't work properly if you set this value to 100)",
+      "// ms to adjust non-filled order after",
+      "// avoid selling at a loss below this pct set to 0 to ensure selling at a higher price...",
+      "// avoid buying at a loss above this pct set to 0 to ensure buying at a lower price...",
+      "// ms to poll order status",
+      "// ms to wait for settlement (after an order cancel)",
+      "// % to mark down buy price for orders",
+      "// % to mark up sell prie for orders",
+      "// become a market taker (high fees) or a market maker (low fees)",
+      "// when supported by the exchange, use post only type orders.",
+      "// Misc options:",
+      "// default # days for backfill and sim commands",
+      "// ms to poll new trades at",
+      "// amount of currency to start simulations with",
+      "// amount of asset to start simulations with",
+      "// for sim, reverse time at the end of the graph, normalizing buy/hold to 0",
+      "// number of periods to calculate RSI at",
+      "// period to record balances for stats",
+      "// avg. amount of slippage to apply to sim trades",
+      "// time to leave an order open, default to 1 day (this feature is not supported on all exchanges, currently: GDAX)",
+      "// Notifiers:",
+      "// xmpp config",
+      "// end xmpp configs",
+      "// pushbullets configs",
+      "// end pushbullets configs",
+      "// ifttt configs",
+      "// end ifttt configs",
+      "// slack config",
+      "// end slack config",
+      "// discord configs",
+      "// end discord configs",
+      "// prowl configs",
+      "// end prowl configs",
+      "// textbelt configs",
+      "// end textbelt configs",
+      "// output",
+      "// REST API"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "// the below line starts you at 0 threads",
+      "// the below line is for calculating the last mean vs the now mean.",
+      "      // Create the net the first time it is needed and NOT on every run",
+      "      // this thing is crazy run with trendline placed here. But there needs to be a coin lock so you dont buy late!",
+      "          //Learns",
+      "      // NORMAL onPeriod STUFF here",
+      "      //something strange is going on here",
+      "    // -- common",
+      "    // -- strategy",
+      "    // momentum and decay and learning rate are decimals?"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": []
+  },
+  {
+    "file": "strategy.js",
+    "comments": []
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // Sources",
+      "      // Renko"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "          // start with uptrend",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // compute Stochastic RSI",
+      "    // compute MACD",
+      "      // Buy signal",
+      "    // Sell signal",
+      "    // Hold",
+      "    //s.signal = null;",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // -- common",
+      "    // reference in extensions is given in ms have not heard of an exchange that supports 500ms thru api so setting min at 1 second",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with oversold RSI periods",
+      "    // wait for promise to be resolved",
+      "    // we add all maybe we need more indicators",
+      "    // calculate ema rate",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods",
+      "    // -- common",
+      "    // -- strategy",
+      "    // have to be minimum 2 because talib will throw an \"TA_BAD_PARAM\" error"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods",
+      "    // have to be minimum 2 because talib will throw an \"TA_BAD_PARAM\" error",
+      "    //    this.option('default_ma_type', 'set default ma_type for fast, slow and signal. You are able to overwrite single types separately (fast_ma_type, slow_ma_type, signal_ma_type)', String, 'SMA')"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods",
+      "    // have to be minimum 2 because talib will throw an \"TA_BAD_PARAM\" error"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    //'SMA','EMA','WMA','DEMA','TEMA','TRIMA','KAMA','MAMA','T3'",
+      "    //make sure we have all values",
+      "            // K is fast moving",
+      "          // -- common",
+      "          // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // this.option('rsi_periods', 'Time period for building the Fast-K line', Number, 14)",
+      "    //make sure we have all values",
+      "        // K is fast moving",
+      "    // -- common",
+      "    // -- strategy",
+      "    // rsi_periods: Phenotypes.Range(10, 30),"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods",
+      "          // use defensive indicator trigger",
+      "          // use recovery indicator trigger",
+      "          // lets got with the masses"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with overbought RSI periods",
+      "      // percentage change"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    //make sure we have all values",
+      "            // K is fast moving",
+      "          // -- common",
+      "          // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      //s.signal = 'sell'",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // calculate Bollinger Bands",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "      // sync RSI display with oversold RSI periods",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // when our current price is higher than what we recorded, overwrite",
+      "    // when our current price is lower than what we recorded, overwrite",
+      "    // sell logic",
+      "    // buy logic",
+      "    // repeat last signal",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "  // called first, but without lookback, working on s.period",
+      "      //s.period.vpt = s.lookback[0].volume + s.period.volume * ((s.period.close - s.lookback[0].close)/s.lookback[0].close)",
+      "      // if(s.trend == 'up')",
+      "      //   s.signal = 'buy'",
+      "      // else",
+      "      //   s.signal = 'sell'"
+    ]
+  },
+  {
+    "file": "strategy.js",
+    "comments": [
+      "    // calculate Wavetrend and EMA",
+      "            //console.log('\\n')",
+      "            //console.log(s.period.hcl3, s.period.wto, s.lookback[0].wto, s.buy_signal_close)",
+      "            //console.log('trend reversal, we should sell')",
+      "            //console.log('\\n')",
+      "            //console.log(s.period.hcl3, s.period.wto, s.lookback[0].wto, s.sell_signal_close)",
+      "            //console.log('trend reversal, we should buy')",
+      "          //console.log('\\n')",
+      "          //console.log(prev_wto, wto, prev_hcl3, hcl3, prev_ema, ema)",
+      "          //console.log('trend reversal, we should sell')",
+      "          //console.log('\\n')",
+      "          //console.log(prev_wto, wto, prev_hcl3, hcl3, prev_ema, ema)",
+      "          //console.log('trend reversal, we should buy')",
+      "          //console.log('\\n')",
+      "          //console.log(prev_wto, wto, prev_hcl3, hcl3, prev_ema, ema)",
+      "          //console.log('trend reversal, we should sell')",
+      "          //console.log('\\n')",
+      "          //console.log(prev_wto, wto, prev_hcl3, hcl3, prev_ema, ema)",
+      "          //console.log('trend reversal, we should buy')",
+      "              //console.log('\\n')",
+      "              //console.log(s.period.hcl3, s.period.wto, s.lookback[0].wto, s.buy_signal_close)",
+      "              //console.log('trend reversal, we should sell')",
+      "              //console.log('\\n')",
+      "              //console.log(s.period.hcl3, s.period.wto, s.lookback[0].wto, s.sell_signal_close)",
+      "              //console.log('trend reversal, we should buy')",
+      "    // -- common",
+      "    // -- strategy"
+    ]
+  },
+  {
+    "file": "adx.js",
+    "comments": [
+      "// ADX + DI"
+    ]
+  },
+  {
+    "file": "backtester.js",
+    "comments": [
+      "  //let wlMatch",
+      "  //let errMatch",
+      "  // This can retrieve the results from 2 different places.  It defaults to reading it from the json file",
+      "  // but if no file is found it will fall back to the older metheod of scraping the output of the sim process",
+      "  // stdio scraping to be removed after full verification of functionality.",
+      "  // todo: see above comment",
+      "  // If somehow the sim file failed to write, this will most often recover it by parsing the last output",
+      "    // Find everything between the first { and last }",
+      "    //wlMatch = (simulationResults.simresults.total_sells - simulationResults.simresults.total_losses) +'/'+ simulationResults.simresults.total_losses",
+      "    // this should return a general bad result but not throw an error",
+      "    // our job here is to use the result.  not diagnose an error at this point so a failing sim should just be ignored.",
+      "    // idea here is to make the fitness of this calculation as bad as possible so darwin won't use the combonation of parameters again.",
+      "    // todo:  make the result its own object, and in this function just set the values don't define the result here.",
+      "  //todo: figure out what this is trying to do.",
+      "  //delete r.fitnessCalcType",
+      "    // Adapted from sim.js logic to similarly figure out how much time is being processed",
+      "    // var genTotal = 0",
+      "    // var self = this",
+      "    // console.log(`simsAll: ${simsAll}, this.phenotypes: ${this.phenotypes.length}`);",
+      "              // Always pick the earliest one so it doesn't look like the number is jumping all over the place",
+      "      // console.log(`${c.iteration} currentTime: ${currentTime}, queryStart: ${c.queryStart}, queryEnd: ${c.queryEnd}, current: ${c.currentTimeString}`);",
+      "      // var timeSoFar = moment().diff(c.startTime);",
+      "      // console.log(`remaining: ${time} - ${timeSoFar} = ${time - timeSoFar}`);",
+      "      // timeLeft += time - timeSoFar;",
+      "        // 2018-01-25 06:18:00",
+      "        // console.log(`totalTime: ${totalTime} vs progress: ${progress}`);",
+      "        // console.log(`startTime: ${c.startTime}, timeElapsed: ${timeElapsed}, adding: ${timeElapsed / percentage}ms`);",
+      "    // timeLeft /= simsActive; // how many run at one time",
+      "      // process.stdout.write(\"\\u001b[1000D\") // Move left",
+      "    // z(8, n(s.period.trend_ema_rate).format('0.0000'), ' ')[color]",
+      "    //Clean up any generation files left over in the simulation directory",
+      "    //they will be overwritten, but best not to confuse the issue.",
+      "    //if it fails.   doesn't matter they will be overwritten anyways. not need to halt the system.",
+      "    // console.log(`[ ${command.iteration}/${populationSize * selectedStrategies.length} ] ${command.commandString}`)",
+      "        // console.log(`${command.iteration}: ${data}`)",
+      "          // console.log(`${command.iteration}: ${line}`)",
+      "            // console.log(`${command.iteration}: ${command.currentTimeString}`)"
+    ]
+  },
+  {
+    "file": "bollinger.js",
+    "comments": [
+      "// Bollinger Bands",
+      "    // skip calculation if result already presented as we use historical data only,",
+      "    // no need to recalculate for each individual trade"
+    ]
+  },
+  {
+    "file": "cci.js",
+    "comments": [
+      "/*",
+      "CCI = (Typical Price  -  20-period SMA of TP) / (.015 x Mean Deviation)",
+      "",
+      "Typical Price (TP) = (High + Low + Close)/3",
+      "",
+      "Constant = .015",
+      "",
+      "There are four steps to calculating the Mean Deviation. First, subtract the most recent 20-period average of the typical price from each period's",
+      "typical price. Second, take the absolute values of these numbers. Third,",
+      "sum the absolute values. Fourth, divide by the total number of periods (20).",
+      "*/"
+    ]
+  },
+  {
+    "file": "cmf.js",
+    "comments": [
+      "// Chaikin Money Flow"
+    ]
+  },
+  {
+    "file": "debug.js",
+    "comments": []
+  },
+  {
+    "file": "ema.js",
+    "comments": []
+  },
+  {
+    "file": "engine.js",
+    "comments": [
+      "  // eslint-disable-next-line no-unused-vars",
+      "      // treat as a no-op.",
+      "          // trigger immediate price adjustment and re-order",
+      "          // treat as a no-op.",
+      "          // treat as a no-op.",
+      "      //console.log('\\ncreated ' + order.status + ' ' + type + ' order: ' + formatAsset(order.size) + ' at ' + formatCurrency(order.price) + ' (total ' + formatCurrency(n(order.price).multiply(order.size)) + ')\\n')",
+      "  // if s.signal",
+      "  // 1. sync balance",
+      "  // 2. get quote",
+      "  // 3. calculate size/price",
+      "  // 4. validate size against min/max sizes",
+      "  // 5. cancel old orders",
+      "  // 6. place new order",
+      "  // 7. record order ID and start poll timer",
+      "  // 8. if not filled after timer, repeat process",
+      "  // 9. if filled, record order stats",
+      "      // order already placed",
+      "            // not enough balance, or signal switched.",
+      "            // order timed out but a new signal is taking its place",
+      "          // order timed out and needs adjusting",
+      "  // Called after an order has been completed.",
+      "  // trade_type is either 'buy' or 'sell'",
+      "    // Compute profit from the last order price.",
+      "          // Allow some catch-up if trades are too far apart. Don't want all calls happening at the same time",
+      "              // wait a bit for settlement",
+      "      // signal switched, stop checking order",
+      "        //s.action = null"
+    ]
+  },
+  {
+    "file": "format.js",
+    "comments": []
+  },
+  {
+    "file": "heikinAshi.js",
+    "comments": []
+  },
+  {
+    "file": "helpers.js",
+    "comments": [
+      "//Basic Usage",
+      "// let crossover = require('../../../lib/helpers').crossover,",
+      "// or",
+      "// const tv = require('../../../lib/helpers')",
+      "// ...",
+      "// s.period.hl2 = tv.hl2(s.period)",
+      "    /*",
+      "    xClose = (Open+High+Low+Close)/4",
+      "    xOpen = [xOpen(Previous Bar) + xClose(Previous Bar)]/2",
+      "    xHigh = Max(High, xOpen, xClose)",
+      "    xLow = Min(Low, xOpen, xClose)",
+      "    */",
+      "    // save haOpen",
+      "    /*",
+      "    xClose = (Open+High+Low+Close)/4",
+      "    xOpen = [xOpen(Previous Bar) + xClose(Previous Bar)]/2",
+      "    xHigh = Max(High, xOpen, xClose)",
+      "    xLow = Min(Low, xOpen, xClose)",
+      "    */",
+      "    // save haOpen",
+      "  // sample usage: let adjusted_lbks = s.lookback.map((period, i) => tv.src(period, s.options.src, s.lookback[i+1]))"
+    ]
+  },
+  {
+    "file": "highest.js",
+    "comments": []
+  },
+  {
+    "file": "kc.js",
+    "comments": [
+      "// Keltner Channels"
+    ]
+  },
+  {
+    "file": "lowest.js",
+    "comments": []
+  },
+  {
+    "file": "lrc.js",
+    "comments": [
+      "// Linear Regression Curve"
+    ]
+  },
+  {
+    "file": "momentum.js",
+    "comments": []
+  },
+  {
+    "file": "normalize-selector.js",
+    "comments": []
+  },
+  {
+    "file": "notify.js",
+    "comments": []
+  },
+  {
+    "file": "objectify-selector.js",
+    "comments": []
+  },
+  {
+    "file": "output.js",
+    "comments": []
+  },
+  {
+    "file": "phenotype.js",
+    "comments": [
+      "/*",
+      " * Zenbot 4 Genetic Backtester",
+      " * Clifford Roche <clifford.roche@gmail.com>",
+      " * 07/01/2017",
+      " */",
+      "      // if minTrades is set use an alternate fitness calculation to hone in on a trade stratagy that has the minimum trade count",
+      "      // once found use the normal fitness strsategy to find the best parameters.",
+      "      //let profit = phenotype.sim.profit",
+      "      // if minTrades is set use an alternate fitness calculation to hone in on a trade stratagy that has the minimum trade count",
+      "      // once found use the normal fitness strsategy to find the best parameters.",
+      "      //let vsBuyHoldRate = phenotype.sim.profit ",
+      "      // if minTrades is set use an alternate fitness calculation to hone in on a trade stratagy that has the minimum trade count",
+      "      // once found use the normal fitness strsategy to find the best parameters.",
+      "    // TODO: Refer to geneticalgorithm documentation on how to improve this with diverstiy"
+    ]
+  },
+  {
+    "file": "rsi.js",
+    "comments": []
+  },
+  {
+    "file": "sar.js",
+    "comments": [
+      "  // SAR#",
+      "  // EP",
+      "  // AF",
+      "  // tentative sar",
+      "  // SAR"
+    ]
+  },
+  {
+    "file": "collection-service.js",
+    "comments": []
+  },
+  {
+    "file": "consume-and-process-service.js",
+    "comments": [
+      "/**",
+      "  This service makes it easy do the the two step process of getting a bunch of resources,",
+      "  and then processing them.",
+      "",
+      "  You supply a function which calls the API, calls the database, reads a file, a socket, whatever.",
+      "    When the records are retrieved, they are pushed into the supplied queue.",
+      "",
+      "  You supply a function which dequeues the queue, and does something with the records. Somthing like",
+      "    calculating summary data, and/or storing them in a database.",
+      "",
+      "  Both functions you supply can exit with a code that indicates they are done, at which point the ",
+      "    consume-and-process process ends.",
+      "**/",
+      "      // Get things started"
+    ]
+  },
+  {
+    "file": "exchange-service.js",
+    "comments": [
+      "  // ASSUMES c.selector has been set, for example, with whatever command line parameters there may have been. ",
+      "  //  Not that this class would know anything about command line parameters. It just assumes.",
+      "      // hold comment",
+      "    // TODO: phase out in favor of calling exchange.getDirection()"
+    ]
+  },
+  {
+    "file": "resume-marker-service.js",
+    "comments": [
+      "  // ASSUMES c.selector has been set, for example, with whatever command line parameters there may have been. ",
+      "  //  Not that this class would know anything about command line parameters. It just assumes."
+    ]
+  },
+  {
+    "file": "trades-service.js",
+    "comments": [
+      "      //  check the database,",
+      "          //  if not the database, then check the exchange's api",
+      "              // this exchange uses time to get its trades. So before we call the exchange for",
+      "              //  this batch of trades, we'll need to get the trade object belonging to the ID",
+      "              //  that was passed in",
+      "              // TODO: We should just be able to pass the exchange the tradeId, and if it needs",
+      "              //  to get the trade object, it would do it itself. That keeps this tradesService",
+      "              //  more general.",
+      "          // add our internal id to the trade"
+    ]
+  },
+  {
+    "file": "slow_stochastic.js",
+    "comments": []
+  },
+  {
+    "file": "sma.js",
+    "comments": []
+  },
+  {
+    "file": "srsi.js",
+    "comments": [
+      "      //console.log('lib.srsi: For RSI', RSI[RSI.length - 1], '-', '%K is', s.period[key + '_K'], ', %D is', s.period[key + '_D'], ', period info', s.period);"
+    ]
+  },
+  {
+    "file": "stddev.js",
+    "comments": []
+  },
+  {
+    "file": "ta_bollinger.js",
+    "comments": [
+      "    //dont calculate until we have enough data",
+      "      //add current period",
+      "      //doublecheck length.",
+      "        // extract int from string input for ma_type",
+      "/**",
+      "     * Extract int from string input eg (SMA = 0)",
+      "     *",
+      "     * @see https://github.com/oransel/node-talib",
+      "     * @see https://github.com/markcheno/go-talib/blob/master/talib.go#L20",
+      "     */",
+      "  // no constant in lib?"
+    ]
+  },
+  {
+    "file": "ta_ema.js",
+    "comments": [
+      "    // create object for talib. only close is used for now but rest might come in handy",
+      "      //dont calculate until we have enough data",
+      "        //fillup marketData for talib.",
+      "        //this might need improvment for performance.",
+      "        //for (var i = 0; i < length; i++) {",
+      "        //  s.marketData.close.push(s.lookback[i].close);",
+      "        //}",
+      "        //fillup marketData for talib.",
+      "        //add current period",
+      "        //doublecheck length.",
+      "            //Result format: (note: outReal can have multiple items in the array)",
+      "            // {",
+      "            //   begIndex: 8,",
+      "            //   nbElement: 1,",
+      "            //   result: { outReal: [ 1820.8621111111108 ] }",
+      "            // }"
+    ]
+  },
+  {
+    "file": "ta_macd.js",
+    "comments": [
+      "    // check parameters",
+      "    // if (fast_period > slow_period) {",
+      "    //   console.log('incorrect parameters MACD. (fast_period < slow_period || signal_period > fast_period)')",
+      "    //   return;",
+      "    // }",
+      "    //create object for talib. only close is used for now but rest might come in handy",
+      "    //dont calculate until we have enough data",
+      "      // fillup marketData for talib.",
+      "      // add current period",
+      "        //Result format: (note: outReal  can have multiple items in the array)",
+      "        // {",
+      "        //   begIndex: 8,",
+      "        //   nbElement: 1,",
+      "        //   result: { outReal: [ 1820.8621111111108 ] }",
+      "        // }"
+    ]
+  },
+  {
+    "file": "ta_macd_ext.js",
+    "comments": [
+      "    // create object for talib. only close is used for now but rest might come in handy",
+      "    // Dont calculate until we have enough data",
+      "      //fillup marketData for talib.",
+      "      //add current period",
+      "        // Result format: (note: outReal  can have multiple items in the array)",
+      "        // {",
+      "        //   begIndex: 8,",
+      "        //   nbElement: 1,",
+      "        //   result: { outReal: [ 1820.8621111111108 ] }",
+      "        // }",
+      "/**",
+      "   * Extract int from string input eg (SMA = 0)",
+      "   *",
+      "   * @see https://github.com/oransel/node-talib",
+      "   * @see https://github.com/markcheno/go-talib/blob/master/talib.go#L20",
+      "   */",
+      "  // no constant in lib?"
+    ]
+  },
+  {
+    "file": "ta_ppo.js",
+    "comments": [
+      "    // create object for talib. only close is used for now but rest might come in handy",
+      "    // dont calculate until we have enough data",
+      "    // add current period",
+      "    // extract int from string input for ma_type",
+      "/**",
+      "   * Extract int from string input eg (SMA = 0)",
+      "   *",
+      "   * @see https://github.com/oransel/node-talib",
+      "   * @see https://github.com/markcheno/go-talib/blob/master/talib.go#L20",
+      "   */",
+      "  // no constant in lib?"
+    ]
+  },
+  {
+    "file": "ta_stoch.js",
+    "comments": [
+      "      //add current period",
+      "/**",
+      "     * Extract int from string input eg (SMA = 0)",
+      "     *",
+      "     * @see https://github.com/oransel/node-talib",
+      "     * @see https://github.com/markcheno/go-talib/blob/master/talib.go#L20",
+      "     */",
+      "  // no constant in lib?"
+    ]
+  },
+  {
+    "file": "ta_stochrsi.js",
+    "comments": [
+      "    // Returns the parameters needed to execute left comment for latter reference",
+      "    //var o = talib.explain('STOCHRSI')",
+      "      //add current period",
+      "    //dont calculate until we have enough data",
+      "      //doublecheck length.",
+      "        // extract int from string input for ma_type",
+      "/**",
+      "     * Extract int from string input eg (SMA = 0)",
+      "     *",
+      "     * @see https://github.com/oransel/node-talib",
+      "     * @see https://github.com/markcheno/go-talib/blob/master/talib.go#L20",
+      "     */",
+      "  // no constant in lib?"
+    ]
+  },
+  {
+    "file": "ta_trix.js",
+    "comments": [
+      "    // create object for talib. only close is used for now but rest might come in handy",
+      "    // add current period"
+    ]
+  },
+  {
+    "file": "ta_ultosc.js",
+    "comments": [
+      "    // create object for talib. only close is used for now but rest might come in handy"
+    ]
+  },
+  {
+    "file": "ta_volume.js",
+    "comments": [
+      "// allows to use all talib Volume Indicator Functions: https://mrjbq7.github.io/ta-lib/func_groups/volume_indicators.html",
+      "// AD - Chaikin A/D Line",
+      "// ADOSC - Chaikin A/D Oscillator",
+      "// OBV - On Balance Volume",
+      "    // create object for talib. only close is used for now but rest might come in handy"
+    ]
+  },
+  {
+    "file": "ta_willr.js",
+    "comments": [
+      "// tablib: WILLR - Williams' %R https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html",
+      "    // create object for talib. only close is used for now but rest might come in handy"
+    ]
+  },
+  {
+    "file": "tcf.js",
+    "comments": [
+      "// Trend Continuation Factor, by M.H. Pee"
+    ]
+  },
+  {
+    "file": "ti_bollinger.js",
+    "comments": [
+      "    //dont calculate until we have enough data",
+      "      //add current period",
+      "      //doublecheck length.",
+      "        // extract int from string input for ma_type"
+    ]
+  },
+  {
+    "file": "ti_hma.js",
+    "comments": [
+      "// Hull Moving Average:",
+      "// https://tulipindicators.org/hma"
+    ]
+  },
+  {
+    "file": "ti_macd.js",
+    "comments": [
+      "        //add current period"
+    ]
+  },
+  {
+    "file": "ti_rsi.js",
+    "comments": [
+      "    //dont calculate until we have enough data",
+      "      //add current period",
+      "      //doublecheck length.",
+      "        // extract int from string input for ma_type"
+    ]
+  },
+  {
+    "file": "ti_stoch.js",
+    "comments": [
+      "      //dont calculate until we have enough data",
+      "        //add current period",
+      "      // addCurrentPeriod"
+    ]
+  },
+  {
+    "file": "ti_stochrsi.js",
+    "comments": [
+      "    //dont calculate until we have enough data",
+      "      //add current period",
+      "      //doublecheck length.",
+      "        // extract int from string input for ma_type",
+      "            // 0 oldest -- end newest"
+    ]
+  },
+  {
+    "file": "vma.js",
+    "comments": [
+      "// Variable Moving Average, by Tushar S. Chande",
+      "// VMA automatically adjusts its smoothing constant on the basis of Market Volatility"
+    ]
+  },
+  {
+    "file": "vwap.js",
+    "comments": []
+  },
+  {
+    "file": "wto.js",
+    "comments": []
+  },
+  {
+    "file": "Queue.js",
+    "comments": [
+      "//module.exports = (function container (get, set, clear) {",
+      "//code.stephenmorley.org",
+      "/*return*/",
+      "//})"
+    ]
+  },
+  {
+    "file": "post_install.js",
+    "comments": []
+  },
+  {
+    "file": "backtester.js",
+    "comments": [
+      "/* Zenbot 4 Auto Backtester v2.0",
+      " * glennfu",
+      " *",
+      " * Usage: Pass in the same parameters as you would to \"zenbot sim\", EXCEPT for:",
+      " * 2 parameters you want to be backtested",
+      " *",
+      " * Imagine you've just run:",
+      " *",
+      " *    ./scripts/genetic_backtester/darwin.js --days=1 --asset_capital=0 --currency_capital=500 --selector=\"binance.EOS-BTC\" --population=20 --use_strategies=trend_ema",
+      " *",
+      " * and got the following result:",
+      " *",
+      " *    ./zenbot.sh sim binance.EOS-BTC --avg_slippage_pct=0.045 --buy_stop_pct=40 --markdown_buy_pct=0.37804270974174603 --markup_sell_pct=4.088646046027306 --max_buy_loss_pct=25 --max_sell_loss_pct=25 --max_slippage_pct=5 --min_periods=7 --neutral_rate=auto --order_poll_time=5000 --order_type=maker --oversold_rsi=78 --oversold_rsi_periods=15 --period=73m --period_length=73m --profit_stop_enable_pct=2 --profit_stop_pct=5 --rsi_periods=15 --sell_stop_pct=0 --strategy=trend_ema --trend_ema=4 --start=201802251900 --asset_capital=0 --currency_capital=500",
+      " *",
+      " * which performs like:",
+      " *     end balance: 500.34778000 (0.06%)",
+      " *     buy hold: 500.98047787 (0.19%)",
+      " *     vs. buy hold: -0.13%",
+      " *     2 trades over 3 days (avg 0.66 trades/day)",
+      " *     win/loss: 1/0",
+      " *     error rate: 0.00%",
+      " *",
+      " * To use the Auto Backtester, simply remove one or two parameters that are in strategies/trend_ema/strategy.js's phenotype definition.",
+      " * Let's remove `order_type` and `oversold_rsi`",
+      " *",
+      " *    ./zenbot.sh sim binance.EOS-BTC --avg_slippage_pct=0.045 --buy_stop_pct=40 --markdown_buy_pct=0.37804270974174603 --markup_sell_pct=4.088646046027306 --max_buy_loss_pct=25 --max_sell_loss_pct=25 --max_slippage_pct=5 --min_periods=7 --neutral_rate=auto --order_poll_time=5000 --oversold_rsi_periods=15 --period=73m --period_length=73m --profit_stop_enable_pct=2 --profit_stop_pct=5 --rsi_periods=15 --sell_stop_pct=0 --strategy=trend_ema --trend_ema=4 --start=201802251900 --asset_capital=0 --currency_capital=500",
+      " *",
+      " * Now pass this to backtester.js and add a step_size, like 10, and re-add days=1 from darwin",
+      " *",
+      " *    ./scripts/auto_backtester/backtester.js --step_size=10 --days=1 --selector=binance.EOS-BTC --avg_slippage_pct=0.045 --buy_stop_pct=40 --markdown_buy_pct=0.37804270974174603 --markup_sell_pct=4.088646046027306 --max_buy_loss_pct=25 --max_sell_loss_pct=25 --max_slippage_pct=5 --min_periods=7 --neutral_rate=auto --order_poll_time=5000 --oversold_rsi_periods=15 --period=73m --period_length=73m --profit_stop_enable_pct=2 --profit_stop_pct=5 --rsi_periods=15 --sell_stop_pct=0 --strategy=trend_ema --trend_ema=4 --start=201802251900 --asset_capital=0 --currency_capital=500",
+      " *",
+      " * See output:",
+      " *",
+      " *   Auto Backtest of order_type and oversold_rsi completed at 2018-02-27 15:43:28, took 0m 7s, results saved to:",
+      " *   simulations/auto_backtest_201802271543/results_auto_backtest_201802271543.csv",
+      " *",
+      " *",
+      " *   Best Result had order_type=taker and oversold_rsi=73",
+      " *   (trend_ema) Result Fitness 0.006083518953845421, VS Buy and Hold:   0.3% BuyAndHold Balance: 500.980477  End Balance: 502.504339, Wins/Losses 1/0, ROI 0.000000.",
+      " *   ./zenbot.sh sim binance.EOS-BTC --period_length=73m --min_periods=7 --markdown_buy_pct=0.37804270974174603 --markup_sell_pct=4.088646046027306 --order_type=taker --sell_stop_pct=0 --buy_stop_pct=40 --profit_stop_enable_pct=2 --profit_stop_pct=5 --trend_ema=4 --oversold_rsi_periods=15 --oversold_rsi=73 --backtester_generation=16 --strategy=trend_ema --days=1 --avg_slippage_pct=0.045 --max_buy_loss_pct=25 --max_sell_loss_pct=25 --max_slippage_pct=5 --neutral_rate=auto --order_poll_time=5000 --rsi_periods=15 --start=201802251900 --asset_capital=0 --currency_capital=500",
+      " *",
+      " * So you can see our vsBuyHold has gone from -0.13% to 0.30%, an improvement!",
+      "*/",
+      "  // If you're iterating through a set, do the whole set regardless of step_size",
+      "  // If we have 2 keys, build all combinations of both, otherwise just loop through the 1 key values",
+      "  // Remove duplicates in case something is screwy in combination with step_size higher than the number of options.",
+      "  // No sense in re-running the same thing multiple times",
+      "    // console.log(`results(${results.length}): ${JSON.stringify(results)}`)",
+      "      // console.log(`it: ${JSON.stringify(it)}`)",
+      "    // If we didn't sort them before, definitely sort them now to get the best one",
+      "    // Display best of the generation"
+    ]
+  },
+  {
+    "file": "backtester_trust_distrust.js",
+    "comments": [
+      "/* Zenbot 4.04 Backtester v0.2",
+      " * Ali Anari <ali@anari.io>",
+      " * 05/30/2017",
+      " *",
+      " * Usage: Pass in the same parameters as you would to \"zenbot sim\", EXCEPT for:",
+      " * EMA Parameters: \"trend_ema\", \"neutral_rate\"",
+      " * RSI Parameters: \"oversold_rsi\", \"oversold_rsi_periods\"",
+      " *",
+      " * Example: ./backtester.js gdax.ETH-USD --days=10 --currency_capital=5 --period_length=1m",
+      "*/"
+    ]
+  },
+  {
+    "file": "darwin.js",
+    "comments": [
+      "/* Zenbot 4 Genetic Backtester",
+      " * Clifford Roche <clifford.roche@gmail.com>",
+      " * 07/01/2017",
+      " *",
+      " * Example: ./darwin.js --selector=\"bitfinex.ETH-USD\" --days=\"10\" --currency_capital=\"5000\" --use_strategies=\"all | macd,trend_ema,etc\" --population=\"101\" --population_data=\"simulations/generation_data_NUMBERS\"",
+      " * Params:",
+      " * --use_strategies=<strategy_name>       One or more strategies comma separated. Requires at least one named strategy. ",
+      " * --population_data=<filename>           The filename used for continuing backtesting from a previous run.",
+      " * --generateLaunch=<true>|<false>        Generate .sh and .bat files using the best generation discovered.",
+      " * --ignoreLaunchFitness=<true>|<false>   If used with --generateLaunch it will always write a new launch file regardless of if the latest fitness is greater.",
+      " * --floatScanWindow                      Time window used for analyzing data be adjusted for every generation.",
+      " * --population=<int>                     Population per strategy.",
+      " * --maxCores=<int>                       Maximum processes to execute at a time. Default is the # of cpu cores in the system.",
+      " * --selector=<exchange.marketPair>       The exchange and market pair to target. For example, --selector=gdax.BTC-USDC for Coinbase Pro market with Bitcoin-USDCoin pair.",
+      " * --asset_capital=<float>                Amount of coin available to the simulator to start with.",
+      " * --currency_capital=<float>             Amount of capital/base currency available to the sim to start with.",
+      " * --days=<int>                           Amount of days to use when backfilling. ",
+      " * --noStatSave=<true>|<false>            Set to true and statistics will not be saved to the simulation folder.",
+      " * --silent=<true>|<false>                Setting to true may improve performance.",
+      " * --runGenerations=<int>                 Set the number of generations to be used. Count shown is zero based so, count + 1 = # of generations.",
+      " * --minTrades=<int>                      Minimum number of wins before generation is considured fit to evolve.",
+      " * --fitnessCalcType=<wl / profit / classic / profitwl> Default: Classic. wl will score the highes for wins and losses, profit doesn't care about wins and losses only the higest end balance, classic uses original claculation / profitwl tries to get the highest profit using the lowest win/loss ratio",
+      " *",
+      " *",
+      " * Any parameters for sim and/or strategy can be passed in and will override the genetic test generated parameters.",
+      " * i.e. if --period_length=1m is passed all tests will be performed using --period_length=1m instead of trying to find that parameter.",
+      " *",
+      " */",
+      "// eslint-disable-next-line no-unused-vars",
+      "//let floatScanWindow = false",
+      "      // selector should be at start before keys",
+      "// Find the first incomplete generation of this session, where incomplete means no \"results\" files",
+      "  //let lConfiguration = configuration.replace(' sim ', ' trade ')",
+      "  // get prior fitness level nix",
+      "  // get prior firness level win32",
+      "  //write Nix Version",
+      "    // using the string instead of octet as eslint compaines about an invalid number if the number starts with 0",
+      "  // Find the first incomplete generation of this session, where incomplete means no \"results\" files",
+      "          // Found a complete and cached sim, don't run anything, just forward the results of it",
+      "        // Default flow, build the command to run, and cache it so there's no need to duplicate work when resuming",
+      "    //Display best of the generation",
+      "      // prepare command snippet from top result for this strat",
+      "    // let bestOverallCommand = generateCommandParams(bestOverallResult[0])",
+      "    // bestOverallCommand = prefix + bestOverallCommand",
+      "    // bestOverallCommand = bestOverallCommand + ' --asset_capital=' + argv.asset_capital + ' --currency_capital=' + argv.currency_capital",
+      "//floatScanWindow = (argv.floatScanWindow) ? argv.floatScanWindow : false",
+      "      // skip it",
+      "// BEGIN - exitHandler",
+      "//catches ctrl+c event",
+      "// catches \"kill pid\" (for example: nodemon restart)",
+      "//catches uncaught exceptions",
+      "// END - exitHandler"
+    ]
+  },
+  {
+    "file": "custom.js",
+    "comments": [
+      "/*jslint browser: true*/",
+      "/*global $, jQuery, alert*/",
+      "  /* ===========================================================",
+      "      Loads the correct sidebar on window load.",
+      "      collapses the sidebar on window resize.",
+      "      Sets the min-height of #page-wrapper to window size.",
+      "  =========================================================== */",
+      "        /* ===== This is for resizing window ===== */",
+      "  /* ===== Tooltip Initialization ===== */",
+      "  /* ===== Popover Initialization ===== */",
+      "  /* ===== Task Initialization ===== */",
+      "  /* ===== Collepsible Toggle ===== */",
+      "  /* ===== Sidebar ===== */",
+      "  /* ===== Resize all elements ===== */",
+      "  /* ===== Visited ul li ===== */",
+      "  /* ===== Login and Recover Password ===== */",
+      "  /* =================================================================",
+      "      Update 1.5",
+      "      this is for close icon when navigation open in mobile view",
+      "  ================================================================= */"
+    ]
+  },
+  {
+    "file": "jquery.slimscroll.js",
+    "comments": []
+  },
+  {
+    "file": "engine.test.js",
+    "comments": [
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "        // no longer taking held assets into account with no buy_max",
+      "        /*",
+      "        it('and held assets should use adjusted buy_pct', function(){",
+      "          // arrange",
+      "          var signal_type = 'buy'",
+      "          var currency_amount = 1.0",
+      "          var buy_pct = 50",
+      "          var deposit = undefined",
+      "          var order_type = 'maker'",
+      "          var held_asset = 0.5",
+      "          var buy_spy = jasmine.createSpy('buy')",
+      "          var sut = createEngine(currency_amount, buy_pct, deposit, order_type, held_asset, buy_spy)",
+      "          // act",
+      "          sut.executeSignal(signal_type)",
+      "          // assert",
+      "          var expected = '4.93950000'",
+      "          var buyArgs = buy_spy.calls.mostRecent().args[0]",
+      "          expect(buyArgs.size).toBe(expected)",
+      "        })",
+      "        it('and held assets so large adjusted buy_pct is below order minimum should not place order', function(){",
+      "          // arrange",
+      "          var signal_type = 'buy'",
+      "          var currency_amount = 1.0",
+      "          var buy_pct = 50",
+      "          var deposit = undefined",
+      "          var order_type = 'maker'",
+      "          var held_asset = 10.25\t\t\t\t",
+      "          var buy_spy = jasmine.createSpy('buy')",
+      "          var sut = createEngine(currency_amount, buy_pct, deposit, order_type, held_asset, buy_spy)",
+      "          // act",
+      "          sut.executeSignal(signal_type)",
+      "          // assert",
+      "          expect(buy_spy).not.toHaveBeenCalled()",
+      "        })",
+      "        */",
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "          // arrange",
+      "          // act",
+      "          // assert",
+      "        /*",
+      "        it('and held assets should use adjusted buy_pct', function(){",
+      "          // arrange",
+      "          var signal_type = 'buy'",
+      "          var currency_amount = 1.0",
+      "          var buy_pct = 50",
+      "          var deposit = undefined",
+      "          var order_type = 'taker'",
+      "          var held_asset = 0.5\t\t\t\t",
+      "          var buy_spy = jasmine.createSpy('buy')",
+      "          var sut = createEngine(currency_amount, buy_pct, deposit, order_type, held_asset, buy_spy)",
+      "          // act",
+      "          sut.executeSignal(signal_type)",
+      "          // assert",
+      "          var expected = '4.93455555'",
+      "          var buyArgs = buy_spy.calls.mostRecent().args[0]",
+      "          expect(buyArgs.size).toBe(expected)",
+      "        })",
+      "        it('and held assets so large adjusted buy_pct is below order minimum should not place order', function(){",
+      "          // arrange",
+      "          var signal_type = 'buy'",
+      "          var currency_amount = 1.0",
+      "          var buy_pct = 50",
+      "          var deposit = undefined",
+      "          var order_type = 'taker'",
+      "          var held_asset = 5.25\t\t\t\t",
+      "          var buy_spy = jasmine.createSpy('buy')",
+      "          var sut = createEngine(currency_amount, buy_pct, deposit, order_type, held_asset, buy_spy)",
+      "          // act",
+      "          sut.executeSignal(signal_type)",
+      "          // assert",
+      "          expect(buy_spy).not.toHaveBeenCalled()",
+      "        })",
+      "        */"
+    ]
+  },
+  {
+    "file": "format.test.js",
+    "comments": []
+  },
+  {
+    "file": "rsi.test.js",
+    "comments": []
+  },
+  {
+    "file": "srsi.test.js",
+    "comments": []
+  },
+  {
+    "file": "collectionService.mock.factory.js",
+    "comments": [
+      "/*",
+      "        By default, returns a mock collection service, which has",
+      "        - a method getTrades(), which simulates two trade records in the DB",
+      "        - a method getResumeMarkers(), ",
+      "    */"
+    ]
+  },
+  {
+    "file": "consumeAndProcessService.mock.factory.js",
+    "comments": []
+  },
+  {
+    "file": "exchangeService.mock.factory.js",
+    "comments": [
+      "/*",
+      "        By default, returns a mock exchange service, which has",
+      "        a backward history scan, and returns two mock trades.",
+      "    */"
+    ]
+  },
+  {
+    "file": "resumeMarkerService.mock.factory.js",
+    "comments": [
+      "  // resume-marker service"
+    ]
+  },
+  {
+    "file": "tradeService.mock.factory.js",
+    "comments": [
+      "/*",
+      "        By default, returns a mock trade service, which",
+      "        returns no trades.",
+      "",
+      "        Set opts.tradesArray to return trades. Y'know, in a mock, or something.",
+      "    */"
+    ]
+  },
+  {
+    "file": "backfill.consume.function.test.js",
+    "comments": []
+  },
+  {
+    "file": "backfill.function.test.js",
+    "comments": [
+      "    // DEBUGGING ",
+      "      // application specific logging, throwing an error, or other logic here"
+    ]
+  },
+  {
+    "file": "backfill.process.function.test.js",
+    "comments": [
+      "  // TODO",
+      "      // TODO: How to check that theFunction only called the mockCollectionService twice? ",
+      "      //  Because there should only be two inserts when the third is reported as 'already seen'."
+    ]
+  },
+  {
+    "file": "collections-service.test.js",
+    "comments": []
+  },
+  {
+    "file": "consume-and-process-service.test.js",
+    "comments": [
+      "        //",
+      "        // imagine we get some records from somewhere.",
+      "        // then imagine we push the records on the queue",
+      "        // decide what to tell our callback function\t\t\t\t",
+      "        // exit by calling the supplied callback",
+      "        // process the records somehow",
+      "          /* do something */",
+      "          /* set var if this record passed our targetTimeInMillis */",
+      "          /* remember the most recently processed record, so we can pass it back */"
+    ]
+  },
+  {
+    "file": "exchange-service.test.js",
+    "comments": []
+  },
+  {
+    "file": "resume-marker-service.test.js",
+    "comments": [
+      "      // TODO: Test what happens if you give the same number. It should return that to you as the farthest so far.",
+      "      // break from happy path -- skip the next sequential record, should start a new range",
+      "      //var trade4 = {trade_id:2997, time:1517787104892};",
+      "      // now, throw some salt in the game, ping the record we skipped earlier",
+      "      // TODO: Test what happens if you give the same number. It should return that to you as the farthest so far.",
+      "      // break from happy path -- skip the next sequential record, should start a new range",
+      "      //var trade4 = {trade_id:3004, time:1517787104906};",
+      "      // now, throw some salt in the game, ping the record we skipped earlier",
+      "      // this should already be in range",
+      "      // this should already be in range"
+    ]
+  },
+  {
+    "file": "trades-service.test.js",
+    "comments": []
+  },
+  {
+    "file": "app.js",
+    "comments": [
+      "// Import Bootstrap"
+    ]
+  },
+  {
+    "file": "echarts.js",
+    "comments": []
+  },
+  {
+    "file": "webpack.config.js",
+    "comments": []
+  },
+  {
+    "file": "zenbot.js",
+    "comments": []
+  }
+]

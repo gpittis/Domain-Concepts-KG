@@ -1,0 +1,6433 @@
+[
+  [
+    {
+      "file": "boot"
+    },
+    {
+      "imports": [
+        "lodash",
+        "path",
+        "minimist",
+        "",
+        "events",
+        "",
+        "sample",
+        "mongodb"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "path",
+        "minimist",
+        "",
+        "event emitter",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill consume"
+    },
+    {
+      "imports": [
+        "trades"
+      ]
+    },
+    {
+      "global_variables": [
+        "trades"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "consume",
+        "backfill",
+        "backfill",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "consume",
+        "backfill consume",
+        "backfill",
+        "backfill"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "collection"
+      ]
+    },
+    {
+      "global_variables": [
+        "collection"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "crypto",
+        "objectify selector",
+        "collection",
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "crypto",
+        "objectify selector",
+        "collection",
+        "moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "balance"
+    },
+    {
+      "imports": [
+        "minimist",
+        "numbro",
+        "colors",
+        "moment",
+        "exchange",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "",
+        "colors",
+        "moment",
+        "exchange"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "minimist",
+        "numbro",
+        "colors",
+        "objectify selector",
+        "engine",
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "",
+        "colors",
+        "objectify selector",
+        "engine factory",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "selectors"
+    },
+    {
+      "imports": [
+        "colors",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "colors",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategies"
+    },
+    {
+      "imports": [
+        "",
+        "colors"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "colors"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "minimist",
+        "timebucket",
+        "exchange",
+        "objectify selector",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "",
+        "exchange",
+        "objectify selector",
+        "backfill"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sell"
+    },
+    {
+      "imports": [
+        "minimist",
+        "numbro",
+        "colors",
+        "objectify selector",
+        "engine"
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "",
+        "colors",
+        "objectify selector",
+        "engine factory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sim"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "minimist",
+        "numbro",
+        "",
+        "path",
+        "moment",
+        "colors",
+        "objectify selector",
+        "engine",
+        "collection",
+        "jsonexport",
+        "lodash",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "minimist",
+        "",
+        "",
+        "path",
+        "moment",
+        "colors",
+        "objectify selector",
+        "engine factory",
+        "collection",
+        "jsonexport",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "opts",
+            "collection cursor",
+            "trades",
+            "collection cursor stream",
+            "trades",
+            "trade",
+            "collection cursor"
+          ]
+        },
+        {
+          "name": "collection cursor",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trade"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "minimist",
+        "numbro",
+        "",
+        "path",
+        "child",
+        "moment",
+        "crypto",
+        "readline",
+        "colors",
+        "",
+        "cliff",
+        "output",
+        "objectify selector",
+        "engine",
+        "collection",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "minimist",
+        "",
+        "",
+        "path",
+        "spawn",
+        "moment",
+        "crypto",
+        "readline",
+        "colors",
+        "",
+        "cliff",
+        "output",
+        "objectify selector",
+        "engine factory",
+        "collection",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sample"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "colors",
+        "lodash",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path",
+        "colors",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "colors",
+        "lodash",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path",
+        "colors",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "bitfinex node",
+        "minimist",
+        "path",
+        "numbro",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "bfx",
+        "minimist",
+        "path",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "bitstamp",
+        "path",
+        "",
+        "numbro",
+        "lodash",
+        "mongodb",
+        "",
+        "events",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "bitstamp",
+        "path",
+        "web",
+        "",
+        "",
+        "",
+        "apiurl",
+        "",
+        "opts"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "pair",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "prod",
+            "pair"
+          ]
+        },
+        {
+          "name": "product",
+          "params": [
+            "product"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "bitstamp",
+          "params": [
+            "selector"
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "node bittrex",
+        "node bittrex",
+        "numbro",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "bittrex authed",
+        "bittrex",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "order"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "cexio node",
+        "path",
+        "numbro",
+        "minimist",
+        "lodash",
+        "",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "cex",
+        "path",
+        "",
+        "minimist",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "coinbase pro",
+        "minimist",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "gdax",
+        "minimist"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "coinbase pro",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "gdax",
+        "",
+        "",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "gemini",
+        "path",
+        "minimist",
+        "colors",
+        "numbro",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "gemini",
+        "path",
+        "minimist",
+        "colors",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "kraken",
+        "minimist",
+        "moment",
+        "numbro",
+        "colors",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "kraken",
+        "minimist",
+        "moment",
+        "",
+        "colors"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "poloniex",
+        "moment",
+        "numbro",
+        "colors",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "poloniex",
+        "moment",
+        "",
+        "colors"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "path",
+        "numbro",
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        "path",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "superagent",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "superagent"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "codemap"
+    },
+    {
+      "imports": [
+        "exchange"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "exchanges stub",
+        "exchanges"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "adamant"
+    },
+    {
+      "imports": [
+        "adamant"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "discord"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ifttt"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "prowl"
+    },
+    {
+      "imports": [
+        "node prowl"
+      ]
+    },
+    {
+      "global_variables": [
+        "prowl"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pushbullet"
+    },
+    {
+      "imports": [
+        "pushbullet"
+      ]
+    },
+    {
+      "global_variables": [
+        "pusher"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pushover"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "slack"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "incoming webhook"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "telegram"
+    },
+    {
+      "imports": [
+        "node telegram bot"
+      ]
+    },
+    {
+      "global_variables": [
+        "telegram bot"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "wrapper",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "textbelt"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "xmpp"
+    },
+    {
+      "imports": [
+        "simple xmpp"
+      ]
+    },
+    {
+      "global_variables": [
+        "simplexmpp"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "express",
+        "random",
+        "path",
+        "moment",
+        "express rate",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "reporter",
+            "trade"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            "trade"
+          ],
+          "local_variables": [
+            "datas"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "codemap"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "output"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "bollinger",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "ema",
+        "srsi",
+        "cci",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "ema",
+        "srsi",
+        "cci",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "vwap",
+        "ema",
+        "sma",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "vwap",
+        "ema",
+        "sma",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "trend",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "trend",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "ema",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "phenotype",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "phenotypes",
+        "",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "phenotype",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "phenotypes",
+        "crossover",
+        "crossunder",
+        "",
+        "iff",
+        "",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "phenotype",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "phenotypes",
+        "crossover",
+        "crossunder",
+        "",
+        "",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "",
+        "lowest",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        "lowest",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "phenotype",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "phenotypes",
+        "crossover",
+        "crossunder",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "resolve",
+          "params": [
+            "src",
+            "fallback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "donchian",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "intersect",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "kumo",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "kumo",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "kumo",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "kumo",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "target",
+            "target"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "target",
+            "target"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calc cross",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "intersect",
+            "",
+            "",
+            "",
+            "score"
+          ]
+        },
+        {
+          "name": "calc cross",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "intersect",
+            "",
+            "",
+            "",
+            "score"
+          ]
+        },
+        {
+          "name": "calc kumo breakout",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "score"
+          ]
+        },
+        {
+          "name": "calc senkou cross",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "score"
+          ]
+        },
+        {
+          "name": "calc chikou cross",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "score"
+          ]
+        },
+        {
+          "name": "calc price placement",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "score"
+          ]
+        },
+        {
+          "name": "calc chikou placement",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "ema",
+        "rsi",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "ema",
+        "rsi",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "momentum",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "momentum",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "strategy",
+        "strategy",
+        "strategy",
+        "strategy",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "pivot",
+        "macd",
+        "ehlers",
+        "momentum",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "convnetjs",
+        "",
+        "numbro",
+        "ema",
+        "phenotype",
+        "cluster"
+      ]
+    },
+    {
+      "global_variables": [
+        "convnetjs",
+        "",
+        "",
+        "ema",
+        "phenotypes",
+        "cluster",
+        "oldmean",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "learn",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "real",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "predict",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "predicted"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "renko",
+          "params": [
+            "",
+            "",
+            "prclose",
+            "propen"
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "renko",
+          "params": [
+            "",
+            "",
+            "prclose",
+            "propen"
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "phenotype",
+        "engine"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "phenotypes",
+        "asset currency",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "ema",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "srsi",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "srsi",
+        "ema",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "stats lite",
+        "mathjs",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "stats",
+        "math",
+        "ema",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "ema",
+        "rsi",
+        "stddev",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "ema",
+        "rsi",
+        "stddev",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "macd",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "macd",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "macd ext",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "macd ext",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "ppo",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "ppo",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "stochrsi",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "srsi",
+        "bollinger",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "stoch",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "stoch",
+        "bollinger",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "trix",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "trix",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "ultosc",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "ultosc",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "tulip bollinger",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "rsi",
+        "hma",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "rsi",
+        "hma",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "stoch",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "tulip stoch",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "stoch",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "stoch",
+        "bollinger",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "mathjs",
+        "trend",
+        "",
+        "numbro",
+        "stats lite",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "math",
+        "trend",
+        "",
+        "",
+        "stats",
+        "ema",
+        "phenotypes",
+        "oldgrowth",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "bollinger",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "ema",
+        "rsi",
+        "stddev",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "ema",
+        "rsi",
+        "stddev",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "",
+        "numbro",
+        "wto",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "wto",
+        "ema",
+        "phenotypes",
+        "",
+        "",
+        "phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calculate",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "adx"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtester"
+    },
+    {
+      "imports": [
+        "lodash",
+        "moment",
+        "yargs",
+        "timebucket",
+        "readline",
+        "",
+        "numbro",
+        "shelljs",
+        "strip ansi",
+        "path",
+        "",
+        "precision",
+        "phenotype",
+        "child"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "moment",
+        "",
+        "",
+        "readline",
+        "",
+        "",
+        "",
+        "strip ansi",
+        "path",
+        "",
+        "roundp",
+        "phenotypes",
+        "spawn",
+        "sim",
+        "sim",
+        "parallel",
+        "",
+        "output",
+        "",
+        "existence",
+        "monitor"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "output",
+          "params": [
+            "output",
+            "task strategy",
+            "pheno"
+          ],
+          "local_variables": [
+            "selector",
+            "",
+            "simulation",
+            "output",
+            "",
+            "asset price",
+            "assest",
+            "asset capital",
+            "profit",
+            "capital",
+            "balance",
+            "",
+            "",
+            "wins",
+            "losses",
+            "rate",
+            "days",
+            "",
+            "",
+            "json",
+            "roi",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "days",
+            "selector"
+          ],
+          "local_variables": [
+            "zenbot cmd",
+            "command"
+          ]
+        },
+        {
+          "name": "existence",
+          "params": [
+            "path"
+          ],
+          "local_variables": [
+            "dirname"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "lint",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "path",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "backfill",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "command",
+          "params": [
+            "task strategy",
+            "phenotype",
+            "filename"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "command",
+          "params": [
+            "task strategy",
+            "phenotype",
+            "command",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "monitor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "monitor",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "monitor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "track phenotype",
+          "params": [
+            "phenotype"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bollinger"
+    },
+    {
+      "imports": [
+        "bollinger bands"
+      ]
+    },
+    {
+      "global_variables": [
+        "bollingerbands"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cci"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cmf"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "boot",
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "boot",
+        "moment",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "flip",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ema"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "engine"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "moment",
+        "",
+        "numbro",
+        "colors",
+        "abbreviate",
+        "readline",
+        "path",
+        "lodash",
+        "notify",
+        "rsi",
+        "",
+        "lolex",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "moment",
+        "",
+        "",
+        "colors",
+        "abbreviate",
+        "readline",
+        "path",
+        "",
+        "notify",
+        "rsi",
+        "",
+        "lolex",
+        "",
+        "clock",
+        "nice"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            "order"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "numbro"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "asset",
+          "params": [
+            "amt",
+            "asset"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "percent",
+          "params": [
+            "ratio"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "currency",
+          "params": [
+            "amt",
+            "currency",
+            "omit currency",
+            "color trick",
+            "pad"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "heikin ashi"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "crossover",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crossunder",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crossover",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crossunder",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "src"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "iff",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "hlc",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ohlc",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ahlc",
+          "params": [
+            "period",
+            "lookback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "aohlc",
+          "params": [
+            "period",
+            "lookback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "src",
+          "params": [
+            "src",
+            "period",
+            "lookback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "adjust pct",
+          "params": [
+            "pct",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "pivot",
+          "params": [
+            "",
+            "bars",
+            "bars"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "keltnerchannel"
+      ]
+    },
+    {
+      "global_variables": [
+        "keltnerchannel"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "lowest"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "lrc"
+    },
+    {
+      "imports": [
+        "regression"
+      ]
+    },
+    {
+      "global_variables": [
+        "regression"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "momentum"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "normalize selector"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "notify"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "objectify selector"
+    },
+    {
+      "imports": [
+        "normalize selector"
+      ]
+    },
+    {
+      "global_variables": [
+        "normalize selector"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "output"
+    },
+    {
+      "imports": [
+        "path"
+      ]
+    },
+    {
+      "global_variables": [
+        "path"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "output",
+          "params": [
+            "trade"
+          ],
+          "local_variables": [
+            "output"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "phenotype"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "random chance",
+        "mutation chance",
+        "crossover chance"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "strategy"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "mutation",
+          "params": [
+            "phenotype",
+            "strategy"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crossover",
+          "params": [
+            "phenotype",
+            "phenotype",
+            "strategy"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "fitness",
+          "params": [
+            "phenotype"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "competition",
+          "params": [
+            "phenotype",
+            "phenotype"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "factor",
+          "params": [
+            "",
+            "",
+            "factor"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "period",
+          "params": [
+            "",
+            "",
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rsi"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "precision"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "precision",
+          "params": [
+            "",
+            "precision"
+          ],
+          "local_variables": [
+            "factor"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sar"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "collection"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "consume"
+    },
+    {
+      "imports": [
+        "events",
+        "marker",
+        "queue"
+      ]
+    },
+    {
+      "global_variables": [
+        "events",
+        "markers"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "objectify selector",
+        "path"
+      ]
+    },
+    {
+      "global_variables": [
+        "objectify selector",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "marker"
+    },
+    {
+      "imports": [
+        "collection",
+        "objectify selector",
+        "crypto"
+      ]
+    },
+    {
+      "global_variables": [
+        "collection",
+        "objectify selector",
+        "crypto"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trades"
+    },
+    {
+      "imports": [
+        "collection",
+        "exchange"
+      ]
+    },
+    {
+      "global_variables": [
+        "collection",
+        "exchange"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "slow stochastic"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sma"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "srsi"
+    },
+    {
+      "imports": [
+        "mathjs",
+        "rsi"
+      ]
+    },
+    {
+      "global_variables": [
+        "mathjs",
+        "rsi"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stddev"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bollinger"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ema"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "macd"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "macd ext"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ppo"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stoch"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stochrsi"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trix"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ultosc"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "volume"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "willr"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tcf"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bollinger"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "hma"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "macd"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rsi"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stoch"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stochrsi"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vma"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vwap"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "wto"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ema",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "alpha",
+            "ema"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "queue"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "post install"
+    },
+    {
+      "imports": [
+        "shelljs"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtester"
+    },
+    {
+      "imports": [
+        "phenotype",
+        "backtester",
+        "yargs",
+        "moment",
+        "path",
+        "parallel",
+        "colors",
+        "",
+        "numbro",
+        "underscore",
+        "json csv",
+        "",
+        "json csv"
+      ]
+    },
+    {
+      "global_variables": [
+        "phenotypes",
+        "backtester",
+        "",
+        "moment",
+        "path",
+        "parallel",
+        "colors",
+        "",
+        "",
+        "",
+        "json csv",
+        "parallel",
+        "",
+        "population",
+        "iteration",
+        "",
+        "sim"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "backtester",
+          "params": [],
+          "local_variables": [
+            "strategy",
+            "strategy",
+            "strategy phenotypes",
+            "",
+            "unset",
+            "",
+            "phenotypes",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "phenotype",
+            "",
+            "phenotype",
+            "tasks",
+            "command",
+            "",
+            "phenotype",
+            "",
+            "",
+            "json csv",
+            "csv",
+            "csv",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "sim",
+          "params": [
+            "iteration",
+            ""
+          ],
+          "local_variables": [
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtester trust distrust"
+    },
+    {
+      "imports": [
+        "shelljs",
+        "parallel",
+        "json csv",
+        "precision",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "parallel",
+        "json csv",
+        "roundp",
+        "",
+        "",
+        "parallel",
+        "sell threshold",
+        "sell threshold",
+        "sell threshold",
+        "sell threshold",
+        "threshold",
+        "threshold",
+        "sell",
+        "sell",
+        "period",
+        "period",
+        "arr",
+        "",
+        "product",
+        "product",
+        "command",
+        "output",
+        "strategies",
+        "tasks",
+        "",
+        "sim"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "product",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "prod",
+            ""
+          ]
+        },
+        {
+          "name": "product",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "command",
+          "params": [
+            "strategy",
+            ""
+          ],
+          "local_variables": [
+            "command"
+          ]
+        },
+        {
+          "name": "output",
+          "params": [
+            "output"
+          ],
+          "local_variables": [
+            "json regexp",
+            "bal regexp",
+            "regexp",
+            "regexp",
+            "output",
+            "raw",
+            "",
+            "balance",
+            "match",
+            "wins",
+            "losses",
+            "rate",
+            "days",
+            "roi"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "darwin"
+    },
+    {
+      "imports": [
+        "parallel",
+        "json csv",
+        "",
+        "geneticalgorithm",
+        "moment",
+        "path",
+        "colors",
+        "phenotype",
+        "backtester",
+        "yargs",
+        "",
+        "numbro",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "parallel",
+        "json csv",
+        "",
+        "genetic algorithm ctor",
+        "moment",
+        "path",
+        "colors",
+        "phenotypes",
+        "backtester",
+        "",
+        "",
+        "",
+        "",
+        "parallel",
+        "iteration",
+        "strategies",
+        "",
+        "sim",
+        "population",
+        "generation",
+        "generations",
+        "generation",
+        "population",
+        "stat",
+        "ignore launch fitness",
+        "minimum trades",
+        "fitness calc",
+        "sim",
+        "sim",
+        "cycle",
+        "generate launch",
+        "strategy",
+        "",
+        "",
+        "strategy",
+        "strategy",
+        "strategy phenotypes",
+        "evolve",
+        "population",
+        "",
+        "pheno",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "sim",
+          "params": [
+            "iteration"
+          ],
+          "local_variables": [
+            "json",
+            "sim"
+          ]
+        },
+        {
+          "name": "sim",
+          "params": [
+            "iteration",
+            ""
+          ],
+          "local_variables": [
+            "json"
+          ]
+        },
+        {
+          "name": "strategy",
+          "params": [],
+          "local_variables": [
+            "path"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "generate command",
+          "params": [
+            "input"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "generation",
+          "params": [
+            "csv",
+            "json",
+            "csv",
+            "json"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "launch",
+          "params": [
+            "lauch",
+            ""
+          ],
+          "local_variables": [
+            "filename nix",
+            "finenamewin",
+            "command",
+            "fitness",
+            "cont",
+            "lines",
+            "",
+            "cont",
+            "lines",
+            "",
+            "nix contents",
+            "win contents"
+          ]
+        },
+        {
+          "name": "undefined",
+          "params": [
+            "variable"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "simulate generation",
+          "params": [
+            "generate launch"
+          ],
+          "local_variables": [
+            "generations",
+            "tasks",
+            "command",
+            "sim",
+            "",
+            "json csv",
+            "csv",
+            "csv",
+            "",
+            "json",
+            "json",
+            "",
+            "prefix",
+            "",
+            "command"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "darwin",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "custom"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "offset",
+            "",
+            "height"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "jquery slimscroll"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "engine"
+    },
+    {
+      "imports": [
+        "events",
+        "require",
+        "path",
+        "engine"
+      ]
+    },
+    {
+      "global_variables": [
+        "event emitter",
+        "",
+        "path"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "engine",
+          "params": [
+            "currency",
+            "pct",
+            "deposit",
+            "order",
+            "asset",
+            "spy"
+          ],
+          "local_variables": [
+            "fake asset",
+            "fake currency",
+            "fake exchange",
+            "fake project",
+            "fake bid",
+            "fake",
+            "fake balance",
+            "fake product",
+            "fake",
+            "exchange path",
+            "input",
+            "engine"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rsi"
+    },
+    {
+      "imports": [
+        "rsi"
+      ]
+    },
+    {
+      "global_variables": [
+        "rsi",
+        "normal",
+        "loss",
+        "gain",
+        "price"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "srsi"
+    },
+    {
+      "imports": [
+        "srsi"
+      ]
+    },
+    {
+      "global_variables": [
+        "srsi",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "collection factory"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "consume factory"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange factory"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "marker factory"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trade factory"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill consume"
+    },
+    {
+      "imports": [
+        "require",
+        "trade",
+        "backfill",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "trade factory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "require",
+        "consume",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "consume factory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "require",
+        "collection",
+        "exchange",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "collection factory",
+        "exchange factory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "collections"
+    },
+    {
+      "imports": [
+        "collection"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "consume"
+    },
+    {
+      "imports": [
+        "require",
+        "consume",
+        "marker"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "marker factory"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "consume",
+          "params": [
+            "record",
+            "queue",
+            ""
+          ],
+          "local_variables": [
+            "records",
+            "condition",
+            "rtn"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "target millis",
+            "queue",
+            "trade",
+            ""
+          ],
+          "local_variables": [
+            "records",
+            "condition reached",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange"
+    },
+    {
+      "imports": [
+        "exchange"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "marker"
+    },
+    {
+      "imports": [
+        "require",
+        "marker",
+        "collection"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "collection factory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trades"
+    },
+    {
+      "imports": [
+        "require",
+        "trades",
+        "exchange",
+        "collection"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "exchange factory",
+        "collection factory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "bootstrap",
+        "bootstrap",
+        "jquery",
+        "jquery",
+        "custom",
+        "jquery",
+        "style",
+        "spinners",
+        "animate",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "echarts"
+    },
+    {
+      "imports": [
+        "echarts",
+        "",
+        "",
+        "candlestick",
+        "scatter",
+        "",
+        "zoom",
+        "mark",
+        "toolbox"
+      ]
+    },
+    {
+      "global_variables": [
+        "echarts"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "webpack"
+    },
+    {
+      "imports": [
+        "path",
+        "webpack",
+        "mini css extract",
+        "precss",
+        "autoprefixer"
+      ]
+    },
+    {
+      "global_variables": [
+        "path",
+        "webpack",
+        "mini css extract",
+        "",
+        "optimization",
+        "",
+        "output",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "zenbot"
+    },
+    {
+      "imports": [
+        "semver",
+        "path",
+        "commander",
+        "",
+        "boot"
+      ]
+    },
+    {
+      "global_variables": [
+        "semver",
+        "path",
+        "program",
+        "versions",
+        "",
+        "boot"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

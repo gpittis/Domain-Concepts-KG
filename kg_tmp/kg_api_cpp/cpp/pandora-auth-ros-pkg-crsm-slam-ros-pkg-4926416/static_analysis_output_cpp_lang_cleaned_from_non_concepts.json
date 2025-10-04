@@ -1,0 +1,1837 @@
+[
+  [
+    {
+      "file": "crsm laser"
+    },
+    {
+      "imports": [
+        "crsm slam crsm laser"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "crsm laser crsm laser",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "initialized"
+          ]
+        },
+        {
+          "name": "crsm laser",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "angle",
+            "",
+            "angle",
+            "initialized",
+            "laser rays",
+            "laser",
+            "laser angle",
+            "laser angle",
+            "laser angle",
+            "scan"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm map"
+    },
+    {
+      "imports": [
+        "crsm slam crsm map"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "crsm map crsm map",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "height",
+            "originx",
+            "originy",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "crsm map expand map",
+          "params": [
+            "expansion"
+          ],
+          "local_variables": [
+            "originx",
+            "originy",
+            "",
+            "height",
+            "map",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "map",
+            "map",
+            "map",
+            "map expansion expansions expansion expansions",
+            "",
+            "",
+            "height",
+            "originx",
+            "originy"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm slam"
+    },
+    {
+      "imports": [
+        "crsm slam crsm slam"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "crsm slam crsm slam",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "initial patch",
+            "initial patch",
+            "",
+            "",
+            "robot pose",
+            "robot pose",
+            "robot pose theta",
+            "transformation",
+            "map",
+            "map originx slam laser robot center slam ocgd map originy",
+            "path publishing timer",
+            "robot pose publishing timer",
+            "map publishing timer"
+          ]
+        },
+        {
+          "name": "crsm slam",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "transform",
+            "origin",
+            "",
+            "slam occupancy grid publish topic",
+            "slam robot trajectory publish topic",
+            "slam trajectory publisher frame",
+            "slam laser subscriber topic",
+            "slam frame",
+            "slam footprint frame",
+            "slam frame",
+            "slam map frame",
+            "slam laser frame",
+            "slam disparity",
+            "slam map",
+            "slam ocgd",
+            "slam density",
+            "slam obstacle density",
+            "slam scan selection meters",
+            "slam hill climbing iterations",
+            "slam occupancy grid map freq",
+            "slam robot pose freq",
+            "slam trajectory freq",
+            "slam laser robot center",
+            "slam laser robot center",
+            "slam desired picked rays",
+            "slam robot",
+            "slam robot"
+          ]
+        },
+        {
+          "name": "crsm slam transformation",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "tempx",
+            "tempy",
+            "sinth",
+            "costh",
+            "tttx",
+            "ttty",
+            "",
+            "trier",
+            "",
+            "",
+            "fitness",
+            "",
+            "fitness",
+            "transformation",
+            "trier fitness",
+            "trier",
+            "trier",
+            "trier dth",
+            "fitness",
+            "",
+            "",
+            "dth",
+            "trier fitness",
+            "tempx",
+            "tempy",
+            "sinth",
+            "costh",
+            "tttx",
+            "ttty",
+            "trier fitness",
+            "fitness",
+            "transformation",
+            "trier",
+            "trier",
+            "trier dth"
+          ]
+        },
+        {
+          "name": "crsm slam calculate critical rays",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "density",
+            "ray",
+            "",
+            "",
+            "",
+            "laser rays",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "density",
+            "",
+            "",
+            "local pos",
+            "",
+            "",
+            "tete",
+            "",
+            "",
+            "density",
+            "ray",
+            "laser scan density",
+            "density",
+            "ray",
+            "",
+            "",
+            "scan selections",
+            "",
+            "",
+            "local pos",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "crsm slam scans",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "rays picked",
+            "fitness",
+            "",
+            "laser",
+            "",
+            "erased",
+            "",
+            "",
+            "trajectory",
+            "laser scan distance",
+            "laser scan distance",
+            "laser scan",
+            "laser scan",
+            "laser scan",
+            "robot pose",
+            "robot pose",
+            "robot pose theta",
+            "trajectory",
+            "trajectory",
+            "trajectory theta",
+            "density"
+          ]
+        },
+        {
+          "name": "crsm slam expansion",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "expansion expansions",
+            "",
+            "expansion expansions",
+            "",
+            "expansion expansions",
+            "",
+            "expansion expansions",
+            ""
+          ]
+        },
+        {
+          "name": "crsm slam expand map",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam map probabilities",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "measure",
+            "",
+            "",
+            "",
+            "",
+            "measid",
+            "",
+            "",
+            "xtt",
+            "ytt",
+            "",
+            "",
+            "",
+            "diff",
+            "density",
+            "density",
+            "expansion expansions",
+            "expansion expansions",
+            "expansion expansions",
+            "expansion expansions",
+            "",
+            "",
+            "",
+            "",
+            "measure",
+            "",
+            "",
+            "map",
+            ""
+          ]
+        },
+        {
+          "name": "crsm slam laser subscriber",
+          "params": [],
+          "local_variables": [
+            "laser"
+          ]
+        },
+        {
+          "name": "crsm slam laser subscriber",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam ogm publisher",
+          "params": [],
+          "local_variables": [
+            "occupancy grid publisher"
+          ]
+        },
+        {
+          "name": "crsm slam ogm publisher",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam publish ogm",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "height",
+            "grid",
+            "",
+            "",
+            "grid stamp",
+            "grid frame",
+            "grid resolution",
+            "grid",
+            "grid height",
+            "grid origin position",
+            "grid origin position",
+            "grid"
+          ]
+        },
+        {
+          "name": "crsm slam map probability",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam map",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam robot pose",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam laser",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam trajectory",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam publish robot pose",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "translation",
+            "rotation",
+            "transform"
+          ]
+        },
+        {
+          "name": "crsm slam trajectory publisher",
+          "params": [],
+          "local_variables": [
+            "path publisher"
+          ]
+        },
+        {
+          "name": "crsm slam trajectory publisher",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam publish trajectory",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "path",
+            "path",
+            "",
+            "path pose position",
+            "path pose position",
+            "path stamp",
+            "path frame"
+          ]
+        },
+        {
+          "name": "crsm slam disparity",
+          "params": [
+            "disparity"
+          ],
+          "local_variables": [
+            "slam disparity"
+          ]
+        },
+        {
+          "name": "crsm slam initial map",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "slam map"
+          ]
+        },
+        {
+          "name": "crsm slam ocgd",
+          "params": [
+            "ocgd"
+          ],
+          "local_variables": [
+            "slam ocgd"
+          ]
+        },
+        {
+          "name": "crsm slam density",
+          "params": [
+            "density"
+          ],
+          "local_variables": [
+            "slam density"
+          ]
+        },
+        {
+          "name": "crsm slam obstacle density",
+          "params": [
+            "density"
+          ],
+          "local_variables": [
+            "slam obstacle density"
+          ]
+        },
+        {
+          "name": "crsm slam scan selection meters",
+          "params": [
+            "scan selection meters"
+          ],
+          "local_variables": [
+            "slam scan selection meters"
+          ]
+        },
+        {
+          "name": "crsm slam hill climbing iterations",
+          "params": [
+            "iterations"
+          ],
+          "local_variables": [
+            "slam hill climbing iterations"
+          ]
+        },
+        {
+          "name": "crsm slam laser robot center",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "slam laser robot center"
+          ]
+        },
+        {
+          "name": "crsm slam occupancy grid map freq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": [
+            "slam occupancy grid map freq"
+          ]
+        },
+        {
+          "name": "crsm slam robot pose freq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": [
+            "slam robot pose freq"
+          ]
+        },
+        {
+          "name": "crsm slam trajectory freq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": [
+            "slam trajectory freq"
+          ]
+        },
+        {
+          "name": "crsm slam desired picked rays",
+          "params": [
+            "rays"
+          ],
+          "local_variables": [
+            "slam desired picked rays"
+          ]
+        },
+        {
+          "name": "crsm slam robot",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "slam robot"
+          ]
+        },
+        {
+          "name": "crsm slam robot",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "slam robot"
+          ]
+        },
+        {
+          "name": "crsm slam occupancy grid publish topic",
+          "params": [
+            "topic"
+          ],
+          "local_variables": [
+            "slam occupancy grid publish topic"
+          ]
+        },
+        {
+          "name": "crsm slam robot trajectory publish topic",
+          "params": [
+            "topic"
+          ],
+          "local_variables": [
+            "slam robot trajectory publish topic"
+          ]
+        },
+        {
+          "name": "crsm slam trajectory publisher frame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slam trajectory publisher frame"
+          ]
+        },
+        {
+          "name": "crsm slam laser subscriber topic",
+          "params": [
+            "topic"
+          ],
+          "local_variables": [
+            "slam laser subscriber topic"
+          ]
+        },
+        {
+          "name": "crsm slam frame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slam frame"
+          ]
+        },
+        {
+          "name": "crsm slam footprint frame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slam footprint frame"
+          ]
+        },
+        {
+          "name": "crsm slam frame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slam frame"
+          ]
+        },
+        {
+          "name": "crsm slam map frame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slam map frame"
+          ]
+        },
+        {
+          "name": "crsm slam laser frame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slam laser frame"
+          ]
+        },
+        {
+          "name": "crsm slam disparity",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam initial map",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam ocgd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam density",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam obstacle density",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam scan selection meters",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam hill climbing iterations",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam laser robot center",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam occupancy grid map freq",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam robot pose freq",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam trajectory freq",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam desired picked rays",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam robot",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam robot",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam occupancy grid publish topic",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam robot trajectory publish topic",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam trajectory publisher frame",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam laser subscriber topic",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam frame",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam footprint frame",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam frame",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam map frame",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crsm slam laser frame",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm slam node"
+    },
+    {
+      "imports": [
+        "crsm slam crsm slam"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "slam"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm hill climbing"
+    },
+    {
+      "imports": [
+        "crsm transformation"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm hill climbing person",
+          "attributes": [
+            "",
+            "fitness"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm laser"
+    },
+    {
+      "imports": [
+        "",
+        "ros",
+        "sensor laser scan",
+        "crsm laser",
+        "crsm laser scan"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm laser",
+          "attributes": [
+            "initialized",
+            "",
+            "scan",
+            "angles"
+          ],
+          "methods": [
+            {
+              "name": "crsm laser",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm laser"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm laser",
+          "attributes": [
+            "laser rays",
+            "laser",
+            "laser angle",
+            "laser angle",
+            "laser angle"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm laser scan"
+    },
+    {
+      "imports": [
+        "crsm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm laser scan",
+          "attributes": [
+            "distance",
+            "density",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "crsm laser scan",
+              "params": [
+                "rays"
+              ],
+              "local_variables": [
+                "distance",
+                "density",
+                ""
+              ]
+            },
+            {
+              "name": "crsm laser scan",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm map"
+    },
+    {
+      "imports": [
+        "crsm map",
+        "map"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm expansion",
+          "attributes": [
+            "expansions"
+          ],
+          "methods": []
+        },
+        {
+          "name": "crsm map",
+          "attributes": [
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "crsm map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "crsm map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "expand map",
+              "params": [
+                "exp"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm map"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm map",
+          "attributes": [
+            "",
+            "height",
+            "originx",
+            "originy"
+          ],
+          "methods": [
+            {
+              "name": "crsm map",
+              "params": [],
+              "local_variables": [
+                "",
+                "originx"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm",
+          "attributes": [
+            "",
+            "",
+            "theta"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "crsm",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm pose"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm pose",
+          "attributes": [
+            "",
+            "",
+            "theta"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm slam"
+    },
+    {
+      "imports": [
+        "iostream",
+        "cstdlib",
+        "cmath",
+        "",
+        "",
+        "transform broadcaster",
+        "transform",
+        "ros",
+        "geometry quaternion",
+        "nav occupancy grid",
+        "nav path",
+        "crsm laser",
+        "crsm hill climbing",
+        "crsm pose",
+        "crsm map",
+        "crsm slam"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm slam",
+          "attributes": [
+            "laser",
+            "occupancy grid publisher",
+            "path publisher",
+            "slam frame broadcaster",
+            "",
+            "expansion",
+            "map",
+            "laser",
+            "",
+            "",
+            "",
+            "fitness",
+            "density",
+            "transformation",
+            "robot pose",
+            "slam",
+            "robot trajectory",
+            "scan selections",
+            "",
+            "path publishing timer",
+            "robot pose publishing timer",
+            "map publishing timer",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "expansion",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "expand map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "crsm slam",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "crsm slam",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map probabilities",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculate critical rays",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transformation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scans",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser subscriber",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser subscriber",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ogm publisher",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ogm publisher",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish ogm",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish robot pose",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "trajectory publisher",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "trajectory publisher",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish trajectory",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map probability",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot pose",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "trajectory",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "disparity",
+              "params": [
+                "disparity"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initial map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ocgd",
+              "params": [
+                "ocgd"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "density",
+              "params": [
+                "density"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "obstacle density",
+              "params": [
+                "density"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scan selection meters",
+              "params": [
+                "scan selection meters"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "hill climbing iterations",
+              "params": [
+                "iterations"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser robot center",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "occupancy grid map freq",
+              "params": [
+                "freq"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot pose freq",
+              "params": [
+                "freq"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "trajectory freq",
+              "params": [
+                "freq"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "desired picked rays",
+              "params": [
+                "rays"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "occupancy grid publish topic",
+              "params": [
+                "topic"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot trajectory publish topic",
+              "params": [
+                "topic"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "trajectory publisher frame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser subscriber topic",
+              "params": [
+                "topic"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "footprint frame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map frame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser frame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "disparity",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initial map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ocgd",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "density",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "obstacle density",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scan selection meters",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "hill climbing iterations",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser robot center",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "occupancy grid map freq",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot pose freq",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "trajectory freq",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "desired picked rays",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "occupancy grid publish topic",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "robot trajectory publish topic",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "trajectory publisher frame",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser subscriber topic",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frame",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "footprint frame",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "frame",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map frame",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "laser frame",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm slam"
+    },
+    {
+      "imports": [
+        "cstring"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm slam",
+          "attributes": [
+            "disparity",
+            "map",
+            "ocgd",
+            "density",
+            "obstacle density",
+            "scan selection meters",
+            "hill climbing iterations",
+            "laser robot center",
+            "occupancy grid map freq",
+            "robot pose freq",
+            "trajectory freq",
+            "desired picked rays",
+            "robot",
+            "robot",
+            "occupancy grid publish topic",
+            "robot trajectory publish topic",
+            "trajectory publisher frame",
+            "laser subscriber topic",
+            "frame",
+            "footprint frame",
+            "frame",
+            "map frame",
+            "laser frame"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm transformation"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "crsm transformation",
+          "attributes": [
+            "",
+            "",
+            "dth"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ]
+]

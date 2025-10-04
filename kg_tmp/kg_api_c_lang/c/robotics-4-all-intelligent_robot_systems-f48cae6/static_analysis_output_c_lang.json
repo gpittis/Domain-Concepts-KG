@@ -1,0 +1,1196 @@
+[
+  [
+    {
+      "file": "dummy_slam.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<cstdlib>",
+        "<cmath>",
+        "<vector>",
+        "<string>",
+        "\"tf/transform_broadcaster.h\"",
+        "\"tf/transform_listener.h\"",
+        "\"ros/ros.h\"",
+        "<geometry_msgs/Quaternion.h>",
+        "<nav_msgs/OccupancyGrid.h>",
+        "<nav_msgs/Path.h>",
+        "\"dummy_slam_laser.h\"",
+        "\"dummy_slam_hillclimbing.h\"",
+        "\"dummy_slam_pose.h\"",
+        "\"dummy_slam_map.h\"",
+        "\"dummy_slam_slamParameters.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "crsm_slam",
+        "CrsmSlam",
+        "expansion",
+        "map",
+        "laser",
+        "argc",
+        "argv",
+        "counter",
+        "bestFitness",
+        "meanDensity",
+        "bestTransformation",
+        "robotPose",
+        "slamParams",
+        "fixNewScans",
+        "publishOGM",
+        "publishRobotPoseTf",
+        "publishTrajectory",
+        "setOccupancyGridPublishTopic",
+        "setRobotTrajectoryPublishTopic",
+        "setTrajectoryPublisherFrameId",
+        "setLaserSubscriberTopic",
+        "setWorldFrame",
+        "setBaseFootprintFrame",
+        "setBaseFrame",
+        "setMapFrame",
+        "setLaserFrame"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "updateParameters",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "checkExpansion",
+          "params": [
+            "x",
+            "y",
+            "update"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "expandMap",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calculateCriticalRays",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "findTransformation",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "startLaserSubscriber",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "stopLaserSubscriber",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "startOGMPublisher",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "stopOGMPublisher",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "startTrajectoryPublisher",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "stopTrajectoryPublisher",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getMapInfo",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getMapProbability",
+          "params": [
+            "x",
+            "y"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getRobotPose",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getLaserInfo",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setDisparity",
+          "params": [
+            "disparity"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setInitialMapSize",
+          "params": [
+            "size"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setOcgd",
+          "params": [
+            "ocgd"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setDensity",
+          "params": [
+            "density"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setObstacleDensity",
+          "params": [
+            "ob_density"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setScanSelectionMeters",
+          "params": [
+            "scan_selection_meters"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setMaxHillClimbingIterations",
+          "params": [
+            "iterations"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setDxLaserRobotCenter",
+          "params": [
+            "dx"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setOccupancyGridMapFreq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setRobotPoseTfFreq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setTrajectoryFreq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setDesiredNumberOfPickedRays",
+          "params": [
+            "rays"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setRobotWidth",
+          "params": [
+            "width"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setRobotLength",
+          "params": [
+            "length"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getDisparity",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getInitialMapSize",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getOcgd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getDensity",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getObstacleDensity",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getScanSelectionMeters",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getMaxHillClimbingIterations",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getDxLaserRobotCenter",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getOccupancyGridMapFreq",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getRobotPoseTfFreq",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getTrajectoryFreq",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getDesiredNumberOfPickedRays",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getRobotWidth",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getRobotLength",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_hillclimbing.h.xml"
+    },
+    {
+      "imports": [
+        "\"dummy_slam_transformation.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmHillClimbingPerson",
+          "attributes": [
+            "t",
+            "fitness"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_laser.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"ros/ros.h\"",
+        "<sensor_msgs/LaserScan.h>",
+        "\"dummy_slam_laserInfo.h\"",
+        "\"dummy_slam_laserScan.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "crsm_slam",
+        "CrsmLaser",
+        "initialized",
+        "info",
+        "scan",
+        "initialize"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_laserInfo.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmLaserInfo",
+          "attributes": [
+            "laserRays",
+            "laserMax",
+            "laserAngle",
+            "laserAngleBegin",
+            "laserAngleEnd"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_laserScan.h.xml"
+    },
+    {
+      "imports": [
+        "\"dummy_slam_point.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmLaserScan",
+          "attributes": [
+            "distance",
+            "density",
+            "p",
+            "distance",
+            "density",
+            "p"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_map.h.xml"
+    },
+    {
+      "imports": [
+        "\"dummy_slam_mapInfo.h\"",
+        "<map>",
+        "<iostream>"
+      ]
+    },
+    {
+      "global_variables": [
+        "crsm_slam",
+        "RIGHT",
+        "LEFT",
+        "UP",
+        "DOWN",
+        "CrsmMap",
+        "p",
+        "info"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "expandMap",
+          "params": [
+            "exp"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmExpansion",
+          "attributes": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_mapInfo.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmMapInfo",
+          "attributes": [
+            "width",
+            "height",
+            "originx",
+            "originy",
+            "width",
+            "originx"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_point.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmPoint",
+          "attributes": [
+            "x",
+            "y",
+            "theta"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_pose.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmPose",
+          "attributes": [
+            "x",
+            "y",
+            "theta"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_slamParameters.h.xml"
+    },
+    {
+      "imports": [
+        "<cstring>"
+      ]
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmSlamParameters",
+          "attributes": [
+            "disparity",
+            "map_size",
+            "ocgd",
+            "density",
+            "obstacle_density",
+            "scan_selection_meters",
+            "max_hill_climbing_iterations",
+            "dx_laser_robotCenter",
+            "occupancy_grid_map_freq",
+            "robot_pose_tf_freq",
+            "trajectory_freq",
+            "desired_number_of_picked_rays",
+            "robot_width",
+            "robot_length",
+            "robot_init_x",
+            "robot_init_y"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "dummy_slam_transformation.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "crsm_slam"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmTransformation",
+          "attributes": [
+            "dx",
+            "dy",
+            "dth"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "_cpp_functions.c.xml"
+    },
+    {
+      "imports": [
+        "<Python.h>",
+        "<stddef.h>",
+        "<malloc.h>",
+        "<stdint.h>",
+        "<stdint.h>",
+        "<alloca.h>",
+        "<stdio.h>"
+      ]
+    },
+    {
+      "global_variables": [
+        "_cffi_exports[_CFFI_NUM_EXPORTS]",
+        "_cffi_types[]",
+        "_cffi_globals[]",
+        "_cffi_type_context"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "parse_c_type",
+          "params": [
+            "info",
+            "input"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "search_in_globals",
+          "params": [
+            "ctx",
+            "search",
+            "search_len"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "search_in_struct_unions",
+          "params": [
+            "ctx",
+            "search",
+            "search_len"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_init",
+          "params": [
+            "module_name",
+            "version",
+            "ctx"
+          ],
+          "local_variables": [
+            "module",
+            "o_arg",
+            "new_module",
+            "raw[]",
+            "module",
+            "o_arg",
+            "new_module"
+          ]
+        },
+        {
+          "name": "_cffi_unpack_args",
+          "params": [
+            "args_tuple",
+            "expected",
+            "fnname"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_call_python_org",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "brushfireFromObstacles",
+          "params": [
+            "input",
+            "output",
+            "width",
+            "height",
+            "min_x",
+            "max_x",
+            "min_y",
+            "max_y"
+          ],
+          "local_variables": [
+            "i",
+            "j",
+            "step",
+            "changed",
+            "changed",
+            "output[i][j]",
+            "changed",
+            "step"
+          ]
+        },
+        {
+          "name": "thinning",
+          "params": [
+            "in",
+            "out",
+            "width",
+            "height",
+            "min_x",
+            "max_x",
+            "min_y",
+            "max_y"
+          ],
+          "local_variables": [
+            "i",
+            "j",
+            "steps",
+            "changed",
+            "steps",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed",
+            "in[i][j]",
+            "out[i][j]",
+            "changed"
+          ]
+        },
+        {
+          "name": "prune",
+          "params": [
+            "in",
+            "out",
+            "width",
+            "height",
+            "min_x",
+            "max_x",
+            "min_y",
+            "max_y",
+            "iterations"
+          ],
+          "local_variables": [
+            "i",
+            "j",
+            "steps",
+            "sum",
+            "in[i][j]",
+            "sum",
+            "out[i][j]"
+          ]
+        },
+        {
+          "name": "_cffi_d_brushfireFromObstacles",
+          "params": [
+            "x0",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_f_brushfireFromObstacles",
+          "params": [
+            "self",
+            "args"
+          ],
+          "local_variables": [
+            "x0",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7",
+            "datasize",
+            "arg0",
+            "arg1",
+            "arg2",
+            "arg3",
+            "arg4",
+            "arg5",
+            "arg6",
+            "arg7",
+            "aa",
+            "aa",
+            "arg0",
+            "arg1",
+            "arg2",
+            "arg3",
+            "arg4",
+            "arg5",
+            "arg6",
+            "arg7",
+            "datasize",
+            "x0",
+            "datasize",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7"
+          ]
+        },
+        {
+          "name": "_cffi_restore_errno",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_d_prune",
+          "params": [
+            "x0",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7",
+            "x8"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_f_prune",
+          "params": [
+            "self",
+            "args"
+          ],
+          "local_variables": [
+            "x0",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7",
+            "x8",
+            "datasize",
+            "arg0",
+            "arg1",
+            "arg2",
+            "arg3",
+            "arg4",
+            "arg5",
+            "arg6",
+            "arg7",
+            "arg8",
+            "aa",
+            "aa",
+            "arg0",
+            "arg1",
+            "arg2",
+            "arg3",
+            "arg4",
+            "arg5",
+            "arg6",
+            "arg7",
+            "arg8",
+            "datasize",
+            "x0",
+            "datasize",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7",
+            "x8"
+          ]
+        },
+        {
+          "name": "_cffi_restore_errno",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_d_thinning",
+          "params": [
+            "x0",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_f_thinning",
+          "params": [
+            "self",
+            "args"
+          ],
+          "local_variables": [
+            "x0",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7",
+            "datasize",
+            "arg0",
+            "arg1",
+            "arg2",
+            "arg3",
+            "arg4",
+            "arg5",
+            "arg6",
+            "arg7",
+            "aa",
+            "aa",
+            "arg0",
+            "arg1",
+            "arg2",
+            "arg3",
+            "arg4",
+            "arg5",
+            "arg6",
+            "arg7",
+            "datasize",
+            "x0",
+            "datasize",
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "x5",
+            "x6",
+            "x7"
+          ]
+        },
+        {
+          "name": "_cffi_restore_errno",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "_cffi_pypyinit__cpp_functions",
+          "params": [
+            "p[]"
+          ],
+          "local_variables": [
+            "p[0]",
+            "p[1]"
+          ]
+        },
+        {
+          "name": "PyInit__cpp_functions",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "PyInit__cpp_functions",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "init_cpp_functions",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "_cffi_global_s",
+          "attributes": [
+            "name",
+            "address",
+            "type_op",
+            "size_or_direct_fn"
+          ]
+        },
+        {
+          "name": "_cffi_getconst_s",
+          "attributes": [
+            "value",
+            "ctx",
+            "gindex"
+          ]
+        },
+        {
+          "name": "_cffi_struct_union_s",
+          "attributes": [
+            "name",
+            "type_index",
+            "flags",
+            "size",
+            "alignment",
+            "first_field_index",
+            "num_fields"
+          ]
+        },
+        {
+          "name": "_cffi_field_s",
+          "attributes": [
+            "name",
+            "field_offset",
+            "field_size",
+            "field_type_op"
+          ]
+        },
+        {
+          "name": "_cffi_enum_s",
+          "attributes": [
+            "name",
+            "type_index",
+            "type_prim",
+            "enumerators"
+          ]
+        },
+        {
+          "name": "_cffi_typename_s",
+          "attributes": [
+            "name",
+            "type_index"
+          ]
+        },
+        {
+          "name": "_cffi_type_context_s",
+          "attributes": [
+            "types",
+            "globals",
+            "fields",
+            "struct_unions",
+            "enums",
+            "typenames",
+            "num_globals",
+            "num_struct_unions",
+            "num_enums",
+            "num_typenames",
+            "includes",
+            "num_types",
+            "flags"
+          ]
+        },
+        {
+          "name": "_cffi_parse_info_s",
+          "attributes": [
+            "ctx",
+            "output",
+            "output_size",
+            "error_location",
+            "error_message"
+          ]
+        },
+        {
+          "name": "_cffi_externpy_s",
+          "attributes": [
+            "name",
+            "size_of_result",
+            "reserved1",
+            "reserved2"
+          ]
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,573 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_1",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "binance",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "binance",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "supertrend",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "ccxt",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "schedule",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandas",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "numpy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "exchange",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "atr",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "period",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "atr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "supertrend",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "period",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "atr multiplier",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "atr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "upperband",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "lowerband",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "uptrend",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "uptrend current",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "uptrend current",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "uptrend current",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "lowerband current",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "upperband current",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "sell signals",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "order",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "order",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "bot",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bars",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "supertrend",
+      "weight": 0.5,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "binance",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "binance",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "supertrend",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "supertrend",
+      "to": "ccxt",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "supertrend",
+      "to": "schedule",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "supertrend",
+      "to": "pandas",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "supertrend",
+      "to": "numpy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "supertrend",
+      "to": "exchange",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "supertrend",
+      "to": "position",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "supertrend",
+      "to": "atr",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "atr",
+      "to": "period",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "atr",
+      "to": "atr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "supertrend",
+      "to": "supertrend",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "supertrend",
+      "to": "period",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "supertrend",
+      "to": "atr multiplier",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "atr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "upperband",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "lowerband",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "uptrend",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "uptrend current",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "uptrend current",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "uptrend current",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "lowerband current",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "supertrend",
+      "to": "upperband current",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "supertrend",
+      "to": "sell signals",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "sell signals",
+      "to": "order",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "sell signals",
+      "to": "position",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "sell signals",
+      "to": "order",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "sell signals",
+      "to": "position",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "supertrend",
+      "to": "bot",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bot",
+      "to": "bars",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bot",
+      "to": "supertrend",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    }
+  ]
+}

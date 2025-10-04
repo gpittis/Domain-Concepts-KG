@@ -1,0 +1,1108 @@
+[
+  [
+    {
+      "file": "motors keyop"
+    },
+    {
+      "imports": [
+        "pandora teleop motors keyop"
+      ]
+    },
+    {
+      "global_variables": [
+        "cooked",
+        "raw",
+        "kfd"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "quit",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "motors keyop motors keyop",
+          "params": [
+            "linear",
+            "angular"
+          ],
+          "local_variables": [
+            "twist pub",
+            "pub"
+          ]
+        },
+        {
+          "name": "motors keyop motors keyop",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "motors keyop linear scale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "motors keyop angular scale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "motors keyop publish twist",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "twist",
+            "rate",
+            "lock",
+            "twist linear",
+            "twist angular"
+          ]
+        },
+        {
+          "name": "motors keyop",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "dirty",
+            "raw veol",
+            "raw veof",
+            "dirty",
+            "angular",
+            "dirty",
+            "dirty",
+            "angular",
+            "dirty",
+            "dirty",
+            "linear",
+            "dirty",
+            "dirty",
+            "linear",
+            "dirty",
+            "linear",
+            "angular",
+            "dirty",
+            "linear",
+            "linear",
+            "angular",
+            "angular",
+            "dirty"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "motors keyop node"
+    },
+    {
+      "imports": [
+        "pandora teleop motors keyop"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "motors keyop",
+            "motors keyop",
+            "motors keyop"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "motors keyop"
+    },
+    {
+      "imports": [
+        "ros",
+        "boost",
+        "boost mutex",
+        "geometry twist",
+        "signal",
+        "termios",
+        "stdio",
+        "iostream"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "quit",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "motors keyop",
+          "attributes": [
+            "",
+            "linear",
+            "linear scale",
+            "angular",
+            "angular scale",
+            "twist pub",
+            "pub",
+            "lock"
+          ],
+          "methods": [
+            {
+              "name": "motors keyop",
+              "params": [
+                "linear",
+                "angular"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "motors keyop",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "linear scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "angular scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish twist",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "stabilizer control"
+    },
+    {
+      "imports": [
+        "",
+        "algorithm",
+        "pandora stabilizer control stabilizer control"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "clamp",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "stabilizer controller stabilizer controller",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "imu topic",
+            "roll command topic",
+            "pitch command topic",
+            "",
+            "imu topic",
+            "roll command topic",
+            "pitch command topic",
+            "imu subscriber",
+            "laser roll publisher",
+            "laser pitch publisher",
+            ""
+          ]
+        },
+        {
+          "name": "stabilizer controller serve imu",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "imu roll",
+            "imu pitch",
+            "",
+            "command",
+            "",
+            "imu roll",
+            "imu pitch",
+            "roll",
+            "pitch",
+            "",
+            "command",
+            "command",
+            "command",
+            "command",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stabilizer control node"
+    },
+    {
+      "imports": [
+        "pandora stabilizer control stabilizer control"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "stabilizer controller"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stabilizer control"
+    },
+    {
+      "imports": [
+        "",
+        "boost math constants",
+        "ros",
+        "",
+        "std",
+        "pandora sensor imu rpy"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "stabilizer controller",
+          "attributes": [
+            "node",
+            "imu subscriber",
+            "laser roll publisher",
+            "laser pitch publisher",
+            "roll",
+            "pitch",
+            "",
+            "",
+            "roll",
+            "roll",
+            "pitch",
+            "pitch",
+            "roll offset",
+            "pitch offset"
+          ],
+          "methods": [
+            {
+              "name": "serve imu",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "stabilizer controller",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "sensor orientation controller"
+    },
+    {
+      "imports": [
+        "",
+        "algorithm",
+        "",
+        "pandora sensor orientation controller sensor orientation controller"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "clamp",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "sensor orientation action sensor orientation action",
+          "params": [
+            "action",
+            "node"
+          ],
+          "local_variables": [
+            "",
+            "target position",
+            "scan yaw timer",
+            "soft scan timer",
+            "scan pitch timer",
+            "sensor timer",
+            "scan rate",
+            "sensor pitch publisher",
+            "sensor yaw publisher",
+            "imu subscriber",
+            "",
+            "target position",
+            "pitch target",
+            "yaw target",
+            "direction",
+            "soft scan",
+            "position"
+          ]
+        },
+        {
+          "name": "sensor orientation action sensor orientation action",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sensor orientation action",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "command",
+            "",
+            "threshold",
+            "threshold",
+            "threshold"
+          ]
+        },
+        {
+          "name": "sensor orientation action preempt",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "sensor orientation action getcontroller",
+          "params": [],
+          "local_variables": [
+            "pitch",
+            "pitch",
+            "yaw",
+            "yaw"
+          ]
+        },
+        {
+          "name": "sensor orientation action sensor",
+          "params": [],
+          "local_variables": [
+            "pitch target position",
+            "yaw target position",
+            "position",
+            "pitch target",
+            "yaw target"
+          ]
+        },
+        {
+          "name": "sensor orientation action center sensor",
+          "params": [],
+          "local_variables": [
+            "pitch target position",
+            "yaw target position",
+            "pitch target",
+            "yaw target",
+            "position"
+          ]
+        },
+        {
+          "name": "sensor orientation action scan",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position",
+            "yaw scan",
+            "pitch scan",
+            "position"
+          ]
+        },
+        {
+          "name": "sensor orientation action soft scan",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "pitch scan",
+            "yaw scan",
+            "soft scan"
+          ]
+        },
+        {
+          "name": "sensor orientation action stabilize pitch",
+          "params": [
+            "event"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sensor orientation action imu",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "imu pitch",
+            "",
+            "",
+            "imu pitch",
+            "pitch",
+            "",
+            "stabilized pitch"
+          ]
+        },
+        {
+          "name": "sensor orientation action publish scan pitch command",
+          "params": [],
+          "local_variables": [
+            "pitch target position",
+            "pitch target"
+          ]
+        },
+        {
+          "name": "sensor orientation action publish scan yaw command",
+          "params": [],
+          "local_variables": [
+            "yaw target position",
+            "yaw target"
+          ]
+        },
+        {
+          "name": "sensor orientation action sensor",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "",
+            "sensor transform",
+            "",
+            "target transform",
+            "",
+            "desired",
+            "",
+            "desired",
+            "desired",
+            "desired camera basis",
+            "roll",
+            "pitch",
+            "yaw",
+            "",
+            "desired",
+            "desired",
+            "desired",
+            "desired",
+            "pitch target position",
+            "yaw target position",
+            "pitch target",
+            "yaw target",
+            "position"
+          ]
+        },
+        {
+          "name": "sensor orientation action timers",
+          "params": [],
+          "local_variables": [
+            "soft scan"
+          ]
+        },
+        {
+          "name": "sensor orientation action goal completion",
+          "params": [],
+          "local_variables": [
+            "",
+            "pitch transform",
+            "yaw transform",
+            "roll",
+            "pitch",
+            "yaw",
+            "pitch",
+            "",
+            "",
+            "pitch",
+            "yaw"
+          ]
+        },
+        {
+          "name": "sensor orientation action goal",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sensor orientation action angle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "node",
+            "action",
+            "sensor orientation action"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sensor orientation controller"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "boost math constants",
+        "ros",
+        "transform",
+        "actionlib simple action",
+        "std",
+        "pandora sensor orientation controller sensor action",
+        "pandora sensor imu rpy"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        "",
+        "center",
+        "",
+        "",
+        "",
+        "center",
+        "unknown"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "sensor orientation action",
+          "attributes": [
+            "node",
+            "action",
+            "action",
+            "sensor pitch publisher",
+            "sensor yaw publisher",
+            "imu subscriber",
+            "scan yaw timer",
+            "soft scan timer",
+            "scan pitch timer",
+            "sensor timer",
+            "position",
+            "command",
+            "pitch",
+            "yaw",
+            "pitch",
+            "yaw",
+            "pitch",
+            "yaw",
+            "scan rate",
+            "soft scan rate",
+            "pitch rate",
+            "command timeout",
+            "threshold",
+            "movement threshold",
+            "lax movement threshold",
+            "pitch joint parent",
+            "pitch joint child",
+            "yaw joint parent",
+            "yaw joint child",
+            "imu topic",
+            "pitch command topic",
+            "yaw command topic",
+            "sensor frame",
+            "",
+            "pitch",
+            "stabilized pitch",
+            "",
+            "",
+            "soft scan",
+            "direction",
+            "pitch scan",
+            "offset pitch",
+            "yaw scan",
+            "offset yaw",
+            "pitch target",
+            "yaw target",
+            "pitch target position",
+            "yaw target position",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "imu",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "preempt",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getcontroller",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "sensor",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "center sensor",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scan",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "soft scan",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "stabilize pitch",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "sensor",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publish scan pitch command",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publish scan yaw command",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "goal completion",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "goal",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "angle",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "timers",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "sensor orientation action",
+              "params": [
+                "",
+                "node"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "sensor orientation action",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "linear actuator controller"
+    },
+    {
+      "imports": [
+        "",
+        "pandora linear actuator controller linear actuator controller"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "linear actuator action linear actuator action",
+          "params": [
+            "action"
+          ],
+          "local_variables": [
+            "target position",
+            "linear actuator command publisher",
+            "target position"
+          ]
+        },
+        {
+          "name": "linear actuator action linear actuator action",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "linear actuator action",
+          "params": [
+            "goal"
+          ],
+          "local_variables": [
+            "command"
+          ]
+        },
+        {
+          "name": "linear actuator action controller",
+          "params": [],
+          "local_variables": [
+            "model",
+            "robot model",
+            "model",
+            "",
+            "movement threshold",
+            "elevation"
+          ]
+        },
+        {
+          "name": "linear actuator action linear actuator",
+          "params": [],
+          "local_variables": [
+            "linear actuator transform",
+            "",
+            "",
+            "",
+            "target position",
+            "",
+            "linear",
+            "",
+            "",
+            "target position",
+            "linear"
+          ]
+        },
+        {
+          "name": "linear actuator action linear actuator",
+          "params": [],
+          "local_variables": [
+            "target position",
+            "",
+            "linear actuator transform",
+            "linear",
+            "",
+            "target position",
+            "linear"
+          ]
+        },
+        {
+          "name": "linear actuator action linear actuator",
+          "params": [
+            "",
+            "center",
+            "movement threshold"
+          ],
+          "local_variables": [
+            "",
+            "rate",
+            "target position",
+            "linear actuator transform",
+            "",
+            "linear actuator target transform",
+            "",
+            "linear actuator center transform",
+            "",
+            "delta",
+            "target",
+            "",
+            "target position",
+            "target position",
+            "target position",
+            "target"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "linear actuator action"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "linear actuator controller"
+    },
+    {
+      "imports": [
+        "",
+        "ros",
+        "std",
+        "actionlib simple action",
+        "transform",
+        "urdf",
+        "pandora linear actuator controller linear actuator action"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "linear actuator action",
+          "attributes": [
+            "node",
+            "node",
+            "action",
+            "action",
+            "linear actuator command publisher",
+            "command",
+            "elevation",
+            "command",
+            "command",
+            "movement threshold",
+            "lax movement threshold",
+            "command timeout",
+            "target",
+            "linear actuator command topic",
+            "linear actuator frame",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "linear actuator action",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "linear actuator action",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "goal"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "controller",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "linear actuator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "linear actuator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "linear actuator",
+              "params": [
+                "",
+                "center",
+                "movement threshold"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,2343 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "address",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "align",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alloca",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "angl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "broadcast",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "brushfir",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calcul",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "center",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cffi",
+      "count": 13
+    },
+    {
+      "type": "CONCEPT",
+      "name": "climb",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmath",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "critic",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "crsm",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cstdlib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cstring",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datas",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "densiti",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "desir",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "direct",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dispar",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distanc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dth",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dummi",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "enum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "enumer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "errno",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expand",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expans",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "externpi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fit",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fnname",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "footprint",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frame",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "freq",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "geometri",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "getconst",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gindex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "global",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "grid",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "height",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hill",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hillclimb",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "initi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "iostream",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "iter",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "laser",
+      "count": 18
+    },
+    {
+      "type": "CONCEPT",
+      "name": "locat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "malloc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "meter",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nav",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "obstacl",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "occup",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ocgd",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "offset",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ogm",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "org",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "origini",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "originx",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "person",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pick",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pose",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "probabl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prune",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "publish",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pypyinit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "quaternion",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "raw",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ray",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "restor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "robot",
+      "count": 10
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ros",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scan",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "search",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "select",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sensor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slam",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stddef",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stdint",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stdio",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subscrib",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "theta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "thin",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "topic",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trajectori",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "typenam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "union",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unpack",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "address",
+      "to": "cffi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "cffi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "crsm",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "laser",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "broadcast",
+      "to": "dummi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "broadcast",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "broadcast",
+      "to": "transform",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "brushfir",
+      "to": "cffi",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "brushfir",
+      "to": "datas",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "brushfir",
+      "to": "height",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "brushfir",
+      "to": "input",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "brushfir",
+      "to": "obstacl",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "brushfir",
+      "to": "output",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "critic",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "dummi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "ray",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "slam",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "crsm",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "dummi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "laser",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "robot",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "datas",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "direct",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "enum",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "enumer",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "errno",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "expect",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "externpi",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "fnname",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "getconst",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "gindex",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "global",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "locat",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "obstacl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "offset",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "org",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "output",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "prim",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "prune",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "pypyinit",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "raw",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "restor",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "thin",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "typenam",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "union",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cffi",
+      "to": "unpack",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "crsm",
+      "final_weight": 2.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "dummi",
+      "final_weight": 1.583333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "fit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "hill",
+      "final_weight": 5.1,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "hillclimb",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "iter",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "person",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "climb",
+      "to": "slam",
+      "final_weight": 2.366666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmath",
+      "to": "dummi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmath",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "critic",
+      "to": "dummi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "critic",
+      "to": "ray",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "critic",
+      "to": "slam",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "densiti",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "desir",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "dispar",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "distanc",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "dth",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "dummi",
+      "final_weight": 13.05,
+      "count": 18
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "expans",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "fit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "freq",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "grid",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "height",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "hill",
+      "final_weight": 2.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "hillclimb",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "iter",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "laser",
+      "final_weight": 11.883332,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "map",
+      "final_weight": 7.766666,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "meter",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "obstacl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "occup",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "ocgd",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "origini",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "originx",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "person",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "pick",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "pose",
+      "final_weight": 4.133333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "ray",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "robot",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "scan",
+      "final_weight": 4.133333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "select",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "slam",
+      "final_weight": 16.35,
+      "count": 20
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "theta",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "trajectori",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crsm",
+      "to": "transform",
+      "final_weight": 3.35,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cstdlib",
+      "to": "dummi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cstdlib",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cstring",
+      "to": "dummi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cstring",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datas",
+      "to": "obstacl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datas",
+      "to": "prune",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datas",
+      "to": "thin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "densiti",
+      "to": "dummi",
+      "final_weight": 2.216666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "densiti",
+      "to": "laser",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "densiti",
+      "to": "obstacl",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "densiti",
+      "to": "scan",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "densiti",
+      "to": "slam",
+      "final_weight": 3.783332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "desir",
+      "to": "dummi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "desir",
+      "to": "pick",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "desir",
+      "to": "ray",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "desir",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dispar",
+      "to": "dummi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dispar",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "laser",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "scan",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dth",
+      "to": "transform",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "expand",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "expans",
+      "final_weight": 2.233333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "fit",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "footprint",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "frame",
+      "final_weight": 3.25,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "freq",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "geometri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "grid",
+      "final_weight": 2.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "hill",
+      "final_weight": 1.583333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "hillclimb",
+      "final_weight": 3.666666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "initi",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "iostream",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "iter",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "laser",
+      "final_weight": 15.78333,
+      "count": 20
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "map",
+      "final_weight": 12.38333,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "meter",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "nav",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "obstacl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "occup",
+      "final_weight": 2.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "ocgd",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "ogm",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "path",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "person",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "pick",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "pose",
+      "final_weight": 6.699999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "probabl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "publish",
+      "final_weight": 5.466666,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "quaternion",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "ray",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "robot",
+      "final_weight": 5.083332,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "ros",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "scan",
+      "final_weight": 7.183332,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "select",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "slam",
+      "final_weight": 35.46666,
+      "count": 43
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "subscrib",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "topic",
+      "final_weight": 1.95,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "trajectori",
+      "final_weight": 3.516666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dummi",
+      "to": "transform",
+      "final_weight": 6.533332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "errno",
+      "to": "restor",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exp",
+      "to": "expand",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exp",
+      "to": "map",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expand",
+      "to": "map",
+      "final_weight": 2.583333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expand",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expans",
+      "to": "map",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expans",
+      "to": "slam",
+      "final_weight": 2.233333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "unpack",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fit",
+      "to": "hill",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fit",
+      "to": "person",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fit",
+      "to": "slam",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fnname",
+      "to": "unpack",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "footprint",
+      "to": "frame",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "footprint",
+      "to": "slam",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "laser",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "map",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "publish",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "slam",
+      "final_weight": 3.25,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "trajectori",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "grid",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "map",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "occup",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "pose",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "robot",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "slam",
+      "final_weight": 4.699998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "trajectori",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "quaternion",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "getconst",
+      "to": "gindex",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "global",
+      "to": "search",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "map",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "nav",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "occup",
+      "final_weight": 5.9,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "publish",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "slam",
+      "final_weight": 2.849999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "map",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "obstacl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "prune",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "thin",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hill",
+      "to": "hillclimb",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hill",
+      "to": "iter",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hill",
+      "to": "person",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hill",
+      "to": "slam",
+      "final_weight": 2.366666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hillclimb",
+      "to": "person",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hillclimb",
+      "to": "slam",
+      "final_weight": 4.316666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hillclimb",
+      "to": "transform",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "laser",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "map",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "slam",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "obstacl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iostream",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iostream",
+      "to": "slam",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iter",
+      "to": "prune",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iter",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "ray",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "robot",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "ros",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "scan",
+      "final_weight": 9.116666,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "sensor",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "slam",
+      "final_weight": 17.866663,
+      "count": 23
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "subscrib",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "laser",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "occup",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "origini",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "originx",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "probabl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "slam",
+      "final_weight": 14.599996,
+      "count": 19
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "meter",
+      "to": "scan",
+      "final_weight": 5.833334,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "meter",
+      "to": "select",
+      "final_weight": 5.833334,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "meter",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "occup",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "path",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "slam",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "obstacl",
+      "to": "output",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "obstacl",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "publish",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "slam",
+      "final_weight": 2.849999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ocgd",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ogm",
+      "to": "publish",
+      "final_weight": 3.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ogm",
+      "to": "slam",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "person",
+      "to": "slam",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pick",
+      "to": "ray",
+      "final_weight": 3.916667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pick",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "publish",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "robot",
+      "final_weight": 7.8,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "slam",
+      "final_weight": 8.133332,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "theta",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "probabl",
+      "to": "slam",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "robot",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "slam",
+      "final_weight": 5.466666,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "topic",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "trajectori",
+      "final_weight": 6.0,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "quaternion",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ray",
+      "to": "slam",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "slam",
+      "final_weight": 7.433331,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "trajectori",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ros",
+      "to": "slam",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scan",
+      "to": "select",
+      "final_weight": 5.833334,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scan",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scan",
+      "to": "slam",
+      "final_weight": 8.616665,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "union",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "select",
+      "to": "slam",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "slam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slam",
+      "to": "subscrib",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slam",
+      "to": "topic",
+      "final_weight": 1.95,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slam",
+      "to": "trajectori",
+      "final_weight": 4.299999,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slam",
+      "to": "transform",
+      "final_weight": 7.183332,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "subscrib",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "topic",
+      "to": "trajectori",
+      "final_weight": 1.4,
+      "count": 1
+    }
+  ]
+}

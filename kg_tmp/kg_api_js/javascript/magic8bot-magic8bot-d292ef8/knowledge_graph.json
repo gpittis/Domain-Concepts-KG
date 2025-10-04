@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "bot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "collect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coverag",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dev",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "env",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "environ",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "extens",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "global",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ignor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jest",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "magic",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mapper",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "memori",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mongod",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mongodb",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pattern",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "root",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "src",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "verbos",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "dev",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "dist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "magic",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "regist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "src",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "coverag",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "ignor",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "path",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "pattern",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dev",
+      "to": "magic",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "magic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "environ",
+      "to": "jest",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "environ",
+      "to": "mongodb",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "environ",
+      "to": "node",
+      "final_weight": 3.983333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "environ",
+      "to": "path",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ignor",
+      "to": "path",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ignor",
+      "to": "pattern",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jest",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "magic",
+      "to": "regist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "magic",
+      "to": "src",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "memori",
+      "to": "mongodb",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "pattern",
+      "final_weight": 1.4,
+      "count": 1
+    }
+  ]
+}

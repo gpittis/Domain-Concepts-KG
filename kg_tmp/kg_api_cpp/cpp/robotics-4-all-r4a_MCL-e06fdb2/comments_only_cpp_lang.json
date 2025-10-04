@@ -1,0 +1,71 @@
+[
+  {
+    "file": "main.cpp.xml",
+    "comments": []
+  },
+  {
+    "file": "particle.cpp.xml",
+    "comments": [
+      "//~ _x = 15;",
+      "//~ _y = 15;",
+      "//~ _theta = 0.78;",
+      "//~ ROS_INFO_STREAM(\"new_x = \" << \" \" << (int)(new_x) << \" \" << \"new_y = \" << \" \" << (int)(new_y));",
+      "//~ if (previous_angular == 0)",
+      "//~ {",
+      "//~ _dx += (previous_linear * dt.toSec() * cosf(_theta));",
+      "//~ _dy += (previous_linear * dt.toSec() * sinf(_theta));",
+      "//~ }",
+      "//~ else",
+      "//~ {",
+      "//~ _dx += (- previous_linear / previous_angular * sinf(_theta)",
+      "//~ + previous_linear / previous_angular *",
+      "//~ sinf(_theta + dt.toSec() * previous_angular));",
+      "//~",
+      "//~ _dy -= (- previous_linear / previous_angular * cosf(_theta)",
+      "//~ + previous_linear / previous_angular *",
+      "//~ cosf(_theta + dt.toSec() * previous_angular));",
+      "//~ }"
+    ]
+  },
+  {
+    "file": "particle_filter.cpp.xml",
+    "comments": [
+      "//~ ROS_INFO_STREAM(\"New x = \" << _particles[i].getX() << \" new y = \" << _particles[i].getY());",
+      "//~ ROS_INFO_STREAM(\"VelocityCallback\");",
+      "//~ ROS_INFO_STREAM(\"VelocityCallback\");"
+    ]
+  },
+  {
+    "file": "robot_perception.cpp.xml",
+    "comments": [
+      "/**\n * @brief Default Constructor. Gets map topic param and laser topic\n * param and subcribes to these topics.\n */",
+      "//~ ROS_INFO_STREAM(\"RobotPerception Constructor\");",
+      "/**\n * @brief Gets the necessary info for the map (width, height, data)\n * @param occupancy_grid_msg [nav_msgs::OccupancyGrid] Message \n * containing the map info\n */",
+      "//~ ROS_INFO_STREAM (\"RobotPerception:map_width =\"<< \" \" << _map_width <<",
+      "//~ \" \" << \"RobotPerception:map_height =\"<< \" \" << _map_height);",
+      "//~ for (unsigned int i = 0 ; i < _rfid_pose.size() ; i++)",
+      "//~ {",
+      "//~ ROS_INFO_STREAM (\" i = \" << i );",
+      "//~ ROS_INFO_STREAM(\" Pose x = \" << _rfid_pose[i][0] << \" y = \" << _rfid_pose[i][1]);",
+      "//~ }",
+      "/**\n * @brief Gets the laser ranges\n * @param laser_scan_msg [sensor_msgs::LaserScan] Message \n * containing the laser ranges info\n */",
+      "/**\n * @brief Returns the map width\n * @return unsigned int - Map width\n */",
+      "/**\n * @brief Returns the map height\n * @return unsigned int - Map height\n */",
+      "/**\n * @brief Returns the occupancy state of a map cell\n * @param i [int] Coordinate x of the map data array \n * @param j [int] Coordinate y of the map data array \n * @return int - Map cell occupancy state \n */",
+      "/**\n * @brief Returns the map data\n * @return int** - Map occupancy data array\n */",
+      "/**\n * @brief Returns the laser ranges\n * @return float* - Laser ranges array\n */"
+    ]
+  },
+  {
+    "file": "particle.h.xml",
+    "comments": []
+  },
+  {
+    "file": "particle_filter.h.xml",
+    "comments": []
+  },
+  {
+    "file": "robot_perception.h.xml",
+    "comments": []
+  }
+]

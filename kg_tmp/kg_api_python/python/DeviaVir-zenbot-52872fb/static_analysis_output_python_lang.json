@@ -1,0 +1,1189 @@
+[
+  [
+    {
+      "file": "conf.py"
+    },
+    {
+      "imports": [
+        "random"
+      ]
+    },
+    {
+      "global_variables": [
+        "selectors",
+        "partitions",
+        "selectivity",
+        "runid",
+        "sigma",
+        "indpb",
+        "mutpb",
+        "cxpb"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "constants.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "Product",
+        "Selector"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "evaluation.py"
+    },
+    {
+      "imports": [
+        "datetime",
+        "os",
+        "random",
+        "shlex",
+        "subprocess",
+        "sys",
+        "re",
+        "numpy",
+        "typing.List",
+        "termcolor.colored",
+        "conf.partitions",
+        "evolution.individual_base.Individual",
+        "objective_function.soft_maximum_worst_case",
+        "parsing.parse_trades",
+        "parsing.args_for_strategy"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "pct",
+          "params": [
+            "x"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "minutes",
+          "params": [
+            "x"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "runzen",
+          "params": [
+            "cmdline"
+          ],
+          "local_variables": [
+            "ansi_escape",
+            "a",
+            "profit",
+            "profit",
+            "trades",
+            "trades"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "evaluate_zen",
+          "params": [
+            "cmdline",
+            "days"
+          ],
+          "local_variables": [
+            "periods",
+            "fitness",
+            "cmd",
+            "f",
+            "t",
+            "fitness"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "time_params",
+          "params": [
+            "days",
+            "partitions"
+          ],
+          "local_variables": [
+            "now",
+            "delta",
+            "splits"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "Andividual",
+          "attributes": [
+            "BASE_COMMAND",
+            "args"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__repr__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "mate",
+              "params": [
+                "p1",
+                "p2"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "instrument",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "strategy",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "objective",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "compress",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "res",
+                "period",
+                "normalized",
+                "normalized['period']",
+                "output"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "params",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "params"
+              ],
+              "nested_functions": [
+                {
+                  "name": "format",
+                  "params": [
+                    "key",
+                    "value"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "cmdline",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "base",
+                "result"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "normalize",
+              "params": [
+                "self",
+                "value",
+                "period"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "convert",
+              "params": [
+                "self",
+                "param",
+                "value"
+              ],
+              "local_variables": [
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res",
+                "res"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fabfile.py"
+    },
+    {
+      "imports": [
+        "datetime",
+        "shlex",
+        "subprocess",
+        "fabric.api.run",
+        "fabric.api.cd",
+        "fabric.api.local"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "sim",
+          "params": [
+            "instrument",
+            "days",
+            "popsize",
+            "strategy"
+          ],
+          "local_variables": [
+            "params",
+            "cmd",
+            "total"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "remote",
+          "params": [
+            "cmd",
+            "logfile"
+          ],
+          "local_variables": [
+            "total"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "backfill_remote",
+          "params": [
+            "TOTAL_DAYS"
+          ],
+          "local_variables": [
+            "products",
+            "cmd"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "backfill_local",
+          "params": [
+            "TOTAL_DAYS"
+          ],
+          "local_variables": [
+            "products",
+            "cmd"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "halloffame.py"
+    },
+    {
+      "imports": [
+        "operator.attrgetter",
+        "conf.runid"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "ObjectiveFunctionHallOfFame",
+          "attributes": [
+            "inner",
+            "maxsize"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "maxsize"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "update",
+              "params": [
+                "self",
+                "newpop"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__iter__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "len",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__repr__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "header",
+                "report"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "persist",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "main.py"
+    },
+    {
+      "imports": [
+        "sys",
+        "functools.partial",
+        "deap.tools.cxTwoPoint",
+        "deap.tools.mutGaussian",
+        "scoop.shared",
+        "termcolor.colored",
+        "conf.indpb",
+        "conf.sigma",
+        "conf.partitions",
+        "conf.selectors",
+        "evaluation.evaluate_zen",
+        "evaluation.Andividual",
+        "evolution.evolve",
+        "parsing"
+      ]
+    },
+    {
+      "global_variables": [
+        "blue",
+        "green",
+        "INSTRUMENT",
+        "TOTAL_DAYS",
+        "popsize",
+        "popsize",
+        "strategy",
+        "strategy",
+        "res"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "instrument",
+            "days",
+            "popsize",
+            "strategy"
+          ],
+          "local_variables": [
+            "evaluate",
+            "strategies",
+            "res"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "objective_function.py"
+    },
+    {
+      "imports": [
+        "math"
+      ]
+    },
+    {
+      "global_variables": [
+        "sum"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "soft_maximum_worst_case",
+          "params": [
+            "ind"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "parsing.py"
+    },
+    {
+      "imports": [
+        "shlex",
+        "subprocess",
+        "re"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "parse_trades",
+          "params": [
+            "stuff"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "args_for_strategy",
+          "params": [
+            "strat"
+          ],
+          "local_variables": [
+            "ansi_escape",
+            "available",
+            "strats",
+            "groups",
+            "output",
+            "result",
+            "result"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "strategies",
+          "params": [],
+          "local_variables": [
+            "ansi_escape",
+            "available",
+            "strats",
+            "groups",
+            "output",
+            "result",
+            "result"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "utils.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "zendividual.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "core.py"
+    },
+    {
+      "imports": [
+        "random",
+        "deap.tools.History",
+        "deap.tools.Statistics",
+        "termcolor.colored",
+        "conf.cxpb",
+        "conf.mutpb",
+        "utils.log_stuff"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "algorithm",
+          "params": [
+            "individual",
+            "popsize",
+            "map",
+            "evaluate",
+            "select",
+            "breed",
+            "mutate",
+            "stats",
+            "history",
+            "hof"
+          ],
+          "local_variables": [
+            "population",
+            "would_be",
+            "population",
+            "offspring",
+            "mutants",
+            "survivors",
+            "population"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "evaluate_group",
+          "params": [
+            "population",
+            "map",
+            "evaluate"
+          ],
+          "local_variables": [
+            "invalid_ind",
+            "fitnesses"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "breed",
+          "params": [
+            "population"
+          ],
+          "local_variables": [
+            "offspring",
+            "parent1",
+            "parent2",
+            "child1",
+            "child2"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "mutate",
+          "params": [
+            "population"
+          ],
+          "local_variables": [
+            "mutants"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "individual_base.py"
+    },
+    {
+      "imports": [
+        "copy.deepcopy",
+        "copy.copy",
+        "names",
+        "deap.base.Fitness",
+        "conf.partitions"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "FitnessMax",
+          "attributes": [
+            "weights"
+          ],
+          "methods": []
+        },
+        {
+          "name": "Individual",
+          "attributes": [
+            "mate",
+            "mutate",
+            "name",
+            "fitness"
+          ],
+          "methods": [
+            {
+              "name": "objective",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__repr__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__deepcopy__",
+              "params": [
+                "self",
+                "memodict"
+              ],
+              "local_variables": [
+                "obj"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "__add__",
+              "params": [
+                "self",
+                "other"
+              ],
+              "local_variables": [
+                "child1",
+                "child2"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "__invert__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "mutant"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "__hash__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "selection.py"
+    },
+    {
+      "imports": [
+        "random",
+        "operator.attrgetter",
+        "typing.Iterable",
+        "typing.Set",
+        "termcolor.colored",
+        "conf.partitions",
+        "evolution.individual_base.Individual"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "harsh_winter",
+          "params": [
+            "population",
+            "count"
+          ],
+          "local_variables": [
+            "elitist_count",
+            "specialist_count",
+            "elites",
+            "difference",
+            "specialists",
+            "survivors",
+            "difference",
+            "rest",
+            "population",
+            "rest",
+            "population"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "select_elites",
+          "params": [
+            "individuals",
+            "count"
+          ],
+          "local_variables": [
+            "elites"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "select_specialists",
+          "params": [
+            "individuals",
+            "count"
+          ],
+          "local_variables": [
+            "guilds",
+            "specialists"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "log_stuff",
+          "params": [
+            "elites",
+            "rest",
+            "specialists"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "utils.py"
+    },
+    {
+      "imports": [
+        "networkx",
+        "numpy",
+        "deap.tools.Statistics",
+        "matplotlib.pyplot",
+        "termcolor.colored",
+        "conf.runid",
+        "objective_function.soft_maximum_worst_case"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "draw",
+          "params": [
+            "history",
+            "toolbox"
+          ],
+          "local_variables": [
+            "ax",
+            "graph",
+            "graph",
+            "colors_inds",
+            "colors",
+            "positions"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "log_stuff",
+          "params": [
+            "g",
+            "history",
+            "hof",
+            "population",
+            "stats"
+          ],
+          "local_variables": [
+            "record"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "statsa",
+          "params": [],
+          "local_variables": [
+            "stats"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": [
+        "functools.partial",
+        "deap.tools.History",
+        "scoop.futures",
+        "evolution.core.algorithm",
+        "evolution.core.breed",
+        "evolution.core.mutate",
+        "halloffame.ObjectiveFunctionHallOfFame",
+        "selection.harsh_winter",
+        "utils.statsa"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "evolve",
+          "params": [
+            "evaluate",
+            "cls",
+            "popsize"
+          ],
+          "local_variables": [
+            "select",
+            "history",
+            "stats",
+            "hof"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "test_evaluation.py"
+    },
+    {
+      "imports": [
+        "evaluation.fuzz_product",
+        "parsing.args_for_strategy",
+        "unittest.mock.patch"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "test_parse_strategies",
+          "params": [],
+          "local_variables": [
+            "asd"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "test_evolution.py"
+    },
+    {
+      "imports": [
+        "random",
+        "evolution.evolve",
+        "evolution.individual.Individual"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "test_evolve",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": [],
+          "nested_classes": [
+            {
+              "name": "TestIndividual",
+              "attributes": [],
+              "methods": [
+                {
+                  "name": "__init__",
+                  "params": [
+                    "self"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "test_integration.py"
+    },
+    {
+      "imports": [
+        "random",
+        "subprocess.CalledProcessError",
+        "unittest.mock.patch",
+        "main.main"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "myoutput",
+          "params": [
+            "cmdline"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "test_integration",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "test_objective.py"
+    },
+    {
+      "imports": [
+        "unittest.mock.MagicMock",
+        "objective_function.soft_maximum_worst_case"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "test_obj",
+          "params": [],
+          "local_variables": [
+            "k"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

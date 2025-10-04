@@ -1,0 +1,1189 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "random"
+      ]
+    },
+    {
+      "global_variables": [
+        "selectors",
+        "partitions",
+        "selectivity",
+        "runid",
+        "sigma",
+        "indpb",
+        "mutpb",
+        "cxpb"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "constants"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "product",
+        "selector"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "evaluation"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "random",
+        "shlex",
+        "subprocess",
+        "sys",
+        "",
+        "numpy",
+        "typing",
+        "termcolor colored",
+        "partitions",
+        "evolution individual",
+        "objective soft maximum worst",
+        "trades",
+        "strategy"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "pct",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "minutes",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "runzen",
+          "params": [
+            "cmdline"
+          ],
+          "local_variables": [
+            "ansi escape",
+            "",
+            "profit",
+            "profit",
+            "trades",
+            "trades"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "zen",
+          "params": [
+            "cmdline",
+            "days"
+          ],
+          "local_variables": [
+            "periods",
+            "fitness",
+            "cmd",
+            "",
+            "",
+            "fitness"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            "days",
+            "partitions"
+          ],
+          "local_variables": [
+            "",
+            "delta",
+            "splits"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "andividual",
+          "attributes": [
+            "command",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "mate",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "instrument",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "strategy",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "objective",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "compress",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "period",
+                "normalized",
+                "normalized period",
+                "output"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [
+                    "",
+                    ""
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "cmdline",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "normalize",
+              "params": [
+                "",
+                "",
+                "period"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "convert",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fabfile"
+    },
+    {
+      "imports": [
+        "",
+        "shlex",
+        "subprocess",
+        "fabric",
+        "fabric",
+        "fabric local"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "sim",
+          "params": [
+            "instrument",
+            "days",
+            "popsize",
+            "strategy"
+          ],
+          "local_variables": [
+            "",
+            "cmd",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "remote",
+          "params": [
+            "cmd",
+            "logfile"
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "backfill remote",
+          "params": [
+            "days"
+          ],
+          "local_variables": [
+            "products",
+            "cmd"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "backfill local",
+          "params": [
+            "days"
+          ],
+          "local_variables": [
+            "products",
+            "cmd"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "halloffame"
+    },
+    {
+      "imports": [
+        "attrgetter",
+        "runid"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "objective hall fame",
+          "attributes": [
+            "",
+            "maxsize"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "maxsize"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "newpop"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "report"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "persist",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "sys",
+        "functools partial",
+        "deap",
+        "deap mut gaussian",
+        "scoop shared",
+        "termcolor colored",
+        "indpb",
+        "sigma",
+        "partitions",
+        "selectors",
+        "evaluation zen",
+        "evaluation andividual",
+        "evolution evolve",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "blue",
+        "green",
+        "instrument",
+        "days",
+        "popsize",
+        "popsize",
+        "strategy",
+        "strategy",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "instrument",
+            "days",
+            "popsize",
+            "strategy"
+          ],
+          "local_variables": [
+            "",
+            "strategies",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "objective"
+    },
+    {
+      "imports": [
+        "math"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "soft maximum worst",
+          "params": [
+            "ind"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "shlex",
+        "subprocess",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "trades",
+          "params": [
+            "stuff"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "strategy",
+          "params": [
+            "strat"
+          ],
+          "local_variables": [
+            "ansi escape",
+            "",
+            "strats",
+            "groups",
+            "output",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "strategies",
+          "params": [],
+          "local_variables": [
+            "ansi escape",
+            "",
+            "strats",
+            "groups",
+            "output",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "zendividual"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "core"
+    },
+    {
+      "imports": [
+        "random",
+        "deap history",
+        "deap statistics",
+        "termcolor colored",
+        "cxpb",
+        "mutpb",
+        "stuff"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "algorithm",
+          "params": [
+            "individual",
+            "popsize",
+            "map",
+            "",
+            "",
+            "breed",
+            "mutate",
+            "stats",
+            "history",
+            "hof"
+          ],
+          "local_variables": [
+            "population",
+            "",
+            "population",
+            "offspring",
+            "mutants",
+            "survivors",
+            "population"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "group",
+          "params": [
+            "population",
+            "map",
+            ""
+          ],
+          "local_variables": [
+            "ind",
+            "fitnesses"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "breed",
+          "params": [
+            "population"
+          ],
+          "local_variables": [
+            "offspring",
+            "parent",
+            "parent",
+            "child",
+            "child"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "mutate",
+          "params": [
+            "population"
+          ],
+          "local_variables": [
+            "mutants"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "individual"
+    },
+    {
+      "imports": [
+        "deepcopy",
+        "",
+        "",
+        "deap fitness",
+        "partitions"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "fitness",
+          "attributes": [
+            "weights"
+          ],
+          "methods": []
+        },
+        {
+          "name": "individual",
+          "attributes": [
+            "mate",
+            "mutate",
+            "",
+            "fitness"
+          ],
+          "methods": [
+            {
+              "name": "objective",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "deepcopy",
+              "params": [
+                "",
+                "memodict"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "child",
+                "child"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "invert",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "mutant"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "selection"
+    },
+    {
+      "imports": [
+        "random",
+        "attrgetter",
+        "typing iterable",
+        "typing",
+        "termcolor colored",
+        "partitions",
+        "evolution individual"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "harsh winter",
+          "params": [
+            "population",
+            ""
+          ],
+          "local_variables": [
+            "elitist",
+            "specialist",
+            "elites",
+            "difference",
+            "specialists",
+            "survivors",
+            "difference",
+            "",
+            "population",
+            "",
+            "population"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "elites",
+          "params": [
+            "individuals",
+            ""
+          ],
+          "local_variables": [
+            "elites"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "specialists",
+          "params": [
+            "individuals",
+            ""
+          ],
+          "local_variables": [
+            "guilds",
+            "specialists"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "stuff",
+          "params": [
+            "elites",
+            "",
+            "specialists"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "networkx",
+        "numpy",
+        "deap statistics",
+        "matplotlib pyplot",
+        "termcolor colored",
+        "runid",
+        "objective soft maximum worst"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "history",
+            "toolbox"
+          ],
+          "local_variables": [
+            "",
+            "graph",
+            "graph",
+            "colors inds",
+            "colors",
+            "positions"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "stuff",
+          "params": [
+            "",
+            "history",
+            "hof",
+            "population",
+            "stats"
+          ],
+          "local_variables": [
+            "record"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "statsa",
+          "params": [],
+          "local_variables": [
+            "stats"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "functools partial",
+        "deap history",
+        "scoop futures",
+        "evolution core algorithm",
+        "evolution core breed",
+        "evolution core mutate",
+        "halloffame objective hall fame",
+        "selection harsh winter",
+        "statsa"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "evolve",
+          "params": [
+            "",
+            "",
+            "popsize"
+          ],
+          "local_variables": [
+            "",
+            "history",
+            "stats",
+            "hof"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "evaluation"
+    },
+    {
+      "imports": [
+        "evaluation fuzz product",
+        "strategy",
+        "unittest patch"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "strategies",
+          "params": [],
+          "local_variables": [
+            "asd"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "evolution"
+    },
+    {
+      "imports": [
+        "random",
+        "evolution evolve",
+        "evolution individual"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "evolve",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": [],
+          "nested_classes": [
+            {
+              "name": "individual",
+              "attributes": [],
+              "methods": [
+                {
+                  "name": "",
+                  "params": [
+                    ""
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "integration"
+    },
+    {
+      "imports": [
+        "random",
+        "subprocess",
+        "unittest patch",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "myoutput",
+          "params": [
+            "cmdline"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "integration",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "objective"
+    },
+    {
+      "imports": [
+        "unittest magic",
+        "objective soft maximum worst"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

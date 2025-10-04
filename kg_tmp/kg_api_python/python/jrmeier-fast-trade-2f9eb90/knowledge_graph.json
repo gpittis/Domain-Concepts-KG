@@ -1,0 +1,9684 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "absmomentum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "account",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "action",
+      "count": 20
+    },
+    {
+      "type": "CONCEPT",
+      "name": "actual",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "adjust",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "adl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "adx",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "allow",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alpha",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "amax",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "analysi",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "apz",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "archiv",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "argpars",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "asd",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "asset",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "atr",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "aux",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "averag",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ax",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "axi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backtest",
+      "count": 32
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bad",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "balanc",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "band",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "basic",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "basp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "baspn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "batch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bband",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bbwidth",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bear",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bearish",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "binanc",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bop",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "box",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bpavg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bull",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bullish",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calcul",
+      "count": 31
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calendar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calmar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "candl",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cci",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cfi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chaikin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chandeli",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "channel",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chart",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chikou",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "clean",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coinbas",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "collect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "comb",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "comiss",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "command",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "commiss",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "common",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "comput",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "confirm",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "conn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "connect",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "constant",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "convert",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "copp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "csv",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cum",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "curr",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cutoff",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "daili",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datafram",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datapoint",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "day",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "decor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delay",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "deltawma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dema",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "detect",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "determin",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dev",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dfcheck",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diff",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diminus",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diplus",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distanc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "div",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dmi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dmn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dmp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "download",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "downsid",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "drawdown",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "durat",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dvma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dymi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ebbp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "effect",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "efi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ema",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "emv",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "engin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "equal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "equiti",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "esa",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "evstc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "evwma",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exchang",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exposur",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "extract",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "factor",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fast",
+      "count": 42
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fee",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fig",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "filt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "finta",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fish",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fractal",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frama",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frame",
+      "count": 22
+    },
+    {
+      "type": "CONCEPT",
+      "name": "freq",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frequenc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "func",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "functool",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fve",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gain",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "generat",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "group",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hilow",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "histo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hma",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hour",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "iaf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ichimoku",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ift",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "impact",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "increment",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ind",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "indic",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "infer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "inputvalid",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "inter",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "itertool",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "json",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kama",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kijun",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kline",
+      "count": 13
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kst",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kwarg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lag",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "larger",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "largest",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lcl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "linear",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lmax",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lmin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "local",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "logic",
+      "count": 22
+    },
+    {
+      "type": "CONCEPT",
+      "name": "logiz",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lookback",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loss",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lot",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lowest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lwma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "macd",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mad",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mama",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "market",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mass",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "match",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "math",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "matplotlib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mav",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "maxaf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "med",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "median",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "metric",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mfi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mfm",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mfratio",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mfv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mid",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "middl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "minut",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mirror",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "miss",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mobo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mod",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mom",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "momentum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "month",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "msd",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mult",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "multi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "multipli",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "namedtupl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nan",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nbf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nbfraw",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nbp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ndayhigh",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ndaylow",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "neg",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "negat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nsf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nsfraw",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nsp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "numer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "numpi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "obv",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "offset",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ohlc",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ohlcv",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "openclos",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "oper",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "order",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "osc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "panda",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "peak",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "perc",
+      "count": 22
+    },
+    {
+      "type": "CONCEPT",
+      "name": "percent",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "perform",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "period",
+      "count": 20
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pivot",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "plot",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pos",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "posit",
+      "count": 10
+    },
+    {
+      "type": "CONCEPT",
+      "name": "power",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ppo",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pprint",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prep",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prepar",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "price",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "proccess",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "product",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "profit",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "psar",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "psarbear",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "psarbul",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pyplot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pytest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pzo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "qstick",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "qualiti",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "queri",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "random",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rangev",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ratio",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "raw",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "requir",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resampl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "revers",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "risk",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rmf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roc",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roll",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "round",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rsi",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rule",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sar",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sari",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sen",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "senkou",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "separ",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "seri",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "seterr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "shape",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sharp",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sig",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sigma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sign",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "signal",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simpl",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "singl",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sleeper",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slow",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sma",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "smav",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "smm",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "smma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "smooth",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sortino",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "span",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spavg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spreadvol",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sqlite",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sqrt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sqz",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sqzmi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ssma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "standard",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "std",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stoch",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stochd",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stochrsi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stod",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stok",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "store",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strat",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strategi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "streak",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subset",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "summar",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "summari",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "support",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "swi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "symbol",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sys",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tanh",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tema",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tenkan",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "threshold",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tick",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timedelta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timestr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tld",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tmf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trade",
+      "count": 65
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trail",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tran",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transact",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "travers",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trend",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trima",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tripl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trix",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tsi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "type",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "typic",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unit",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unprofit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "upper",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vama",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "varg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "varianc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vaue",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vbm",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vfactor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vfi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vidya",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vinter",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vmm",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vmp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vol",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "volatil",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "volsum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vortex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vpt",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vwap",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vzo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wavepm",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "week",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "weight",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "william",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "win",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wma",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wmaf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wmas",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wobv",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wrap",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wtf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wto",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "xpt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "zlema",
+      "count": 2
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "absmomentum",
+      "to": "tsi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "analysi",
+      "final_weight": 5.066665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "aux",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "backtest",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "basic",
+      "final_weight": 3.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "calcul",
+      "final_weight": 11.216665,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "comiss",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "logic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "lot",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "perc",
+      "final_weight": 2.899999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "posit",
+      "final_weight": 6.949998,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "ratio",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "round",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "sharp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "simpl",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "summar",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "summari",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "tick",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "trade",
+      "final_weight": 3.199999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "transact",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "vaue",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "backtest",
+      "final_weight": 26.433324,
+      "count": 35
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "confirm",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "curr",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "current",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "determin",
+      "final_weight": 6.7,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "diff",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "equal",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "fast",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "frame",
+      "final_weight": 11.533332,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "generat",
+      "final_weight": 4.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "ind",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "lcl",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "logic",
+      "final_weight": 18.416665,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "loss",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "lot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "mult",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "multi",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "proccess",
+      "final_weight": 10.8,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "requir",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "singl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "summari",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "trade",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "trail",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "wtf",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "archiv",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "calcul",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "miss",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "perc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "singl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "symbol",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "adx",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "apz",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "basp",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "baspn",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "calcul",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "cfi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "chaikin",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "cmo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "copp",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "dema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "dmi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "dymi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "efi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "ema",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "evstc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "fish",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "macd",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "market",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "perc",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "ppo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "pzo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "rsi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "smma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "ssma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "stc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "tema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "trix",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "tsi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "vfi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "vzo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "wto",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "zlema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adl",
+      "to": "mfm",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adl",
+      "to": "mfv",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adl",
+      "to": "ohlcv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adx",
+      "to": "dmi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adx",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adx",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "allow",
+      "to": "backtest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "allow",
+      "to": "oper",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "allow",
+      "to": "standard",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alma",
+      "to": "offset",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alma",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alma",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alma",
+      "to": "sigma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alp",
+      "to": "frama",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alpha",
+      "to": "fast",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alpha",
+      "to": "kama",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alpha",
+      "to": "slow",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "amax",
+      "to": "sar",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "aux",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "backtest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "basic",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "calcul",
+      "final_weight": 10.366664,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "comiss",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "convert",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "daili",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "fast",
+      "final_weight": 9.666665,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "fee",
+      "final_weight": 4.283332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "larger",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "logic",
+      "final_weight": 5.583332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "lot",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "month",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "panda",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "posit",
+      "final_weight": 7.416664,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "pytest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "simpl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "tick",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "timedelta",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "trade",
+      "final_weight": 9.666665,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "analysi",
+      "to": "vaue",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "band",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "dev",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "factor",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "price",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "upper",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apz",
+      "to": "volatil",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "asset",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "backtest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "binanc",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "coinbas",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "connect",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "download",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "exchang",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "fast",
+      "final_weight": 9.1,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "kline",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "path",
+      "final_weight": 2.683333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "singl",
+      "final_weight": 2.583333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "symbol",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "archiv",
+      "to": "trade",
+      "final_weight": 9.1,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "coinbas",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "download",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "exchang",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "fast",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "local",
+      "final_weight": 3.733333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "path",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "symbol",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "trade",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "atr",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "atr",
+      "to": "period",
+      "final_weight": 1.9,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "atr",
+      "to": "vbm",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "balanc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "basic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "comiss",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "convert",
+      "final_weight": 4.45,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "logic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "lot",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "posit",
+      "final_weight": 5.149998,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "summari",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "tick",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aux",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "averag",
+      "to": "wto",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ax",
+      "to": "plot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "balanc",
+      "final_weight": 7.749998,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "basic",
+      "final_weight": 2.683332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "chart",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "clean",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "collect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "comiss",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "confirm",
+      "final_weight": 2.833332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "curr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "datapoint",
+      "final_weight": 2.266666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "determin",
+      "final_weight": 6.899998,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "diff",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "ema",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "equal",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "extract",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "fast",
+      "final_weight": 16.099997,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "frame",
+      "final_weight": 8.316664,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "freq",
+      "final_weight": 2.266666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "func",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "generat",
+      "final_weight": 8.549999,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "ind",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "indic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "itertool",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "kline",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "logic",
+      "final_weight": 22.26666,
+      "count": 30
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "logiz",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "loss",
+      "final_weight": 3.049999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "lot",
+      "final_weight": 6.166665,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "map",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "match",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "median",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "mid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "mirror",
+      "final_weight": 8.799998,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "miss",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "mod",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "mult",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "multi",
+      "final_weight": 2.833332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "namedtupl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "nan",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "numpi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "oper",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "panda",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "perc",
+      "final_weight": 2.266666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "perform",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "period",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "prepar",
+      "final_weight": 14.866663,
+      "count": 18
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "proccess",
+      "final_weight": 8.499996,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "requir",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "rule",
+      "final_weight": 3.533332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "simpl",
+      "final_weight": 3.849999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "singl",
+      "final_weight": 7.633331,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "strat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "summari",
+      "final_weight": 4.516665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "trade",
+      "final_weight": 17.999996,
+      "count": 20
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "trail",
+      "final_weight": 3.049999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "tran",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "transform",
+      "final_weight": 3.816665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bad",
+      "to": "candl",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bad",
+      "to": "product",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bad",
+      "to": "singl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "convert",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "mirror",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "prepar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "band",
+      "to": "bband",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "band",
+      "to": "middl",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "band",
+      "to": "upper",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "calcul",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "comiss",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "csv",
+      "final_weight": 3.816667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "expect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "fee",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "frame",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "mirror",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "path",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "posit",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "trade",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basic",
+      "to": "transact",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "bpavg",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "nbfraw",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "nbp",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "nsfraw",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "nsp",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "spavg",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "basp",
+      "to": "varg",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "bpavg",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "nbf",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "nbp",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "nsf",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "nsp",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "spavg",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "baspn",
+      "to": "varg",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "batch",
+      "to": "frama",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bband",
+      "to": "middl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bband",
+      "to": "multipli",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bband",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bband",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bband",
+      "to": "std",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bband",
+      "to": "upper",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bbwidth",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bbwidth",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bear",
+      "to": "ebbp",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bear",
+      "to": "power",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "fractal",
+      "final_weight": 3.766667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "william",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "curr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "delay",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "durat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "exchang",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "hour",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "increment",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "kline",
+      "final_weight": 11.133332,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "match",
+      "final_weight": 2.05,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "math",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "panda",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "sleeper",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "store",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "symbol",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "tld",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "binanc",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bop",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "emv",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "ratio",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bull",
+      "to": "ebbp",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bull",
+      "to": "power",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bull",
+      "to": "psar",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullish",
+      "to": "fractal",
+      "final_weight": 3.766667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullish",
+      "to": "william",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "dev",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "osc",
+      "final_weight": 0.566667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "calmar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "comiss",
+      "final_weight": 4.416666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "commiss",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "daili",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "downsid",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "drawdown",
+      "final_weight": 4.966665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "durat",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "effect",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "expect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "exposur",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "factor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "fast",
+      "final_weight": 7.133333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "fee",
+      "final_weight": 9.233332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "freq",
+      "final_weight": 3.216666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "group",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "impact",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "larger",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "largest",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "loss",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "market",
+      "final_weight": 4.233333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "metric",
+      "final_weight": 5.4,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "miss",
+      "final_weight": 14.23333,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "month",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "negat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "numpi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "order",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "panda",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "perc",
+      "final_weight": 22.28333,
+      "count": 21
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "pos",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "posit",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "price",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "profit",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "pytest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "qualiti",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "ratio",
+      "final_weight": 7.433332,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "risk",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "roll",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "round",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "shape",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "sharp",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "simpl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "sortino",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "std",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "streak",
+      "final_weight": 4.966665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "summari",
+      "final_weight": 16.099994,
+      "count": 20
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "trade",
+      "final_weight": 19.199999,
+      "count": 19
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "transact",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "unprofit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "vaue",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "week",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "win",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calendar",
+      "to": "offset",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calendar",
+      "to": "resampl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calmar",
+      "to": "metric",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calmar",
+      "to": "ratio",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calmar",
+      "to": "risk",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "coinbas",
+      "final_weight": 3.649999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "current",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "durat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "hour",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "kline",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "product",
+      "final_weight": 4.533334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "singl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "store",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cci",
+      "to": "constant",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cci",
+      "to": "mad",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cci",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cci",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cci",
+      "to": "roll",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cfi",
+      "to": "ohlcv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chaikin",
+      "to": "ohlcv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chandeli",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chandeli",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "channel",
+      "to": "wto",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "frame",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "freq",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "generat",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "unit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chikou",
+      "to": "ichimoku",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chikou",
+      "to": "period",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chikou",
+      "to": "span",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clean",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clean",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmo",
+      "to": "delta",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmo",
+      "to": "factor",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmo",
+      "to": "gain",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmo",
+      "to": "loss",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmo",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmo",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "day",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "delay",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "kline",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "match",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "math",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "panda",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "pprint",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "product",
+      "final_weight": 2.866666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "singl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "type",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "namedtupl",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "plot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comb",
+      "to": "sqz",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comb",
+      "to": "sqzmi",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "fee",
+      "final_weight": 6.316665,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "larger",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "logic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "lot",
+      "final_weight": 4.333332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "posit",
+      "final_weight": 8.749998,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "prepar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "price",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "tick",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comiss",
+      "to": "trade",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "map",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "commiss",
+      "to": "effect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "commiss",
+      "to": "impact",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "commiss",
+      "to": "metric",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "commiss",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "commiss",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "common",
+      "to": "diff",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "common",
+      "to": "frequenc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "common",
+      "to": "infer",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comput",
+      "to": "linear",
+      "final_weight": 0.688333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "confirm",
+      "to": "ind",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "confirm",
+      "to": "logic",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "confirm",
+      "to": "multi",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "confirm",
+      "to": "proccess",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "conn",
+      "to": "connect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "conn",
+      "to": "kline",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "connect",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "connect",
+      "to": "path",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "connect",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convert",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convert",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "copp",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "copp",
+      "to": "roc",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "expect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "frame",
+      "final_weight": 4.066666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "path",
+      "final_weight": 3.55,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cum",
+      "to": "div",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cum",
+      "to": "vama",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "curr",
+      "to": "kline",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "curr",
+      "to": "logic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "frame",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "product",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cutoff",
+      "to": "vfi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "frame",
+      "final_weight": 5.066665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "freq",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "ind",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "multi",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "tick",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "tran",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafram",
+      "to": "transform",
+      "final_weight": 12.383332,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datapoint",
+      "to": "generat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datapoint",
+      "to": "logic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datapoint",
+      "to": "mirror",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datapoint",
+      "to": "period",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datapoint",
+      "to": "prepar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "frequenc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "infer",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "middl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "product",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delta",
+      "to": "mfi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delta",
+      "to": "rsi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deltawma",
+      "to": "hma",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deltawma",
+      "to": "ohlc",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dema",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dema",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dema",
+      "to": "tsi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detect",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detect",
+      "to": "frame",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detect",
+      "to": "regex",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detect",
+      "to": "timestr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detect",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detect",
+      "to": "unit",
+      "final_weight": 3.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "determin",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "determin",
+      "to": "frame",
+      "final_weight": 3.333333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "determin",
+      "to": "loss",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "determin",
+      "to": "mult",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "determin",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "determin",
+      "to": "trail",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dev",
+      "to": "factor",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dev",
+      "to": "input",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dev",
+      "to": "osc",
+      "final_weight": 1.216667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dev",
+      "to": "wavepm",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dfcheck",
+      "to": "inputvalid",
+      "final_weight": 0.766667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dfcheck",
+      "to": "wrap",
+      "final_weight": 0.688333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "frame",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "frequenc",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "infer",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diminus",
+      "to": "dmi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diplus",
+      "to": "dmi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "emv",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "div",
+      "to": "vama",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dmi",
+      "to": "dmn",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dmi",
+      "to": "dmp",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dmi",
+      "to": "dymi",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dmi",
+      "to": "ohlc",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dmi",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dmi",
+      "to": "subset",
+      "final_weight": 0.566667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "download",
+      "to": "exchang",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "download",
+      "to": "fast",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "download",
+      "to": "path",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "download",
+      "to": "symbol",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "download",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "downsid",
+      "to": "metric",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "downsid",
+      "to": "risk",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "downsid",
+      "to": "std",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "drawdown",
+      "to": "durat",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "drawdown",
+      "to": "group",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "drawdown",
+      "to": "metric",
+      "final_weight": 5.966665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "drawdown",
+      "to": "risk",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "drawdown",
+      "to": "roll",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "drawdown",
+      "to": "summari",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "exposur",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "hour",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "kline",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "market",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "metric",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "pos",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "product",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "trade",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dvma",
+      "to": "vzo",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dymi",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dymi",
+      "to": "period",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ebbp",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ebbp",
+      "to": "power",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effect",
+      "to": "fee",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effect",
+      "to": "impact",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effect",
+      "to": "profit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effect",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effect",
+      "to": "trade",
+      "final_weight": 5.416666,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effect",
+      "to": "unprofit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "efi",
+      "to": "ohlcv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "efi",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "evstc",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "fast",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "generat",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "kama",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "macd",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "period",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "ppo",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "slow",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "stc",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "tema",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "tripl",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "trix",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "tsi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "zlema",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emv",
+      "to": "ohlcv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emv",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emv",
+      "to": "ratio",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "kline",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "equiti",
+      "to": "peak",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "equiti",
+      "to": "summari",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "esa",
+      "to": "wto",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "fast",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "macd",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "period",
+      "final_weight": 2.1,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "slow",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "smooth",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "stod",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evstc",
+      "to": "stok",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evwma",
+      "to": "fast",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evwma",
+      "to": "macd",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evwma",
+      "to": "ohlcv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evwma",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evwma",
+      "to": "slow",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "evwma",
+      "to": "vol",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "kline",
+      "final_weight": 3.366667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "path",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "singl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "support",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "symbol",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "tld",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "miss",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "perc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exposur",
+      "to": "market",
+      "final_weight": 3.433333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exposur",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exposur",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "extract",
+      "to": "travers",
+      "final_weight": 0.766667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "fve",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "profit",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "qualiti",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "smooth",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "vfi",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "fee",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "frame",
+      "final_weight": 12.899998,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "generat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "kama",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "kline",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "logic",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "macd",
+      "final_weight": 2.550001,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "miss",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "perc",
+      "final_weight": 4.533333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "period",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "posit",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "ppo",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "prepar",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "ratio",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "shape",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "singl",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "stc",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "summar",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "summari",
+      "final_weight": 13.533331,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "trade",
+      "final_weight": 45.5,
+      "count": 35
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "transform",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fast",
+      "to": "unit",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "larger",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "logic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "lot",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "order",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "posit",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "price",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "summari",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "tick",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fee",
+      "to": "trade",
+      "final_weight": 3.566666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fib",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fib",
+      "to": "pivot",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fig",
+      "to": "plot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filt",
+      "to": "frama",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "frame",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "functool",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "inputvalid",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "math",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "numpi",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "panda",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "seri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "seterr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "transform",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finta",
+      "to": "wrap",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fish",
+      "to": "med",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fish",
+      "to": "ndayhigh",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fish",
+      "to": "ndaylow",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fish",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fish",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fish",
+      "to": "raw",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fish",
+      "to": "smooth",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fractal",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fractal",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fractal",
+      "to": "william",
+      "final_weight": 4.433334,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frama",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frama",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "freq",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "frequenc",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "generat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "ind",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "infer",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "lcl",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "logic",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "loss",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "map",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "mult",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "multi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "panda",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "path",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "prepar",
+      "final_weight": 4.016666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "pytest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "requir",
+      "final_weight": 3.15,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "singl",
+      "final_weight": 4.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "standard",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "trade",
+      "final_weight": 12.899998,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "trail",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "transform",
+      "final_weight": 7.133331,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "unit",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "kline",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "mirror",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "miss",
+      "final_weight": 3.216666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "perc",
+      "final_weight": 3.216666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "prepar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "transform",
+      "final_weight": 3.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "freq",
+      "to": "week",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frequenc",
+      "to": "hour",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frequenc",
+      "to": "infer",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frequenc",
+      "to": "minut",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "func",
+      "to": "generat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "functool",
+      "to": "wrap",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fve",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fve",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fve",
+      "to": "smav",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fve",
+      "to": "vol",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gain",
+      "to": "rsi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "ind",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "logic",
+      "final_weight": 3.733333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "logiz",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "mid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "transform",
+      "final_weight": 3.299999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "wtf",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "metric",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "plot",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "separ",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "group",
+      "to": "trade",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hilow",
+      "to": "vpt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histo",
+      "to": "ppo",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hma",
+      "to": "ohlc",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hma",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hma",
+      "to": "sqrt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hma",
+      "to": "wmaf",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hma",
+      "to": "wmas",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "increment",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "infer",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "kline",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "product",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iaf",
+      "to": "psar",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ichimoku",
+      "to": "kijun",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ichimoku",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ichimoku",
+      "to": "period",
+      "final_weight": 2.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ichimoku",
+      "to": "sen",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ichimoku",
+      "to": "senkou",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ichimoku",
+      "to": "span",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ichimoku",
+      "to": "tenkan",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ift",
+      "to": "linear",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ift",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ift",
+      "to": "period",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ift",
+      "to": "rsi",
+      "final_weight": 3.016667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ift",
+      "to": "weight",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ift",
+      "to": "wma",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "impact",
+      "to": "metric",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "impact",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "impact",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "increment",
+      "to": "kline",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ind",
+      "to": "logic",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ind",
+      "to": "mid",
+      "final_weight": 2.0,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ind",
+      "to": "multi",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ind",
+      "to": "proccess",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ind",
+      "to": "singl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ind",
+      "to": "transform",
+      "final_weight": 4.433333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "infer",
+      "to": "minut",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "inputvalid",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "osc",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "wrap",
+      "final_weight": 0.555,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "inter",
+      "to": "vfi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "interv",
+      "to": "resampl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kama",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kama",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kama",
+      "to": "slow",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kama",
+      "to": "sma",
+      "final_weight": 2.233334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kijun",
+      "to": "period",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kijun",
+      "to": "sen",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "match",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "panda",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "path",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "product",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "queri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "sleeper",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "store",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "support",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "symbol",
+      "final_weight": 3.433334,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "tld",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kline",
+      "to": "type",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kst",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kst",
+      "to": "signal",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kwarg",
+      "to": "wrap",
+      "final_weight": 0.555,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lag",
+      "to": "zlema",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "larger",
+      "to": "order",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "largest",
+      "to": "loss",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "largest",
+      "to": "qualiti",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "largest",
+      "to": "trade",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "largest",
+      "to": "win",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "rsi",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "wma",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lmax",
+      "to": "sar",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lmin",
+      "to": "sar",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "lookback",
+      "final_weight": 0.566667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "lot",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "mirror",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "multi",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "pos",
+      "final_weight": 0.566667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "proccess",
+      "final_weight": 10.8,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "requir",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "simpl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "singl",
+      "final_weight": 7.6,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "trade",
+      "final_weight": 4.533333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logic",
+      "to": "wtf",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lookback",
+      "to": "period",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lookback",
+      "to": "wavepm",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "perc",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "prepar",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "qualiti",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "ratio",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "rsi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "streak",
+      "final_weight": 3.266666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "summari",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "trade",
+      "final_weight": 4.166665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "trail",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "win",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lot",
+      "to": "mirror",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lot",
+      "to": "perc",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lot",
+      "to": "posit",
+      "final_weight": 6.849999,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lot",
+      "to": "prepar",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lot",
+      "to": "trade",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lowest",
+      "to": "stoch",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lowest",
+      "to": "william",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lwma",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lwma",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "ohlcv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "period",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "signal",
+      "final_weight": 2.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "slow",
+      "final_weight": 2.550001,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "stc",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mama",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mama",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "transform",
+      "final_weight": 5.1,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "perc",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "summari",
+      "final_weight": 2.833332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "matplotlib",
+      "to": "pyplot",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mav",
+      "to": "vfi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maxaf",
+      "to": "psar",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "median",
+      "to": "perc",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "median",
+      "to": "summar",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "median",
+      "to": "summari",
+      "final_weight": 2.266666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "median",
+      "to": "trade",
+      "final_weight": 2.633333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "negat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "pos",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "posit",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "ratio",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "risk",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "roll",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "sortino",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "summari",
+      "final_weight": 4.249998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mfi",
+      "to": "mfratio",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mfi",
+      "to": "neg",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mfi",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mfi",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mfi",
+      "to": "pos",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mfi",
+      "to": "rmf",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mid",
+      "to": "transform",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "numpi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "panda",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "perc",
+      "final_weight": 15.866663,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "pytest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "strategi",
+      "final_weight": 1.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "summari",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "trade",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "miss",
+      "to": "week",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mobo",
+      "to": "multipli",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mobo",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mobo",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mobo",
+      "to": "std",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mom",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mom",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "momentum",
+      "to": "tsi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "msd",
+      "to": "ohlc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "msd",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multi",
+      "to": "proccess",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multi",
+      "to": "transform",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multipli",
+      "to": "std",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multipli",
+      "to": "vfi",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nan",
+      "to": "numpi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "neg",
+      "to": "obv",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "negat",
+      "to": "risk",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nest",
+      "to": "rule",
+      "final_weight": 0.766667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numer",
+      "to": "plot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numpi",
+      "to": "perc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numpi",
+      "to": "seterr",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numpi",
+      "to": "summari",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "obv",
+      "to": "ohlcv",
+      "final_weight": 2.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "obv",
+      "to": "pos",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "offset",
+      "to": "resampl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "percent",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "pivot",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "ppo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "psar",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "pzo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "qstick",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "roc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "roll",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "rsi",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "sar",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "sma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "smm",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "smma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "sqzmi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "ssma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "stc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "stoch",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "stochd",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "stochrsi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "swi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "tema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "trima",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "trix",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "tsi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "vbm",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "vfi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "vortex",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "vpt",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "vzo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "wavepm",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "william",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "wma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "wto",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "zlema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlcv",
+      "to": "rangev",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlcv",
+      "to": "tmf",
+      "final_weight": 1.933334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlcv",
+      "to": "vama",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlcv",
+      "to": "vidya",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlcv",
+      "to": "vwap",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlcv",
+      "to": "wobv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "openclos",
+      "to": "vpt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "osc",
+      "to": "power",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "osc",
+      "to": "varianc",
+      "final_weight": 0.566667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "osc",
+      "to": "wavepm",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "tanh",
+      "final_weight": 0.566667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "panda",
+      "to": "perc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "panda",
+      "to": "seri",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "panda",
+      "to": "summari",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "singl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "symbol",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "peak",
+      "to": "summari",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "prepar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "pytest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "ratio",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "round",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "sharp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "simpl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "summar",
+      "final_weight": 6.266665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "summari",
+      "final_weight": 12.066662,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "trade",
+      "final_weight": 14.199998,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "week",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perc",
+      "to": "win",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "period",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perform",
+      "to": "summari",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "ppo",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "pzo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "qstick",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "roc",
+      "final_weight": 1.9,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "roll",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "rsi",
+      "final_weight": 3.3,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "senkou",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "slow",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "sma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "smm",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "smma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "smooth",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "sqzmi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "ssma",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "stc",
+      "final_weight": 2.1,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "stoch",
+      "final_weight": 1.9,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "stochd",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "stochrsi",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "swi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "tema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "tenkan",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "tmf",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "trend",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "trima",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "trix",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "upper",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "vama",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "vbm",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "vfi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "vidya",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "vortex",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "vzo",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "wavepm",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "william",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "wma",
+      "final_weight": 1.9,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "zlema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "separ",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "threshold",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "trade",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pos",
+      "to": "posit",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "tick",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "trade",
+      "final_weight": 5.733331,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "transact",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "power",
+      "to": "wavepm",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ppo",
+      "to": "signal",
+      "final_weight": 2.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ppo",
+      "to": "slow",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "rule",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "simpl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "trade",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "trail",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "vfi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "proccess",
+      "to": "singl",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "product",
+      "to": "singl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "product",
+      "to": "store",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "profit",
+      "to": "qualiti",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "profit",
+      "to": "trade",
+      "final_weight": 2.266666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "psar",
+      "to": "psarbear",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "psar",
+      "to": "psarbul",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "psar",
+      "to": "revers",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pzo",
+      "to": "sign",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "qualiti",
+      "to": "ratio",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "qualiti",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "qualiti",
+      "to": "trade",
+      "final_weight": 3.516667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "qualiti",
+      "to": "win",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rangev",
+      "to": "tmf",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "risk",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "shape",
+      "final_weight": 3.733333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "sharp",
+      "final_weight": 3.433333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "sortino",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "summari",
+      "final_weight": 4.133332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "trade",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "vama",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "vol",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ratio",
+      "to": "win",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "raw",
+      "to": "vfi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reg",
+      "to": "strat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "regex",
+      "to": "unit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "requir",
+      "to": "singl",
+      "final_weight": 3.15,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "risk",
+      "to": "roll",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "risk",
+      "to": "sortino",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "risk",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "risk",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roc",
+      "to": "vbm",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "round",
+      "to": "summari",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rsi",
+      "to": "stochrsi",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rsi",
+      "to": "weight",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rsi",
+      "to": "wma",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rule",
+      "to": "summari",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sar",
+      "to": "sari",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sar",
+      "to": "sig",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sar",
+      "to": "xpt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sen",
+      "to": "tenkan",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "senkou",
+      "to": "span",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "seri",
+      "to": "summar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "seri",
+      "to": "trade",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "shape",
+      "to": "sharp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "shape",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "shape",
+      "to": "summari",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "shape",
+      "to": "trade",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sharp",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sign",
+      "to": "vzo",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "signal",
+      "to": "tsi",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "simpl",
+      "to": "summari",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "simpl",
+      "to": "trade",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "singl",
+      "to": "symbol",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "singl",
+      "to": "trade",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slow",
+      "to": "stc",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sma",
+      "to": "trima",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "smooth",
+      "to": "stc",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "smooth",
+      "to": "stod",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "smooth",
+      "to": "vfi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "smooth",
+      "to": "vidya",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "spreadvol",
+      "to": "vpt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sqz",
+      "to": "sqzmi",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "standard",
+      "to": "unit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stc",
+      "to": "stod",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stc",
+      "to": "stok",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "std",
+      "to": "wavepm",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stoch",
+      "to": "stochd",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stoch",
+      "to": "stochrsi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "summari",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "streak",
+      "to": "summari",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "streak",
+      "to": "trade",
+      "final_weight": 7.316665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "streak",
+      "to": "win",
+      "final_weight": 3.266666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "summar",
+      "to": "summari",
+      "final_weight": 8.149998,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "summar",
+      "to": "trade",
+      "final_weight": 12.816666,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "summari",
+      "to": "trade",
+      "final_weight": 29.249991,
+      "count": 36
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "summari",
+      "to": "win",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "symbol",
+      "to": "tld",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "tanh",
+      "to": "wavepm",
+      "final_weight": 0.75,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "tema",
+      "to": "tripl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "tick",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "timestr",
+      "to": "unit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "trade",
+      "to": "transform",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "trade",
+      "to": "unit",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "trade",
+      "to": "unprofit",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "trade",
+      "to": "win",
+      "final_weight": 5.166665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "tran",
+      "to": "transform",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "transact",
+      "to": "vaue",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "typic",
+      "to": "vfi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "unit",
+      "to": "vol",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vama",
+      "to": "vol",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vama",
+      "to": "volsum",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vfactor",
+      "to": "vfi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vfi",
+      "to": "vinter",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vfi",
+      "to": "vol",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vma",
+      "to": "vzo",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vmm",
+      "to": "vortex",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vmp",
+      "to": "vortex",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vol",
+      "to": "vpt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "weight",
+      "to": "wma",
+      "final_weight": 0.616667,
+      "count": 1
+    }
+  ]
+}

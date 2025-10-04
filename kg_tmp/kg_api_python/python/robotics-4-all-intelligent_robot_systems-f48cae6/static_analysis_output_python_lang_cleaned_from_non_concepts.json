@@ -1,0 +1,592 @@
+[
+  [
+    {
+      "file": "brushfires"
+    },
+    {
+      "imports": [
+        "rospy",
+        "random",
+        "math",
+        "numpy",
+        "timeit timer",
+        "rviz",
+        "cffi",
+        "",
+        "scipy"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "brushfires",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "obstacles brushfire cffi",
+              "params": [
+                "",
+                "ogm",
+                "ogm"
+              ],
+              "local_variables": [
+                "brush",
+                "",
+                "height",
+                "brush",
+                "brush"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "obstacles brushfire",
+              "params": [
+                "",
+                "ogm",
+                "ogm"
+              ],
+              "local_variables": [
+                "brush",
+                "",
+                "height",
+                "current",
+                "brush",
+                "",
+                "expanded",
+                "",
+                "expanded",
+                "lim",
+                "",
+                "",
+                "brush",
+                "expanded",
+                "current",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "coverage brushfire",
+              "params": [
+                "",
+                "ogm",
+                "coverage",
+                "robot pose",
+                "origin",
+                "resolution"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "height",
+                "ogm",
+                "ogm",
+                "cov",
+                "cov"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "closest uncovered brushfire",
+              "params": [
+                "",
+                "ogm",
+                "coverage",
+                "brushogm",
+                "robot pose",
+                "origin",
+                "resolution"
+              ],
+              "local_variables": [
+                "",
+                "brush",
+                "",
+                "height",
+                "",
+                "",
+                "brush",
+                "current",
+                "",
+                "expanded",
+                "",
+                "expanded",
+                "lim",
+                "",
+                "",
+                "brush",
+                "expanded",
+                "lim",
+                "lim",
+                "current",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "cffi ffi"
+      ]
+    },
+    {
+      "global_variables": [
+        "ffi"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "laser aggregator"
+    },
+    {
+      "imports": [
+        "rospy",
+        "sensor laser scan"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "laser aggregator",
+          "attributes": [
+            "laser scan"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "laser topic"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "laser",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "path planning"
+    },
+    {
+      "imports": [
+        "rospy",
+        "math",
+        "",
+        "",
+        "ogmpp communications srv ogmpp path planning srv",
+        "ogmpp communications srv ogmpp map srv",
+        "ogmpp communications srv ogmpp path planning srv",
+        "ogmpp communications srv ogmpp path planning srv",
+        "ogmpp communications srv ogmpp map srv",
+        "geometry"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "path planning",
+          "attributes": [
+            "ogmpp",
+            "ogmpp map"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "",
+                "ogm"
+              ],
+              "local_variables": [
+                "map"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "path",
+              "params": [
+                "",
+                "robot pose",
+                "target pose",
+                "resolution"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "tinit",
+                "",
+                "path"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "sonar aggregator"
+    },
+    {
+      "imports": [
+        "rospy",
+        "sensor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "sonar aggregator",
+          "attributes": [
+            "sonar",
+            "sonar",
+            "sonar",
+            "sonar rear",
+            "sonar rear"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sonar",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sonar",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sonar",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sonar rear",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "sonar rear",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "target selection"
+    },
+    {
+      "imports": [
+        "rospy",
+        "random",
+        "math",
+        "",
+        "numpy",
+        "timeit timer",
+        "rviz",
+        "ogm",
+        "",
+        "brushfires",
+        "topology",
+        "scipy",
+        "path planning path planning"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "target selection",
+          "attributes": [
+            "goals position",
+            "goals",
+            "omega",
+            "radius",
+            "",
+            "brush",
+            "topo",
+            "path planning"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "selection"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "target",
+              "params": [
+                "",
+                "ogm",
+                "coverage",
+                "robot pose",
+                "origin",
+                "resolution",
+                "force random"
+              ],
+              "local_variables": [
+                "target",
+                "ogm",
+                "ogm",
+                "tinit",
+                "brush",
+                "tinit",
+                "skeleton",
+                "tinit",
+                "nodes",
+                "vis nodes",
+                "target"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "random target",
+              "params": [
+                "",
+                "ogm",
+                "coverage",
+                "brushogm",
+                "ogm"
+              ],
+              "local_variables": [
+                "tinit",
+                "target",
+                "",
+                "rand",
+                "rand",
+                "target",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "topology"
+    },
+    {
+      "imports": [
+        "rospy",
+        "random",
+        "math",
+        "numpy",
+        "timeit timer",
+        "rviz",
+        "",
+        "cffi",
+        "",
+        "scipy",
+        "",
+        "skimage morphology skeletonize"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "topology",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "skeletonization cffi",
+              "params": [
+                "",
+                "ogm",
+                "origin",
+                "resolution",
+                "ogml"
+              ],
+              "local_variables": [
+                "",
+                "height",
+                "local",
+                "local",
+                "skeleton",
+                "skeleton",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "skeletonization",
+              "params": [
+                "",
+                "ogm",
+                "origin",
+                "resolution",
+                "ogml"
+              ],
+              "local_variables": [
+                "",
+                "height",
+                "ogm",
+                "",
+                "height",
+                "local",
+                "local",
+                "local",
+                "skeleton",
+                "skeleton",
+                "skeleton",
+                "skeleton",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "topological nodes",
+              "params": [
+                "",
+                "ogm",
+                "skeleton",
+                "coverage",
+                "origin",
+                "resolution",
+                "brush",
+                "ogm"
+              ],
+              "local_variables": [
+                "nodes",
+                "",
+                "height",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "pruning",
+              "params": [
+                "",
+                "img",
+                ""
+              ],
+              "local_variables": [
+                "img",
+                "",
+                "",
+                "img",
+                "img"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

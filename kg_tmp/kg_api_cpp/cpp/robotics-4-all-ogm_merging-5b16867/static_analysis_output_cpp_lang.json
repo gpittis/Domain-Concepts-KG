@@ -1,0 +1,7306 @@
+[
+  [
+    {
+      "file": "map_loader.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_server/map_loader.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "loadMap",
+          "params": [
+            "fname"
+          ],
+          "local_variables": [
+            "map_resp_",
+            "mapfname",
+            "fin",
+            "origin[3]",
+            "res",
+            "negate",
+            "occ_th",
+            "free_th",
+            "frame_id",
+            "doc",
+            "parser",
+            "doc",
+            "fname_copy",
+            "mapfname",
+            "map_resp_.map.info.map_load_time",
+            "map_resp_.map.header.frame_id",
+            "map_resp_.map.header.stamp"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map_loader_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_server/map_loader.h\"",
+        "\"ros/ros.h\"",
+        "<ros/package.h>",
+        "<ogm_communications/LoadExternalMap.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "nh",
+            "client",
+            "srv",
+            "ss",
+            "b",
+            "pkg",
+            "client",
+            "srv.request.groundTruth",
+            "srv.request.groundTruth",
+            "srv.request.mapFile"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map_server.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_server/map_server.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MapServer::MapServer",
+          "params": [
+            "fname",
+            "groundTruth"
+          ],
+          "local_variables": [
+            "mapName_",
+            "map_.map",
+            "map_.groundTruth",
+            "meta_data_message_"
+          ]
+        },
+        {
+          "name": "MapServer::MapServer",
+          "params": [
+            "fname"
+          ],
+          "local_variables": [
+            "mapName_",
+            "map_.map",
+            "meta_data_message_"
+          ]
+        },
+        {
+          "name": "MapServer::MapServer",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "map_.map",
+            "meta_data_message_"
+          ]
+        },
+        {
+          "name": "MapServer::getMap",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "MapServer::getName",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "MapServer::publishData",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "groundTruth",
+            "map_pub",
+            "viz_pub1",
+            "viz_pub2",
+            "map_.map.header.frame_id",
+            "map_.map.header.frame_id"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_server.cpp.xml"
+    },
+    {
+      "imports": [
+        "<ogm_server/ogm_server.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Server::Server",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "fname",
+            "fname1",
+            "_maps.groundTruthMap",
+            "_maps.slamMap",
+            "_loadExternalMapService",
+            "_loadExternalMapsService",
+            "_loadMapsService",
+            "_guiRequestEvaluationService",
+            "_guiRequestStructuralEvaluationService"
+          ]
+        },
+        {
+          "name": "Server::loadMapsCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": [
+            "res.groundTruthMap",
+            "res.slamMap"
+          ]
+        },
+        {
+          "name": "Server::loadExternalMapCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "Server::loadExternalMapsCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": [
+            "_maps.groundTruthMap",
+            "_maps.slamMap"
+          ]
+        },
+        {
+          "name": "Server::guiRequestEvaluationCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": [
+            "client",
+            "srv",
+            "client",
+            "srv.request.method",
+            "srv.request.detector",
+            "srv.request.descriptor",
+            "srv.request.matcher",
+            "srv.request.matchingMethod",
+            "srv.request.closestPointMethod",
+            "srv.request.distNorm",
+            "srv.request.transform",
+            "srv.request.groundTruthMap",
+            "srv.request.slamMap",
+            "srv.request.matchingRatio",
+            "srv.request.ransacReprjError",
+            "srv.request.scaleMapsBrushfire",
+            "srv.request.binary",
+            "srv.request.manualAlignment",
+            "srv.request.gaussianBlur1",
+            "srv.request.gaussianBlur2",
+            "srv.request.medianBlur1",
+            "srv.request.medianBlur2",
+            "srv.request.gaussianKernel1",
+            "srv.request.gaussianKernel2",
+            "srv.request.medianKernel1",
+            "srv.request.medianKernel2",
+            "res.result",
+            "res.matchedImage",
+            "res.mergedImage"
+          ]
+        },
+        {
+          "name": "Server::guiRequestStructuralEvaluationCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": [
+            "client",
+            "srv",
+            "client",
+            "srv.request.map1",
+            "srv.request.map2",
+            "srv.request.gaussianBlur1",
+            "srv.request.gaussianBlur2",
+            "srv.request.medianBlur1",
+            "srv.request.medianBlur2",
+            "srv.request.gaussianKernel1",
+            "srv.request.gaussianKernel2",
+            "srv.request.medianKernel1",
+            "srv.request.medianKernel2",
+            "srv.request.morphOpen",
+            "srv.request.pruning",
+            "srv.request.morphOpenIterations",
+            "srv.request.skeletonizationMethod",
+            "srv.request.pruningIterations",
+            "res.result",
+            "res.voronoi1",
+            "res.vertices1",
+            "res.voronoi2",
+            "res.vertices2"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_server_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<ogm_server/ogm_server.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "server"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map_loader.h.xml"
+    },
+    {
+      "imports": [
+        "<stdio.h>",
+        "<stdlib.h>",
+        "<libgen.h>",
+        "<fstream>",
+        "<string>",
+        "\"ros/ros.h\"",
+        "\"map_server/image_loader.h\"",
+        "\"nav_msgs/MapMetaData.h\"",
+        "\"yaml-cpp/yaml.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "operator >>",
+          "params": [
+            "node",
+            "i"
+          ],
+          "local_variables": [
+            "i"
+          ]
+        },
+        {
+          "name": "loadMap",
+          "params": [
+            "fname"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map_server.h.xml"
+    },
+    {
+      "imports": [
+        "\"ros/ros.h\"",
+        "\"nav_msgs/OccupancyGrid.h\"",
+        "\"ogm_communications/MapPublish.h\"",
+        "\"ogm_server/map_loader.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MapServer",
+          "attributes": [
+            "n",
+            "map_pub",
+            "viz_pub2",
+            "viz_pub1",
+            "meta_data_message_",
+            "map_",
+            "mapName_"
+          ],
+          "methods": [
+            {
+              "name": "MapServer",
+              "params": [
+                "fname",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "MapServer",
+              "params": [
+                "fname"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "MapServer",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getMap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getName",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publishData",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publishTransform",
+              "params": [
+                "ev"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_server.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<ros/ros.h>",
+        "\"tf/tf.h\"",
+        "\"tf/transform_broadcaster.h\"",
+        "\"nav_msgs/MapMetaData.h\"",
+        "\"nav_msgs/OccupancyGrid.h\"",
+        "<ogm_server/map_server.h>",
+        "<ogm_communications/MapsMsg.h>",
+        "<ogm_communications/LoadMapsFromServer.h>",
+        "<ogm_communications/LoadExternalMap.h>",
+        "<ogm_communications/LoadExternalMaps.h>",
+        "<ogm_communications/GuiRequestEvaluation.h>",
+        "<ogm_communications/ServerRequestEvaluation.h>",
+        "<ogm_communications/GuiRequestStructuralEvaluation.h>",
+        "<ogm_communications/ServerRequestStructuralEvaluation.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Server",
+          "attributes": [
+            "_nh",
+            "_groundTruthMap",
+            "_slamMap",
+            "_loadMapsService",
+            "_loadExternalMapService",
+            "_loadExternalMapsService",
+            "_guiRequestEvaluationService",
+            "_guiRequestStructuralEvaluationService",
+            "map_pub",
+            "metadata_pub",
+            "tfTimer",
+            "tfBroadcaster",
+            "_maps"
+          ],
+          "methods": [
+            {
+              "name": "Server",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loadMapsCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loadExternalMapCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loadExternalMapsCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "guiRequestEvaluationCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "guiRequestStructuralEvaluationCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_application.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_gui_application.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "COgmApplication::COgmApplication",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "COgmApplication::notify",
+          "params": [
+            "receiver",
+            "event"
+          ],
+          "local_variables": [
+            "e"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_connector.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_gui_connector.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CGuiConnector::CGuiConnector",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "map_initialized_",
+            "grid_enabled_"
+          ]
+        },
+        {
+          "name": "CGuiConnector::actionExitTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::actionLoadMapTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "file_name",
+            "requestMap"
+          ]
+        },
+        {
+          "name": "CGuiConnector::actionLoadSlamMapTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "file_name",
+            "requestMap"
+          ]
+        },
+        {
+          "name": "CGuiConnector::actionLoadMapsFromServerTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "loadDefaultMaps"
+          ]
+        },
+        {
+          "name": "CGuiConnector::actionAboutTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "msg"
+          ]
+        },
+        {
+          "name": "CGuiConnector::actionGridTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "grid_enabled_"
+          ]
+        },
+        {
+          "name": "CGuiConnector::isGridEnabled",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::addToGrid",
+          "params": [
+            "w",
+            "row",
+            "column",
+            "rowSpan",
+            "columnSpan"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::setGridColumnStretch",
+          "params": [
+            "cell",
+            "stretch"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::show",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::setStatusBarMessage",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::getCloseEvent",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::closeTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::shutdown",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiConnector::setMapInitialized",
+          "params": [
+            "mi"
+          ],
+          "local_variables": [
+            "map_initialized_"
+          ]
+        },
+        {
+          "name": "CGuiConnector::raiseMessage",
+          "params": [
+            "title",
+            "s"
+          ],
+          "local_variables": [
+            "msg"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_controller.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_gui_controller.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "spinThreadFunction",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiController::CGuiController",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "map_lock_",
+            "map_initialized_"
+          ]
+        },
+        {
+          "name": "CGuiController::~CGuiController",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiController::initializeCommunications",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map_subscriber_",
+            "timer_",
+            "map_initialized_"
+          ]
+        },
+        {
+          "name": "CGuiController::setupWidgets",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map",
+            "initial_slam_map_",
+            "initial_map_",
+            "map.info.width",
+            "map.info.height",
+            "map.info.resolution",
+            "maps_.groundTruthMap",
+            "map.info.width",
+            "map.info.height",
+            "map.info.resolution",
+            "maps_.slamMap"
+          ]
+        },
+        {
+          "name": "CGuiController::init",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "spinThread"
+          ]
+        },
+        {
+          "name": "CGuiController::receiveMapsFromServer",
+          "params": [],
+          "local_variables": [
+            "client",
+            "srv",
+            "map_lock_",
+            "client",
+            "srv.request.request",
+            "maps_.groundTruthMap",
+            "maps_.slamMap",
+            "initial_map_",
+            "initial_slam_map_",
+            "running_map_",
+            "slam_map_",
+            "initial_map_",
+            "initial_slam_map_",
+            "map_initialized_",
+            "map_lock_"
+          ]
+        },
+        {
+          "name": "CGuiController::requestMap",
+          "params": [
+            "file_name",
+            "groundTruth"
+          ],
+          "local_variables": [
+            "client",
+            "srv",
+            "client",
+            "srv.request.mapFile",
+            "srv.request.groundTruth"
+          ]
+        },
+        {
+          "name": "CGuiController::receiveMap",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "groundTruth",
+            "map_lock_",
+            "maps_.groundTruthMap",
+            "initial_map_",
+            "running_map_",
+            "initial_map_",
+            "maps_.slamMap",
+            "initial_slam_map_",
+            "running_map_",
+            "initial_slam_map_",
+            "map_initialized_",
+            "map_lock_"
+          ]
+        },
+        {
+          "name": "CGuiController::convertOccupancyGridToQImage",
+          "params": [
+            "running_map",
+            "map_msg"
+          ],
+          "local_variables": [
+            "painter",
+            "d",
+            "c",
+            "j",
+            "i",
+            "originx",
+            "originy",
+            "c",
+            "d",
+            "c"
+          ]
+        },
+        {
+          "name": "CGuiController::updateMapInternal",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "e",
+            "map_lock_",
+            "running_map_",
+            "slam_map_",
+            "map_lock_"
+          ]
+        },
+        {
+          "name": "CGuiController::moveMapHorizontally",
+          "params": [
+            "x"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiController::moveMapVertically",
+          "params": [
+            "y"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiController::rotateMap",
+          "params": [
+            "r"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiController::scaleMap",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiController::changeMapTransparency",
+          "params": [
+            "t"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiController::requestMetric",
+          "params": [
+            "metricMethod"
+          ],
+          "local_variables": [
+            "client",
+            "srv",
+            "pos",
+            "rot",
+            "scale",
+            "slamScale",
+            "groundTruthScale",
+            "initialMatchingImage",
+            "finalMatchingImage",
+            "mergedImage",
+            "featuresImage",
+            "client",
+            "srv.request.method",
+            "srv.request.detector",
+            "srv.request.descriptor",
+            "srv.request.matcher",
+            "srv.request.matchingMethod",
+            "srv.request.matchingRatio",
+            "srv.request.ransacReprjError",
+            "srv.request.binary",
+            "srv.request.morphologicalFiltering",
+            "srv.request.manualAlignment",
+            "srv.request.scaleMapsBrushfire",
+            "srv.request.gaussianBlur1",
+            "srv.request.gaussianBlur2",
+            "srv.request.medianBlur1",
+            "srv.request.medianBlur2",
+            "srv.request.medianKernel1",
+            "srv.request.medianKernel2",
+            "srv.request.gaussianKernel1",
+            "srv.request.gaussianKernel2",
+            "srv.request.closestPointMethod",
+            "srv.request.manualAlignment",
+            "srv.request.distNorm",
+            "srv.request.transform.pose.x",
+            "srv.request.transform.pose.y",
+            "srv.request.transform.pose.theta",
+            "srv.request.transform.scale",
+            "srv.request.transform.slamOffsetScale",
+            "srv.request.transform.groundTruthOffsetScale",
+            "metricResult_"
+          ]
+        },
+        {
+          "name": "CGuiController::requestStructuralEvaluation",
+          "params": [],
+          "local_variables": [
+            "client",
+            "srv",
+            "client",
+            "srv.request.gaussianBlur1",
+            "srv.request.gaussianBlur2",
+            "srv.request.medianBlur1",
+            "srv.request.medianBlur2",
+            "srv.request.medianKernel1",
+            "srv.request.medianKernel2",
+            "srv.request.gaussianKernel1",
+            "srv.request.gaussianKernel2",
+            "srv.request.morphOpen",
+            "srv.request.pruning",
+            "srv.request.morphOpenIterations",
+            "srv.request.pruningIterations",
+            "srv.request.skeletonizationMethod",
+            "structuralEvaluationResult_",
+            "voronoi1_",
+            "voronoi2_",
+            "vertices1_",
+            "vertices2_"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_loader.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_gui_loader.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CGuiLoader::CGuiLoader",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "close_signal_"
+          ]
+        },
+        {
+          "name": "CGuiLoader::addToolbarIcons",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "iconLoadMap",
+            "iconLoadSlamMap",
+            "iconLoadMapsFromServer",
+            "iconGrid",
+            "actionLoadMap",
+            "actionLoadSlamMap",
+            "actionLoadMapsFromServer",
+            "actionGrid"
+          ]
+        },
+        {
+          "name": "CGuiLoader::closeEvent",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "close_signal_",
+            "event_"
+          ]
+        },
+        {
+          "name": "CGuiLoader::getCloseEvent",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiLoader::closeTriggered",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CGuiLoader::shutdown",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<signal.h>",
+        "\"ogm_gui/ogm_gui_controller.h\"",
+        "\"ogm_gui/ogm_gui_application.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "signalHandler",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "app",
+            "con"
+          ]
+        },
+        {
+          "name": "signalHandler",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_map_connector.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_map_connector.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CMapConnector::CMapConnector",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "p",
+            "map_initialized_",
+            "zoom_in_cursor_",
+            "p",
+            "zoom_out_cursor_"
+          ]
+        },
+        {
+          "name": "CMapConnector::~CMapConnector",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::resetMap",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::setMapXposition",
+          "params": [
+            "x"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::setMapYposition",
+          "params": [
+            "y"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::setMapRotation",
+          "params": [
+            "r"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::setMapScale",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::setMapTransparency",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "mapTransparencyChanged"
+          ]
+        },
+        {
+          "name": "CMapConnector::displayFeaturesImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::displayInitialMatchingImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::displayFinalMatchingImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::displayMergedImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::getPosition",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::getRotation",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::getScale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::getSlamMapScale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::getGroundTruthMapScale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::getTransform",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::drawGrid",
+          "params": [
+            "img",
+            "resolution"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::drawVertices",
+          "params": [
+            "img",
+            "vertices",
+            "groundTruth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::drawVoronoi",
+          "params": [
+            "img",
+            "voronoi",
+            "groundTruth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::updateImage",
+          "params": [
+            "img",
+            "groundTruth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::getLoader",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapConnector::setMapInitialized",
+          "params": [
+            "mi"
+          ],
+          "local_variables": [
+            "map_initialized_"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_map_item.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_map_item.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CMapItem::CMapItem",
+          "params": [],
+          "local_variables": [
+            "factor",
+            "itemChangeLock"
+          ]
+        },
+        {
+          "name": "CMapItem::itemChange",
+          "params": [
+            "change",
+            "value"
+          ],
+          "local_variables": [
+            "sp",
+            "posChanged"
+          ]
+        },
+        {
+          "name": "CMapItem::setMapRotation",
+          "params": [
+            "r"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapItem::setMapScale",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapItem::keyPressEvent",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "sp",
+            "posChanged",
+            "posChanged",
+            "posChanged",
+            "posChanged",
+            "rotationChanged",
+            "rotationChanged",
+            "scaleChanged",
+            "scaleChanged",
+            "itemChangeLock",
+            "sp",
+            "sp",
+            "sp",
+            "sp",
+            "itemChangeLock"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_map_loader.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_map_loader.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CMapLoader::CMapLoader",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "scene",
+            "ground_truth_map",
+            "slam_map",
+            "transparency",
+            "_initialMatched",
+            "_finalMatched",
+            "_merged",
+            "_featuresDisplayed"
+          ]
+        },
+        {
+          "name": "CMapLoader::resetMap",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::setMapXposition",
+          "params": [
+            "x"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::setMapYposition",
+          "params": [
+            "y"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::setMapRotation",
+          "params": [
+            "r"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::setMapScale",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::setMapTransparency",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "transparency"
+          ]
+        },
+        {
+          "name": "CMapLoader::displayFeaturesImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "newDims",
+            "_featuresDisplayed"
+          ]
+        },
+        {
+          "name": "CMapLoader::displayInitialMatchingImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "newDims",
+            "_initialMatched"
+          ]
+        },
+        {
+          "name": "CMapLoader::displayFinalMatchingImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "newDims",
+            "_finalMatched"
+          ]
+        },
+        {
+          "name": "CMapLoader::displayMergedImage",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "newDims",
+            "_merged"
+          ]
+        },
+        {
+          "name": "CMapLoader::checkDimensions",
+          "params": [
+            "w",
+            "h",
+            "containerWidth",
+            "containerHeight",
+            "groundTruth"
+          ],
+          "local_variables": [
+            "aspectRatio",
+            "finalW",
+            "finalH",
+            "finalW",
+            "finalH",
+            "groundTruthOffsetScale",
+            "slamOffsetScale",
+            "finalW",
+            "finalH",
+            "groundTruthOffsetScale",
+            "slamOffsetScale",
+            "groundTruthOffsetScale",
+            "slamOffsetScale"
+          ]
+        },
+        {
+          "name": "CMapLoader::updateImage",
+          "params": [
+            "img",
+            "groundTruth"
+          ],
+          "local_variables": [
+            "pixmap",
+            "newDims",
+            "newDims",
+            "newDims",
+            "newDims",
+            "newDims",
+            "newDims"
+          ]
+        },
+        {
+          "name": "CMapLoader::makeTransparent",
+          "params": [
+            "img",
+            "opacity"
+          ],
+          "local_variables": [
+            "image",
+            "p",
+            "*"
+          ]
+        },
+        {
+          "name": "CMapLoader::drawGrid",
+          "params": [
+            "img",
+            "resolution"
+          ],
+          "local_variables": [
+            "painter",
+            "pix",
+            "i",
+            "i"
+          ]
+        },
+        {
+          "name": "CMapLoader::drawVoronoi",
+          "params": [
+            "img",
+            "voronoi",
+            "groundTruth"
+          ],
+          "local_variables": [
+            "painter",
+            "i"
+          ]
+        },
+        {
+          "name": "CMapLoader::drawVertices",
+          "params": [
+            "img",
+            "vertices",
+            "groundTruth"
+          ],
+          "local_variables": [
+            "painter",
+            "pen",
+            "i",
+            "pen",
+            "pen"
+          ]
+        },
+        {
+          "name": "CMapLoader::getPosition",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::getRotation",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::getScale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::getSlamMapScale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::getGroundTruthMapScale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CMapLoader::getTransform",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_tools.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_tools.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "getRosPackagePath",
+          "params": [
+            "package"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angleRadToDegrees",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angleDegreesToRad",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getLiteralTime",
+          "params": [
+            "ms"
+          ],
+          "local_variables": [
+            "str",
+            "h",
+            "m",
+            "s",
+            "ms_"
+          ]
+        },
+        {
+          "name": "printPose2D",
+          "params": [
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_validation_connector.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_validation_connector.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CValidationConnector::CValidationConnector",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "_detector",
+            "_descriptor",
+            "_matcher",
+            "_matchingMethod",
+            "_closestObstacleMethod",
+            "_distMethod",
+            "_matchingRatio",
+            "_ransacReprjError",
+            "_binary",
+            "_morphFiltering",
+            "_manual_alignment",
+            "_scaleMapsBrushfire",
+            "_gaussianBlur1",
+            "_gaussianBlur2",
+            "_medianBlur1",
+            "_medianBlur2",
+            "_gaussianKernel1",
+            "_gaussianKernel2",
+            "_medianKernel1",
+            "_medianKernel2",
+            "_morphOpenIterations",
+            "_pruningIterations",
+            "_skeletonizationMethod",
+            "_pruning",
+            "_morphOpen",
+            "_voronoi",
+            "_vertices"
+          ]
+        },
+        {
+          "name": "CValidationConnector::updateMapInfo",
+          "params": [
+            "msg"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getDetector",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getDescriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getMatcher",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getMatchingMethod",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getClosestObstacleMethod",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getDistanceMethod",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::posxChanged",
+          "params": [
+            "x"
+          ],
+          "local_variables": [
+            "changeXPos"
+          ]
+        },
+        {
+          "name": "CValidationConnector::posyChanged",
+          "params": [
+            "y"
+          ],
+          "local_variables": [
+            "changeYPos"
+          ]
+        },
+        {
+          "name": "CValidationConnector::rotationChanged",
+          "params": [
+            "r"
+          ],
+          "local_variables": [
+            "changeRotation"
+          ]
+        },
+        {
+          "name": "CValidationConnector::scaleChanged",
+          "params": [
+            "s"
+          ],
+          "local_variables": [
+            "changeScale"
+          ]
+        },
+        {
+          "name": "CValidationConnector::transparencyChanged",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "changeTransparency"
+          ]
+        },
+        {
+          "name": "CValidationConnector::matchingRatioChanged",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_matchingRatio"
+          ]
+        },
+        {
+          "name": "CValidationConnector::ransacChanged",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_ransacReprjError"
+          ]
+        },
+        {
+          "name": "CValidationConnector::gaussianBlurSpinBox1Changed",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_gaussianKernel1"
+          ]
+        },
+        {
+          "name": "CValidationConnector::gaussianBlurSpinBox2Changed",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_gaussianKernel2"
+          ]
+        },
+        {
+          "name": "CValidationConnector::medianBlurSpinBox1Changed",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_medianKernel1"
+          ]
+        },
+        {
+          "name": "CValidationConnector::medianBlurSpinBox2Changed",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_medianKernel2"
+          ]
+        },
+        {
+          "name": "CValidationConnector::getMatchingRatio",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getRansacReprjError",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getGaussianKernel1",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getGaussianKernel2",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getMedianKernel1",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getMedianKernel2",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::showMapPosition",
+          "params": [
+            "x",
+            "y"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::showMapRotation",
+          "params": [
+            "r"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::showMapScale",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::showMapTransparency",
+          "params": [
+            "t"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::resetMapProperties",
+          "params": [],
+          "local_variables": [
+            "_voronoi",
+            "_vertices"
+          ]
+        },
+        {
+          "name": "CValidationConnector::obstacleTriggered",
+          "params": [],
+          "local_variables": [
+            "MetricNeeded"
+          ]
+        },
+        {
+          "name": "CValidationConnector::featureMatchingTriggered",
+          "params": [],
+          "local_variables": [
+            "MetricNeeded"
+          ]
+        },
+        {
+          "name": "CValidationConnector::detectorComboBoxActivated",
+          "params": [
+            "text"
+          ],
+          "local_variables": [
+            "_detector"
+          ]
+        },
+        {
+          "name": "CValidationConnector::descriptorComboBoxActivated",
+          "params": [
+            "text"
+          ],
+          "local_variables": [
+            "_descriptor"
+          ]
+        },
+        {
+          "name": "CValidationConnector::matcherComboBoxActivated",
+          "params": [
+            "text"
+          ],
+          "local_variables": [
+            "_matcher"
+          ]
+        },
+        {
+          "name": "CValidationConnector::matchingMethodComboBoxActivated",
+          "params": [
+            "text"
+          ],
+          "local_variables": [
+            "_matchingMethod"
+          ]
+        },
+        {
+          "name": "CValidationConnector::closestObstacleComboBoxActivated",
+          "params": [
+            "text"
+          ],
+          "local_variables": [
+            "_closestObstacleMethod"
+          ]
+        },
+        {
+          "name": "CValidationConnector::distanceComboBoxActivated",
+          "params": [
+            "text"
+          ],
+          "local_variables": [
+            "_distMethod"
+          ]
+        },
+        {
+          "name": "CValidationConnector::displayMetricResult",
+          "params": [
+            "method",
+            "result"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::binaryMapsChecked",
+          "params": [],
+          "local_variables": [
+            "_binary"
+          ]
+        },
+        {
+          "name": "CValidationConnector::morphFilteringChecked",
+          "params": [],
+          "local_variables": [
+            "_morphFiltering"
+          ]
+        },
+        {
+          "name": "CValidationConnector::manualAlignmentChecked",
+          "params": [],
+          "local_variables": [
+            "_manual_alignment"
+          ]
+        },
+        {
+          "name": "CValidationConnector::scaleMapsBrushfireChecked",
+          "params": [],
+          "local_variables": [
+            "_scaleMapsBrushfire"
+          ]
+        },
+        {
+          "name": "CValidationConnector::gaussianBlurCheckBox1Checked",
+          "params": [],
+          "local_variables": [
+            "_gaussianBlur1"
+          ]
+        },
+        {
+          "name": "CValidationConnector::gaussianBlurCheckBox2Checked",
+          "params": [],
+          "local_variables": [
+            "_gaussianBlur2"
+          ]
+        },
+        {
+          "name": "CValidationConnector::medianBlurCheckBox1Checked",
+          "params": [],
+          "local_variables": [
+            "_medianBlur1"
+          ]
+        },
+        {
+          "name": "CValidationConnector::medianBlurCheckBox2Checked",
+          "params": [],
+          "local_variables": [
+            "_medianBlur2"
+          ]
+        },
+        {
+          "name": "CValidationConnector::morphFiltering",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::thresholdMaps",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::manualAlignMaps",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::scaleMapsBrushfire",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::gaussianBlur1",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::medianBlur1",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::gaussianBlur2",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::medianBlur2",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::morphOpeningCheckBoxChecked",
+          "params": [],
+          "local_variables": [
+            "_morphOpen"
+          ]
+        },
+        {
+          "name": "CValidationConnector::pruningCheckBoxChecked",
+          "params": [],
+          "local_variables": [
+            "_pruning"
+          ]
+        },
+        {
+          "name": "CValidationConnector::voronoiCheckBoxChecked",
+          "params": [],
+          "local_variables": [
+            "_voronoi"
+          ]
+        },
+        {
+          "name": "CValidationConnector::verticesCheckBoxChecked",
+          "params": [],
+          "local_variables": [
+            "_vertices"
+          ]
+        },
+        {
+          "name": "CValidationConnector::skeletonizationComboBoxActivated",
+          "params": [
+            "text"
+          ],
+          "local_variables": [
+            "_skeletonizationMethod"
+          ]
+        },
+        {
+          "name": "CValidationConnector::morphOpeningSpinBoxChanged",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_morphOpenIterations"
+          ]
+        },
+        {
+          "name": "CValidationConnector::pruningSpinBoxChanged",
+          "params": [
+            "t"
+          ],
+          "local_variables": [
+            "_pruningIterations"
+          ]
+        },
+        {
+          "name": "CValidationConnector::pruning",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::morphOpen",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getMorphOpenIterations",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getPruningIterations",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getSkeletonizationMethod",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::isVoronoiEnabled",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::isVerticesEnabled",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationConnector::getLoader",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_validation_loader.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_validation_loader.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CValidationLoader::CValidationLoader",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::~CValidationLoader",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::updateMapInfo",
+          "params": [
+            "width",
+            "height",
+            "ocgd",
+            "groundTruth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::showMapXposition",
+          "params": [
+            "x"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::showMapYposition",
+          "params": [
+            "y"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::showMapRotation",
+          "params": [
+            "r"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::showMapScale",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::showMapTransparency",
+          "params": [
+            "t"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CValidationLoader::resetMapProperties",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_application.h.xml"
+    },
+    {
+      "imports": [
+        "<QDebug>",
+        "<QtWidgets/QApplication>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "COgmApplication",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "COgmApplication",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "notify",
+              "params": [
+                "receiver",
+                "event"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_connector.h.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_server/map_loader.h\"",
+        "<ogm_communications/LoadExternalMap.h>",
+        "\"ogm_gui/ogm_gui_loader.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CGuiConnector",
+          "attributes": [
+            "argc_",
+            "argv_",
+            "map_initialized_",
+            "grid_enabled_",
+            "loader_"
+          ],
+          "methods": [
+            {
+              "name": "CGuiConnector",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "isGridEnabled",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "raiseMessage",
+              "params": [
+                "title",
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "addToGrid",
+              "params": [
+                "w",
+                "row",
+                "column",
+                "rowSpan",
+                "columnSpan"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setGridColumnStretch",
+              "params": [
+                "cell",
+                "stretch"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "show",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setStatusBarMessage",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getCloseEvent",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "closeTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "shutdown",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapInitialized",
+              "params": [
+                "mi"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "actionAboutTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "actionExitTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "actionLoadMapTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "actionLoadSlamMapTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "actionLoadMapsFromServerTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "actionGridTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "requestMap",
+              "params": [
+                "mapFile",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loadDefaultMaps",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "guiExitEvent",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_controller.h.xml"
+    },
+    {
+      "imports": [
+        "<iostream>",
+        "<cstdlib>",
+        "<boost/thread.hpp>",
+        "\"nav_msgs/OccupancyGrid.h\"",
+        "\"geometry_msgs/Point.h\"",
+        "<QtCore/QThread>",
+        "<QtCore/QTime>",
+        "<QtCore/QTimer>",
+        "<ogm_communications/MapPublish.h>",
+        "<ogm_communications/LoadExternalMap.h>",
+        "<ogm_communications/LoadMapsFromServer.h>",
+        "<ogm_communications/GuiRequestEvaluation.h>",
+        "<ogm_communications/GuiRequestStructuralEvaluation.h>",
+        "\"ogm_gui/ogm_gui_connector.h\"",
+        "\"ogm_gui/ogm_validation_connector.h\"",
+        "\"ogm_gui/ogm_map_connector.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CGuiController",
+          "attributes": [
+            "argc_",
+            "argv_",
+            "map_lock_",
+            "map_initialized_",
+            "map_subscriber_",
+            "n_",
+            "maps_",
+            "timer_",
+            "elapsed_time_",
+            "initial_map_",
+            "running_map_",
+            "initial_slam_map_",
+            "slam_map_",
+            "gui_connector_",
+            "validation_connector_",
+            "map_connector_",
+            "metricResult_",
+            "structuralEvaluationResult_",
+            "voronoi1_",
+            "voronoi2_",
+            "vertices1_",
+            "vertices2_"
+          ],
+          "methods": [
+            {
+              "name": "CGuiController",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~CGuiController",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setupWidgets",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initializeCommunications",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "receiveMap",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "init",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "convertOccupancyGridToQImage",
+              "params": [
+                "running_map",
+                "map_msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "requestMap",
+              "params": [
+                "file_name",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "receiveMapsFromServer",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "updateMapInternal",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "moveMapHorizontally",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "moveMapVertically",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rotateMap",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scaleMap",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "changeMapTransparency",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "requestMetric",
+              "params": [
+                "metricMethod"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "requestStructuralEvaluation",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_gui_loader.h.xml"
+    },
+    {
+      "imports": [
+        "\"ui_mainWindow.h\"",
+        "\"ogm_gui/ogm_tools.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CGuiLoader",
+          "attributes": [
+            "argc_",
+            "argv_",
+            "close_signal_",
+            "event_",
+            "actionGrid",
+            "actionLoadMap",
+            "actionLoadSlamMap",
+            "actionLoadMapsFromServer",
+            "actionZoomIn",
+            "actionZoomOut",
+            "actionAdjusted"
+          ],
+          "methods": [
+            {
+              "name": "CGuiLoader",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "closeEvent",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "addToolbarIcons",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getCloseEvent",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "closeTriggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "shutdown",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_map_connector.h.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_map_loader.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CMapConnector",
+          "attributes": [
+            "argc_",
+            "argv_",
+            "zoom_in_cursor_",
+            "zoom_out_cursor_",
+            "loader_",
+            "map_initialized_",
+            "translated",
+            "rotated",
+            "scaled"
+          ],
+          "methods": [
+            {
+              "name": "CMapConnector",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~CMapConnector",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapXposition",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapYposition",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapRotation",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapScale",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapTransparency",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayFeaturesImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayInitialMatchingImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayFinalMatchingImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayMergedImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getPosition",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getRotation",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getScale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getSlamMapScale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getGroundTruthMapScale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getTransform",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "updateImage",
+              "params": [
+                "img",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapInitialized",
+              "params": [
+                "mi"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "drawGrid",
+              "params": [
+                "img",
+                "resolution"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "drawVertices",
+              "params": [
+                "img",
+                "vertices",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "drawVoronoi",
+              "params": [
+                "img",
+                "voronoi",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getLoader",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resetMap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "mapPosChanged",
+              "params": [
+                "x",
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mapRotationChanged",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mapScaleChanged",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mapTransparencyChanged",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_map_item.h.xml"
+    },
+    {
+      "imports": [
+        "<QtGui/QKeyEvent>",
+        "<QtCore/QObject>",
+        "<QtWidgets/QGraphicsPixmapItem>",
+        "<QGraphicsSceneMouseEvent>",
+        "<QDebug>",
+        "\"ogm_gui/ogm_tools.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CMapItem",
+          "attributes": [
+            "factor",
+            "xCoord",
+            "yCoord",
+            "rot",
+            "itemChangeLock"
+          ],
+          "methods": [
+            {
+              "name": "CMapItem",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "itemChange",
+              "params": [
+                "change",
+                "value"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapRotation",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapScale",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setInitialMapScale",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "keyPressEvent",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "posChanged",
+              "params": [
+                "x",
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rotationChanged",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scaleChanged",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_map_loader.h.xml"
+    },
+    {
+      "imports": [
+        "<QDebug>",
+        "\"ui_map.h\"",
+        "\"geometry_msgs/Point.h\"",
+        "\"ogm_gui/ogm_map_item.h\"",
+        "\"ogm_gui/ogm_tools.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CMapLoader",
+          "attributes": [
+            "argc_",
+            "argv_",
+            "scene",
+            "internal_img_",
+            "transparency",
+            "slamOffsetScale",
+            "groundTruthOffsetScale",
+            "newDims",
+            "_initialMatched",
+            "_finalMatched",
+            "_merged",
+            "_featuresDisplayed",
+            "ground_truth_map",
+            "slam_map"
+          ],
+          "methods": [
+            {
+              "name": "checkDimensions",
+              "params": [
+                "w",
+                "h",
+                "containerWidth",
+                "containerHeight",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "CMapLoader",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resetMap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "updateImage",
+              "params": [
+                "img",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "drawGrid",
+              "params": [
+                "img",
+                "resolution"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "drawVertices",
+              "params": [
+                "img",
+                "vertices",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "drawVoronoi",
+              "params": [
+                "img",
+                "voronoi",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapXposition",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapYposition",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapRotation",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapScale",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapTransparency",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayFinalMatchingImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayInitialMatchingImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayMergedImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayFeaturesImage",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getPosition",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getRotation",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getScale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getSlamMapScale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getGroundTruthMapScale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getTransform",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "makeTransparent",
+              "params": [
+                "img",
+                "opacity"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_tools.h.xml"
+    },
+    {
+      "imports": [
+        "<cmath>",
+        "\"ros/ros.h\"",
+        "<ros/package.h>",
+        "<QtUiTools/QUiLoader>",
+        "<QtCore/QDir>",
+        "<QtCore/QFile>",
+        "<QtCore/QObject>",
+        "<QtCore/QString>",
+        "<QtCore/QThread>",
+        "<QtCore/QTimer>",
+        "<QtCore/QTime>",
+        "<QtWidgets/QMenu>",
+        "<QtWidgets/QApplication>",
+        "<QtWidgets/QCheckBox>",
+        "<QtWidgets/QComboBox>",
+        "<QtWidgets/QDoubleSpinBox>",
+        "<QtGui/QImage>",
+        "<QtWidgets/QFileDialog>",
+        "<QtWidgets/QLabel>",
+        "<QtWidgets/QLineEdit>",
+        "<QtWidgets/QListWidget>",
+        "<QtGui/QPainter>",
+        "<QtGui/QPixmap>",
+        "<QtWidgets/QProgressBar>",
+        "<QtWidgets/QPushButton>",
+        "<QtWidgets/QRadioButton>",
+        "<QtWidgets/QScrollBar>",
+        "<QtWidgets/QStatusBar>",
+        "<QtWidgets/QTextEdit>",
+        "<QtWidgets/QTreeWidget>",
+        "<QtWidgets/QVBoxLayout>",
+        "<QtWidgets/QWidget>",
+        "<QtWidgets/QGraphicsScene>",
+        "<QtWidgets/QGraphicsView>",
+        "<QtWidgets/QGraphicsPixmapItem>",
+        "<QtWidgets/QInputDialog>",
+        "<QtGui/QMouseEvent>",
+        "<QtWidgets/QMessageBox>",
+        "<QtWidgets/QTimeEdit>",
+        "<QtWidgets/QInputDialog>",
+        "<QtGui/QFont>",
+        "<geometry_msgs/Pose2D.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "getRosPackagePath",
+          "params": [
+            "package"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getLiteralTime",
+          "params": [
+            "ms"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angleRadToDegrees",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angleDegreesToRad",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "printPose2D",
+          "params": [
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm_validation_connector.h.xml"
+    },
+    {
+      "imports": [
+        "\"ogm_gui/ogm_validation_loader.h\"",
+        "\"ogm_communications/MapsMsg.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CValidationConnector",
+          "attributes": [
+            "argc_",
+            "argv_",
+            "_detector",
+            "_descriptor",
+            "_matcher",
+            "_matchingMethod",
+            "_closestObstacleMethod",
+            "_distMethod",
+            "_matchingRatio",
+            "_ransacReprjError",
+            "_medianKernel1",
+            "_medianKernel2",
+            "_gaussianKernel1",
+            "_gaussianKernel2",
+            "_morphFiltering",
+            "_binary",
+            "_manual_alignment",
+            "_scaleMapsBrushfire",
+            "_gaussianBlur1",
+            "_gaussianBlur2",
+            "_medianBlur1",
+            "_medianBlur2",
+            "_morphOpen",
+            "_pruning",
+            "_voronoi",
+            "_vertices",
+            "_skeletonizationMethod",
+            "_pruningIterations",
+            "_morphOpenIterations",
+            "loader"
+          ],
+          "methods": [
+            {
+              "name": "CValidationConnector",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "updateMapInfo",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resetMapProperties",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "displayMetricResult",
+              "params": [
+                "method",
+                "result"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getLoader",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getDescriptor",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getDetector",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMatcher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMatchingMethod",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getClosestObstacleMethod",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getDistanceMethod",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMatchingRatio",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getRansacReprjError",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getGaussianKernel1",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getGaussianKernel2",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMedianKernel1",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMedianKernel2",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "thresholdMaps",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morphFiltering",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "manualAlignMaps",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scaleMapsBrushfire",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussianBlur1",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussianBlur2",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "medianBlur1",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "medianBlur2",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getSkeletonizationMethod",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getPruningIterations",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMorphOpenIterations",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pruning",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morphOpen",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "isVoronoiEnabled",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "isVerticesEnabled",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "posxChanged",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "posyChanged",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rotationChanged",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scaleChanged",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transparencyChanged",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matchingRatioChanged",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ransacChanged",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "gaussianBlurSpinBox1Changed",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "gaussianBlurSpinBox2Changed",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "medianBlurSpinBox1Changed",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "medianBlurSpinBox2Changed",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapPosition",
+              "params": [
+                "x",
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapRotation",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapScale",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapTransparency",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "obstacleTriggered",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "featureMatchingTriggered",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "detectorComboBoxActivated",
+              "params": [
+                "text"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "descriptorComboBoxActivated",
+              "params": [
+                "text"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matcherComboBoxActivated",
+              "params": [
+                "text"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matchingMethodComboBoxActivated",
+              "params": [
+                "text"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "closestObstacleComboBoxActivated",
+              "params": [
+                "text"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "distanceComboBoxActivated",
+              "params": [
+                "text"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "binaryMapsChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morphFilteringChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "manualAlignmentChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scaleMapsBrushfireChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussianBlurCheckBox1Checked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussianBlurCheckBox2Checked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "medianBlurCheckBox1Checked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "medianBlurCheckBox2Checked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morphOpeningCheckBoxChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pruningCheckBoxChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "voronoiCheckBoxChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "verticesCheckBoxChecked",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pruningSpinBoxChanged",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "morphOpeningSpinBoxChanged",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "skeletonizationComboBoxActivated",
+              "params": [
+                "text"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "changeXPos",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "changeYPos",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "changeRotation",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "changeScale",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "changeTransparency",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "MetricNeeded",
+              "params": [
+                "metricMethod"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "requestStructuralEvaluation",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm_validation_loader.h.xml"
+    },
+    {
+      "imports": [
+        "\"ui_validation.h\"",
+        "\"ogm_gui/ogm_tools.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CValidationLoader",
+          "attributes": [
+            "argc_",
+            "argv_"
+          ],
+          "methods": [
+            {
+              "name": "CValidationLoader",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~CValidationLoader",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "updateMapInfo",
+              "params": [
+                "width",
+                "height",
+                "ocgd",
+                "groundTruth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapXposition",
+              "params": [
+                "x"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapYposition",
+              "params": [
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapRotation",
+              "params": [
+                "r"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapScale",
+              "params": [
+                "s"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "showMapTransparency",
+              "params": [
+                "t"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "resetMapProperties",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "feature_evaluation.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MapEvaluator::MapEvaluator",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "_mapEvaluationService"
+          ]
+        },
+        {
+          "name": "MapEvaluator::evaluationCallback",
+          "params": [
+            "req",
+            "res"
+          ],
+          "local_variables": [
+            "s",
+            "i",
+            "j",
+            "i",
+            "j",
+            "totaltime",
+            "i",
+            "start",
+            "finish",
+            "elapsed",
+            "meantime",
+            "_groundTruthMap",
+            "_slamMap",
+            "_transform",
+            "_groundTruthMap.at<uchar>(i, j)",
+            "_slamMap.at<uchar>(i, j)",
+            "_params.detector",
+            "_params.descriptor",
+            "_params.matcher",
+            "_params.matchingMethod",
+            "_params.closestPointMethod",
+            "_params.distNorm",
+            "_params.matchingRatio",
+            "_params.ransacReprjError",
+            "_params.scaleMapsBrushfire",
+            "_params.binary",
+            "_params.manualAlignment",
+            "_params.benchmarking",
+            "_params.morphologicalFiltering",
+            "_params.gaussianBlur1",
+            "_params.gaussianBlur2",
+            "_params.medianBlur1",
+            "_params.medianBlur2",
+            "_params.gaussianKernel1",
+            "_params.gaussianKernel2",
+            "_params.medianKernel1",
+            "_params.medianKernel2",
+            "_metric",
+            "res.result",
+            "res.featuresImage",
+            "res.initialMatchedImage",
+            "res.finalMatchedImage",
+            "res.mergedImage",
+            "res.matches",
+            "res.acceptance",
+            "res.quality",
+            "res.overlapArea",
+            "res.meanExTime"
+          ]
+        },
+        {
+          "name": "MapEvaluator::mapToMat",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "im",
+            "i",
+            "flipped",
+            "im.data[i]",
+            "im.data[i]"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature_evaluation_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "evaluator"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature_metric_factory.cpp.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "\"feature_evaluation/feature_metric_factory.h\"",
+        "\"feature_evaluation/feature_evaluation_metrics/omse.h\"",
+        "\"feature_evaluation/feature_evaluation_metrics/feature_metrics.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MetricFactory::createMetricInstance",
+          "params": [
+            "name",
+            "groundTruthMap",
+            "slamMap"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "annular_statistics_descriptor.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_descriptors/annular_statistics_descriptor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "AnnularStatisticsDescriptor::AnnularStatisticsDescriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "AnnularStatisticsDescriptor::compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "previousRadius",
+            "initialRadius",
+            "radius",
+            "nextRadius",
+            "obstacles",
+            "frees",
+            "min",
+            "max",
+            "median",
+            "sum",
+            "count",
+            "sse",
+            "dst",
+            "numRings",
+            "img",
+            "temp",
+            "vals",
+            "desc",
+            "rowFeatures",
+            "radiusRatio",
+            "totalLength",
+            "factor",
+            "i",
+            "k",
+            "l",
+            "mean",
+            "std",
+            "r2",
+            "roi2",
+            "mask1",
+            "mask2",
+            "mask",
+            "circleCropped",
+            "i",
+            "j",
+            "initialRadius",
+            "previousRadius",
+            "radius",
+            "nextRadius",
+            "min",
+            "max",
+            "r2",
+            "roi2",
+            "mask",
+            "median",
+            "nextRadius",
+            "previousRadius",
+            "radius",
+            "temp"
+          ]
+        },
+        {
+          "name": "AnnularStatisticsDescriptor::getMedian",
+          "params": [
+            "v"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "circle_intersection_descriptor.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_descriptors/circle_intersection_descriptor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CircleIntersectionDescriptor::CircleIntersectionDescriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CircleIntersectionDescriptor::compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "intersections",
+            "crosses",
+            "numRings",
+            "previousRadius",
+            "initialRadius",
+            "radius",
+            "nextRadius",
+            "x",
+            "y",
+            "img",
+            "desc",
+            "temp",
+            "rowFeatures",
+            "radiusRatio",
+            "totalLength",
+            "factor",
+            "i",
+            "k",
+            "l",
+            "theta",
+            "initialRadius",
+            "previousRadius",
+            "radius",
+            "nextRadius",
+            "intersections",
+            "crosses",
+            "x",
+            "y",
+            "crosses",
+            "temp",
+            "nextRadius",
+            "previousRadius",
+            "radius"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "descriptor_factory.cpp.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_factory.h\"",
+        "\"feature_evaluation/feature_evaluation_descriptors/radius_statistics_descriptor.h\"",
+        "\"feature_evaluation/feature_evaluation_descriptors/annular_statistics_descriptor.h\"",
+        "\"feature_evaluation/feature_evaluation_descriptors/circle_intersection_descriptor.h\"",
+        "\"feature_evaluation/feature_evaluation_descriptors/mean_rays_descriptor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "DescriptorFactory::create",
+          "params": [
+            "name"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "mean_rays_descriptor.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_descriptors/mean_rays_descriptor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MeanRaysDescriptor::MeanRaysDescriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "MeanRaysDescriptor::compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "previousRadius",
+            "initialRadius",
+            "radius",
+            "nextRadius",
+            "r",
+            "numRings",
+            "x",
+            "y",
+            "img",
+            "temp",
+            "desc",
+            "rowFeatures",
+            "sumOfRays",
+            "thetaIncrement",
+            "outOfBounds",
+            "p",
+            "rays",
+            "radiusRatio",
+            "totalLength",
+            "factor",
+            "i",
+            "maxRadius",
+            "rng",
+            "color",
+            "k",
+            "l",
+            "theta",
+            "initialRadius",
+            "thetaIncrement",
+            "sumOfRays",
+            "previousRadius",
+            "radius",
+            "outOfBounds",
+            "r",
+            "nextRadius",
+            "x",
+            "y",
+            "x",
+            "outOfBounds",
+            "y",
+            "outOfBounds",
+            "y",
+            "outOfBounds",
+            "x",
+            "outOfBounds",
+            "desc.at<float>(k, l)",
+            "previousRadius",
+            "radius"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "radius_statistics_descriptor.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_descriptors/radius_statistics_descriptor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "RadiusStatisticsDescriptor::RadiusStatisticsDescriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "RadiusStatisticsDescriptor::compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "radius",
+            "obstacles",
+            "frees",
+            "sse",
+            "dst",
+            "img",
+            "desc",
+            "rowFeatures",
+            "k",
+            "l",
+            "mask",
+            "i",
+            "j",
+            "i",
+            "radius",
+            "obstacles",
+            "frees",
+            "sse",
+            "dst",
+            "desc.at<float>(k, i)"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature_metrics.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_metrics/feature_metrics.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "FeatureMetrics::FeatureMetrics",
+          "params": [
+            "groundTruthMap",
+            "slamMap"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "FeatureMetrics::calculateMetric",
+          "params": [
+            "params"
+          ],
+          "local_variables": [
+            "slamMap",
+            "groundTruthMap",
+            "slamMeanDist",
+            "groundTruthMeanDist",
+            "brushfire",
+            "i",
+            "brushfire1",
+            "i",
+            "scalingFactor",
+            "i",
+            "i",
+            "groundTruthDescriptors",
+            "slamDescriptors",
+            "i",
+            "matches12",
+            "matches21",
+            "matches",
+            "crossCheckedMatches",
+            "filteredMatches",
+            "img_keypoints_1",
+            "img_keypoints_2",
+            "slamMatchedKeyPoints",
+            "groundTruthMatchedKeyPoints",
+            "slamMatchedCoords",
+            "groundTruthMatchedCoords",
+            "imgmatches",
+            "imgmatches1",
+            "imgmatches2",
+            "queryIdxs",
+            "trainIdxs",
+            "i",
+            "mask",
+            "T",
+            "valid",
+            "inliers",
+            "i",
+            "image",
+            "image1",
+            "s",
+            "vertices",
+            "tWidth",
+            "tHeight",
+            "maskImage",
+            "co_ordinates",
+            "nonzero",
+            "obstaclePercentage",
+            "i",
+            "j",
+            "agr",
+            "dis",
+            "omse1",
+            "mergedImage",
+            "usefulMergedImage",
+            "overlapped",
+            "overlapped1",
+            "overlapped2",
+            "i",
+            "j",
+            "i",
+            "j",
+            "i",
+            "j",
+            "_result",
+            "_inliers",
+            "_acceptance",
+            "_quality",
+            "_overlap",
+            "_package_path",
+            "_results_dir",
+            "_featureDetector",
+            "_descriptorExtractor",
+            "_matcher",
+            "brushfire[i]",
+            "brushfire1[i]",
+            "groundTruthMeanDist",
+            "slamMeanDist",
+            "_featuresImage",
+            "_featuresImage",
+            "_initialMatchedImage",
+            "queryIdxs[i]",
+            "trainIdxs[i]",
+            "_inliers",
+            "_finalMatchedImage",
+            "image1.at<unsigned char>(i, j)",
+            "_acceptance",
+            "params.closestPointMethod",
+            "_quality",
+            "_overlap",
+            "_mergedImage",
+            "_result"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::crossCheckMatching",
+          "params": [
+            "descriptors1",
+            "descriptors2",
+            "filteredMatches12",
+            "knn"
+          ],
+          "local_variables": [
+            "matches12",
+            "matches21",
+            "m",
+            "findCrossCheck",
+            "fk",
+            "forward",
+            "bk",
+            "backward",
+            "findCrossCheck"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::simpleMatching",
+          "params": [
+            "descriptors1",
+            "descriptors2",
+            "matches12"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "FeatureMetrics::ratioTest",
+          "params": [
+            "descriptors1",
+            "descriptors2",
+            "filteredMatches"
+          ],
+          "local_variables": [
+            "matches",
+            "i"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::knnMatching",
+          "params": [
+            "descriptors1",
+            "descriptors2",
+            "filteredMatches",
+            "knn"
+          ],
+          "local_variables": [
+            "matches12",
+            "m",
+            "fk",
+            "match"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::getMSE",
+          "params": [
+            "image1",
+            "image"
+          ],
+          "local_variables": [
+            "m1",
+            "m2",
+            "s1",
+            "sum",
+            "sse",
+            "mse",
+            "s1"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::agreement",
+          "params": [
+            "image",
+            "image1",
+            "agr",
+            "dis"
+          ],
+          "local_variables": [
+            "a",
+            "d",
+            "i",
+            "j",
+            "a",
+            "agr",
+            "dis"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::merge_images",
+          "params": [
+            "T",
+            "vertices"
+          ],
+          "local_variables": [
+            "offsetX",
+            "offsetY",
+            "i",
+            "maxX",
+            "maxY",
+            "size_warp",
+            "panorama",
+            "panorama1",
+            "T1",
+            "i",
+            "j",
+            "offsetX",
+            "offsetY",
+            "offsetX",
+            "offsetY",
+            "T1.at<double>(0,2)",
+            "T1.at<double>(1,2)",
+            "panorama1.at<uchar>(i+offsetY, j+offsetX)"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::estimateTransform",
+          "params": [
+            "coords1",
+            "coords2",
+            "nIters",
+            "thresh",
+            "minNpoints",
+            "inliers",
+            "best_model",
+            "best_error"
+          ],
+          "local_variables": [
+            "indices",
+            "points1",
+            "points2",
+            "coords1t",
+            "mask",
+            "model",
+            "consensus_set",
+            "error",
+            "total_error",
+            "i",
+            "counter",
+            "k",
+            "j",
+            "f",
+            "inliersCoords1",
+            "inliersCoords2",
+            "l",
+            "best_error",
+            "indices[i]",
+            "points1[k]",
+            "points2[k]",
+            "model",
+            "consensus_set",
+            "total_error",
+            "error",
+            "mask[j]",
+            "best_error",
+            "H",
+            "best_model"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::getFeaturesImage",
+          "params": [],
+          "local_variables": [
+            "out_msg",
+            "temp",
+            "out_msg.image",
+            "out_msg.encoding"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::getInitialMatchedImage",
+          "params": [],
+          "local_variables": [
+            "out_msg",
+            "temp",
+            "out_msg.image",
+            "out_msg.encoding"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::getFinalMatchedImage",
+          "params": [],
+          "local_variables": [
+            "out_msg",
+            "temp",
+            "out_msg.image",
+            "out_msg.encoding"
+          ]
+        },
+        {
+          "name": "FeatureMetrics::getMergedImage",
+          "params": [],
+          "local_variables": [
+            "out_msg",
+            "temp",
+            "out_msg.image",
+            "out_msg.encoding"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "metric_base.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_metrics/metric_base.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Metric::Metric",
+          "params": [
+            "groundTruthMap",
+            "slamMap"
+          ],
+          "local_variables": [
+            "_groundTruthMap",
+            "_slamMap"
+          ]
+        },
+        {
+          "name": "Metric::~Metric",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "Metric::getResult",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Metric::getMatches",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Metric::getAcceptance",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Metric::getQuality",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Metric::getOverlap",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "omse.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_metrics/omse.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "OmseMetric::OmseMetric",
+          "params": [
+            "groundTruthMap",
+            "slamMap"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "OmseMetric::calculateMetric",
+          "params": [
+            "params"
+          ],
+          "local_variables": [
+            "map1Points",
+            "map2Points",
+            "map1",
+            "map2",
+            "i",
+            "i",
+            "dist",
+            "i",
+            "_result",
+            "map1Points",
+            "map2Points",
+            "_result",
+            "_brushfire",
+            "_brushfire[i]",
+            "_result"
+          ]
+        },
+        {
+          "name": "OmseMetric::extractObstaclePoints",
+          "params": [
+            "mapMat"
+          ],
+          "local_variables": [
+            "p",
+            "i",
+            "j"
+          ]
+        },
+        {
+          "name": "OmseMetric::bruteForceNearestNeighbor",
+          "params": [
+            "sp",
+            "distNorm"
+          ],
+          "local_variables": [
+            "minDst",
+            "dst",
+            "i",
+            "dst",
+            "minDst"
+          ]
+        },
+        {
+          "name": "OmseMetric::calculateDistance",
+          "params": [
+            "p1",
+            "p2",
+            "distNorm"
+          ],
+          "local_variables": [
+            "dst",
+            "diff",
+            "dst",
+            "dst"
+          ]
+        },
+        {
+          "name": "OmseMetric::getFeaturesImage",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "OmseMetric::getInitialMatchedImage",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "OmseMetric::getFinalMatchedImage",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "OmseMetric::getMergedImage",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "affine2DEstimator.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_utils/affine2DEstimator.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Affine2DEstimator::findInliers",
+          "params": [
+            "m1",
+            "m2",
+            "model",
+            "_err",
+            "_mask",
+            "threshold"
+          ],
+          "local_variables": [
+            "i",
+            "count",
+            "goodCount",
+            "err",
+            "mask",
+            "goodCount"
+          ]
+        },
+        {
+          "name": "Affine2DEstimator::computeReprojError",
+          "params": [
+            "m1",
+            "m2",
+            "model",
+            "error"
+          ],
+          "local_variables": [
+            "count",
+            "from",
+            "to",
+            "F",
+            "err",
+            "i",
+            "f",
+            "t",
+            "a",
+            "b",
+            "err[i]"
+          ]
+        },
+        {
+          "name": "Affine2DEstimator::runRANSAC",
+          "params": [
+            "m1",
+            "m2",
+            "model",
+            "mask0",
+            "reprojThreshold",
+            "confidence",
+            "maxIters"
+          ],
+          "local_variables": [
+            "result",
+            "mask",
+            "models",
+            "err",
+            "tmask",
+            "ms1",
+            "ms2",
+            "iter",
+            "niters",
+            "count",
+            "maxGoodCount",
+            "i",
+            "goodCount",
+            "nmodels",
+            "found",
+            "model_i",
+            "models",
+            "err",
+            "tmask",
+            "ms1",
+            "ms2",
+            "niters",
+            "ms1",
+            "ms2",
+            "nmodels",
+            "goodCount",
+            "maxGoodCount",
+            "niters",
+            "result"
+          ]
+        },
+        {
+          "name": "getAffineTransform64f",
+          "params": [
+            "src[]",
+            "dst[]"
+          ],
+          "local_variables": [
+            "M",
+            "X",
+            "a[6*6]",
+            "b[6]",
+            "A",
+            "B",
+            "i",
+            "j",
+            "k",
+            "a[j]",
+            "a[j+1]",
+            "a[j+2]",
+            "a[j+3]",
+            "a[k]",
+            "b[i*2]",
+            "b[i*2+1]"
+          ]
+        },
+        {
+          "name": "Affine2DEstimator::runKernel",
+          "params": [
+            "m1",
+            "m2",
+            "model"
+          ],
+          "local_variables": [
+            "from",
+            "to",
+            "M0",
+            "M"
+          ]
+        },
+        {
+          "name": "estimateAffine2D",
+          "params": [
+            "_from",
+            "_to",
+            "_out",
+            "_inliers",
+            "param1",
+            "param2"
+          ],
+          "local_variables": [
+            "from",
+            "to",
+            "count",
+            "out",
+            "inliers",
+            "dFrom",
+            "dTo",
+            "F2x3",
+            "mask",
+            "m1",
+            "m2",
+            "epsilon",
+            "inliers",
+            "param1",
+            "param2"
+          ]
+        },
+        {
+          "name": "Affine2DEstimator::getSubset",
+          "params": [
+            "m1",
+            "m2",
+            "ms1",
+            "ms2",
+            "maxAttempts"
+          ],
+          "local_variables": [
+            "_idx",
+            "idx",
+            "i",
+            "j",
+            "k",
+            "idx_i",
+            "iters",
+            "type",
+            "elemSize",
+            "m1ptr",
+            "m2ptr",
+            "ms1ptr",
+            "ms2ptr",
+            "count",
+            "idx[i]",
+            "ms1ptr[i*elemSize + k]",
+            "ms2ptr[i*elemSize + k]"
+          ]
+        },
+        {
+          "name": "Affine2DEstimator::checkSubset",
+          "params": [
+            "ms1",
+            "count"
+          ],
+          "local_variables": [
+            "j",
+            "k",
+            "i",
+            "i0",
+            "i1",
+            "ptr",
+            "dx1",
+            "dy1",
+            "dx2",
+            "dy2",
+            "i0",
+            "i0",
+            "i1"
+          ]
+        },
+        {
+          "name": "Affine2DEstimator::Affine2DEstimator",
+          "params": [],
+          "local_variables": [
+            "checkPartialSubsets",
+            "rng"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "affine2DPartialEstimator.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_utils/affine2DPartialEstimator.h\"",
+        "<algorithm>",
+        "<iterator>",
+        "<limits>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Affine2DPartialEstimator::Affine2DPartialEstimator",
+          "params": [
+            "_threshold",
+            "_confidence",
+            "_modelPoints",
+            "_maxIters"
+          ],
+          "local_variables": [
+            "checkPartialSubsets",
+            "modelPoints",
+            "threshold",
+            "confidence",
+            "maxIters"
+          ]
+        },
+        {
+          "name": "Affine2DPartialEstimator::RANSACUpdateNumIters",
+          "params": [
+            "p",
+            "ep",
+            "modelPoints",
+            "maxIters"
+          ],
+          "local_variables": [
+            "num",
+            "denom",
+            "p",
+            "p",
+            "ep",
+            "ep",
+            "num",
+            "denom"
+          ]
+        },
+        {
+          "name": "Affine2DPartialEstimator::findInliers",
+          "params": [
+            "m1",
+            "m2",
+            "model",
+            "err",
+            "mask",
+            "thresh",
+            "totalError"
+          ],
+          "local_variables": [
+            "errptr",
+            "maskptr",
+            "t",
+            "i",
+            "n",
+            "nz",
+            "f",
+            "*",
+            "maskptr[i]"
+          ]
+        },
+        {
+          "name": "Affine2DPartialEstimator::getSubset",
+          "params": [
+            "m1",
+            "m2",
+            "ms1",
+            "ms2",
+            "rng",
+            "maxAttempts"
+          ],
+          "local_variables": [
+            "_idx",
+            "idx",
+            "i",
+            "j",
+            "k",
+            "iters",
+            "d1",
+            "d2",
+            "esz1",
+            "esz2",
+            "count",
+            "count2",
+            "m1ptr",
+            "m2ptr",
+            "ms1ptr",
+            "ms2ptr",
+            "idx_i",
+            "idx_i",
+            "ms1ptr[i*esz1 + k]",
+            "ms2ptr[i*esz2 + k]",
+            "i"
+          ]
+        },
+        {
+          "name": "Affine2DPartialEstimator::runRANSAC",
+          "params": [
+            "_m1",
+            "_m2",
+            "_model",
+            "_mask"
+          ],
+          "local_variables": [
+            "result",
+            "m1",
+            "m2",
+            "err",
+            "mask",
+            "model",
+            "bestModel",
+            "ms1",
+            "ms2",
+            "iter",
+            "niters",
+            "d1",
+            "d2",
+            "count",
+            "count2",
+            "maxGoodCount",
+            "rng",
+            "bestMask0",
+            "bestMask",
+            "totalError",
+            "bestError",
+            "i",
+            "nmodels",
+            "found",
+            "modelSize",
+            "model_i",
+            "goodCount",
+            "bestMask0",
+            "bestMask0",
+            "bestError",
+            "nmodels",
+            "bestError",
+            "maxGoodCount",
+            "niters",
+            "result"
+          ]
+        },
+        {
+          "name": "Affine2DPartialEstimator::computeError",
+          "params": [
+            "_m1",
+            "_m2",
+            "_model",
+            "_err"
+          ],
+          "local_variables": [
+            "m1",
+            "m2",
+            "model",
+            "from",
+            "to",
+            "F",
+            "count",
+            "err",
+            "errptr",
+            "i",
+            "f",
+            "t",
+            "a",
+            "b",
+            "errptr[i]"
+          ]
+        },
+        {
+          "name": "Affine2DPartialEstimator::checkSubset",
+          "params": [
+            "_ms1",
+            "_ms2",
+            "count"
+          ],
+          "local_variables": [
+            "t",
+            "ms1",
+            "ms2",
+            "inp",
+            "j",
+            "k",
+            "i",
+            "msi",
+            "ptr",
+            "d1",
+            "n1",
+            "d2",
+            "denom",
+            "num"
+          ]
+        },
+        {
+          "name": "Affine2DPartialEstimator::runKernel",
+          "params": [
+            "_m1",
+            "_m2",
+            "_model"
+          ],
+          "local_variables": [
+            "m1",
+            "m2",
+            "from",
+            "to",
+            "N",
+            "buf[N*N + N + N + 2*3]",
+            "A",
+            "B",
+            "X",
+            "M",
+            "Adata",
+            "Bdata",
+            "Xdata",
+            "Mdata",
+            "i",
+            "aptr",
+            "A",
+            "Bdata[i*2]",
+            "Bdata[i*2+1]",
+            "aptr[0]",
+            "aptr[1]",
+            "aptr[2]",
+            "aptr[4]",
+            "aptr[5]",
+            "aptr[7]",
+            "Mdata[0]",
+            "Mdata[1]",
+            "Mdata[2]",
+            "Mdata[3]",
+            "Mdata[5]"
+          ]
+        },
+        {
+          "name": "estimateAffinePartial2D",
+          "params": [
+            "_from",
+            "_to",
+            "_out",
+            "_inliers",
+            "param1",
+            "param2"
+          ],
+          "local_variables": [
+            "from",
+            "to",
+            "count",
+            "dFrom",
+            "dTo",
+            "epsilon",
+            "dFrom",
+            "dTo",
+            "param1",
+            "param2"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "maps_alignment.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_utils/maps_alignment.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "Alignment::Alignment",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "Alignment::alignMaps",
+          "params": [
+            "_transform",
+            "_groundTruthMap",
+            "_slamMap"
+          ],
+          "local_variables": [
+            "transformMat",
+            "center",
+            "paddedWidth",
+            "paddedHeight",
+            "transformMat",
+            "paddedHeight",
+            "paddedWidth"
+          ]
+        },
+        {
+          "name": "Alignment::ICP",
+          "params": [
+            "target",
+            "reference",
+            "iterations"
+          ],
+          "local_variables": [
+            "refPoints",
+            "targetPoints",
+            "refPointsMat",
+            "newRefPointsMat",
+            "targetPointsMat",
+            "transform",
+            "i",
+            "j",
+            "i",
+            "j",
+            "error",
+            "temp",
+            "transformHom",
+            "lastTransform",
+            "newTransform",
+            "closestPointsMat",
+            "lastTransformHom",
+            "newTransformHom",
+            "i",
+            "transformedclosestPointsMat",
+            "error",
+            "refPointsMat",
+            "targetPointsMat",
+            "targetPointsMat",
+            "refPointsMat",
+            "lastTransform",
+            "transformHom",
+            "newRefPointsMat"
+          ]
+        },
+        {
+          "name": "Alignment::match",
+          "params": [
+            "targetPointsMat",
+            "refPointsMat",
+            "closestPointsMat"
+          ],
+          "local_variables": [
+            "m_indices",
+            "m_dists",
+            "closestPoints",
+            "flann_index",
+            "pointPairs",
+            "indices_ptr",
+            "i",
+            "p",
+            "closestPointsMat",
+            "closestPointsMat"
+          ]
+        },
+        {
+          "name": "Alignment::findTransform",
+          "params": [
+            "targetPointsMat",
+            "closestPointsMat",
+            "transform"
+          ],
+          "local_variables": [
+            "translatedTargetPointsMat",
+            "centroid1",
+            "centroid2",
+            "i",
+            "i",
+            "i",
+            "H",
+            "i",
+            "mci",
+            "dci",
+            "svd",
+            "R",
+            "T",
+            "det_R",
+            "I",
+            "centroid1.at<float>(i)",
+            "centroid2.at<float>(i)",
+            "closestPointsMat.at<float>(i, 0)",
+            "closestPointsMat.at<float>(i, 1)",
+            "translatedTargetPointsMat.at<float>(i, 0)",
+            "translatedTargetPointsMat.at<float>(i, 1)",
+            "H",
+            "R",
+            "T"
+          ]
+        },
+        {
+          "name": "Alignment::applyTransformation",
+          "params": [
+            "refPointsMat",
+            "newRefPointsMat",
+            "transform"
+          ],
+          "local_variables": [
+            "translation",
+            "rotation",
+            "transPointsMat",
+            "i",
+            "temp",
+            "temp1",
+            "translation",
+            "rotation",
+            "transPointsMat",
+            "translation"
+          ]
+        },
+        {
+          "name": "Alignment::RMSE",
+          "params": [
+            "targetPointsMat",
+            "refPointsMat"
+          ],
+          "local_variables": [
+            "diff",
+            "squares",
+            "i",
+            "j",
+            "sqrtsum",
+            "i",
+            "sqrts",
+            "q",
+            "rmse",
+            "x",
+            "diff",
+            "squares.at<double>(i, j)"
+          ]
+        },
+        {
+          "name": "Alignment::displayMap",
+          "params": [
+            "refPointsMat",
+            "size"
+          ],
+          "local_variables": [
+            "display",
+            "i",
+            "j",
+            "i",
+            "display.at<uchar>(i, j)",
+            "display.at<uchar>(refPointsMat.at<float>(i, 0), refPointsMat.at<float>(i, 1))"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map_saver.cpp.xml"
+    },
+    {
+      "imports": [
+        "<cstdio>",
+        "<opencv2/opencv.hpp>",
+        "\"ros/ros.h\"",
+        "\"ros/console.h\"",
+        "<ros/package.h>",
+        "\"nav_msgs/GetMap.h\"",
+        "\"tf/LinearMath/Matrix3x3.h\"",
+        "\"geometry_msgs/Quaternion.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "mapname",
+            "i",
+            "mg",
+            "mapname"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "MapGenerator",
+          "attributes": [
+            "mapname_",
+            "map_sub_",
+            "saved_map_"
+          ],
+          "methods": [
+            {
+              "name": "MapGenerator",
+              "params": [
+                "mapname"
+              ],
+              "local_variables": [
+                "map_sub_",
+                "n"
+              ]
+            },
+            {
+              "name": "mapCallback",
+              "params": [
+                "map"
+              ],
+              "local_variables": [
+                "im.data[i]",
+                "im.data[i]",
+                "saved_map_",
+                "packagePath",
+                "mapdatafile",
+                "im",
+                "i",
+                "flipped",
+                "mapmetadatafile",
+                "yaml",
+                "orientation",
+                "mat",
+                "yaw",
+                "pitch",
+                "roll"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map_utils.cpp.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_utils/map_utils.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "MapUtils::MapUtils",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "MapUtils::brushfireSearch",
+          "params": [
+            "map",
+            "brushfire"
+          ],
+          "local_variables": [
+            "i",
+            "j",
+            "foundWave",
+            "currentWave",
+            "i",
+            "j",
+            "brushfire[i][j]",
+            "brushfire[i][j]",
+            "foundWave",
+            "foundWave",
+            "brushfire[i - 1][j]",
+            "brushfire[i + 1][j]",
+            "brushfire[i][j - 1]",
+            "brushfire[i][j + 1]"
+          ]
+        },
+        {
+          "name": "MapUtils::meanBrushfireDistance",
+          "params": [
+            "map",
+            "brushfire"
+          ],
+          "local_variables": [
+            "sum",
+            "frees",
+            "i",
+            "j"
+          ]
+        },
+        {
+          "name": "MapUtils::maxBrushfireDistance",
+          "params": [
+            "map",
+            "brushfire"
+          ],
+          "local_variables": [
+            "max",
+            "i",
+            "j",
+            "max"
+          ]
+        },
+        {
+          "name": "MapUtils::isInROI",
+          "params": [
+            "p",
+            "roi"
+          ],
+          "local_variables": [
+            "pro[4]",
+            "i",
+            "pro[i]"
+          ]
+        },
+        {
+          "name": "MapUtils::computeProduct",
+          "params": [
+            "p",
+            "a",
+            "b"
+          ],
+          "local_variables": [
+            "k",
+            "j"
+          ]
+        },
+        {
+          "name": "MapUtils::findUsefulBoundaries",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "largest_area",
+            "largest_contour_index",
+            "bounding_rect",
+            "thr",
+            "dst",
+            "contours",
+            "hierarchy",
+            "i",
+            "a",
+            "padding",
+            "paddingRect",
+            "mapRect",
+            "fittingRect",
+            "largest_area",
+            "largest_contour_index",
+            "bounding_rect",
+            "map"
+          ]
+        },
+        {
+          "name": "MapUtils::morphologicalFiltering",
+          "params": [
+            "src"
+          ],
+          "local_variables": [
+            "morph_size",
+            "element",
+            "thr",
+            "i",
+            "j",
+            "i",
+            "j",
+            "dst",
+            "i",
+            "j",
+            "i",
+            "j",
+            "thr.at<uchar>(i, j)",
+            "thr.at<uchar>(i, j)",
+            "dst.at<uchar>(i, j)",
+            "src.at<uchar>(i, j)"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature_evaluation.h.xml"
+    },
+    {
+      "imports": [
+        "<chrono>",
+        "<vector>",
+        "<string>",
+        "<math.h>",
+        "<ros/ros.h>",
+        "<opencv2/opencv.hpp>",
+        "\"ogm_communications/ServerRequestEvaluation.h\"",
+        "\"ogm_communications/MapPose.h\"",
+        "\"feature_evaluation/feature_evaluation_metrics/parameters.h\"",
+        "\"feature_evaluation/feature_evaluation_metrics/metric_base.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/maps_alignment.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/map_utils.h\"",
+        "\"feature_evaluation/feature_metric_factory.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MapEvaluator",
+          "attributes": [
+            "_nh",
+            "_mapEvaluationService",
+            "_groundTruthMap",
+            "_slamMap",
+            "diff",
+            "_transform",
+            "_metric_factory",
+            "_metric",
+            "_alignment",
+            "_params",
+            "_mapUtils"
+          ],
+          "methods": [
+            {
+              "name": "MapEvaluator",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "evaluationCallback",
+              "params": [
+                "req",
+                "res"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mapToMat",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "feature_metric_factory.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "\"feature_evaluation/feature_evaluation_metrics/metric_base.h\"",
+        "\"ogm_communications/MapPose.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MetricFactory",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "MetricFactory",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~MetricFactory",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "createMetricInstance",
+              "params": [
+                "name",
+                "groundTruthMap",
+                "slamMap"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "annular_statistics_descriptor.h.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_extractor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "AnnularStatisticsDescriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "AnnularStatisticsDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~AnnularStatisticsDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getMedian",
+              "params": [
+                "v"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "circle_intersection_descriptor.h.xml"
+    },
+    {
+      "imports": [
+        "<math.h>",
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_extractor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CircleIntersectionDescriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "CircleIntersectionDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~CircleIntersectionDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "descriptor_extractor.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<opencv2/opencv.hpp>",
+        "<ros/ros.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DescriptorExtractor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "DescriptorExtractor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~DescriptorExtractor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "descriptor_factory.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_extractor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "DescriptorFactory",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "DescriptorFactory",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "create",
+              "params": [
+                "name"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "mean_rays_descriptor.h.xml"
+    },
+    {
+      "imports": [
+        "<math.h>",
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_extractor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MeanRaysDescriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "MeanRaysDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~MeanRaysDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "radius_statistics_descriptor.h.xml"
+    },
+    {
+      "imports": [
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_extractor.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "RadiusStatisticsDescriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "RadiusStatisticsDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~RadiusStatisticsDescriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "feature_metrics.h.xml"
+    },
+    {
+      "imports": [
+        "<numeric>",
+        "<algorithm>",
+        "<math.h>",
+        "<cv_bridge/cv_bridge.h>",
+        "<sensor_msgs/image_encodings.h>",
+        "<opencv2/features2d/features2d.hpp>",
+        "<opencv2/nonfree/nonfree.hpp>",
+        "<opencv2/nonfree/features2d.hpp>",
+        "<ros/package.h>",
+        "\"ogm_communications/MapPose.h\"",
+        "\"feature_evaluation/feature_evaluation_metrics/metric_base.h\"",
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_extractor.h\"",
+        "\"feature_evaluation/feature_evaluation_descriptors/descriptor_factory.h\"",
+        "\"feature_evaluation/feature_evaluation_metrics/omse.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/affine2DEstimator.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/affine2DPartialEstimator.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/maps_alignment.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/map_utils.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "FeatureMetrics",
+          "attributes": [
+            "_detector",
+            "_descriptor",
+            "_matcherName",
+            "_distNorm",
+            "_matchingMethod",
+            "_matchingRatio",
+            "_ransacReprjError",
+            "_scaleMapsBrushfire",
+            "_featureDetector",
+            "_descriptorExtractor",
+            "_customDescriptorExtractor",
+            "_descriptorFactory",
+            "_matcher",
+            "_groundTruthKeypoints",
+            "_slamKeypoints",
+            "_groundTruthDescriptors",
+            "_slamDescriptors",
+            "_matches",
+            "fil1",
+            "fil2",
+            "coord1",
+            "coord2",
+            "_omseMetric",
+            "_alignment",
+            "_mapUtils",
+            "_transform",
+            "H",
+            "_package_path",
+            "_results_dir",
+            "_initialMatchedImage",
+            "_featuresImage",
+            "_finalMatchedImage",
+            "_mergedImage"
+          ],
+          "methods": [
+            {
+              "name": "FeatureMetrics",
+              "params": [
+                "groundTruthMap",
+                "slamMap"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~FeatureMetrics",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateMetric",
+              "params": [
+                "params"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "crossCheckMatching",
+              "params": [
+                "descriptors1",
+                "descriptors2",
+                "filteredMatches12",
+                "knn"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "simpleMatching",
+              "params": [
+                "descriptors1",
+                "descriptors2",
+                "matches12"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ratioTest",
+              "params": [
+                "descriptors1",
+                "descriptors2",
+                "filteredMatches"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "knnMatching",
+              "params": [
+                "descriptors1",
+                "descriptors2",
+                "filteredMatches",
+                "knn"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "estimateTransform",
+              "params": [
+                "coords1",
+                "coords2",
+                "nIters",
+                "thresh",
+                "minNpoints",
+                "inliers",
+                "best_model",
+                "best_error"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getMSE",
+              "params": [
+                "image1",
+                "image"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "agreement",
+              "params": [
+                "image",
+                "image1",
+                "agr",
+                "dis"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "merge_images",
+              "params": [
+                "T",
+                "vertices"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getFeaturesImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getInitialMatchedImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getFinalMatchedImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMergedImage",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "metric_base.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<cv_bridge/cv_bridge.h>",
+        "<sensor_msgs/image_encodings.h>",
+        "<opencv2/opencv.hpp>",
+        "\"feature_evaluation/feature_evaluation_metrics/parameters.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Metric",
+          "attributes": [
+            "_groundTruthMap",
+            "_slamMap",
+            "_result",
+            "_acceptance",
+            "_quality",
+            "_overlap",
+            "_inliers"
+          ],
+          "methods": [
+            {
+              "name": "calculateMetric",
+              "params": [
+                "Params"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~Metric",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getResult",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getAcceptance",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMatches",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getQuality",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getOverlap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getFeaturesImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getInitialMatchedImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getFinalMatchedImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMergedImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "Metric",
+              "params": [
+                "groundTruthMap",
+                "slamMap"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "omse.h.xml"
+    },
+    {
+      "imports": [
+        "<cv_bridge/cv_bridge.h>",
+        "<sensor_msgs/image_encodings.h>",
+        "\"feature_evaluation/feature_evaluation_metrics/metric_base.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/map_utils.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/maps_alignment.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "OmseMetric",
+          "attributes": [
+            "_groundTruthObstaclePoints",
+            "_slamObstaclePoints",
+            "_closestPointMethod",
+            "_distNorm",
+            "_brushfire",
+            "_mapUtils",
+            "_alignment"
+          ],
+          "methods": [
+            {
+              "name": "OmseMetric",
+              "params": [
+                "groundTruthMap",
+                "slamMap"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~OmseMetric",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateMetric",
+              "params": [
+                "params"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "extractObstaclePoints",
+              "params": [
+                "mapMat"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "bruteForceNearestNeighbor",
+              "params": [
+                "sp",
+                "distNorm"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateDistance",
+              "params": [
+                "p1",
+                "p2",
+                "distNorm"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getFeaturesImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getInitialMatchedImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getFinalMatchedImage",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMergedImage",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "parameters.h.xml"
+    },
+    {
+      "imports": [
+        "<string>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Parameters",
+          "attributes": [
+            "detector",
+            "descriptor",
+            "matcher",
+            "matchingMethod",
+            "closestPointMethod",
+            "distNorm",
+            "matchingRatio",
+            "ransacReprjError",
+            "scaleMapsBrushfire",
+            "binary",
+            "manualAlignment",
+            "benchmarking",
+            "morphologicalFiltering",
+            "gaussianBlur1",
+            "gaussianBlur2",
+            "medianBlur1",
+            "medianBlur2",
+            "gaussianKernel1",
+            "gaussianKernel2",
+            "medianKernel1",
+            "medianKernel2"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "affine2DEstimator.h.xml"
+    },
+    {
+      "imports": [
+        "<limits>",
+        "<opencv2/opencv.hpp>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "estimateAffine2D",
+          "params": [
+            "_from",
+            "_to",
+            "_out",
+            "_inliers",
+            "param1",
+            "param2"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "Affine2DEstimator",
+          "attributes": [
+            "rng",
+            "modelPoints",
+            "modelSize",
+            "maxBasicSolutions",
+            "checkPartialSubsets"
+          ],
+          "methods": [
+            {
+              "name": "Affine2DEstimator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "runKernel",
+              "params": [
+                "m1",
+                "m2",
+                "model"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "runRANSAC",
+              "params": [
+                "m1",
+                "m2",
+                "model",
+                "mask",
+                "threshold",
+                "confidence",
+                "maxIters"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getSubset",
+              "params": [
+                "m1",
+                "m2",
+                "ms1",
+                "ms2",
+                "maxAttempts"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "checkSubset",
+              "params": [
+                "ms1",
+                "count"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findInliers",
+              "params": [
+                "m1",
+                "m2",
+                "model",
+                "error",
+                "mask",
+                "threshold"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "computeReprojError",
+              "params": [
+                "m1",
+                "m2",
+                "model",
+                "error"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "affine2DPartialEstimator.h.xml"
+    },
+    {
+      "imports": [
+        "<limits>",
+        "<opencv2/opencv.hpp>",
+        "<ros/ros.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "estimateAffinePartial2D",
+          "params": [
+            "_from",
+            "_to",
+            "_out",
+            "_inliers",
+            "param1",
+            "param2"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "Affine2DPartialEstimator",
+          "attributes": [
+            "rng",
+            "modelPoints",
+            "checkPartialSubsets",
+            "threshold",
+            "confidence",
+            "maxIters"
+          ],
+          "methods": [
+            {
+              "name": "Affine2DPartialEstimator",
+              "params": [
+                "_threshold",
+                "_confidence",
+                "_modelPoints",
+                "_maxIters"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~Affine2DPartialEstimator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "runKernel",
+              "params": [
+                "_m1",
+                "_m2",
+                "_model"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "runRANSAC",
+              "params": [
+                "_m1",
+                "_m2",
+                "_model",
+                "_mask"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getSubset",
+              "params": [
+                "m1",
+                "m2",
+                "ms1",
+                "ms2",
+                "rng",
+                "maxAttempts"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "checkSubset",
+              "params": [
+                "_ms1",
+                "_ms2",
+                "count"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findInliers",
+              "params": [
+                "m1",
+                "m2",
+                "model",
+                "err",
+                "mask",
+                "thresh",
+                "totalError"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "computeError",
+              "params": [
+                "_m1",
+                "_m2",
+                "_model",
+                "_err"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "RANSACUpdateNumIters",
+              "params": [
+                "p",
+                "ep",
+                "modelPoints",
+                "maxIters"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "maps_alignment.h.xml"
+    },
+    {
+      "imports": [
+        "<opencv2/opencv.hpp>",
+        "<ros/ros.h>",
+        "\"ogm_communications/MapPose.h\"",
+        "\"feature_evaluation/feature_evaluation_utils/map_utils.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Alignment",
+          "attributes": [
+            "_mapUtils"
+          ],
+          "methods": [
+            {
+              "name": "Alignment",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~Alignment",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "alignMaps",
+              "params": [
+                "_transform",
+                "_groundTruthMap",
+                "_slamMap"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ICP",
+              "params": [
+                "target",
+                "reference",
+                "iterations"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "RMSE",
+              "params": [
+                "targetPointsMat",
+                "refPointsMat"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "match",
+              "params": [
+                "targetPointsMat",
+                "refPointsMat",
+                "closestPointsMat"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findTransform",
+              "params": [
+                "targetPointsMat",
+                "closestPointsMat",
+                "transform"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "displayMap",
+              "params": [
+                "refPointsMat",
+                "size"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "applyTransformation",
+              "params": [
+                "refPointsMat",
+                "newRefPointsMat",
+                "transform"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map_utils.h.xml"
+    },
+    {
+      "imports": [
+        "<opencv2/opencv.hpp>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MapUtils",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "MapUtils",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "~MapUtils",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "brushfireSearch",
+              "params": [
+                "map",
+                "brushfire"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "meanBrushfireDistance",
+              "params": [
+                "map",
+                "brushfire"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "isInROI",
+              "params": [
+                "p",
+                "roi"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "computeProduct",
+              "params": [
+                "p",
+                "a",
+                "b"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findUsefulBoundaries",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "morphologicalFiltering",
+              "params": [
+                "src"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "maxBrushfireDistance",
+              "params": [
+                "map",
+                "brushfire"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

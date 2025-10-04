@@ -1,0 +1,1342 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "distutils core",
+        "catkin generate distutils"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        "dist"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map patch"
+    },
+    {
+      "imports": [
+        "roslib",
+        "sys",
+        "rospy",
+        "numpy",
+        "math",
+        "map patch",
+        "map",
+        "obstacle",
+        "nav occupancy grid",
+        "pandora fusion obstacle",
+        "transformations quaternion euler",
+        "transformations euler quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map patcher"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "map patcher",
+          "attributes": [
+            "map patch",
+            "slam",
+            "soft obstacle",
+            "pub",
+            "obstacle"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "slam",
+              "params": [
+                "",
+                "slam map"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "cost",
+                "cost",
+                "patch",
+                "patch height",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "obstacle",
+              "params": [
+                "",
+                "obstacle"
+              ],
+              "local_variables": [
+                "quat",
+                "obs",
+                "duplicate",
+                "duplicate"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map patch"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        "slam map topic",
+        "obstacle topic",
+        "patch topic",
+        "unknown cost",
+        "lethal cost",
+        "cost",
+        "soft obstacle",
+        "hard obstacle"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map"
+    },
+    {
+      "imports": [
+        "rospy",
+        "math",
+        "map patch",
+        "numpy isfinite",
+        "nav occupancy grid",
+        "transformations quaternion euler",
+        "transformations euler quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "map",
+          "params": [
+            "map",
+            "incomig map"
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "map resizer",
+          "params": [
+            "map",
+            "map"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "map",
+            "diff",
+            "diff",
+            "",
+            "diff",
+            "diff",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "map matching",
+          "params": [
+            "current map",
+            "incoming map"
+          ],
+          "local_variables": [
+            "origin",
+            "origin"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "overwrite",
+          "params": [
+            "map",
+            "incoming map"
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "overwrite",
+          "params": [
+            "map",
+            "incoming map"
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "meters cells",
+          "params": [
+            "meters",
+            "resolution"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "quaternion",
+          "params": [
+            "quaternion"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "quaternion instantiated",
+          "params": [
+            "quaternion"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "obstacle"
+    },
+    {
+      "imports": [
+        "rospy",
+        "pandora fusion obstacle",
+        "transformations euler quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "obstacle",
+          "attributes": [
+            "",
+            "map frame",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "obstacle",
+              "params": [
+                "",
+                "obstacle"
+              ],
+              "local_variables": [
+                "quat",
+                "roll",
+                "pitch",
+                "yaw"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "map meters cells",
+        "map",
+        "map quaternion",
+        "map quaternion instantiated",
+        "map matching",
+        "map resizer",
+        "map overwrite",
+        "map overwrite",
+        "map patch unknown cost",
+        "obstacle"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "hard obstacle patcher"
+    },
+    {
+      "imports": [
+        "math",
+        "numpy",
+        "roslib",
+        "sys",
+        "rospy",
+        "nav occupancy grid",
+        "",
+        "pandora costmap map"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "hard map"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "hard map",
+          "attributes": [
+            "map pub",
+            "slam",
+            "hard map"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "slam",
+              "params": [
+                "",
+                "slam map"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "obs",
+                "obs",
+                "patch",
+                "patch height",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fusion"
+    },
+    {
+      "imports": [
+        "roslib",
+        "sys",
+        "rospy",
+        "pandora fusion obstacle",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "talker",
+          "params": [],
+          "local_variables": [
+            "pub",
+            "rate",
+            "obs"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "obstacle topic",
+        "hard map topic",
+        "slam map topic"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tururu"
+    },
+    {
+      "imports": [
+        "math",
+        "numpy",
+        "roslib",
+        "sys",
+        "rospy",
+        "nav occupancy grid",
+        "",
+        "pandora costmap map"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "hard map"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "hard map",
+          "attributes": [
+            "map pub",
+            "slam",
+            "hard map"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "slam",
+              "params": [
+                "",
+                "slam map"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "obs",
+                "obs",
+                "patch",
+                "patch height",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map"
+    },
+    {
+      "imports": [
+        "sys",
+        "unittest",
+        "roslib",
+        "pandora costmap map",
+        "pandora costmap meters cells",
+        "pandora costmap unknown cost",
+        "pandora costmap quaternion",
+        "pandora costmap quaternion instantiated",
+        "pandora costmap overwrite",
+        "pandora costmap map resizer",
+        "pandora costmap overwrite",
+        "pandora costmap map matching",
+        "numpy isfinite",
+        "nav occupancy grid",
+        "geometry quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "meters cells",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "meters",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "map",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "map",
+                "incoming map"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "quaternion",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "quat",
+                "nan",
+                "negative inf",
+                "positive inf"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "quaternion instantiated",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "quat"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "overwrite",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "ogm",
+                "ogm",
+                "",
+                "mex",
+                "mex",
+                "grid",
+                "grid"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "overwrite",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "ogm",
+                "ogm",
+                "",
+                "mex",
+                "mex",
+                "grid",
+                "grid"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "map matching",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "nan",
+                "negative inf",
+                "positive inf",
+                "map",
+                "incoming map"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "",
+                "map"
+              ],
+              "local_variables": [
+                "",
+                "height",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "map resizer",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "obstacle"
+    },
+    {
+      "imports": [
+        "sys",
+        "unittest",
+        "roslib",
+        "pandora costmap obstacle",
+        "pandora fusion obstacle",
+        "transformations euler quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "obstacle",
+          "attributes": [
+            "obs",
+            "obs norm"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "tear",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "obstacle",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "obs",
+                "obs norm",
+                "quat",
+                "roll",
+                "pitch",
+                "yaw"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fws cmd vel filter"
+    },
+    {
+      "imports": [
+        "rospy",
+        "geometry twist",
+        "math radians",
+        "math atan"
+      ]
+    },
+    {
+      "global_variables": [
+        "license",
+        "",
+        "author",
+        "email",
+        "filter"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "fws cmd vel filter",
+          "attributes": [
+            "wheelbase",
+            "radius",
+            "trans vel angle",
+            "cmd vel",
+            "cmd vel pub"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "input cmd vel topic",
+                "output cmd vel topic"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "cmd vel",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "odom publisher"
+    },
+    {
+      "imports": [
+        "rospy",
+        "nav odometry",
+        "nav path",
+        "geometry pose stamped",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "license",
+        "",
+        "author",
+        "email",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "odom publisher",
+          "attributes": [
+            "scan",
+            "trajectory pub",
+            "trajectory"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "odom",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "scan frame remapper"
+    },
+    {
+      "imports": [
+        "rospy",
+        "sensor laser scan"
+      ]
+    },
+    {
+      "global_variables": [
+        "license",
+        "",
+        "author",
+        "email",
+        "remapper"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "scan frame remapper",
+          "attributes": [
+            "scan",
+            "scan pub"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "scan",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "simple exploration"
+    },
+    {
+      "imports": [
+        "sys",
+        "rospy",
+        "frontier exploration",
+        "geometry",
+        "geometry stamped",
+        "geometry polygon stamped",
+        "actionlib"
+      ]
+    },
+    {
+      "global_variables": [
+        "license",
+        "",
+        "author",
+        "email",
+        "simple exploration"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "simple exploration",
+          "attributes": [
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "exploration",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "polygon stamped",
+                "",
+                "initial goal",
+                "exploration goal"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "patch"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "mocknode"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "cost bounding box",
+          "params": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "cost"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "talker",
+          "params": [],
+          "local_variables": [
+            "quat",
+            "map",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "distutils core",
+        "catkin generate distutils"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "rospy",
+        "actionlib simple action",
+        "geometry",
+        "geometry pose stamped",
+        "geometry quaternion",
+        "action",
+        "feedback",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "license",
+        "",
+        "author",
+        "maintainer",
+        "email",
+        "navigation"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "navigation",
+          "attributes": [
+            "robot pose",
+            "",
+            "navigation succedes",
+            "reply",
+            "preempted",
+            "",
+            "target position",
+            "target orientation",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "topic"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "goal"
+              ],
+              "local_variables": [
+                "trans",
+                "rot",
+                "feedback",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

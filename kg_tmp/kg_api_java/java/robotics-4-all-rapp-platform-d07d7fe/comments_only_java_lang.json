@@ -1,0 +1,24 @@
+[
+  {
+    "file": "Sphinx4.java.xml",
+    "comments": [
+      "/******************************************************************************\nCopyright 2015 RAPP\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n   http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n * Authors: Thanos Kintsakis, Manos Tsardoulias, Aris Thallas\n\n******************************************************************************/",
+      "/*!\n * @class Sphinx4\n * @brief Performs speech recognition employing Sphinx\n *\n * Communicates with rapp_speech_detection_sphinx4.sphinx4_wrapper.Sphinx4Wrapper\n * via socket to configure Sphinx and perform the speech recognition and\n * returns the result.\n */",
+      "//! Updates the Sphinx configuration",
+      "/*! @brief The main function\n   *\n   * Creates the Sphinx process and awaits commands from\n   * rapp_speech_detection_sphinx4.sphinx4_wrapper.Sphinx4Wrapper\n   * to update the cconfiguration or perform the recognition.\n   */",
+      "// Waiting for input from the Python node",
+      "// Dictionary file setup",
+      "// Language model file setup",
+      "// Acoustic model folder setup",
+      "// Grammar file and folder setup",
+      "// Configuration file path set",
+      "// Perform forced configuration",
+      "// Enable grammar",
+      "// Disable grammar",
+      "// Perform audio recognition",
+      "//catch (IOException e) {",
+      "//bufferWrite.println(\"#\"+e);",
+      "//bufferWrite.println(\"stopPython\");"
+    ]
+  }
+]

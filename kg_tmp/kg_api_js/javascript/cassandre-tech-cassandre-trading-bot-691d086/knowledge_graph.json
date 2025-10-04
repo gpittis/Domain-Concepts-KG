@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "account",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "authent",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fetch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "isomorph",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "order",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "posit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strategi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trade",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "fetch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "account",
+      "to": "isomorph",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "authent",
+      "to": "fetch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "authent",
+      "to": "isomorph",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "isomorph",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "order",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "isomorph",
+      "to": "order",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "isomorph",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "isomorph",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "isomorph",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,1029 @@
+[
+  [
+    {
+      "file": "candle"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "candle",
+          "attributes": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "volume",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "volume",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "leverage",
+        "epsilon",
+        "inf",
+        "wallet percent",
+        "strategies",
+        "maximum",
+        "indicators filename",
+        "orders filename",
+        "minute milliseconds",
+        "maximum kline candles",
+        "",
+        "successful",
+        "interval",
+        "positions",
+        "coin symbol",
+        "coin symbol",
+        "contract symbol",
+        "timeframe",
+        "profit percents",
+        "loss percents",
+        "price decimal digits",
+        "indicators decimal digits",
+        "position quantity decimal digits",
+        "price direction indicator",
+        "price direction indicator",
+        "order prefix",
+        "account balances",
+        "candles",
+        "telegram",
+        "hedge mode",
+        "testnet",
+        "production",
+        "testnet"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "credentials"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "production",
+        "production",
+        "testnet",
+        "testnet",
+        "telegram",
+        "telegram user"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicators"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "wma",
+          "params": [
+            "candles"
+          ],
+          "local_variables": [
+            "coe",
+            "",
+            "coe",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            "candles"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "ema",
+          "params": [
+            "ema",
+            "price",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "price",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicators"
+    },
+    {
+      "imports": [
+        "pickle"
+      ]
+    },
+    {
+      "global_variables": [
+        "indicators btcusdt",
+        "indicators btcusdt",
+        "indicators ethusdt",
+        "indicators ethusdt",
+        "indicators ethbusd",
+        "indicators dogebusd",
+        "indicators dogebusd",
+        "indicators xrpbusd",
+        "indicators xrpbusd"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "orders"
+    },
+    {
+      "imports": [
+        "pickle"
+      ]
+    },
+    {
+      "global_variables": [
+        "orders"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "pickle",
+        "",
+        "sys",
+        "candle",
+        "binance futures"
+      ]
+    },
+    {
+      "global_variables": [
+        "price increasing",
+        "price decreasing",
+        "macd increasing",
+        "macd decreasing",
+        "macd positive",
+        "macd negative",
+        "account balance",
+        "account balance",
+        "bot",
+        "current",
+        "indicators",
+        "orders",
+        "contract orders",
+        "orders",
+        "account balances",
+        "account balances"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "current",
+          "params": [],
+          "local_variables": [
+            "",
+            "current"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "local",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "convert binance candles",
+          "params": [
+            "binance"
+          ],
+          "local_variables": [
+            "candles",
+            "candle"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "contract symbol",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "kline candles",
+            "candles",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "klines",
+            "current candles"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "contract symbol",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "kline candles",
+            "candles",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "klines",
+            "current candles"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "contract symbol",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "kline candles",
+            "candles",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "klines",
+            "current candles"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "contract symbol",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "kline candles",
+            "candles",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "klines",
+            "current candles"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "contract symbol",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "kline candles",
+            "candles",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "klines",
+            "current candles"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "contract symbol",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "kline candles",
+            "candles",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "current",
+            "klines",
+            "current candles"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "prices",
+          "params": [
+            "contract symbol",
+            "current",
+            "candles",
+            "timeframe"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "candles",
+            "prices",
+            "prices",
+            "prices",
+            "prices",
+            "",
+            "",
+            "candles",
+            "prices",
+            "prices",
+            "prices",
+            "prices",
+            "",
+            "",
+            "candles",
+            "prices",
+            "prices",
+            "prices",
+            "prices",
+            "",
+            "",
+            "candles",
+            "prices",
+            "prices",
+            "prices",
+            "prices",
+            "",
+            "",
+            "candles",
+            "prices",
+            "prices",
+            "prices",
+            "prices",
+            "",
+            "",
+            "candles",
+            "prices",
+            "prices",
+            "prices",
+            "prices"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "orders",
+          "params": [],
+          "local_variables": [
+            "orders"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "orders",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "orders",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "orders",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "orders",
+          "params": [
+            "current",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "orders",
+            "orders"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "indicators",
+          "params": [],
+          "local_variables": [
+            "indicators"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "indicators",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "indicators",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "indicators",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "indicators",
+          "params": [
+            "contract symbol",
+            "current",
+            "timeframe"
+          ],
+          "local_variables": [
+            "candles",
+            "candles",
+            "candles",
+            "prices",
+            "",
+            "",
+            "ema",
+            "ema",
+            "ema",
+            "ema",
+            "ema",
+            "macd ema",
+            "macd ema",
+            "macd",
+            "signal",
+            "price",
+            "",
+            "",
+            "ema",
+            "ema",
+            "ema",
+            "ema",
+            "ema",
+            "macd ema",
+            "macd ema",
+            "macd",
+            "signal",
+            "indicators"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "account balance unrealized profit",
+          "params": [
+            "coin symbol"
+          ],
+          "local_variables": [
+            "account balances",
+            "account balances",
+            "balance",
+            "account balance",
+            "account balance",
+            "account balance",
+            "account balance",
+            "unrealized profit"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "contract price",
+          "params": [
+            "contract symbol"
+          ],
+          "local_variables": [
+            "contract price"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "positions market price",
+          "params": [],
+          "local_variables": [
+            "positions",
+            "position quantity"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "bot",
+          "params": [],
+          "local_variables": [
+            "binance futures",
+            "binance futures"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "price increasing",
+          "params": [
+            "price direction indicator",
+            "price direction indicator"
+          ],
+          "local_variables": [
+            "price increasing",
+            "price increasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "price decreasing",
+          "params": [
+            "price direction indicator",
+            "price direction indicator"
+          ],
+          "local_variables": [
+            "price decreasing",
+            "price decreasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "macd increasing",
+          "params": [],
+          "local_variables": [
+            "macd increasing",
+            "macd increasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "macd decreasing",
+          "params": [],
+          "local_variables": [
+            "macd decreasing",
+            "macd decreasing"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "macd positive",
+          "params": [],
+          "local_variables": [
+            "macd positive",
+            "macd positive"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "macd negative",
+          "params": [],
+          "local_variables": [
+            "macd negative",
+            "macd negative"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "profit unexecuted",
+          "params": [
+            "contract symbol",
+            "strategy"
+          ],
+          "local_variables": [
+            "order",
+            "order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "loss unexecuted",
+          "params": [
+            "contract symbol",
+            "strategy"
+          ],
+          "local_variables": [
+            "order",
+            "order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "position",
+          "params": [
+            "contract symbol",
+            "strategy"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "extra order",
+          "params": [
+            "contract symbol",
+            "strategy"
+          ],
+          "local_variables": [
+            "order",
+            "order",
+            "order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "position",
+          "params": [
+            "strategy",
+            "current"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "position",
+          "params": [
+            "strategy",
+            "current"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "trade",
+          "params": [
+            "current"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "extra orders",
+          "params": [
+            "current"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "symbol orders",
+          "params": [
+            "contract symbol"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "leverage",
+          "params": [
+            "contract symbol",
+            "leverage"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "position mode",
+          "params": [
+            "hedge mode"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "position",
+          "params": [
+            "contract symbol",
+            "coin",
+            "profit percent",
+            "loss percent",
+            "strategy"
+          ],
+          "local_variables": [
+            "market order",
+            "position quantity",
+            "order",
+            "market order",
+            "market order",
+            "position price",
+            "market order",
+            "position price",
+            "profit price",
+            "loss price",
+            "profit price",
+            "loss price",
+            "profit order",
+            "loss order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "position",
+          "params": [
+            "contract symbol",
+            "coin",
+            "profit percent",
+            "loss percent",
+            "strategy"
+          ],
+          "local_variables": [
+            "market order",
+            "position quantity",
+            "order",
+            "market order",
+            "market order",
+            "position price",
+            "market order",
+            "position price",
+            "profit price",
+            "loss price",
+            "profit price",
+            "loss price",
+            "profit order",
+            "loss order"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "extra orders",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "bot"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "output"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "telegram sender"
+    },
+    {
+      "imports": [
+        "telegram",
+        "credentials telegram",
+        "credentials telegram user",
+        "telegram",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "telegram bot"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "order",
+          "params": [
+            "symbol",
+            "",
+            "quantity"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "position",
+          "params": [
+            "order"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "position",
+          "params": [
+            "order"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "order",
+          "params": [
+            "order"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "orders symbol",
+          "params": [
+            "symbol"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            "precision"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            "retries",
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": [
+            {
+              "name": "wrapper",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "",
+                    "",
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

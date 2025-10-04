@@ -1,0 +1,94 @@
+[
+  [
+    {
+      "file": "create_live_features.py"
+    },
+    {
+      "imports": [
+        "model.features",
+        "pymongo",
+        "time",
+        "datetime.datetime",
+        "os"
+      ]
+    },
+    {
+      "global_variables": [
+        "client",
+        "db",
+        "books_db",
+        "last_data_timestamp",
+        "start",
+        "this_data_timestamp",
+        "last_data_timestamp",
+        "data",
+        "time_delta"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "append_df_to_csv",
+          "params": [
+            "df",
+            "csvFilePath",
+            "sep"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "get_current_time_seconds_utc",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "get_latest_book_timestamp",
+          "params": [],
+          "local_variables": [
+            "book"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

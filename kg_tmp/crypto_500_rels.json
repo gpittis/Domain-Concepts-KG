@@ -1,0 +1,3002 @@
+﻿[
+  {
+    "Source": "exchang",
+    "Target": "order",
+    "Weight": 3838.5161510000003,
+    "Count": 4703
+  },
+  {
+    "Source": "book",
+    "Target": "order",
+    "Weight": 3583.9661799999994,
+    "Count": 4047
+  },
+  {
+    "Source": "exchang",
+    "Target": "trade",
+    "Weight": 2416.866287,
+    "Count": 3026
+  },
+  {
+    "Source": "order",
+    "Target": "perpetu",
+    "Weight": 2188.5663510000004,
+    "Count": 2697
+  },
+  {
+    "Source": "order",
+    "Target": "trade",
+    "Weight": 2058.24988,
+    "Count": 2597
+  },
+  {
+    "Source": "order",
+    "Target": "sourc",
+    "Weight": 1995.066314,
+    "Count": 2354
+  },
+  {
+    "Source": "exchang",
+    "Target": "hummingbot",
+    "Weight": 1979.399342,
+    "Count": 2539
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "perpetu",
+    "Weight": 1930.1325069999998,
+    "Count": 2756
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "sourc",
+    "Weight": 1879.89916,
+    "Count": 2739
+  },
+  {
+    "Source": "book",
+    "Target": "sourc",
+    "Weight": 1795.64966,
+    "Count": 2115
+  },
+  {
+    "Source": "deriv",
+    "Target": "order",
+    "Weight": 1705.3331199999998,
+    "Count": 2073
+  },
+  {
+    "Source": "stream",
+    "Target": "user",
+    "Weight": 1687.4998059999998,
+    "Count": 1790
+  },
+  {
+    "Source": "deriv",
+    "Target": "perpetu",
+    "Weight": 1430.549495,
+    "Count": 1895
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "order",
+    "Weight": 1363.499458,
+    "Count": 1883
+  },
+  {
+    "Source": "connector",
+    "Target": "exchang",
+    "Weight": 1320.0163750000002,
+    "Count": 1497
+  },
+  {
+    "Source": "listen",
+    "Target": "sourc",
+    "Weight": 1318.0999160000001,
+    "Count": 1499
+  },
+  {
+    "Source": "perpetu",
+    "Target": "trade",
+    "Weight": 1273.56647,
+    "Count": 1578
+  },
+  {
+    "Source": "connector",
+    "Target": "hummingbot",
+    "Weight": 1269.499903,
+    "Count": 1128
+  },
+  {
+    "Source": "event",
+    "Target": "order",
+    "Weight": 1248.983408,
+    "Count": 1501
+  },
+  {
+    "Source": "market",
+    "Target": "order",
+    "Weight": 1223.6832759999998,
+    "Count": 1482
+  },
+  {
+    "Source": "sourc",
+    "Target": "stream",
+    "Weight": 1219.333106,
+    "Count": 1401
+  },
+  {
+    "Source": "deriv",
+    "Target": "trade",
+    "Weight": 1213.4331750000001,
+    "Count": 1465
+  },
+  {
+    "Source": "sourc",
+    "Target": "user",
+    "Weight": 1193.483121,
+    "Count": 1366
+  },
+  {
+    "Source": "deriv",
+    "Target": "hummingbot",
+    "Weight": 1179.2328590000002,
+    "Count": 1637
+  },
+  {
+    "Source": "connector",
+    "Target": "sourc",
+    "Weight": 1169.299538,
+    "Count": 1603
+  },
+  {
+    "Source": "exchang",
+    "Target": "sourc",
+    "Weight": 1152.4662349999999,
+    "Count": 1597
+  },
+  {
+    "Source": "perpetu",
+    "Target": "sourc",
+    "Weight": 1019.099676,
+    "Count": 1323
+  },
+  {
+    "Source": "pair",
+    "Target": "trade",
+    "Weight": 999.5333559999999,
+    "Count": 1074
+  },
+  {
+    "Source": "book",
+    "Target": "hummingbot",
+    "Weight": 999.366231,
+    "Count": 1439
+  },
+  {
+    "Source": "assist",
+    "Target": "sourc",
+    "Weight": 990.3662489999999,
+    "Count": 1440
+  },
+  {
+    "Source": "connector",
+    "Target": "perpetu",
+    "Weight": 901.316332,
+    "Count": 1200
+  },
+  {
+    "Source": "listen",
+    "Target": "order",
+    "Weight": 899.116655,
+    "Count": 992
+  },
+  {
+    "Source": "event",
+    "Target": "exchang",
+    "Weight": 892.6331379999999,
+    "Count": 1195
+  },
+  {
+    "Source": "book",
+    "Target": "trade",
+    "Weight": 891.8998819999999,
+    "Count": 1067
+  },
+  {
+    "Source": "connector",
+    "Target": "order",
+    "Weight": 890.766441,
+    "Count": 1174
+  },
+  {
+    "Source": "sourc",
+    "Target": "trade",
+    "Weight": 890.749848,
+    "Count": 1091
+  },
+  {
+    "Source": "core",
+    "Target": "perpetu",
+    "Weight": 874.899545,
+    "Count": 1373
+  },
+  {
+    "Source": "book",
+    "Target": "listen",
+    "Weight": 835.649973,
+    "Count": 923
+  },
+  {
+    "Source": "core",
+    "Target": "sourc",
+    "Weight": 783.216285,
+    "Count": 1190
+  },
+  {
+    "Source": "book",
+    "Target": "exchang",
+    "Weight": 762.266439,
+    "Count": 1014
+  },
+  {
+    "Source": "order",
+    "Target": "price",
+    "Weight": 750.2167360000001,
+    "Count": 947
+  },
+  {
+    "Source": "order",
+    "Target": "unit",
+    "Weight": 749.1999740000001,
+    "Count": 802
+  },
+  {
+    "Source": "core",
+    "Target": "exchang",
+    "Weight": 737.332948,
+    "Count": 1160
+  },
+  {
+    "Source": "exchang",
+    "Target": "pair",
+    "Weight": 733.16657,
+    "Count": 903
+  },
+  {
+    "Source": "event",
+    "Target": "perpetu",
+    "Weight": 729.466531,
+    "Count": 927
+  },
+  {
+    "Source": "inject",
+    "Target": "order",
+    "Weight": 723.483223,
+    "Count": 897
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "user",
+    "Weight": 721.466341,
+    "Count": 1056
+  },
+  {
+    "Source": "book",
+    "Target": "perpetu",
+    "Weight": 716.949816,
+    "Count": 916
+  },
+  {
+    "Source": "exchang",
+    "Target": "market",
+    "Weight": 715.0831760000001,
+    "Count": 926
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "market",
+    "Weight": 709.116402,
+    "Count": 953
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "stream",
+    "Weight": 706.766346,
+    "Count": 1037
+  },
+  {
+    "Source": "order",
+    "Target": "strategi",
+    "Weight": 696.26659,
+    "Count": 833
+  },
+  {
+    "Source": "exchang",
+    "Target": "user",
+    "Weight": 678.616493,
+    "Count": 892
+  },
+  {
+    "Source": "fee",
+    "Target": "trade",
+    "Weight": 664.43335,
+    "Count": 793
+  },
+  {
+    "Source": "deriv",
+    "Target": "event",
+    "Weight": 663.566553,
+    "Count": 841
+  },
+  {
+    "Source": "market",
+    "Target": "trade",
+    "Weight": 653.5165949999998,
+    "Count": 824
+  },
+  {
+    "Source": "deriv",
+    "Target": "sourc",
+    "Weight": 650.333112,
+    "Count": 874
+  },
+  {
+    "Source": "perpetu",
+    "Target": "user",
+    "Weight": 648.5665260000001,
+    "Count": 811
+  },
+  {
+    "Source": "exchang",
+    "Target": "stream",
+    "Weight": 645.616493,
+    "Count": 855
+  },
+  {
+    "Source": "connector",
+    "Target": "deriv",
+    "Weight": 644.366478,
+    "Count": 788
+  },
+  {
+    "Source": "perpetu",
+    "Target": "web",
+    "Weight": 638.58309,
+    "Count": 889
+  },
+  {
+    "Source": "listen",
+    "Target": "stream",
+    "Weight": 632.933278,
+    "Count": 664
+  },
+  {
+    "Source": "listen",
+    "Target": "user",
+    "Weight": 632.2999480000001,
+    "Count": 668
+  },
+  {
+    "Source": "book",
+    "Target": "connector",
+    "Weight": 619.0497780000001,
+    "Count": 819
+  },
+  {
+    "Source": "perpetu",
+    "Target": "stream",
+    "Weight": 615.5665260000001,
+    "Count": 770
+  },
+  {
+    "Source": "order",
+    "Target": "tracker",
+    "Weight": 613.7332260000001,
+    "Count": 745
+  },
+  {
+    "Source": "fill",
+    "Target": "order",
+    "Weight": 608.8667519999999,
+    "Count": 686
+  },
+  {
+    "Source": "rate",
+    "Target": "sourc",
+    "Weight": 603.733203,
+    "Count": 707
+  },
+  {
+    "Source": "exchang",
+    "Target": "fee",
+    "Weight": 603.3165210000001,
+    "Count": 811
+  },
+  {
+    "Source": "perpetu",
+    "Target": "posit",
+    "Weight": 601.149947,
+    "Count": 740
+  },
+  {
+    "Source": "core",
+    "Target": "order",
+    "Weight": 598.366391,
+    "Count": 885
+  },
+  {
+    "Source": "sourc",
+    "Target": "web",
+    "Weight": 595.3330209999999,
+    "Count": 939
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "strategi",
+    "Weight": 595.1665800000001,
+    "Count": 596
+  },
+  {
+    "Source": "executor",
+    "Target": "order",
+    "Weight": 588.999901,
+    "Count": 773
+  },
+  {
+    "Source": "order",
+    "Target": "snapshot",
+    "Weight": 578.9500049999999,
+    "Count": 619
+  },
+  {
+    "Source": "coinbas",
+    "Target": "trade",
+    "Weight": 565.2331709999999,
+    "Count": 717
+  },
+  {
+    "Source": "core",
+    "Target": "deriv",
+    "Weight": 550.566381,
+    "Count": 863
+  },
+  {
+    "Source": "advanc",
+    "Target": "trade",
+    "Weight": 548.5831760000001,
+    "Count": 695
+  },
+  {
+    "Source": "assist",
+    "Target": "perpetu",
+    "Weight": 536.1997590000001,
+    "Count": 796
+  },
+  {
+    "Source": "assist",
+    "Target": "stream",
+    "Weight": 531.566458,
+    "Count": 757
+  },
+  {
+    "Source": "book",
+    "Target": "snapshot",
+    "Weight": 530.383329,
+    "Count": 573
+  },
+  {
+    "Source": "assist",
+    "Target": "user",
+    "Weight": 530.1664579999999,
+    "Count": 755
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "web",
+    "Weight": 525.4998109999999,
+    "Count": 695
+  },
+  {
+    "Source": "strategi",
+    "Target": "trade",
+    "Weight": 523.0164950000001,
+    "Count": 691
+  },
+  {
+    "Source": "bot",
+    "Target": "trade",
+    "Weight": 514.566575,
+    "Count": 550
+  },
+  {
+    "Source": "deriv",
+    "Target": "posit",
+    "Weight": 512.116623,
+    "Count": 605
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "inject",
+    "Weight": 506.966445,
+    "Count": 731
+  },
+  {
+    "Source": "market",
+    "Target": "strategi",
+    "Weight": 505.5165539999999,
+    "Count": 598
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "trade",
+    "Weight": 499.183167,
+    "Count": 641
+  },
+  {
+    "Source": "connector",
+    "Target": "user",
+    "Weight": 497.783152,
+    "Count": 677
+  },
+  {
+    "Source": "connector",
+    "Target": "stream",
+    "Weight": 486.133153,
+    "Count": 662
+  },
+  {
+    "Source": "event",
+    "Target": "sourc",
+    "Weight": 482.79993,
+    "Count": 567
+  },
+  {
+    "Source": "exchang",
+    "Target": "rule",
+    "Weight": 481.066642,
+    "Count": 581
+  },
+  {
+    "Source": "candl",
+    "Target": "spot",
+    "Weight": 473.149898,
+    "Count": 562
+  },
+  {
+    "Source": "configur",
+    "Target": "exchang",
+    "Weight": 471.86668399999996,
+    "Count": 530
+  },
+  {
+    "Source": "order",
+    "Target": "sell",
+    "Weight": 465.63339800000006,
+    "Count": 539
+  },
+  {
+    "Source": "assist",
+    "Target": "order",
+    "Weight": 463.13313,
+    "Count": 685
+  },
+  {
+    "Source": "assist",
+    "Target": "book",
+    "Weight": 461.73312999999996,
+    "Count": 683
+  },
+  {
+    "Source": "advanc",
+    "Target": "coinbas",
+    "Weight": 459.566526,
+    "Count": 584
+  },
+  {
+    "Source": "executor",
+    "Target": "hummingbot",
+    "Weight": 454.866482,
+    "Count": 634
+  },
+  {
+    "Source": "constant",
+    "Target": "order",
+    "Weight": 453.63328,
+    "Count": 700
+  },
+  {
+    "Source": "listen",
+    "Target": "perpetu",
+    "Weight": 450.949969,
+    "Count": 514
+  },
+  {
+    "Source": "map",
+    "Target": "market",
+    "Weight": 449.466566,
+    "Count": 534
+  },
+  {
+    "Source": "fund",
+    "Target": "perpetu",
+    "Weight": 446.749979,
+    "Count": 535
+  },
+  {
+    "Source": "exchang",
+    "Target": "web",
+    "Weight": 445.61652,
+    "Count": 579
+  },
+  {
+    "Source": "connector",
+    "Target": "trade",
+    "Weight": 444.83326999999997,
+    "Count": 550
+  },
+  {
+    "Source": "market",
+    "Target": "pair",
+    "Weight": 442.033313,
+    "Count": 510
+  },
+  {
+    "Source": "exchang",
+    "Target": "price",
+    "Weight": 438.31664,
+    "Count": 532
+  },
+  {
+    "Source": "listen",
+    "Target": "unit",
+    "Weight": 436.549977,
+    "Count": 494
+  },
+  {
+    "Source": "book",
+    "Target": "core",
+    "Weight": 435.333117,
+    "Count": 668
+  },
+  {
+    "Source": "diff",
+    "Target": "order",
+    "Weight": 433.849987,
+    "Count": 489
+  },
+  {
+    "Source": "order",
+    "Target": "pair",
+    "Weight": 431.016671,
+    "Count": 553
+  },
+  {
+    "Source": "configur",
+    "Target": "deriv",
+    "Weight": 421.433336,
+    "Count": 469
+  },
+  {
+    "Source": "candl",
+    "Target": "feed",
+    "Weight": 421.28322000000003,
+    "Count": 519
+  },
+  {
+    "Source": "market",
+    "Target": "price",
+    "Weight": 417.683309,
+    "Count": 464
+  },
+  {
+    "Source": "binanc",
+    "Target": "order",
+    "Weight": 411.76660200000003,
+    "Count": 496
+  },
+  {
+    "Source": "exchang",
+    "Target": "fill",
+    "Weight": 405.399999,
+    "Count": 474
+  },
+  {
+    "Source": "event",
+    "Target": "user",
+    "Weight": 405.050018,
+    "Count": 454
+  },
+  {
+    "Source": "book",
+    "Target": "diff",
+    "Weight": 403.999984,
+    "Count": 455
+  },
+  {
+    "Source": "exchang",
+    "Target": "symbol",
+    "Weight": 395.91666699999996,
+    "Count": 458
+  },
+  {
+    "Source": "hyperliquid",
+    "Target": "order",
+    "Weight": 394.983277,
+    "Count": 478
+  },
+  {
+    "Source": "deriv",
+    "Target": "stream",
+    "Weight": 392.466571,
+    "Count": 513
+  },
+  {
+    "Source": "deriv",
+    "Target": "user",
+    "Weight": 391.93323699999996,
+    "Count": 508
+  },
+  {
+    "Source": "posit",
+    "Target": "trade",
+    "Weight": 389.7999170000001,
+    "Count": 532
+  },
+  {
+    "Source": "event",
+    "Target": "stream",
+    "Weight": 387.966684,
+    "Count": 433
+  },
+  {
+    "Source": "price",
+    "Target": "trade",
+    "Weight": 387.73336500000005,
+    "Count": 495
+  },
+  {
+    "Source": "inject",
+    "Target": "trade",
+    "Weight": 386.09994,
+    "Count": 476
+  },
+  {
+    "Source": "executor",
+    "Target": "strategi",
+    "Weight": 385.533204,
+    "Count": 505
+  },
+  {
+    "Source": "event",
+    "Target": "trade",
+    "Weight": 383.383314,
+    "Count": 471
+  },
+  {
+    "Source": "exchang",
+    "Target": "expect",
+    "Weight": 382.866671,
+    "Count": 431
+  },
+  {
+    "Source": "order",
+    "Target": "posit",
+    "Weight": 381.19999399999995,
+    "Count": 464
+  },
+  {
+    "Source": "snapshot",
+    "Target": "sourc",
+    "Weight": 379.833322,
+    "Count": 427
+  },
+  {
+    "Source": "core",
+    "Target": "hummingbot",
+    "Weight": 378.116647,
+    "Count": 321
+  },
+  {
+    "Source": "cassandr",
+    "Target": "trade",
+    "Weight": 377.633255,
+    "Count": 413
+  },
+  {
+    "Source": "pair",
+    "Target": "perpetu",
+    "Weight": 375.766619,
+    "Count": 459
+  },
+  {
+    "Source": "connector",
+    "Target": "web",
+    "Weight": 374.26655600000004,
+    "Count": 462
+  },
+  {
+    "Source": "fee",
+    "Target": "perpetu",
+    "Weight": 367.533247,
+    "Count": 492
+  },
+  {
+    "Source": "balanc",
+    "Target": "exchang",
+    "Weight": 365.19998599999997,
+    "Count": 424
+  },
+  {
+    "Source": "hang",
+    "Target": "order",
+    "Weight": 360.766682,
+    "Count": 390
+  },
+  {
+    "Source": "connect",
+    "Target": "sourc",
+    "Weight": 358.533239,
+    "Count": 482
+  },
+  {
+    "Source": "cancel",
+    "Target": "exchang",
+    "Weight": 356.716669,
+    "Count": 407
+  },
+  {
+    "Source": "configur",
+    "Target": "perpetu",
+    "Weight": 356.633336,
+    "Count": 397
+  },
+  {
+    "Source": "kucoin",
+    "Target": "order",
+    "Weight": 353.416614,
+    "Count": 432
+  },
+  {
+    "Source": "connector",
+    "Target": "om",
+    "Weight": 348.533204,
+    "Count": 476
+  },
+  {
+    "Source": "candl",
+    "Target": "hummingbot",
+    "Weight": 348.299894,
+    "Count": 431
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "map",
+    "Weight": 344.733245,
+    "Count": 401
+  },
+  {
+    "Source": "map",
+    "Target": "perpetu",
+    "Weight": 342.93325400000003,
+    "Count": 404
+  },
+  {
+    "Source": "constant",
+    "Target": "hummingbot",
+    "Weight": 342.599923,
+    "Count": 382
+  },
+  {
+    "Source": "okx",
+    "Target": "order",
+    "Weight": 341.399957,
+    "Count": 409
+  },
+  {
+    "Source": "order",
+    "Target": "web",
+    "Weight": 336.966499,
+    "Count": 517
+  },
+  {
+    "Source": "binanc",
+    "Target": "perpetu",
+    "Weight": 332.733254,
+    "Count": 390
+  },
+  {
+    "Source": "order",
+    "Target": "success",
+    "Weight": 323.450017,
+    "Count": 350
+  },
+  {
+    "Source": "exchang",
+    "Target": "rate",
+    "Weight": 322.166606,
+    "Count": 394
+  },
+  {
+    "Source": "assist",
+    "Target": "web",
+    "Weight": 319.899865,
+    "Count": 455
+  },
+  {
+    "Source": "exchang",
+    "Target": "map",
+    "Weight": 318.549934,
+    "Count": 410
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "hyperliquid",
+    "Weight": 318.39986799999997,
+    "Count": 448
+  },
+  {
+    "Source": "event",
+    "Target": "inject",
+    "Weight": 318.049915,
+    "Count": 422
+  },
+  {
+    "Source": "asyncio",
+    "Target": "sourc",
+    "Weight": 317.933166,
+    "Count": 502
+  },
+  {
+    "Source": "bybit",
+    "Target": "order",
+    "Weight": 316.96661300000005,
+    "Count": 395
+  },
+  {
+    "Source": "deriv",
+    "Target": "rule",
+    "Weight": 316.266644,
+    "Count": 371
+  },
+  {
+    "Source": "factori",
+    "Target": "sourc",
+    "Weight": 315.833178,
+    "Count": 466
+  },
+  {
+    "Source": "book",
+    "Target": "event",
+    "Weight": 315.51663099999996,
+    "Count": 363
+  },
+  {
+    "Source": "event",
+    "Target": "market",
+    "Weight": 315.366583,
+    "Count": 431
+  },
+  {
+    "Source": "binanc",
+    "Target": "hummingbot",
+    "Weight": 314.683202,
+    "Count": 444
+  },
+  {
+    "Source": "hyperliquid",
+    "Target": "perpetu",
+    "Weight": 313.66657499999997,
+    "Count": 391
+  },
+  {
+    "Source": "candl",
+    "Target": "perpetu",
+    "Weight": 310.33326999999997,
+    "Count": 359
+  },
+  {
+    "Source": "book",
+    "Target": "deriv",
+    "Weight": 310.31656399999997,
+    "Count": 425
+  },
+  {
+    "Source": "exchang",
+    "Target": "perpetu",
+    "Weight": 308.633281,
+    "Count": 387
+  },
+  {
+    "Source": "sourc",
+    "Target": "subscrib",
+    "Weight": 307.999998,
+    "Count": 344
+  },
+  {
+    "Source": "deriv",
+    "Target": "fund",
+    "Weight": 306.09999700000003,
+    "Count": 358
+  },
+  {
+    "Source": "book",
+    "Target": "web",
+    "Weight": 305.899839,
+    "Count": 483
+  },
+  {
+    "Source": "market",
+    "Target": "perpetu",
+    "Weight": 304.383264,
+    "Count": 379
+  },
+  {
+    "Source": "diff",
+    "Target": "sourc",
+    "Weight": 304.299978,
+    "Count": 347
+  },
+  {
+    "Source": "constant",
+    "Target": "path",
+    "Weight": 304.2,
+    "Count": 468
+  },
+  {
+    "Source": "bybit",
+    "Target": "perpetu",
+    "Weight": 303.96658,
+    "Count": 374
+  },
+  {
+    "Source": "deriv",
+    "Target": "fee",
+    "Weight": 303.433259,
+    "Count": 406
+  },
+  {
+    "Source": "deriv",
+    "Target": "pair",
+    "Weight": 303.28331000000003,
+    "Count": 350
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "kucoin",
+    "Weight": 302.866536,
+    "Count": 434
+  },
+  {
+    "Source": "exchang",
+    "Target": "inject",
+    "Weight": 302.766581,
+    "Count": 385
+  },
+  {
+    "Source": "map",
+    "Target": "trade",
+    "Weight": 300.683321,
+    "Count": 349
+  },
+  {
+    "Source": "gate",
+    "Target": "order",
+    "Weight": 299.199956,
+    "Count": 370
+  },
+  {
+    "Source": "fee",
+    "Target": "order",
+    "Weight": 297.000026,
+    "Count": 384
+  },
+  {
+    "Source": "inject",
+    "Target": "sourc",
+    "Weight": 295.13324,
+    "Count": 398
+  },
+  {
+    "Source": "deriv",
+    "Target": "web",
+    "Weight": 292.44989599999997,
+    "Count": 392
+  },
+  {
+    "Source": "bitmart",
+    "Target": "perpetu",
+    "Weight": 290.99992399999996,
+    "Count": 351
+  },
+  {
+    "Source": "gateway",
+    "Target": "hummingbot",
+    "Weight": 290.16657899999996,
+    "Count": 367
+  },
+  {
+    "Source": "tech",
+    "Target": "trade",
+    "Weight": 289.266628,
+    "Count": 282
+  },
+  {
+    "Source": "deriv",
+    "Target": "exchang",
+    "Weight": 288.299956,
+    "Count": 349
+  },
+  {
+    "Source": "bybit",
+    "Target": "hummingbot",
+    "Weight": 286.399878,
+    "Count": 408
+  },
+  {
+    "Source": "binanc",
+    "Target": "exchang",
+    "Weight": 285.84992800000003,
+    "Count": 345
+  },
+  {
+    "Source": "complet",
+    "Target": "order",
+    "Weight": 285.566685,
+    "Count": 313
+  },
+  {
+    "Source": "connector",
+    "Target": "inject",
+    "Weight": 284.933229,
+    "Count": 379
+  },
+  {
+    "Source": "oracl",
+    "Target": "rate",
+    "Weight": 284.033284,
+    "Count": 343
+  },
+  {
+    "Source": "book",
+    "Target": "unit",
+    "Weight": 283.94999099999995,
+    "Count": 286
+  },
+  {
+    "Source": "event",
+    "Target": "unit",
+    "Weight": 282.13331400000004,
+    "Count": 321
+  },
+  {
+    "Source": "factori",
+    "Target": "web",
+    "Weight": 280.899902,
+    "Count": 363
+  },
+  {
+    "Source": "order",
+    "Target": "subscrib",
+    "Weight": 279.51669100000004,
+    "Count": 319
+  },
+  {
+    "Source": "sourc",
+    "Target": "success",
+    "Weight": 278.1,
+    "Count": 309
+  },
+  {
+    "Source": "mock",
+    "Target": "sourc",
+    "Weight": 277.233198,
+    "Count": 406
+  },
+  {
+    "Source": "stream",
+    "Target": "web",
+    "Weight": 277.033191,
+    "Count": 437
+  },
+  {
+    "Source": "executor",
+    "Target": "posit",
+    "Weight": 275.53330800000003,
+    "Count": 336
+  },
+  {
+    "Source": "sourc",
+    "Target": "unittest",
+    "Weight": 275.499855,
+    "Count": 435
+  },
+  {
+    "Source": "user",
+    "Target": "web",
+    "Weight": 275.19985599999995,
+    "Count": 434
+  },
+  {
+    "Source": "perpetu",
+    "Target": "success",
+    "Weight": 275.066668,
+    "Count": 306
+  },
+  {
+    "Source": "bot",
+    "Target": "cassandr",
+    "Weight": 274.866638,
+    "Count": 256
+  },
+  {
+    "Source": "okx",
+    "Target": "perpetu",
+    "Weight": 274.49992,
+    "Count": 342
+  },
+  {
+    "Source": "gate",
+    "Target": "hummingbot",
+    "Weight": 274.36655099999996,
+    "Count": 389
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "okx",
+    "Weight": 272.333216,
+    "Count": 390
+  },
+  {
+    "Source": "market",
+    "Target": "sourc",
+    "Weight": 271.916599,
+    "Count": 334
+  },
+  {
+    "Source": "feed",
+    "Target": "hummingbot",
+    "Weight": 271.61663599999997,
+    "Count": 256
+  },
+  {
+    "Source": "cassandr",
+    "Target": "tech",
+    "Weight": 270.266638,
+    "Count": 252
+  },
+  {
+    "Source": "factori",
+    "Target": "perpetu",
+    "Weight": 269.133219,
+    "Count": 387
+  },
+  {
+    "Source": "channel",
+    "Target": "sourc",
+    "Weight": 268.633332,
+    "Count": 299
+  },
+  {
+    "Source": "sourc",
+    "Target": "type",
+    "Weight": 268.533192,
+    "Count": 424
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "spot",
+    "Weight": 268.19991400000004,
+    "Count": 339
+  },
+  {
+    "Source": "core",
+    "Target": "user",
+    "Weight": 267.41652899999997,
+    "Count": 418
+  },
+  {
+    "Source": "order",
+    "Target": "xrpl",
+    "Weight": 265.683281,
+    "Count": 325
+  },
+  {
+    "Source": "btc",
+    "Target": "market",
+    "Weight": 265.116583,
+    "Count": 343
+  },
+  {
+    "Source": "kucoin",
+    "Target": "perpetu",
+    "Weight": 264.899916,
+    "Count": 338
+  },
+  {
+    "Source": "exchang",
+    "Target": "partial",
+    "Weight": 264.483339,
+    "Count": 299
+  },
+  {
+    "Source": "perpetu",
+    "Target": "rule",
+    "Weight": 264.03331000000003,
+    "Count": 316
+  },
+  {
+    "Source": "mode",
+    "Target": "perpetu",
+    "Weight": 263.93330000000003,
+    "Count": 330
+  },
+  {
+    "Source": "core",
+    "Target": "stream",
+    "Weight": 263.66653199999996,
+    "Count": 410
+  },
+  {
+    "Source": "posit",
+    "Target": "strategi",
+    "Weight": 262.866604,
+    "Count": 321
+  },
+  {
+    "Source": "order",
+    "Target": "subscript",
+    "Weight": 262.133346,
+    "Count": 292
+  },
+  {
+    "Source": "core",
+    "Target": "inject",
+    "Weight": 261.566529,
+    "Count": 413
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "rate",
+    "Weight": 261.466563,
+    "Count": 361
+  },
+  {
+    "Source": "bitmart",
+    "Target": "order",
+    "Weight": 260.499962,
+    "Count": 320
+  },
+  {
+    "Source": "price",
+    "Target": "sourc",
+    "Weight": 260.016668,
+    "Count": 262
+  },
+  {
+    "Source": "cassandr",
+    "Target": "strategi",
+    "Weight": 258.749897,
+    "Count": 360
+  },
+  {
+    "Source": "inject",
+    "Target": "market",
+    "Weight": 255.83327,
+    "Count": 328
+  },
+  {
+    "Source": "gate",
+    "Target": "perpetu",
+    "Weight": 254.56658800000002,
+    "Count": 322
+  },
+  {
+    "Source": "authent",
+    "Target": "order",
+    "Weight": 250.433293,
+    "Count": 295
+  },
+  {
+    "Source": "dydx",
+    "Target": "perpetu",
+    "Weight": 249.066602,
+    "Count": 302
+  },
+  {
+    "Source": "command",
+    "Target": "hummingbot",
+    "Weight": 245.799893,
+    "Count": 357
+  },
+  {
+    "Source": "hyperliquid",
+    "Target": "trade",
+    "Weight": 244.766633,
+    "Count": 301
+  },
+  {
+    "Source": "channel",
+    "Target": "order",
+    "Weight": 244.466674,
+    "Count": 270
+  },
+  {
+    "Source": "book",
+    "Target": "success",
+    "Weight": 244.36667,
+    "Count": 268
+  },
+  {
+    "Source": "coinbas",
+    "Target": "order",
+    "Weight": 244.13329000000004,
+    "Count": 302
+  },
+  {
+    "Source": "event",
+    "Target": "executor",
+    "Weight": 243.299918,
+    "Count": 348
+  },
+  {
+    "Source": "flight",
+    "Target": "order",
+    "Weight": 242.19998900000002,
+    "Count": 277
+  },
+  {
+    "Source": "map",
+    "Target": "order",
+    "Weight": 242.183286,
+    "Count": 303
+  },
+  {
+    "Source": "perpetu",
+    "Target": "websocket",
+    "Weight": 241.533334,
+    "Count": 269
+  },
+  {
+    "Source": "binanc",
+    "Target": "trade",
+    "Weight": 241.366622,
+    "Count": 301
+  },
+  {
+    "Source": "control",
+    "Target": "executor",
+    "Weight": 241.166654,
+    "Count": 310
+  },
+  {
+    "Source": "rate",
+    "Target": "trade",
+    "Weight": 240.74996200000004,
+    "Count": 325
+  },
+  {
+    "Source": "trade",
+    "Target": "user",
+    "Weight": 239.09994900000004,
+    "Count": 311
+  },
+  {
+    "Source": "map",
+    "Target": "strategi",
+    "Weight": 237.94995899999998,
+    "Count": 256
+  },
+  {
+    "Source": "exchang",
+    "Target": "websocket",
+    "Weight": 237.933339,
+    "Count": 266
+  },
+  {
+    "Source": "deriv",
+    "Target": "expect",
+    "Weight": 237.033334,
+    "Count": 264
+  },
+  {
+    "Source": "creation",
+    "Target": "order",
+    "Weight": 236.616704,
+    "Count": 258
+  },
+  {
+    "Source": "map",
+    "Target": "sourc",
+    "Weight": 236.533273,
+    "Count": 315
+  },
+  {
+    "Source": "bitmart",
+    "Target": "hummingbot",
+    "Weight": 235.299896,
+    "Count": 341
+  },
+  {
+    "Source": "mode",
+    "Target": "posit",
+    "Weight": 234.766681,
+    "Count": 246
+  },
+  {
+    "Source": "order",
+    "Target": "stream",
+    "Weight": 234.683352,
+    "Count": 274
+  },
+  {
+    "Source": "sourc",
+    "Target": "task",
+    "Weight": 234.216594,
+    "Count": 289
+  },
+  {
+    "Source": "perpetu",
+    "Target": "price",
+    "Weight": 232.983316,
+    "Count": 274
+  },
+  {
+    "Source": "event",
+    "Target": "posit",
+    "Weight": 232.100008,
+    "Count": 269
+  },
+  {
+    "Source": "core",
+    "Target": "market",
+    "Weight": 231.84988900000002,
+    "Count": 350
+  },
+  {
+    "Source": "advanc",
+    "Target": "order",
+    "Weight": 231.483292,
+    "Count": 286
+  },
+  {
+    "Source": "connector",
+    "Target": "market",
+    "Weight": 230.449939,
+    "Count": 297
+  },
+  {
+    "Source": "bitcoin",
+    "Target": "trader",
+    "Weight": 230.0,
+    "Count": 130
+  },
+  {
+    "Source": "perpetu",
+    "Target": "type",
+    "Weight": 229.899879,
+    "Count": 363
+  },
+  {
+    "Source": "connect",
+    "Target": "user",
+    "Weight": 229.733289,
+    "Count": 296
+  },
+  {
+    "Source": "fetch",
+    "Target": "order",
+    "Weight": 229.46668200000002,
+    "Count": 237
+  },
+  {
+    "Source": "deriv",
+    "Target": "fill",
+    "Weight": 227.199992,
+    "Count": 259
+  },
+  {
+    "Source": "core",
+    "Target": "trade",
+    "Weight": 226.54992,
+    "Count": 299
+  },
+  {
+    "Source": "trade",
+    "Target": "unit",
+    "Weight": 225.849991,
+    "Count": 250
+  },
+  {
+    "Source": "connect",
+    "Target": "stream",
+    "Weight": 225.166624,
+    "Count": 289
+  },
+  {
+    "Source": "balanc",
+    "Target": "order",
+    "Weight": 224.750066,
+    "Count": 277
+  },
+  {
+    "Source": "bitget",
+    "Target": "perpetu",
+    "Weight": 223.266596,
+    "Count": 284
+  },
+  {
+    "Source": "exchang",
+    "Target": "network",
+    "Weight": 223.183323,
+    "Count": 261
+  },
+  {
+    "Source": "constant",
+    "Target": "exchang",
+    "Weight": 221.399956,
+    "Count": 281
+  },
+  {
+    "Source": "sourc",
+    "Target": "subscript",
+    "Weight": 220.933334,
+    "Count": 247
+  },
+  {
+    "Source": "coinbas",
+    "Target": "exchang",
+    "Weight": 220.499935,
+    "Count": 281
+  },
+  {
+    "Source": "cancel",
+    "Target": "order",
+    "Weight": 220.18335499999998,
+    "Count": 224
+  },
+  {
+    "Source": "core",
+    "Target": "web",
+    "Weight": 219.73323,
+    "Count": 328
+  },
+  {
+    "Source": "order",
+    "Target": "type",
+    "Weight": 218.999892,
+    "Count": 340
+  },
+  {
+    "Source": "binanc",
+    "Target": "sourc",
+    "Weight": 218.866608,
+    "Count": 270
+  },
+  {
+    "Source": "rule",
+    "Target": "trade",
+    "Weight": 217.233359,
+    "Count": 220
+  },
+  {
+    "Source": "cube",
+    "Target": "order",
+    "Weight": 216.36664,
+    "Count": 258
+  },
+  {
+    "Source": "bot",
+    "Target": "tech",
+    "Weight": 215.8,
+    "Count": 166
+  },
+  {
+    "Source": "bot",
+    "Target": "strategi",
+    "Weight": 214.999911,
+    "Count": 304
+  },
+  {
+    "Source": "sourc",
+    "Target": "tracker",
+    "Weight": 214.383239,
+    "Count": 314
+  },
+  {
+    "Source": "price",
+    "Target": "sell",
+    "Weight": 213.383352,
+    "Count": 241
+  },
+  {
+    "Source": "book",
+    "Target": "market",
+    "Weight": 212.54997600000002,
+    "Count": 287
+  },
+  {
+    "Source": "book",
+    "Target": "subscrib",
+    "Weight": 212.233334,
+    "Count": 233
+  },
+  {
+    "Source": "deriv",
+    "Target": "inject",
+    "Weight": 210.933284,
+    "Count": 266
+  },
+  {
+    "Source": "book",
+    "Target": "channel",
+    "Weight": 210.900002,
+    "Count": 235
+  },
+  {
+    "Source": "order",
+    "Target": "vault",
+    "Weight": 210.066648,
+    "Count": 250
+  },
+  {
+    "Source": "deriv",
+    "Target": "success",
+    "Weight": 209.00000599999998,
+    "Count": 237
+  },
+  {
+    "Source": "cancel",
+    "Target": "deriv",
+    "Weight": 208.999998,
+    "Count": 234
+  },
+  {
+    "Source": "authent",
+    "Target": "exchang",
+    "Weight": 207.633309,
+    "Count": 215
+  },
+  {
+    "Source": "exchang",
+    "Target": "xrpl",
+    "Weight": 206.233267,
+    "Count": 266
+  },
+  {
+    "Source": "sourc",
+    "Target": "wrapper",
+    "Weight": 205.849892,
+    "Count": 325
+  },
+  {
+    "Source": "expect",
+    "Target": "perpetu",
+    "Weight": 205.366668,
+    "Count": 229
+  },
+  {
+    "Source": "book",
+    "Target": "subscript",
+    "Weight": 205.33333199999998,
+    "Count": 227
+  },
+  {
+    "Source": "fill",
+    "Target": "trade",
+    "Weight": 205.316692,
+    "Count": 237
+  },
+  {
+    "Source": "isol",
+    "Target": "sourc",
+    "Weight": 205.199892,
+    "Count": 324
+  },
+  {
+    "Source": "deriv",
+    "Target": "websocket",
+    "Weight": 204.866668,
+    "Count": 228
+  },
+  {
+    "Source": "order",
+    "Target": "task",
+    "Weight": 204.86663199999998,
+    "Count": 222
+  },
+  {
+    "Source": "sourc",
+    "Target": "unit",
+    "Weight": 204.49998,
+    "Count": 180
+  },
+  {
+    "Source": "exchang",
+    "Target": "success",
+    "Weight": 203.43334,
+    "Count": 227
+  },
+  {
+    "Source": "erron",
+    "Target": "exchang",
+    "Weight": 203.366674,
+    "Count": 228
+  },
+  {
+    "Source": "exchang",
+    "Target": "support",
+    "Weight": 201.199965,
+    "Count": 244
+  },
+  {
+    "Source": "exchang",
+    "Target": "tracker",
+    "Weight": 200.833246,
+    "Count": 300
+  },
+  {
+    "Source": "network",
+    "Target": "perpetu",
+    "Weight": 200.29994499999998,
+    "Count": 272
+  },
+  {
+    "Source": "order",
+    "Target": "user",
+    "Weight": 200.133366,
+    "Count": 230
+  },
+  {
+    "Source": "fund",
+    "Target": "rate",
+    "Weight": 200.116675,
+    "Count": 206
+  },
+  {
+    "Source": "inject",
+    "Target": "perpetu",
+    "Weight": 198.733264,
+    "Count": 270
+  },
+  {
+    "Source": "sourc",
+    "Target": "websocket",
+    "Weight": 198.483329,
+    "Count": 225
+  },
+  {
+    "Source": "strategi",
+    "Target": "tech",
+    "Weight": 197.933249,
+    "Count": 282
+  },
+  {
+    "Source": "mexc",
+    "Target": "order",
+    "Weight": 197.533304,
+    "Count": 239
+  },
+  {
+    "Source": "deriv",
+    "Target": "symbol",
+    "Weight": 197.2,
+    "Count": 220
+  },
+  {
+    "Source": "coinbas",
+    "Target": "hummingbot",
+    "Weight": 196.333256,
+    "Count": 270
+  },
+  {
+    "Source": "advanc",
+    "Target": "hummingbot",
+    "Weight": 196.333256,
+    "Count": 270
+  },
+  {
+    "Source": "chain",
+    "Target": "order",
+    "Weight": 196.13333799999998,
+    "Count": 220
+  },
+  {
+    "Source": "network",
+    "Target": "sourc",
+    "Weight": 195.66657,
+    "Count": 304
+  },
+  {
+    "Source": "bybit",
+    "Target": "trade",
+    "Weight": 195.53330499999998,
+    "Count": 242
+  },
+  {
+    "Source": "connector",
+    "Target": "map",
+    "Weight": 193.94995699999998,
+    "Count": 231
+  },
+  {
+    "Source": "advanc",
+    "Target": "exchang",
+    "Weight": 193.766609,
+    "Count": 249
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "mexc",
+    "Weight": 192.73326200000002,
+    "Count": 258
+  },
+  {
+    "Source": "dto",
+    "Target": "trade",
+    "Weight": 191.666602,
+    "Count": 253
+  },
+  {
+    "Source": "order",
+    "Target": "track",
+    "Weight": 191.066684,
+    "Count": 216
+  },
+  {
+    "Source": "perpetu",
+    "Target": "symbol",
+    "Weight": 190.916663,
+    "Count": 218
+  },
+  {
+    "Source": "order",
+    "Target": "queue",
+    "Weight": 190.516659,
+    "Count": 264
+  },
+  {
+    "Source": "book",
+    "Target": "price",
+    "Weight": 190.31667600000003,
+    "Count": 230
+  },
+  {
+    "Source": "order",
+    "Target": "rais",
+    "Weight": 190.000002,
+    "Count": 197
+  },
+  {
+    "Source": "fill",
+    "Target": "perpetu",
+    "Weight": 189.99999200000002,
+    "Count": 219
+  },
+  {
+    "Source": "cross",
+    "Target": "market",
+    "Weight": 189.53326900000002,
+    "Count": 251
+  },
+  {
+    "Source": "feed",
+    "Target": "spot",
+    "Weight": 189.516611,
+    "Count": 229
+  },
+  {
+    "Source": "kraken",
+    "Target": "order",
+    "Weight": 188.69997,
+    "Count": 231
+  },
+  {
+    "Source": "processor",
+    "Target": "web",
+    "Weight": 188.46660300000002,
+    "Count": 254
+  },
+  {
+    "Source": "candid",
+    "Target": "order",
+    "Weight": 187.800026,
+    "Count": 222
+  },
+  {
+    "Source": "pair",
+    "Target": "sourc",
+    "Weight": 187.44996300000003,
+    "Count": 239
+  },
+  {
+    "Source": "cancel",
+    "Target": "perpetu",
+    "Weight": 187.39999799999998,
+    "Count": 210
+  },
+  {
+    "Source": "assist",
+    "Target": "exchang",
+    "Weight": 187.39992999999998,
+    "Count": 272
+  },
+  {
+    "Source": "account",
+    "Target": "trade",
+    "Weight": 187.216631,
+    "Count": 225
+  },
+  {
+    "Source": "hyperliquid",
+    "Target": "sourc",
+    "Weight": 186.76661,
+    "Count": 240
+  },
+  {
+    "Source": "deriv",
+    "Target": "mode",
+    "Weight": 185.88331399999998,
+    "Count": 218
+  },
+  {
+    "Source": "okx",
+    "Target": "trade",
+    "Weight": 185.81664,
+    "Count": 228
+  },
+  {
+    "Source": "book",
+    "Target": "tracker",
+    "Weight": 185.49994,
+    "Count": 244
+  },
+  {
+    "Source": "constant",
+    "Target": "trade",
+    "Weight": 185.399985,
+    "Count": 266
+  },
+  {
+    "Source": "bitstamp",
+    "Target": "order",
+    "Weight": 185.266638,
+    "Count": 226
+  },
+  {
+    "Source": "complet",
+    "Target": "exchang",
+    "Weight": 185.06664899999998,
+    "Count": 203
+  },
+  {
+    "Source": "subscrib",
+    "Target": "user",
+    "Weight": 183.816683,
+    "Count": 208
+  },
+  {
+    "Source": "map",
+    "Target": "pair",
+    "Weight": 183.76667000000003,
+    "Count": 208
+  },
+  {
+    "Source": "symbol",
+    "Target": "trade",
+    "Weight": 183.73336,
+    "Count": 226
+  },
+  {
+    "Source": "kucoin",
+    "Target": "sourc",
+    "Weight": 183.133278,
+    "Count": 234
+  },
+  {
+    "Source": "cassandr",
+    "Target": "posit",
+    "Weight": 183.016595,
+    "Count": 254
+  },
+  {
+    "Source": "cross",
+    "Target": "exchang",
+    "Weight": 182.799946,
+    "Count": 228
+  },
+  {
+    "Source": "order",
+    "Target": "partial",
+    "Weight": 182.633353,
+    "Count": 196
+  },
+  {
+    "Source": "quot",
+    "Target": "trade",
+    "Weight": 182.55001600000003,
+    "Count": 237
+  },
+  {
+    "Source": "order",
+    "Target": "spot",
+    "Weight": 182.183334,
+    "Count": 213
+  },
+  {
+    "Source": "kucoin",
+    "Target": "trade",
+    "Weight": 181.833304,
+    "Count": 227
+  },
+  {
+    "Source": "assist",
+    "Target": "deriv",
+    "Weight": 181.833258,
+    "Count": 265
+  },
+  {
+    "Source": "bid",
+    "Target": "order",
+    "Weight": 181.366704,
+    "Count": 241
+  },
+  {
+    "Source": "market",
+    "Target": "spot",
+    "Weight": 181.06665800000002,
+    "Count": 196
+  },
+  {
+    "Source": "exchang",
+    "Target": "flight",
+    "Weight": 179.966582,
+    "Count": 274
+  },
+  {
+    "Source": "gate",
+    "Target": "sourc",
+    "Weight": 179.933278,
+    "Count": 230
+  },
+  {
+    "Source": "btc",
+    "Target": "order",
+    "Weight": 179.233303,
+    "Count": 221
+  },
+  {
+    "Source": "dydx",
+    "Target": "order",
+    "Weight": 179.133312,
+    "Count": 216
+  },
+  {
+    "Source": "dexalot",
+    "Target": "order",
+    "Weight": 179.13331,
+    "Count": 216
+  },
+  {
+    "Source": "deriv",
+    "Target": "price",
+    "Weight": 178.950003,
+    "Count": 201
+  },
+  {
+    "Source": "stream",
+    "Target": "subscrib",
+    "Weight": 177.633348,
+    "Count": 200
+  },
+  {
+    "Source": "dto",
+    "Target": "posit",
+    "Weight": 177.349933,
+    "Count": 248
+  },
+  {
+    "Source": "factori",
+    "Target": "order",
+    "Weight": 177.216585,
+    "Count": 255
+  },
+  {
+    "Source": "fund",
+    "Target": "order",
+    "Weight": 176.599991,
+    "Count": 209
+  },
+  {
+    "Source": "connect",
+    "Target": "perpetu",
+    "Weight": 176.033274,
+    "Count": 250
+  },
+  {
+    "Source": "connect",
+    "Target": "order",
+    "Weight": 175.116616,
+    "Count": 243
+  },
+  {
+    "Source": "bitru",
+    "Target": "order",
+    "Weight": 175.033312,
+    "Count": 210
+  },
+  {
+    "Source": "btc",
+    "Target": "exchang",
+    "Weight": 175.033295,
+    "Count": 210
+  },
+  {
+    "Source": "rais",
+    "Target": "sourc",
+    "Weight": 174.933334,
+    "Count": 195
+  },
+  {
+    "Source": "order",
+    "Target": "transact",
+    "Weight": 174.60003799999998,
+    "Count": 219
+  },
+  {
+    "Source": "optim",
+    "Target": "strategi",
+    "Weight": 174.066648,
+    "Count": 191
+  },
+  {
+    "Source": "communiti",
+    "Target": "octobot",
+    "Weight": 173.883309,
+    "Count": 171
+  },
+  {
+    "Source": "bitstamp",
+    "Target": "exchang",
+    "Weight": 173.133292,
+    "Count": 199
+  },
+  {
+    "Source": "connector",
+    "Target": "gateway",
+    "Weight": 172.93331899999998,
+    "Count": 196
+  },
+  {
+    "Source": "complet",
+    "Target": "hummingbot",
+    "Weight": 172.566635,
+    "Count": 203
+  },
+  {
+    "Source": "connector",
+    "Target": "hyperliquid",
+    "Weight": 171.066608,
+    "Count": 220
+  },
+  {
+    "Source": "order",
+    "Target": "unittest",
+    "Weight": 170.99991,
+    "Count": 270
+  },
+  {
+    "Source": "gate",
+    "Target": "trade",
+    "Weight": 170.966639,
+    "Count": 215
+  },
+  {
+    "Source": "mode",
+    "Target": "trade",
+    "Weight": 170.71663900000001,
+    "Count": 206
+  },
+  {
+    "Source": "coin",
+    "Target": "gecko",
+    "Weight": 170.666626,
+    "Count": 197
+  },
+  {
+    "Source": "exchang",
+    "Target": "strategi",
+    "Weight": 170.63329400000003,
+    "Count": 216
+  },
+  {
+    "Source": "pre",
+    "Target": "web",
+    "Weight": 170.633277,
+    "Count": 228
+  },
+  {
+    "Source": "exchang",
+    "Target": "path",
+    "Weight": 170.39999699999996,
+    "Count": 188
+  },
+  {
+    "Source": "adjust",
+    "Target": "order",
+    "Weight": 170.033349,
+    "Count": 201
+  },
+  {
+    "Source": "book",
+    "Target": "type",
+    "Weight": 169.733244,
+    "Count": 268
+  },
+  {
+    "Source": "deriv",
+    "Target": "partial",
+    "Weight": 169.39999799999998,
+    "Count": 190
+  },
+  {
+    "Source": "exchang",
+    "Target": "synchron",
+    "Weight": 169.23333200000002,
+    "Count": 187
+  },
+  {
+    "Source": "dexalot",
+    "Target": "hummingbot",
+    "Weight": 168.699929,
+    "Count": 239
+  },
+  {
+    "Source": "exchang",
+    "Target": "freqtrad",
+    "Weight": 168.483297,
+    "Count": 186
+  },
+  {
+    "Source": "balanc",
+    "Target": "deriv",
+    "Weight": 168.399996,
+    "Count": 189
+  },
+  {
+    "Source": "success",
+    "Target": "unit",
+    "Weight": 168.3,
+    "Count": 187
+  },
+  {
+    "Source": "perpetu",
+    "Target": "unittest",
+    "Weight": 167.833245,
+    "Count": 265
+  },
+  {
+    "Source": "stream",
+    "Target": "tracker",
+    "Weight": 167.81661100000002,
+    "Count": 220
+  },
+  {
+    "Source": "bitmart",
+    "Target": "sourc",
+    "Weight": 167.799952,
+    "Count": 210
+  },
+  {
+    "Source": "futur",
+    "Target": "ind",
+    "Weight": 167.199912,
+    "Count": 264
+  },
+  {
+    "Source": "currenc",
+    "Target": "pair",
+    "Weight": 167.066665,
+    "Count": 165
+  },
+  {
+    "Source": "freqtrad",
+    "Target": "rpc",
+    "Weight": 167.066635,
+    "Count": 177
+  },
+  {
+    "Source": "social",
+    "Target": "trade",
+    "Weight": 167.066632,
+    "Count": 166
+  },
+  {
+    "Source": "calcul",
+    "Target": "fee",
+    "Weight": 166.733335,
+    "Count": 148
+  },
+  {
+    "Source": "binanc",
+    "Target": "connector",
+    "Weight": 166.64993900000002,
+    "Count": 220
+  },
+  {
+    "Source": "book",
+    "Target": "connect",
+    "Weight": 166.41661599999998,
+    "Count": 231
+  },
+  {
+    "Source": "unit",
+    "Target": "user",
+    "Weight": 166.14999899999998,
+    "Count": 161
+  },
+  {
+    "Source": "book",
+    "Target": "rais",
+    "Weight": 165.9,
+    "Count": 179
+  },
+  {
+    "Source": "bot",
+    "Target": "posit",
+    "Weight": 165.73326899999998,
+    "Count": 231
+  },
+  {
+    "Source": "posit",
+    "Target": "price",
+    "Weight": 165.383334,
+    "Count": 203
+  },
+  {
+    "Source": "constant",
+    "Target": "perpetu",
+    "Weight": 165.016619,
+    "Count": 207
+  },
+  {
+    "Source": "deriv",
+    "Target": "market",
+    "Weight": 164.766649,
+    "Count": 195
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "xrpl",
+    "Weight": 164.633272,
+    "Count": 221
+  },
+  {
+    "Source": "fee",
+    "Target": "inject",
+    "Weight": 164.53328900000002,
+    "Count": 212
+  },
+  {
+    "Source": "bitget",
+    "Target": "order",
+    "Weight": 164.233312,
+    "Count": 201
+  },
+  {
+    "Source": "pair",
+    "Target": "price",
+    "Weight": 163.383354,
+    "Count": 221
+  },
+  {
+    "Source": "order",
+    "Target": "websocket",
+    "Weight": 163.083336,
+    "Count": 183
+  },
+  {
+    "Source": "tracker",
+    "Target": "user",
+    "Weight": 161.54994699999997,
+    "Count": 212
+  },
+  {
+    "Source": "exchang",
+    "Target": "kraken",
+    "Weight": 161.09995400000003,
+    "Count": 207
+  },
+  {
+    "Source": "perpetu",
+    "Target": "token",
+    "Weight": 161.06665299999997,
+    "Count": 185
+  },
+  {
+    "Source": "balanc",
+    "Target": "perpetu",
+    "Weight": 160.999998,
+    "Count": 183
+  },
+  {
+    "Source": "factori",
+    "Target": "user",
+    "Weight": 160.81658900000002,
+    "Count": 235
+  },
+  {
+    "Source": "stream",
+    "Target": "trade",
+    "Weight": 160.566645,
+    "Count": 206
+  },
+  {
+    "Source": "current",
+    "Target": "order",
+    "Weight": 160.533349,
+    "Count": 191
+  },
+  {
+    "Source": "queue",
+    "Target": "sourc",
+    "Weight": 159.78329100000002,
+    "Count": 194
+  },
+  {
+    "Source": "order",
+    "Target": "record",
+    "Weight": 159.666647,
+    "Count": 200
+  },
+  {
+    "Source": "market",
+    "Target": "posit",
+    "Weight": 159.383312,
+    "Count": 204
+  },
+  {
+    "Source": "asyncio",
+    "Target": "order",
+    "Weight": 159.166586,
+    "Count": 248
+  },
+  {
+    "Source": "histori",
+    "Target": "trade",
+    "Weight": 158.750002,
+    "Count": 162
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "kraken",
+    "Weight": 158.06660399999998,
+    "Count": 218
+  },
+  {
+    "Source": "book",
+    "Target": "factori",
+    "Weight": 157.916589,
+    "Count": 233
+  },
+  {
+    "Source": "core",
+    "Target": "executor",
+    "Weight": 157.066584,
+    "Count": 248
+  },
+  {
+    "Source": "account",
+    "Target": "exchang",
+    "Weight": 157.033301,
+    "Count": 192
+  },
+  {
+    "Source": "exchang",
+    "Target": "sell",
+    "Weight": 156.88331300000002,
+    "Count": 189
+  },
+  {
+    "Source": "event",
+    "Target": "hummingbot",
+    "Weight": 156.766646,
+    "Count": 152
+  },
+  {
+    "Source": "avellaneda",
+    "Target": "market",
+    "Weight": 156.699952,
+    "Count": 200
+  },
+  {
+    "Source": "path",
+    "Target": "perpetu",
+    "Weight": 156.55,
+    "Count": 212
+  },
+  {
+    "Source": "factori",
+    "Target": "stream",
+    "Weight": 156.34992499999998,
+    "Count": 230
+  },
+  {
+    "Source": "price",
+    "Target": "strategi",
+    "Weight": 156.016658,
+    "Count": 184
+  },
+  {
+    "Source": "okx",
+    "Target": "sourc",
+    "Weight": 155.733288,
+    "Count": 196
+  },
+  {
+    "Source": "oracl",
+    "Target": "sourc",
+    "Weight": 155.566625,
+    "Count": 196
+  },
+  {
+    "Source": "executor",
+    "Target": "trade",
+    "Weight": 154.91662100000002,
+    "Count": 217
+  },
+  {
+    "Source": "exchang",
+    "Target": "type",
+    "Weight": 154.86658999999997,
+    "Count": 240
+  },
+  {
+    "Source": "cube",
+    "Target": "hummingbot",
+    "Weight": 154.766603,
+    "Count": 217
+  },
+  {
+    "Source": "order",
+    "Target": "vertex",
+    "Weight": 154.599968,
+    "Count": 194
+  },
+  {
+    "Source": "hummingbot",
+    "Target": "pmm",
+    "Weight": 154.583253,
+    "Count": 243
+  },
+  {
+    "Source": "exchang",
+    "Target": "hyperliquid",
+    "Weight": 154.183294,
+    "Count": 193
+  },
+  {
+    "Source": "book",
+    "Target": "unittest",
+    "Weight": 153.899919,
+    "Count": 243
+  },
+  {
+    "Source": "map",
+    "Target": "model",
+    "Weight": 153.53329,
+    "Count": 196
+  },
+  {
+    "Source": "candl",
+    "Target": "trade",
+    "Weight": 152.949988,
+    "Count": 180
+  },
+  {
+    "Source": "constant",
+    "Target": "rate",
+    "Weight": 152.299965,
+    "Count": 235
+  },
+  {
+    "Source": "exchang",
+    "Target": "kucoin",
+    "Weight": 152.28329300000001,
+    "Count": 191
+  },
+  {
+    "Source": "maker",
+    "Target": "market",
+    "Weight": 151.949984,
+    "Count": 173
+  },
+  {
+    "Source": "bybit",
+    "Target": "exchang",
+    "Weight": 151.26663000000002,
+    "Count": 189
+  },
+  {
+    "Source": "connector",
+    "Target": "constant",
+    "Weight": 150.499989,
+    "Count": 133
+  },
+  {
+    "Source": "bitmart",
+    "Target": "trade",
+    "Weight": 150.29997600000002,
+    "Count": 188
+  },
+  {
+    "Source": "ascend",
+    "Target": "order",
+    "Weight": 150.099982,
+    "Count": 180
+  },
+  {
+    "Source": "executor",
+    "Target": "grid",
+    "Weight": 150.083305,
+    "Count": 203
+  },
+  {
+    "Source": "cube",
+    "Target": "exchang",
+    "Weight": 149.933294,
+    "Count": 186
+  },
+  {
+    "Source": "dto",
+    "Target": "strategi",
+    "Weight": 149.866596,
+    "Count": 226
+  },
+  {
+    "Source": "pair",
+    "Target": "symbol",
+    "Weight": 149.83335599999998,
+    "Count": 159
+  },
+  {
+    "Source": "event",
+    "Target": "mqtt",
+    "Weight": 149.833314,
+    "Count": 166
+  },
+  {
+    "Source": "coinbas",
+    "Target": "sourc",
+    "Weight": 149.83328799999998,
+    "Count": 193
+  },
+  {
+    "Source": "gateway",
+    "Target": "order",
+    "Weight": 149.73330700000002,
+    "Count": 179
+  },
+  {
+    "Source": "exchang",
+    "Target": "failur",
+    "Weight": 149.283321,
+    "Count": 182
+  },
+  {
+    "Source": "current",
+    "Target": "exchang",
+    "Weight": 149.216608,
+    "Count": 220
+  },
+  {
+    "Source": "perpetu",
+    "Target": "support",
+    "Weight": 148.766638,
+    "Count": 192
+  },
+  {
+    "Source": "stream",
+    "Target": "unit",
+    "Weight": 148.266666,
+    "Count": 141
+  },
+  {
+    "Source": "stream",
+    "Target": "task",
+    "Weight": 148.11664000000002,
+    "Count": 172
+  },
+  {
+    "Source": "binanc",
+    "Target": "book",
+    "Weight": 147.966634,
+    "Count": 181
+  },
+  {
+    "Source": "partial",
+    "Target": "perpetu",
+    "Weight": 147.79999800000002,
+    "Count": 166
+  },
+  {
+    "Source": "deriv",
+    "Target": "rate",
+    "Weight": 147.266647,
+    "Count": 181
+  },
+  {
+    "Source": "deriv",
+    "Target": "token",
+    "Weight": 147.13332300000002,
+    "Count": 177
+  },
+  {
+    "Source": "asyncio",
+    "Target": "book",
+    "Weight": 146.933256,
+    "Count": 232
+  },
+  {
+    "Source": "book",
+    "Target": "queue",
+    "Weight": 146.449969,
+    "Count": 193
+  },
+  {
+    "Source": "inject",
+    "Target": "mode",
+    "Weight": 146.199975,
+    "Count": 156
+  },
+  {
+    "Source": "market",
+    "Target": "pydant",
+    "Weight": 145.63329,
+    "Count": 184
+  },
+  {
+    "Source": "bybit",
+    "Target": "sourc",
+    "Weight": 145.533286,
+    "Count": 190
+  },
+  {
+    "Source": "fee",
+    "Target": "rate",
+    "Weight": 145.200015,
+    "Count": 158
+  },
+  {
+    "Source": "exchang",
+    "Target": "mexc",
+    "Weight": 145.11663299999998,
+    "Count": 173
+  },
+  {
+    "Source": "fund",
+    "Target": "sourc",
+    "Weight": 145.06665299999997,
+    "Count": 171
+  },
+  {
+    "Source": "map",
+    "Target": "pydant",
+    "Weight": 144.433303,
+    "Count": 167
+  },
+  {
+    "Source": "core",
+    "Target": "rate",
+    "Weight": 144.39995,
+    "Count": 188
+  },
+  {
+    "Source": "market",
+    "Target": "sell",
+    "Weight": 144.266664,
+    "Count": 160
+  },
+  {
+    "Source": "mock",
+    "Target": "order",
+    "Weight": 143.98327,
+    "Count": 212
+  },
+  {
+    "Source": "candl",
+    "Target": "factori",
+    "Weight": 143.799941,
+    "Count": 204
+  },
+  {
+    "Source": "model",
+    "Target": "order",
+    "Weight": 143.699981,
+    "Count": 144
+  },
+  {
+    "Source": "queue",
+    "Target": "user",
+    "Weight": 143.150035,
+    "Count": 181
+  },
+  {
+    "Source": "order",
+    "Target": "quot",
+    "Weight": 143.050023,
+    "Count": 190
+  },
+  {
+    "Source": "htx",
+    "Target": "order",
+    "Weight": 142.899982,
+    "Count": 168
+  },
+  {
+    "Source": "exchang",
+    "Target": "fetch",
+    "Weight": 142.83333199999998,
+    "Count": 176
+  },
+  {
+    "Source": "listen",
+    "Target": "subscript",
+    "Weight": 142.283369,
+    "Count": 153
+  },
+  {
+    "Source": "common",
+    "Target": "perpetu",
+    "Weight": 141.86659200000003,
+    "Count": 224
+  },
+  {
+    "Source": "order",
+    "Target": "origin",
+    "Weight": 141.783319,
+    "Count": 167
+  },
+  {
+    "Source": "cross",
+    "Target": "order",
+    "Weight": 141.666635,
+    "Count": 175
+  },
+  {
+    "Source": "advanc",
+    "Target": "sourc",
+    "Weight": 141.633288,
+    "Count": 183
+  },
+  {
+    "Source": "bid",
+    "Target": "price",
+    "Weight": 141.33336599999998,
+    "Count": 174
+  },
+  {
+    "Source": "posit",
+    "Target": "tech",
+    "Weight": 140.699941,
+    "Count": 199
+  },
+  {
+    "Source": "asyncio",
+    "Target": "perpetu",
+    "Weight": 140.599926,
+    "Count": 222
+  },
+  {
+    "Source": "configur",
+    "Target": "inject",
+    "Weight": 140.4,
+    "Count": 156
+  },
+  {
+    "Source": "connector",
+    "Target": "kucoin",
+    "Weight": 140.39995,
+    "Count": 184
+  }
+]

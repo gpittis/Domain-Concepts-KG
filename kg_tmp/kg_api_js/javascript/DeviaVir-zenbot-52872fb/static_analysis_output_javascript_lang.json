@@ -1,0 +1,6433 @@
+[
+  [
+    {
+      "file": "boot.js"
+    },
+    {
+      "imports": [
+        "lodash",
+        "path",
+        "minimist",
+        "package",
+        "events",
+        "conf",
+        "conf-sample",
+        "mongodb"
+      ]
+    },
+    {
+      "global_variables": [
+        "_",
+        "path",
+        "minimist",
+        "version",
+        "EventEmitter",
+        "module.exports.debug"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.consume.function.js"
+    },
+    {
+      "imports": [
+        "trades-service"
+      ]
+    },
+    {
+      "global_variables": [
+        "tradesService"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.function.js"
+    },
+    {
+      "imports": [
+        "consume-and-process-service",
+        "backfill",
+        "backfill",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "consumeAndProcessService",
+        "backfillConsumeFunction",
+        "backfillProcessFunction",
+        "backfillUpdateScreenFunction"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.process.function.js"
+    },
+    {
+      "imports": [
+        "collection-service"
+      ]
+    },
+    {
+      "global_variables": [
+        "collectionService"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.update-screen.function.js"
+    },
+    {
+      "imports": [
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "Moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.js"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "crypto",
+        "objectify-selector",
+        "collection-service",
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "tb",
+        "crypto",
+        "objectifySelector",
+        "collectionService",
+        "moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "balance.js"
+    },
+    {
+      "imports": [
+        "minimist",
+        "numbro",
+        "colors",
+        "moment",
+        "exchange-service",
+        "format"
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "n",
+        "colors",
+        "moment",
+        "exchangeService"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "buy.js"
+    },
+    {
+      "imports": [
+        "minimist",
+        "numbro",
+        "colors",
+        "objectify-selector",
+        "engine",
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "n",
+        "colors",
+        "objectifySelector",
+        "engineFactory",
+        "_"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "list-selectors.js"
+    },
+    {
+      "imports": [
+        "colors",
+        "fs"
+      ]
+    },
+    {
+      "global_variables": [
+        "colors",
+        "fs"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "list-strategies.js"
+    },
+    {
+      "imports": [
+        "fs",
+        "colors"
+      ]
+    },
+    {
+      "global_variables": [
+        "fs",
+        "colors"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "new_backfill.js"
+    },
+    {
+      "imports": [
+        "minimist",
+        "timebucket",
+        "exchange-service",
+        "objectify-selector",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "tb",
+        "exchangeService",
+        "objectifySelector",
+        "backfillFunction"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sell.js"
+    },
+    {
+      "imports": [
+        "minimist",
+        "numbro",
+        "colors",
+        "objectify-selector",
+        "engine"
+      ]
+    },
+    {
+      "global_variables": [
+        "minimist",
+        "n",
+        "colors",
+        "objectifySelector",
+        "engineFactory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sim.js"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "minimist",
+        "numbro",
+        "fs",
+        "path",
+        "moment",
+        "colors",
+        "objectify-selector",
+        "engine",
+        "collection-service",
+        "jsonexport",
+        "lodash",
+        "package"
+      ]
+    },
+    {
+      "global_variables": [
+        "tb",
+        "minimist",
+        "n",
+        "fs",
+        "path",
+        "moment",
+        "colors",
+        "objectifySelector",
+        "engineFactory",
+        "collectionService",
+        "jsonexport",
+        "_"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getNext",
+          "params": [],
+          "local_variables": [
+            "opts",
+            "collectionCursor",
+            "totalTrades",
+            "collectionCursorStream",
+            "numTrades",
+            "lastTrade",
+            "onCollectionCursorEnd"
+          ]
+        },
+        {
+          "name": "onCollectionCursorEnd",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trade.js"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "minimist",
+        "numbro",
+        "fs",
+        "path",
+        "child_process",
+        "moment",
+        "crypto",
+        "readline",
+        "colors",
+        "zero-fill",
+        "cliff",
+        "output",
+        "objectify-selector",
+        "engine",
+        "collection-service",
+        "debug",
+        "package",
+        "package"
+      ]
+    },
+    {
+      "global_variables": [
+        "tb",
+        "minimist",
+        "n",
+        "fs",
+        "path",
+        "spawn",
+        "moment",
+        "crypto",
+        "readline",
+        "colors",
+        "z",
+        "cliff",
+        "output",
+        "objectifySelector",
+        "engineFactory",
+        "collectionService",
+        "debug"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "conf-sample.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "c"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "colors",
+        "lodash",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path",
+        "colors",
+        "_"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "colors",
+        "lodash",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path",
+        "colors",
+        "_"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "bitfinex-api-node",
+        "minimist",
+        "path",
+        "numbro",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "BFX",
+        "minimist",
+        "path",
+        "n"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "bitstamp",
+        "path",
+        "ws",
+        "numbro",
+        "lodash",
+        "mongodb",
+        "util",
+        "events",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "Bitstamp",
+        "path",
+        "WebSocket",
+        "n",
+        "_",
+        "args",
+        "restAPIURL",
+        "wsURL",
+        "wsOpts"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "parsePairDataFromArgs",
+          "params": [
+            "argsData"
+          ],
+          "local_variables": [
+            "value",
+            "p",
+            "prod",
+            "pair"
+          ]
+        },
+        {
+          "name": "joinProduct",
+          "params": [
+            "product_id"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "Bitstamp_WS",
+          "params": [
+            "confSelector"
+          ],
+          "local_variables": [
+            "client"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "node-bittrex-api",
+        "node-bittrex-api",
+        "numbro",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "bittrex_authed",
+        "bittrex_public",
+        "n"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "fn",
+          "params": [
+            "data",
+            "err"
+          ],
+          "local_variables": [
+            "returnResult",
+            "order"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "cexio-api-node",
+        "path",
+        "numbro",
+        "minimist",
+        "lodash",
+        "debug",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "CEX",
+        "path",
+        "n",
+        "minimist",
+        "_",
+        "debug"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "coinbase-pro",
+        "minimist",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "Gdax",
+        "minimist"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "test.js"
+    },
+    {
+      "imports": [
+        "coinbase-pro",
+        "conf"
+      ]
+    },
+    {
+      "global_variables": [
+        "Gdax",
+        "c",
+        "client",
+        "order_id"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "gemini-api",
+        "path",
+        "minimist",
+        "colors",
+        "numbro",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "GeminiAPI",
+        "path",
+        "minimist",
+        "colors",
+        "n"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "kraken-api",
+        "minimist",
+        "moment",
+        "numbro",
+        "colors",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "KrakenClient",
+        "minimist",
+        "moment",
+        "n",
+        "colors"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "poloniex",
+        "moment",
+        "numbro",
+        "colors",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "Poloniex",
+        "moment",
+        "n",
+        "colors"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "path",
+        "numbro",
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        "path",
+        "n",
+        "_"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "path",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange.js"
+    },
+    {
+      "imports": [
+        "superagent",
+        "products"
+      ]
+    },
+    {
+      "global_variables": [
+        "superagent"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "_codemap.js"
+    },
+    {
+      "imports": [
+        "exchange"
+      ]
+    },
+    {
+      "global_variables": [
+        "module.exports._ns",
+        "module.exports.exchanges.stub",
+        "module.exports.exchanges.list[]"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "adamant.js"
+    },
+    {
+      "imports": [
+        "adamant-api"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "discord.js"
+    },
+    {
+      "imports": [
+        "request"
+      ]
+    },
+    {
+      "global_variables": [
+        "request"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ifttt.js"
+    },
+    {
+      "imports": [
+        "request"
+      ]
+    },
+    {
+      "global_variables": [
+        "request"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "prowl.js"
+    },
+    {
+      "imports": [
+        "node-prowl"
+      ]
+    },
+    {
+      "global_variables": [
+        "Prowl"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pushbullet.js"
+    },
+    {
+      "imports": [
+        "pushbullet"
+      ]
+    },
+    {
+      "global_variables": [
+        "pusher"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pushover.js"
+    },
+    {
+      "imports": [
+        "request"
+      ]
+    },
+    {
+      "global_variables": [
+        "request"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "slack.js"
+    },
+    {
+      "imports": [
+        "client"
+      ]
+    },
+    {
+      "global_variables": [
+        "IncomingWebhook"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "telegram.js"
+    },
+    {
+      "imports": [
+        "node-telegram-bot-api"
+      ]
+    },
+    {
+      "global_variables": [
+        "TelegramBot"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "wrapper",
+          "params": [
+            "cb"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "textbelt.js"
+    },
+    {
+      "imports": [
+        "request"
+      ]
+    },
+    {
+      "global_variables": [
+        "request"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "xmpp.js"
+    },
+    {
+      "imports": [
+        "simple-xmpp"
+      ]
+    },
+    {
+      "global_variables": [
+        "simplexmpp"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "api.js"
+    },
+    {
+      "imports": [
+        "express",
+        "random-port",
+        "path",
+        "moment",
+        "express-rate-limit",
+        "ip"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [
+            "reporter",
+            "tradeObject"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "objectWithoutKey",
+          "params": [
+            "object",
+            "key"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "startServer",
+          "params": [
+            "port",
+            "ip",
+            "tradeObject"
+          ],
+          "local_variables": [
+            "datas"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "_codemap.js"
+    },
+    {
+      "imports": [
+        "api"
+      ]
+    },
+    {
+      "global_variables": [
+        "module.exports._ns",
+        "module.exports.output.api"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "bollinger",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ema",
+        "srsi",
+        "cci",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ema",
+        "srsi",
+        "cci",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "vwap",
+        "ema",
+        "sma",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "vwap",
+        "ema",
+        "sma",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "trendUp",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "trendDown",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "ema",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "phenotype",
+        "helpers"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "Phenotypes",
+        "tv",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "phenotype",
+        "helpers",
+        "helpers",
+        "helpers",
+        "helpers",
+        "helpers"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "Phenotypes",
+        "crossover",
+        "crossunder",
+        "nz",
+        "iff",
+        "tv",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "phenotype",
+        "helpers",
+        "helpers",
+        "helpers",
+        "helpers"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "Phenotypes",
+        "crossover",
+        "crossunder",
+        "nz",
+        "tv",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "highest",
+        "lowest",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "highest",
+        "lowest",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "phenotype",
+        "helpers",
+        "helpers"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "Phenotypes",
+        "crossover",
+        "crossunder",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "resolve",
+          "params": [
+            "src",
+            "fallback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "donchian",
+          "params": [
+            "s",
+            "len"
+          ],
+          "local_variables": [
+            "data",
+            "lowData",
+            "highData"
+          ]
+        },
+        {
+          "name": "getIntersect",
+          "params": [
+            "s",
+            "key1",
+            "key2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "belowKumo",
+          "params": [
+            "s",
+            "key",
+            "key1",
+            "key2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "aboveKumo",
+          "params": [
+            "s",
+            "key",
+            "key1",
+            "key2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "valueBelowKumo",
+          "params": [
+            "s",
+            "val",
+            "key1",
+            "key2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "valueAboveKumo",
+          "params": [
+            "s",
+            "val",
+            "key1",
+            "key2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "valueAbove",
+          "params": [
+            "val",
+            "target1",
+            "target2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "valueBelow",
+          "params": [
+            "val",
+            "target1",
+            "target2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calcTkCross",
+          "params": [
+            "s",
+            "previousVal"
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "intersect",
+            "above",
+            "below",
+            "inside",
+            "score"
+          ]
+        },
+        {
+          "name": "calcPkCross",
+          "params": [
+            "s",
+            "previousVal"
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "intersect",
+            "above",
+            "below",
+            "inside",
+            "score"
+          ]
+        },
+        {
+          "name": "calcKumoBreakout",
+          "params": [
+            "s",
+            "previousVal"
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "score"
+          ]
+        },
+        {
+          "name": "calcSenkouCross",
+          "params": [
+            "s",
+            "previousVal"
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "score"
+          ]
+        },
+        {
+          "name": "calcChikouCross",
+          "params": [
+            "s",
+            "previousVal"
+          ],
+          "local_variables": [
+            "bullish",
+            "bearish",
+            "score"
+          ]
+        },
+        {
+          "name": "calcPricePlacement",
+          "params": [
+            "s",
+            "previousVal"
+          ],
+          "local_variables": [
+            "score"
+          ]
+        },
+        {
+          "name": "calcChikouPlacement",
+          "params": [
+            "s",
+            "previousVal"
+          ],
+          "local_variables": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "kc",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "kc",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ema",
+        "rsi",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ema",
+        "rsi",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "momentum",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "momentum",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "strategy",
+        "strategy",
+        "strategy",
+        "strategy",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "pivot",
+        "macd",
+        "ehlers_ft",
+        "momentum",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "conf-example.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "c"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "convnetjs",
+        "zero-fill",
+        "numbro",
+        "ema",
+        "phenotype",
+        "cluster"
+      ]
+    },
+    {
+      "global_variables": [
+        "convnetjs",
+        "z",
+        "n",
+        "ema",
+        "Phenotypes",
+        "cluster",
+        "oldmean",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "learn",
+          "params": [],
+          "local_variables": [
+            "j",
+            "i",
+            "data",
+            "real_value",
+            "x",
+            "k"
+          ]
+        },
+        {
+          "name": "predict",
+          "params": [
+            "data"
+          ],
+          "local_variables": [
+            "x",
+            "k",
+            "predicted_value"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "module.exports.name",
+        "module.exports.description"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "module.exports.name",
+        "module.exports.description"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "module.exports.name",
+        "module.exports.description"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "renko_close",
+          "params": [
+            "s",
+            "close",
+            "prclose",
+            "propen"
+          ],
+          "local_variables": [
+            "type"
+          ]
+        },
+        {
+          "name": "renko_open",
+          "params": [
+            "s",
+            "close",
+            "prclose",
+            "propen"
+          ],
+          "local_variables": [
+            "type"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "phenotype",
+        "engine"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "Phenotypes",
+        "Asset_currency",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ema",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "srsi",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "srsi",
+        "ema",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "stats-lite",
+        "mathjs",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "stats",
+        "math",
+        "ema",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ta_ema",
+        "rsi",
+        "stddev",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ta_ema",
+        "rsi",
+        "stddev",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "ta_macd",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "ta_macd",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "ta_macd_ext",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "ta_macd_ext",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "ta_ppo",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "ta_ppo",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ta_stochrsi",
+        "ta_bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ta_srsi",
+        "ta_bollinger",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ta_stoch",
+        "ta_bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ta_stoch",
+        "ta_bollinger",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "ta_trix",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "ta_trix",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "ta_ultosc",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "ultosc",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ti_bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "tulip_bollinger",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "rsi",
+        "ti_hma",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "rsi",
+        "ti_hma",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ti_stoch",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "tulip_stoch",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ti_stoch",
+        "ti_bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ti_stoch",
+        "ti_bollinger",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "mathjs",
+        "trend",
+        "zero-fill",
+        "numbro",
+        "stats-lite",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "math",
+        "trend",
+        "z",
+        "n",
+        "stats",
+        "ema",
+        "Phenotypes",
+        "oldgrowth",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "bollinger",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "bollinger",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "ema",
+        "rsi",
+        "stddev",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "ema",
+        "rsi",
+        "stddev",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "module.exports.name",
+        "module.exports.description"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy.js"
+    },
+    {
+      "imports": [
+        "zero-fill",
+        "numbro",
+        "wto",
+        "ema",
+        "phenotype"
+      ]
+    },
+    {
+      "global_variables": [
+        "z",
+        "n",
+        "wto",
+        "ema",
+        "Phenotypes",
+        "module.exports.name",
+        "module.exports.description",
+        "module.exports.phenotypes"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.getOptions",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.calculate",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onPeriod",
+          "params": [
+            "s",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.onReport",
+          "params": [
+            "s"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "adx.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtester.js"
+    },
+    {
+      "imports": [
+        "lodash",
+        "moment",
+        "yargs",
+        "timebucket",
+        "readline",
+        "zero-fill",
+        "numbro",
+        "shelljs",
+        "strip-ansi",
+        "path",
+        "fs",
+        "round-precision",
+        "phenotype",
+        "child_process"
+      ]
+    },
+    {
+      "global_variables": [
+        "_",
+        "moment",
+        "argv",
+        "tb",
+        "readline",
+        "z",
+        "n",
+        "shell",
+        "StripAnsi",
+        "path",
+        "fs",
+        "roundp",
+        "Phenotypes",
+        "spawn",
+        "simArgs",
+        "simTotalCount",
+        "parallelLimit",
+        "writeFile",
+        "processOutput",
+        "runUpdate",
+        "ensureDirectoryExistence",
+        "monitor"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "processOutput",
+          "params": [
+            "output",
+            "taskStrategyName",
+            "pheno"
+          ],
+          "local_variables": [
+            "selector",
+            "tFileName",
+            "simulationResults",
+            "outputArray",
+            "params",
+            "assetPriceLastBuy",
+            "lastAssestValue",
+            "assetCapital",
+            "profit",
+            "startCapital",
+            "endBalance",
+            "buyHold",
+            "vsBuyHold",
+            "wins",
+            "losses",
+            "errorRate",
+            "days",
+            "start",
+            "end",
+            "jsonBuffer",
+            "roi",
+            "r",
+            "results"
+          ]
+        },
+        {
+          "name": "runUpdate",
+          "params": [
+            "days",
+            "selector"
+          ],
+          "local_variables": [
+            "zenbot_cmd",
+            "command"
+          ]
+        },
+        {
+          "name": "ensureDirectoryExistence",
+          "params": [
+            "filePath"
+          ],
+          "local_variables": [
+            "dirname"
+          ]
+        },
+        {
+          "name": "module.exports.init",
+          "params": [
+            "options"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.deLint",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.writeFileAndFolder",
+          "params": [
+            "filePath",
+            "data"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.ensureBackfill",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.buildCommand",
+          "params": [
+            "taskStrategyName",
+            "phenotype",
+            "filename"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.runCommand",
+          "params": [
+            "taskStrategyName",
+            "phenotype",
+            "command",
+            "cb"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.startMonitor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.stopMonitor",
+          "params": [
+            "label"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.resetMonitor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.reportStatus",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.trackPhenotype",
+          "params": [
+            "phenotype"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bollinger.js"
+    },
+    {
+      "imports": [
+        "bollinger-bands"
+      ]
+    },
+    {
+      "global_variables": [
+        "bollingerbands"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cci.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cmf.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "debug.js"
+    },
+    {
+      "imports": [
+        "boot",
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "boot",
+        "moment",
+        "debug",
+        "module.exports.on",
+        "module.exports.on"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.flip",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.msg",
+          "params": [
+            "str"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ema.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "engine.js"
+    },
+    {
+      "imports": [
+        "timebucket",
+        "moment",
+        "zero-fill",
+        "numbro",
+        "colors",
+        "number-abbreviate",
+        "readline",
+        "path",
+        "lodash",
+        "notify",
+        "rsi",
+        "async",
+        "lolex",
+        "format",
+        "debug"
+      ]
+    },
+    {
+      "global_variables": [
+        "tb",
+        "moment",
+        "z",
+        "n",
+        "colors",
+        "abbreviate",
+        "readline",
+        "path",
+        "_",
+        "notify",
+        "rsi",
+        "async",
+        "lolex",
+        "debug",
+        "clock",
+        "nice_errors"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "cb",
+          "params": [
+            "err",
+            "order"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "format.js"
+    },
+    {
+      "imports": [
+        "numbro"
+      ]
+    },
+    {
+      "global_variables": [
+        "n",
+        "max_fc_width"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.formatAsset",
+          "params": [
+            "amt",
+            "asset"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.formatPercent",
+          "params": [
+            "ratio"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.formatCurrency",
+          "params": [
+            "amt",
+            "currency",
+            "omit_currency",
+            "color_trick",
+            "do_pad"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "heikinAshi.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "helpers.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.crossover",
+          "params": [
+            "s",
+            "key1",
+            "key2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.crossunder",
+          "params": [
+            "s",
+            "key1",
+            "key2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.crossoverVal",
+          "params": [
+            "p1val1",
+            "p1val2",
+            "p2val1",
+            "p2val2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.crossunderVal",
+          "params": [
+            "p1val1",
+            "p1val2",
+            "p2val1",
+            "p2val2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.nz",
+          "params": [
+            "src"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.iff",
+          "params": [
+            "v",
+            "r",
+            "r2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.hl2",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.hlc3",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.ohlc4",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.HAhlc3",
+          "params": [
+            "period",
+            "lookback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.HAohlc4",
+          "params": [
+            "period",
+            "lookback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.src",
+          "params": [
+            "src",
+            "period",
+            "lookback"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.adjust_by_pct",
+          "params": [
+            "pct",
+            "n"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.pivot",
+          "params": [
+            "s",
+            "leftBars",
+            "rightBars"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "highest.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "kc.js"
+    },
+    {
+      "imports": [
+        "keltnerchannel"
+      ]
+    },
+    {
+      "global_variables": [
+        "keltnerchannel"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "lowest.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "lrc.js"
+    },
+    {
+      "imports": [
+        "regression"
+      ]
+    },
+    {
+      "global_variables": [
+        "regression"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "momentum.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "normalize-selector.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "notify.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "objectify-selector.js"
+    },
+    {
+      "imports": [
+        "normalize-selector"
+      ]
+    },
+    {
+      "global_variables": [
+        "normalizeSelector"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "output.js"
+    },
+    {
+      "imports": [
+        "path"
+      ]
+    },
+    {
+      "global_variables": [
+        "path"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "initializeOutput",
+          "params": [
+            "tradeObject"
+          ],
+          "local_variables": [
+            "output"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "phenotype.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "PROPERTY_RANDOM_CHANCE",
+        "PROPERTY_MUTATION_CHANCE",
+        "PROPERTY_CROSSOVER_CHANCE"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "module.exports.create",
+          "params": [
+            "strategy"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.range",
+          "params": [
+            "v",
+            "step",
+            "stepSize"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.mutation",
+          "params": [
+            "oldPhenotype",
+            "strategy"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.crossover",
+          "params": [
+            "phenotypeA",
+            "phenotypeB",
+            "strategy"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.fitness",
+          "params": [
+            "phenotype"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.competition",
+          "params": [
+            "phenotypeA",
+            "phenotypeB"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.Range",
+          "params": [
+            "min",
+            "max"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.Range0",
+          "params": [
+            "min",
+            "max"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.RangeFactor",
+          "params": [
+            "min",
+            "max",
+            "factor"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.RangeFloat",
+          "params": [
+            "min",
+            "max"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.RangePeriod",
+          "params": [
+            "min",
+            "max",
+            "period_length"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.RangeMaType",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "module.exports.ListOption",
+          "params": [
+            "options"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rsi.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "precisionRound"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "precisionRound",
+          "params": [
+            "number",
+            "precision"
+          ],
+          "local_variables": [
+            "factor"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sar.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "collection-service.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "consume-and-process-service.js"
+    },
+    {
+      "imports": [
+        "events",
+        "resume-marker-service",
+        "Queue"
+      ]
+    },
+    {
+      "global_variables": [
+        "events",
+        "resumeMarkersService"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange-service.js"
+    },
+    {
+      "imports": [
+        "objectify-selector",
+        "path"
+      ]
+    },
+    {
+      "global_variables": [
+        "objectifySelector",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "resume-marker-service.js"
+    },
+    {
+      "imports": [
+        "collection-service",
+        "objectify-selector",
+        "crypto"
+      ]
+    },
+    {
+      "global_variables": [
+        "collectionService",
+        "objectifySelector",
+        "crypto"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trades-service.js"
+    },
+    {
+      "imports": [
+        "collection-service",
+        "exchange-service"
+      ]
+    },
+    {
+      "global_variables": [
+        "collectionService",
+        "exchangeService"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "slow_stochastic.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sma.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "srsi.js"
+    },
+    {
+      "imports": [
+        "mathjs",
+        "rsi"
+      ]
+    },
+    {
+      "global_variables": [
+        "mathjs",
+        "rsi"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stddev.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_bollinger.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getMaTypeFromString",
+          "params": [
+            "maType"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_ema.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_macd.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_macd_ext.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getMaTypeFromString",
+          "params": [
+            "maType"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_ppo.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getMaTypeFromString",
+          "params": [
+            "maType"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_stoch.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getMaTypeFromString",
+          "params": [
+            "maType"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_stochrsi.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getMaTypeFromString",
+          "params": [
+            "maType"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_trix.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_ultosc.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_volume.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ta_willr.js"
+    },
+    {
+      "imports": [
+        "talib"
+      ]
+    },
+    {
+      "global_variables": [
+        "talib"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tcf.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ti_bollinger.js"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ti_hma.js"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "ti"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ti_macd.js"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ti_rsi.js"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ti_stoch.js"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ti_stochrsi.js"
+    },
+    {
+      "imports": [
+        "tulind"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vma.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "vwap.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "wto.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ema",
+          "params": [
+            "x",
+            "y",
+            "p"
+          ],
+          "local_variables": [
+            "alpha",
+            "ema"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "Queue.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "post_install.js"
+    },
+    {
+      "imports": [
+        "shelljs"
+      ]
+    },
+    {
+      "global_variables": [
+        "shell"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtester.js"
+    },
+    {
+      "imports": [
+        "phenotype",
+        "backtester",
+        "yargs",
+        "moment",
+        "path",
+        "run-parallel-limit",
+        "colors",
+        "zero-fill",
+        "numbro",
+        "underscore",
+        "json2csv",
+        "os",
+        "json2csv"
+      ]
+    },
+    {
+      "global_variables": [
+        "Phenotypes",
+        "Backtester",
+        "argv",
+        "moment",
+        "path",
+        "parallel",
+        "colors",
+        "z",
+        "n",
+        "_",
+        "json2csv",
+        "PARALLEL_LIMIT",
+        "debug",
+        "population_data",
+        "iterationCount",
+        "timeCount",
+        "writeSimDataFile"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "runAutoBacktester",
+          "params": [],
+          "local_variables": [
+            "strategyName",
+            "strategyData",
+            "strategyPhenotypes",
+            "pData",
+            "unsetKeys",
+            "step_size",
+            "phenotypes",
+            "step_size_1",
+            "step_size_2",
+            "key1",
+            "key2",
+            "p1",
+            "p2",
+            "i",
+            "j",
+            "phenotype",
+            "i",
+            "phenotype",
+            "tasks",
+            "command",
+            "it",
+            "phenotype",
+            "fieldsGeneral",
+            "fieldNamesGeneral",
+            "json2csv",
+            "dataCSV",
+            "csvFileName",
+            "best",
+            "best_string"
+          ]
+        },
+        {
+          "name": "writeSimDataFile",
+          "params": [
+            "iteration",
+            "data"
+          ],
+          "local_variables": [
+            "jsonFileName"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtester_trust_distrust.js"
+    },
+    {
+      "imports": [
+        "shelljs",
+        "run-parallel-limit",
+        "json2csv",
+        "round-precision",
+        "fs",
+        "os"
+      ]
+    },
+    {
+      "global_variables": [
+        "shell",
+        "parallel",
+        "json2csv",
+        "roundp",
+        "fs",
+        "VERSION",
+        "PARALLEL_LIMIT",
+        "SELL_THRESHOLD_MIN",
+        "SELL_THRESHOLD_MAX",
+        "SELL_THRESHOLD_MAX_MIN",
+        "SELL_THRESHOLD_MAX_MAX",
+        "BUY_THRESHOLD_MIN",
+        "BUY_THRESHOLD_MAX",
+        "SELL_MIN_MIN",
+        "SELL_MIN_MAX",
+        "PERIOD_MIN",
+        "PERIOD_MAX",
+        "countArr",
+        "range",
+        "product",
+        "objectProduct",
+        "runCommand",
+        "processOutput",
+        "strategies",
+        "tasks",
+        "args",
+        "simArgs"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "range",
+          "params": [
+            "start",
+            "end"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "product",
+          "params": [
+            "args"
+          ],
+          "local_variables": [
+            "prod",
+            "r"
+          ]
+        },
+        {
+          "name": "objectProduct",
+          "params": [
+            "obj"
+          ],
+          "local_variables": [
+            "keys",
+            "values",
+            "e"
+          ]
+        },
+        {
+          "name": "runCommand",
+          "params": [
+            "strategy",
+            "cb"
+          ],
+          "local_variables": [
+            "command"
+          ]
+        },
+        {
+          "name": "processOutput",
+          "params": [
+            "output"
+          ],
+          "local_variables": [
+            "jsonRegexp",
+            "endBalRegexp",
+            "wlRegexp",
+            "errRegexp",
+            "output2",
+            "rawParams",
+            "params",
+            "endBalance",
+            "wlMatch",
+            "wins",
+            "losses",
+            "errorRate",
+            "days",
+            "roi"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "darwin.js"
+    },
+    {
+      "imports": [
+        "run-parallel-limit",
+        "json2csv",
+        "fs",
+        "geneticalgorithm",
+        "moment",
+        "path",
+        "colors",
+        "phenotype",
+        "backtester",
+        "yargs",
+        "zero-fill",
+        "numbro",
+        "os"
+      ]
+    },
+    {
+      "global_variables": [
+        "parallel",
+        "Json2csvParser",
+        "fs",
+        "GeneticAlgorithmCtor",
+        "moment",
+        "path",
+        "colors",
+        "Phenotypes",
+        "Backtester",
+        "argv",
+        "z",
+        "n",
+        "VERSION",
+        "PARALLEL_LIMIT",
+        "iterationCount",
+        "selectedStrategies",
+        "pools",
+        "simArgs",
+        "populationSize",
+        "generationCount",
+        "runGenerations",
+        "generationProcessing",
+        "population_data",
+        "noStatSave",
+        "ignoreLaunchFitness",
+        "minimumTrades",
+        "fitnessCalcType",
+        "readSimDataFile",
+        "writeSimDataFile",
+        "cycleCount",
+        "generateLaunchFile",
+        "strategyName",
+        "i",
+        "v",
+        "strategyPool",
+        "strategyData",
+        "strategyPhenotypes",
+        "evolve",
+        "population",
+        "i2",
+        "lPheno",
+        "exitHandler"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "readSimDataFile",
+          "params": [
+            "iteration"
+          ],
+          "local_variables": [
+            "jsonFileName",
+            "simData"
+          ]
+        },
+        {
+          "name": "writeSimDataFile",
+          "params": [
+            "iteration",
+            "data"
+          ],
+          "local_variables": [
+            "jsonFileName"
+          ]
+        },
+        {
+          "name": "allStrategyNames",
+          "params": [],
+          "local_variables": [
+            "pathName"
+          ]
+        },
+        {
+          "name": "isUsefulKey",
+          "params": [
+            "key"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "generateCommandParams",
+          "params": [
+            "input"
+          ],
+          "local_variables": [
+            "result",
+            "keys",
+            "i",
+            "key"
+          ]
+        },
+        {
+          "name": "saveGenerationData",
+          "params": [
+            "csvFileName",
+            "jsonFileName",
+            "dataCSV",
+            "dataJSON"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "saveLaunchFiles",
+          "params": [
+            "saveLauchFile",
+            "configuration"
+          ],
+          "local_variables": [
+            "lFilenameNix",
+            "lFinenamewin32",
+            "bestOverallCommand",
+            "lastFitnessLevel",
+            "lFileCont",
+            "lines",
+            "th",
+            "lFileCont",
+            "lines",
+            "th",
+            "lNixContents",
+            "lWin32Contents"
+          ]
+        },
+        {
+          "name": "isUndefined",
+          "params": [
+            "variable"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "simulateGeneration",
+          "params": [
+            "generateLaunchFile"
+          ],
+          "local_variables": [
+            "ofGenerations",
+            "tasks",
+            "command",
+            "simData",
+            "fields",
+            "json2csvParser",
+            "dataCSV",
+            "csvFileName",
+            "poolData",
+            "jsonFileName",
+            "dataJSON",
+            "bestOverallResult",
+            "prefix",
+            "best",
+            "bestCommand"
+          ]
+        },
+        {
+          "name": "exitHandler",
+          "params": [
+            "options",
+            "exitErr"
+          ],
+          "local_variables": [
+            "darwin_args",
+            "hasPopData",
+            "popDataArg"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "custom.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "set",
+          "params": [],
+          "local_variables": [
+            "topOffset",
+            "width",
+            "height"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "jquery.slimscroll.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "engine.test.js"
+    },
+    {
+      "imports": [
+        "events",
+        "mock-require",
+        "path",
+        "engine"
+      ]
+    },
+    {
+      "global_variables": [
+        "EventEmitter",
+        "mock",
+        "path"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "createEngine",
+          "params": [
+            "currency_amount",
+            "buy_pct",
+            "deposit",
+            "order_type",
+            "held_asset",
+            "buy_spy"
+          ],
+          "local_variables": [
+            "fake_asset",
+            "fake_currency",
+            "fake_exchange",
+            "fake_project",
+            "fake_bid",
+            "fake_ask",
+            "fake_balance",
+            "fake_product",
+            "fake_return",
+            "exchange_path",
+            "input",
+            "engine"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "format.test.js"
+    },
+    {
+      "imports": [
+        "format"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rsi.test.js"
+    },
+    {
+      "imports": [
+        "rsi"
+      ]
+    },
+    {
+      "global_variables": [
+        "RSI",
+        "normalData",
+        "noLossData",
+        "noGainData",
+        "noPriceChangeData"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "srsi.test.js"
+    },
+    {
+      "imports": [
+        "srsi"
+      ]
+    },
+    {
+      "global_variables": [
+        "SRSI",
+        "data"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "collectionService.mock.factory.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "consumeAndProcessService.mock.factory.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchangeService.mock.factory.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "resumeMarkerService.mock.factory.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tradeService.mock.factory.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.consume.function.test.js"
+    },
+    {
+      "imports": [
+        "mock-require",
+        "tradeService",
+        "backfill",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "mock",
+        "tradeServiceFactory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.function.test.js"
+    },
+    {
+      "imports": [
+        "mock-require",
+        "consumeAndProcessService",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "mock",
+        "consumeAndProcessServiceFactory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill.process.function.test.js"
+    },
+    {
+      "imports": [
+        "mock-require",
+        "collectionService",
+        "exchangeService",
+        "backfill"
+      ]
+    },
+    {
+      "global_variables": [
+        "mock",
+        "collectionServiceFactory",
+        "exchangeServiceFactory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "collections-service.test.js"
+    },
+    {
+      "imports": [
+        "collection-service"
+      ]
+    },
+    {
+      "global_variables": [
+        "service"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "consume-and-process-service.test.js"
+    },
+    {
+      "imports": [
+        "mock-require",
+        "consume-and-process-service",
+        "resumeMarkerService"
+      ]
+    },
+    {
+      "global_variables": [
+        "mock",
+        "service",
+        "resumeMarkerServiceFactory"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "consumeFunc",
+          "params": [
+            "record",
+            "queue",
+            "cb"
+          ],
+          "local_variables": [
+            "arrayOfRecords",
+            "exitCondition",
+            "rtn"
+          ]
+        },
+        {
+          "name": "processFunc",
+          "params": [
+            "targetTimeInMillis",
+            "queue",
+            "nextTradeIdFunc",
+            "cb"
+          ],
+          "local_variables": [
+            "arrayOfRecords",
+            "exitConditionReached",
+            "lastProcessedIndex"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange-service.test.js"
+    },
+    {
+      "imports": [
+        "exchange-service"
+      ]
+    },
+    {
+      "global_variables": [
+        "service"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "resume-marker-service.test.js"
+    },
+    {
+      "imports": [
+        "mock-require",
+        "resume-marker-service",
+        "collectionService"
+      ]
+    },
+    {
+      "global_variables": [
+        "mock",
+        "service",
+        "collectionServiceFactory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trades-service.test.js"
+    },
+    {
+      "imports": [
+        "mock-require",
+        "trades-service",
+        "exchangeService",
+        "collectionService"
+      ]
+    },
+    {
+      "global_variables": [
+        "mock",
+        "service",
+        "exchangeServiceFactory",
+        "collectionServiceFactory"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "app.js"
+    },
+    {
+      "imports": [
+        "bootstrap",
+        "bootstrap",
+        "jquery",
+        "jquery",
+        "custom",
+        "jquery",
+        "style",
+        "spinners",
+        "animate",
+        "default"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "echarts.js"
+    },
+    {
+      "imports": [
+        "echarts",
+        "line",
+        "bar",
+        "candlestick",
+        "scatter",
+        "tooltip",
+        "dataZoom",
+        "markPoint",
+        "toolbox"
+      ]
+    },
+    {
+      "global_variables": [
+        "echarts"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "webpack.config.js"
+    },
+    {
+      "imports": [
+        "path",
+        "webpack",
+        "mini-css-extract-plugin",
+        "precss",
+        "autoprefixer"
+      ]
+    },
+    {
+      "global_variables": [
+        "path",
+        "webpack",
+        "MiniCssExtractPlugin",
+        "module.exports.entry",
+        "module.exports.optimization",
+        "module.exports.plugins",
+        "module.exports.output",
+        "module.exports.module"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "zenbot.js"
+    },
+    {
+      "imports": [
+        "semver",
+        "path",
+        "commander",
+        "fs",
+        "boot"
+      ]
+    },
+    {
+      "global_variables": [
+        "semver",
+        "path",
+        "program",
+        "versions",
+        "fs",
+        "boot"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

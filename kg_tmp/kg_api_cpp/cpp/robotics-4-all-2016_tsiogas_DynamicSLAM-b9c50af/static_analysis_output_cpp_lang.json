@@ -1,0 +1,2056 @@
+[
+  [
+    {
+      "file": "crsm_dynamicObject.cpp.xml"
+    },
+    {
+      "imports": [
+        "<crsm_slam/crsm_dynamicObject.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CrsmDynamicObject::CrsmDynamicObject",
+          "params": [
+            "first",
+            "_id"
+          ],
+          "local_variables": [
+            "centroid",
+            "id",
+            "timesStill",
+            "dt",
+            "r",
+            "g",
+            "b"
+          ]
+        },
+        {
+          "name": "CrsmDynamicObject::predict",
+          "params": [
+            "currentExecutionTime"
+          ],
+          "local_variables": [
+            "centroid.x",
+            "centroid.y"
+          ]
+        },
+        {
+          "name": "CrsmDynamicObject::update",
+          "params": [
+            "newCentroid"
+          ],
+          "local_variables": [
+            "xVelocity",
+            "yVelocity",
+            "yawAngle",
+            "timesStill",
+            "centroid",
+            "dt"
+          ]
+        },
+        {
+          "name": "CrsmDynamicObject::still",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmDynamicObject::getID",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmDynamicObject::timeUnscanned",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmDynamicObject::getYawAngle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmDynamicObject::getR",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmDynamicObject::getG",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmDynamicObject::getB",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmDynamicObject::getCentroid",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm_laser.cpp.xml"
+    },
+    {
+      "imports": [
+        "<crsm_slam/crsm_laser.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CrsmLaser::CrsmLaser",
+          "params": [],
+          "local_variables": [
+            "initialized"
+          ]
+        },
+        {
+          "name": "CrsmLaser::initialize",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "angle",
+            "count",
+            "angle",
+            "initialized",
+            "info.laserRays",
+            "info.laserMin",
+            "info.laserMax",
+            "info.laserAngle",
+            "info.laserAngleBegin",
+            "info.laserAngleEnd",
+            "scan"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm_map.cpp.xml"
+    },
+    {
+      "imports": [
+        "<crsm_slam/crsm_map.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CrsmMap::CrsmMap",
+          "params": [
+            "size_"
+          ],
+          "local_variables": [
+            "i",
+            "i",
+            "j",
+            "info.width",
+            "info.height",
+            "info.originx",
+            "info.originy",
+            "p",
+            "p[i]",
+            "p[i][j]"
+          ]
+        },
+        {
+          "name": "CrsmMap::expandMap",
+          "params": [
+            "expansion"
+          ],
+          "local_variables": [
+            "newOriginx",
+            "newOriginy",
+            "newWidth",
+            "newHeight",
+            "newMap",
+            "i",
+            "i",
+            "j",
+            "i",
+            "j",
+            "i",
+            "newMap",
+            "newMap[i]",
+            "newMap[i][j]",
+            "newMap[i + expansion.expansions[LEFT]][j + expansion.expansions[UP]]",
+            "p",
+            "info.width",
+            "info.height",
+            "info.originx",
+            "info.originy"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm_slam.cpp.xml"
+    },
+    {
+      "imports": [
+        "<crsm_slam/crsm_slam.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "CrsmSlam::CrsmSlam",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "robotPose.x",
+            "robotPose.y",
+            "robotPose.theta",
+            "bestTransformation.dx",
+            "bestTransformation.dy",
+            "bestTransformation.dth",
+            "staticMap",
+            "dynamicMap",
+            "_posePublisher"
+          ]
+        },
+        {
+          "name": "CrsmSlam::updateParameters",
+          "params": [],
+          "local_variables": [
+            "slamParams.occupancy_grid_publish_topic",
+            "slamParams.markers_publish_topic",
+            "slamParams.robot_trajectory_publish_topic",
+            "slamParams.trajectory_publisher_frame_id",
+            "slamParams.laser_subscriber_topic",
+            "slamParams.pose_publish_topic",
+            "slamParams.publish_tf",
+            "slamParams.base_footprint_frame",
+            "slamParams.base_frame",
+            "slamParams.map_frame",
+            "slamParams.disparity",
+            "slamParams.map_size",
+            "slamParams.ocgd",
+            "slamParams.density",
+            "slamParams.obstacle_density",
+            "slamParams.scan_selection_meters",
+            "slamParams.max_hill_climbing_iterations",
+            "slamParams.desired_number_of_picked_rays",
+            "slamParams.occupancy_grid_map_freq",
+            "slamParams.robot_pose_tf_freq",
+            "slamParams.trajectory_freq",
+            "slamParams.robot_width",
+            "slamParams.robot_length"
+          ]
+        },
+        {
+          "name": "CrsmSlam::fixNewScans",
+          "params": [
+            "msg"
+          ],
+          "local_variables": [
+            "tfTransform",
+            "origin",
+            "ex",
+            "i",
+            "it",
+            "counter",
+            "slamParams.dx_laser_robotCenter",
+            "slamParams.dx_laser_robotCenter",
+            "laser.scan.distance[i]",
+            "laser.scan.distance[i]",
+            "laser.scan.p[i]",
+            "laser.scan.p[i]",
+            "laser.scan.p[i]",
+            "robotPose.x",
+            "robotPose.y",
+            "robotPose.theta"
+          ]
+        },
+        {
+          "name": "CrsmSlam::calculateCriticalRays",
+          "params": [],
+          "local_variables": [
+            "maxRay",
+            "i",
+            "i",
+            "counterLaserRays",
+            "a",
+            "b",
+            "i",
+            "parameter",
+            "start",
+            "end",
+            "count",
+            "it",
+            "sumDensity",
+            "i",
+            "step",
+            "localPos",
+            "i",
+            "isFinished",
+            "tete",
+            "it",
+            "i",
+            "meanDensity",
+            "maxRay",
+            "laser.scan.density[i]",
+            "maxRay",
+            "a",
+            "b",
+            "scanSelections",
+            "start",
+            "end",
+            "localPos",
+            "isFinished",
+            "isFinished"
+          ]
+        },
+        {
+          "name": "CrsmSlam::findTransformation",
+          "params": [],
+          "local_variables": [
+            "tempx",
+            "tempy",
+            "sinth",
+            "costh",
+            "tttx",
+            "ttty",
+            "temp",
+            "trier",
+            "counter",
+            "tempFitness",
+            "j",
+            "bestFitness",
+            "bestTransformation.dx",
+            "bestTransformation.dy",
+            "bestTransformation.dth",
+            "trier.fitness",
+            "trier.t.dx",
+            "trier.t.dy",
+            "trier.t.dth",
+            "temp.dx",
+            "temp.dy",
+            "temp.dth",
+            "trier.fitness",
+            "tempx",
+            "tempy",
+            "sinth",
+            "costh",
+            "tttx",
+            "ttty",
+            "trier.fitness",
+            "bestFitness",
+            "bestTransformation",
+            "trier.t.dx",
+            "trier.t.dy",
+            "trier.t.dth"
+          ]
+        },
+        {
+          "name": "CrsmSlam::updateMapProbabilities",
+          "params": [],
+          "local_variables": [
+            "i",
+            "xPoint",
+            "yPoint",
+            "R",
+            "dynamicPoint",
+            "measid",
+            "dMeasure",
+            "xPoint",
+            "yPoint",
+            "br",
+            "Point",
+            "centroidsScanned",
+            "pastTime",
+            "presentTime",
+            "expansion.expansions[RIGHT]",
+            "expansion.expansions[LEFT]",
+            "expansion.expansions[UP]",
+            "expansion.expansions[DOWN]",
+            "dynamicMap.p[xPoint][yPoint]",
+            "dynamicMap.p[xPoint][yPoint]",
+            "R",
+            "k",
+            "centroidsScanned",
+            "pastTime"
+          ]
+        },
+        {
+          "name": "CrsmSlam::closeToStatic",
+          "params": [
+            "Point"
+          ],
+          "local_variables": [
+            "span",
+            "i",
+            "j"
+          ]
+        },
+        {
+          "name": "CrsmSlam::drawFreeSpace",
+          "params": [
+            "Point"
+          ],
+          "local_variables": [
+            "span",
+            "i",
+            "j",
+            "staticMap.p[ Point.x + i ][ Point.y + j ]"
+          ]
+        },
+        {
+          "name": "CrsmSlam::Distance",
+          "params": [
+            "Point1",
+            "Point2"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::findCentroids",
+          "params": [
+            "dynamicPoint"
+          ],
+          "local_variables": [
+            "emptyCluster",
+            "distanceFromCentroid",
+            "cluster",
+            "currentCentroids",
+            "previousCentroids",
+            "i",
+            "sumX",
+            "sumY",
+            "it",
+            "clusterIndex",
+            "i",
+            "j",
+            "indexOfMin",
+            "emptyCluster",
+            "distanceFromCentroid[j]",
+            "emptyCluster",
+            "previousCentroids",
+            "k"
+          ]
+        },
+        {
+          "name": "CrsmSlam::centroidsTooClose",
+          "params": [
+            "currentCentroids"
+          ],
+          "local_variables": [
+            "it1",
+            "it2"
+          ]
+        },
+        {
+          "name": "CrsmSlam::pointTooFar",
+          "params": [
+            "currentCentroids",
+            "cluster"
+          ],
+          "local_variables": [
+            "i",
+            "it"
+          ]
+        },
+        {
+          "name": "CrsmSlam::updateObjects",
+          "params": [
+            "centroidsScanned",
+            "currentExecutionTime"
+          ],
+          "local_variables": [
+            "it",
+            "best",
+            "minDistance",
+            "it2",
+            "distance",
+            "it",
+            "it",
+            "minDistance",
+            "best"
+          ]
+        },
+        {
+          "name": "CrsmSlam::startMarkersPublisher",
+          "params": [],
+          "local_variables": [
+            "_markersPublisher"
+          ]
+        },
+        {
+          "name": "CrsmSlam::publishMarkers",
+          "params": [],
+          "local_variables": [
+            "markerArray",
+            "it",
+            "marker",
+            "i",
+            "marker",
+            "marker.ns",
+            "marker.id",
+            "marker.action",
+            "marker.header.frame_id",
+            "marker.header.stamp",
+            "marker.ns",
+            "marker.id",
+            "marker.pose.position.x",
+            "marker.pose.position.y",
+            "marker.pose.position.z",
+            "marker.pose.orientation.x",
+            "marker.pose.orientation.y",
+            "marker.pose.orientation.z",
+            "marker.pose.orientation.w",
+            "marker.type",
+            "marker.scale.x",
+            "marker.scale.y",
+            "marker.scale.z",
+            "marker.type",
+            "marker.scale.x",
+            "marker.scale.y",
+            "marker.scale.z",
+            "marker.action",
+            "marker.color.r",
+            "marker.color.g",
+            "marker.color.b",
+            "marker.color.a"
+          ]
+        },
+        {
+          "name": "CrsmSlam::checkExpansion",
+          "params": [
+            "x",
+            "y",
+            "update"
+          ],
+          "local_variables": [
+            "extra_pix",
+            "plus_pix",
+            "changed",
+            "expansion.expansions[LEFT]",
+            "changed",
+            "expansion.expansions[RIGHT]",
+            "changed",
+            "expansion.expansions[UP]",
+            "changed",
+            "expansion.expansions[DOWN]",
+            "changed"
+          ]
+        },
+        {
+          "name": "CrsmSlam::expandMap",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::startLaserSubscriber",
+          "params": [],
+          "local_variables": [
+            "clientLaserValues"
+          ]
+        },
+        {
+          "name": "CrsmSlam::stopLaserSubscriber",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::startOGMPublisher",
+          "params": [],
+          "local_variables": [
+            "_occupancyGridPublisher"
+          ]
+        },
+        {
+          "name": "CrsmSlam::stopOGMPublisher",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::publishOGM",
+          "params": [
+            "timestamp"
+          ],
+          "local_variables": [
+            "width",
+            "height",
+            "grid",
+            "i",
+            "j",
+            "grid.header.stamp",
+            "grid.header.frame_id",
+            "grid.info.resolution",
+            "grid.info.width",
+            "grid.info.height",
+            "grid.info.origin.position.x",
+            "grid.info.origin.position.y",
+            "grid.info.origin.orientation.w",
+            "grid.data[j * width + i]",
+            "grid.data[j * width + i]"
+          ]
+        },
+        {
+          "name": "CrsmSlam::getMapProbability",
+          "params": [
+            "x",
+            "y"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getMapInfo",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getRobotPose",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getLaserInfo",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getTrajectory",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::publishRobotPoseTf",
+          "params": [
+            "timestamp"
+          ],
+          "local_variables": [
+            "rx",
+            "ry",
+            "rth",
+            "translation",
+            "rotation",
+            "transform",
+            "poseOut",
+            "pathPoint",
+            "q",
+            "gq",
+            "poseOut.header.stamp",
+            "poseOut.header.frame_id",
+            "poseOut.pose.pose.position.x",
+            "poseOut.pose.pose.position.y",
+            "pathPoint.header.stamp",
+            "pathPoint.pose.position.x",
+            "pathPoint.pose.position.y",
+            "pathPoint.pose.orientation"
+          ]
+        },
+        {
+          "name": "CrsmSlam::startTrajectoryPublisher",
+          "params": [],
+          "local_variables": [
+            "_pathPublisher"
+          ]
+        },
+        {
+          "name": "CrsmSlam::stopTrajectoryPublisher",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::publishTrajectory",
+          "params": [
+            "timestamp"
+          ],
+          "local_variables": [
+            "trajectory.header.stamp",
+            "trajectory.header.frame_id"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setDisparity",
+          "params": [
+            "disparity"
+          ],
+          "local_variables": [
+            "slamParams.disparity"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setInitialMapSize",
+          "params": [
+            "size"
+          ],
+          "local_variables": [
+            "slamParams.map_size"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setOcgd",
+          "params": [
+            "ocgd"
+          ],
+          "local_variables": [
+            "slamParams.ocgd"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setDensity",
+          "params": [
+            "density"
+          ],
+          "local_variables": [
+            "slamParams.density"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setObstacleDensity",
+          "params": [
+            "ob_density"
+          ],
+          "local_variables": [
+            "slamParams.obstacle_density"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setScanSelectionMeters",
+          "params": [
+            "scan_selection_meters"
+          ],
+          "local_variables": [
+            "slamParams.scan_selection_meters"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setMaxHillClimbingIterations",
+          "params": [
+            "iterations"
+          ],
+          "local_variables": [
+            "slamParams.max_hill_climbing_iterations"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setDxLaserRobotCenter",
+          "params": [
+            "dx"
+          ],
+          "local_variables": [
+            "slamParams.dx_laser_robotCenter"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setOccupancyGridMapFreq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": [
+            "slamParams.occupancy_grid_map_freq"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setRobotPoseTfFreq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": [
+            "slamParams.robot_pose_tf_freq"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setTrajectoryFreq",
+          "params": [
+            "freq"
+          ],
+          "local_variables": [
+            "slamParams.trajectory_freq"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setDesiredNumberOfPickedRays",
+          "params": [
+            "rays"
+          ],
+          "local_variables": [
+            "slamParams.desired_number_of_picked_rays"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setRobotWidth",
+          "params": [
+            "width"
+          ],
+          "local_variables": [
+            "slamParams.robot_width"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setRobotLength",
+          "params": [
+            "length"
+          ],
+          "local_variables": [
+            "slamParams.robot_length"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setOccupancyGridPublishTopic",
+          "params": [
+            "topic"
+          ],
+          "local_variables": [
+            "slamParams.occupancy_grid_publish_topic"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setRobotTrajectoryPublishTopic",
+          "params": [
+            "topic"
+          ],
+          "local_variables": [
+            "slamParams.robot_trajectory_publish_topic"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setTrajectoryPublisherFrameId",
+          "params": [
+            "frame_id"
+          ],
+          "local_variables": [
+            "slamParams.trajectory_publisher_frame_id"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setLaserSubscriberTopic",
+          "params": [
+            "topic"
+          ],
+          "local_variables": [
+            "slamParams.laser_subscriber_topic"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setBaseFootprintFrame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slamParams.base_footprint_frame"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setBaseFrame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slamParams.base_frame"
+          ]
+        },
+        {
+          "name": "CrsmSlam::setMapFrame",
+          "params": [
+            "frame"
+          ],
+          "local_variables": [
+            "slamParams.map_frame"
+          ]
+        },
+        {
+          "name": "CrsmSlam::getDisparity",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getInitialMapSize",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getOcgd",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getDensity",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getObstacleDensity",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getScanSelectionMeters",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getMaxHillClimbingIterations",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getDxLaserRobotCenter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getOccupancyGridMapFreq",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getRobotPoseTfFreq",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getTrajectoryFreq",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getDesiredNumberOfPickedRays",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getRobotWidth",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getRobotLength",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getOccupancyGridPublishTopic",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getRobotTrajectoryPublishTopic",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getTrajectoryPublisherFrameId",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getLaserSubscriberTopic",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getBaseFootprintFrame",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getBaseFrame",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "CrsmSlam::getMapFrame",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm_slam_node.cpp.xml"
+    },
+    {
+      "imports": [
+        "<crsm_slam/crsm_slam.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "argc",
+            "argv"
+          ],
+          "local_variables": [
+            "slam"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "crsm_dynamicObject.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<crsm_slam/crsm_point.h>",
+        "<queue>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmDynamicObject",
+          "attributes": [
+            "id",
+            "timesStill",
+            "dt",
+            "dxSum",
+            "dySum",
+            "xVelocity",
+            "yVelocity",
+            "yawAngle",
+            "r",
+            "g",
+            "b",
+            "centroid",
+            "lastCentroid",
+            "dx",
+            "dy"
+          ],
+          "methods": [
+            {
+              "name": "CrsmDynamicObject",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "CrsmDynamicObject",
+              "params": [
+                "first",
+                "_id"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "predict",
+              "params": [
+                "executionTime"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "update",
+              "params": [
+                "newCentroid"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "still",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getID",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "timeUnscanned",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getYawAngle",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getR",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getG",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getB",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getCentroid",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_hillClimbing.h.xml"
+    },
+    {
+      "imports": [
+        "<crsm_slam/crsm_transformation.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmHillClimbingPerson",
+          "attributes": [
+            "t",
+            "fitness"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_laser.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<sensor_msgs/LaserScan.h>",
+        "<crsm_slam/crsm_laserInfo.h>",
+        "<crsm_slam/crsm_laserScan.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmLaser",
+          "attributes": [
+            "initialized",
+            "info",
+            "scan",
+            "angles"
+          ],
+          "methods": [
+            {
+              "name": "CrsmLaser",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initialize",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_laserInfo.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmLaserInfo",
+          "attributes": [
+            "laserRays",
+            "laserMin",
+            "laserMax",
+            "laserAngle",
+            "laserAngleBegin",
+            "laserAngleEnd"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_laserScan.h.xml"
+    },
+    {
+      "imports": [
+        "<crsm_slam/crsm_point.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmLaserScan",
+          "attributes": [
+            "distance",
+            "density",
+            "p"
+          ],
+          "methods": [
+            {
+              "name": "CrsmLaserScan",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "CrsmLaserScan",
+              "params": [
+                "nRays"
+              ],
+              "local_variables": [
+                "distance",
+                "density",
+                "p"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_map.h.xml"
+    },
+    {
+      "imports": [
+        "<map>",
+        "<iostream>",
+        "<crsm_slam/crsm_mapInfo.h>"
+      ]
+    },
+    {
+      "global_variables": [
+        "RIGHT",
+        "LEFT",
+        "UP",
+        "DOWN"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmExpansion",
+          "attributes": [
+            "expansions"
+          ],
+          "methods": []
+        },
+        {
+          "name": "CrsmMap",
+          "attributes": [
+            "p",
+            "info"
+          ],
+          "methods": [
+            {
+              "name": "CrsmMap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "CrsmMap",
+              "params": [
+                "size_"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "expandMap",
+              "params": [
+                "exp"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_mapInfo.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmMapInfo",
+          "attributes": [
+            "width",
+            "height",
+            "originx",
+            "originy"
+          ],
+          "methods": [
+            {
+              "name": "CrsmMapInfo",
+              "params": [],
+              "local_variables": [
+                "width",
+                "originx"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_point.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmPoint",
+          "attributes": [
+            "x",
+            "y",
+            "theta"
+          ],
+          "methods": [
+            {
+              "name": "CrsmPoint",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "CrsmPoint",
+              "params": [
+                "_x",
+                "_y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "operator ==",
+              "params": [
+                "point"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_pose.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmPose",
+          "attributes": [
+            "x",
+            "y",
+            "theta"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_slam.h.xml"
+    },
+    {
+      "imports": [
+        "<ros/ros.h>",
+        "<tf/transform_broadcaster.h>",
+        "<tf/transform_listener.h>",
+        "<geometry_msgs/PoseWithCovarianceStamped.h>",
+        "<geometry_msgs/Quaternion.h>",
+        "<nav_msgs/OccupancyGrid.h>",
+        "<nav_msgs/Path.h>",
+        "<visualization_msgs/MarkerArray.h>",
+        "<crsm_slam/crsm_laser.h>",
+        "<crsm_slam/crsm_hillClimbing.h>",
+        "<crsm_slam/crsm_pose.h>",
+        "<crsm_slam/crsm_map.h>",
+        "<crsm_slam/crsm_slamParameters.h>",
+        "<crsm_slam/crsm_dynamicObject.h>"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmSlam",
+          "attributes": [
+            "clientLaserValues",
+            "_occupancyGridPublisher",
+            "_markersPublisher",
+            "_pathPublisher",
+            "_posePublisher",
+            "_slamFrameBroadcaster",
+            "_listener",
+            "expansion",
+            "staticMap",
+            "dynamicMap",
+            "laser",
+            "argc",
+            "argv",
+            "bestFitness",
+            "meanDensity",
+            "bestTransformation",
+            "robotPose",
+            "slamParams",
+            "robotTrajectory",
+            "scanSelections",
+            "bigChanges",
+            "trajectory",
+            "k",
+            "id",
+            "ObjectArea",
+            "dynamicObject",
+            "deleted",
+            "n"
+          ],
+          "methods": [
+            {
+              "name": "updateParameters",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "expandMap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "checkExpansion",
+              "params": [
+                "x",
+                "y",
+                "update"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "CrsmSlam",
+              "params": [
+                "argc",
+                "argv"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "~CrsmSlam",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "fixNewScans",
+              "params": [
+                "msg"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculateCriticalRays",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "findTransformation",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "updateMapProbabilities",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "drawFreeSpace",
+              "params": [
+                "Point"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "closeToStatic",
+              "params": [
+                "Point"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "Distance",
+              "params": [
+                "Point1",
+                "Point2"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "findCentroids",
+              "params": [
+                "dynamicPoint"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "centroidsTooClose",
+              "params": [
+                "currentCentroids"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "pointTooFar",
+              "params": [
+                "currentCentroids",
+                "cluster"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "updateObjects",
+              "params": [
+                "centroidsScanned",
+                "currentExecutionTime"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "startMarkersPublisher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publishMarkers",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "startLaserSubscriber",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "stopLaserSubscriber",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "startOGMPublisher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "stopOGMPublisher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publishOGM",
+              "params": [
+                "timestamp"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "publishRobotPoseTf",
+              "params": [
+                "timestamp"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "startTrajectoryPublisher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "stopTrajectoryPublisher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publishTrajectory",
+              "params": [
+                "timestamp"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getMapInfo",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMapProbability",
+              "params": [
+                "x",
+                "y"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getRobotPose",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getLaserInfo",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getTrajectory",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "setDisparity",
+              "params": [
+                "disparity"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setInitialMapSize",
+              "params": [
+                "size"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setOcgd",
+              "params": [
+                "ocgd"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setDensity",
+              "params": [
+                "density"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setObstacleDensity",
+              "params": [
+                "ob_density"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setScanSelectionMeters",
+              "params": [
+                "scan_selection_meters"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMaxHillClimbingIterations",
+              "params": [
+                "iterations"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setDxLaserRobotCenter",
+              "params": [
+                "dx"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setOccupancyGridMapFreq",
+              "params": [
+                "freq"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setRobotPoseTfFreq",
+              "params": [
+                "freq"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setTrajectoryFreq",
+              "params": [
+                "freq"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setDesiredNumberOfPickedRays",
+              "params": [
+                "rays"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setRobotWidth",
+              "params": [
+                "width"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setRobotLength",
+              "params": [
+                "length"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setOccupancyGridPublishTopic",
+              "params": [
+                "topic"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setRobotTrajectoryPublishTopic",
+              "params": [
+                "topic"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setTrajectoryPublisherFrameId",
+              "params": [
+                "frame_id"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setLaserSubscriberTopic",
+              "params": [
+                "topic"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setBaseFootprintFrame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setBaseFrame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "setMapFrame",
+              "params": [
+                "frame"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "getDisparity",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getInitialMapSize",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getOcgd",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getDensity",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getObstacleDensity",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getScanSelectionMeters",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMaxHillClimbingIterations",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getDxLaserRobotCenter",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getOccupancyGridMapFreq",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getRobotPoseTfFreq",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getTrajectoryFreq",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getDesiredNumberOfPickedRays",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getRobotWidth",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getRobotLength",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getOccupancyGridPublishTopic",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getRobotTrajectoryPublishTopic",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getTrajectoryPublisherFrameId",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getLaserSubscriberTopic",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getBaseFootprintFrame",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getBaseFrame",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "getMapFrame",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_slamParameters.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmSlamParameters",
+          "attributes": [
+            "disparity",
+            "map_size",
+            "ocgd",
+            "density",
+            "obstacle_density",
+            "scan_selection_meters",
+            "max_hill_climbing_iterations",
+            "dx_laser_robotCenter",
+            "occupancy_grid_map_freq",
+            "robot_pose_tf_freq",
+            "trajectory_freq",
+            "desired_number_of_picked_rays",
+            "robot_width",
+            "robot_length",
+            "occupancy_grid_publish_topic",
+            "markers_publish_topic",
+            "robot_trajectory_publish_topic",
+            "trajectory_publisher_frame_id",
+            "laser_subscriber_topic",
+            "pose_publish_topic",
+            "publish_tf",
+            "base_footprint_frame",
+            "base_frame",
+            "map_frame"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "crsm_transformation.h.xml"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "CrsmTransformation",
+          "attributes": [
+            "dx",
+            "dy",
+            "dth"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ]
+]

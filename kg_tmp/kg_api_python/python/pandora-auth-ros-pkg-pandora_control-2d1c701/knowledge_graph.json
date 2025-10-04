@@ -1,0 +1,4968 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "action",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "actionlib",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "actual",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "actuat",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alpha",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ang",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "angl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "angular",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "author",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bind",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "catkin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "center",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "clip",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmd",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "command",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "control",
+      "count": 27
+    },
+    {
+      "type": "CONCEPT",
+      "name": "core",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cost",
+      "count": 22
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "decid",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diff",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "discret",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distanc",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distutil",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "durat",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "eef",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "effector",
+      "count": 46
+    },
+    {
+      "type": "CONCEPT",
+      "name": "effectorcontrol",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "email",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "environ",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "epsilon",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "event",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expect",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "factori",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "filenam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "final",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "flow",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fuse",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fusion",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gamma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "generat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "geometri",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "goal",
+      "count": 22
+    },
+    {
+      "type": "CONCEPT",
+      "name": "granular",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "graph",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hausdorff",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "head",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "imu",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "initi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "involv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "joy",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "joyop",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "keyop",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kinect",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kinodynam",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lac",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "launch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lesser",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "licens",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lin",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "linear",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loginfo",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "logwarn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "maintain",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "maker",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mode",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "motion",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "motor",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "movement",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "navig",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "normal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "numpi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "observ",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "orient",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pandora",
+      "count": 28
+    },
+    {
+      "type": "CONCEPT",
+      "name": "perform",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "picam",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pitch",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "planner",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pose",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "posit",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "post",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "preempt",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prefer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pub",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "publish",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pybrain",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "random",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "recal",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "repli",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reward",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roll",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ros",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roslib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rospi",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rostest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rpi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scale",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scipi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "script",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sensor",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simpl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "smach",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stabil",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "std",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strategi",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subprocess",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subscrib",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "succeed",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "success",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sys",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "task",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "termio",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tester",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "threshold",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timeout",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "topic",
+      "count": 38
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trajectori",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transact",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "translat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tti",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "twist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unifi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unittest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "userdata",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vel",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "veloc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "visual",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "weight",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "xtion",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "yaw",
+      "count": 6
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "actionlib",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "actuat",
+      "final_weight": 5.249998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "command",
+      "final_weight": 2.799999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "control",
+      "final_weight": 12.166663,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "decid",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "effector",
+      "final_weight": 13.399995,
+      "count": 18
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "flow",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "goal",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "head",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "kinect",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "linear",
+      "final_weight": 5.249998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "loginfo",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "logwarn",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "map",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "navig",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "orient",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "pandora",
+      "final_weight": 12.83333,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "perform",
+      "final_weight": 3.016667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "planner",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "prefer",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "ros",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "rospi",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "script",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "sensor",
+      "final_weight": 4.616665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "simpl",
+      "final_weight": 3.233333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "smach",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "subscrib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "task",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "timeout",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "topic",
+      "final_weight": 5.849997,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "transform",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "actuat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "eef",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "effector",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "goal",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "head",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "kinect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "linear",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "planner",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "script",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "simpl",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "cost",
+      "final_weight": 4.266666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "goal",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "navig",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "pose",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actual",
+      "to": "trajectori",
+      "final_weight": 7.783333,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "command",
+      "final_weight": 3.316665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "control",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "effector",
+      "final_weight": 10.549997,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "factori",
+      "final_weight": 2.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "flow",
+      "final_weight": 3.816665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "goal",
+      "final_weight": 4.416666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "involv",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "linear",
+      "final_weight": 20.866666,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "map",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "movement",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "pandora",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "preempt",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "pub",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "recal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "script",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "succeed",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actuat",
+      "to": "topic",
+      "final_weight": 6.733333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ang",
+      "to": "angular",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ang",
+      "to": "joyop",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ang",
+      "to": "keyop",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ang",
+      "to": "motor",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ang",
+      "to": "scale",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ang",
+      "to": "vel",
+      "final_weight": 5.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "cost",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "diff",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "joyop",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angular",
+      "to": "vel",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "cost",
+      "final_weight": 2.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "effector",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "fuse",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "fusion",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "goal",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "navig",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "planner",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "task",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "author",
+      "to": "trajectori",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bind",
+      "to": "control",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bind",
+      "to": "keyop",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "catkin",
+      "to": "distutil",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "catkin",
+      "to": "generat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "effector",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "goal",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "planner",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clip",
+      "to": "joyop",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clip",
+      "to": "keyop",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clip",
+      "to": "numpi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "command",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "joyop",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "keyop",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "motor",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "navig",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "node",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "pandora",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "pitch",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "roll",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "stabil",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "tester",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "topic",
+      "final_weight": 5.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "vel",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "veloc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "control",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "durat",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "effector",
+      "final_weight": 5.366664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "goal",
+      "final_weight": 3.383332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "head",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "linear",
+      "final_weight": 3.316665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "maker",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "map",
+      "final_weight": 3.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "navig",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "orient",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "pandora",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "planner",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "sensor",
+      "final_weight": 3.316665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "task",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "timeout",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "translat",
+      "final_weight": 3.35,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "vel",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "veloc",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "cost",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "distanc",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "effector",
+      "final_weight": 32.733327,
+      "count": 35
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "factori",
+      "final_weight": 3.833332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "flow",
+      "final_weight": 6.33333,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "goal",
+      "final_weight": 6.466666,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "hausdorff",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "head",
+      "final_weight": 3.866666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "keyop",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "kinect",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "kinodynam",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "linear",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "maker",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "map",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "motion",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "navig",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "node",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "orient",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "pandora",
+      "final_weight": 27.3,
+      "count": 21
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "reward",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "script",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "sensor",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "task",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "topic",
+      "final_weight": 8.55,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "trajectori",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "distutil",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "diff",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "distanc",
+      "final_weight": 2.5,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "email",
+      "final_weight": 2.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "expect",
+      "final_weight": 2.466666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "fuse",
+      "final_weight": 12.449999,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "fusion",
+      "final_weight": 3.733332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "geometri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "goal",
+      "final_weight": 9.083332,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "graph",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "hausdorff",
+      "final_weight": 1.25,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "kinodynam",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "lesser",
+      "final_weight": 3.083333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "licens",
+      "final_weight": 2.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "maintain",
+      "final_weight": 2.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "node",
+      "final_weight": 26.399996,
+      "count": 28
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "pandora",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "pose",
+      "final_weight": 4.899999,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "strategi",
+      "final_weight": 3.733332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "threshold",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "trajectori",
+      "final_weight": 12.449998,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "unifi",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "weight",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "effector",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "goal",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "decid",
+      "to": "goal",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "distanc",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "discret",
+      "to": "navig",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "discret",
+      "to": "sensor",
+      "final_weight": 2.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "discret",
+      "to": "task",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "goal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "hausdorff",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "kinodynam",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "pandora",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "trajectori",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distutil",
+      "to": "generat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "navig",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "trajectori",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eef",
+      "to": "goal",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eef",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eef",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eef",
+      "to": "script",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eef",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "email",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "factori",
+      "final_weight": 9.683329,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "flow",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "goal",
+      "final_weight": 20.566663,
+      "count": 23
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "head",
+      "final_weight": 8.016665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "initi",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "involv",
+      "final_weight": 1.583333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "kinect",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "licens",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "linear",
+      "final_weight": 10.549997,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "maintain",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "maker",
+      "final_weight": 6.533332,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "map",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "node",
+      "final_weight": 1.733333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "orient",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "pandora",
+      "final_weight": 32.833327,
+      "count": 35
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "planner",
+      "final_weight": 23.433329,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "preempt",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "publish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "recal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "repli",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "roslib",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "rospi",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "sensor",
+      "final_weight": 7.983331,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "simpl",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "succeed",
+      "final_weight": 3.083333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "topic",
+      "final_weight": 19.883328,
+      "count": 24
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "translat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "effector",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "fuse",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "fusion",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "goal",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "navig",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "planner",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "task",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "email",
+      "to": "trajectori",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "environ",
+      "to": "navig",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "environ",
+      "to": "pybrain",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "environ",
+      "to": "task",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "joy",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "launch",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "node",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "pub",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "goal",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "navig",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "pose",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "trajectori",
+      "final_weight": 5.483333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "head",
+      "final_weight": 2.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "linear",
+      "final_weight": 2.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "pandora",
+      "final_weight": 3.833332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "sensor",
+      "final_weight": 2.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "final",
+      "to": "keyop",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "final",
+      "to": "motor",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "goal",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "head",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "kinect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "linear",
+      "final_weight": 3.816665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "orient",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "pandora",
+      "final_weight": 5.699997,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "sensor",
+      "final_weight": 3.183332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flow",
+      "to": "topic",
+      "final_weight": 5.066664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "fusion",
+      "final_weight": 3.849999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "lesser",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "licens",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "maintain",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "node",
+      "final_weight": 8.449999,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "strategi",
+      "final_weight": 3.849999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "unifi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "licens",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "maintain",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "node",
+      "final_weight": 4.633332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "strategi",
+      "final_weight": 9.7,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "weight",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "goal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "joyop",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "keyop",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "navig",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "pose",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "task",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "twist",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "graph",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "head",
+      "final_weight": 3.749999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "initi",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "involv",
+      "final_weight": 2.466666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "kinect",
+      "final_weight": 2.183333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "kinodynam",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "licens",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "linear",
+      "final_weight": 4.416666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "maintain",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "maker",
+      "final_weight": 9.616666,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "map",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "node",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "orient",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "pandora",
+      "final_weight": 7.766666,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "planner",
+      "final_weight": 2.633333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "pose",
+      "final_weight": 6.399999,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "script",
+      "final_weight": 3.866666,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "sensor",
+      "final_weight": 3.766666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "userdata",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "granular",
+      "to": "navig",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "granular",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "graph",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "graph",
+      "to": "trajectori",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hausdorff",
+      "to": "kinodynam",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hausdorff",
+      "to": "pandora",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hausdorff",
+      "to": "trajectori",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "involv",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "orient",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "pandora",
+      "final_weight": 3.866666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "preempt",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "pub",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "recal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "script",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "sensor",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "succeed",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "head",
+      "to": "topic",
+      "final_weight": 5.433333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "node",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "pandora",
+      "final_weight": 2.716666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "pitch",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "post",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "roll",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "rpi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "stabil",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "success",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "tester",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imu",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "topic",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "transact",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "involv",
+      "to": "linear",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "involv",
+      "to": "maker",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "involv",
+      "to": "preempt",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "involv",
+      "to": "pub",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "involv",
+      "to": "sensor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joy",
+      "to": "joyop",
+      "final_weight": 2.433333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joy",
+      "to": "launch",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joy",
+      "to": "node",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joy",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "lac",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "launch",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "lin",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "motor",
+      "final_weight": 4.699998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "node",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "numpi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "picam",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "pitch",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "posit",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "pub",
+      "final_weight": 5.599998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "scale",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "subprocess",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "topic",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "twist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "vel",
+      "final_weight": 4.699998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "xtion",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "joyop",
+      "to": "yaw",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "lac",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "lin",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "mode",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "motor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "numpi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "picam",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "pitch",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "posit",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "pub",
+      "final_weight": 5.599998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "termio",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "topic",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "tti",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "twist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "vel",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "xtion",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keyop",
+      "to": "yaw",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "orient",
+      "final_weight": 3.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "pandora",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "script",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "sensor",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinect",
+      "to": "topic",
+      "final_weight": 4.65,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinodynam",
+      "to": "motion",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinodynam",
+      "to": "navig",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinodynam",
+      "to": "pandora",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinodynam",
+      "to": "reward",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinodynam",
+      "to": "task",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kinodynam",
+      "to": "trajectori",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lac",
+      "to": "posit",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lac",
+      "to": "pub",
+      "final_weight": 4.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lac",
+      "to": "scale",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "launch",
+      "to": "node",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lesser",
+      "to": "node",
+      "final_weight": 5.483333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "licens",
+      "to": "navig",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "licens",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "licens",
+      "to": "planner",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "licens",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "licens",
+      "to": "task",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "licens",
+      "to": "trajectori",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lin",
+      "to": "motor",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lin",
+      "to": "scale",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lin",
+      "to": "vel",
+      "final_weight": 4.2,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "map",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "movement",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "pandora",
+      "final_weight": 5.2,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "preempt",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "pub",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "recal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "script",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "succeed",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linear",
+      "to": "topic",
+      "final_weight": 6.733333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loginfo",
+      "to": "rospi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logwarn",
+      "to": "rospi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maintain",
+      "to": "navig",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maintain",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maintain",
+      "to": "planner",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maintain",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maintain",
+      "to": "task",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maintain",
+      "to": "trajectori",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "pandora",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maker",
+      "to": "random",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "orient",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "pandora",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "sensor",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "translat",
+      "final_weight": 1.95,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motion",
+      "to": "navig",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motion",
+      "to": "pandora",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motion",
+      "to": "reward",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motion",
+      "to": "task",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motor",
+      "to": "pub",
+      "final_weight": 4.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motor",
+      "to": "scale",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motor",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "motor",
+      "to": "vel",
+      "final_weight": 8.0,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "movement",
+      "to": "topic",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "normal",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "observ",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "pandora",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "perform",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "pybrain",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "reward",
+      "final_weight": 2.949999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "scipi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "sensor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "slam",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "task",
+      "final_weight": 5.233333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "trajectori",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "twist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "vel",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navig",
+      "to": "veloc",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "pandora",
+      "final_weight": 5.866666,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "pitch",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "post",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "publish",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "roll",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "roslib",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "rospi",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "rostest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "rpi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "stabil",
+      "final_weight": 4.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "strategi",
+      "final_weight": 4.633332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "subscrib",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "success",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "tester",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "topic",
+      "final_weight": 3.649999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "trajectori",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "transact",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "normal",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "observ",
+      "to": "sensor",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "observ",
+      "to": "task",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "observ",
+      "to": "trajectori",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "pandora",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "script",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "sensor",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "pitch",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "post",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "roll",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "success",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "topic",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "transact",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "pitch",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "planner",
+      "final_weight": 5.799999,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "post",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "publish",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "reward",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "roll",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "roslib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "rostest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "rpi",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "script",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "sensor",
+      "final_weight": 5.833333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "stabil",
+      "final_weight": 5.866666,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "subscrib",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "success",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "task",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "tester",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "topic",
+      "final_weight": 8.849999,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "trajectori",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "transact",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perform",
+      "to": "task",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "perform",
+      "to": "transform",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "picam",
+      "to": "pitch",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "picam",
+      "to": "pub",
+      "final_weight": 4.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "picam",
+      "to": "yaw",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "post",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "pub",
+      "final_weight": 4.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "stabil",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "success",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "tester",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "xtion",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "repli",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "rospi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "succeed",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "topic",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "trajectori",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "pub",
+      "final_weight": 2.016667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "post",
+      "to": "roll",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "post",
+      "to": "stabil",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "post",
+      "to": "success",
+      "final_weight": 3.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "post",
+      "to": "tester",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "preempt",
+      "to": "sensor",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "sensor",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "vel",
+      "final_weight": 2.016667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "xtion",
+      "final_weight": 4.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "yaw",
+      "final_weight": 4.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "rospi",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "stabil",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pybrain",
+      "to": "task",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "recal",
+      "to": "sensor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reward",
+      "to": "task",
+      "final_weight": 2.949999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roll",
+      "to": "stabil",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roll",
+      "to": "success",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roll",
+      "to": "tester",
+      "final_weight": 3.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roll",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ros",
+      "to": "simpl",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ros",
+      "to": "smach",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roslib",
+      "to": "script",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roslib",
+      "to": "stabil",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "script",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "stabil",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rospi",
+      "to": "subscrib",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rostest",
+      "to": "stabil",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rpi",
+      "to": "sensor",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rpi",
+      "to": "stabil",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scale",
+      "to": "vel",
+      "final_weight": 2.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scipi",
+      "to": "task",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "script",
+      "to": "sensor",
+      "final_weight": 5.066664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "script",
+      "to": "sys",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "stabil",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "succeed",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "topic",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "simpl",
+      "to": "smach",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slam",
+      "to": "task",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "subscrib",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "success",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "sys",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "tester",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "topic",
+      "final_weight": 3.649999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "transact",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stabil",
+      "to": "unittest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "subscrib",
+      "to": "topic",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "success",
+      "to": "tester",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "task",
+      "to": "trajectori",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "task",
+      "to": "twist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "task",
+      "to": "vel",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "task",
+      "to": "veloc",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "tester",
+      "to": "topic",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "tester",
+      "to": "transact",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "topic",
+      "to": "trajectori",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "topic",
+      "to": "transact",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "vel",
+      "to": "veloc",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "xtion",
+      "to": "yaw",
+      "final_weight": 3.8,
+      "count": 3
+    }
+  ]
+}

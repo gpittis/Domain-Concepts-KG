@@ -1,0 +1,1342 @@
+[
+  [
+    {
+      "file": "setup.py"
+    },
+    {
+      "imports": [
+        "distutils.core.setup",
+        "catkin_pkg.python_setup.generate_distutils_setup"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "dist"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map_patch.py"
+    },
+    {
+      "imports": [
+        "roslib",
+        "sys",
+        "rospy",
+        "numpy",
+        "math",
+        "map_patch_params",
+        "map_utils",
+        "obstacle.Obstacle",
+        "nav_msgs.msg.OccupancyGrid",
+        "pandora_data_fusion_msgs.msg.ObstacleInfo",
+        "tf.transformations.quaternion_from_euler",
+        "tf.transformations.euler_from_quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "args"
+          ],
+          "local_variables": [
+            "mapPatcher"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "MapPatcher",
+          "attributes": [
+            "map_patch",
+            "sub_slam_",
+            "sub_soft_obstacle_",
+            "pub_",
+            "_obstacle_list"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "slamCB",
+              "params": [
+                "self",
+                "slamMap"
+              ],
+              "local_variables": [
+                "minX_",
+                "maxX_",
+                "minY_",
+                "maxY_",
+                "cost",
+                "cost",
+                "patch_width",
+                "patch_height",
+                "x0",
+                "y0",
+                "th",
+                "xn",
+                "yn",
+                "dx",
+                "dy",
+                "iterX",
+                "iterY",
+                "temp_x",
+                "temp_y",
+                "temp_x",
+                "temp_y",
+                "it"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "obstacleCB",
+              "params": [
+                "self",
+                "obstacleMsg"
+              ],
+              "local_variables": [
+                "quat",
+                "obs",
+                "duplicate",
+                "duplicate"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map_patch_params.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "slamMapTopic",
+        "obstacleTopic",
+        "patchTopic",
+        "unknownCost",
+        "lethalCost",
+        "freeCost",
+        "softObstacleType",
+        "hardObstacleType"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map_utils.py"
+    },
+    {
+      "imports": [
+        "rospy",
+        "math",
+        "map_patch_params",
+        "numpy.isfinite",
+        "nav_msgs.msg.OccupancyGrid",
+        "tf.transformations.quaternion_from_euler",
+        "tf.transformations.euler_from_quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "initMap",
+          "params": [
+            "mapToSet",
+            "incomigMap"
+          ],
+          "local_variables": [
+            "temp_array"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "mapResizer",
+          "params": [
+            "oldMap",
+            "newMap"
+          ],
+          "local_variables": [
+            "old_size",
+            "new_size",
+            "tempOldMap",
+            "x_diff",
+            "y_diff",
+            "res",
+            "x_diff",
+            "y_diff",
+            "it_x",
+            "it_y",
+            "it_old",
+            "it_new"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "mapMatchingChecker",
+          "params": [
+            "currentMap",
+            "incomingMap"
+          ],
+          "local_variables": [
+            "new_origin",
+            "old_origin"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "updateWithOverwrite",
+          "params": [
+            "mapToUpdate",
+            "incomingMap"
+          ],
+          "local_variables": [
+            "it"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "updateWithTrueOverwrite",
+          "params": [
+            "mapToUpdate",
+            "incomingMap"
+          ],
+          "local_variables": [
+            "it"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "metersToCells",
+          "params": [
+            "meters",
+            "resolution"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "isQuaternionValid",
+          "params": [
+            "quaternion"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "quaternionNotInstantiated",
+          "params": [
+            "quaternion"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "obstacle.py"
+    },
+    {
+      "imports": [
+        "rospy",
+        "pandora_data_fusion_msgs.msg.ObstacleInfo",
+        "tf.transformations.euler_from_quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Obstacle",
+          "attributes": [
+            "id_",
+            "map_frame_id_",
+            "time_found_",
+            "th_",
+            "x_",
+            "y_",
+            "length_",
+            "width_",
+            "type_"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "createObstacle",
+              "params": [
+                "self",
+                "obstacleMsg"
+              ],
+              "local_variables": [
+                "quat",
+                "roll",
+                "pitch",
+                "yaw"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": [
+        "map_utils.metersToCells",
+        "map_utils.initMap",
+        "map_utils.isQuaternionValid",
+        "map_utils.quaternionNotInstantiated",
+        "map_utils.mapMatchingChecker",
+        "map_utils.mapResizer",
+        "map_utils.updateWithOverwrite",
+        "map_utils.updateWithTrueOverwrite",
+        "map_patch_params.unknownCost",
+        "obstacle.Obstacle"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "hard_obstacle_patcher.py"
+    },
+    {
+      "imports": [
+        "math",
+        "numpy",
+        "roslib",
+        "sys",
+        "rospy",
+        "nav_msgs.msg.OccupancyGrid",
+        "mock_params",
+        "pandora_costmap.map_utils"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "args"
+          ],
+          "local_variables": [
+            "mockHardMap"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "MockHardMap",
+          "attributes": [
+            "map_pub",
+            "slam_sub",
+            "hard_map"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "slamCB",
+              "params": [
+                "self",
+                "slamMap"
+              ],
+              "local_variables": [
+                "temp_array",
+                "maxX_",
+                "maxY_",
+                "minX_",
+                "minY_",
+                "obs_x",
+                "obs_y",
+                "patch_width",
+                "patch_height",
+                "x0",
+                "y0",
+                "th",
+                "xn",
+                "yn",
+                "dx",
+                "dy",
+                "iterX",
+                "iterY",
+                "temp_x",
+                "temp_y",
+                "temp_x",
+                "temp_y",
+                "it"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "mock_data_fusion.py"
+    },
+    {
+      "imports": [
+        "roslib",
+        "sys",
+        "rospy",
+        "pandora_data_fusion_msgs.msg.ObstacleInfo",
+        "mock_params"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "talker",
+          "params": [],
+          "local_variables": [
+            "pub",
+            "rate",
+            "obs"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "mock_params.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "obstacleTopic",
+        "hardMapTopic",
+        "slamMapTopic"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tururu.py"
+    },
+    {
+      "imports": [
+        "math",
+        "numpy",
+        "roslib",
+        "sys",
+        "rospy",
+        "nav_msgs.msg.OccupancyGrid",
+        "mock_params",
+        "pandora_costmap.map_utils"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "main",
+          "params": [
+            "args"
+          ],
+          "local_variables": [
+            "mockHardMap"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "MockHardMap",
+          "attributes": [
+            "map_pub",
+            "slam_sub",
+            "hard_map"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "slamCB",
+              "params": [
+                "self",
+                "slamMap"
+              ],
+              "local_variables": [
+                "temp_array",
+                "maxX_",
+                "maxY_",
+                "minX_",
+                "minY_",
+                "obs_x",
+                "obs_y",
+                "patch_width",
+                "patch_height",
+                "x0",
+                "y0",
+                "th",
+                "xn",
+                "yn",
+                "dx",
+                "dy",
+                "iterX",
+                "iterY",
+                "temp_x",
+                "temp_y",
+                "temp_x",
+                "temp_y",
+                "it"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map_utils_test.py"
+    },
+    {
+      "imports": [
+        "sys",
+        "unittest",
+        "roslib",
+        "pandora_costmap.initMap",
+        "pandora_costmap.metersToCells",
+        "pandora_costmap.unknownCost",
+        "pandora_costmap.isQuaternionValid",
+        "pandora_costmap.quaternionNotInstantiated",
+        "pandora_costmap.updateWithTrueOverwrite",
+        "pandora_costmap.mapResizer",
+        "pandora_costmap.updateWithOverwrite",
+        "pandora_costmap.mapMatchingChecker",
+        "numpy.isfinite",
+        "nav_msgs.msg.OccupancyGrid",
+        "geometry_msgs.msg.Quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG",
+        "NAME"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestMapUtils",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "test_metersToCells",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "meters",
+                "res"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_initMap",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "mapToSet",
+                "incomingMap"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_isQuaternionValid",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "quat",
+                "nan",
+                "negative_inf",
+                "positive_inf"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_quaternionNotInstantiated",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "quat"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_updateWithOverwrite",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "old_OGM",
+                "new_OGM",
+                "res",
+                "old_OGMex",
+                "new_OGMex",
+                "old_grid",
+                "new_grid"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_updateWithTrueOverwrite",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "old_OGM",
+                "new_OGM",
+                "res",
+                "old_OGMex",
+                "new_OGMex",
+                "old_grid",
+                "new_grid"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_mapMatchingChecker",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "nan",
+                "negative_inf",
+                "positive_inf",
+                "mapToSet",
+                "incomingMap"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "mapPrint",
+              "params": [
+                "self",
+                "mapToPrint"
+              ],
+              "local_variables": [
+                "width",
+                "height",
+                "it"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "test_mapResizer",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "old",
+                "new"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "obstacle_test.py"
+    },
+    {
+      "imports": [
+        "sys",
+        "unittest",
+        "roslib",
+        "pandora_costmap.Obstacle",
+        "pandora_data_fusion_msgs.msg.ObstacleInfo",
+        "tf.transformations.euler_from_quaternion"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "PKG",
+        "NAME"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "TestObstacle",
+          "attributes": [
+            "obs",
+            "obsNorm"
+          ],
+          "methods": [
+            {
+              "name": "setUp",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "tearDown",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "test_createObstacle",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "obsMsg",
+                "obsMsgNorm",
+                "quat",
+                "roll",
+                "pitch",
+                "yaw"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "fws_cmd_vel_filter.py"
+    },
+    {
+      "imports": [
+        "rospy",
+        "geometry_msgs.msg.Twist",
+        "math.radians",
+        "math.atan"
+      ]
+    },
+    {
+      "global_variables": [
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__email__",
+        "filter"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "FWSCmdVelFilter",
+          "attributes": [
+            "wheelbase",
+            "min_turning_radius",
+            "max_trans_vel_angle",
+            "cmd_vel_sub",
+            "cmd_vel_pub"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "input_cmd_vel_topic",
+                "output_cmd_vel_topic"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "cmd_vel_cb",
+              "params": [
+                "self",
+                "data"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "odom_to_base_tf_publisher.py"
+    },
+    {
+      "imports": [
+        "rospy",
+        "nav_msgs.msg.Odometry",
+        "nav_msgs.msg.Path",
+        "geometry_msgs.msg.PoseStamped",
+        "tf"
+      ]
+    },
+    {
+      "global_variables": [
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__email__",
+        "o2b"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "Odom2BaseTfPublisher",
+          "attributes": [
+            "scan_sub",
+            "trajectory_pub",
+            "trajectory"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "odom_cb",
+              "params": [
+                "self",
+                "msg"
+              ],
+              "local_variables": [
+                "br"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "scan_frame_remapper.py"
+    },
+    {
+      "imports": [
+        "rospy",
+        "sensor_msgs.msg.LaserScan"
+      ]
+    },
+    {
+      "global_variables": [
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__email__",
+        "remapper"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "ScanFrameRemapper",
+          "attributes": [
+            "scan_sub",
+            "scan_pub"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "scan_cb",
+              "params": [
+                "self",
+                "data"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "simple_exploration_client.py"
+    },
+    {
+      "imports": [
+        "sys.argv",
+        "rospy",
+        "frontier_exploration.msg",
+        "geometry_msgs.msg.Point32",
+        "geometry_msgs.msg.PointStamped",
+        "geometry_msgs.msg.PolygonStamped",
+        "actionlib"
+      ]
+    },
+    {
+      "global_variables": [
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__email__",
+        "simpleExplorationClient"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "SimpleExplorationClient",
+          "attributes": [
+            "points_x",
+            "points_y"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "args"
+              ],
+              "local_variables": [
+                "max_x",
+                "max_y",
+                "max_x",
+                "max_y",
+                "max_x",
+                "max_y"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "request_exploration",
+              "params": [
+                "self"
+              ],
+              "local_variables": [
+                "client",
+                "polygonStamped",
+                "point",
+                "initialGoal",
+                "exploration_goal"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "static_patch.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "mocknode"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setCostBoundingBox",
+          "params": [
+            "self",
+            "minX",
+            "maxX",
+            "minY",
+            "maxY",
+            "cost"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "talker",
+          "params": [],
+          "local_variables": [
+            "quat",
+            "map_update_msg",
+            "temp_array"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "setup.py"
+    },
+    {
+      "imports": [
+        "distutils.core.setup",
+        "catkin_pkg.python_setup.generate_distutils_setup"
+      ]
+    },
+    {
+      "global_variables": [
+        "d"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": [
+        "mocks"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "move_base.py"
+    },
+    {
+      "imports": [
+        "rospy",
+        "actionlib.SimpleActionServer",
+        "geometry_msgs.msg.Point",
+        "geometry_msgs.msg.PoseStamped",
+        "geometry_msgs.msg.Quaternion",
+        "move_base_msgs.msg.MoveBaseAction",
+        "move_base_msgs.msg.MoveBaseFeedback",
+        "move_base_msgs.msg.MoveBaseResult",
+        "tf"
+      ]
+    },
+    {
+      "global_variables": [
+        "__version__",
+        "__status__",
+        "__license__",
+        "__copyright__",
+        "__author__",
+        "__maintainer__",
+        "__email__",
+        "navigation"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "MockNavigation",
+          "attributes": [
+            "robot_pose_",
+            "listener",
+            "navigation_succedes",
+            "reply",
+            "preempted",
+            "moves_base",
+            "target_position",
+            "target_orientation",
+            "move_base_as_"
+          ],
+          "methods": [
+            {
+              "name": "__init__",
+              "params": [
+                "self",
+                "move_base_topic"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "__del__",
+              "params": [
+                "self"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "move_base_cb",
+              "params": [
+                "self",
+                "goal"
+              ],
+              "local_variables": [
+                "trans",
+                "rot",
+                "feedback",
+                "result"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "__init__.py"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

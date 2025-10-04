@@ -1,0 +1,304 @@
+[
+  [
+    {
+      "file": "release.config.js"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "module.exports.plugins",
+        "module.exports.tagFormat"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtest.js"
+    },
+    {
+      "imports": [
+        "bignumber",
+        "colors",
+        "moment",
+        "pg",
+        "env"
+      ]
+    },
+    {
+      "global_variables": [
+        "BigNumber",
+        "colors",
+        "moment",
+        "env",
+        "test_pair",
+        "pg_connectionString",
+        "pg_connectionSSL",
+        "stop_loss_pnl",
+        "stop_profit_pnl",
+        "nbt_prefix",
+        "max_rows",
+        "showReport",
+        "trading_fees",
+        "pg_client"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getData",
+          "params": [
+            "pair"
+          ],
+          "local_variables": [
+            "select_query"
+          ]
+        },
+        {
+          "name": "backtest",
+          "params": [
+            "lines"
+          ],
+          "local_variables": [
+            "curr_pnl",
+            "first_price",
+            "last_price",
+            "start_price",
+            "max_pnl",
+            "min_pnl",
+            "trading",
+            "amount_sold",
+            "trading_report",
+            "trading_count",
+            "trading_win_count",
+            "trading_loss_count",
+            "pnl",
+            "prices",
+            "volumes",
+            "trades",
+            "sentiments",
+            "srsis",
+            "sum_asks",
+            "sum_bids",
+            "stop_loss",
+            "stop_profit",
+            "i",
+            "time",
+            "price",
+            "trade",
+            "volume",
+            "sentiment",
+            "srsi",
+            "interv_vols_sum",
+            "first_ask_price",
+            "first_bid_price",
+            "depth_report",
+            "makers_count",
+            "lpnl",
+            "days"
+          ]
+        },
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": [
+            "lines",
+            "startBacktest"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "env.js"
+    },
+    {
+      "imports": [
+        "dotenv",
+        "envalid",
+        "package"
+      ]
+    },
+    {
+      "global_variables": [
+        "envalid",
+        "packageJson"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "server.js"
+    },
+    {
+      "imports": [
+        "express",
+        "socket",
+        "path",
+        "binance-api-node",
+        "moment",
+        "bignumber",
+        "lodash",
+        "tulind",
+        "axios",
+        "pg",
+        "env"
+      ]
+    },
+    {
+      "global_variables": [
+        "express",
+        "io_client",
+        "path",
+        "binance",
+        "moment",
+        "BigNumber",
+        "_",
+        "tulind",
+        "axios",
+        "env",
+        "PORT",
+        "INDEX",
+        "insert_into_db",
+        "pg_connectionString",
+        "pg_connectionSSL",
+        "send_signal_to_bva",
+        "bva_key",
+        "wait_time",
+        "timeframe",
+        "nbt_vers",
+        "pairs",
+        "stratname",
+        "pairData",
+        "openSignals",
+        "nbt_prefix",
+        "interv_time",
+        "socket_client",
+        "pg_client",
+        "binance_client"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "run",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "trackData",
+          "params": [],
+          "local_variables": [
+            "i",
+            "len"
+          ]
+        },
+        {
+          "name": "addCandle",
+          "params": [
+            "pair",
+            "candle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "updateLastCandle",
+          "params": [
+            "pair",
+            "candle"
+          ],
+          "local_variables": [
+            "index"
+          ]
+        },
+        {
+          "name": "initPairData",
+          "params": [
+            "pair"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "trackPairData",
+          "params": [
+            "pair"
+          ],
+          "local_variables": [
+            "candles",
+            "i",
+            "len",
+            "depth_report",
+            "last_sum_bids_bn",
+            "last_sum_asks_bn",
+            "makers_count",
+            "makers_total",
+            "maker_ratio",
+            "price_open",
+            "price_high",
+            "price_low",
+            "price_last",
+            "first_ask_price",
+            "first_bid_price",
+            "insert_values",
+            "insert_query",
+            "signal_key",
+            "signalCheck",
+            "signal",
+            "openSignal",
+            "openSignal",
+            "pnl",
+            "signal"
+          ]
+        },
+        {
+          "name": "checkSignal",
+          "params": [
+            "pair"
+          ],
+          "local_variables": [
+            "rsi",
+            "rsiLatest",
+            "macd",
+            "macdOldest",
+            "macdOlder",
+            "macdNewest"
+          ]
+        },
+        {
+          "name": "createPgPairTable",
+          "params": [
+            "pair"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sleep",
+          "params": [
+            "x"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ]
+]

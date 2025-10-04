@@ -1,0 +1,4587 @@
+[
+  [
+    {
+      "file": "krypto ninja"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        "connectivity",
+        "",
+        "",
+        "force",
+        "order",
+        "",
+        "json",
+        "",
+        "json",
+        "",
+        "json",
+        "",
+        "json",
+        "",
+        "json",
+        "",
+        "json",
+        "exchange",
+        "event",
+        "loopfd",
+        "replace",
+        "balance",
+        "exchange",
+        "web",
+        "web",
+        "printer",
+        "",
+        "web market",
+        "web orders",
+        "pairs",
+        "",
+        "",
+        "",
+        "curl",
+        "web",
+        "countdown",
+        "subscription",
+        "",
+        "",
+        "curl",
+        "web twin",
+        "",
+        "",
+        "curl",
+        "",
+        "",
+        "binance",
+        "tick price",
+        "tick",
+        "",
+        "",
+        "",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "xfer",
+        "binance",
+        "bitmex",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "xfer",
+        "gateio",
+        "",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "xfer",
+        "hit btc",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "twin",
+        "",
+        "xfer",
+        "bequant",
+        "coinbase",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "twin",
+        "",
+        "xfer",
+        "bitfinex",
+        "",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "xfer",
+        "ethfinex",
+        "coin",
+        "",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "xfer",
+        "kraken",
+        "",
+        "pairs",
+        "",
+        "reply",
+        "",
+        "twin",
+        "",
+        "xfer",
+        "poloniex",
+        "pairs",
+        "",
+        "reply",
+        "xfer"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "price",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "raw",
+            "order"
+          ],
+          "local_variables": [
+            "order latency",
+            "order",
+            "order exchange",
+            "order price",
+            "order quantity",
+            "order qty filled"
+          ]
+        },
+        {
+          "name": "replace",
+          "params": [
+            "price",
+            "pong",
+            "order"
+          ],
+          "local_variables": [
+            "order price",
+            "order pong",
+            "order"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "order"
+          ],
+          "local_variables": [
+            "order",
+            "order"
+          ]
+        },
+        {
+          "name": "rand",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "replace",
+          "params": [
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "balance",
+          "params": [],
+          "local_variables": [
+            "balance"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "replace",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "wallet",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "sync wallet",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "online",
+          "params": [
+            "connectivity"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "handshake",
+          "params": [
+            "nocache"
+          ],
+          "local_variables": [
+            "reply",
+            "",
+            "",
+            "",
+            "reply",
+            "reply",
+            "",
+            "quote",
+            "symbol",
+            "tick price",
+            "tick",
+            "",
+            "",
+            "fee",
+            "fee"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "report",
+          "params": [
+            "notes",
+            "nocache"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "latency",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "tstart",
+            "tstop",
+            "tdiff",
+            ""
+          ]
+        },
+        {
+          "name": "disconnect",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "online",
+          "params": [
+            "connectivity"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "subscribe",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "consume",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connect",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "emit",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "disconnect",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "reconnect",
+          "params": [
+            "reason"
+          ],
+          "local_variables": [
+            "countdown"
+          ]
+        },
+        {
+          "name": "subscribed",
+          "params": [],
+          "local_variables": [
+            "subscription"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "connect",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "disconnect",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "emit",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "beam",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "logon",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "connect",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "disconnect",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "beam",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "price",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "bids",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "ticker",
+          "attributes": [
+            "symbol",
+            "",
+            "quote",
+            "price",
+            "bestask",
+            "bestbid",
+            "spread",
+            "",
+            "volume"
+          ]
+        },
+        {
+          "name": "wallet",
+          "attributes": [
+            "",
+            "",
+            "currency",
+            "",
+            "",
+            "profit",
+            ""
+          ]
+        },
+        {
+          "name": "trade",
+          "attributes": [
+            "",
+            "price",
+            "quantity",
+            ""
+          ]
+        },
+        {
+          "name": "order",
+          "attributes": [
+            "symbol",
+            "",
+            "price",
+            "quantity",
+            "",
+            "pong",
+            "order",
+            "exchange",
+            "",
+            "qty filled",
+            "",
+            "force",
+            "",
+            "latency",
+            "price precision",
+            "quantity precision"
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "funds",
+            "price",
+            "",
+            "percent",
+            "order price",
+            "order"
+          ]
+        },
+        {
+          "name": "",
+          "attributes": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "krypto ninja bots"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        "epilogue",
+        "epitaph",
+        "rollout",
+        "rollout",
+        "",
+        "sigscr",
+        "",
+        "",
+        "terminal",
+        "gobeep",
+        "original",
+        "warned",
+        "clogs",
+        "frame",
+        "spinner",
+        "repaint",
+        "",
+        "space",
+        "",
+        "",
+        "lines",
+        "",
+        "puke rainbow",
+        "puke",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "argerr",
+        "hotkey",
+        "keymap",
+        "",
+        "maps",
+        "keymap",
+        "",
+        "matter",
+        "blob",
+        "sqlite",
+        "backup",
+        "backup",
+        "",
+        "backup",
+        "",
+        "",
+        "",
+        "disk",
+        "",
+        "",
+        "schema",
+        "",
+        "truncate",
+        "",
+        "readable",
+        "broadcast",
+        "clickable",
+        "",
+        "",
+        "wtfismyip",
+        "",
+        "documents",
+        "",
+        "delay",
+        "readable",
+        "clickable",
+        "",
+        "portal",
+        "",
+        "kisses",
+        "queue",
+        "",
+        "",
+        "queue delay",
+        "",
+        "",
+        "",
+        "code",
+        "leaf",
+        "reply",
+        "butterfly",
+        "",
+        "quote",
+        "system",
+        "quote",
+        "quotes",
+        "bid",
+        "",
+        "bid",
+        "",
+        "",
+        "",
+        "explain",
+        "orderbook",
+        "zombies",
+        "zombies",
+        "",
+        "",
+        "zombies",
+        "orders",
+        "",
+        "external",
+        "orders",
+        "",
+        "gateway",
+        "purgeable",
+        "",
+        "orders",
+        "",
+        "",
+        "",
+        "",
+        "filters",
+        "",
+        "",
+        "external",
+        "gateway",
+        "events",
+        "orders",
+        "",
+        "external",
+        "",
+        "replace",
+        "",
+        "",
+        "",
+        "",
+        "handshake",
+        "reply",
+        "krypto ninja",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "hotkey",
+        "",
+        "sqlite",
+        "",
+        "",
+        "",
+        "system",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "reason"
+          ],
+          "local_variables": [
+            "epilogue"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "prefix",
+            "reason"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "mods",
+            "diff",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "die",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "epilogue"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "epilogue"
+          ]
+        },
+        {
+          "name": "wtf",
+          "params": [
+            "sig"
+          ],
+          "local_variables": [
+            "mods",
+            "",
+            "jumps",
+            "trace",
+            "epilogue"
+          ]
+        },
+        {
+          "name": "terminal",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "spin",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "prefix"
+          ],
+          "local_variables": [
+            "lines",
+            ""
+          ]
+        },
+        {
+          "name": "windowed",
+          "params": [],
+          "local_variables": [
+            "",
+            "original"
+          ]
+        },
+        {
+          "name": "goodbye",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "optional",
+          "params": [
+            "",
+            "",
+            "proactive",
+            "blackhole",
+            "unmounted"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "autobot",
+            "naked"
+          ]
+        },
+        {
+          "name": "tidy",
+          "params": [],
+          "local_variables": [
+            "",
+            "exchange",
+            "currency",
+            "",
+            "quote",
+            "",
+            "",
+            "",
+            "",
+            "maker fee",
+            "taker fee",
+            "market",
+            "heartbeat",
+            "naked",
+            "diskdata",
+            "",
+            "headless",
+            "",
+            "easy setopt"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "proactive",
+            "unmounted"
+          ],
+          "local_variables": [
+            "stamp",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "keylog",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "keylog",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "sync keylogger",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "backups",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "blob",
+            "",
+            "lifetime",
+            "incr",
+            "sql"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "sql",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "listen",
+          "params": [
+            "",
+            "loopfd"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "broadcast",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "headless",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "goodbye",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "broadcast",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "alien",
+          "params": [
+            "addr"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "matter",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crossed",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "calc quotes",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "pending",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "offline",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc raw quotes",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "quoting",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "bid"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "bid pong"
+          ]
+        },
+        {
+          "name": "unset",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "upset",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "quote",
+            ""
+          ],
+          "local_variables": [
+            "reason",
+            ""
+          ]
+        },
+        {
+          "name": "purge",
+          "params": [],
+          "local_variables": [
+            "",
+            "zombies"
+          ]
+        },
+        {
+          "name": "alive",
+          "params": [
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "raw",
+            "reason"
+          ],
+          "local_variables": [
+            "order",
+            "order price precision",
+            "order quantity precision"
+          ]
+        },
+        {
+          "name": "purge",
+          "params": [
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "orders"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "orders"
+          ]
+        },
+        {
+          "name": "findsert",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "required",
+          "params": [
+            "",
+            "loopfd"
+          ],
+          "local_variables": [
+            "epitaph",
+            "gateway",
+            "gateway",
+            "gateway fee",
+            "gateway fee",
+            "gateway",
+            "gateway apikey",
+            "gateway",
+            "gateway apikeyid",
+            "gateway",
+            "gateway",
+            "gateway loopfd",
+            "gateway printer",
+            "gateway admin agreement"
+          ]
+        },
+        {
+          "name": "alien",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "external"
+          ]
+        },
+        {
+          "name": "wrap events",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "orders",
+            "",
+            "gateway balance"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "height"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "krypto ninja"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        "web frames",
+        "frame",
+        "",
+        "bit",
+        "pos",
+        "",
+        "",
+        "unframe",
+        "",
+        "",
+        "flat",
+        "",
+        "mask",
+        "",
+        "",
+        "pos",
+        "",
+        "opcode",
+        "frames",
+        "target",
+        "sender",
+        "frame",
+        "",
+        "",
+        "",
+        "unframe",
+        "",
+        "",
+        "raw",
+        "",
+        "event",
+        "timer",
+        "tick",
+        "ticks",
+        "",
+        "ticks factor",
+        "",
+        "event",
+        "wakeup",
+        "event",
+        "event",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "poll",
+        "timer ticks factor",
+        "events",
+        "timer",
+        "",
+        "timer ticks factor",
+        "",
+        "",
+        "",
+        "curl embed blob",
+        "easy setopt",
+        "curl",
+        "easy",
+        "",
+        "",
+        "infd",
+        "outfd",
+        "web",
+        "xfer",
+        "reply",
+        "",
+        "curl",
+        "",
+        "web",
+        "",
+        "web frames",
+        "web twin",
+        "",
+        "",
+        "frames",
+        "sequence",
+        "",
+        "sha",
+        "digest",
+        "web",
+        "",
+        "upgrade",
+        "",
+        "",
+        "frontend",
+        "",
+        "web frames",
+        "ssl",
+        "",
+        "",
+        "addr",
+        "",
+        "",
+        "",
+        "reply",
+        "",
+        "",
+        "path",
+        "papers",
+        "",
+        "inet addrstrlen",
+        "backend",
+        "",
+        "web frames",
+        "",
+        "",
+        "",
+        "document",
+        "",
+        "random",
+        "decimal",
+        "stream",
+        "",
+        "tick",
+        "",
+        "floor",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "timer",
+          "params": [],
+          "local_variables": [
+            "",
+            "tick"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "event"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "samethread"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "wakeup",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ready",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "timer",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "poll",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "walk",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "events",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "recv",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "emit",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "sockfd"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "recv",
+          "params": [
+            "timeout"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "slist",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            "nmemb",
+            "reply"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connect",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "path",
+            "query",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "emit",
+          "params": [
+            "",
+            "opcode"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "unframe",
+          "params": [],
+          "local_variables": [
+            "pong",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "connect",
+          "params": [
+            "",
+            "logon"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "emit",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "unframe",
+          "params": [],
+          "local_variables": [
+            "pong",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "input"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "input"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crc",
+          "params": [
+            "input"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "input",
+            "urlsafe"
+          ],
+          "local_variables": [
+            "bio",
+            "",
+            "output",
+            ""
+          ]
+        },
+        {
+          "name": "decode",
+          "params": [
+            "input",
+            "urlsafe"
+          ],
+          "local_variables": [
+            "output",
+            "",
+            "bio",
+            "input",
+            ""
+          ]
+        },
+        {
+          "name": "sha",
+          "params": [
+            "input",
+            "rawbin"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sha",
+          "params": [
+            "input",
+            "rawbin"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sha",
+          "params": [
+            "input",
+            "rawbin"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "hmac",
+          "params": [
+            "",
+            "input",
+            "rawbin"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "hmac",
+          "params": [
+            "",
+            "input",
+            "rawbin"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "hmac",
+          "params": [
+            "",
+            "input",
+            "rawbin"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "hmac",
+          "params": [
+            "",
+            "input",
+            "rawbin"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "hmac",
+          "params": [
+            "",
+            "input",
+            "rawbin",
+            "",
+            "digest"
+          ],
+          "local_variables": [
+            "digest",
+            "digest"
+          ]
+        },
+        {
+          "name": "evp",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "hex",
+          "params": [
+            "digest",
+            "digest"
+          ],
+          "local_variables": [
+            "output",
+            ""
+          ]
+        },
+        {
+          "name": "shutdown",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "stale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "unframe",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "broadcast",
+          "params": [
+            "portal",
+            "queue"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "purge",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "timeouts",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "listen",
+          "params": [
+            "loopfd",
+            "inet",
+            "",
+            "ipv",
+            ""
+          ],
+          "local_variables": [
+            "hints",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "ssl",
+          "params": [
+            "crt",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "tlscrt",
+            "tlskey",
+            "cbio",
+            "pbio",
+            "cert",
+            "pkey"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "loopfd"
+          ],
+          "local_variables": [
+            "clientfd",
+            "sigpipe",
+            "ssl",
+            "ssl"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "domain",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "sigpipe",
+            "sockfd",
+            "sockfd"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "gen"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "offset",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "rnd",
+            "offset",
+            "",
+            "",
+            "rnd",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "precision",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "input"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "mkdirs",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "",
+            "upgrade",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "krypto ninja lang"
+    },
+    {
+      "imports": [
+        "cstdlib",
+        "iostream",
+        "iomanip",
+        "fstream",
+        "sstream",
+        "",
+        "",
+        "unordered map",
+        "map",
+        "",
+        "ctime",
+        "cmath",
+        "future",
+        "chrono",
+        "random",
+        "locale",
+        "csignal",
+        "variant",
+        "algorithm",
+        "functional",
+        "sys",
+        "sys stat",
+        "",
+        "unistd",
+        "winsock",
+        "",
+        "conio",
+        "termios",
+        "execinfo",
+        "sys ioctl",
+        "sys",
+        "sys",
+        "inet",
+        "netinet",
+        "netinet tcp",
+        "netdb",
+        "",
+        "sys epoll",
+        "sys timerfd",
+        "sys eventfd",
+        "zlib",
+        "json",
+        "sqlite",
+        "curl",
+        "curl cacert embed",
+        "openssl ssl",
+        "openssl bio",
+        "openssl evp",
+        "openssl sha",
+        "openssl hmac",
+        "openssl"
+      ]
+    },
+    {
+      "global_variables": [
+        "std",
+        "price",
+        "",
+        "clock",
+        "",
+        "tbegin",
+        "",
+        "colorful"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "krypto ninja"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "portfolios"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "analpaper",
+        "",
+        "",
+        "broadcast",
+        "",
+        "",
+        "clickable",
+        "currency",
+        "zeroed",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "broadcast orders",
+        "",
+        "",
+        "hotkey",
+        "keymap",
+        "green gateway",
+        "",
+        "order",
+        "engine",
+        "portfolios",
+        "ticker",
+        "wallet",
+        "",
+        "orders",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "json",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "currency",
+            "zeroed",
+            "currency"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "calc",
+          "params": [],
+          "local_variables": [
+            "portfolio",
+            "portfolio"
+          ]
+        },
+        {
+          "name": "ratelimit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "ratelimit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "calc",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "quote",
+            "price",
+            "price precision",
+            "precision"
+          ],
+          "local_variables": [
+            "portfolios portfolio",
+            "portfolios portfolio",
+            "portfolios portfolio"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "portfolios portfolio raw currency"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "green gateway"
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "portfolio",
+          "attributes": [
+            "wallet",
+            "prices",
+            "precisions",
+            "price",
+            "precision"
+          ]
+        },
+        {
+          "name": "market",
+          "attributes": [
+            "web",
+            "",
+            "quote",
+            "symbol",
+            "price",
+            "spread",
+            "raw spread",
+            "",
+            "bid",
+            "",
+            "volume",
+            "raw volume"
+          ]
+        },
+        {
+          "name": "wallets",
+          "attributes": [
+            "portfolios"
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "portfolios"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "portfolios",
+        "",
+        "online",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        "engine",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "greeting",
+          "params": [],
+          "local_variables": [
+            "fair"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "scaling bot ansi"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "scaling bot"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "analpaper",
+        "calc pong price",
+        "price",
+        "engine",
+        "orders",
+        "",
+        "wallet",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "maxmin",
+          "params": [
+            "order"
+          ],
+          "local_variables": [
+            "",
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "compare",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calc",
+          "params": [
+            "current"
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "timer",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "filter",
+          "params": [],
+          "local_variables": [
+            "bids",
+            "",
+            "fair",
+            "fair"
+          ]
+        },
+        {
+          "name": "filter",
+          "params": [
+            "",
+            "filter orders"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "",
+            "quote"
+          ]
+        },
+        {
+          "name": "calc",
+          "params": [],
+          "local_variables": [
+            "",
+            "quote"
+          ]
+        },
+        {
+          "name": "calc raw quotes",
+          "params": [],
+          "local_variables": [
+            "bid",
+            "",
+            "bid price",
+            "price"
+          ]
+        },
+        {
+          "name": "quoting",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "pongs scalation",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "fair deviation",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "bid",
+            "price",
+            "bid price"
+          ]
+        },
+        {
+          "name": "price",
+          "params": [],
+          "local_variables": [
+            "bid price",
+            "price"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "bid",
+            "bid",
+            "",
+            "",
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "depleted",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ready",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc quotes",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [],
+          "local_variables": [
+            "bids",
+            "",
+            "bids",
+            ""
+          ]
+        },
+        {
+          "name": "timer",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "quit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "quit",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "quit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc quotes",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "pongs",
+          "attributes": [
+            "bid",
+            "",
+            "bids",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "deviation",
+          "attributes": [
+            "bid",
+            "",
+            "fair",
+            ""
+          ]
+        },
+        {
+          "name": "wallets",
+          "attributes": [
+            "",
+            "quote",
+            "",
+            "fair"
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "semaphore",
+            "quotes",
+            "pending",
+            "",
+            "",
+            "orders",
+            "",
+            "wallet",
+            "abandon",
+            "abandon",
+            "abandoned",
+            "current price",
+            "",
+            "quote orders",
+            "abandoned",
+            "replace",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "scaling bot"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "scaling bot",
+        "",
+        "",
+        "orders",
+        "orders",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "terminal",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "stable bot"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "analpaper",
+        "engine",
+        "orders",
+        "",
+        "wallet",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "",
+            "quote"
+          ]
+        },
+        {
+          "name": "filter",
+          "params": [],
+          "local_variables": [
+            "bids",
+            "",
+            "fair",
+            "fair"
+          ]
+        },
+        {
+          "name": "filter",
+          "params": [
+            "",
+            "filter orders"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "calc raw quotes",
+          "params": [],
+          "local_variables": [
+            "bid",
+            "bid price",
+            "price"
+          ]
+        },
+        {
+          "name": "quoting",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "stable",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "bid",
+            "price",
+            "bid price"
+          ]
+        },
+        {
+          "name": "price",
+          "params": [],
+          "local_variables": [
+            "bid price",
+            "price"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "bid",
+            "bid",
+            "",
+            "",
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "depleted",
+          "params": [],
+          "local_variables": [
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "green gateway"
+          ]
+        },
+        {
+          "name": "calc quotes",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "quit",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "quit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc quotes",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "wallets",
+          "attributes": [
+            "",
+            "quote",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "green gateway",
+            "quotes",
+            "",
+            "orders",
+            "",
+            "abandon",
+            "abandon",
+            "abandoned",
+            "current price",
+            "",
+            "quote orders",
+            "abandoned",
+            "replace",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "stable bot"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "stable bot"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trading bot"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "tribeca",
+        "quoting mode",
+        "order pct",
+        "quoting safety",
+        "fair model",
+        "position mode",
+        "div mode",
+        "apr",
+        "apr",
+        "sop",
+        "stdev",
+        "ping",
+        "pong",
+        "",
+        "",
+        "broadcast quoting",
+        "",
+        "",
+        "clickable",
+        "ping",
+        "ping percentage",
+        "pong",
+        "pong percentage",
+        "percentage",
+        "",
+        "",
+        "order pct",
+        "trade tbp exp",
+        "",
+        "percentage",
+        "",
+        "sell",
+        "sell percentage",
+        "sell",
+        "ping",
+        "pong",
+        "mode",
+        "safety",
+        "bullets",
+        "",
+        "percentage",
+        "model",
+        "target position",
+        "target position percentage",
+        "target position",
+        "target position percentage",
+        "target position",
+        "target position percentage",
+        "position divergence",
+        "position divergence",
+        "position divergence percentage",
+        "position divergence percentage",
+        "position divergence mode",
+        "percentage",
+        "position mode",
+        "aggressive position rebalancing",
+        "trades",
+        "trades minute",
+        "trade rate",
+        "protection ewma ping",
+        "protection ewma quote price",
+        "protection ewma periods",
+        "quoting stdev protection",
+        "quoting stdev bollinger bands",
+        "quoting stdev protection factor",
+        "quoting stdev protection periods",
+        "ewma sensiblity percentage",
+        "quoting ewma trend protection",
+        "quoting ewma trend threshold",
+        "ewma periods",
+        "ewma periods",
+        "medium ewma periods",
+        "ewma periods",
+        "extra ewma periods",
+        "ultra ewma periods",
+        "apr multiplier",
+        "sop multiplier",
+        "sop multiplier",
+        "sop trades multiplier",
+        "orders",
+        "lifetime",
+        "clean pongs",
+        "profit hour interval",
+        "audio",
+        "delay",
+        "diff ewma",
+        "",
+        "",
+        "",
+        "broadcast orders",
+        "",
+        "",
+        "calc",
+        "",
+        "",
+        "calc",
+        "",
+        "",
+        "",
+        "diff",
+        "",
+        "diff",
+        "variance",
+        "",
+        "",
+        "",
+        "fair",
+        "ewma",
+        "ewma",
+        "ewma",
+        "ewma",
+        "ewma",
+        "ewma",
+        "ewma",
+        "ewma",
+        "ewma trend diff",
+        "target position percentage",
+        "",
+        "fair",
+        "",
+        "target position",
+        "trend",
+        "ewmacrossing",
+        "",
+        "",
+        "broadcast diff",
+        "patched",
+        "unfiltered",
+        "",
+        "diff",
+        "patch",
+        "",
+        "",
+        "",
+        "",
+        "order",
+        "",
+        "",
+        "clickable",
+        "",
+        "",
+        "",
+        "broadcast order filled",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "broadcast target",
+        "target position",
+        "position divergence",
+        "",
+        "",
+        "target position percentage",
+        "",
+        "calc inverse market",
+        "mkt",
+        "calc colossus market",
+        "",
+        "",
+        "calc depth market",
+        "bid",
+        "bid depth",
+        "",
+        "",
+        "depth",
+        "",
+        "",
+        "",
+        "clickable",
+        "",
+        "hotkey",
+        "keymap",
+        "green",
+        "green gateway",
+        "",
+        "",
+        "",
+        "",
+        "memory",
+        "semaphore",
+        "quotes",
+        "",
+        "",
+        "orders",
+        "abandon",
+        "abandon",
+        "abandoned",
+        "",
+        "current price",
+        "",
+        "quote orders",
+        "abandoned",
+        "replace",
+        "",
+        "engine",
+        "",
+        "orders",
+        "",
+        "",
+        "wallet",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "json",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "ping",
+            "ping percentage",
+            "pong",
+            "pong percentage",
+            "percentage",
+            "",
+            "",
+            "order pct",
+            "trade tbp exp",
+            "",
+            "percentage",
+            "",
+            "sell",
+            "sell percentage",
+            "sell",
+            "ping",
+            "pong",
+            "mode",
+            "safety",
+            "bullets",
+            "",
+            "percentage",
+            "model",
+            "target position",
+            "target position percentage",
+            "target position",
+            "target position percentage",
+            "target position",
+            "target position percentage",
+            "position divergence",
+            "position divergence mode",
+            "position divergence",
+            "position divergence percentage",
+            "position divergence percentage",
+            "percentage",
+            "position mode",
+            "aggressive position rebalancing",
+            "trades",
+            "trades minute",
+            "trade rate",
+            "protection ewma ping",
+            "protection ewma quote price",
+            "protection ewma periods",
+            "quoting stdev protection",
+            "quoting stdev bollinger bands",
+            "quoting stdev protection factor",
+            "quoting stdev protection periods",
+            "ewma sensiblity percentage",
+            "quoting ewma trend protection",
+            "quoting ewma trend threshold",
+            "ewma periods",
+            "ewma periods",
+            "medium ewma periods",
+            "ewma periods",
+            "extra ewma periods",
+            "ultra ewma periods",
+            "apr multiplier",
+            "sop multiplier",
+            "sop multiplier",
+            "sop trades multiplier",
+            "orders",
+            "lifetime",
+            "clean pongs",
+            "profit hour interval",
+            "audio",
+            "delay",
+            "percentage",
+            "diff ewma"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "order"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "timer",
+          "params": [
+            "average"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calc history",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc",
+          "params": [
+            "",
+            "periods",
+            ""
+          ],
+          "local_variables": [
+            "alpha",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "prepare history",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc history",
+          "params": [
+            "",
+            "periods",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "calc positions",
+          "params": [],
+          "local_variables": [
+            "ewma trend diff"
+          ]
+        },
+        {
+          "name": "calc protections",
+          "params": [
+            "average"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calc target position percentage",
+          "params": [],
+          "local_variables": [
+            "",
+            "sma"
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "ewma",
+            "ewma",
+            "ewma",
+            "ewma",
+            "ewma",
+            "ewma"
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "patch",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ratelimit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "unfilter",
+          "params": [],
+          "local_variables": [
+            "bids",
+            "",
+            "patched"
+          ]
+        },
+        {
+          "name": "diff",
+          "params": [],
+          "local_variables": [
+            "bids",
+            "",
+            "patched"
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "diff"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "unfiltered bids",
+            "unfiltered"
+          ]
+        },
+        {
+          "name": "filter",
+          "params": [],
+          "local_variables": [
+            "bids",
+            ""
+          ]
+        },
+        {
+          "name": "calc average",
+          "params": [],
+          "local_variables": [
+            "average"
+          ]
+        },
+        {
+          "name": "average",
+          "params": [],
+          "local_variables": [
+            "average"
+          ]
+        },
+        {
+          "name": "calc fair",
+          "params": [],
+          "local_variables": [
+            "fair",
+            "fair",
+            "fair",
+            "fair",
+            "fair"
+          ]
+        },
+        {
+          "name": "filter",
+          "params": [
+            "",
+            "filter orders"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "quote",
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "trade",
+            "price",
+            "quantity",
+            "",
+            "",
+            "",
+            "ktime",
+            "kqty",
+            "kprice",
+            "kvalue",
+            "delta",
+            "fee charged",
+            "pong",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "fee",
+            "",
+            "filled",
+            "bid",
+            "pong",
+            "matches",
+            "",
+            "combined fee",
+            "matches price"
+          ]
+        },
+        {
+          "name": "erase",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "trade"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "pongs",
+          "params": [],
+          "local_variables": [
+            "expire",
+            "forced clean"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "kqty",
+            ""
+          ]
+        },
+        {
+          "name": "match pong",
+          "params": [
+            "matches",
+            "pong",
+            "reverse"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "quantity",
+            "",
+            "pong",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "match pong",
+          "params": [
+            "match",
+            "pong"
+          ],
+          "local_variables": [
+            "",
+            "kqty",
+            "ktime",
+            "kprice",
+            "kqty",
+            "kvalue",
+            "pong quantity",
+            "pong",
+            "delta",
+            "pong",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "broadcast",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "rbegin"
+          ]
+        },
+        {
+          "name": "erase",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "expire",
+          "params": [],
+          "local_variables": [
+            "buys",
+            "sells"
+          ]
+        },
+        {
+          "name": "expire",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "sell",
+            "qty"
+          ]
+        },
+        {
+          "name": "calc",
+          "params": [],
+          "local_variables": [
+            "",
+            "sell",
+            "combined"
+          ]
+        },
+        {
+          "name": "calc sizes",
+          "params": [],
+          "local_variables": [
+            "pdiv",
+            "pdiv",
+            "exp",
+            "sell",
+            "",
+            "sell",
+            "",
+            "sell",
+            "",
+            "",
+            "sell"
+          ]
+        },
+        {
+          "name": "calc prices",
+          "params": [],
+          "local_variables": [
+            "pong",
+            "trades",
+            "trades sell",
+            "",
+            "qty",
+            "sell qty",
+            "ping",
+            "sell ping",
+            "ping",
+            "ping",
+            "sell ping",
+            ""
+          ]
+        },
+        {
+          "name": "match ping",
+          "params": [
+            "trades",
+            "ping",
+            "qty",
+            "qty",
+            "",
+            "reverse"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "match ping",
+          "params": [
+            "trades",
+            "ping",
+            "qty",
+            "qty",
+            "",
+            "reverse"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "match ping",
+          "params": [
+            "trades",
+            "ping",
+            "qty",
+            "qty",
+            "",
+            "reverse"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "match ping",
+          "params": [
+            "trades",
+            "ping",
+            "qty",
+            "qty",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "match ping",
+          "params": [
+            "",
+            "",
+            "trades",
+            "ping",
+            "qty",
+            "qty",
+            "",
+            "reverse"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "match ping",
+          "params": [
+            "",
+            "",
+            "ping",
+            "qty",
+            "qty",
+            "",
+            "",
+            "price",
+            "qty trade",
+            "price trade",
+            "kqty trade",
+            "reverse"
+          ],
+          "local_variables": [
+            "qty",
+            "qty"
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "calc target pos",
+          "params": [],
+          "local_variables": [
+            "target position"
+          ]
+        },
+        {
+          "name": "calc div",
+          "params": [],
+          "local_variables": [
+            "div",
+            "div",
+            "div center",
+            "position divergence",
+            "position divergence",
+            "position divergence",
+            "position divergence",
+            "position divergence",
+            "position divergence"
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "target position",
+            "position divergence"
+          ]
+        },
+        {
+          "name": "calc funds",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc funds order",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc funds silently",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "quote"
+          ]
+        },
+        {
+          "name": "calc",
+          "params": [],
+          "local_variables": [
+            "",
+            "quote"
+          ]
+        },
+        {
+          "name": "calc profits",
+          "params": [],
+          "local_variables": [
+            "profit",
+            "quote profit"
+          ]
+        },
+        {
+          "name": "calc funds",
+          "params": [],
+          "local_variables": [
+            "",
+            "quote",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "calc raw quotes",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "quoting",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "trades",
+          "params": [],
+          "local_variables": [
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "ewma protection",
+          "params": [],
+          "local_variables": [
+            "price",
+            "bid price"
+          ]
+        },
+        {
+          "name": "position",
+          "params": [],
+          "local_variables": [
+            "apr",
+            "bid",
+            "apr",
+            "",
+            "apr"
+          ]
+        },
+        {
+          "name": "stdev protection",
+          "params": [],
+          "local_variables": [
+            "price",
+            "bid price"
+          ]
+        },
+        {
+          "name": "aggressive position rebalancing",
+          "params": [],
+          "local_variables": [
+            "pong",
+            "sell pong",
+            "pong",
+            "price",
+            "pong",
+            "bid price",
+            "bid pong"
+          ]
+        },
+        {
+          "name": "increment",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "",
+            "depth",
+            "",
+            "",
+            "",
+            "bid",
+            "price",
+            "depth",
+            "bid price"
+          ]
+        },
+        {
+          "name": "trades minute",
+          "params": [],
+          "local_variables": [
+            "factor"
+          ]
+        },
+        {
+          "name": "price",
+          "params": [],
+          "local_variables": [
+            "bid price",
+            "price"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "bid",
+            "bid",
+            "",
+            "",
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "depleted",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ping",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ewma trend protection",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "raw"
+          ],
+          "local_variables": [
+            "green gateway"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "gateway admin agreement"
+          ]
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            "green"
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "ready",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc quotes",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "nuke",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "quit",
+          "params": [],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "json",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "rawdata"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "timer",
+          "params": [
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "quit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "calc quotes",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "stdev",
+          "attributes": [
+            "",
+            "bid",
+            ""
+          ]
+        },
+        {
+          "name": "profit",
+          "attributes": [
+            "",
+            "quote",
+            ""
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "notepad",
+            "",
+            "",
+            "",
+            "clean trades",
+            "clean trades",
+            "clean trade"
+          ]
+        },
+        {
+          "name": "trade",
+          "attributes": [
+            "price",
+            "quantity",
+            ""
+          ]
+        },
+        {
+          "name": "trades",
+          "attributes": [
+            "",
+            "buys",
+            "sells",
+            "buys",
+            "sells",
+            "price",
+            "sell price",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "trading bot"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "trading bot",
+        "",
+        "",
+        "orders",
+        "orders",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trading bot"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        "rand",
+        "",
+        "order",
+        "",
+        "fair history",
+        "",
+        "",
+        "rand",
+        "",
+        "order",
+        "trade",
+        "loglines",
+        "expected delta",
+        "expected quote delta",
+        "sign",
+        "order",
+        "",
+        "actual delta",
+        "actual quote delta",
+        "expected delta",
+        "actual delta",
+        "trade",
+        "delta"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

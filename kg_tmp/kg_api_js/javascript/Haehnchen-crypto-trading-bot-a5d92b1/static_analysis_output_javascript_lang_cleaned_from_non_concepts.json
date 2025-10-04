@@ -1,0 +1,4974 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "commander",
+        "trade",
+        "",
+        "backfill",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "program",
+        "trade command",
+        "command",
+        "backfill",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dist trade"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dist trade binance futures"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dist trade binance futures coin"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dist trade binance margin"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "margusdc",
+        "margbusd",
+        "margusdt",
+        "margbtc",
+        "margeth",
+        "margdoge"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dist trade bybit"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trade"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candlestick"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange candlestick"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange order"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange position"
+    },
+    {
+      "imports": [
+        "position"
+      ]
+    },
+    {
+      "global_variables": [
+        "position"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order"
+    },
+    {
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "orderbook"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order capital"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pair"
+    },
+    {
+      "imports": [
+        "order",
+        "order capital",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "order",
+        "order capital",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "period"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "position"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "signal"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "single target"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "loss"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ticker"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candlestick event"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange orders event"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange order event"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "orderbook event"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order event"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "position event"
+    },
+    {
+      "imports": [
+        "exchange position"
+      ]
+    },
+    {
+      "global_variables": [
+        "exchange position"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ticker event"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "binance"
+    },
+    {
+      "imports": [
+        "binance node",
+        "moment",
+        "lodash",
+        "exchange candlestick",
+        "ticker",
+        "ticker event",
+        "exchange order",
+        "order",
+        "position",
+        "order",
+        "order bag",
+        "trades"
+      ]
+    },
+    {
+      "global_variables": [
+        "binance",
+        "moment",
+        "",
+        "exchange candlestick",
+        "ticker",
+        "ticker event",
+        "exchange order",
+        "order",
+        "position",
+        "order",
+        "order bag",
+        "trades"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "binance futures"
+    },
+    {
+      "imports": [
+        "",
+        "ccxt",
+        "moment",
+        "lodash",
+        "querystring",
+        "",
+        "candlestick",
+        "ticker",
+        "order",
+        "ticker event",
+        "exchange candlestick",
+        "position",
+        "ccxt exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "web",
+        "ccxt",
+        "moment",
+        "",
+        "querystring",
+        "",
+        "candlestick",
+        "ticker",
+        "order",
+        "ticker event",
+        "exchange candlestick",
+        "position",
+        "ccxt exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "binance futures coin"
+    },
+    {
+      "imports": [
+        "",
+        "ccxt",
+        "moment",
+        "lodash",
+        "querystring",
+        "",
+        "candlestick",
+        "ticker",
+        "order",
+        "ticker event",
+        "exchange candlestick",
+        "position",
+        "ccxt exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "web",
+        "ccxt",
+        "moment",
+        "",
+        "querystring",
+        "",
+        "candlestick",
+        "ticker",
+        "order",
+        "ticker event",
+        "exchange candlestick",
+        "position",
+        "ccxt exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "binance margin"
+    },
+    {
+      "imports": [
+        "binance node",
+        "moment",
+        "lodash",
+        "binance",
+        "exchange candlestick",
+        "ticker",
+        "ticker event",
+        "exchange order",
+        "order",
+        "trades",
+        "position",
+        "order",
+        "order bag"
+      ]
+    },
+    {
+      "global_variables": [
+        "binance",
+        "moment",
+        "",
+        "binance",
+        "exchange candlestick",
+        "ticker",
+        "ticker event",
+        "exchange order",
+        "order",
+        "trades",
+        "position",
+        "order",
+        "order bag"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bitfinex"
+    },
+    {
+      "imports": [
+        "bitfinex node",
+        "bfx node models",
+        "moment",
+        "lodash",
+        "exchange candlestick",
+        "ticker",
+        "position",
+        "ticker event",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "bfx",
+        "moment",
+        "",
+        "exchange candlestick",
+        "ticker",
+        "position",
+        "ticker event",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bitmex"
+    },
+    {
+      "imports": [
+        "moment",
+        "",
+        "crypto",
+        "bitmex realtime",
+        "lodash",
+        "querystring",
+        "candlestick",
+        "ticker",
+        "exchange candlestick",
+        "ticker event",
+        "resample",
+        "position",
+        "order",
+        "exchange order",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "",
+        "crypto",
+        "bit mex",
+        "",
+        "querystring",
+        "candlestick",
+        "ticker",
+        "exchange candlestick",
+        "ticker event",
+        "resample",
+        "position",
+        "order",
+        "exchange order",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bitmex testnet"
+    },
+    {
+      "imports": [
+        "bitmex"
+      ]
+    },
+    {
+      "global_variables": [
+        "bitmex"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bybit"
+    },
+    {
+      "imports": [
+        "",
+        "querystring",
+        "moment",
+        "",
+        "crypto",
+        "lodash",
+        "ticker",
+        "ticker event",
+        "order",
+        "exchange candlestick",
+        "resample",
+        "position",
+        "exchange order",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "web",
+        "querystring",
+        "moment",
+        "",
+        "crypto",
+        "",
+        "ticker",
+        "ticker event",
+        "order",
+        "exchange candlestick",
+        "resample",
+        "position",
+        "exchange order",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bybit unified"
+    },
+    {
+      "imports": [
+        "moment",
+        "ccxt",
+        "ticker",
+        "ticker event",
+        "exchange candlestick",
+        "position",
+        "common",
+        "exchange order",
+        "order bag",
+        "order",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "ccxtpro",
+        "ticker",
+        "ticker event",
+        "exchange candlestick",
+        "position",
+        "common",
+        "exchange order",
+        "order bag",
+        "order",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ccxt exchange order"
+    },
+    {
+      "imports": [
+        "ccxt",
+        "lodash",
+        "order bag",
+        "order",
+        "exchange order",
+        "ccxt"
+      ]
+    },
+    {
+      "global_variables": [
+        "ccxt",
+        "",
+        "order bag",
+        "order",
+        "exchange order",
+        "ccxt"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "coinbase pro"
+    },
+    {
+      "imports": [
+        "coinbase pro",
+        "moment",
+        "exchange candlestick",
+        "ticker",
+        "ticker event",
+        "order",
+        "resample",
+        "candles trades",
+        "exchange order",
+        "position",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "gdax",
+        "moment",
+        "exchange candlestick",
+        "ticker",
+        "ticker event",
+        "order",
+        "resample",
+        "candles trades",
+        "exchange order",
+        "position",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "noop"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candles trades"
+    },
+    {
+      "imports": [
+        "exchange candlestick"
+      ]
+    },
+    {
+      "global_variables": [
+        "exchange candlestick"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ccxt"
+    },
+    {
+      "imports": [
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order bag"
+    },
+    {
+      "imports": [
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trades"
+    },
+    {
+      "imports": [
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "position trades",
+          "params": [
+            "trades",
+            "balance",
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backfill"
+    },
+    {
+      "imports": [
+        "moment",
+        "lodash",
+        "exchange candlestick"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "",
+        "exchange candlestick"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtest"
+    },
+    {
+      "imports": [
+        "moment",
+        "lodash",
+        "strategy manager",
+        "resample",
+        "common"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "",
+        "strategy manager",
+        "resample",
+        "common"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange candle combine"
+    },
+    {
+      "imports": [
+        "candlestick"
+      ]
+    },
+    {
+      "global_variables": [
+        "candlestick"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange manager"
+    },
+    {
+      "imports": [
+        "lodash",
+        "exchange position"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "exchange position"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange position"
+    },
+    {
+      "imports": [
+        "lodash",
+        "position event"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "position event"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "compression",
+        "express",
+        "twig",
+        "basic",
+        "",
+        "crypto",
+        "moment",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "compression",
+        "express",
+        "twig",
+        "",
+        "",
+        "crypto",
+        "moment",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order"
+    },
+    {
+      "imports": [
+        "candlestick",
+        "technical analysis"
+      ]
+    },
+    {
+      "global_variables": [
+        "candlestick",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange order watchdog"
+    },
+    {
+      "imports": [
+        "order",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "order",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ticker database"
+    },
+    {
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tick"
+    },
+    {
+      "imports": [
+        "moment",
+        "lodash",
+        "strategy",
+        "order",
+        "order capital"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "",
+        "strategy",
+        "order",
+        "order capital"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "strategy interval",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order calculator"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order executor"
+    },
+    {
+      "imports": [
+        "lodash",
+        "moment",
+        "order",
+        "pair",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "moment",
+        "order",
+        "pair",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "visit exchange order",
+          "params": [
+            "pair"
+          ],
+          "local_variables": [
+            "exchange",
+            "exchange order",
+            "price",
+            "exchange order",
+            "order",
+            "order",
+            "",
+            "order",
+            "exchange order"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "risk reward ratio calculator"
+    },
+    {
+      "imports": [
+        "order",
+        "exchange order",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "order",
+        "exchange order",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "loss calculator"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "orders"
+    },
+    {
+      "imports": [
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pairs"
+    },
+    {
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pair"
+    },
+    {
+      "imports": [
+        "lodash",
+        "order capital"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "order capital"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pair interval"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pair execution"
+    },
+    {
+      "imports": [
+        "moment",
+        "order",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "order",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pair manager"
+    },
+    {
+      "imports": [
+        "pair",
+        "order capital",
+        "pair interval"
+      ]
+    },
+    {
+      "global_variables": [
+        "pair",
+        "order capital",
+        "pair interval"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candlestick repository"
+    },
+    {
+      "imports": [
+        "candlestick"
+      ]
+    },
+    {
+      "global_variables": [
+        "candlestick"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "repository"
+    },
+    {
+      "imports": [
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "signal repository"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ticker repository"
+    },
+    {
+      "imports": [
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ticker repository"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "events",
+        "winston",
+        "lodash",
+        "sqlite",
+        "notify",
+        "slack",
+        "mail",
+        "telegram",
+        "tickers",
+        "",
+        "tick",
+        "order",
+        "ticker database",
+        "exchange order watchdog",
+        "exchange position",
+        "signal",
+        "signal",
+        "signal repository",
+        "candlestick repository",
+        "strategy manager",
+        "exchange manager",
+        "trade",
+        "",
+        "backtest",
+        "backfill",
+        "loss calculator",
+        "risk reward ratio calculator",
+        "pairs",
+        "order executor",
+        "order calculator",
+        "pair manager",
+        "pair execution",
+        "pair",
+        "system",
+        "technical analysis",
+        "winston sqlite transport",
+        "winston telegram",
+        "",
+        "repository",
+        "ticker repository",
+        "ticker repository",
+        "candlestick resample",
+        "",
+        "throttler",
+        "queue",
+        "bitmex",
+        "bitmex testnet",
+        "binance",
+        "binance margin",
+        "binance futures",
+        "binance futures coin",
+        "coinbase pro",
+        "bitfinex",
+        "bybit",
+        "bybit unified",
+        "noop",
+        "exchange candle combine",
+        "candle",
+        "candle importer",
+        "orders",
+        "nodemailer",
+        "telegraf"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "events",
+        "",
+        "sqlite",
+        "notify",
+        "slack",
+        "mail",
+        "telegram",
+        "tickers",
+        "",
+        "tick",
+        "order",
+        "ticker database",
+        "exchange order watchdog",
+        "exchange position",
+        "signal",
+        "signal",
+        "signal repository",
+        "candlestick repository",
+        "strategy manager",
+        "exchange manager",
+        "trade",
+        "",
+        "backtest",
+        "backfill",
+        "loss calculator",
+        "risk reward ratio calculator",
+        "pairs",
+        "order executor",
+        "order calculator",
+        "pair manager",
+        "pair execution",
+        "pair",
+        "system",
+        "technical analysis",
+        "winston sqlite transport",
+        "winston telegram",
+        "",
+        "repository",
+        "ticker repository",
+        "ticker repository",
+        "candlestick resample",
+        "",
+        "throttler",
+        "queue",
+        "bitmex",
+        "bitmex testnet",
+        "binance",
+        "binance margin",
+        "binance futures",
+        "binance futures coin",
+        "coinbase pro",
+        "bitfinex",
+        "bybit",
+        "bybit unified",
+        "noop",
+        "exchange candle combine",
+        "candle",
+        "candle importer",
+        "orders",
+        "",
+        "",
+        "",
+        "",
+        "event emitter",
+        "",
+        "notify",
+        "tickers",
+        "queue",
+        "candle stick importer",
+        "ticker database",
+        "tick",
+        "order",
+        "exchange order watchdog",
+        "signal",
+        "signal",
+        "signal repository",
+        "candlestick repository",
+        "exchange manager",
+        "backtest",
+        "pair manager",
+        "pair execution",
+        "strategy manager",
+        "loss calculator",
+        "risk reward ratio calculator",
+        "pairs",
+        "order executor",
+        "order calculator",
+        "system",
+        "technical analysis",
+        "",
+        "repository",
+        "ticker repository",
+        "candlestick resample",
+        "exchanges",
+        "",
+        "exchange candle combine",
+        "candle",
+        "exchange position",
+        "ticker repository",
+        "orders",
+        "pair",
+        "throttler",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "boot",
+          "params": [
+            "project"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "database",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "backtest",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "loss calculator",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "risk reward ratio calculator",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "candle importer",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "order",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "tick",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "exchange order watchdog",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ticker database",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "signal",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "signal",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "signal repository",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "candlestick repository",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "event emitter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "notifier",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "tickers",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "strategy manager",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "webserver",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "exchange manager",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "order executor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "order calculator",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "pairs",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "pair",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "pair manager",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "pair execution",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "system",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "technical analysis",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "repository",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ticker repository",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "ticker repository",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "candlestick resample",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "queue",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "candle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "orders",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "exchange candle combine",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "exchange position",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "throttler",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "exchanges",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "trade",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "backfill",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "mailer",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "telegram",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "signal"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "signal"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicator"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicator period"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "signal"
+    },
+    {
+      "imports": [
+        "lodash",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "awesome oscillator cross"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cci"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cci macd"
+    },
+    {
+      "imports": [
+        "signal",
+        "technical analysis"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dca dipper"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "dip catcher"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "macd"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "noop"
+    },
+    {
+      "imports": [
+        "technicalindicators",
+        "technical analysis",
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "obv pump dump"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "parabolicsar"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pivot reversal strategy"
+    },
+    {
+      "imports": [
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trader"
+    },
+    {
+      "imports": [
+        "technicalindicators",
+        "technicalindicators",
+        "technicalindicators",
+        "technicalindicators",
+        "technicalindicators",
+        "signal",
+        "technical analysis",
+        "technical pattern",
+        "resample",
+        "technical analysis"
+      ]
+    },
+    {
+      "global_variables": [
+        "signal",
+        "",
+        "technical pattern",
+        "resample",
+        "technical analysis"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy manager"
+    },
+    {
+      "imports": [
+        "",
+        "path",
+        "lodash",
+        "indicator",
+        "indicator period",
+        "technical analysis",
+        "resample",
+        "common",
+        "strategy",
+        "ticker",
+        "signal",
+        "position"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "path",
+        "",
+        "indicator",
+        "indicator period",
+        "",
+        "resample",
+        "common",
+        "strategy",
+        "ticker",
+        "signal",
+        "position"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "recursive sync",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candlestick resample"
+    },
+    {
+      "imports": [
+        "resample",
+        "exchange candlestick"
+      ]
+    },
+    {
+      "global_variables": [
+        "resample",
+        "exchange candlestick"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candle"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candle importer"
+    },
+    {
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "system"
+    },
+    {
+      "imports": [
+        "lodash"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "moment",
+        "technical analysis",
+        "ticker"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "",
+        "ticker"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trade"
+    },
+    {
+      "imports": [
+        "moment",
+        "crypto",
+        "",
+        "position event"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment",
+        "crypto",
+        "",
+        "position event"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "mail"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "notify"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "slack"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "telegram"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tickers"
+    },
+    {
+      "imports": [
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "common"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "profit percent",
+          "params": [
+            "",
+            "current price",
+            "price"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "camel snake",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicators"
+    },
+    {
+      "imports": [
+        "tulind",
+        "talib",
+        "percent",
+        "technicalindicators",
+        "technicalindicators",
+        "technicalindicators",
+        "technical analysis",
+        "technicalindicators",
+        "technical analysis",
+        "technicalindicators",
+        "technical analysis",
+        "technical analysis"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind",
+        "talib",
+        "percent",
+        "source candle"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "zigzag",
+          "params": [
+            "ticks"
+          ],
+          "local_variables": [
+            "",
+            "price",
+            "deviation",
+            "tick",
+            "",
+            "",
+            "",
+            "",
+            "positive deviation",
+            "negative deviation",
+            "zigzag",
+            "",
+            "",
+            "",
+            "",
+            "distance",
+            "distance",
+            "",
+            "current deviation"
+          ]
+        },
+        {
+          "name": "tulind indicator",
+          "params": [
+            "source",
+            "indicator",
+            "tulind"
+          ],
+          "local_variables": [
+            "indicator",
+            "indicator",
+            "",
+            "record"
+          ]
+        },
+        {
+          "name": "",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "obv",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "wma",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "dema",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "tema",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "trima",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "kama",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "roc",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "atr",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "mfi",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sma",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ema",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "rsi",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "hma",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "cci",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "vwma",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "stoch",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "macd",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "adx",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "macd ext",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "talib",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "stoch rsi",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "psar",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "heikin ashi",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "volume profile",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "volume price",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "zigzag",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ichimoku cloud",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "pivot",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "wicked",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "candles",
+          "params": [
+            "source",
+            "indicator"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "binance usd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance busd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance bnb",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance btc",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance eth",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance spot usd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance spot busd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance spot bnb",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance spot btc",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance spot eth",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binancecross margin pairs usd",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "binancecross margin pairs busd",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "binancecross margin pairs bnb",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "binancecross margin pairs btc",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "binancecross margin pairs eth",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "binance margin usd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance margin busd",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance margin btc",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance margin eth",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "bitmex",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance futures",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "binance futures coin",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "bybit linear coin",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "bitfinex usd margin",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "bybit",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order"
+    },
+    {
+      "imports": [
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "exchange order"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "calculate order",
+          "params": [
+            "price",
+            "capital"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sync order",
+          "params": [
+            "position",
+            "orders",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sync loss order",
+          "params": [
+            "position",
+            "orders"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "sync trailing loss order",
+          "params": [
+            "position",
+            "orders"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calculate nearest",
+          "params": [
+            "",
+            "tick"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "percent",
+          "params": [
+            "",
+            "",
+            "percent diff"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "percent",
+          "params": [
+            "order price",
+            "current price"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "queue"
+    },
+    {
+      "imports": [
+        "queue promise"
+      ]
+    },
+    {
+      "global_variables": [
+        "queue"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "resample"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "resample minutes",
+          "params": [
+            "lookback",
+            "minutes"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "convert period minute",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "convert minute period",
+          "params": [
+            "period"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "technical analysis"
+    },
+    {
+      "imports": [
+        "tulind",
+        "indicators",
+        "indicator"
+      ]
+    },
+    {
+      "global_variables": [
+        "tulind",
+        "indicators",
+        "indicator"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "bollinger band percent",
+          "params": [
+            "current price",
+            "upper",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "percent trend strength",
+          "params": [
+            "lookback prices"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "candles market",
+          "params": [
+            "candles"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "predefined indicators",
+          "params": [
+            "lookbacks"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "calculate ready indicators",
+          "params": [
+            "indicators",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "indicators lookback",
+          "params": [
+            "lookbacks",
+            "indicators"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "trending direction",
+          "params": [
+            "lookbacks"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "trending direction",
+          "params": [
+            "lookbacks"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "crossed",
+          "params": [
+            "lookbacks"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "pivot",
+          "params": [
+            "prices",
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "pivot wicks",
+          "params": [
+            "candles",
+            "",
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "technical analysis"
+    },
+    {
+      "imports": [
+        "resample"
+      ]
+    },
+    {
+      "global_variables": [
+        "resample"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "technical pattern"
+    },
+    {
+      "imports": [
+        "technicalindicators"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "volume pump",
+          "params": [
+            "candles"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "throttler"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "winston sqlite transport"
+    },
+    {
+      "imports": [
+        "winston transport"
+      ]
+    },
+    {
+      "global_variables": [
+        "transport"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "deploy"
+    },
+    {
+      "imports": [
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order"
+    },
+    {
+      "imports": [
+        "",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "binance"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "binance",
+        "order",
+        "position",
+        "ticker",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "binance",
+        "order",
+        "position",
+        "ticker",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "event",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "orders",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "binance futures"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "binance futures",
+        "position"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "binance futures",
+        "position"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "json fixture",
+          "params": [
+            "filename"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "binance margin"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "moment",
+        "binance margin",
+        "ticker",
+        "order",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "moment",
+        "binance margin",
+        "ticker",
+        "order",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "fixtures",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bitfinex"
+    },
+    {
+      "imports": [
+        "",
+        "bfx node models",
+        "",
+        "bitfinex",
+        "order",
+        "exchange order",
+        "ticker"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "bitfinex",
+        "order",
+        "exchange order",
+        "ticker",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "filename"
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bitmex"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "bitmex",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "bitmex",
+        "order"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "filename"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "bybit"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "bybit",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "bybit",
+        "order"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "filename"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "coinbase pro"
+    },
+    {
+      "imports": [
+        "",
+        "coinbase pro",
+        "ticker",
+        "order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "coinbase pro",
+        "ticker",
+        "order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order bag"
+    },
+    {
+      "imports": [
+        "",
+        "order bag",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "order bag",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trades"
+    },
+    {
+      "imports": [
+        "",
+        "trades",
+        "moment"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "trades",
+        "moment"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange candle combine"
+    },
+    {
+      "imports": [
+        "",
+        "exchange candle combine",
+        "candlestick"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "exchange candle combine",
+        "candlestick"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange manager"
+    },
+    {
+      "imports": [
+        "",
+        "exchange manager",
+        "noop",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "exchange manager",
+        "noop",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange position"
+    },
+    {
+      "imports": [
+        "",
+        "exchange position",
+        "exchange position",
+        "position event",
+        "position"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "exchange position",
+        "exchange position",
+        "position event",
+        "position"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exchange order watchdog"
+    },
+    {
+      "imports": [
+        "",
+        "exchange order watchdog",
+        "ticker",
+        "loss calculator",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "exchange order watchdog",
+        "ticker",
+        "loss calculator",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tick"
+    },
+    {
+      "imports": [
+        "",
+        "tick",
+        "ticker",
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "tick",
+        "ticker",
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order calculator"
+    },
+    {
+      "imports": [
+        "",
+        "order calculator",
+        "pair"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "order calculator",
+        "pair"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order executor"
+    },
+    {
+      "imports": [
+        "",
+        "moment",
+        "order executor",
+        "order",
+        "pair",
+        "ticker",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "moment",
+        "order executor",
+        "order",
+        "pair",
+        "ticker",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "risk reward ratio calculator"
+    },
+    {
+      "imports": [
+        "",
+        "risk reward ratio calculator",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "risk reward ratio calculator",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "loss calculator"
+    },
+    {
+      "imports": [
+        "",
+        "loss calculator",
+        "position",
+        "ticker",
+        "tickers"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "loss calculator",
+        "position",
+        "ticker",
+        "tickers"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pair execution"
+    },
+    {
+      "imports": [
+        "",
+        "pair execution",
+        "exchange order",
+        "position",
+        "pair",
+        "order capital"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "pair execution",
+        "exchange order",
+        "position",
+        "pair",
+        "order capital"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pair manager"
+    },
+    {
+      "imports": [
+        "",
+        "pair manager",
+        "exchange order",
+        "order",
+        "order capital"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "pair manager",
+        "exchange order",
+        "order",
+        "order capital"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "indicator period"
+    },
+    {
+      "imports": [
+        "",
+        "indicator period"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "indicator period"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "signal"
+    },
+    {
+      "imports": [
+        "",
+        "signal"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "signal"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "awesome oscillator cross"
+    },
+    {
+      "imports": [
+        "",
+        "awesome oscillator cross",
+        "indicator",
+        "indicator period",
+        "strategy",
+        "ticker"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "awesome oscillator cross",
+        "indicator",
+        "indicator period",
+        "strategy",
+        "ticker"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "strategy",
+          "params": [
+            "price"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "cci"
+    },
+    {
+      "imports": [
+        "",
+        "cci",
+        "indicator",
+        "indicator period",
+        "strategy",
+        "ticker"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "cci",
+        "indicator",
+        "indicator period",
+        "strategy",
+        "ticker"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "strategy",
+          "params": [
+            "price"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "obv pump dump"
+    },
+    {
+      "imports": [
+        "",
+        "obv pump dump",
+        "indicator",
+        "indicator period",
+        "strategy",
+        "ticker"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "obv pump dump",
+        "indicator",
+        "indicator period",
+        "strategy",
+        "ticker"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "strategy",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "strategy manager"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "strategy manager",
+        "strategy",
+        "technical analysis",
+        "ticker"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "strategy manager",
+        "strategy",
+        "technical analysis",
+        "ticker"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "candlestick repository",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "candle fixtures",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "strategy",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "technical analysis",
+          "params": [],
+          "local_variables": [
+            "technical analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tickers"
+    },
+    {
+      "imports": [
+        "",
+        "moment",
+        "tickers",
+        "ticker"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "moment",
+        "tickers",
+        "ticker"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "system"
+    },
+    {
+      "imports": [
+        "",
+        "system"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "system"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "order"
+    },
+    {
+      "imports": [
+        "",
+        "order",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "order",
+        "position",
+        "exchange order"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "resample"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "resample"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "resample"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "candle fixtures",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "technical analysis"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "technical analysis"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "candle fixtures",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "technical analysis"
+    },
+    {
+      "imports": [
+        "",
+        "moment",
+        "technical analysis"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "moment",
+        "technical analysis"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "technical pattern"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "technical pattern"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "technical pattern"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "candle fixtures",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "adminlte"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "card",
+        "card",
+        "control",
+        "direct chat",
+        "",
+        "layout",
+        "",
+        "toasts",
+        "",
+        "treeview"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "adminlte"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtest"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "backtest"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "orders"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pairs"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "trades"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

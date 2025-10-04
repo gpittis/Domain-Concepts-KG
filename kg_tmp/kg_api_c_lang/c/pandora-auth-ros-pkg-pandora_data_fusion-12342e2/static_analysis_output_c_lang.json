@@ -1,0 +1,1991 @@
+[
+  [
+    {
+      "file": "pose_finder.h.xml"
+    },
+    {
+      "imports": [
+        "<utility>",
+        "<vector>",
+        "<string>",
+        "<boost/utility.hpp>",
+        "<boost/array.hpp>",
+        "<boost/shared_ptr.hpp>",
+        "<geometry_msgs/Point.h>",
+        "<geometry_msgs/Quaternion.h>",
+        "<geometry_msgs/Pose.h>",
+        "<tf/LinearMath/Vector3.h>",
+        "<tf/LinearMath/Transform.h>",
+        "<nav_msgs/OccupancyGrid.h>",
+        "\"pandora_data_fusion_utils/defines.h\"",
+        "\"pandora_data_fusion_utils/tf_finder.h\"",
+        "\"pandora_data_fusion_utils/tf_listener.h\"",
+        "\"pandora_data_fusion_utils/utils.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pose_finder",
+        "PoseFinder",
+        "PoseFinder",
+        "calcHeight",
+        "mapPtr_",
+        "ORIENTATION_CIRCLE",
+        "HEIGHT_HIGH_THRES",
+        "HEIGHT_LOW_THRES",
+        "OCCUPIED_CELL_THRES",
+        "PoseFinderTest"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "updateMap",
+          "params": [
+            "mapPtr"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "updateParams",
+          "params": [
+            "occupiedCellThres",
+            "heightHighThres",
+            "heightLowThres",
+            "orientationCircle"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "clusterer.h.xml"
+    },
+    {
+      "imports": [
+        "<boost/shared_ptr.hpp>",
+        "\"pandora_sensor_processing/utils.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_sensor_processing",
+        "Clusterer"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "co2_processor.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<limits>",
+        "\"pandora_sensor_msgs/Co2Msg.h\"",
+        "\"pandora_sensor_processing/utils.h\"",
+        "\"pandora_sensor_processing/sensor_processor.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_sensor_processing",
+        "Co2Processor"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sensor_processor.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<boost/algorithm/string.hpp>",
+        "<ros/ros.h>",
+        "<dynamic_reconfigure/server.h>",
+        "\"state_manager/state_client.h\"",
+        "\"pandora_common_msgs/GeneralAlert.h\"",
+        "\"pandora_common_msgs/GeneralAlertInfo.h\"",
+        "\"pandora_common_msgs/GeneralAlertVector.h\"",
+        "\"pandora_sensor_processing/SensorProcessingConfig.h\"",
+        "\"pandora_sensor_processing/sensor_processor.hxx\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_sensor_processing",
+        "SensorProcessor",
+        "private",
+        "boost",
+        "noncopyable",
+        "working_",
+        "EXPLORATION_STATE",
+        "IDENTIFICATION_STATE",
+        "SENSOR_HOLD_STATE"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "startTransition",
+          "params": [
+            "newState"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "completeTransition",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "publishAlert",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "toggleSubscriber",
+          "params": [
+            "toWork"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "thermal_processor.h.xml"
+    },
+    {
+      "imports": [
+        "<map>",
+        "<string>",
+        "\"sensor_msgs/Image.h\"",
+        "\"pandora_sensor_processing/clusterer.h\"",
+        "\"pandora_sensor_processing/sensor_processor.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_sensor_processing",
+        "ThermalProcessor"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "utils.h.xml"
+    },
+    {
+      "imports": [
+        "<utility>",
+        "<vector>",
+        "<cmath>",
+        "<stdexcept>",
+        "<boost/math/constants/constants.hpp>",
+        "<boost/utility.hpp>",
+        "<Eigen/Dense>"
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_sensor_processing",
+        "Utils"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "defines.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<cmath>",
+        "<boost/math/constants/constants.hpp>",
+        "<geometry_msgs/PoseStamped.h>",
+        "<nav_msgs/OccupancyGrid.h>"
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "exceptions.h.xml"
+    },
+    {
+      "imports": [
+        "<stdexcept>",
+        "<string>"
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_data_fusion_utils",
+        "TfException",
+        "AlertException",
+        "MapException",
+        "ObstacleTypeException"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tf_finder.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<boost/utility.hpp>",
+        "\"pandora_data_fusion_utils/exceptions.h\"",
+        "\"pandora_data_fusion_utils/defines.h\"",
+        "\"pandora_data_fusion_utils/tf_listener.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_data_fusion_utils",
+        "TfFinder"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "tf_listener.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<boost/shared_ptr.hpp>",
+        "<ros/ros.h>",
+        "<tf/transform_listener.h>",
+        "\"pandora_data_fusion_utils/utils.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_data_fusion_utils",
+        "TfListener",
+        "waitForTransform",
+        "lookupTransform",
+        "RosTfListener"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "utils.h.xml"
+    },
+    {
+      "imports": [
+        "<utility>",
+        "<cmath>",
+        "<boost/utility.hpp>",
+        "<ros/ros.h>",
+        "<tf/transform_datatypes.h>",
+        "<geometry_msgs/Pose.h>",
+        "<geometry_msgs/Quaternion.h>",
+        "<geometry_msgs/Point.h>",
+        "<tf/LinearMath/Vector3.h>",
+        "\"pandora_data_fusion_utils/exceptions.h\"",
+        "\"pandora_data_fusion_utils/defines.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_data_fusion_utils",
+        "Utils"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "alert_handler.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<boost/utility.hpp>",
+        "<map>",
+        "<ros/ros.h>",
+        "<tf/transform_broadcaster.h>",
+        "<actionlib/client/simple_action_client.h>",
+        "<actionlib/server/simple_action_server.h>",
+        "<dynamic_reconfigure/server.h>",
+        "<nav_msgs/OccupancyGrid.h>",
+        "<std_srvs/Empty.h>",
+        "<std_msgs/Int16.h>",
+        "\"pandora_data_fusion_msgs/WorldModel.h\"",
+        "\"pandora_data_fusion_msgs/VictimInfo.h\"",
+        "\"pandora_data_fusion_msgs/VisitQRAction.h\"",
+        "\"pandora_data_fusion_msgs/ChooseVictimAction.h\"",
+        "\"pandora_data_fusion_msgs/ValidateVictimAction.h\"",
+        "\"pandora_data_fusion_msgs/GetObjects.h\"",
+        "\"pandora_data_fusion_msgs/GetGeotiff.h\"",
+        "\"pandora_data_fusion_msgs/GetMarkers.h\"",
+        "\"pandora_data_fusion_msgs/GetVictimProbabilities.h\"",
+        "\"pandora_data_fusion_msgs/GetWorldModel.h\"",
+        "\"pandora_vision_msgs/HoleDirectionAlertVector.h\"",
+        "\"pandora_vision_msgs/QRAlertVector.h\"",
+        "\"pandora_vision_msgs/HazmatAlertVector.h\"",
+        "\"pandora_vision_msgs/DataMatrixAlertVector.h\"",
+        "\"pandora_vision_msgs/LandoltcAlertVector.h\"",
+        "\"pandora_vision_msgs/ThermalAlertVector.h\"",
+        "\"pandora_common_msgs/GeneralAlertVector.h\"",
+        "\"pandora_data_fusion_utils/defines.h\"",
+        "\"pose_finder/pose_finder.h\"",
+        "\"pandora_alert_handler/AlertHandlerConfig.h\"",
+        "\"pandora_alert_handler/object_lists/object_list.h\"",
+        "\"pandora_alert_handler/object_lists/obstacle_list.h\"",
+        "\"pandora_alert_handler/object_lists/victim_list.h\"",
+        "\"pandora_alert_handler/object_factory.h\"",
+        "\"pandora_alert_handler/handlers/object_handler.h\"",
+        "\"pandora_alert_handler/handlers/victim_handler.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "AlertHandler",
+        "holesVectorPtr"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "object_factory.h.xml"
+    },
+    {
+      "imports": [
+        "<boost/utility.hpp>",
+        "<boost/scoped_ptr.hpp>",
+        "<string>",
+        "<vector>",
+        "<nav_msgs/OccupancyGrid.h>",
+        "\"pandora_vision_msgs/ObstacleAlert.h\"",
+        "\"pose_finder/pose_finder.h\"",
+        "\"pandora_alert_handler/objects/object_interface/base_object.h\"",
+        "\"pandora_alert_handler/objects/objects.h\"",
+        "\"pandora_data_fusion_utils/utils.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "ObjectFactory",
+        "length",
+        "ii",
+        "ii"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "object_handler.h.xml"
+    },
+    {
+      "imports": [
+        "<boost/utility.hpp>",
+        "<boost/scoped_ptr.hpp>",
+        "<std_msgs/Int32.h>",
+        "\"pandora_data_fusion_msgs/QrInfo.h\"",
+        "\"pandora_data_fusion_msgs/ObstacleInfo.h\"",
+        "\"pandora_data_fusion_msgs/WorldModel.h\"",
+        "\"pandora_alert_handler/objects/objects.h\"",
+        "\"pandora_alert_handler/object_lists/object_list.h\"",
+        "\"pandora_alert_handler/object_lists/obstacle_list.h\"",
+        "\"pandora_alert_handler/object_lists/victim_list.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "ObjectHandler",
+        "invalid",
+        "onSoft",
+        "ii",
+        "ii",
+        "ii",
+        "qrCluster",
+        "ii",
+        "obstacleToSend",
+        "obstacleToSendFound"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "victim_clusterer.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "<boost/utility.hpp>",
+        "<boost/scoped_ptr.hpp>",
+        "<ros/ros.h>",
+        "\"pandora_alert_handler/objects/victim.h\"",
+        "\"pandora_data_fusion_utils/defines.h\"",
+        "\"pandora_data_fusion_utils/utils.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "VictimClusterer"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "victim_handler.h.xml"
+    },
+    {
+      "imports": [
+        "<map>",
+        "<string>",
+        "<vector>",
+        "<boost/utility.hpp>",
+        "<boost/scoped_ptr.hpp>",
+        "<ros/ros.h>",
+        "<visualization_msgs/MarkerArray.h>",
+        "\"pandora_data_fusion_msgs/VictimInfo.h\"",
+        "\"pandora_data_fusion_msgs/WorldModel.h\"",
+        "\"pandora_data_fusion_msgs/VictimProbabilities.h\"",
+        "\"pandora_data_fusion_msgs/GetGeotiff.h\"",
+        "\"pandora_data_fusion_msgs/GetVictimProbabilities.h\"",
+        "\"pandora_alert_handler/objects/victim.h\"",
+        "\"pandora_alert_handler/handlers/victim_clusterer.h\"",
+        "\"pandora_alert_handler/object_lists/victim_list.h\"",
+        "\"pandora_data_fusion_utils/defines.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "VictimHandler"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "barrel.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "\"pandora_vision_msgs/ObstacleAlert.h\"",
+        "\"pandora_vision_msgs/ObstacleAlertVector.h\"",
+        "\"pandora_alert_handler/objects/obstacle.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Barrel",
+        "getVisualization",
+        "isSameObject"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "co2.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"pandora_common_msgs/GeneralAlertVector.h\"",
+        "\"pandora_common_msgs/GeneralAlertInfo.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Co2",
+        "getVisualization"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "data_matrix.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "\"pandora_vision_msgs/DataMatrixAlertVector.h\"",
+        "\"pandora_vision_msgs/DataMatrixAlert.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "DataMatrix",
+        "isSameObject",
+        "getVisualization",
+        "setContent"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "hard_obstacle.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "\"pandora_vision_msgs/ObstacleAlert.h\"",
+        "\"pandora_vision_msgs/ObstacleAlertVector.h\"",
+        "\"pandora_alert_handler/objects/obstacle.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "HardObstacle",
+        "getVisualization"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "hazmat.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"pandora_vision_msgs/HazmatAlertVector.h\"",
+        "\"pandora_vision_msgs/HazmatAlert.h\"",
+        "\"pandora_data_fusion_msgs/HazmatInfo.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Hazmat",
+        "isSameObject",
+        "getVisualization",
+        "fillGeotiff",
+        "pattern_"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setPattern",
+          "params": [
+            "pattern"
+          ],
+          "local_variables": [
+            "pattern_"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "hole.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"pandora_vision_msgs/HoleDirectionAlertVector.h\"",
+        "\"pandora_vision_msgs/HoleDirectionAlert.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Hole",
+        "getVisualization",
+        "holeId_"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setHoleId",
+          "params": [
+            "holeId"
+          ],
+          "local_variables": [
+            "holeId_"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "landoltc.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"pandora_vision_msgs/LandoltcAlertVector.h\"",
+        "\"pandora_vision_msgs/LandoltcAlert.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Landoltc",
+        "getVisualization",
+        "setAngles"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "motion.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"pandora_common_msgs/GeneralAlertVector.h\"",
+        "\"pandora_common_msgs/GeneralAlertInfo.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Motion",
+        "getVisualization"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "objects.h.xml"
+    },
+    {
+      "imports": [
+        "\"pandora_alert_handler/objects/hole.h\"",
+        "\"pandora_alert_handler/objects/hazmat.h\"",
+        "\"pandora_alert_handler/objects/qr.h\"",
+        "\"pandora_alert_handler/objects/thermal.h\"",
+        "\"pandora_alert_handler/objects/visual_victim.h\"",
+        "\"pandora_alert_handler/objects/motion.h\"",
+        "\"pandora_alert_handler/objects/sound.h\"",
+        "\"pandora_alert_handler/objects/co2.h\"",
+        "\"pandora_alert_handler/objects/landoltc.h\"",
+        "\"pandora_alert_handler/objects/data_matrix.h\"",
+        "\"pandora_alert_handler/objects/obstacle.h\"",
+        "\"pandora_alert_handler/objects/barrel.h\"",
+        "\"pandora_alert_handler/objects/soft_obstacle.h\"",
+        "\"pandora_alert_handler/objects/hard_obstacle.h\""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "obstacle.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "\"pandora_vision_msgs/ObstacleAlert.h\"",
+        "\"pandora_vision_msgs/ObstacleAlertVector.h\"",
+        "\"pandora_data_fusion_msgs/ObstacleInfo.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Obstacle",
+        "isSameObject",
+        "fillGeotiff",
+        "obstacleType_",
+        "length_",
+        "width_"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "update",
+          "params": [
+            "measurement"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setObstacleType",
+          "params": [
+            "obstacleType"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setLength",
+          "params": [
+            "length"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setWidth",
+          "params": [
+            "width"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "qr.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "\"pandora_vision_msgs/QRAlertVector.h\"",
+        "\"pandora_vision_msgs/QRAlert.h\"",
+        "\"pandora_data_fusion_msgs/QrInfo.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Qr",
+        "isSameObject",
+        "getVisualization",
+        "fillGeotiff",
+        "setContent"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "soft_obstacle.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "\"pandora_vision_msgs/ObstacleAlert.h\"",
+        "\"pandora_vision_msgs/ObstacleAlertVector.h\"",
+        "\"pandora_alert_handler/objects/obstacle.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "SoftObstacle",
+        "getVisualization"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "sound.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "\"pandora_audio_msgs/SoundAlertVector.h\"",
+        "\"pandora_audio_msgs/SoundAlert.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Sound",
+        "getVisualization",
+        "setWords",
+        "appendWord",
+        "doesWordExist"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "update",
+          "params": [
+            "measurement"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "clearWords",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "thermal.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"pandora_vision_msgs/ThermalAlertVector.h\"",
+        "\"pandora_vision_msgs/ThermalAlert.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Thermal",
+        "getVisualization",
+        "temperature_"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setTemperature",
+          "params": [
+            "temperature"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "victim.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<vector>",
+        "\"pandora_data_fusion_msgs/VictimProbabilities.h\"",
+        "\"pandora_alert_handler/objects/object_interface/object.h\"",
+        "\"pandora_alert_handler/objects/objects.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Victim"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "visual_victim.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "\"pandora_common_msgs/GeneralAlertVector.h\"",
+        "\"pandora_common_msgs/GeneralAlertInfo.h\"",
+        "\"pandora_alert_handler/objects/object_interface/kalman_object.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "VisualVictim",
+        "getVisualization"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "setUpObject",
+          "params": [
+            "ptr",
+            "msg"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "object_list.h.xml"
+    },
+    {
+      "imports": [
+        "<list>",
+        "<vector>",
+        "<boost/iterator/iterator_adaptor.hpp>",
+        "\"visualization_msgs/MarkerArray.h\"",
+        "\"pandora_data_fusion_msgs/GetGeotiff.h\"",
+        "\"pandora_alert_handler/objects/object_interface/base_object.h\"",
+        "\"pandora_data_fusion_utils/utils.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "ObjectList",
+        "getAllLegitObjects",
+        "isObjectPoseInList",
+        "getObjectsPosesStamped",
+        "getObjectsTfInfo",
+        "fillGeotiff",
+        "getVisualization",
+        "objects_",
+        "id_",
+        "ObjectListTest",
+        "it",
+        "it",
+        "inRange",
+        "inRange",
+        "iteratorListPtr",
+        "float",
+        "radius",
+        "it",
+        "inRange",
+        "it",
+        "it",
+        "it",
+        "it",
+        "it"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "add",
+          "params": [
+            "object"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "addUnchanged",
+          "params": [
+            "object"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "pop_back",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "clear",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "removeInRangeOfObject",
+          "params": [
+            "object",
+            "range"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "areObjectsNearby",
+          "params": [
+            "object",
+            "iteratorListPtr",
+            "radius"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "isAnExistingObject",
+          "params": [
+            "object",
+            "iteratorListPtr"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "removeElementAt",
+          "params": [
+            "it"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "updateObjects",
+          "params": [
+            "object",
+            "iteratorList"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "obstacle_list.h.xml"
+    },
+    {
+      "imports": [
+        "<list>",
+        "<vector>",
+        "\"pandora_data_fusion_utils/defines.h\"",
+        "\"pandora_data_fusion_utils/utils.h\"",
+        "\"pandora_alert_handler/objects/obstacle.h\"",
+        "\"pandora_alert_handler/objects/soft_obstacle.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "ObstacleList"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "victim_list.h.xml"
+    },
+    {
+      "imports": [
+        "<list>",
+        "<vector>",
+        "<map>",
+        "\"pandora_data_fusion_msgs/WorldModel.h\"",
+        "\"pandora_data_fusion_msgs/VictimInfo.h\"",
+        "\"pandora_data_fusion_utils/defines.h\"",
+        "\"pandora_alert_handler/object_lists/object_list.h\"",
+        "\"pandora_alert_handler/objects/victim.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "VictimList"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "base_object.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<vector>",
+        "<boost/shared_ptr.hpp>",
+        "<geometry_msgs/Pose.h>",
+        "<geometry_msgs/PoseStamped.h>",
+        "<visualization_msgs/MarkerArray.h>",
+        "\"pandora_data_fusion_msgs/GetGeotiff.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "BaseObject",
+        "isSameObject",
+        "fillGeotiff",
+        "getVisualization",
+        "setPose"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "update",
+          "params": [
+            "measurement"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setId",
+          "params": [
+            "id"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setLegit",
+          "params": [
+            "legit"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "setProbability",
+          "params": [
+            "probability"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "filter_model.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<boost/shared_ptr.hpp>",
+        "<bfl/filter/extendedkalmanfilter.h>",
+        "<bfl/model/linearanalyticsystemmodel_gaussianuncertainty.h>",
+        "<bfl/model/linearanalyticmeasurementmodel_gaussianuncertainty.h>",
+        "<bfl/pdf/analyticconditionalgaussian.h>",
+        "<bfl/pdf/linearanalyticconditionalgaussian.h>"
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "FilterModel",
+        "systemPdfPtr_",
+        "systemModelX_",
+        "systemModelY_",
+        "systemModelZ_",
+        "measurementPdfPtrX_",
+        "measurementPdfPtrY_",
+        "measurementPdfPtrZ_",
+        "measurementModelX_",
+        "measurementModelY_",
+        "measurementModelZ_"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "FilterModel",
+          "params": [
+            "system_noise_sd",
+            "measurement_sd"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "initializeSystemModel",
+          "params": [
+            "systemStdDev"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "initializeMeasurementModel",
+          "params": [
+            "measurementStdDev"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "kalman_object.h.xml"
+    },
+    {
+      "imports": [
+        "\"pandora_data_fusion_utils/utils.h\"",
+        "\"pandora_alert_handler/objects/object_interface/object.h\"",
+        "\"pandora_alert_handler/objects/object_interface/filter_model.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "KalmanObject",
+        "priorX_",
+        "priorY_",
+        "priorZ_",
+        "filterX_",
+        "filterY_",
+        "filterZ_",
+        "modelPtr_",
+        "ObjectListTest"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "initializeObjectFilter",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "update",
+          "params": [
+            "measurement"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "getFilterModel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "setFilterModel",
+          "params": [
+            "modelPtr"
+          ],
+          "local_variables": [
+            "modelPtr_"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "object.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<string>",
+        "<boost/lexical_cast.hpp>",
+        "\"pandora_data_fusion_utils/defines.h\"",
+        "\"pandora_alert_handler/objects/object_interface/base_object.h\"",
+        "\"pandora_alert_handler/object_lists/object_list.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "pandora_alert_handler",
+        "Object",
+        "setObjectType",
+        "is3D",
+        "isVictimAlert",
+        "distanceThres_",
+        "orientDiff_",
+        "mergeDistance_",
+        "objectScore_",
+        "probabilityThres_",
+        "listPtr_",
+        "isSameObject",
+        "fillGeotiff",
+        "setGlobalFrame",
+        "setTimeFound",
+        "setPose",
+        "id_",
+        "legit_",
+        "probability_",
+        "ObjectListTest"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "getObjectScore",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "getProbabilityThres",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "getDistanceThres",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "getOrientDiff",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "getMergeDistance",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "getList",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "setDistanceThres",
+          "params": [
+            "distanceThres"
+          ],
+          "local_variables": [
+            "distanceThres_"
+          ]
+        },
+        {
+          "name": "setOrientDiff",
+          "params": [
+            "orientDiff"
+          ],
+          "local_variables": [
+            "orientDiff_"
+          ]
+        },
+        {
+          "name": "setMergeDistance",
+          "params": [
+            "mergeDistance"
+          ],
+          "local_variables": [
+            "mergeDistance_"
+          ]
+        },
+        {
+          "name": "setObjectScore",
+          "params": [
+            "objectScore"
+          ],
+          "local_variables": [
+            "objectScore_"
+          ]
+        },
+        {
+          "name": "setProbabilityThres",
+          "params": [
+            "probabilityThres"
+          ],
+          "local_variables": [
+            "probabilityThres_"
+          ]
+        },
+        {
+          "name": "setList",
+          "params": [
+            "listPtr"
+          ],
+          "local_variables": [
+            "listPtr_"
+          ]
+        },
+        {
+          "name": "update",
+          "params": [
+            "object"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "checkLegit",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "setId",
+          "params": [
+            "id"
+          ],
+          "local_variables": [
+            "id_",
+            "frame_id_"
+          ]
+        },
+        {
+          "name": "setLegit",
+          "params": [
+            "legit"
+          ],
+          "local_variables": [
+            "legit_"
+          ]
+        },
+        {
+          "name": "setProbability",
+          "params": [
+            "probability"
+          ],
+          "local_variables": [
+            "probability_"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "candidate_hole_postprocessor.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "\"sensor_processor/handler.h\"",
+        "\"sensor_processor/postprocessor.h\"",
+        "\"pandora_vision_hole/CandidateHolesVectorMsg.h\"",
+        "\"frame_matcher/points_on_frame.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "CandidateHolePostProcessor"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "enhanced_image_postprocessor.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "\"sensor_processor/handler.h\"",
+        "\"sensor_processor/postprocessor.h\"",
+        "\"pandora_vision_msgs/EnhancedImage.h\"",
+        "\"frame_matcher/points_on_frame.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "EnhancedImagePostProcessor"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "enhanced_image_preprocessor.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "\"sensor_processor/handler.h\"",
+        "\"sensor_processor/preprocessor.h\"",
+        "\"pandora_vision_msgs/EnhancedImage.h\"",
+        "\"frame_matcher/points_on_frame.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "EnhancedImagePreProcessor"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "frame_matcher.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<vector>",
+        "<ros/ros.h>",
+        "\"sensor_processor/dynamic_handler.h\"",
+        "\"sensor_processor/abstract_processor.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "FrameMatcher"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "keypoint_transformer.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<boost/scoped_ptr.hpp>",
+        "<ros/ros.h>",
+        "<opencv2/opencv.hpp>",
+        "<sensor_msgs/Image.h>",
+        "\"pandora_vision_common/pandora_vision_utilities/general_alert_converter.h\"",
+        "\"pandora_vision_common/poi_stamped.h\"",
+        "\"pandora_common_msgs/GeneralAlert.h\"",
+        "\"frame_matcher/view_pose_finder.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "KeypointTransformer",
+        "viewPoseFinderPtr_"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "matcher_processor.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<ros/ros.h>",
+        "<nav_msgs/OccupancyGrid.h>",
+        "<sensor_msgs/Image.h>",
+        "\"sensor_processor/handler.h\"",
+        "\"sensor_processor/processor.h\"",
+        "\"frame_matcher/points_on_frame.h\"",
+        "\"frame_matcher/roi_transformer.h\"",
+        "\"frame_matcher/view_pose_finder.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "MatcherProcessor"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "points_on_frame.h.xml"
+    },
+    {
+      "imports": [
+        "<vector>",
+        "<boost/shared_ptr.hpp>",
+        "<opencv2/opencv.hpp>",
+        "<std_msgs/Header.h>",
+        "<sensor_msgs/Image.h>",
+        "\"pandora_vision_msgs/Keypoint.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "PointsOnFrame"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "roi_transformer.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<vector>",
+        "<boost/scoped_ptr.hpp>",
+        "<opencv2/opencv.hpp>",
+        "<ros/ros.h>",
+        "<sensor_msgs/Image.h>",
+        "\"frame_matcher/keypoint_transformer.h\"",
+        "\"frame_matcher/view_pose_finder.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "RoiTransformer",
+        "transformRegion",
+        "changeIntoOrthogonalBox",
+        "keypointTransformer_"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "view_pose_finder.h.xml"
+    },
+    {
+      "imports": [
+        "<string>",
+        "<boost/shared_ptr.hpp>",
+        "<geometry_msgs/Point.h>",
+        "<tf/LinearMath/Transform.h>",
+        "\"pandora_data_fusion_utils/utils.h\"",
+        "\"pandora_data_fusion_utils/exceptions.h\"",
+        "\"pose_finder/pose_finder.h\""
+      ]
+    },
+    {
+      "global_variables": [
+        "pandora_data_fusion",
+        "frame_matcher",
+        "ViewPoseFinder"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

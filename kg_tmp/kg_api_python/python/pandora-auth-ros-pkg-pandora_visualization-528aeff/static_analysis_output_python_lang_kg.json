@@ -1,0 +1,1695 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "srv",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "future",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion victim",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion hazmat",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion obstacle",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion srv geotiff",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion srv geotiff",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "generate",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "chars",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "random",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "random victim",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "victim",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "random hazmats",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hazmat",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "random obstacle",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_srv_1",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "qrs",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "victims",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hazmats",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "order",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "victim",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "victim",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "victim",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hazmat",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hazmat",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hazmat",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "qrs",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "victims",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hazmats",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "mission",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "future",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora geotiff srv mission",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "std",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "smc",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "mission",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "mission",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "mission",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "mission",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "talker",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy publisher",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "nav occupancy grid",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "nav path",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "geometry pose stamped",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "talker",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "pub",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "pub",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "pub",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "simple map",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "simple map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "simple path",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "simple path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "srv",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "future",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion victim",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion hazmat",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion obstacle",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion srv geotiff",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora fusion srv geotiff",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "generate",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "chars",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "random",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "random obstacle",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_srv_2",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "qrs",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "victims",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hazmats",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "obstacles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "csv",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "future",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora csv srv csv",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "std",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "smc",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "mission",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "mission",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "mission",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "mission",
+      "weight": 0.5,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "srv",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "future",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion victim",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion hazmat",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion obstacle",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion srv geotiff",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion srv geotiff",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "generate",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate",
+      "to": "chars",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "random victim",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "random victim",
+      "to": "victim",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "random hazmats",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "random hazmats",
+      "to": "hazmat",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "random obstacle",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "random obstacle",
+      "to": "obstacle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "FUNCTION_ANON_srv_1",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_1",
+      "to": "qrs",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_1",
+      "to": "victims",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_1",
+      "to": "hazmats",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_1",
+      "to": "obstacles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "order",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "victim",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "victim",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "victim",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "hazmat",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "hazmat",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "hazmat",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "obstacle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "obstacle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "obstacle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "qrs",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "victims",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "hazmats",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "order",
+      "to": "obstacles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "mission",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "mission",
+      "to": "future",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "mission",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "mission",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "mission",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "mission",
+      "to": "pandora geotiff srv mission",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "mission",
+      "to": "std",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "mission",
+      "to": "smc",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "mission",
+      "to": "mission",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "mission",
+      "to": "mission",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "mission",
+      "to": "mission",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "mission",
+      "to": "mission",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "talker",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "talker",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "talker",
+      "to": "rospy publisher",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "talker",
+      "to": "nav occupancy grid",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "talker",
+      "to": "nav path",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "talker",
+      "to": "geometry pose stamped",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "talker",
+      "to": "talker",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "talker",
+      "to": "pub",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "talker",
+      "to": "pub",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "talker",
+      "to": "pub",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "talker",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "talker",
+      "to": "path",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "talker",
+      "to": "simple map",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "simple map",
+      "to": "simple map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "talker",
+      "to": "simple path",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "simple path",
+      "to": "simple path",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "srv",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "future",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion victim",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion hazmat",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion obstacle",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion srv geotiff",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "srv",
+      "to": "pandora fusion srv geotiff",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "generate",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate",
+      "to": "chars",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "random obstacle",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "random obstacle",
+      "to": "obstacle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "srv",
+      "to": "FUNCTION_ANON_srv_2",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_2",
+      "to": "qrs",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_2",
+      "to": "victims",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_2",
+      "to": "hazmats",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_srv_2",
+      "to": "obstacles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "csv",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "csv",
+      "to": "future",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "csv",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "csv",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "csv",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "csv",
+      "to": "pandora csv srv csv",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "csv",
+      "to": "std",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "csv",
+      "to": "smc",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "csv",
+      "to": "mission",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "mission",
+      "to": "mission",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "mission",
+      "to": "mission",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "mission",
+      "to": "mission",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    }
+  ]
+}

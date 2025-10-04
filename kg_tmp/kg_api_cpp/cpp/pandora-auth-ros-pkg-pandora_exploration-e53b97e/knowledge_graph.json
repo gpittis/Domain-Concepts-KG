@@ -1,0 +1,6359 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "abort",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "action",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "actionlib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "align",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "angl",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bfs",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "boost",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calcul",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cell",
+      "count": 18
+    },
+    {
+      "type": "CONCEPT",
+      "name": "centroid",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "circl",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmath",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "complet",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "comput",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "consol",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "control",
+      "count": 13
+    },
+    {
+      "type": "CONCEPT",
+      "name": "convers",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coord",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "core",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cost",
+      "count": 44
+    },
+    {
+      "type": "CONCEPT",
+      "name": "costmap",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cover",
+      "count": 15
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coverag",
+      "count": 65
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cstdlib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "curr",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datatyp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diamet",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diff",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dilat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "direct",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dist",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distanc",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "durat",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "edg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "event",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expect",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expir",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "explor",
+      "count": 31
+    },
+    {
+      "type": "CONCEPT",
+      "name": "factor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "feedback",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "finder",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "flush",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "footprint",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "foreach",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fov",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frame",
+      "count": 19
+    },
+    {
+      "type": "CONCEPT",
+      "name": "frontier",
+      "count": 83
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fuse",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fuser",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fusion",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "generat",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "geometri",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "goal",
+      "count": 43
+    },
+    {
+      "type": "CONCEPT",
+      "name": "grid",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gtest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "height",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hfov",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hxx",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "identif",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "initi",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "iostream",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loader",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lock",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "manag",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 37
+    },
+    {
+      "type": "CONCEPT",
+      "name": "marker",
+      "count": 26
+    },
+    {
+      "type": "CONCEPT",
+      "name": "meta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "metric",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mid",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "middl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "midpoint",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mode",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nav",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "navfn",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nbr",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nearest",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "neighbour",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nhood",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "normal",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notifi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "occup",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "occupi",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "octomap",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "orient",
+      "count": 13
+    },
+    {
+      "type": "CONCEPT",
+      "name": "origin",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pandora",
+      "count": 23
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 28
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pitch",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "plan",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "planner",
+      "count": 15
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pluginlib",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pnh",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "polygon",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pos",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pose",
+      "count": 16
+    },
+    {
+      "type": "CONCEPT",
+      "name": "posit",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "precis",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "preempt",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ptr",
+      "count": 15
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pub",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "publish",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rate",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ray",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reach",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "real",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "realiti",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "represent",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resolut",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "robot",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roll",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ros",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scale",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "score",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "search",
+      "count": 19
+    },
+    {
+      "type": "CONCEPT",
+      "name": "selector",
+      "count": 19
+    },
+    {
+      "type": "CONCEPT",
+      "name": "semifin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sensor",
+      "count": 56
+    },
+    {
+      "type": "CONCEPT",
+      "name": "share",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simpl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "singl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "space",
+      "count": 20
+    },
+    {
+      "type": "CONCEPT",
+      "name": "srv",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "srvs",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stamp",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "std",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subscrib",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "surfac",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "target",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "thres",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timeout",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "topic",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "track",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transform",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "transit",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trasit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unknown",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unoccupi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "updat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vec",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vfov",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "visit",
+      "count": 12
+    },
+    {
+      "type": "CONCEPT",
+      "name": "visual",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wall",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "yaw",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "yolo",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "abort",
+      "to": "control",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "abort",
+      "to": "explor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "actionlib",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "control",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "explor",
+      "final_weight": 3.199999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "frontier",
+      "final_weight": 4.799998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "goal",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "marker",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "pandora",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "path",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "selector",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "simpl",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "action",
+      "to": "visual",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "control",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "explor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionlib",
+      "to": "simpl",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "angl",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "boost",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "coord",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "cost",
+      "final_weight": 21.866663,
+      "count": 22
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "diff",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "explor",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "foreach",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "frontier",
+      "final_weight": 7.999998,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "goal",
+      "final_weight": 4.433331,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "height",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "map",
+      "final_weight": 4.133333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "meta",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "pandora",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "pose",
+      "final_weight": 3.55,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "robot",
+      "final_weight": 2.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "scale",
+      "final_weight": 3.133334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "score",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "selector",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "yaw",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "calcul",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "cost",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "coverag",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "frontier",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "goal",
+      "final_weight": 2.266666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "normal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "orient",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "score",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "surfac",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "visit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "wall",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bfs",
+      "to": "cell",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bfs",
+      "to": "frontier",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bfs",
+      "to": "map",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bfs",
+      "to": "nearest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bfs",
+      "to": "search",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bfs",
+      "to": "visit",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "control",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "cost",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "costmap",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "coverag",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "distanc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "explor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "foreach",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "frontier",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "generat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "goal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "navfn",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "path",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "planner",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "ptr",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "search",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "sensor",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "share",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boost",
+      "to": "visit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "frontier",
+      "final_weight": 5.533333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "goal",
+      "final_weight": 5.183333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "orient",
+      "final_weight": 3.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "path",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "pose",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "selector",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "semifin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "coord",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "cost",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "costmap",
+      "final_weight": 5.683333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "cover",
+      "final_weight": 3.266666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "coverag",
+      "final_weight": 12.183332,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "dilat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "expect",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "frontier",
+      "final_weight": 9.633334,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "fuse",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "height",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "hxx",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "initi",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "map",
+      "final_weight": 6.999999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "nbr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "nearest",
+      "final_weight": 3.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "node",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "occupi",
+      "final_weight": 9.966667,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "ptr",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "ray",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "realiti",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "search",
+      "final_weight": 5.1,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "sensor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "space",
+      "final_weight": 9.633331,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "thres",
+      "final_weight": 9.333334,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "unoccupi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "visit",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "centroid",
+      "to": "frontier",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "centroid",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "centroid",
+      "to": "output",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "centroid",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "circl",
+      "to": "footprint",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "circl",
+      "to": "orient",
+      "final_weight": 9.333334,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "circl",
+      "to": "surfac",
+      "final_weight": 3.733333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmath",
+      "to": "cost",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmath",
+      "to": "distanc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "frontier",
+      "final_weight": 4.799998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "goal",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "marker",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "octomap",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "path",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "selector",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "visual",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "complet",
+      "to": "coverag",
+      "final_weight": 4.116666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "complet",
+      "to": "fuse",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "complet",
+      "to": "plan",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "complet",
+      "to": "planner",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "complet",
+      "to": "sensor",
+      "final_weight": 7.599999,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "complet",
+      "to": "transit",
+      "final_weight": 3.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "complet",
+      "to": "trasit",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comput",
+      "to": "control",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comput",
+      "to": "explor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consol",
+      "to": "ros",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "current",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "dist",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "expir",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "explor",
+      "final_weight": 39.749992,
+      "count": 40
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "feedback",
+      "final_weight": 5.616666,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "foreach",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "frontier",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "goal",
+      "final_weight": 13.966662,
+      "count": 18
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "map",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "node",
+      "final_weight": 1.733333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "pandora",
+      "final_weight": 4.466665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "pose",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "preempt",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "ptr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "reach",
+      "final_weight": 7.749999,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "ros",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "search",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "selector",
+      "final_weight": 2.683332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "target",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "timeout",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convers",
+      "to": "coverag",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convers",
+      "to": "octomap",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convers",
+      "to": "ros",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coord",
+      "to": "coverag",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coord",
+      "to": "dilat",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coord",
+      "to": "map",
+      "final_weight": 2.683333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coord",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "frontier",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "generat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "nav",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "navfn",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "path",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "planner",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "costmap",
+      "final_weight": 3.316667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "dist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "distanc",
+      "final_weight": 22.499996,
+      "count": 23
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "explor",
+      "final_weight": 12.199997,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "foreach",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "frontier",
+      "final_weight": 45.633325,
+      "count": 52
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "goal",
+      "final_weight": 14.466661,
+      "count": 22
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "pandora",
+      "final_weight": 12.199997,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "path",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "pose",
+      "final_weight": 3.55,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "robot",
+      "final_weight": 2.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "scale",
+      "final_weight": 9.300002,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "score",
+      "final_weight": 15.466665,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "selector",
+      "final_weight": 10.283328,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "vec",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cost",
+      "to": "visit",
+      "final_weight": 21.866663,
+      "count": 22
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "edg",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "expect",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "explor",
+      "final_weight": 3.333333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "foreach",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "frame",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "frontier",
+      "final_weight": 17.949998,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "generat",
+      "final_weight": 3.55,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "geometri",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "goal",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "gtest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "input",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "map",
+      "final_weight": 9.366667,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "navfn",
+      "final_weight": 3.55,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "nearest",
+      "final_weight": 3.983333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "neighbour",
+      "final_weight": 1.583333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "nhood",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "pandora",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "path",
+      "final_weight": 3.55,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "polygon",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "real",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "ros",
+      "final_weight": 5.933333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "search",
+      "final_weight": 12.349999,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "selector",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "costmap",
+      "to": "stamp",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "coverag",
+      "final_weight": 5.066664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "frame",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "grid",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "map",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "occup",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "orient",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "origin",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "planner",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "ptr",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "publish",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "sensor",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "space",
+      "final_weight": 14.18333,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "stamp",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "surfac",
+      "final_weight": 6.849999,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cover",
+      "to": "unknown",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "curr",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "current",
+      "final_weight": 2.683332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "datatyp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "direct",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "event",
+      "final_weight": 3.550001,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "flush",
+      "final_weight": 9.033332,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "footprint",
+      "final_weight": 7.466666,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "fov",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "frame",
+      "final_weight": 6.866666,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "fuse",
+      "final_weight": 32.933329,
+      "count": 34
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "fuser",
+      "final_weight": 4.449999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "fusion",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "grid",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "height",
+      "final_weight": 8.883333,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "hfov",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "hxx",
+      "final_weight": 4.283332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "initi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "manag",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "map",
+      "final_weight": 17.349998,
+      "count": 19
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "nav",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "node",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "normal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "occup",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "occupi",
+      "final_weight": 4.366666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "octomap",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "pandora",
+      "final_weight": 10.333332,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "pitch",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "planner",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "posit",
+      "final_weight": 2.833332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "ptr",
+      "final_weight": 16.03333,
+      "count": 20
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "publish",
+      "final_weight": 13.833332,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "ray",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "regist",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "resolut",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "robot",
+      "final_weight": 3.766665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "roll",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "ros",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "sensor",
+      "final_weight": 84.633315,
+      "count": 92
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "share",
+      "final_weight": 4.483333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "space",
+      "final_weight": 25.866661,
+      "count": 28
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "srvs",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "stamp",
+      "final_weight": 3.533332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "subscrib",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "surfac",
+      "final_weight": 13.733331,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "thres",
+      "final_weight": 3.733333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "track",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "transform",
+      "final_weight": 7.600001,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "transit",
+      "final_weight": 7.599999,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "unoccupi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "updat",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "vfov",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "wall",
+      "final_weight": 2.683333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coverag",
+      "to": "yaw",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "curr",
+      "to": "pitch",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "curr",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "curr",
+      "to": "surfac",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "curr",
+      "to": "yaw",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "explor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "frontier",
+      "final_weight": 4.599999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "goal",
+      "final_weight": 4.233332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "planner",
+      "final_weight": 2.683332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "pose",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "robot",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "selector",
+      "final_weight": 2.199999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "sensor",
+      "final_weight": 5.366664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "transit",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datatyp",
+      "to": "transform",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diamet",
+      "to": "dist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diamet",
+      "to": "surfac",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diamet",
+      "to": "wall",
+      "final_weight": 4.133333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "height",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "map",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "yaw",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dilat",
+      "to": "map",
+      "final_weight": 4.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "direct",
+      "to": "metric",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "direct",
+      "to": "surfac",
+      "final_weight": 2.066667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "distanc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "explor",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "frontier",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "goal",
+      "final_weight": 3.299999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "path",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "reach",
+      "final_weight": 2.033333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "scale",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "score",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "selector",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dist",
+      "to": "wall",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "explor",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "foreach",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "frontier",
+      "final_weight": 10.68333,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "goal",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "map",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "output",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "pandora",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "path",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "scale",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "score",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "search",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "selector",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "expir",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "frontier",
+      "final_weight": 4.183333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "generat",
+      "final_weight": 2.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "goal",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "navfn",
+      "final_weight": 2.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "path",
+      "final_weight": 2.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "selector",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "fuse",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "sensor",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "nearest",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "real",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expect",
+      "to": "realiti",
+      "final_weight": 3.016667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "explor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "frontier",
+      "final_weight": 2.166666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "generat",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "goal",
+      "final_weight": 2.666666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "navfn",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "path",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "selector",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "feedback",
+      "final_weight": 5.616666,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "foreach",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "frontier",
+      "final_weight": 22.81666,
+      "count": 28
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "generat",
+      "final_weight": 4.499999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "goal",
+      "final_weight": 23.049992,
+      "count": 30
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "map",
+      "final_weight": 7.199999,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "navfn",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "node",
+      "final_weight": 2.366666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "origin",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "pandora",
+      "final_weight": 22.666665,
+      "count": 20
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "path",
+      "final_weight": 4.499999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "pose",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "posit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "preempt",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "ptr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "reach",
+      "final_weight": 7.749999,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "resolut",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "ros",
+      "final_weight": 2.033333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "search",
+      "final_weight": 7.449998,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "selector",
+      "final_weight": 12.399995,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "sensor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "simpl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "target",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "timeout",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "explor",
+      "to": "visit",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "surfac",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feedback",
+      "to": "posit",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finder",
+      "to": "fusion",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finder",
+      "to": "pandora",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finder",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flush",
+      "to": "sensor",
+      "final_weight": 9.016665,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "footprint",
+      "to": "height",
+      "final_weight": 9.333334,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "footprint",
+      "to": "orient",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "foreach",
+      "to": "frontier",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "foreach",
+      "to": "generat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "foreach",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "foreach",
+      "to": "navfn",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "foreach",
+      "to": "path",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "foreach",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "foreach",
+      "to": "visit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fov",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fov",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "frontier",
+      "final_weight": 10.316664,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "goal",
+      "final_weight": 4.166665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "map",
+      "final_weight": 2.766667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "marker",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "output",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "path",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "publish",
+      "final_weight": 3.4,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "robot",
+      "final_weight": 9.333334,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "search",
+      "final_weight": 4.25,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "selector",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "sensor",
+      "final_weight": 10.149999,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "space",
+      "final_weight": 3.766667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "surfac",
+      "final_weight": 2.766667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "track",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frame",
+      "to": "visual",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "generat",
+      "final_weight": 38.049996,
+      "count": 39
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "geometri",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "goal",
+      "final_weight": 63.766649,
+      "count": 77
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "gtest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "initi",
+      "final_weight": 3.566667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "iostream",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "loader",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "lock",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "map",
+      "final_weight": 52.633326,
+      "count": 56
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "marker",
+      "final_weight": 41.21665,
+      "count": 59
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "mid",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "middl",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "midpoint",
+      "final_weight": 3.316665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "nav",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "navfn",
+      "final_weight": 23.716664,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "nbr",
+      "final_weight": 3.533332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "orient",
+      "final_weight": 11.599997,
+      "count": 15
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "origin",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "output",
+      "final_weight": 8.866662,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "pandora",
+      "final_weight": 20.499994,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "path",
+      "final_weight": 60.966654,
+      "count": 72
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "plan",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "planner",
+      "final_weight": 3.466665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "pluginlib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "pnh",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "pos",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "pose",
+      "final_weight": 12.916661,
+      "count": 19
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "posit",
+      "final_weight": 3.249999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "ptr",
+      "final_weight": 3.449999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "pub",
+      "final_weight": 4.449999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "represent",
+      "final_weight": 7.0,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "resolut",
+      "final_weight": 2.3,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "robot",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "ros",
+      "final_weight": 6.233332,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "scale",
+      "final_weight": 11.349995,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "score",
+      "final_weight": 14.000001,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "search",
+      "final_weight": 55.349992,
+      "count": 57
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "selector",
+      "final_weight": 53.966653,
+      "count": 61
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "semifin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "share",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "singl",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "srv",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "stamp",
+      "final_weight": 6.699997,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "transform",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "unknown",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "vec",
+      "final_weight": 4.366666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "visit",
+      "final_weight": 9.899997,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "visual",
+      "final_weight": 11.03333,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "frontier",
+      "to": "yolo",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "ptr",
+      "final_weight": 7.55,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "publish",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "sensor",
+      "final_weight": 14.016663,
+      "count": 16
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "share",
+      "final_weight": 3.016667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "stamp",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuse",
+      "to": "transit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fuser",
+      "to": "sensor",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "pandora",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fusion",
+      "to": "sensor",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "goal",
+      "final_weight": 5.216664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "loader",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "nav",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "navfn",
+      "final_weight": 19.599997,
+      "count": 19
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "orient",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "pandora",
+      "final_weight": 4.499999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "path",
+      "final_weight": 36.933328,
+      "count": 37
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "plan",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "planner",
+      "final_weight": 3.466665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "pluginlib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "pnh",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "pose",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "posit",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "represent",
+      "final_weight": 3.616667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "ros",
+      "final_weight": 4.183333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "selector",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "srv",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "goal",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "polygon",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "pose",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "geometri",
+      "to": "stamp",
+      "final_weight": 3.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "map",
+      "final_weight": 3.299999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "marker",
+      "final_weight": 17.249991,
+      "count": 27
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "navfn",
+      "final_weight": 4.433331,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "orient",
+      "final_weight": 9.083332,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "pandora",
+      "final_weight": 8.299997,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "path",
+      "final_weight": 15.499992,
+      "count": 24
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "pose",
+      "final_weight": 13.749996,
+      "count": 18
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "posit",
+      "final_weight": 2.633333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "ptr",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "pub",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "reach",
+      "final_weight": 4.9,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "represent",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "robot",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "ros",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "scale",
+      "final_weight": 6.966663,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "score",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "search",
+      "final_weight": 5.083332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "selector",
+      "final_weight": 50.433326,
+      "count": 50
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "semifin",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "share",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "srv",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "stamp",
+      "final_weight": 4.799998,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "target",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "timeout",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "transform",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "vec",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "visit",
+      "final_weight": 6.083332,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "goal",
+      "to": "visual",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "nav",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "occup",
+      "final_weight": 7.2,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "orient",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "origin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "planner",
+      "final_weight": 6.166665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "sensor",
+      "final_weight": 7.433331,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grid",
+      "to": "subscrib",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gtest",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gtest",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "height",
+      "to": "space",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hfov",
+      "to": "sensor",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hxx",
+      "to": "pandora",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hxx",
+      "to": "publish",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hxx",
+      "to": "sensor",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hxx",
+      "to": "space",
+      "final_weight": 6.166665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hxx",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "identif",
+      "to": "sensor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "map",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "search",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "sensor",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iostream",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iostream",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loader",
+      "to": "navfn",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loader",
+      "to": "path",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loader",
+      "to": "planner",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loader",
+      "to": "pluginlib",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lock",
+      "to": "map",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lock",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "mode",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "planner",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "robot",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "sensor",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "meta",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "mid",
+      "final_weight": 6.433334,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "middl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "midpoint",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "nbr",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "nearest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "octomap",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "origin",
+      "final_weight": 6.05,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "output",
+      "final_weight": 4.433331,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "pandora",
+      "final_weight": 3.199999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "planner",
+      "final_weight": 1.533333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "pos",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "posit",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "ptr",
+      "final_weight": 11.233333,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "resolut",
+      "final_weight": 5.1,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "search",
+      "final_weight": 37.866661,
+      "count": 38
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "selector",
+      "final_weight": 3.299999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "sensor",
+      "final_weight": 14.266664,
+      "count": 17
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "singl",
+      "final_weight": 3.216667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "space",
+      "final_weight": 2.583333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "subscrib",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "surfac",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "unknown",
+      "final_weight": 6.433334,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "visit",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "yaw",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "yolo",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "orient",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "path",
+      "final_weight": 7.0,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "pose",
+      "final_weight": 4.0,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "posit",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "pub",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "scale",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "selector",
+      "final_weight": 17.249991,
+      "count": 27
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "stamp",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "visual",
+      "final_weight": 15.866659,
+      "count": 24
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "normal",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "surfac",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "unit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "metric",
+      "to": "wall",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mid",
+      "to": "origin",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mid",
+      "to": "resolut",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mid",
+      "to": "search",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mid",
+      "to": "unknown",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "middl",
+      "to": "output",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "middl",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "midpoint",
+      "to": "output",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "midpoint",
+      "to": "search",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "robot",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "navfn",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "occup",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "path",
+      "final_weight": 3.199999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "plan",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "planner",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nav",
+      "to": "sensor",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "orient",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "pandora",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "path",
+      "final_weight": 23.966662,
+      "count": 25
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "plan",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "planner",
+      "final_weight": 3.466665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "pluginlib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "pnh",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "pose",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "posit",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "represent",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "ros",
+      "final_weight": 4.183333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "navfn",
+      "to": "srv",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nbr",
+      "to": "nearest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nbr",
+      "to": "search",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nbr",
+      "to": "visit",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nearest",
+      "to": "realiti",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "nearest",
+      "to": "visit",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "pandora",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "planner",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "sensor",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "normal",
+      "to": "surfac",
+      "final_weight": 6.183333,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "normal",
+      "to": "wall",
+      "final_weight": 8.383333,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "notifi",
+      "to": "sensor",
+      "final_weight": 4.116666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "orient",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "origin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "planner",
+      "final_weight": 6.166665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "sensor",
+      "final_weight": 7.433331,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occup",
+      "to": "subscrib",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occupi",
+      "to": "sensor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occupi",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "occupi",
+      "to": "thres",
+      "final_weight": 9.333334,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "octomap",
+      "to": "planner",
+      "final_weight": 6.166665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "octomap",
+      "to": "ros",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "octomap",
+      "to": "sensor",
+      "final_weight": 6.799998,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "octomap",
+      "to": "subscrib",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "octomap",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "origin",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "path",
+      "final_weight": 4.166665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "planner",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "pose",
+      "final_weight": 5.633333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "selector",
+      "final_weight": 5.383332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "semifin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "sensor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "space",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "srv",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "surfac",
+      "final_weight": 3.733333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "orient",
+      "to": "visual",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "planner",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "search",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "sensor",
+      "final_weight": 2.05,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "singl",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "space",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "unknown",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "search",
+      "final_weight": 4.433331,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "stamp",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "path",
+      "final_weight": 4.499999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "search",
+      "final_weight": 5.133332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "selector",
+      "final_weight": 8.93333,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "sensor",
+      "final_weight": 12.233331,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "space",
+      "final_weight": 4.499999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "surfac",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pandora",
+      "to": "visit",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "plan",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "planner",
+      "final_weight": 3.466665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "pluginlib",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "pnh",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "pose",
+      "final_weight": 7.066664,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "posit",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "represent",
+      "final_weight": 3.616667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "ros",
+      "final_weight": 4.183333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "scale",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "score",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "selector",
+      "final_weight": 7.266663,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "srv",
+      "final_weight": 5.066664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "stamp",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "visual",
+      "final_weight": 5.833331,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "robot",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "sensor",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pitch",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plan",
+      "to": "planner",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plan",
+      "to": "sensor",
+      "final_weight": 3.816666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plan",
+      "to": "trasit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "ptr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "ros",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "sensor",
+      "final_weight": 32.216661,
+      "count": 31
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "share",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "space",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "srvs",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "subscrib",
+      "final_weight": 4.099998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "surfac",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "transit",
+      "final_weight": 4.383333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "planner",
+      "to": "trasit",
+      "final_weight": 2.583333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "polygon",
+      "to": "stamp",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pos",
+      "to": "search",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "posit",
+      "final_weight": 3.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "robot",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "score",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "selector",
+      "final_weight": 5.849997,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "srv",
+      "final_weight": 2.0,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "stamp",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "target",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pose",
+      "to": "visual",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "robot",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "search",
+      "final_weight": 1.416667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "sensor",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "srv",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "visual",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ptr",
+      "to": "search",
+      "final_weight": 2.816666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ptr",
+      "to": "selector",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ptr",
+      "to": "sensor",
+      "final_weight": 7.566664,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ptr",
+      "to": "share",
+      "final_weight": 2.616667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ptr",
+      "to": "space",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ptr",
+      "to": "stamp",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ptr",
+      "to": "surfac",
+      "final_weight": 5.083332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pub",
+      "to": "selector",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "resolut",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "sensor",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "space",
+      "final_weight": 6.166665,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "stamp",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "publish",
+      "to": "surfac",
+      "final_weight": 4.116666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ray",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "real",
+      "to": "realiti",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "regist",
+      "to": "sensor",
+      "final_weight": 2.183333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "represent",
+      "to": "selector",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "search",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "singl",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "surfac",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "unknown",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "roll",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "selector",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "sensor",
+      "final_weight": 4.366666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "robot",
+      "to": "yaw",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roll",
+      "to": "sensor",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ros",
+      "to": "selector",
+      "final_weight": 2.049999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ros",
+      "to": "sensor",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scale",
+      "to": "selector",
+      "final_weight": 6.966663,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scale",
+      "to": "visit",
+      "final_weight": 3.133334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scale",
+      "to": "visual",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "score",
+      "to": "visit",
+      "final_weight": 3.483333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "selector",
+      "final_weight": 2.683332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "share",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "singl",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "unknown",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "vec",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "visit",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "yolo",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "semifin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "share",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "stamp",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "transform",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "vec",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "visit",
+      "final_weight": 3.166665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "visual",
+      "final_weight": 4.899999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "share",
+      "final_weight": 2.799999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "space",
+      "final_weight": 8.049998,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "srvs",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "stamp",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "std",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "subscrib",
+      "final_weight": 6.149997,
+      "count": 9
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "surfac",
+      "final_weight": 6.266665,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "thres",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "track",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "transform",
+      "final_weight": 3.466666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "transit",
+      "final_weight": 11.349999,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "trasit",
+      "final_weight": 3.216666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "updat",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "vfov",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sensor",
+      "to": "yaw",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "share",
+      "to": "space",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "share",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "space",
+      "to": "stamp",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "space",
+      "to": "std",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "space",
+      "to": "surfac",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "space",
+      "to": "topic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "space",
+      "to": "transform",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "space",
+      "to": "unknown",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "space",
+      "to": "unoccupi",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "srvs",
+      "to": "std",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stamp",
+      "to": "surfac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stamp",
+      "to": "visual",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "surfac",
+      "to": "topic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "surfac",
+      "to": "transform",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "surfac",
+      "to": "unit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "surfac",
+      "to": "wall",
+      "final_weight": 11.566665,
+      "count": 13
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "surfac",
+      "to": "yaw",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "unit",
+      "to": "wall",
+      "final_weight": 1.0,
+      "count": 1
+    }
+  ]
+}

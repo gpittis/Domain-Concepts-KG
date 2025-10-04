@@ -1,0 +1,7306 @@
+[
+  [
+    {
+      "file": "map loader"
+    },
+    {
+      "imports": [
+        "ogm map loader"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map",
+          "params": [
+            "fname"
+          ],
+          "local_variables": [
+            "map",
+            "mapfname",
+            "fin",
+            "origin",
+            "",
+            "negate",
+            "occ",
+            "",
+            "frame",
+            "",
+            "",
+            "",
+            "fname",
+            "mapfname",
+            "map",
+            "map frame",
+            "map stamp"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map loader node"
+    },
+    {
+      "imports": [
+        "ogm map loader",
+        "ros",
+        "ros",
+        "ogm communications external map"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "srv",
+            "",
+            "",
+            "",
+            "",
+            "srv ground truth",
+            "srv ground truth",
+            "srv map"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map"
+    },
+    {
+      "imports": [
+        "ogm map"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map",
+          "params": [
+            "fname",
+            "ground truth"
+          ],
+          "local_variables": [
+            "map",
+            "map",
+            "map ground truth",
+            "meta"
+          ]
+        },
+        {
+          "name": "map",
+          "params": [
+            "fname"
+          ],
+          "local_variables": [
+            "map",
+            "map",
+            "meta"
+          ]
+        },
+        {
+          "name": "map",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "map",
+            "meta"
+          ]
+        },
+        {
+          "name": "map",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map publish",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "ground truth",
+            "map pub",
+            "pub",
+            "pub",
+            "map frame",
+            "map frame"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm"
+    },
+    {
+      "imports": [
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "fname",
+            "fname",
+            "maps ground truth map",
+            "maps slam map",
+            "external map",
+            "external maps",
+            "maps",
+            "evaluation",
+            "structural evaluation"
+          ]
+        },
+        {
+          "name": "maps",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "ground truth map",
+            "slam map"
+          ]
+        },
+        {
+          "name": "external map",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "external maps",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "maps ground truth map",
+            "maps slam map"
+          ]
+        },
+        {
+          "name": "evaluation",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "srv",
+            "",
+            "srv",
+            "srv detector",
+            "srv descriptor",
+            "srv matcher",
+            "srv matching",
+            "srv closest",
+            "srv dist norm",
+            "srv transform",
+            "srv ground truth map",
+            "srv slam map",
+            "srv matching ratio",
+            "srv ransac reprj",
+            "srv scale maps brushfire",
+            "srv",
+            "srv alignment",
+            "srv gaussian",
+            "srv gaussian",
+            "srv median",
+            "srv median",
+            "srv gaussian kernel",
+            "srv gaussian kernel",
+            "srv median kernel",
+            "srv median kernel",
+            "",
+            "matched image",
+            "merged image"
+          ]
+        },
+        {
+          "name": "structural evaluation",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "srv",
+            "",
+            "srv map",
+            "srv map",
+            "srv gaussian",
+            "srv gaussian",
+            "srv median",
+            "srv median",
+            "srv gaussian kernel",
+            "srv gaussian kernel",
+            "srv median kernel",
+            "srv median kernel",
+            "srv morph",
+            "srv pruning",
+            "srv morph iterations",
+            "srv skeletonization",
+            "srv pruning iterations",
+            "",
+            "voronoi",
+            "vertices",
+            "voronoi",
+            "vertices"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm node"
+    },
+    {
+      "imports": [
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map loader"
+    },
+    {
+      "imports": [
+        "stdio",
+        "stdlib",
+        "libgen",
+        "fstream",
+        "",
+        "ros",
+        "map image loader",
+        "nav map meta",
+        "yaml"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "node",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "map",
+          "params": [
+            "fname"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map"
+    },
+    {
+      "imports": [
+        "ros",
+        "nav occupancy grid",
+        "ogm communications map publish",
+        "ogm map loader"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map",
+          "attributes": [
+            "",
+            "map pub",
+            "pub",
+            "pub",
+            "meta",
+            "map",
+            "map"
+          ],
+          "methods": [
+            {
+              "name": "map",
+              "params": [
+                "fname",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "fname"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publish",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "publish transform",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm"
+    },
+    {
+      "imports": [
+        "",
+        "ros",
+        "",
+        "transform broadcaster",
+        "nav map meta",
+        "nav occupancy grid",
+        "ogm map",
+        "ogm communications maps",
+        "ogm communications maps",
+        "ogm communications external map",
+        "ogm communications external maps",
+        "ogm communications evaluation",
+        "ogm communications evaluation",
+        "ogm communications structural evaluation",
+        "ogm communications structural evaluation"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "",
+            "ground truth map",
+            "slam map",
+            "maps",
+            "external map",
+            "external maps",
+            "evaluation",
+            "structural evaluation",
+            "map pub",
+            "metadata pub",
+            "timer",
+            "broadcaster",
+            "maps"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "maps",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "external map",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "external maps",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "evaluation",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "structural evaluation",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm"
+    },
+    {
+      "imports": [
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ogm",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "ogm notify",
+          "params": [
+            "receiver",
+            "event"
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm connector"
+    },
+    {
+      "imports": [
+        "ogm connector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "connector",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "map initialized",
+            "grid"
+          ]
+        },
+        {
+          "name": "connector action triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector action map triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "map"
+          ]
+        },
+        {
+          "name": "connector action slam map triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "map"
+          ]
+        },
+        {
+          "name": "connector action maps triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "maps"
+          ]
+        },
+        {
+          "name": "connector action triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "connector action grid triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "grid"
+          ]
+        },
+        {
+          "name": "connector grid",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector grid",
+          "params": [
+            "",
+            "",
+            "",
+            "span",
+            "span"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector grid stretch",
+          "params": [
+            "cell",
+            "stretch"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector event",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector shutdown",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "connector map initialized",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map initialized"
+          ]
+        },
+        {
+          "name": "connector",
+          "params": [
+            "title",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm controller"
+    },
+    {
+      "imports": [
+        "ogm controller"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "spin",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "controller",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "map lock",
+            "map initialized"
+          ]
+        },
+        {
+          "name": "controller",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "controller communications",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map subscriber",
+            "timer",
+            "map initialized"
+          ]
+        },
+        {
+          "name": "controller",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map",
+            "initial slam map",
+            "initial map",
+            "map",
+            "map height",
+            "map resolution",
+            "maps ground truth map",
+            "map",
+            "map height",
+            "map resolution",
+            "maps slam map"
+          ]
+        },
+        {
+          "name": "controller",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "spin"
+          ]
+        },
+        {
+          "name": "controller maps",
+          "params": [],
+          "local_variables": [
+            "",
+            "srv",
+            "map lock",
+            "",
+            "srv",
+            "maps ground truth map",
+            "maps slam map",
+            "initial map",
+            "initial slam map",
+            "map",
+            "slam map",
+            "initial map",
+            "initial slam map",
+            "map initialized",
+            "map lock"
+          ]
+        },
+        {
+          "name": "controller map",
+          "params": [
+            "",
+            "ground truth"
+          ],
+          "local_variables": [
+            "",
+            "srv",
+            "",
+            "srv map",
+            "srv ground truth"
+          ]
+        },
+        {
+          "name": "controller map",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "ground truth",
+            "map lock",
+            "maps ground truth map",
+            "initial map",
+            "map",
+            "initial map",
+            "maps slam map",
+            "initial slam map",
+            "map",
+            "initial slam map",
+            "map initialized",
+            "map lock"
+          ]
+        },
+        {
+          "name": "controller convert occupancy grid image",
+          "params": [
+            "map",
+            "map"
+          ],
+          "local_variables": [
+            "painter",
+            "",
+            "",
+            "",
+            "",
+            "originx",
+            "originy",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "controller map internal",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "map lock",
+            "map",
+            "slam map",
+            "map lock"
+          ]
+        },
+        {
+          "name": "controller map horizontally",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "controller map vertically",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "controller rotate map",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "controller scale map",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "controller map transparency",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "controller metric",
+          "params": [
+            "metric"
+          ],
+          "local_variables": [
+            "",
+            "srv",
+            "pos",
+            "rot",
+            "scale",
+            "slam scale",
+            "ground truth scale",
+            "initial matching image",
+            "matching image",
+            "merged image",
+            "features image",
+            "",
+            "srv",
+            "srv detector",
+            "srv descriptor",
+            "srv matcher",
+            "srv matching",
+            "srv matching ratio",
+            "srv ransac reprj",
+            "srv",
+            "srv morphological filtering",
+            "srv alignment",
+            "srv scale maps brushfire",
+            "srv gaussian",
+            "srv gaussian",
+            "srv median",
+            "srv median",
+            "srv median kernel",
+            "srv median kernel",
+            "srv gaussian kernel",
+            "srv gaussian kernel",
+            "srv closest",
+            "srv alignment",
+            "srv dist norm",
+            "srv transform pose",
+            "srv transform pose",
+            "srv transform pose theta",
+            "srv transform scale",
+            "srv transform slam offset scale",
+            "srv transform ground truth offset scale",
+            "metric"
+          ]
+        },
+        {
+          "name": "controller structural evaluation",
+          "params": [],
+          "local_variables": [
+            "",
+            "srv",
+            "",
+            "srv gaussian",
+            "srv gaussian",
+            "srv median",
+            "srv median",
+            "srv median kernel",
+            "srv median kernel",
+            "srv gaussian kernel",
+            "srv gaussian kernel",
+            "srv morph",
+            "srv pruning",
+            "srv morph iterations",
+            "srv pruning iterations",
+            "srv skeletonization",
+            "structural evaluation",
+            "voronoi",
+            "voronoi",
+            "vertices",
+            "vertices"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm loader"
+    },
+    {
+      "imports": [
+        "ogm loader"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "loader",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "signal"
+          ]
+        },
+        {
+          "name": "loader icons",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map",
+            "slam map",
+            "maps",
+            "grid",
+            "action map",
+            "action slam map",
+            "action maps",
+            "action grid"
+          ]
+        },
+        {
+          "name": "loader event",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "signal",
+            "event"
+          ]
+        },
+        {
+          "name": "loader event",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "loader triggered",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "loader shutdown",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm node"
+    },
+    {
+      "imports": [
+        "signal",
+        "ogm controller",
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "signal",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "signal",
+          "params": [
+            "sig"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm map connector"
+    },
+    {
+      "imports": [
+        "ogm map connector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map connector map connector",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "map initialized",
+            "zoom cursor",
+            "",
+            "zoom cursor"
+          ]
+        },
+        {
+          "name": "map connector map connector",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector map",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map connector map xposition",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector map yposition",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector map rotation",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector map scale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector map transparency",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map transparency"
+          ]
+        },
+        {
+          "name": "map connector features image",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector initial matching image",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector matching image",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector merged image",
+          "params": [
+            "img"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector position",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map connector rotation",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map connector scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map connector slam map scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map connector ground truth map scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map connector transform",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map connector grid",
+          "params": [
+            "img",
+            "resolution"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector vertices",
+          "params": [
+            "img",
+            "vertices",
+            "ground truth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector voronoi",
+          "params": [
+            "img",
+            "voronoi",
+            "ground truth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector image",
+          "params": [
+            "img",
+            "ground truth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector loader",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map connector map initialized",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map initialized"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm map"
+    },
+    {
+      "imports": [
+        "ogm map"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map",
+          "params": [],
+          "local_variables": [
+            "factor",
+            "lock"
+          ]
+        },
+        {
+          "name": "map",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "pos"
+          ]
+        },
+        {
+          "name": "map rotation",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map scale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map event",
+          "params": [
+            "event"
+          ],
+          "local_variables": [
+            "",
+            "pos",
+            "pos",
+            "pos",
+            "pos",
+            "rotation",
+            "rotation",
+            "scale",
+            "scale",
+            "lock",
+            "",
+            "",
+            "",
+            "",
+            "lock"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm map loader"
+    },
+    {
+      "imports": [
+        "ogm map loader"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map loader map loader",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "scene",
+            "ground truth map",
+            "slam map",
+            "transparency",
+            "initial matched",
+            "matched",
+            "merged",
+            "features"
+          ]
+        },
+        {
+          "name": "map loader map",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map loader map xposition",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map loader map yposition",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map loader map rotation",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map loader map scale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "map loader map transparency",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "transparency"
+          ]
+        },
+        {
+          "name": "map loader features image",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "dims",
+            "features"
+          ]
+        },
+        {
+          "name": "map loader initial matching image",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "dims",
+            "initial matched"
+          ]
+        },
+        {
+          "name": "map loader matching image",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "dims",
+            "matched"
+          ]
+        },
+        {
+          "name": "map loader merged image",
+          "params": [
+            "img"
+          ],
+          "local_variables": [
+            "dims",
+            "merged"
+          ]
+        },
+        {
+          "name": "map loader dimensions",
+          "params": [
+            "",
+            "",
+            "",
+            "height",
+            "ground truth"
+          ],
+          "local_variables": [
+            "aspect ratio",
+            "",
+            "",
+            "",
+            "",
+            "ground truth offset scale",
+            "slam offset scale",
+            "",
+            "",
+            "ground truth offset scale",
+            "slam offset scale",
+            "ground truth offset scale",
+            "slam offset scale"
+          ]
+        },
+        {
+          "name": "map loader image",
+          "params": [
+            "img",
+            "ground truth"
+          ],
+          "local_variables": [
+            "pixmap",
+            "dims",
+            "dims",
+            "dims",
+            "dims",
+            "dims",
+            "dims"
+          ]
+        },
+        {
+          "name": "map loader transparent",
+          "params": [
+            "img",
+            "opacity"
+          ],
+          "local_variables": [
+            "image",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "map loader grid",
+          "params": [
+            "img",
+            "resolution"
+          ],
+          "local_variables": [
+            "painter",
+            "pix",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "map loader voronoi",
+          "params": [
+            "img",
+            "voronoi",
+            "ground truth"
+          ],
+          "local_variables": [
+            "painter",
+            ""
+          ]
+        },
+        {
+          "name": "map loader vertices",
+          "params": [
+            "img",
+            "vertices",
+            "ground truth"
+          ],
+          "local_variables": [
+            "painter",
+            "pen",
+            "",
+            "pen",
+            "pen"
+          ]
+        },
+        {
+          "name": "map loader position",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map loader rotation",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map loader scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map loader slam map scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map loader ground truth map scale",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map loader transform",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm"
+    },
+    {
+      "imports": [
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ros path",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angle rad degrees",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angle degrees rad",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "literal",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "pose",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm validation connector"
+    },
+    {
+      "imports": [
+        "ogm validation connector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "validation connector validation connector",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "detector",
+            "descriptor",
+            "matcher",
+            "matching",
+            "closest obstacle",
+            "dist",
+            "matching ratio",
+            "ransac reprj",
+            "",
+            "morph filtering",
+            "alignment",
+            "scale maps brushfire",
+            "gaussian",
+            "gaussian",
+            "median",
+            "median",
+            "gaussian kernel",
+            "gaussian kernel",
+            "median kernel",
+            "median kernel",
+            "morph iterations",
+            "pruning iterations",
+            "skeletonization",
+            "pruning",
+            "morph",
+            "voronoi",
+            "vertices"
+          ]
+        },
+        {
+          "name": "validation connector map",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector detector",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector descriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector matcher",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector matching",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector closest obstacle",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector distance",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector posx",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "pos"
+          ]
+        },
+        {
+          "name": "validation connector posy",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "pos"
+          ]
+        },
+        {
+          "name": "validation connector rotation",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "rotation"
+          ]
+        },
+        {
+          "name": "validation connector scale",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "scale"
+          ]
+        },
+        {
+          "name": "validation connector transparency",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "transparency"
+          ]
+        },
+        {
+          "name": "validation connector matching ratio",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "matching ratio"
+          ]
+        },
+        {
+          "name": "validation connector ransac",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "ransac reprj"
+          ]
+        },
+        {
+          "name": "validation connector gaussian spin box",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "gaussian kernel"
+          ]
+        },
+        {
+          "name": "validation connector gaussian spin box",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "gaussian kernel"
+          ]
+        },
+        {
+          "name": "validation connector median spin box",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "median kernel"
+          ]
+        },
+        {
+          "name": "validation connector median spin box",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "median kernel"
+          ]
+        },
+        {
+          "name": "validation connector matching ratio",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector ransac reprj",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector gaussian kernel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector gaussian kernel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector median kernel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector median kernel",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector map position",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector map rotation",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector map scale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector map transparency",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector map",
+          "params": [],
+          "local_variables": [
+            "voronoi",
+            "vertices"
+          ]
+        },
+        {
+          "name": "validation connector obstacle triggered",
+          "params": [],
+          "local_variables": [
+            "metric"
+          ]
+        },
+        {
+          "name": "validation connector feature matching triggered",
+          "params": [],
+          "local_variables": [
+            "metric"
+          ]
+        },
+        {
+          "name": "validation connector detector combo box activated",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "detector"
+          ]
+        },
+        {
+          "name": "validation connector descriptor combo box activated",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "descriptor"
+          ]
+        },
+        {
+          "name": "validation connector matcher combo box activated",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "matcher"
+          ]
+        },
+        {
+          "name": "validation connector matching combo box activated",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "matching"
+          ]
+        },
+        {
+          "name": "validation connector closest obstacle combo box activated",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "closest obstacle"
+          ]
+        },
+        {
+          "name": "validation connector distance combo box activated",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "dist"
+          ]
+        },
+        {
+          "name": "validation connector metric",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector maps",
+          "params": [],
+          "local_variables": [
+            ""
+          ]
+        },
+        {
+          "name": "validation connector morph filtering",
+          "params": [],
+          "local_variables": [
+            "morph filtering"
+          ]
+        },
+        {
+          "name": "validation connector alignment",
+          "params": [],
+          "local_variables": [
+            "alignment"
+          ]
+        },
+        {
+          "name": "validation connector scale maps brushfire",
+          "params": [],
+          "local_variables": [
+            "scale maps brushfire"
+          ]
+        },
+        {
+          "name": "validation connector gaussian box",
+          "params": [],
+          "local_variables": [
+            "gaussian"
+          ]
+        },
+        {
+          "name": "validation connector gaussian box",
+          "params": [],
+          "local_variables": [
+            "gaussian"
+          ]
+        },
+        {
+          "name": "validation connector median box",
+          "params": [],
+          "local_variables": [
+            "median"
+          ]
+        },
+        {
+          "name": "validation connector median box",
+          "params": [],
+          "local_variables": [
+            "median"
+          ]
+        },
+        {
+          "name": "validation connector morph filtering",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector threshold maps",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector align maps",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector scale maps brushfire",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector gaussian",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector median",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector gaussian",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector median",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector morph box",
+          "params": [],
+          "local_variables": [
+            "morph"
+          ]
+        },
+        {
+          "name": "validation connector pruning box",
+          "params": [],
+          "local_variables": [
+            "pruning"
+          ]
+        },
+        {
+          "name": "validation connector voronoi box",
+          "params": [],
+          "local_variables": [
+            "voronoi"
+          ]
+        },
+        {
+          "name": "validation connector vertices box",
+          "params": [],
+          "local_variables": [
+            "vertices"
+          ]
+        },
+        {
+          "name": "validation connector skeletonization combo box activated",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "skeletonization"
+          ]
+        },
+        {
+          "name": "validation connector morph spin box",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "morph iterations"
+          ]
+        },
+        {
+          "name": "validation connector pruning spin box",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "pruning iterations"
+          ]
+        },
+        {
+          "name": "validation connector pruning",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector morph",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector morph iterations",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector pruning iterations",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector skeletonization",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector voronoi",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector vertices",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "validation connector loader",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm validation loader"
+    },
+    {
+      "imports": [
+        "ogm validation loader"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "validation loader validation loader",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader validation loader",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader map",
+          "params": [
+            "",
+            "height",
+            "ocgd",
+            "ground truth"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader map xposition",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader map yposition",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader map rotation",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader map scale",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader map transparency",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "validation loader map",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm"
+    },
+    {
+      "imports": [
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "ogm",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "ogm",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "notify",
+              "params": [
+                "receiver",
+                "event"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm connector"
+    },
+    {
+      "imports": [
+        "ogm map loader",
+        "ogm communications external map",
+        "ogm loader"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "connector",
+          "attributes": [
+            "",
+            "",
+            "map initialized",
+            "grid",
+            "loader"
+          ],
+          "methods": [
+            {
+              "name": "connector",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "grid",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "title",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "grid",
+              "params": [
+                "",
+                "",
+                "",
+                "span",
+                "span"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "grid stretch",
+              "params": [
+                "cell",
+                "stretch"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "event",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "shutdown",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map initialized",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "action triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "action triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "action map triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "action slam map triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "action maps triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "action grid triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "map",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "maps",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "event",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm controller"
+    },
+    {
+      "imports": [
+        "iostream",
+        "cstdlib",
+        "boost",
+        "nav occupancy grid",
+        "geometry",
+        "core",
+        "core",
+        "core timer",
+        "ogm communications map publish",
+        "ogm communications external map",
+        "ogm communications maps",
+        "ogm communications evaluation",
+        "ogm communications structural evaluation",
+        "ogm connector",
+        "ogm validation connector",
+        "ogm map connector"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "controller",
+          "attributes": [
+            "",
+            "",
+            "map lock",
+            "map initialized",
+            "map subscriber",
+            "",
+            "maps",
+            "timer",
+            "elapsed",
+            "initial map",
+            "map",
+            "initial slam map",
+            "slam map",
+            "connector",
+            "validation connector",
+            "map connector",
+            "metric",
+            "structural evaluation",
+            "voronoi",
+            "voronoi",
+            "vertices",
+            "vertices"
+          ],
+          "methods": [
+            {
+              "name": "controller",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "controller",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "communications",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "convert occupancy grid image",
+              "params": [
+                "map",
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "maps",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map internal",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map horizontally",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map vertically",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rotate map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scale map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "metric",
+              "params": [
+                "metric"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "structural evaluation",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm loader"
+    },
+    {
+      "imports": [
+        "",
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "loader",
+          "attributes": [
+            "",
+            "",
+            "signal",
+            "event",
+            "action grid",
+            "action map",
+            "action slam map",
+            "action maps",
+            "action zoom",
+            "action zoom",
+            "action adjusted"
+          ],
+          "methods": [
+            {
+              "name": "loader",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "event",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "icons",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "event",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "triggered",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "shutdown",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm map connector"
+    },
+    {
+      "imports": [
+        "ogm map loader"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map connector",
+          "attributes": [
+            "",
+            "",
+            "zoom cursor",
+            "zoom cursor",
+            "loader",
+            "map initialized",
+            "translated",
+            "rotated",
+            "scaled"
+          ],
+          "methods": [
+            {
+              "name": "map connector",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map connector",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map xposition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map yposition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "features image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initial matching image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matching image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "merged image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "position",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "rotation",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "slam map scale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "ground truth map scale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "transform",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "image",
+              "params": [
+                "img",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map initialized",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "grid",
+              "params": [
+                "img",
+                "resolution"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "vertices",
+              "params": [
+                "img",
+                "vertices",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "voronoi",
+              "params": [
+                "img",
+                "voronoi",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loader",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map pos",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm map"
+    },
+    {
+      "imports": [
+        "event",
+        "core",
+        "graphics pixmap",
+        "graphics scene mouse event",
+        "",
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map",
+          "attributes": [
+            "factor",
+            "coord",
+            "coord",
+            "rot",
+            "lock"
+          ],
+          "methods": [
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initial map scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "event",
+              "params": [
+                "event"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "pos",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm map loader"
+    },
+    {
+      "imports": [
+        "",
+        "map",
+        "geometry",
+        "ogm map",
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map loader",
+          "attributes": [
+            "",
+            "",
+            "scene",
+            "internal img",
+            "transparency",
+            "slam offset scale",
+            "ground truth offset scale",
+            "dims",
+            "initial matched",
+            "matched",
+            "merged",
+            "features",
+            "ground truth map",
+            "slam map"
+          ],
+          "methods": [
+            {
+              "name": "dimensions",
+              "params": [
+                "",
+                "",
+                "",
+                "height",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map loader",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "image",
+              "params": [
+                "img",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "grid",
+              "params": [
+                "img",
+                "resolution"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "vertices",
+              "params": [
+                "img",
+                "vertices",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "voronoi",
+              "params": [
+                "img",
+                "voronoi",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map xposition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map yposition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matching image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "initial matching image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "merged image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "features image",
+              "params": [
+                "img"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "position",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "rotation",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "slam map scale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "ground truth map scale",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "transform",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "transparent",
+              "params": [
+                "img",
+                "opacity"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm"
+    },
+    {
+      "imports": [
+        "cmath",
+        "ros",
+        "ros",
+        "loader",
+        "core",
+        "core",
+        "core",
+        "core",
+        "core",
+        "core timer",
+        "core",
+        "",
+        "",
+        "box",
+        "combo box",
+        "spin box",
+        "image",
+        "",
+        "",
+        "",
+        "",
+        "painter",
+        "pixmap",
+        "progress",
+        "",
+        "radio",
+        "",
+        "",
+        "",
+        "",
+        "box layout",
+        "",
+        "graphics scene",
+        "graphics",
+        "graphics pixmap",
+        "input",
+        "mouse event",
+        "box",
+        "",
+        "input",
+        "font",
+        "geometry pose"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ros path",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "literal",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angle rad degrees",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "angle degrees rad",
+          "params": [
+            "angle"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "pose",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "ogm validation connector"
+    },
+    {
+      "imports": [
+        "ogm validation loader",
+        "ogm communications maps"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "validation connector",
+          "attributes": [
+            "",
+            "",
+            "detector",
+            "descriptor",
+            "matcher",
+            "matching",
+            "closest obstacle",
+            "dist",
+            "matching ratio",
+            "ransac reprj",
+            "median kernel",
+            "median kernel",
+            "gaussian kernel",
+            "gaussian kernel",
+            "morph filtering",
+            "",
+            "alignment",
+            "scale maps brushfire",
+            "gaussian",
+            "gaussian",
+            "median",
+            "median",
+            "morph",
+            "pruning",
+            "voronoi",
+            "vertices",
+            "skeletonization",
+            "pruning iterations",
+            "morph iterations",
+            "loader"
+          ],
+          "methods": [
+            {
+              "name": "validation connector",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "metric",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "loader",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "descriptor",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "detector",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "matcher",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "matching",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "closest obstacle",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "distance",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "matching ratio",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "ransac reprj",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian kernel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian kernel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "median kernel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "median kernel",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "threshold maps",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morph filtering",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "align maps",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scale maps brushfire",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "median",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "median",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "skeletonization",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pruning iterations",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morph iterations",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pruning",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morph",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "voronoi",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "vertices",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "posx",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "posy",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matching ratio",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ransac",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian spin box",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian spin box",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "median spin box",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "median spin box",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map position",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "obstacle triggered",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "feature matching triggered",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "detector combo box activated",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "descriptor combo box activated",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matcher combo box activated",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "matching combo box activated",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "closest obstacle combo box activated",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "distance combo box activated",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "maps",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morph filtering",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "alignment",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "scale maps brushfire",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "gaussian box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "median box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "median box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "morph box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pruning box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "voronoi box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "vertices box",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "pruning spin box",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "morph spin box",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "skeletonization combo box activated",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "pos",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "pos",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "metric",
+              "params": [
+                "metric"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "structural evaluation",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ogm validation loader"
+    },
+    {
+      "imports": [
+        "validation",
+        "ogm"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "validation loader",
+          "attributes": [
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "validation loader",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "validation loader",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "",
+                "height",
+                "ocgd",
+                "ground truth"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map xposition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map yposition",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map rotation",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map scale",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map transparency",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "feature evaluation"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map evaluator map evaluator",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "map evaluation"
+          ]
+        },
+        {
+          "name": "map evaluator evaluation",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "totaltime",
+            "",
+            "",
+            "",
+            "elapsed",
+            "",
+            "ground truth map",
+            "slam map",
+            "transform",
+            "ground truth map uchar",
+            "slam map uchar",
+            "detector",
+            "descriptor",
+            "matcher",
+            "matching",
+            "closest",
+            "dist norm",
+            "matching ratio",
+            "ransac reprj",
+            "scale maps brushfire",
+            "",
+            "alignment",
+            "benchmarking",
+            "morphological filtering",
+            "gaussian",
+            "gaussian",
+            "median",
+            "median",
+            "gaussian kernel",
+            "gaussian kernel",
+            "median kernel",
+            "median kernel",
+            "metric",
+            "",
+            "features image",
+            "initial matched image",
+            "matched image",
+            "merged image",
+            "matches",
+            "acceptance",
+            "quality",
+            "overlap",
+            ""
+          ]
+        },
+        {
+          "name": "map evaluator map mat",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "flipped",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature evaluation node"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "evaluator"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature metric factory"
+    },
+    {
+      "imports": [
+        "",
+        "feature evaluation feature metric factory",
+        "feature evaluation feature evaluation metrics omse",
+        "feature evaluation feature evaluation metrics feature metrics"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "metric factory metric",
+          "params": [
+            "",
+            "ground truth map",
+            "slam map"
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "annular statistics descriptor"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation descriptors annular statistics descriptor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "annular statistics descriptor annular statistics descriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "annular statistics descriptor compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "radius",
+            "initial radius",
+            "radius",
+            "radius",
+            "obstacles",
+            "frees",
+            "",
+            "",
+            "median",
+            "",
+            "",
+            "sse",
+            "dst",
+            "rings",
+            "img",
+            "",
+            "",
+            "desc",
+            "features",
+            "radius ratio",
+            "",
+            "factor",
+            "",
+            "",
+            "",
+            "",
+            "std",
+            "",
+            "roi",
+            "mask",
+            "mask",
+            "mask",
+            "circle cropped",
+            "",
+            "",
+            "initial radius",
+            "radius",
+            "radius",
+            "radius",
+            "",
+            "",
+            "",
+            "roi",
+            "mask",
+            "median",
+            "radius",
+            "radius",
+            "radius",
+            ""
+          ]
+        },
+        {
+          "name": "annular statistics descriptor median",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "circle intersection descriptor"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation descriptors circle intersection descriptor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "circle intersection descriptor circle intersection descriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "circle intersection descriptor compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "intersections",
+            "crosses",
+            "rings",
+            "radius",
+            "initial radius",
+            "radius",
+            "radius",
+            "",
+            "",
+            "img",
+            "desc",
+            "",
+            "features",
+            "radius ratio",
+            "",
+            "factor",
+            "",
+            "",
+            "",
+            "theta",
+            "initial radius",
+            "radius",
+            "radius",
+            "radius",
+            "intersections",
+            "crosses",
+            "",
+            "",
+            "crosses",
+            "",
+            "radius",
+            "radius",
+            "radius"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "descriptor factory"
+    },
+    {
+      "imports": [
+        "",
+        "feature evaluation feature evaluation descriptors descriptor factory",
+        "feature evaluation feature evaluation descriptors radius statistics descriptor",
+        "feature evaluation feature evaluation descriptors annular statistics descriptor",
+        "feature evaluation feature evaluation descriptors circle intersection descriptor",
+        "feature evaluation feature evaluation descriptors rays descriptor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "descriptor factory",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "rays descriptor"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation descriptors rays descriptor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "rays descriptor rays descriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "rays descriptor compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "radius",
+            "initial radius",
+            "radius",
+            "radius",
+            "",
+            "rings",
+            "",
+            "",
+            "img",
+            "",
+            "desc",
+            "features",
+            "rays",
+            "theta increment",
+            "",
+            "",
+            "rays",
+            "radius ratio",
+            "",
+            "factor",
+            "",
+            "radius",
+            "rng",
+            "color",
+            "",
+            "",
+            "theta",
+            "initial radius",
+            "theta increment",
+            "rays",
+            "radius",
+            "radius",
+            "",
+            "",
+            "radius",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "desc",
+            "radius",
+            "radius"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "radius statistics descriptor"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation descriptors radius statistics descriptor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "radius statistics descriptor radius statistics descriptor",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "radius statistics descriptor compute",
+          "params": [
+            "image",
+            "keypoints",
+            "descriptors"
+          ],
+          "local_variables": [
+            "radius",
+            "obstacles",
+            "frees",
+            "sse",
+            "dst",
+            "img",
+            "desc",
+            "features",
+            "",
+            "",
+            "mask",
+            "",
+            "",
+            "",
+            "radius",
+            "obstacles",
+            "frees",
+            "sse",
+            "dst",
+            "desc"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature metrics"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation metrics feature metrics"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "feature metrics feature metrics",
+          "params": [
+            "ground truth map",
+            "slam map"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "feature metrics calculate metric",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "slam map",
+            "ground truth map",
+            "slam dist",
+            "ground truth dist",
+            "brushfire",
+            "",
+            "brushfire",
+            "",
+            "scaling factor",
+            "",
+            "",
+            "ground truth descriptors",
+            "slam descriptors",
+            "",
+            "matches",
+            "matches",
+            "matches",
+            "cross matches",
+            "filtered matches",
+            "img keypoints",
+            "img keypoints",
+            "slam matched",
+            "ground truth matched",
+            "slam matched coords",
+            "ground truth matched coords",
+            "imgmatches",
+            "imgmatches",
+            "imgmatches",
+            "query idxs",
+            "train idxs",
+            "",
+            "mask",
+            "",
+            "",
+            "inliers",
+            "",
+            "image",
+            "image",
+            "",
+            "vertices",
+            "",
+            "height",
+            "mask image",
+            "ordinates",
+            "nonzero",
+            "obstacle percentage",
+            "",
+            "",
+            "agr",
+            "dis",
+            "omse",
+            "merged image",
+            "merged image",
+            "overlapped",
+            "overlapped",
+            "overlapped",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "inliers",
+            "acceptance",
+            "quality",
+            "overlap",
+            "path",
+            "",
+            "feature detector",
+            "descriptor extractor",
+            "matcher",
+            "brushfire",
+            "brushfire",
+            "ground truth dist",
+            "slam dist",
+            "features image",
+            "features image",
+            "initial matched image",
+            "query idxs",
+            "train idxs",
+            "inliers",
+            "matched image",
+            "image",
+            "acceptance",
+            "closest",
+            "quality",
+            "overlap",
+            "merged image",
+            ""
+          ]
+        },
+        {
+          "name": "feature metrics cross matching",
+          "params": [
+            "descriptors",
+            "descriptors",
+            "filtered matches",
+            "knn"
+          ],
+          "local_variables": [
+            "matches",
+            "matches",
+            "",
+            "cross",
+            "",
+            "",
+            "",
+            "",
+            "cross"
+          ]
+        },
+        {
+          "name": "feature metrics simple matching",
+          "params": [
+            "descriptors",
+            "descriptors",
+            "matches"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "feature metrics ratio",
+          "params": [
+            "descriptors",
+            "descriptors",
+            "filtered matches"
+          ],
+          "local_variables": [
+            "matches",
+            ""
+          ]
+        },
+        {
+          "name": "feature metrics knn matching",
+          "params": [
+            "descriptors",
+            "descriptors",
+            "filtered matches",
+            "knn"
+          ],
+          "local_variables": [
+            "matches",
+            "",
+            "",
+            "match"
+          ]
+        },
+        {
+          "name": "feature metrics mse",
+          "params": [
+            "image",
+            "image"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "sse",
+            "mse",
+            ""
+          ]
+        },
+        {
+          "name": "feature metrics agreement",
+          "params": [
+            "image",
+            "image",
+            "agr",
+            "dis"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "agr",
+            "dis"
+          ]
+        },
+        {
+          "name": "feature metrics images",
+          "params": [
+            "",
+            "vertices"
+          ],
+          "local_variables": [
+            "offset",
+            "offset",
+            "",
+            "",
+            "",
+            "warp",
+            "panorama",
+            "panorama",
+            "",
+            "",
+            "",
+            "offset",
+            "offset",
+            "offset",
+            "offset",
+            "",
+            "",
+            "panorama uchar offset"
+          ]
+        },
+        {
+          "name": "feature metrics estimate transform",
+          "params": [
+            "coords",
+            "coords",
+            "iters",
+            "thresh",
+            "npoints",
+            "inliers",
+            "model",
+            ""
+          ],
+          "local_variables": [
+            "indices",
+            "",
+            "",
+            "coords",
+            "mask",
+            "model",
+            "consensus",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "inliers coords",
+            "inliers coords",
+            "",
+            "",
+            "indices",
+            "",
+            "",
+            "model",
+            "consensus",
+            "",
+            "",
+            "mask",
+            "",
+            "",
+            "model"
+          ]
+        },
+        {
+          "name": "feature metrics features image",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "image",
+            "encoding"
+          ]
+        },
+        {
+          "name": "feature metrics initial matched image",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "image",
+            "encoding"
+          ]
+        },
+        {
+          "name": "feature metrics matched image",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "image",
+            "encoding"
+          ]
+        },
+        {
+          "name": "feature metrics merged image",
+          "params": [],
+          "local_variables": [
+            "",
+            "",
+            "image",
+            "encoding"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "metric"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation metrics metric"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "metric",
+          "params": [
+            "ground truth map",
+            "slam map"
+          ],
+          "local_variables": [
+            "ground truth map",
+            "slam map"
+          ]
+        },
+        {
+          "name": "metric",
+          "params": [
+            ""
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "metric",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "metric matches",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "metric acceptance",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "metric quality",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "metric overlap",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "omse"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation metrics omse"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "omse metric omse metric",
+          "params": [
+            "ground truth map",
+            "slam map"
+          ],
+          "local_variables": []
+        },
+        {
+          "name": "omse metric calculate metric",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "map",
+            "map",
+            "map",
+            "map",
+            "",
+            "",
+            "dist",
+            "",
+            "",
+            "map",
+            "map",
+            "",
+            "brushfire",
+            "brushfire",
+            ""
+          ]
+        },
+        {
+          "name": "omse metric extract obstacle",
+          "params": [
+            "map mat"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "omse metric brute force nearest neighbor",
+          "params": [
+            "",
+            "dist norm"
+          ],
+          "local_variables": [
+            "dst",
+            "dst",
+            "",
+            "dst",
+            "dst"
+          ]
+        },
+        {
+          "name": "omse metric calculate distance",
+          "params": [
+            "",
+            "",
+            "dist norm"
+          ],
+          "local_variables": [
+            "dst",
+            "diff",
+            "dst",
+            "dst"
+          ]
+        },
+        {
+          "name": "omse metric features image",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "omse metric initial matched image",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "omse metric matched image",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "omse metric merged image",
+          "params": [],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "affine estimator"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation affine estimator"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "affine estimator inliers",
+          "params": [
+            "",
+            "",
+            "model",
+            "",
+            "mask",
+            "threshold"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "mask",
+            ""
+          ]
+        },
+        {
+          "name": "affine estimator compute reproj",
+          "params": [
+            "",
+            "",
+            "model",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "affine estimator ransac",
+          "params": [
+            "",
+            "",
+            "model",
+            "mask",
+            "reproj threshold",
+            "confidence",
+            "iters"
+          ],
+          "local_variables": [
+            "",
+            "mask",
+            "models",
+            "",
+            "tmask",
+            "",
+            "",
+            "",
+            "niters",
+            "",
+            "",
+            "",
+            "",
+            "nmodels",
+            "",
+            "model",
+            "models",
+            "",
+            "tmask",
+            "",
+            "",
+            "niters",
+            "",
+            "",
+            "nmodels",
+            "",
+            "",
+            "niters",
+            ""
+          ]
+        },
+        {
+          "name": "affine transform",
+          "params": [
+            "src",
+            "dst"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "affine estimator kernel",
+          "params": [
+            "",
+            "",
+            "model"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "estimate affine",
+          "params": [
+            "",
+            "",
+            "",
+            "inliers",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "inliers",
+            "",
+            "",
+            "",
+            "mask",
+            "",
+            "",
+            "epsilon",
+            "inliers",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "affine estimator subset",
+          "params": [
+            "",
+            "",
+            "",
+            "",
+            "attempts"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "iters",
+            "",
+            "elem",
+            "ptr",
+            "ptr",
+            "ptr",
+            "ptr",
+            "",
+            "",
+            "ptr elem",
+            "ptr elem"
+          ]
+        },
+        {
+          "name": "affine estimator subset",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "ptr",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "affine estimator affine estimator",
+          "params": [],
+          "local_variables": [
+            "partial subsets",
+            "rng"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "affine partial estimator"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation affine partial estimator",
+        "algorithm",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "affine partial estimator affine partial estimator",
+          "params": [
+            "threshold",
+            "confidence",
+            "model",
+            "iters"
+          ],
+          "local_variables": [
+            "partial subsets",
+            "model",
+            "threshold",
+            "confidence",
+            "iters"
+          ]
+        },
+        {
+          "name": "affine partial estimator ransac iters",
+          "params": [
+            "",
+            "",
+            "model",
+            "iters"
+          ],
+          "local_variables": [
+            "",
+            "denom",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "denom"
+          ]
+        },
+        {
+          "name": "affine partial estimator inliers",
+          "params": [
+            "",
+            "",
+            "model",
+            "",
+            "mask",
+            "thresh",
+            ""
+          ],
+          "local_variables": [
+            "errptr",
+            "maskptr",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "maskptr"
+          ]
+        },
+        {
+          "name": "affine partial estimator subset",
+          "params": [
+            "",
+            "",
+            "",
+            "",
+            "rng",
+            "attempts"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "iters",
+            "",
+            "",
+            "esz",
+            "esz",
+            "",
+            "",
+            "ptr",
+            "ptr",
+            "ptr",
+            "ptr",
+            "",
+            "",
+            "ptr esz",
+            "ptr esz",
+            ""
+          ]
+        },
+        {
+          "name": "affine partial estimator ransac",
+          "params": [
+            "",
+            "",
+            "model",
+            "mask"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "mask",
+            "model",
+            "model",
+            "",
+            "",
+            "",
+            "niters",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "rng",
+            "mask",
+            "mask",
+            "",
+            "",
+            "",
+            "nmodels",
+            "",
+            "model",
+            "model",
+            "",
+            "mask",
+            "mask",
+            "",
+            "nmodels",
+            "",
+            "",
+            "niters",
+            ""
+          ]
+        },
+        {
+          "name": "affine partial estimator compute",
+          "params": [
+            "",
+            "",
+            "model",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "model",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "errptr",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "errptr"
+          ]
+        },
+        {
+          "name": "affine partial estimator subset",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "inp",
+            "",
+            "",
+            "",
+            "msi",
+            "ptr",
+            "",
+            "",
+            "",
+            "denom",
+            ""
+          ]
+        },
+        {
+          "name": "affine partial estimator kernel",
+          "params": [
+            "",
+            "",
+            "model"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "adata",
+            "bdata",
+            "xdata",
+            "mdata",
+            "",
+            "aptr",
+            "",
+            "bdata",
+            "bdata",
+            "aptr",
+            "aptr",
+            "aptr",
+            "aptr",
+            "aptr",
+            "aptr",
+            "mdata",
+            "mdata",
+            "mdata",
+            "mdata",
+            "mdata"
+          ]
+        },
+        {
+          "name": "estimate affine partial",
+          "params": [
+            "",
+            "",
+            "",
+            "inliers",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "epsilon",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "maps alignment"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation maps alignment"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "alignment",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "alignment align maps",
+          "params": [
+            "transform",
+            "ground truth map",
+            "slam map"
+          ],
+          "local_variables": [
+            "transform mat",
+            "center",
+            "padded",
+            "padded height",
+            "transform mat",
+            "padded height",
+            "padded"
+          ]
+        },
+        {
+          "name": "alignment icp",
+          "params": [
+            "target",
+            "",
+            "iterations"
+          ],
+          "local_variables": [
+            "",
+            "target",
+            "mat",
+            "mat",
+            "target mat",
+            "transform",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "transform hom",
+            "transform",
+            "transform",
+            "closest mat",
+            "transform hom",
+            "transform hom",
+            "",
+            "transformedclosest mat",
+            "",
+            "mat",
+            "target mat",
+            "target mat",
+            "mat",
+            "transform",
+            "transform hom",
+            "mat"
+          ]
+        },
+        {
+          "name": "alignment match",
+          "params": [
+            "target mat",
+            "mat",
+            "closest mat"
+          ],
+          "local_variables": [
+            "indices",
+            "dists",
+            "closest",
+            "flann",
+            "pairs",
+            "indices ptr",
+            "",
+            "",
+            "closest mat",
+            "closest mat"
+          ]
+        },
+        {
+          "name": "alignment transform",
+          "params": [
+            "target mat",
+            "closest mat",
+            "transform"
+          ],
+          "local_variables": [
+            "translated target mat",
+            "centroid",
+            "centroid",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "mci",
+            "dci",
+            "svd",
+            "",
+            "",
+            "det",
+            "",
+            "centroid",
+            "centroid",
+            "closest mat",
+            "closest mat",
+            "translated target mat",
+            "translated target mat",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "alignment transformation",
+          "params": [
+            "mat",
+            "mat",
+            "transform"
+          ],
+          "local_variables": [
+            "translation",
+            "rotation",
+            "trans mat",
+            "",
+            "",
+            "",
+            "translation",
+            "rotation",
+            "trans mat",
+            "translation"
+          ]
+        },
+        {
+          "name": "alignment rmse",
+          "params": [
+            "target mat",
+            "mat"
+          ],
+          "local_variables": [
+            "diff",
+            "squares",
+            "",
+            "",
+            "sqrtsum",
+            "",
+            "sqrts",
+            "",
+            "rmse",
+            "",
+            "diff",
+            "squares"
+          ]
+        },
+        {
+          "name": "alignment map",
+          "params": [
+            "mat",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            "",
+            "uchar",
+            "uchar mat"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "map saver"
+    },
+    {
+      "imports": [
+        "cstdio",
+        "opencv",
+        "ros",
+        "ros console",
+        "ros",
+        "nav map",
+        "linear math",
+        "geometry quaternion"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "mapname",
+            "",
+            "",
+            "mapname"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "map generator",
+          "attributes": [
+            "mapname",
+            "map",
+            "map"
+          ],
+          "methods": [
+            {
+              "name": "map generator",
+              "params": [
+                "mapname"
+              ],
+              "local_variables": [
+                "map",
+                ""
+              ]
+            },
+            {
+              "name": "map",
+              "params": [
+                "map"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "map",
+                "path",
+                "mapdatafile",
+                "",
+                "",
+                "flipped",
+                "mapmetadatafile",
+                "yaml",
+                "orientation",
+                "mat",
+                "yaw",
+                "pitch",
+                "roll"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation map"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "map",
+          "params": [],
+          "local_variables": []
+        },
+        {
+          "name": "map brushfire search",
+          "params": [
+            "map",
+            "brushfire"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "wave",
+            "current wave",
+            "",
+            "",
+            "brushfire",
+            "brushfire",
+            "wave",
+            "wave",
+            "brushfire",
+            "brushfire",
+            "brushfire",
+            "brushfire"
+          ]
+        },
+        {
+          "name": "map brushfire distance",
+          "params": [
+            "map",
+            "brushfire"
+          ],
+          "local_variables": [
+            "",
+            "frees",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "map brushfire distance",
+          "params": [
+            "map",
+            "brushfire"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "map roi",
+          "params": [
+            "",
+            "roi"
+          ],
+          "local_variables": [
+            "pro",
+            "",
+            "pro"
+          ]
+        },
+        {
+          "name": "map compute product",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ]
+        },
+        {
+          "name": "map boundaries",
+          "params": [
+            "map"
+          ],
+          "local_variables": [
+            "largest",
+            "largest contour",
+            "bounding rect",
+            "thr",
+            "dst",
+            "contours",
+            "hierarchy",
+            "",
+            "",
+            "padding",
+            "padding rect",
+            "map rect",
+            "fitting rect",
+            "largest",
+            "largest contour",
+            "bounding rect",
+            "map"
+          ]
+        },
+        {
+          "name": "map morphological filtering",
+          "params": [
+            "src"
+          ],
+          "local_variables": [
+            "morph",
+            "",
+            "thr",
+            "",
+            "",
+            "",
+            "",
+            "dst",
+            "",
+            "",
+            "",
+            "",
+            "thr uchar",
+            "thr uchar",
+            "dst uchar",
+            "src uchar"
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "feature evaluation"
+    },
+    {
+      "imports": [
+        "chrono",
+        "",
+        "",
+        "math",
+        "ros",
+        "opencv",
+        "ogm communications evaluation",
+        "ogm communications map pose",
+        "feature evaluation feature evaluation metrics",
+        "feature evaluation feature evaluation metrics metric",
+        "feature evaluation feature evaluation maps alignment",
+        "feature evaluation feature evaluation map",
+        "feature evaluation feature metric factory"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map evaluator",
+          "attributes": [
+            "",
+            "map evaluation",
+            "ground truth map",
+            "slam map",
+            "diff",
+            "transform",
+            "metric factory",
+            "metric",
+            "alignment",
+            "",
+            "map"
+          ],
+          "methods": [
+            {
+              "name": "map evaluator",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "evaluation",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map mat",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "feature metric factory"
+    },
+    {
+      "imports": [
+        "",
+        "feature evaluation feature evaluation metrics metric",
+        "ogm communications map pose"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "metric factory",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "metric factory",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "metric factory",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "metric",
+              "params": [
+                "",
+                "ground truth map",
+                "slam map"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "annular statistics descriptor"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation descriptors descriptor extractor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "annular statistics descriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "annular statistics descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "annular statistics descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "median",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "circle intersection descriptor"
+    },
+    {
+      "imports": [
+        "math",
+        "feature evaluation feature evaluation descriptors descriptor extractor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "circle intersection descriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "circle intersection descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "circle intersection descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "descriptor extractor"
+    },
+    {
+      "imports": [
+        "",
+        "opencv",
+        "ros"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "descriptor extractor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "descriptor extractor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "descriptor extractor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "descriptor factory"
+    },
+    {
+      "imports": [
+        "",
+        "feature evaluation feature evaluation descriptors descriptor extractor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "descriptor factory",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "descriptor factory",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "rays descriptor"
+    },
+    {
+      "imports": [
+        "math",
+        "feature evaluation feature evaluation descriptors descriptor extractor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "rays descriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rays descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rays descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "radius statistics descriptor"
+    },
+    {
+      "imports": [
+        "feature evaluation feature evaluation descriptors descriptor extractor"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "radius statistics descriptor",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "compute",
+              "params": [
+                "image",
+                "keypoints",
+                "descriptors"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "radius statistics descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "radius statistics descriptor",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "feature metrics"
+    },
+    {
+      "imports": [
+        "numeric",
+        "algorithm",
+        "math",
+        "bridge",
+        "sensor image encodings",
+        "opencv features",
+        "opencv nonfree",
+        "opencv nonfree features",
+        "ros",
+        "ogm communications map pose",
+        "feature evaluation feature evaluation metrics metric",
+        "feature evaluation feature evaluation descriptors descriptor extractor",
+        "feature evaluation feature evaluation descriptors descriptor factory",
+        "feature evaluation feature evaluation metrics omse",
+        "feature evaluation feature evaluation affine estimator",
+        "feature evaluation feature evaluation affine partial estimator",
+        "feature evaluation feature evaluation maps alignment",
+        "feature evaluation feature evaluation map"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "feature metrics",
+          "attributes": [
+            "detector",
+            "descriptor",
+            "matcher",
+            "dist norm",
+            "matching",
+            "matching ratio",
+            "ransac reprj",
+            "scale maps brushfire",
+            "feature detector",
+            "descriptor extractor",
+            "custom descriptor extractor",
+            "descriptor factory",
+            "matcher",
+            "ground truth keypoints",
+            "slam keypoints",
+            "ground truth descriptors",
+            "slam descriptors",
+            "matches",
+            "fil",
+            "fil",
+            "coord",
+            "coord",
+            "omse metric",
+            "alignment",
+            "map",
+            "transform",
+            "",
+            "path",
+            "",
+            "initial matched image",
+            "features image",
+            "matched image",
+            "merged image"
+          ],
+          "methods": [
+            {
+              "name": "feature metrics",
+              "params": [
+                "ground truth map",
+                "slam map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "feature metrics",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculate metric",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "cross matching",
+              "params": [
+                "descriptors",
+                "descriptors",
+                "filtered matches",
+                "knn"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "simple matching",
+              "params": [
+                "descriptors",
+                "descriptors",
+                "matches"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ratio",
+              "params": [
+                "descriptors",
+                "descriptors",
+                "filtered matches"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "knn matching",
+              "params": [
+                "descriptors",
+                "descriptors",
+                "filtered matches",
+                "knn"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "estimate transform",
+              "params": [
+                "coords",
+                "coords",
+                "iters",
+                "thresh",
+                "npoints",
+                "inliers",
+                "model",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "mse",
+              "params": [
+                "image",
+                "image"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "agreement",
+              "params": [
+                "image",
+                "image",
+                "agr",
+                "dis"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "images",
+              "params": [
+                "",
+                "vertices"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "features image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "initial matched image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "matched image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "merged image",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "metric"
+    },
+    {
+      "imports": [
+        "ros",
+        "bridge",
+        "sensor image encodings",
+        "opencv",
+        "feature evaluation feature evaluation metrics"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "metric",
+          "attributes": [
+            "ground truth map",
+            "slam map",
+            "",
+            "acceptance",
+            "quality",
+            "overlap",
+            "inliers"
+          ],
+          "methods": [
+            {
+              "name": "calculate metric",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "metric",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "acceptance",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "matches",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "quality",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "overlap",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "features image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "initial matched image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "matched image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "merged image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "metric",
+              "params": [
+                "ground truth map",
+                "slam map"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "omse"
+    },
+    {
+      "imports": [
+        "bridge",
+        "sensor image encodings",
+        "feature evaluation feature evaluation metrics metric",
+        "feature evaluation feature evaluation map",
+        "feature evaluation feature evaluation maps alignment"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "omse metric",
+          "attributes": [
+            "ground truth obstacle",
+            "slam obstacle",
+            "closest",
+            "dist norm",
+            "brushfire",
+            "map",
+            "alignment"
+          ],
+          "methods": [
+            {
+              "name": "omse metric",
+              "params": [
+                "ground truth map",
+                "slam map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "omse metric",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculate metric",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "extract obstacle",
+              "params": [
+                "map mat"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "brute force nearest neighbor",
+              "params": [
+                "",
+                "dist norm"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "calculate distance",
+              "params": [
+                "",
+                "",
+                "dist norm"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "features image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "initial matched image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "matched image",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "merged image",
+              "params": [],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "detector",
+            "descriptor",
+            "matcher",
+            "matching",
+            "closest",
+            "dist norm",
+            "matching ratio",
+            "ransac reprj",
+            "scale maps brushfire",
+            "",
+            "alignment",
+            "benchmarking",
+            "morphological filtering",
+            "gaussian",
+            "gaussian",
+            "median",
+            "median",
+            "gaussian kernel",
+            "gaussian kernel",
+            "median kernel",
+            "median kernel"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "affine estimator"
+    },
+    {
+      "imports": [
+        "",
+        "opencv"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "estimate affine",
+          "params": [
+            "",
+            "",
+            "",
+            "inliers",
+            "",
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "affine estimator",
+          "attributes": [
+            "rng",
+            "model",
+            "model",
+            "basic solutions",
+            "partial subsets"
+          ],
+          "methods": [
+            {
+              "name": "affine estimator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "kernel",
+              "params": [
+                "",
+                "",
+                "model"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ransac",
+              "params": [
+                "",
+                "",
+                "model",
+                "mask",
+                "threshold",
+                "confidence",
+                "iters"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "subset",
+              "params": [
+                "",
+                "",
+                "",
+                "",
+                "attempts"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "subset",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "inliers",
+              "params": [
+                "",
+                "",
+                "model",
+                "",
+                "mask",
+                "threshold"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "compute reproj",
+              "params": [
+                "",
+                "",
+                "model",
+                ""
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "affine partial estimator"
+    },
+    {
+      "imports": [
+        "",
+        "opencv",
+        "ros"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "estimate affine partial",
+          "params": [
+            "",
+            "",
+            "",
+            "inliers",
+            "",
+            ""
+          ],
+          "local_variables": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "affine partial estimator",
+          "attributes": [
+            "rng",
+            "model",
+            "partial subsets",
+            "threshold",
+            "confidence",
+            "iters"
+          ],
+          "methods": [
+            {
+              "name": "affine partial estimator",
+              "params": [
+                "threshold",
+                "confidence",
+                "model",
+                "iters"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "affine partial estimator",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "kernel",
+              "params": [
+                "",
+                "",
+                "model"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ransac",
+              "params": [
+                "",
+                "",
+                "model",
+                "mask"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "subset",
+              "params": [
+                "",
+                "",
+                "",
+                "",
+                "rng",
+                "attempts"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "subset",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "inliers",
+              "params": [
+                "",
+                "",
+                "model",
+                "",
+                "mask",
+                "thresh",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "compute",
+              "params": [
+                "",
+                "",
+                "model",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "ransac iters",
+              "params": [
+                "",
+                "",
+                "model",
+                "iters"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "maps alignment"
+    },
+    {
+      "imports": [
+        "opencv",
+        "ros",
+        "ogm communications map pose",
+        "feature evaluation feature evaluation map"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "alignment",
+          "attributes": [
+            "map"
+          ],
+          "methods": [
+            {
+              "name": "alignment",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "alignment",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "align maps",
+              "params": [
+                "transform",
+                "ground truth map",
+                "slam map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "icp",
+              "params": [
+                "target",
+                "",
+                "iterations"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "rmse",
+              "params": [
+                "target mat",
+                "mat"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "match",
+              "params": [
+                "target mat",
+                "mat",
+                "closest mat"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transform",
+              "params": [
+                "target mat",
+                "closest mat",
+                "transform"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                "mat",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "transformation",
+              "params": [
+                "mat",
+                "mat",
+                "transform"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "map"
+    },
+    {
+      "imports": [
+        "opencv"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "map",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "map",
+              "params": [],
+              "local_variables": []
+            },
+            {
+              "name": "map",
+              "params": [
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "brushfire search",
+              "params": [
+                "map",
+                "brushfire"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "brushfire distance",
+              "params": [
+                "map",
+                "brushfire"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "roi",
+              "params": [
+                "",
+                "roi"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "compute product",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "boundaries",
+              "params": [
+                "map"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "morphological filtering",
+              "params": [
+                "src"
+              ],
+              "local_variables": []
+            },
+            {
+              "name": "brushfire distance",
+              "params": [
+                "map",
+                "brushfire"
+              ],
+              "local_variables": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

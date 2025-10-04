@@ -1,0 +1,6948 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_1",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "distutils core",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "catkin generate distutils",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "images bag",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "ros rosbag",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sensor image",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "image",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "imgs",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "bag",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "imgs",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "bagname",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "stamp",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "img",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "img",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "bag",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rosbag",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "bag",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "input bag absolute",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "input bag",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "bag",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_2",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "hazmat benchmark",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision support pandora vision benchmark",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "benchmark tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "dataset camera",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image hfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image vfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "algorithm",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "benchmark",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "image path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rgb depth thermal synchronizer",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "filters",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "camera calibration approxsync",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sensor image",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sensor cloud",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "distrib flir lepton",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "license",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "author",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "maintainer",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "email",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "kinect topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "flir topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "mode",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "kinect subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "flir subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "sync",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "kinect subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_rgb depth thermal synchronizer_1",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "cloud",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "flir lepton",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "synch topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "synch topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "synch pub",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "publish rgb",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "cloud",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "synch topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "synch topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "synch pub",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "rgb",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "cloud",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "hole benchmark",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision support pandora vision benchmark",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "benchmark tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "dataset camera",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image hfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image vfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "algorithm",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "benchmark",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "image path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "hole detector",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "unittest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision holes directions",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision candidate holes",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision enhanced holes",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "license",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "author",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "maintainer",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "email",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "hole detector",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hole detector",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "height",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "holes directions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hole",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expected",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expected",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expected yaw",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expected pitch",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "depth node",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candidate holes",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hole",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hole",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "rgb node",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candidate holes",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hole",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hole",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "enhanced holes",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "enhanced holes",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "hole",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "landoltc benchmark",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision support pandora vision benchmark",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "benchmark tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image hfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image vfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "algorithm",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "benchmark",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "dataset camera",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "image path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "accuracy",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "accuracy tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "accuracy",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "develspace",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "catkin prefix",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project catkin depends",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "prefix",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project space",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "installspace",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "catkin prefix",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project catkin depends",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "prefix",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project space",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "project",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "barrel benchmark",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision support pandora vision benchmark",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "benchmark tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "dataset camera",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image hfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image vfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "algorithm",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "benchmark",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "image path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "rename bag topic",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rosbag bag",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "qrcode benchmark",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision support pandora vision benchmark",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "benchmark tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "dataset camera",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image hfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image vfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "algorithm",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "benchmark",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "image path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "accuracy",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "accuracy tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "accuracy",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_3",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "distutils core",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "catkin generate distutils",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_4",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_5",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "victim benchmark",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "threading",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision support pandora vision benchmark",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber alert",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hole subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hole subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hole subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hole subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hole subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hole subscriber",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "benchmark tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "victim block",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "dataset camera",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image hfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "image vfov",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "algorithm",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "benchmark",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "benchmark",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "image path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "publish",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "input topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "output topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_benchmark tester_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "output topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "accuracy",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sys",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "roslib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rostest",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospy",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "rospkg",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandora vision",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "subscriber topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "publisher topics",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "accuracy tester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "accuracy",
+      "weight": 0.85,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "distutils core",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "catkin generate distutils",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "images bag",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "images bag",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "images bag",
+      "to": "ros rosbag",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "images bag",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "images bag",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "images bag",
+      "to": "sensor image",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "images bag",
+      "to": "image",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "images bag",
+      "to": "imgs",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "images bag",
+      "to": "bag",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "bag",
+      "to": "imgs",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "bag",
+      "to": "bagname",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "stamp",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "img",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "img",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "bag",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "bag",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "bag",
+      "to": "rosbag",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "bag",
+      "to": "bag",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "bag",
+      "to": "input bag absolute",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "input bag",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag path",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag path",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag path",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "bag",
+      "to": "bag",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "hazmat benchmark",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hazmat benchmark",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hazmat benchmark",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hazmat benchmark",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hazmat benchmark",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hazmat benchmark",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hazmat benchmark",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hazmat benchmark",
+      "to": "pandora vision support pandora vision benchmark",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hazmat benchmark",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "hazmat benchmark",
+      "to": "benchmark tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "dataset camera",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image hfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image vfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "algorithm",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "benchmark",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "image path",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rgb depth thermal synchronizer",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "filters",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "camera calibration approxsync",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "sensor image",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "sensor cloud",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "pandora vision",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "distrib flir lepton",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "license",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "author",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "maintainer",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "email",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "kinect topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "flir topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "mode",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "kinect subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "flir subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "sync",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "rgb depth thermal synchronizer",
+      "to": "kinect subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "FUNCTION_ANON_rgb depth thermal synchronizer_1",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_rgb depth thermal synchronizer_1",
+      "to": "cloud",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_rgb depth thermal synchronizer_1",
+      "to": "flir lepton",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_rgb depth thermal synchronizer_1",
+      "to": "synch topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_rgb depth thermal synchronizer_1",
+      "to": "synch topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_rgb depth thermal synchronizer_1",
+      "to": "synch pub",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "publish rgb",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "publish rgb",
+      "to": "cloud",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "publish rgb",
+      "to": "synch topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "publish rgb",
+      "to": "synch topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "publish rgb",
+      "to": "synch pub",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "rgb depth thermal synchronizer",
+      "to": "rgb",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "rgb",
+      "to": "cloud",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "hole benchmark",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole benchmark",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole benchmark",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole benchmark",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole benchmark",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole benchmark",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole benchmark",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole benchmark",
+      "to": "pandora vision support pandora vision benchmark",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole benchmark",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "hole benchmark",
+      "to": "benchmark tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "dataset camera",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image hfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image vfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "algorithm",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "benchmark",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "image path",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "hole detector",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "unittest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "pandora",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "pandora vision holes directions",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "pandora vision candidate holes",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "hole detector",
+      "to": "pandora vision enhanced holes",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole detector",
+      "to": "license",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole detector",
+      "to": "author",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole detector",
+      "to": "maintainer",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole detector",
+      "to": "email",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "hole detector",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "hole detector",
+      "to": "hole detector",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "hole detector",
+      "to": "hole detector",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "hole detector",
+      "to": "height",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "hole detector",
+      "to": "holes directions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "hole detector",
+      "to": "hole",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "hole detector",
+      "to": "expected",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "hole detector",
+      "to": "expected",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "hole detector",
+      "to": "expected yaw",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "hole detector",
+      "to": "expected pitch",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "hole detector",
+      "to": "depth node",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "depth node",
+      "to": "candidate holes",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "depth node",
+      "to": "hole",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "depth node",
+      "to": "hole",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "hole detector",
+      "to": "rgb node",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "rgb node",
+      "to": "candidate holes",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "rgb node",
+      "to": "hole",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "rgb node",
+      "to": "hole",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "hole detector",
+      "to": "enhanced holes",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "enhanced holes",
+      "to": "enhanced holes",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "enhanced holes",
+      "to": "hole",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "landoltc benchmark",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "landoltc benchmark",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "landoltc benchmark",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "landoltc benchmark",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "landoltc benchmark",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "landoltc benchmark",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "landoltc benchmark",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "landoltc benchmark",
+      "to": "pandora vision support pandora vision benchmark",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "landoltc benchmark",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "landoltc benchmark",
+      "to": "benchmark tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image hfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image vfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "algorithm",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "benchmark",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "dataset camera",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "image path",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "accuracy",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "pandora vision",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "accuracy",
+      "to": "accuracy tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "accuracy tester",
+      "to": "accuracy",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "develspace",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "develspace",
+      "to": "catkin prefix",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "develspace",
+      "to": "project",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "develspace",
+      "to": "project catkin depends",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "develspace",
+      "to": "prefix",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "develspace",
+      "to": "project",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "develspace",
+      "to": "project space",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "develspace",
+      "to": "project",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "installspace",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "installspace",
+      "to": "catkin prefix",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "installspace",
+      "to": "project",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "installspace",
+      "to": "project catkin depends",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "installspace",
+      "to": "prefix",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "installspace",
+      "to": "project",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "installspace",
+      "to": "project space",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "installspace",
+      "to": "project",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "barrel benchmark",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "barrel benchmark",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "barrel benchmark",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "barrel benchmark",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "barrel benchmark",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "barrel benchmark",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "barrel benchmark",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "barrel benchmark",
+      "to": "pandora vision support pandora vision benchmark",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "barrel benchmark",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "barrel benchmark",
+      "to": "benchmark tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "dataset camera",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image hfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image vfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "algorithm",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "benchmark",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "image path",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "rename bag topic",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "rename bag topic",
+      "to": "rosbag bag",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "qrcode benchmark",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "qrcode benchmark",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "qrcode benchmark",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "qrcode benchmark",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "qrcode benchmark",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "qrcode benchmark",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "qrcode benchmark",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "qrcode benchmark",
+      "to": "pandora vision support pandora vision benchmark",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "qrcode benchmark",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "qrcode benchmark",
+      "to": "benchmark tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "dataset camera",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image hfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image vfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "algorithm",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "benchmark",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "image path",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "accuracy",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "pandora vision",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "accuracy",
+      "to": "accuracy tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "accuracy tester",
+      "to": "accuracy",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "distutils core",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "catkin generate distutils",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_4",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_4",
+      "to": "pandora vision",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_5",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "victim benchmark",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "threading",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "victim benchmark",
+      "to": "pandora vision support pandora vision benchmark",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "publisher topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "publisher",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber alert topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber alert",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "hole subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "hole subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "hole subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "hole subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "hole subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "hole subscriber",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "subscriber topic",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "victim benchmark",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "victim benchmark",
+      "to": "benchmark tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "victim block",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "dataset camera",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image hfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "image vfov",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "benchmark tester",
+      "to": "algorithm",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "benchmark",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "benchmark",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "image path",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "benchmark",
+      "to": "path",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "publish",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "publish",
+      "to": "input topic",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "publish",
+      "to": "output topic",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "benchmark tester",
+      "to": "METHOD_ANON_benchmark tester_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_benchmark tester_1",
+      "to": "output topic",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "accuracy",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "sys",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "roslib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rostest",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rospy",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "rospkg",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "accuracy",
+      "to": "pandora vision",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "subscriber topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "accuracy",
+      "to": "publisher topics",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "accuracy",
+      "to": "accuracy tester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "accuracy tester",
+      "to": "accuracy",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    }
+  ]
+}

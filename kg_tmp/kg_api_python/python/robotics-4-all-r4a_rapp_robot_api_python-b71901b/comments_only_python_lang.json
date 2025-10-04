@@ -1,0 +1,136 @@
+[
+  {
+    "file": "app.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "PORTABLE ####################################"
+    ]
+  },
+  {
+    "file": "rapp_robot_api_audio.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_robot_api_humanoid_motion.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_robot_api_motion.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Velocities [-1,1]",
+      "x,y in meters, theta in rads"
+    ]
+  },
+  {
+    "file": "rapp_robot_api_sensors.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_robot_api_vision.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "audio_record_and_playback.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Lower the volume, record an audio and play it back"
+    ]
+  },
+  {
+    "file": "full_nao_check.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "posture_examples.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "speech_recognition.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Lower the volume, record an audio and play it back"
+    ]
+  },
+  {
+    "file": "vision_test.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "rh.vision.setActiveCamera(\"FrontDown\")",
+      "rh.vision.setActiveCamera(\"Front\")",
+      "rh.vision.setResolution(\"1280x960\")"
+    ]
+  },
+  {
+    "file": "vision_test_from_pc.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_DEVICE_api_audio.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_DEVICE_api_humanoid_motion.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_DEVICE_api_motion.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_DEVICE_api_sensors.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_DEVICE_api_vision.py",
+    "comments": [
+      "!/usr/bin/env python"
+    ]
+  },
+  {
+    "file": "rapp_robot_api.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "The upper class (namespace), containing per-functionality modules"
+    ]
+  },
+  {
+    "file": "rapp_nao_unit_tests.py",
+    "comments": [
+      "!/usr/bin/env python",
+      "Class to perform tests about the Audio functionalities",
+      "Setting up the RappRobot class",
+      "Should produce an error",
+      "Class to perform tests about the humanoid motion functionalities",
+      "Setting up the RappRobot class",
+      "Class to perform tests about the motion functionalities",
+      "Setting up the RappRobot class",
+      "Class to perform tests about the sensors functionalities",
+      "Setting up the RappRobot class",
+      "Class to perform tests about the vision functionalities",
+      "Setting up the RappRobot class"
+    ]
+  }
+]

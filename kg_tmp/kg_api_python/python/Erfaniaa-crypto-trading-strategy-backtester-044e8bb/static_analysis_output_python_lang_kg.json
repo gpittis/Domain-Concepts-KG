@@ -1,0 +1,8257 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "backtester",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pickle",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "random",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pytz",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "indicators",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "binance",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "position",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "plot maker",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "report maker",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "candle",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "position candles position candles",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "backtester",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions csv report",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit csv report",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "coins symbol",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "coins",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "leverage",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position fee percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position fee percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "profit percents",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "loss percents",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "report percentiles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "train csv path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "csv path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "csv delimiter",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "timeframes",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "indicators timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "maximum positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "profit wins",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "wins",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "minimum candles trading",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "coin maximum price",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "ratio",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "plot path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions csv report path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit csv report path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles plot path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles abs",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles random",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles abs",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles abs percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles random percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles abs percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "price increasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "price decreasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "price increasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "price decreasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd increasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd decreasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd increasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd decreasing",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "fast ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "slow ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd fast ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd slow ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "signal",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "faster ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "fast ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "slow ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd fast ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd slow ema",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "signal",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "macd",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "plot prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "plot prices datetimes",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "plot deposits",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "plot deposit datetimes",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "plot candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "plot candle colors",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "train",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions profit percents",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions profit percents",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "positions profit percents",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit daily percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit weekly percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit biweekly percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit monthly percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit bimonthly percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit trimonthly percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "deposit yearly percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "current candle",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_backtester_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "coins symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "deposit",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "leverage",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "position fee percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "position fee percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "positions",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "positions",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "profit percents",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "loss percents",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "month",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "day",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hour",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "minute",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "month",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "day",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "hour",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "minute",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "report percentiles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "train csv path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "csv path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "csv delimiter",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "timeframes",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "indicators timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "minimum candles trading",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "coin maximum price",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "position timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "ratio",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "plot path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "positions csv report path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "deposit csv report path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles plot path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "download candles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "download timeframes candles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "indicators",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "indicators",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "current candle timeframe",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "offset",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "indicators",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plot price",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plot deposit",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "position",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "condition",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "position",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "condition",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plot candles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ontime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "position",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "current position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "position",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "current position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "positions statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "positions statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "conditions position",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "condition",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "position candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "current position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "current position profit",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "conditions position",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "condition",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "position candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "current position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "current position profit",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "positions",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "positions",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "positions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "backtest",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "prepare train",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "position candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "train csv",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plots",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles plot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plots",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles statistical",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "prepare positions statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "positions statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "prepare deposit statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "deposit statistics",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "positions csv",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "deposit csv",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "progress percent",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "progress percent",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "backtest",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "binance",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "candle",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "json",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "simple",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "math",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pytz",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "interval",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "otime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ctime",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "arr",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "candles",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "timeframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "symbol",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "candle",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "pandas",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "candle",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "volume",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_candle_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "volume",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "repr",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles pandas dataframe",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_1",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "coins symbol",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "coin maximum price",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "deposit",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "leverage",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "position fee percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "position fee percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "positions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "profit percents",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "loss percents",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "average",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "month",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "day",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hour",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "minute",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "month",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "day",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "hour",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "minute",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "indicators timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "candles timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "position timeframe",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "timeframes",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "report percentiles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "train csv path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "csv path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "csv delimiter",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "plot path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "candles plot path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "positions csv report path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "deposit csv report path",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "ratio",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "minimum candles trading",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "indicators",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "wma",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "prices",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "coe",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "coe",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_indicators_1",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "prices",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "ema",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "ema",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "price",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "price",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_2",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "backtester",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "GLOBAL_VAR",
+      "name": "backtester",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "plot maker",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "matplotlib pyplot",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "matplotlib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "mplfinance",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "plot maker",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "axis",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "prices",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "datetimes",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "subplot",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "subplot",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "subplot",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "axis",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles plot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles dataframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candle colors",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "candles plot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles dataframe",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candle colors",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plots",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "plot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "position",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "position",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "leverage",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "coins position",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "price",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "price",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "profit percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "profit percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "profit percent",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "profit price",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "loss price",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "exchange fee",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "candles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_position_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "position",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "leverage",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "coins position",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "price",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "price",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "profit percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "profit percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "profit percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "profit price",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "loss price",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "exchange fee",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "candles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "repr",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "position candles",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "position candles",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "prices",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "win",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "METHOD_ANON_position candles_1",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "prices",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "prices",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "prices",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "prices",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "win",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "repr",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "target",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "report maker",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "generate positions csv report",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "csv",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "positions",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "output",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "generate deposit csv report",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "path",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "csv",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "deposit",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "deposit",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "deposit monthly percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "deposit trimonthly percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "deposit yearly percent",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "output",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "statistical",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "input",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "percentiles",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "input",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "input",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "FILE_ANON_GLOBAL_3",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "convert candles",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "timeframe",
+      "weight": 0.6,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "backtester",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "pickle",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "random",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "pytz",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "indicators",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "binance",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "plot maker",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "report maker",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "candle",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "backtester",
+      "to": "position candles position candles",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "backtester",
+      "to": "backtester",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions csv report",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit csv report",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "coins symbol",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "coins",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "leverage",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position fee percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position fee percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "profit percents",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "loss percents",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles path",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "report percentiles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "train csv path",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "csv path",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "csv delimiter",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "timeframes",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "timeframe",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "indicators timeframe",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles timeframe",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "maximum positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "profit wins",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "wins",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "minimum candles trading",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "coin maximum price",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position timeframe",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "ratio",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "plot path",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions csv report path",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit csv report path",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles plot path",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "position candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles abs",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles random",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles abs",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles abs percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles random percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles abs percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "price increasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "price decreasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "price increasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "price decreasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd increasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd decreasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd increasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd decreasing",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "fast ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "slow ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd fast ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd slow ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "signal",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "faster ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "fast ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "slow ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd fast ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd slow ema",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "signal",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "macd",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "plot prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "plot prices datetimes",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "plot deposits",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "plot deposit datetimes",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "plot candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "plot candle colors",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "train",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions profit percents",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions profit percents",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "positions profit percents",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit daily percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit weekly percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit biweekly percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit monthly percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit bimonthly percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit trimonthly percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "deposit yearly percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "backtester",
+      "to": "current candle",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "METHOD_ANON_backtester_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "coins symbol",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "deposit",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "leverage",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "position fee percent",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "position fee percent",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "profit percents",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "loss percents",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "month",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "day",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "hour",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "minute",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "month",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "day",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "hour",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "minute",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "report percentiles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "train csv path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "csv path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "csv delimiter",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "timeframes",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "timeframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "indicators timeframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "minimum candles trading",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "candles timeframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "coin maximum price",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "position timeframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "ratio",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "plot path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "positions csv report path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "deposit csv report path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_backtester_1",
+      "to": "candles plot path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "download candles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "download candles",
+      "to": "timeframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "download timeframes candles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "candles statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "candles statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "indicators",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "indicators",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "candles timeframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "current candle timeframe",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "current candle timeframe",
+      "to": "timeframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "current candle timeframe",
+      "to": "offset",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "indicators",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "plot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "plot price",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "plot deposit",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "condition",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "condition",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "plot candles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot candles",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot candles",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot candles",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot candles",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot candles",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot candles",
+      "to": "ontime",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot candles",
+      "to": "candle",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "current position",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "position",
+      "to": "current position",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "positions statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "positions statistics",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "positions statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "positions statistics",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "conditions position",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "condition",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "position candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "current position",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "current position profit",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "conditions position",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "condition",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "position candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "current position",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "conditions position",
+      "to": "current position profit",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "positions",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "positions",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "positions",
+      "to": "positions",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "backtest",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "prepare train",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "prepare train",
+      "to": "position candles",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "train csv",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "plots",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "candles plot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "plots",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "candles statistical",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "prepare positions statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "positions statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "prepare deposit statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "deposit statistics",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "positions csv",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "deposit csv",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "progress percent",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "progress percent",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "backtester",
+      "to": "backtest",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "binance",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "binance",
+      "to": "candle",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "binance",
+      "to": "json",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "binance",
+      "to": "simple",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "binance",
+      "to": "math",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "binance",
+      "to": "pytz",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "interval",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "otime",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "ctime",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "arr",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "binance",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "timeframe",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "symbol",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "candle",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "candle",
+      "to": "pandas",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "candle",
+      "to": "candle",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "candle",
+      "to": "volume",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "candle",
+      "to": "METHOD_ANON_candle_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_candle_1",
+      "to": "volume",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "candle",
+      "to": "repr",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "candle",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "candle",
+      "to": "candles pandas dataframe",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles pandas dataframe",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "coins symbol",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "coin maximum price",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "deposit",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "leverage",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "position fee percent",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "position fee percent",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "positions",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "positions",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "profit percents",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "loss percents",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "average",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "month",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "day",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "hour",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "minute",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "month",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "day",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "hour",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "minute",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "timeframe",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "indicators timeframe",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "candles timeframe",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "candles",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "position timeframe",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "timeframes",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "report percentiles",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "train csv path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "csv path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "csv delimiter",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "plot path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "candles plot path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "positions csv report path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "deposit csv report path",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "ratio",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_1",
+      "to": "minimum candles trading",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "indicators",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "indicators",
+      "to": "wma",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "wma",
+      "to": "prices",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "wma",
+      "to": "coe",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "wma",
+      "to": "coe",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "indicators",
+      "to": "FUNCTION_ANON_indicators_1",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "FUNCTION_ANON_indicators_1",
+      "to": "prices",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "indicators",
+      "to": "ema",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "ema",
+      "to": "ema",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "ema",
+      "to": "price",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "ema",
+      "to": "price",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "backtester",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_GLOBAL_VAR",
+      "from": "FILE_ANON_GLOBAL_2",
+      "to": "backtester",
+      "from_type": "FILE",
+      "to_type": "GLOBAL_VAR",
+      "from_weight": 0.55,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.65
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "plot maker",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "plot maker",
+      "to": "matplotlib pyplot",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "plot maker",
+      "to": "matplotlib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "plot maker",
+      "to": "mplfinance",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "plot maker",
+      "to": "plot maker",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "plot maker",
+      "to": "plot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "plot",
+      "to": "axis",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "plot",
+      "to": "prices",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "plot",
+      "to": "datetimes",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "plot",
+      "to": "subplot",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "plot",
+      "to": "subplot",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "plot",
+      "to": "subplot",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "plot",
+      "to": "axis",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "plot maker",
+      "to": "candles plot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles plot",
+      "to": "candles dataframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles plot",
+      "to": "candle colors",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "plot maker",
+      "to": "candles plot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles plot",
+      "to": "candles dataframe",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles plot",
+      "to": "candle colors",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "candles plot",
+      "to": "path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "plot maker",
+      "to": "plots",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "plot maker",
+      "to": "plot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "plot",
+      "to": "path",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "plot maker",
+      "to": "plot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "position",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "position",
+      "to": "position",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "leverage",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "coins position",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "price",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "price",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "profit percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "profit percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "profit percent",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "profit price",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "loss price",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "exchange fee",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position",
+      "to": "candles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "position",
+      "to": "METHOD_ANON_position_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "position",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "leverage",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "coins position",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "price",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "price",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "profit percent",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "profit percent",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "profit percent",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "profit price",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "loss price",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "exchange fee",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position_1",
+      "to": "candles",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "position",
+      "to": "repr",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "position candles",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "position candles",
+      "to": "position candles",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position candles",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position candles",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position candles",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position candles",
+      "to": "prices",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "position candles",
+      "to": "win",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "position candles",
+      "to": "METHOD_ANON_position candles_1",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position candles_1",
+      "to": "prices",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position candles_1",
+      "to": "prices",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position candles_1",
+      "to": "prices",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position candles_1",
+      "to": "prices",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "METHOD_ANON_position candles_1",
+      "to": "win",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "position candles",
+      "to": "repr",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "position candles",
+      "to": "target",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "report maker",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "report maker",
+      "to": "generate positions csv report",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate positions csv report",
+      "to": "path",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate positions csv report",
+      "to": "csv",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate positions csv report",
+      "to": "positions",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "generate positions csv report",
+      "to": "output",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "report maker",
+      "to": "generate deposit csv report",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate deposit csv report",
+      "to": "path",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate deposit csv report",
+      "to": "csv",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate deposit csv report",
+      "to": "deposit",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate deposit csv report",
+      "to": "deposit",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate deposit csv report",
+      "to": "deposit monthly percent",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate deposit csv report",
+      "to": "deposit trimonthly percent",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "generate deposit csv report",
+      "to": "deposit yearly percent",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "generate deposit csv report",
+      "to": "output",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "report maker",
+      "to": "statistical",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "statistical",
+      "to": "input",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "statistical",
+      "to": "percentiles",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "statistical",
+      "to": "input",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "statistical",
+      "to": "input",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "FILE_ANON_GLOBAL_3",
+      "to": "convert candles",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "convert candles",
+      "to": "frame",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "convert candles",
+      "to": "timeframe",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "mongodb memory",
+        "path",
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        "mongodb memory",
+        "path",
+        "",
+        "path",
+        "mongod"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "verbose",
+        "",
+        "",
+        "",
+        "environment",
+        "env",
+        "transform",
+        "regex",
+        "",
+        "mapper",
+        "extensions",
+        "globals",
+        "roots",
+        "collect coverage",
+        "coverage path ignore patterns"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "",
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "environment"
+    },
+    {
+      "imports": [
+        "jest environment node",
+        "path",
+        "",
+        "mongodb"
+      ]
+    },
+    {
+      "global_variables": [
+        "node environment",
+        "path",
+        "",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "jest"
+    },
+    {
+      "imports": [
+        "jest"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "magic bot"
+    },
+    {
+      "imports": [
+        "register",
+        "register",
+        "src",
+        "register",
+        "dist"
+      ]
+    },
+    {
+      "global_variables": [
+        "dev"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

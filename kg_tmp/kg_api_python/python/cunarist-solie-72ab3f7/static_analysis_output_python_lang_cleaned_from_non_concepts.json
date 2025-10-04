@@ -1,0 +1,8613 @@
+[
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": [
+        "project",
+        "",
+        "author",
+        "",
+        "extensions",
+        "source suffix",
+        "path",
+        "exclude patterns",
+        "html theme",
+        "html title",
+        "html favicon",
+        "html path",
+        "html sphinx",
+        "html sourcelink"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "typing",
+        "pandas",
+        "pandas",
+        "solie account",
+        "solie decision",
+        "solie decision input",
+        "solie indicator input",
+        "solie order",
+        "solie position",
+        "solie position direction",
+        "solie risk"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "silent strategy",
+          "attributes": [
+            "code",
+            "readable",
+            "",
+            "",
+            "risk",
+            "parallel simulation chunk days"
+          ],
+          "methods": [
+            {
+              "name": "indicators",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "decisions",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "strategy",
+          "attributes": [
+            "code",
+            "readable",
+            "",
+            "",
+            "risk",
+            "parallel simulation chunk days"
+          ],
+          "methods": [
+            {
+              "name": "indicators",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "target symbols",
+                "candle",
+                "indicators",
+                "period",
+                "period",
+                "",
+                "volume",
+                "price sma",
+                "price sma",
+                "indicators",
+                "indicators",
+                "volume sma",
+                "volume sma",
+                "indicators",
+                "indicators",
+                "wildness",
+                "wildness",
+                "indicators"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "decisions",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "target symbols",
+                "account",
+                "current candle",
+                "current indicators",
+                "scribbles",
+                "decisions",
+                "acquire ratio",
+                "wallet balance",
+                "current price",
+                "price sma",
+                "price sma",
+                "position",
+                "scribbles",
+                "",
+                "decisions symbol",
+                "decisions symbol",
+                "decisions symbol",
+                "decisions symbol"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "solie",
+        "solie life",
+        "strategy",
+        "silent strategy"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "life",
+        "account",
+        "decision",
+        "decision input",
+        "indicator input",
+        "order",
+        "order",
+        "position",
+        "position direction",
+        "risk",
+        "solie",
+        "strategy",
+        "team",
+        "team"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "concurrency"
+    },
+    {
+      "imports": [
+        "asyncio task",
+        "asyncio task",
+        "collections abc callable",
+        "collections abc coroutine",
+        "typing"
+      ]
+    },
+    {
+      "global_variables": [
+        "tasks"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "spawn",
+          "params": [
+            "coroutine"
+          ],
+          "local_variables": [
+            "task"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "unique task",
+          "attributes": [
+            "task"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "spawn",
+              "params": [
+                "",
+                "coro"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "connect event"
+    },
+    {
+      "imports": [
+        "collections abc callable",
+        "collections abc coroutine",
+        "typing",
+        "core signal",
+        "concurrency spawn"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "outsource",
+          "params": [
+            "signal",
+            "target"
+          ],
+          "local_variables": [],
+          "nested_functions": [
+            {
+              "name": "",
+              "params": [],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "importlib",
+        "importlib metadata",
+        "inspect getfile",
+        "pathlib path"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "",
+        "path"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "parallelism"
+    },
+    {
+      "imports": [
+        "functools",
+        "asyncio event",
+        "collections abc callable",
+        "concurrent futures executor",
+        "concurrent futures executor",
+        "multiprocessing manager",
+        "multiprocessing cpu",
+        "multiprocessing managers sync manager",
+        "typing"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "prepare",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "shutdown",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "sync manager",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "spawn blocking",
+          "params": [
+            "callable"
+          ],
+          "local_variables": [
+            "",
+            "event",
+            "partial callable",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "holder",
+          "attributes": [
+            "",
+            "sync manager"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "concurrency unique task",
+        "concurrency spawn",
+        "connect event outsource",
+        "",
+        "path",
+        "",
+        "parallelism",
+        "parallelism sync manager",
+        "parallelism prepare",
+        "parallelism spawn blocking"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "lifetime"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "asyncio",
+        "asyncio",
+        "",
+        "apscheduler schedulers asyncio scheduler",
+        "color",
+        "font",
+        "font database",
+        "palette",
+        "",
+        "solie common",
+        "solie common path",
+        "solie common spawn",
+        "solie",
+        "solie",
+        "solie overlay box",
+        "solie",
+        "solie collector",
+        "solie manager",
+        "solie simulator",
+        "solie strategiest",
+        "solie transactor",
+        "solie team"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "events",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "interval"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "live",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "staticpath",
+            "font",
+            "dark palette",
+            "event",
+            "scheduler",
+            "",
+            "collector",
+            "transactor",
+            "simulator",
+            "strategist",
+            "manager"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "sys",
+        "asyncio",
+        "typing",
+        "",
+        "solie common prepare",
+        "solie",
+        "lifetime live"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "life",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "life"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "coin selection"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "core",
+        "font",
+        "pixmap",
+        "box",
+        "grid layout",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "solie common path",
+        "solie common outsource",
+        "solie common spawn",
+        "solie requester",
+        "solie horizontal divider",
+        "solie"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "coin selection",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            "",
+            "",
+            "asset token"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "asset token"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "requester",
+                "symbol",
+                "asset token",
+                "symbols",
+                "",
+                "symbols",
+                "symbol",
+                "",
+                "coin",
+                "coin urls",
+                "coin ranks",
+                "raw symbol",
+                "coin symbol",
+                "coin symbol",
+                "coin urls coin symbol",
+                "coin ranks coin symbol",
+                "",
+                "coin symbol",
+                "symbol",
+                "original",
+                "layout",
+                "cards layout",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "spacing",
+                "spacing font",
+                "divider",
+                "spacing",
+                "spacing font",
+                "symbol",
+                "input layout",
+                "blank coin pixmap",
+                "coin symbol",
+                "coin",
+                "coin",
+                "layout",
+                "",
+                "",
+                "",
+                "symbol",
+                "",
+                "symbol",
+                "",
+                "",
+                "",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "spacer"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "symbols",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "icons",
+                  "params": [],
+                  "local_variables": [
+                    "coin symbol",
+                    "coin",
+                    "image",
+                    "pixmap"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "datapath input"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "pathlib path",
+        "core",
+        "font",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "xdialog",
+        "solie common outsource",
+        "solie common spawn blocking",
+        "solie horizontal divider",
+        "solie"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "datapath input",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "layout",
+                "cards layout",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "spacing",
+                "spacing font",
+                "divider",
+                "spacing",
+                "spacing font",
+                "",
+                "spacing",
+                "spacing font",
+                "datapath",
+                "layout",
+                "choose",
+                "card",
+                "card layout",
+                "",
+                "spacer"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "path",
+                    "datapath"
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "donation"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "core",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "donation",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "layout",
+                "cards layout",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "",
+                "",
+                "lineedit",
+                "spacer"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "download"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "solie common outsource"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "download",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "layout",
+                "cards layout",
+                "spacer",
+                "card",
+                "card layout",
+                "explain",
+                "card",
+                "card layout",
+                "",
+                "spacer"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [
+                    ""
+                  ],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "core",
+        "",
+        "box layout",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "layout",
+                "cards layout",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "strategy basic input"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "fullmatch",
+        "core",
+        "font",
+        "pixmap",
+        "box",
+        "combo box",
+        "layout",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "spin box",
+        "",
+        "box layout",
+        "",
+        "solie common path",
+        "solie common outsource",
+        "solie risk",
+        "solie strategy",
+        "solie",
+        "solie horizontal divider",
+        "solie"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "strategy basic input",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "strategy"
+              ],
+              "local_variables": [
+                "layout",
+                "cards layout",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "spacing",
+                "spacing font",
+                "divider",
+                "spacing",
+                "spacing font",
+                "layout",
+                "code input",
+                "readable input",
+                "input",
+                "input",
+                "risk input",
+                "iconpath",
+                "red pixmap",
+                "yellow pixmap",
+                "green pixmap",
+                "card",
+                "card layout",
+                "",
+                "spacing",
+                "spacing font",
+                "divider",
+                "spacing",
+                "spacing font",
+                "layout",
+                "parallelized input",
+                "chunk division input",
+                "card",
+                "card layout",
+                "",
+                "spacer"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "",
+                    "parallel",
+                    "parallel chunk days"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "strategy develop input"
+    },
+    {
+      "imports": [
+        "webbrowser",
+        "asyncio event",
+        "aiofiles",
+        "core",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "solie common path",
+        "solie common outsource",
+        "solie common spawn blocking",
+        "solie strategy",
+        "solie script editor",
+        "solie vertical divider",
+        "solie"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "strategy develop input",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            "strategy",
+            "",
+            "indicator script input",
+            "decision script input"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "strategy"
+              ],
+              "local_variables": [
+                "layout",
+                "layout",
+                "layout",
+                "",
+                "indicator script input",
+                "layout",
+                "",
+                "decision script input",
+                "card",
+                "card layout",
+                "spacer",
+                "",
+                "divider",
+                "action",
+                "action",
+                "action",
+                "action",
+                "action",
+                "action",
+                "spacer"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "filepath",
+                    "script",
+                    "filepath",
+                    "script"
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "strategy",
+                "decision",
+                "decision script",
+                "indicators",
+                "indicator script",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "strategy"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "core",
+        "font",
+        "group box",
+        "box layout",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "solie strategy",
+        "solie horizontal divider"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "strategy",
+          "attributes": [
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "strategy"
+              ],
+              "local_variables": [
+                "layout",
+                "cards layout",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "spacing",
+                "spacing font",
+                "divider",
+                "spacing",
+                "spacing font",
+                "",
+                "spacer"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "token selection"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "core",
+        "font",
+        "pixmap",
+        "grid layout",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "radio",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "solie common path",
+        "solie common outsource",
+        "solie common spawn",
+        "solie requester",
+        "solie horizontal divider",
+        "solie"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "token selection",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [
+                "token radioboxes",
+                "requester",
+                "tokens",
+                "symbols",
+                "",
+                "symbols",
+                "token",
+                "symbol",
+                "",
+                "coin",
+                "coin urls",
+                "coin ranks",
+                "raw symbol",
+                "coin symbol",
+                "coin symbol",
+                "coin urls coin symbol",
+                "coin ranks coin symbol",
+                "markets",
+                "layout",
+                "cards layout",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "spacing",
+                "spacing font",
+                "divider",
+                "spacing",
+                "spacing font",
+                "token",
+                "input layout",
+                "blank coin pixmap",
+                "layout",
+                "",
+                "",
+                "radiobutton",
+                "token radioboxes token",
+                "",
+                "token",
+                "",
+                "",
+                "spacer",
+                "card",
+                "card layout",
+                "",
+                "spacer"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "tokens",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "coin",
+                    "image",
+                    "pixmap"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "coin selection coin selection",
+        "datapath input datapath input",
+        "donation",
+        "download",
+        "",
+        "strategy basic input strategy basic input",
+        "strategy develop input strategy develop input",
+        "strategy",
+        "token selection token selection"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "analyze market"
+    },
+    {
+      "imports": [
+        "math",
+        "random",
+        "",
+        "timedelta",
+        "timezone",
+        "",
+        "itertools product",
+        "multiprocessing managers",
+        "typing",
+        "typing named",
+        "numpy",
+        "pandas",
+        "models account",
+        "models decision",
+        "models decision input",
+        "models indicator input",
+        "models order",
+        "models order",
+        "models position",
+        "models position direction",
+        "models strategy",
+        "models placement",
+        "models",
+        "user strategy"
+      ]
+    },
+    {
+      "global_variables": [
+        "graph",
+        "order",
+        "order"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "indicators",
+          "params": [
+            "strategy",
+            "target symbols",
+            "candle",
+            ""
+          ],
+          "local_variables": [
+            "candle",
+            "dummy",
+            "dummy",
+            "blank trios",
+            "indicators",
+            "",
+            "indicators blank",
+            "input",
+            "trio",
+            "symbol",
+            "",
+            "",
+            "indicators",
+            "indicators",
+            "indicators"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "decisions",
+          "params": [
+            "strategy",
+            "target symbols",
+            "current moment",
+            "current candle",
+            "current indicators",
+            "account",
+            "scribbles"
+          ],
+          "local_variables": [
+            "decisions",
+            "decisions symbol",
+            "input",
+            "blank symbols"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "simulate chunk",
+          "params": [
+            "calculation input"
+          ],
+          "local_variables": [
+            "strategy",
+            "progress",
+            "target progress",
+            "target symbols",
+            "calculation",
+            "chunk candle",
+            "chunk indicators",
+            "chunk asset record",
+            "chunk unrealized",
+            "chunk scribbles",
+            "chunk account",
+            "chunk",
+            "decision lag",
+            "calculation output",
+            "calculation",
+            "candle",
+            "indicators",
+            "asset record",
+            "chunk unrealized",
+            "calculation",
+            "calculation moment",
+            "moment",
+            "current moment",
+            "price",
+            "price",
+            "trade happen",
+            "trade",
+            "",
+            "price",
+            "role",
+            "price speed",
+            "margin negative",
+            "margin nan",
+            "placement",
+            "trade happen",
+            "placement",
+            "role",
+            "price",
+            "",
+            "trade happen",
+            "placement",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "trade happen",
+            "placement",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "placement",
+            "boundary",
+            "wobble",
+            "wobble",
+            "cross",
+            "trade happen",
+            "role",
+            "price",
+            "margin",
+            "margin negative",
+            "margin nan",
+            "",
+            "position",
+            "price",
+            "",
+            "current",
+            "invested margin",
+            "price difference",
+            "realized profit",
+            "margin",
+            "price difference",
+            "realized profit",
+            "margin",
+            "invested margin",
+            "numerator",
+            "numerator",
+            "current numerator",
+            "price",
+            "realized profit",
+            "invested margin",
+            "price difference",
+            "realized profit",
+            "margin",
+            "trade",
+            "current price",
+            "current price",
+            "current",
+            "current margin",
+            "current margin",
+            "current direction",
+            "current direction",
+            "current direction",
+            "symbol position",
+            "symbol placements",
+            "symbol orders",
+            "order",
+            "boundary",
+            "margin",
+            "symbol orders order",
+            "",
+            "",
+            "wallet balance",
+            "symbol price",
+            "current margin",
+            "margin ratio",
+            "order",
+            "original",
+            "asset record",
+            "asset record",
+            "asset record symbol",
+            "asset record",
+            "asset record price",
+            "asset record role",
+            "asset record margin ratio",
+            "asset record order",
+            "asset record asset",
+            "",
+            "wallet balance",
+            "unrealized profit",
+            "symbol price",
+            "current margin",
+            "price",
+            "price",
+            "basic price",
+            "price",
+            "extreme price",
+            "basic price",
+            "price",
+            "extreme price",
+            "price difference",
+            "unrealized",
+            "original",
+            "chunk unrealized",
+            "chunk unrealized",
+            "record",
+            "current candle",
+            "record",
+            "current indicators",
+            "decisions",
+            "placement",
+            "progress",
+            "progress",
+            "progress target progress",
+            "chunk asset record",
+            "chunk asset record",
+            "chunk unrealized",
+            "chunk unrealized",
+            "chunk unrealized",
+            "calculation output"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "simulation",
+          "attributes": [],
+          "methods": []
+        },
+        {
+          "name": "order role",
+          "attributes": [
+            "maker",
+            "taker"
+          ],
+          "methods": []
+        },
+        {
+          "name": "calculation input",
+          "attributes": [
+            "strategy",
+            "progress",
+            "target progress",
+            "target symbols",
+            "calculation",
+            "chunk candle",
+            "chunk indicators",
+            "chunk asset record",
+            "chunk unrealized",
+            "chunk scribbles",
+            "chunk account",
+            "chunk"
+          ],
+          "methods": []
+        },
+        {
+          "name": "calculation output",
+          "attributes": [
+            "chunk asset record",
+            "chunk unrealized",
+            "chunk scribbles",
+            "chunk account",
+            "chunk"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "requester"
+    },
+    {
+      "imports": [
+        "hashlib",
+        "hmac",
+        "json",
+        "",
+        "timezone",
+        "typing",
+        "typing",
+        "urllib urlencode",
+        "aiohttp",
+        "solie common spawn"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "requester",
+          "attributes": [
+            "rates",
+            "",
+            "binance",
+            "binance"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "binance",
+                "binance"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "binance",
+              "params": [
+                "",
+                "",
+                "path",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "query",
+                "query",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "current",
+                "code",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "coingecko",
+              "params": [
+                "",
+                "",
+                "path",
+                ""
+              ],
+              "local_variables": [
+                "query",
+                "query",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "bytes",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "code",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "streamer"
+    },
+    {
+      "imports": [
+        "json",
+        "asyncio task",
+        "asyncio",
+        "collections abc callable",
+        "collections abc coroutine",
+        "",
+        "typing",
+        "aiohttp",
+        "aiohttp",
+        "aiohttp",
+        "solie common spawn"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "stream",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "streamer",
+          "attributes": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "connecting",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "listening",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "task"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [
+                    "task",
+                    ""
+                  ],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "ball"
+    },
+    {
+      "imports": [
+        "math"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "ball ceil",
+          "params": [
+            "",
+            "decimals"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "ball floor",
+          "params": [
+            "",
+            "decimals"
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "internet"
+    },
+    {
+      "imports": [
+        "asyncio",
+        "collections abc callable",
+        "collections abc coroutine",
+        "",
+        "typing",
+        "typing",
+        "aiohttp",
+        "solie common spawn"
+      ]
+    },
+    {
+      "global_variables": [
+        "",
+        "attempt"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "internet connected",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "monitoring internet",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "monitoring internet",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "monitor internet",
+          "params": [],
+          "local_variables": [
+            "connected",
+            "analyzed",
+            "analyzed"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "internet connected",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "internet disconnected",
+          "params": [
+            ""
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "holder",
+          "attributes": [
+            "connected",
+            "connected",
+            "disconnected"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "compare versions"
+    },
+    {
+      "imports": []
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            ""
+          ],
+          "local_variables": [
+            "versions",
+            "versions",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "convert"
+    },
+    {
+      "imports": [
+        "collections deque"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "input",
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "slice deque",
+          "params": [
+            "original",
+            "",
+            ""
+          ],
+          "local_variables": [
+            "sliced",
+            "current",
+            "sliced",
+            "current"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "models"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "typing",
+        "typing named",
+        "typing",
+        "typing runtime checkable",
+        "pandas",
+        "pydantic model"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "asset token",
+            "target symbols"
+          ],
+          "methods": []
+        },
+        {
+          "name": "transaction",
+          "attributes": [
+            "strategy",
+            "transact",
+            "desired leverage",
+            "binance",
+            "binance"
+          ],
+          "methods": []
+        },
+        {
+          "name": "simulation",
+          "attributes": [
+            "",
+            "strategy",
+            "maker fee",
+            "taker fee",
+            "leverage"
+          ],
+          "methods": []
+        },
+        {
+          "name": "simulation summary",
+          "attributes": [
+            "",
+            "strategy code",
+            "strategy"
+          ],
+          "methods": []
+        },
+        {
+          "name": "board lock",
+          "attributes": [
+            "",
+            "",
+            "minute",
+            "minute",
+            "hour"
+          ],
+          "methods": []
+        },
+        {
+          "name": "management",
+          "attributes": [
+            "lock board"
+          ],
+          "methods": []
+        },
+        {
+          "name": "book ticker",
+          "attributes": [
+            "",
+            "symbol",
+            "bid price",
+            "price"
+          ],
+          "methods": []
+        },
+        {
+          "name": "mark price",
+          "attributes": [
+            "",
+            "symbol",
+            "mark price"
+          ],
+          "methods": []
+        },
+        {
+          "name": "aggregate trade",
+          "attributes": [
+            "",
+            "symbol",
+            "price",
+            "volume"
+          ],
+          "methods": []
+        },
+        {
+          "name": "order",
+          "attributes": [
+            "",
+            "sell",
+            "",
+            "",
+            "book",
+            "book sell",
+            "",
+            "sell",
+            "",
+            "",
+            "sell",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "book",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "position direction",
+          "attributes": [
+            "",
+            "",
+            ""
+          ],
+          "methods": []
+        },
+        {
+          "name": "decision",
+          "attributes": [
+            "boundary",
+            "margin"
+          ],
+          "methods": []
+        },
+        {
+          "name": "order",
+          "attributes": [
+            "order",
+            "boundary",
+            "margin"
+          ],
+          "methods": []
+        },
+        {
+          "name": "position",
+          "attributes": [
+            "margin",
+            "direction",
+            "price",
+            ""
+          ],
+          "methods": []
+        },
+        {
+          "name": "account",
+          "attributes": [
+            "observed",
+            "wallet balance",
+            "positions",
+            "orders"
+          ],
+          "methods": []
+        },
+        {
+          "name": "position",
+          "attributes": [
+            "",
+            "price"
+          ],
+          "methods": []
+        },
+        {
+          "name": "placement",
+          "attributes": [
+            "boundary",
+            "margin",
+            "order"
+          ],
+          "methods": []
+        },
+        {
+          "name": "",
+          "attributes": [
+            "balance",
+            "positions",
+            "placements"
+          ],
+          "methods": []
+        },
+        {
+          "name": "risk",
+          "attributes": [
+            "",
+            "middle",
+            ""
+          ],
+          "methods": []
+        },
+        {
+          "name": "indicator input",
+          "attributes": [
+            "target symbols",
+            "candle",
+            "indicators"
+          ],
+          "methods": []
+        },
+        {
+          "name": "decision input",
+          "attributes": [
+            "target symbols",
+            "account",
+            "current moment",
+            "current candle",
+            "current indicators",
+            "scribbles",
+            "decisions"
+          ],
+          "methods": []
+        },
+        {
+          "name": "strategy",
+          "attributes": [
+            "code",
+            "readable",
+            "",
+            "",
+            "risk",
+            "parallel simulation chunk days"
+          ],
+          "methods": [
+            {
+              "name": "indicators",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "decisions",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "download binance"
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "timedelta",
+        "timezone",
+        "",
+        "typing named",
+        "urllib urlopen",
+        "numpy",
+        "pandas",
+        "models aggregate trade",
+        "moment"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "download aggtrade",
+          "params": [
+            "download target"
+          ],
+          "local_variables": [
+            "symbol",
+            "unit",
+            "",
+            "month",
+            "day",
+            "",
+            "",
+            "month",
+            "",
+            "zipped csv",
+            "zipped csv",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "volume",
+            "volume",
+            "volume",
+            "volume",
+            "series",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "holes aggtrades",
+          "params": [
+            "symbol",
+            "candle",
+            "aggtrades",
+            "moment",
+            "fetched"
+          ],
+          "local_variables": [
+            "moment",
+            "fetched moment",
+            "block",
+            "block",
+            "aggtrade prices",
+            "aggtrade volumes",
+            "aggtrade",
+            "",
+            "inspect",
+            "inspect",
+            "prices",
+            "",
+            "price",
+            "price",
+            "price",
+            "price",
+            "price",
+            "price",
+            "volume",
+            "price",
+            "price",
+            "price",
+            "price",
+            "volume",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "candle",
+            "candle"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "download unit",
+          "attributes": [
+            "daily",
+            "monthly"
+          ],
+          "methods": []
+        },
+        {
+          "name": "download preset",
+          "attributes": [
+            "symbol",
+            "unit",
+            "",
+            "month",
+            "day"
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "asyncio lock",
+        "collections abc callable",
+        "",
+        "timezone",
+        "",
+        "",
+        "pathlib path",
+        "typing",
+        "aiofiles",
+        "solie common spawn"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "lock",
+            "path",
+            "",
+            "filename"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "path",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "emit",
+              "params": [
+                "",
+                "record"
+              ],
+              "local_variables": [
+                "",
+                "lines",
+                "summarization",
+                "",
+                "",
+                "summarization",
+                "",
+                "",
+                "summarization",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "output",
+              "params": [
+                "",
+                "summarization",
+                ""
+              ],
+              "local_variables": [
+                "filepath",
+                "divider"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "pandas"
+    },
+    {
+      "imports": [
+        "numpy",
+        "pandas"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "combine candle",
+          "params": [
+            "prior",
+            "secondary"
+          ],
+          "local_variables": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "percent axis"
+    },
+    {
+      "imports": [
+        "math",
+        "typing",
+        "pyqtgraph axis"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "percent axis",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "tick",
+              "params": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "power",
+                "power",
+                "major ticks",
+                "minor ticks",
+                "factors",
+                "tick"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "tick",
+              "params": [
+                "",
+                "",
+                "scale",
+                "spacing"
+              ],
+              "local_variables": [
+                "optimal",
+                "distance",
+                "",
+                "condition",
+                "condition",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "fixed",
+              "params": [
+                "",
+                "",
+                "",
+                "positive sign"
+              ],
+              "local_variables": [
+                "",
+                "absolute",
+                "absolute",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "lock"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "asyncio",
+        "asyncio future",
+        "asyncio task",
+        "asyncio current task",
+        "asyncio",
+        "asyncio",
+        "collections deque",
+        "typing"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "lock core",
+          "attributes": [
+            "",
+            "",
+            "",
+            "",
+            "waiters",
+            "waiters",
+            "",
+            "",
+            "owning"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "fast",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "locked",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "locked",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "acquire",
+              "params": [
+                "",
+                "lock"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "acquire",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "fut"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "acquire",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "fut"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "lock"
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "wake",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "cell",
+          "attributes": [
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "lock",
+          "attributes": [
+            "wrapper",
+            "lock"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "lock",
+                "wrapper"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "locked",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "aenter",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "aexit",
+              "params": [
+                "",
+                "exc",
+                "exc",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "lock",
+          "attributes": [
+            "wrapper",
+            "lock"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "lock",
+                "wrapper"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "locked",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "aenter",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "aexit",
+              "params": [
+                "",
+                "exc",
+                "exc",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "lock",
+          "attributes": [
+            "wrapper",
+            "",
+            "lock",
+            "lock",
+            "wrapped"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "cell",
+                "fast"
+              ],
+              "local_variables": [
+                "",
+                "core"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "repr",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "replace",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "simply"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "numeric",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "",
+            "",
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "pandas"
+    },
+    {
+      "imports": [
+        "pandas"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "frame",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "series",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "standardize"
+    },
+    {
+      "imports": [
+        "random",
+        "",
+        "timezone",
+        "itertools product",
+        "numpy",
+        "pandas",
+        "models account",
+        "models position",
+        "models position direction"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "candle",
+          "params": [
+            "target symbols"
+          ],
+          "local_variables": [
+            "pairs"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "account",
+          "params": [
+            "target symbols"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "asset record",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "unrealized",
+          "params": [],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "strategy code",
+          "params": [],
+          "local_variables": [
+            "ingredients",
+            "code"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "syntax highlighter"
+    },
+    {
+      "imports": [
+        "typing",
+        "pygments lex",
+        "pygments lexers lexer",
+        "brush",
+        "color",
+        "syntax highlighter",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "syntax highlighter",
+          "attributes": [
+            "lexer",
+            "mapping"
+          ],
+          "methods": [
+            {
+              "name": "highlight block",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "current position",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "parent"
+              ],
+              "local_variables": [
+                "",
+                "hex color",
+                "",
+                "",
+                "hex color",
+                "",
+                "",
+                "hex color",
+                "",
+                "",
+                "hex color",
+                "",
+                "",
+                "hex color",
+                "",
+                "",
+                "hex color",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "axis"
+    },
+    {
+      "imports": [
+        "math",
+        "",
+        "timedelta",
+        "timezone",
+        "typing",
+        "pyqtgraph axis"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "axis",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "tick",
+              "params": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "box",
+                "majticks",
+                "distance",
+                "",
+                "distance",
+                "",
+                "",
+                "distance",
+                "",
+                "distance",
+                "",
+                "distance",
+                "",
+                "distance",
+                "",
+                "distance",
+                "",
+                "distance",
+                "majticks"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "tick",
+              "params": [
+                "",
+                "",
+                "scale",
+                "spacing"
+              ],
+              "local_variables": [
+                "",
+                "sample",
+                "sample",
+                "offset",
+                "",
+                "fmt",
+                "fmt",
+                "fmt",
+                "fmt",
+                "fmt",
+                "fmt",
+                "fmt",
+                "tick"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "collections deque",
+        "",
+        "timedelta",
+        "perf",
+        "typing",
+        "typing named"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "moment",
+          "params": [
+            "exact"
+          ],
+          "local_variables": [
+            "moment",
+            "moment"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "duration record",
+          "attributes": [
+            "duration",
+            ""
+          ],
+          "methods": []
+        },
+        {
+          "name": "duration recorder",
+          "attributes": [
+            "task durations",
+            "task",
+            "",
+            "record"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "task"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "record",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "task",
+                "",
+                "record deque",
+                "record deque",
+                "duration record",
+                "preserve"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "user"
+    },
+    {
+      "imports": [
+        "pathlib path",
+        "code",
+        "aiofiles",
+        "aiofiles",
+        "pydantic model",
+        "solie common path",
+        "models",
+        "models decision input",
+        "models indicator input",
+        "models risk",
+        "models strategy"
+      ]
+    },
+    {
+      "global_variables": [
+        "datapath"
+      ]
+    },
+    {
+      "functions": [
+        {
+          "name": "datapath",
+          "params": [],
+          "local_variables": [
+            "datapath"
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "datapath",
+          "params": [
+            "datapath"
+          ],
+          "local_variables": [],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            "datapath"
+          ],
+          "local_variables": [
+            "filepath",
+            ""
+          ],
+          "nested_functions": []
+        },
+        {
+          "name": "",
+          "params": [
+            "",
+            "datapath"
+          ],
+          "local_variables": [
+            "filepath"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "strategy",
+          "attributes": [
+            "code",
+            "readable",
+            "",
+            "",
+            "risk",
+            "parallel simulation chunk days",
+            "indicator script",
+            "decision script",
+            "compiled indicator script",
+            "compiled decision script"
+          ],
+          "methods": [
+            {
+              "name": "indicators",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "target symbols",
+                "candle",
+                "indicators",
+                "code",
+                "code",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "decisions",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "target symbols",
+                "account",
+                "current moment",
+                "current candle",
+                "current indicators",
+                "scribbles",
+                "decisions",
+                "code",
+                "code",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "code",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "strategies",
+          "attributes": [
+            ""
+          ],
+          "methods": []
+        },
+        {
+          "name": "solie",
+          "attributes": [
+            "strategies"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "strategy",
+              "params": [
+                "",
+                "strategy"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "strategies",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "analyze market calculation input",
+        "analyze market calculation output",
+        "analyze market simulation",
+        "analyze market decisions",
+        "analyze market indicators",
+        "analyze market simulate chunk",
+        "requester",
+        "requester",
+        "streamer",
+        "ball ceil",
+        "ball floor",
+        "internet connected",
+        "internet monitoring internet",
+        "internet connected",
+        "internet disconnected",
+        "compare versions",
+        "convert",
+        "convert slice deque",
+        "models account",
+        "models aggregate trade",
+        "models board lock",
+        "models book ticker",
+        "models decision",
+        "models decision input",
+        "models indicator input",
+        "models management",
+        "models mark price",
+        "models order",
+        "models order",
+        "models position",
+        "models position direction",
+        "models risk",
+        "models simulation",
+        "models simulation summary",
+        "models strategy",
+        "models transaction",
+        "models placement",
+        "models position",
+        "models",
+        "download binance download preset",
+        "download binance download unit",
+        "download binance download aggtrade",
+        "download binance holes aggtrades",
+        "",
+        "pandas combine candle",
+        "percent axis percent axis",
+        "lock",
+        "simply numeric",
+        "pandas frame",
+        "pandas series",
+        "standardize account",
+        "standardize asset record",
+        "standardize candle",
+        "standardize unrealized",
+        "standardize strategy code",
+        "syntax highlighter syntax highlighter",
+        "axis",
+        "duration recorder",
+        "moment",
+        "user",
+        "user strategies",
+        "user strategy",
+        "user solie",
+        "user",
+        "user datapath",
+        "user",
+        "user datapath"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "typing",
+        "core event",
+        "core",
+        "core",
+        "font",
+        "event",
+        "box layout",
+        "",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "solie common outsource",
+        "box"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "",
+          "params": [
+            "",
+            "",
+            ""
+          ],
+          "local_variables": [
+            ""
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "event",
+            "",
+            "installed",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [
+                "parent"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "event filter",
+              "params": [
+                "",
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "install",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "layout",
+                "box",
+                "box layout",
+                "layout",
+                "",
+                "",
+                "font",
+                "",
+                "",
+                "font",
+                "spacing",
+                "spacing font",
+                "",
+                "",
+                "layout",
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    ""
+                  ],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "brand"
+    },
+    {
+      "imports": [
+        "font",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "brand",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "parent",
+                "",
+                ""
+              ],
+              "local_variables": [
+                "font"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "gauge"
+    },
+    {
+      "imports": [
+        "typing",
+        "core event",
+        "event",
+        "",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "gauge",
+          "attributes": [
+            "mouse",
+            "normal",
+            "lock"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "parent"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "graph lines"
+    },
+    {
+      "imports": [
+        "",
+        "asyncio",
+        "",
+        "timedelta",
+        "typing named",
+        "numpy",
+        "pandas",
+        "pyqtgraph axis",
+        "pyqtgraph plot",
+        "pyqtgraph plot",
+        "pyqtgraph plot",
+        "pyqtgraph brush",
+        "pyqtgraph pen",
+        "font",
+        "solie aggregate trade",
+        "solie book ticker",
+        "solie mark price",
+        "solie percent axis",
+        "solie axis"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "pair",
+          "attributes": [
+            "",
+            ""
+          ],
+          "methods": []
+        },
+        {
+          "name": "graph lines",
+          "attributes": [
+            "price",
+            "volume",
+            "",
+            "asset",
+            "price plot",
+            "volume plot",
+            "plot",
+            "asset plot",
+            "book tickers",
+            "price",
+            "mark price",
+            "price indicators",
+            "price",
+            "wobbles",
+            "price rise",
+            "price fall",
+            "price stay",
+            "sell",
+            "",
+            "volume",
+            "volume",
+            "volume indicators",
+            "indicators",
+            "asset unrealized profit",
+            "asset"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "price plot",
+                "volume plot",
+                "plot",
+                "asset plot"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "configure",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "configure plots",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "axis",
+                "axis",
+                "axis",
+                "axis",
+                "tick font"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "light lines",
+              "params": [
+                "",
+                "mark prices",
+                "aggregate trades",
+                "book tickers",
+                "price",
+                "observed"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "nan",
+                "nan",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "moment",
+                "moment",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "heavy lines",
+              "params": [
+                "",
+                "symbol",
+                "candle",
+                "asset record",
+                "unrealized"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "rise",
+                "fall",
+                "stay",
+                "",
+                "nan",
+                "nan",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "unrealized",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "custom lines",
+              "params": [
+                "",
+                "symbol",
+                "indicators"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "chosen",
+                "",
+                "",
+                "",
+                "",
+                "color",
+                "color",
+                "chosen",
+                "",
+                "",
+                "",
+                "",
+                "color",
+                "color",
+                "chosen",
+                "",
+                "",
+                "",
+                "",
+                "color",
+                "color"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "horizontal divider"
+    },
+    {
+      "imports": [
+        "frame",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "horizontal divider",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "parent"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "core",
+        "font",
+        "",
+        "",
+        "",
+        "box layout",
+        "",
+        "solie common outsource",
+        "overlay"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "overlay",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "layout",
+                "cards layout",
+                "",
+                "fixed font"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "",
+          "attributes": [
+            "fixed font"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "parent"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                "summarization",
+                ""
+              ],
+              "local_variables": [
+                "maximum",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "fulltext",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "overlay"
+    },
+    {
+      "imports": [
+        "asyncio event",
+        "typing",
+        "typing",
+        "core event",
+        "core",
+        "core",
+        "font",
+        "event",
+        "box layout",
+        "",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "",
+        "solie common outsource",
+        "box",
+        "transparent"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": [
+        {
+          "name": "overlay",
+          "params": [
+            ""
+          ],
+          "local_variables": [
+            "overlay box"
+          ],
+          "nested_functions": []
+        }
+      ]
+    },
+    {
+      "classes": [
+        {
+          "name": "overlay",
+          "attributes": [
+            "title",
+            "",
+            "event",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "overlay box",
+          "attributes": [
+            "installed",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [
+                "parent"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "event filter",
+              "params": [
+                "",
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "install",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "layout",
+                "box",
+                "box layout",
+                "layout",
+                "title",
+                "title font",
+                "",
+                "",
+                "font",
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "box"
+    },
+    {
+      "imports": [
+        "group box"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "box",
+          "attributes": [],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "script editor"
+    },
+    {
+      "imports": [
+        "typing",
+        "core",
+        "focus event",
+        "font",
+        "event",
+        "cursor",
+        "plain",
+        "",
+        "yapf yapflib yapf",
+        "yapf yapflib yapf code",
+        "solie syntax highlighter"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "script editor",
+          "attributes": [
+            "fixed font"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "parent"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [
+                "indent",
+                "dedent",
+                "position",
+                "",
+                "cursor",
+                "character",
+                "character",
+                "",
+                "",
+                "lines",
+                "",
+                "lines",
+                "",
+                "lines",
+                "",
+                "newline positions",
+                "positions",
+                "positions",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "focus event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [
+                "position",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "splash"
+    },
+    {
+      "imports": [
+        "aiofiles",
+        "font",
+        "pixmap",
+        "frame",
+        "box layout",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "solie common path",
+        "solie common",
+        "solie common spawn",
+        "brand"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "splash",
+          "attributes": [
+            "layout"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "layout",
+                "spacer",
+                "central layout",
+                "spacer",
+                "layout",
+                "product pixmap",
+                "filepath",
+                "product",
+                "product",
+                "spacing",
+                "spacing font",
+                "title",
+                "",
+                "",
+                "spacer",
+                "spacer"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "symbol box"
+    },
+    {
+      "imports": [
+        "group box"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "symbol box",
+          "attributes": [],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "transparent"
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "transparent",
+          "attributes": [],
+          "methods": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "vertical divider"
+    },
+    {
+      "imports": [
+        "frame",
+        ""
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "vertical divider",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "parent"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "",
+        "",
+        "brand",
+        "gauge",
+        "graph lines graph lines",
+        "horizontal divider horizontal divider",
+        "",
+        "overlay box",
+        "overlay",
+        "overlay",
+        "box",
+        "script editor script editor",
+        "splash",
+        "symbol box symbol box",
+        "transparent",
+        "vertical divider vertical divider"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "compiled"
+    },
+    {
+      "imports": [
+        "core",
+        "core",
+        "core",
+        "core locale",
+        "core meta",
+        "core",
+        "core",
+        "core rect",
+        "core",
+        "core",
+        "core",
+        "core",
+        "brush",
+        "color",
+        "conical gradient",
+        "cursor",
+        "font",
+        "font database",
+        "gradient",
+        "",
+        "image",
+        "sequence",
+        "linear gradient",
+        "painter",
+        "palette",
+        "pixmap",
+        "radial gradient",
+        "transform",
+        "",
+        "spin box",
+        "",
+        "box",
+        "combo box",
+        "spin box",
+        "layout",
+        "frame",
+        "grid layout",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "",
+        "",
+        "plain",
+        "progress",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "spin box",
+        "splitter",
+        "",
+        "box layout",
+        "",
+        "solie horizontal divider horizontal divider",
+        "solie",
+        "solie script editor script editor",
+        "solie vertical divider vertical divider"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "centralwidget",
+            "grid layout",
+            "board",
+            "",
+            "vertical layout",
+            "vertical spacer",
+            "vertical layout",
+            "horizontal layout",
+            "horizontal layout",
+            "vertical spacer",
+            "horizontal layout",
+            "horizontal spacer",
+            "",
+            "horizontal spacer",
+            "group box",
+            "vertical layout",
+            "",
+            "group box",
+            "vertical layout",
+            "horizontal layout",
+            "horizontal spacer",
+            "",
+            "frame",
+            "",
+            "horizontal spacer",
+            "horizontal layout",
+            "progress",
+            "",
+            "vertical layout",
+            "group box",
+            "horizontal layout",
+            "",
+            "splitter",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "group box",
+            "horizontal layout",
+            "",
+            "group box",
+            "vertical layout",
+            "horizontal layout",
+            "horizontal spacer",
+            "box",
+            "",
+            "",
+            "combo box",
+            "frame",
+            "",
+            "combo box",
+            "box",
+            "horizontal spacer",
+            "horizontal layout",
+            "horizontal spacer",
+            "",
+            "",
+            "",
+            "",
+            "frame",
+            "",
+            "spin box",
+            "frame",
+            "",
+            "horizontal spacer",
+            "horizontal layout",
+            "progress",
+            "",
+            "vertical layout",
+            "group box",
+            "horizontal layout",
+            "",
+            "splitter",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "horizontal layout",
+            "group box",
+            "horizontal layout",
+            "",
+            "group box",
+            "vertical layout",
+            "horizontal layout",
+            "horizontal spacer",
+            "box",
+            "",
+            "",
+            "combo box",
+            "frame",
+            "",
+            "spin box",
+            "",
+            "spin box",
+            "",
+            "spin box",
+            "horizontal spacer",
+            "horizontal layout",
+            "horizontal spacer",
+            "",
+            "combo box",
+            "",
+            "combo box",
+            "",
+            "",
+            "",
+            "",
+            "frame",
+            "",
+            "horizontal spacer",
+            "horizontal layout",
+            "progress",
+            "progress",
+            "",
+            "vertical layout",
+            "group box",
+            "horizontal layout",
+            "",
+            "contents",
+            "vertical layout",
+            "vertical layout",
+            "horizontal layout",
+            "",
+            "vertical spacer",
+            "",
+            "vertical layout",
+            "",
+            "",
+            "vertical layout",
+            "horizontal layout",
+            "horizontal spacer",
+            "vertical layout",
+            "vertical spacer",
+            "horizontal layout",
+            "",
+            "frame",
+            "",
+            "horizontal layout",
+            "",
+            "vertical spacer",
+            "horizontal spacer",
+            "",
+            "vertical layout",
+            "",
+            "contents",
+            "horizontal layout",
+            "horizontal spacer",
+            "vertical layout",
+            "vertical spacer",
+            "group box",
+            "vertical layout",
+            "",
+            "",
+            "frame",
+            "",
+            "horizontal layout",
+            "horizontal spacer",
+            "layout",
+            "",
+            "",
+            "",
+            "",
+            "horizontal spacer",
+            "group box",
+            "vertical layout",
+            "",
+            "",
+            "frame",
+            "",
+            "horizontal layout",
+            "horizontal spacer",
+            "layout",
+            "",
+            "combo box",
+            "horizontal spacer",
+            "vertical spacer",
+            "horizontal spacer",
+            "",
+            "vertical layout",
+            "horizontal layout",
+            "vertical layout",
+            "",
+            "plain",
+            "vertical layout",
+            "",
+            "",
+            "group box",
+            "vertical layout",
+            "horizontal layout",
+            "horizontal spacer",
+            "",
+            "",
+            "horizontal spacer",
+            "",
+            "vertical layout",
+            "grid layout",
+            "",
+            "contents",
+            "grid layout",
+            "",
+            "",
+            "contents",
+            "grid layout",
+            "",
+            "",
+            "contents",
+            "grid layout",
+            "",
+            "",
+            "contents",
+            "grid layout",
+            "",
+            "",
+            "contents",
+            "grid layout",
+            "",
+            "",
+            "contents",
+            "grid layout",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "gauge"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "policy",
+                "font",
+                "policy",
+                "font",
+                "font",
+                "font"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "retranslate",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "math",
+        "",
+        "asyncio event",
+        "asyncio",
+        "",
+        "timezone",
+        "",
+        "pathlib path",
+        "typing",
+        "aiofiles",
+        "aiofiles",
+        "pandas",
+        "pyqtgraph",
+        "core",
+        "event",
+        "font",
+        "",
+        "mouse event",
+        "pixmap",
+        "box layout",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "box layout",
+        "solie common path",
+        "solie common",
+        "solie common spawn",
+        "solie overlay coin selection",
+        "solie overlay datapath input",
+        "solie overlay token selection",
+        "solie requester",
+        "solie",
+        "solie",
+        "solie",
+        "solie internet connected",
+        "solie",
+        "solie datapath",
+        "solie",
+        "solie datapath",
+        "solie monitoring internet",
+        "solie",
+        "solie brand",
+        "solie graph lines",
+        "solie horizontal divider",
+        "solie splash",
+        "solie symbol box",
+        "solie",
+        "solie overlay",
+        "compiled"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [
+            "event",
+            "",
+            "datapath",
+            "",
+            "interaction",
+            "splash",
+            "price",
+            "",
+            "alias symbol",
+            "symbol alias",
+            "transaction graph",
+            "simulation graph"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "event",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "",
+                    "event"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "mouse event",
+              "params": [
+                "",
+                "event"
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "boot",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "central layout",
+                "filepath",
+                "product",
+                "product pixmap",
+                "datapath",
+                "datapath",
+                "",
+                "asset token",
+                "target symbols",
+                "",
+                "asset token",
+                "target symbols",
+                "requester",
+                "",
+                "coin",
+                "coin urls",
+                "coin ranks",
+                "raw symbol",
+                "coin symbol",
+                "coin symbol",
+                "coin urls coin symbol",
+                "coin ranks coin symbol",
+                "coin symbol",
+                "coin",
+                "alias",
+                "alias",
+                "token",
+                "",
+                "price",
+                "",
+                "",
+                "symbol pixmaps",
+                "coin symbol",
+                "coin",
+                "pixmap",
+                "image",
+                "symbol pixmaps symbol",
+                "token",
+                "token pixmap",
+                "image",
+                "",
+                "",
+                "layout",
+                "token font",
+                "token",
+                "spacing",
+                "spacing font",
+                "layout",
+                "divider",
+                "spacing",
+                "spacing font",
+                "",
+                "alias",
+                "spacer",
+                "spacer",
+                "coin symbol",
+                "coin",
+                "symbol box",
+                "layout",
+                "spacer",
+                "",
+                "layout",
+                "",
+                "font",
+                "price",
+                "price font",
+                "",
+                "",
+                "",
+                "font",
+                "spacer",
+                "spacer",
+                "spacer",
+                "layout",
+                "product pixmap",
+                "filepath",
+                "product",
+                "product",
+                "spacing",
+                "spacing font",
+                "title",
+                "",
+                "",
+                "graph lines",
+                "graph lines",
+                "path",
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [
+                    "summarization",
+                    ""
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "reveal",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        ""
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ],
+  [
+    {
+      "file": "collector"
+    },
+    {
+      "imports": [
+        "math",
+        "random",
+        "webbrowser",
+        "asyncio",
+        "asyncio",
+        "collections deque",
+        "",
+        "timedelta",
+        "timezone",
+        "",
+        "typing",
+        "aiofiles",
+        "numpy",
+        "pandas",
+        "apscheduler schedulers asyncio scheduler",
+        "",
+        "solie common unique task",
+        "solie common outsource",
+        "solie common spawn",
+        "solie common spawn blocking",
+        "solie overlay donation",
+        "solie overlay download",
+        "solie aggregate trade",
+        "solie requester",
+        "solie streamer",
+        "solie book ticker",
+        "solie download preset",
+        "solie download unit",
+        "solie duration recorder",
+        "solie mark price",
+        "solie lock",
+        "solie combine candle",
+        "solie candle",
+        "solie download aggtrade",
+        "solie holes aggtrades",
+        "solie numeric",
+        "solie internet connected",
+        "solie slice deque",
+        "solie frame",
+        "solie moment",
+        "solie internet disconnected",
+        "solie overlay",
+        "solie",
+        "united team"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "collector",
+          "attributes": [
+            "",
+            "scheduler",
+            "workerpath",
+            "price precisions",
+            "markets",
+            "download task",
+            "requester",
+            "aggtrade candle sizes",
+            "candle",
+            "realtime",
+            "aggregate trades",
+            "mark price streamer",
+            "book ticker streamers",
+            "aggtrade streamers"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "scheduler"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "current",
+                "filepath",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "dump",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "organize",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "duration recorder",
+                "original",
+                "unique"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "candle",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "current",
+                "filepath",
+                "filepath",
+                "filepath backup",
+                "mask",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "exchange",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "exchange",
+                "symbol",
+                "filter",
+                "filter",
+                "ticksize",
+                "price precision"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "candle holes",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "current moment",
+                "moment",
+                "symbols",
+                "",
+                "candle",
+                "",
+                "target symbols",
+                "moments",
+                "moment",
+                "moment",
+                "",
+                "chosen",
+                "inspect",
+                "",
+                "",
+                "moments",
+                "moment",
+                "moment",
+                "",
+                "isnan",
+                "nan",
+                "moment",
+                "aggtrades",
+                "fetched",
+                "",
+                "",
+                "aggtrade",
+                "aggtrade",
+                "aggtrades aggtrade",
+                "fetched",
+                "fetched",
+                "candle",
+                "",
+                "original candle",
+                "",
+                "candle",
+                "candle",
+                "candle"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "price precisions",
+                "aggregate trades",
+                "price",
+                "price",
+                "",
+                "price precision",
+                "",
+                "cumulation rate",
+                "",
+                "",
+                "realtime",
+                "record",
+                "",
+                "record",
+                "",
+                "",
+                "",
+                "",
+                "days",
+                "remains",
+                "hours",
+                "remains",
+                "minutes",
+                "",
+                "",
+                "markets",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "candle cumulation rate",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "current moment",
+                "moment",
+                "moment",
+                "cumulated",
+                "moments",
+                "cumulation rate"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "binance",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "download candle",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "download candle",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "unique task",
+                "filling",
+                "download presets",
+                "target symbols",
+                "current",
+                "current",
+                "current month",
+                "current",
+                "current month",
+                "current day",
+                "",
+                "yesterday",
+                "day yesterday",
+                "",
+                "",
+                "task",
+                "current",
+                "",
+                "classified download presets",
+                "combined",
+                "tasks",
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "progress",
+                  "params": [],
+                  "local_variables": [
+                    "progressbar",
+                    "",
+                    "remaining",
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "download",
+                  "params": [
+                    "download preset"
+                  ],
+                  "local_variables": [
+                    "",
+                    "",
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "book tickers",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "duration recorder",
+                "symbol",
+                "bid",
+                "",
+                "event",
+                "book ticker"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "mark price",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "duration recorder",
+                "target symbols",
+                "event",
+                "symbol",
+                "mark price",
+                "mark price"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "aggregate trades",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "duration recorder",
+                "symbol",
+                "price",
+                "volume",
+                "trade",
+                "aggregate trade"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "aggregate trades",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "candle",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "duration recorder",
+                "current moment",
+                "moment",
+                "collect",
+                "collect",
+                "aggregate trades",
+                "",
+                "collected aggregate trades",
+                "collected aggregate trades",
+                "",
+                "symbol aggregate trades",
+                "price",
+                "price",
+                "price",
+                "price",
+                "volume",
+                "inspect",
+                "inspect",
+                "price",
+                "price",
+                "price",
+                "price",
+                "price",
+                "volume",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "filling candle",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "donation",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "candle",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "filepath",
+                "candle"
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "manager"
+    },
+    {
+      "imports": [
+        "",
+        "statistics",
+        "webbrowser",
+        "asyncio tasks",
+        "asyncio",
+        "collections deque",
+        "",
+        "timedelta",
+        "timezone",
+        "",
+        "typing",
+        "aiofiles",
+        "aiofiles",
+        "machine",
+        "apscheduler schedulers asyncio scheduler",
+        "solie common",
+        "solie common outsource",
+        "solie common spawn",
+        "solie common spawn blocking",
+        "solie requester",
+        "solie board lock",
+        "solie duration recorder",
+        "solie management",
+        "solie internet connected",
+        "solie datapath",
+        "solie",
+        "solie",
+        "united team"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "manager",
+          "attributes": [
+            "",
+            "scheduler",
+            "workerpath",
+            "requester",
+            "ping",
+            "differences",
+            "binance",
+            "management",
+            "traveller"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "scheduler"
+              ],
+              "local_variables": [
+                "traveller",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "filepath",
+                "board lock",
+                "filepath",
+                "script",
+                "script"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "dump",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "current",
+                "filepath"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "datapath",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "deselect output",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "internal",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "texts",
+                "tasks",
+                "tasks",
+                "",
+                "tasks",
+                "",
+                "",
+                "texts",
+                "",
+                "rates",
+                "",
+                "",
+                "",
+                "texts",
+                "task durations",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "texts",
+                "candle",
+                "",
+                "block sizes",
+                "lines",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "script",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "script",
+                "filepath",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "online",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [],
+                  "local_variables": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "ping",
+                    "ping",
+                    "",
+                    "",
+                    "local",
+                    "difference"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "system",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "internet connected",
+                "ping",
+                "board",
+                "deque",
+                "difference",
+                "difference",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "correct",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "differences",
+                "difference",
+                "",
+                "traveller"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "binance",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "interval unit",
+                "interval",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "datapath",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "documentation",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "lock board",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "lock board",
+                "",
+                "",
+                "",
+                "",
+                "interaction",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "simulator"
+    },
+    {
+      "imports": [
+        "math",
+        "pickle",
+        "asyncio gather",
+        "asyncio",
+        "",
+        "timedelta",
+        "timezone",
+        "typing",
+        "aiofiles",
+        "aiofiles",
+        "numpy",
+        "pandas",
+        "apscheduler schedulers asyncio scheduler",
+        "",
+        "scipy signal peaks",
+        "solie common unique task",
+        "solie common sync manager",
+        "solie common outsource",
+        "solie common spawn",
+        "solie common spawn blocking",
+        "solie account",
+        "solie calculation input",
+        "solie calculation output",
+        "solie duration recorder",
+        "solie position direction",
+        "solie lock",
+        "solie simulation",
+        "solie simulation summary",
+        "solie position",
+        "solie",
+        "solie account",
+        "solie asset record",
+        "solie unrealized",
+        "solie indicators",
+        "solie simulate chunk",
+        "solie frame",
+        "solie series",
+        "solie moment",
+        "solie",
+        "solie",
+        "united team"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "simulator",
+          "attributes": [
+            "",
+            "scheduler",
+            "workerpath",
+            "task",
+            "task",
+            "calculation task",
+            "viewing symbol",
+            "",
+            "simulation",
+            "simulation summary",
+            "raw account",
+            "raw scribbles",
+            "raw asset record",
+            "raw unrealized",
+            "account",
+            "scribbles",
+            "asset record",
+            "unrealized"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "scheduler"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "dump",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "viewing symbol",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "alias",
+                "symbol"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "calculation",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "presentation",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "input",
+                "input",
+                "input"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "lines",
+              "params": [
+                "",
+                "periodic"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "lines",
+              "params": [
+                "",
+                "periodic"
+              ],
+              "local_variables": [
+                "symbol",
+                "strategy",
+                "strategy",
+                "",
+                "current moment",
+                "moment",
+                "",
+                "duration recorder",
+                "",
+                "slice",
+                "slice",
+                "slice",
+                "",
+                "",
+                "slice",
+                "slice",
+                "slice",
+                "slice",
+                "position",
+                "price",
+                "price",
+                "divided datas",
+                "",
+                "candle original",
+                "candle original",
+                "unrealized",
+                "asset",
+                "asset",
+                "record",
+                "asset",
+                "asset",
+                "asset record",
+                "candle",
+                "moment",
+                "moment",
+                "",
+                "candle",
+                "observed",
+                "asset record",
+                "asset record",
+                "indicators",
+                "indicators"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "erase",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "simulate visible",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "symbol",
+                "price",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "days",
+                "remains",
+                "hours",
+                "remains",
+                "minutes",
+                "unrealized",
+                "asset record",
+                "trade mask",
+                "asset",
+                "asset record",
+                "asset",
+                "symbol mask",
+                "",
+                "symbol",
+                "margin ratio",
+                "margin ratio",
+                "symbol margin ratio",
+                "symbol margin ratio",
+                "",
+                "",
+                "",
+                "symbol",
+                "symbol",
+                "symbol",
+                "unrealized",
+                "unrealized",
+                "",
+                "",
+                "",
+                "price height",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "minimum",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "calculate",
+              "params": [
+                "",
+                "visible"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "calculate",
+              "params": [
+                "",
+                "visible"
+              ],
+              "local_variables": [
+                "unique task",
+                "prepare",
+                "calculate",
+                "task",
+                "prepare",
+                "",
+                "strategy",
+                "strategy",
+                "strategy code",
+                "strategy",
+                "parallel chunk days",
+                "workerpath",
+                "prefix",
+                "asset record path",
+                "unrealized path",
+                "scribbles path",
+                "account path",
+                "path",
+                "target symbols",
+                "prepare",
+                "slice",
+                "slice",
+                "slice",
+                "slice",
+                "candle",
+                "candle",
+                "prepare",
+                "blank asset record",
+                "blank unrealized",
+                "blank scribbles",
+                "blank account",
+                "blank",
+                "prepare",
+                "asset record",
+                "unrealized",
+                "scribbles",
+                "account",
+                "",
+                "graph",
+                "",
+                "",
+                "",
+                "calculate",
+                "calculate",
+                "calculate",
+                "calculate",
+                "asset record",
+                "unrealized",
+                "",
+                "scribbles",
+                "",
+                "account",
+                "",
+                "",
+                "calculate",
+                "calculate",
+                "asset record",
+                "unrealized",
+                "scribbles",
+                "account",
+                "",
+                "calculate",
+                "calculate",
+                "calculate",
+                "prepare",
+                "sync manager",
+                "calculation inputs",
+                "progress",
+                "provide",
+                "indicators",
+                "candle",
+                "",
+                "indicators",
+                "calculation input",
+                "division",
+                "chunk candle",
+                "chunk",
+                "progress",
+                "chunk",
+                "chunk indicators",
+                "chunk asset record",
+                "chunk unrealized",
+                "",
+                "division",
+                "chunk scribbles",
+                "chunk account",
+                "chunk",
+                "chunk scribbles",
+                "chunk account",
+                "chunk",
+                "calculation input",
+                "prepare",
+                "calculation output",
+                "coroutines",
+                "gathered",
+                "",
+                "task",
+                "calculation output",
+                "calculate",
+                "asset record",
+                "chunk asset record",
+                "",
+                "asset record",
+                "mask",
+                "asset record",
+                "asset record",
+                "unrealized",
+                "chunk unrealized",
+                "",
+                "unrealized",
+                "mask",
+                "unrealized",
+                "unrealized",
+                "scribbles",
+                "account",
+                "",
+                "asset record",
+                "unrealized",
+                "scribbles",
+                "account",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "progress",
+                  "params": [],
+                  "local_variables": [
+                    "progressbar filled",
+                    "progressbar",
+                    "progressbar filled",
+                    "progressbar",
+                    "progressbar filled",
+                    "",
+                    "",
+                    "remaining",
+                    "",
+                    "",
+                    "",
+                    "remaining",
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "calculation",
+                  "params": [],
+                  "local_variables": [
+                    "progress",
+                    "calculate"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "maker fee",
+                "taker fee",
+                "leverage",
+                "asset record",
+                "unrealized",
+                "scribbles",
+                "account",
+                "parallel chunk days",
+                "strategy",
+                "strategy",
+                "parallel chunk days",
+                "chunk asset record",
+                "chunk",
+                "division",
+                "grouper",
+                "",
+                "chunk asset record",
+                "chunk",
+                "chunk asset",
+                "chunk asset record",
+                "chunk asset",
+                "chunk asset shifts",
+                "lazy chunk asset",
+                "chunk asset leverage",
+                "chunk fees",
+                "chunk fees",
+                "chunk fees",
+                "chunk fees",
+                "chunk margin ratios",
+                "chunk asset fee",
+                "chunk asset",
+                "unrealized",
+                "asset",
+                "asset",
+                "",
+                "asset",
+                "asset",
+                "asset record",
+                "asset record asset",
+                "presentation asset record",
+                "presentation unrealized",
+                "presentation scribbles",
+                "presentation account",
+                "",
+                "",
+                "strategy code",
+                "strategy",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "calculation",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "strategy",
+                "strategy",
+                "strategy code",
+                "strategy",
+                "workerpath",
+                "prefix",
+                "asset record path",
+                "unrealized path",
+                "scribbles path",
+                "account path",
+                "path",
+                "exist",
+                "exist",
+                "exist",
+                "exist",
+                "exist",
+                "exist",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "strategy",
+                "strategy",
+                "strategy code",
+                "strategy",
+                "workerpath",
+                "prefix",
+                "asset record path",
+                "unrealized path",
+                "scribbles path",
+                "account path",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "match graph",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "graph",
+                "graph",
+                "graph",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "calculation",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "analyze unrealized peaks",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "peak",
+                "",
+                "peak",
+                "peak",
+                "lines"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "combined",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "strategist"
+    },
+    {
+      "imports": [
+        "aiofiles",
+        "aiofiles",
+        "apscheduler schedulers asyncio scheduler",
+        "",
+        "pixmap",
+        "group box",
+        "box layout",
+        "",
+        "",
+        "",
+        "policy",
+        "spacer",
+        "solie common path",
+        "solie common outsource",
+        "solie common spawn",
+        "solie overlay strategy basic input",
+        "solie overlay strategy develop input",
+        "solie risk",
+        "solie strategies",
+        "solie strategy",
+        "solie strategy",
+        "solie strategy code",
+        "solie",
+        "solie overlay",
+        "solie"
+      ]
+    },
+    {
+      "global_variables": []
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "strategiest",
+          "attributes": [
+            "",
+            "scheduler",
+            "workerpath",
+            "strategies",
+            "strategies",
+            "strategy cards",
+            "selections",
+            "red pixmap",
+            "yellow pixmap",
+            "green pixmap"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "scheduler"
+              ],
+              "local_variables": [
+                "iconpath",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "filepath",
+                "strategy",
+                "filepath",
+                "",
+                "filepath",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "dump",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "combine strategies",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "soft strategies",
+                "fixed strategies"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "strategies",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "filepath"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "strategies",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "pixmap",
+                "pixmap",
+                "pixmap",
+                "traffic light",
+                "",
+                "strategy card",
+                "card layout",
+                "",
+                "",
+                "spacer",
+                "fixed",
+                "",
+                "",
+                "action",
+                "action",
+                "action",
+                "action",
+                "",
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [
+                    "strategy"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "strategy"
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "strategy"
+                  ],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "strategy"
+                  ],
+                  "local_variables": [
+                    "duplicated"
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "strategy"
+                  ],
+                  "local_variables": [
+                    "original",
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "strategy"
+                  ],
+                  "local_variables": [
+                    "original",
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "blank strategy",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "strategy"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "remember strategy selections",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "restore strategy selections",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "transactor"
+    },
+    {
+      "imports": [
+        "math",
+        "pickle",
+        "webbrowser",
+        "asyncio gather",
+        "asyncio",
+        "asyncio",
+        "collections abc coroutine",
+        "",
+        "timedelta",
+        "timezone",
+        "",
+        "typing",
+        "aiofiles",
+        "aiofiles",
+        "numpy",
+        "pandas",
+        "apscheduler schedulers asyncio scheduler",
+        "",
+        "solie common unique task",
+        "solie common outsource",
+        "solie common spawn",
+        "solie common spawn blocking",
+        "solie overlay",
+        "solie requester",
+        "solie",
+        "solie streamer",
+        "solie book ticker",
+        "solie decision",
+        "solie duration recorder",
+        "solie mark price",
+        "solie order",
+        "solie order",
+        "solie position direction",
+        "solie lock",
+        "solie transaction",
+        "solie ball ceil",
+        "solie account",
+        "solie asset record",
+        "solie unrealized",
+        "solie internet connected",
+        "solie",
+        "solie decisions",
+        "solie indicators",
+        "solie slice deque",
+        "solie frame",
+        "solie series",
+        "solie moment",
+        "solie internet connected",
+        "solie internet disconnected",
+        "solie",
+        "solie overlay",
+        "solie",
+        "united team"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "transactor",
+          "attributes": [
+            "",
+            "scheduler",
+            "workerpath",
+            "task",
+            "task",
+            "maximum quantities",
+            "minimum notionals",
+            "price precisions",
+            "quantity precisions",
+            "maximum leverages",
+            "leverages",
+            "restrictions satisfied",
+            "requester",
+            "viewing symbol",
+            "frequently",
+            "account",
+            "scribbles",
+            "transaction",
+            "unrealized",
+            "asset record",
+            "order record",
+            "user streamer"
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "scheduler"
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action",
+                "",
+                "",
+                "action"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "filepath",
+                "",
+                "filepath",
+                "",
+                "",
+                "strategy",
+                "",
+                "",
+                "",
+                "filepath",
+                "",
+                "filepath",
+                "",
+                "filepath",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "dump",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "organize",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "unique",
+                "unique",
+                "",
+                "unique"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "unrealized",
+                "order record",
+                "asset record"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "scribbles",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "filepath",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "user stream",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "listen",
+                ""
+              ],
+              "nested_functions": [
+                {
+                  "name": "stream",
+                  "params": [],
+                  "local_variables": [
+                    "user streamer"
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "listen account",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "event",
+                "event",
+                "event",
+                "",
+                "",
+                "assets",
+                "positions",
+                "asset token",
+                "assets keyed",
+                "asset",
+                "wallet balance",
+                "positions keyed",
+                "position",
+                "target symbols",
+                "symbol",
+                "",
+                "price",
+                "leverage",
+                "margin",
+                "direction",
+                "direction",
+                "direction",
+                "position",
+                "",
+                "target symbols",
+                "symbol",
+                "order",
+                "order",
+                "order",
+                "execution",
+                "",
+                "position",
+                "maker",
+                "origianal quantity",
+                "executed quantity",
+                "filled quantity",
+                "filled price",
+                "price",
+                "price",
+                "commission",
+                "realized profit",
+                "leverage",
+                "wallet balance",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "revenue",
+                "notional",
+                "margin",
+                "margin ratio",
+                "symbol",
+                "unique order",
+                "symbol",
+                "recorded",
+                "record exist",
+                "",
+                "mask",
+                "rec",
+                "rec",
+                "",
+                "asset",
+                "",
+                "record",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "asset",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "exchange",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "symbol"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "futures wallet",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "management",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "transaction",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "filepath"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "binance",
+                "binance"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "automation",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "strategy",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "symbol",
+                "price",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "days",
+                "remains",
+                "hours",
+                "remains",
+                "minutes",
+                "unrealized",
+                "asset record",
+                "trade mask",
+                "asset",
+                "asset record",
+                "asset",
+                "symbol mask",
+                "",
+                "symbol",
+                "margin ratio",
+                "margin ratio",
+                "symbol margin ratio",
+                "symbol margin ratio",
+                "",
+                "",
+                "",
+                "symbol",
+                "symbol",
+                "symbol",
+                "unrealized",
+                "unrealized",
+                "",
+                "",
+                "",
+                "price height",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "minimum",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "strategy",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "strategy"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "lines",
+              "params": [
+                "",
+                "periodic",
+                "frequent"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "lines",
+              "params": [
+                "",
+                "periodic",
+                "frequent"
+              ],
+              "local_variables": [
+                "symbol",
+                "strategy",
+                "strategy",
+                "frequently",
+                "current moment",
+                "moment",
+                "",
+                "duration recorder",
+                "",
+                "slice",
+                "slice",
+                "current",
+                "",
+                "slice",
+                "slice",
+                "realtime",
+                "mark prices",
+                "book tickers",
+                "",
+                "aggregate trades",
+                "aggregate trades",
+                "position",
+                "price",
+                "price",
+                "",
+                "chosen",
+                "candle original",
+                "unrealized",
+                "asset",
+                "asset",
+                "record",
+                "asset",
+                "asset",
+                "asset record",
+                "candle",
+                "moment",
+                "moment",
+                "",
+                "candle",
+                "observed",
+                "asset record",
+                "asset record",
+                "indicators",
+                "indicators"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "frequent",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "viewing symbol",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "alias",
+                "symbol"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "passed",
+                "",
+                "",
+                "cumulation rate",
+                "",
+                "position",
+                "direction",
+                "direction",
+                "direction",
+                "margin",
+                "orders",
+                "orders",
+                "orders",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "perform transaction",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "cumulation rate",
+                "duration recorder",
+                "current moment",
+                "moment",
+                "cycle",
+                "",
+                "slice",
+                "candle",
+                "target symbols",
+                "strategy",
+                "strategy",
+                "",
+                "coroutines",
+                "chosen",
+                "symbol indicators",
+                "indicators",
+                "record",
+                "current candle",
+                "record",
+                "current indicators",
+                "decisions",
+                "cycle"
+              ],
+              "nested_functions": [
+                {
+                  "name": "progress",
+                  "params": [],
+                  "local_variables": [
+                    "passed",
+                    "passed",
+                    "",
+                    "",
+                    "remaining",
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "day",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "match graph",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "graph",
+                "graph",
+                "graph",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "mode",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "desired leverage",
+                "target symbols",
+                "target leverages",
+                "leverage",
+                "target leverages symbol",
+                "lowest leverage",
+                "",
+                "texts",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "binance",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "target symbols",
+                "asset token",
+                "current moment",
+                "moment",
+                "",
+                "",
+                "exchange",
+                "symbol",
+                "filters",
+                "filters keyed",
+                "minimum notional",
+                "maximum quantity",
+                "ticksize",
+                "price precision",
+                "stepsize",
+                "quantity precision",
+                "",
+                "",
+                "brackets",
+                "symbol",
+                "leverage",
+                "",
+                "",
+                "account",
+                "orders",
+                "tasks",
+                "assets",
+                "assets keyed",
+                "asset",
+                "wallet balance",
+                "positions",
+                "positions keyed",
+                "position",
+                "direction",
+                "direction",
+                "direction",
+                "price",
+                "",
+                "",
+                "leverage",
+                "",
+                "margin",
+                "position",
+                "orders",
+                "orders symbol",
+                "position",
+                "leverage",
+                "order",
+                "order",
+                "",
+                "position",
+                "price",
+                "price",
+                "origianal quantity",
+                "executed quantity",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "order",
+                "boundary",
+                "quantity",
+                "margin",
+                "orders symbol order",
+                "position",
+                "leverage",
+                "wallet balance",
+                "unrealized profit",
+                "unrealized",
+                "unrealized",
+                "wallet balance",
+                "current",
+                "wallet balance",
+                "",
+                "asset",
+                "current",
+                "",
+                "tasks",
+                "tasks",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "restrictions",
+                "satisfied",
+                "required restrictions",
+                "",
+                "satisfied"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [
+                    "symbol"
+                  ],
+                  "local_variables": [
+                    "",
+                    "",
+                    "orders symbol"
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "symbol"
+                  ],
+                  "local_variables": [
+                    "position",
+                    "current leverage",
+                    "desired leverage",
+                    "maximum leverages",
+                    "leverage",
+                    "goal leverage",
+                    "",
+                    ""
+                  ],
+                  "nested_functions": []
+                },
+                {
+                  "name": "",
+                  "params": [
+                    "symbol"
+                  ],
+                  "local_variables": [
+                    "position",
+                    "isolated",
+                    "notional",
+                    "decisions",
+                    "",
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "orders",
+              "params": [
+                "",
+                "decisions"
+              ],
+              "local_variables": [
+                "target symbols",
+                "current",
+                "current prices",
+                "aggregate trades",
+                "current prices symbol",
+                "orders",
+                "order",
+                "tasks",
+                "orders",
+                "current price",
+                "leverage",
+                "maximum quantity",
+                "minimum notional",
+                "quantity precision",
+                "current direction",
+                "quantity",
+                "order",
+                "order",
+                "",
+                "decision",
+                "notional",
+                "quantity",
+                "order",
+                "decision",
+                "notional",
+                "quantity",
+                "order",
+                "tasks",
+                "book orders",
+                "leverage",
+                "maximum quantity",
+                "minimum notional",
+                "price precision",
+                "quantity precision",
+                "decision",
+                "notional",
+                "boundary",
+                "quantity",
+                "order",
+                "decision",
+                "notional",
+                "boundary",
+                "quantity",
+                "order",
+                "tasks",
+                "orders",
+                "leverage",
+                "maximum quantity",
+                "minimum notional",
+                "price precision",
+                "quantity precision",
+                "current direction",
+                "current direction",
+                "current direction",
+                "current direction",
+                "decision",
+                "order",
+                "order",
+                "order",
+                "order",
+                "order",
+                "",
+                "decision",
+                "order",
+                "order",
+                "order",
+                "order",
+                "order",
+                "",
+                "decision",
+                "notional",
+                "boundary",
+                "quantity",
+                "order",
+                "decision",
+                "notional",
+                "boundary",
+                "quantity",
+                "order",
+                "decision",
+                "notional",
+                "boundary",
+                "quantity",
+                "order",
+                "decision",
+                "notional",
+                "boundary",
+                "quantity",
+                "order",
+                "tasks"
+              ],
+              "nested_functions": [
+                {
+                  "name": "order",
+                  "params": [
+                    ""
+                  ],
+                  "local_variables": [],
+                  "nested_functions": []
+                },
+                {
+                  "name": "order",
+                  "params": [
+                    ""
+                  ],
+                  "local_variables": [
+                    "",
+                    "order symbol",
+                    "order",
+                    "",
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "positions orders",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "decisions",
+                "decisions symbol"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "conflicting orders",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "conflicting order",
+                "symbol orders",
+                "orders",
+                "order",
+                "orders order",
+                "",
+                "tasks"
+              ],
+              "nested_functions": [
+                {
+                  "name": "",
+                  "params": [
+                    "conflicting order"
+                  ],
+                  "local_variables": [
+                    ""
+                  ],
+                  "nested_functions": []
+                }
+              ]
+            },
+            {
+              "name": "pan",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "raw account",
+              "params": [
+                ""
+              ],
+              "local_variables": [
+                "",
+                "",
+                ""
+              ],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": "united"
+    },
+    {
+      "imports": [
+        "future annotations",
+        "typing",
+        "typing",
+        "apscheduler schedulers asyncio scheduler",
+        "solie",
+        "collector",
+        "manager",
+        "simulator",
+        "strategist strategiest",
+        "transactor"
+      ]
+    },
+    {
+      "global_variables": [
+        "team"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "",
+          "attributes": [],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                "",
+                "",
+                "scheduler"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "dump",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        },
+        {
+          "name": "team",
+          "attributes": [
+            "collector",
+            "transactor",
+            "simulator",
+            "strategist",
+            "manager"
+          ],
+          "methods": [
+            {
+              "name": "unite",
+              "params": [
+                "",
+                "collector",
+                "transactor",
+                "simulator",
+                "strategist",
+                "manager"
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "file": ""
+    },
+    {
+      "imports": [
+        "collector",
+        "manager",
+        "simulator",
+        "strategist strategiest",
+        "transactor",
+        "united team",
+        "united team"
+      ]
+    },
+    {
+      "global_variables": [
+        ""
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": []
+    }
+  ]
+]

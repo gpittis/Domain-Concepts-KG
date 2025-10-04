@@ -1,0 +1,539 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "acoust",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "buffer",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmu",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dictionari",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "edu",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "flat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "grammar",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "languag",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "linguist",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loader",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "manag",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "model",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "net",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 10
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prop",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reader",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "recogn",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "speech",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sphinx",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stream",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "writer",
+      "count": 3
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "acoust",
+      "to": "model",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "acoust",
+      "to": "path",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "acoust",
+      "to": "sphinx",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "buffer",
+      "to": "reader",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "buffer",
+      "to": "sphinx",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "buffer",
+      "to": "writer",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "edu",
+      "final_weight": 7.8,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "flat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "linguist",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "manag",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "prop",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "recogn",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "speech",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "sphinx",
+      "final_weight": 11.599998,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmu",
+      "to": "stream",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dictionari",
+      "to": "path",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dictionari",
+      "to": "sphinx",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "flat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "linguist",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "manag",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "prop",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "recogn",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "speech",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "sphinx",
+      "final_weight": 11.599998,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "edu",
+      "to": "stream",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flat",
+      "to": "linguist",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flat",
+      "to": "sphinx",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grammar",
+      "to": "model",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grammar",
+      "to": "path",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "grammar",
+      "to": "sphinx",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "reader",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "sphinx",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "stream",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "languag",
+      "to": "path",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "languag",
+      "to": "sphinx",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "linguist",
+      "to": "sphinx",
+      "final_weight": 2.566666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loader",
+      "to": "net",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loader",
+      "to": "sphinx",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "prop",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "sphinx",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "sphinx",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "path",
+      "final_weight": 7.2,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "sphinx",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "net",
+      "to": "sphinx",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "sphinx",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "stream",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "writer",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "sphinx",
+      "final_weight": 3.916665,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prop",
+      "to": "sphinx",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reader",
+      "to": "sphinx",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reader",
+      "to": "stream",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "recogn",
+      "to": "speech",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "recogn",
+      "to": "sphinx",
+      "final_weight": 4.649999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "recogn",
+      "to": "stream",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "speech",
+      "to": "sphinx",
+      "final_weight": 3.866666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "speech",
+      "to": "stream",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sphinx",
+      "to": "stream",
+      "final_weight": 3.833332,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sphinx",
+      "to": "writer",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stream",
+      "to": "writer",
+      "final_weight": 1.3,
+      "count": 1
+    }
+  ]
+}

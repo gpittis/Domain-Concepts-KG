@@ -1,0 +1,5360 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "abbrevi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "adam",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "adjust",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "adx",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ahlc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "algorithm",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alpha",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "amt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "anim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ansi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "aohlc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "apiurl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "arr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ashi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "assest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "asset",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "auth",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "autoprefix",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backfil",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backtest",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "balanc",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "band",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bearish",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bfx",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bid",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bitfinex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bitstamp",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bittrex",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bolling",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bollingerband",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "boot",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bootstrap",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bot",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "breakout",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bullish",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calc",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calcul",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "candlestick",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "capit",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cci",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ccxt",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cexio",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chanc",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chikou",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "child",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cliff",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "clock",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cluster",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmd",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "codemap",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coinbas",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "collect",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "command",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "competit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "condit",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "consum",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cont",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "content",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "convnetj",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cross",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "crossov",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "crossund",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "crypto",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "css",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "csv",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ctor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "currenc",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cursor",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "custom",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cycl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "darwin",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "data",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "day",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "deposit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dirnam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "discord",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distrust",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "donchian",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "echart",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ehler",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ema",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "emitt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "engin",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "event",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "evolv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exchang",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exist",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "express",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ext",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "extract",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "factor",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "factori",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fake",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fallback",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "filenam",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "finenamewin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fit",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "flip",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gain",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gdax",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gemini",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "generat",
+      "count": 8
+    },
+    {
+      "type": "CONCEPT",
+      "name": "genet",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "geneticalgorithm",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "height",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "heikin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hlc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hma",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "iff",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ifttt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ignor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "incom",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "instal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "intersect",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "iter",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jqueri",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "json",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jsonexport",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "keltnerchannel",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kraken",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kumo",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lauch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "launch",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "learn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "line",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lint",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lite",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lodash",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lolex",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lookback",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "loss",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lowest",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lrc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "macd",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mark",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "marker",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "match",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "math",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mathj",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "milli",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mini",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "minimist",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "minimum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "moment",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "momentum",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mongodb",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "monitor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mutat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nice",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nix",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "normal",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notifi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "numbro",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "objectifi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "offset",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ohlc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "oldgrowth",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "oldmean",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "omit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "opt",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "optim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "order",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pad",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pair",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "parallel",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pct",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "percent",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "period",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pheno",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "phenotyp",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pivot",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "placement",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "poloniex",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "popul",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "post",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ppo",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prclose",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "precis",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "precss",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "predict",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prefix",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "price",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pro",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prod",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "product",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "profit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "program",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "project",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "propen",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prowl",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pushbullet",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pusher",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pushov",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "queue",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "random",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rate",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ratio",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "raw",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reach",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "readlin",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "real",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "record",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regexp",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regress",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "renko",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "report",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "requir",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resolv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "roundp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rsi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rtn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sampl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scatter",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "score",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "selector",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sell",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "semver",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "senkou",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "shellj",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sim",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simpl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simplexmpp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simul",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slack",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slimscrol",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slow",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sma",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spawn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spinner",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "src",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "srsi",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stat",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stddev",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stoch",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stochast",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stochrsi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strategi",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stream",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strip",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stub",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "style",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "superag",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "talib",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "target",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "task",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tcf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "telegram",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "textbelt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "threshold",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timebucket",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "toolbox",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "track",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trade",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trend",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trick",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trix",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trust",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tulind",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tulip",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ultosc",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "undefin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "underscor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unset",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "variabl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "version",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vma",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "volum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vwap",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "web",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "webhook",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "webpack",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "willr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "win",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wrapper",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wto",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "xmpp",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "yarg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "zenbot",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "zoom",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "abbrevi",
+      "to": "engin",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adjust",
+      "to": "pct",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ahlc",
+      "to": "lookback",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ahlc",
+      "to": "period",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "algorithm",
+      "to": "ctor",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "algorithm",
+      "to": "darwin",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "algorithm",
+      "to": "genet",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alpha",
+      "to": "ema",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "amt",
+      "to": "asset",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "amt",
+      "to": "currenc",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ansi",
+      "to": "backtest",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ansi",
+      "to": "strip",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aohlc",
+      "to": "lookback",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "aohlc",
+      "to": "period",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apiurl",
+      "to": "exchang",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arr",
+      "to": "backtest",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arr",
+      "to": "distrust",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arr",
+      "to": "trust",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ashi",
+      "to": "heikin",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "assest",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "capit",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "currenc",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "engin",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "fake",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "output",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "price",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asset",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "auth",
+      "to": "bittrex",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "auth",
+      "to": "exchang",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "autoprefix",
+      "to": "webpack",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "backtest",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "collect",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "consum",
+      "final_weight": 5.716666,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "crypto",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "exchang",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "factori",
+      "final_weight": 2.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "minimist",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "moment",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "objectifi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "requir",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "selector",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "timebucket",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backfil",
+      "to": "trade",
+      "final_weight": 2.566666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "child",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "color",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "command",
+      "final_weight": 2.849999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "csv",
+      "final_weight": 3.833332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "darwin",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "distrust",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "exist",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "iter",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "json",
+      "final_weight": 3.199999,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "lint",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "lodash",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "moment",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "monitor",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "numbro",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "output",
+      "final_weight": 2.866666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "parallel",
+      "final_weight": 2.566666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "path",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "period",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "phenotyp",
+      "final_weight": 3.966665,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "popul",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "precis",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "product",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "readlin",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "report",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "roundp",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "sell",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "shellj",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "sim",
+      "final_weight": 2.083333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "spawn",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "strategi",
+      "final_weight": 1.916666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "strip",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "task",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "threshold",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "timebucket",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "track",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "trust",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "underscor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "unset",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "yarg",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bal",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bal",
+      "to": "regexp",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "color",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "engin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "exchang",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "fake",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "minimist",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "moment",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "numbro",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "band",
+      "to": "bolling",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "pivot",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "breakout",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "calc",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "chikou",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "cross",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "kumo",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bearish",
+      "to": "senkou",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bfx",
+      "to": "exchang",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "engin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bid",
+      "to": "fake",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bitfinex",
+      "to": "exchang",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bitfinex",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bitstamp",
+      "to": "exchang",
+      "final_weight": 2.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bitstamp",
+      "to": "selector",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bittrex",
+      "to": "exchang",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bittrex",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bolling",
+      "to": "bollingerband",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bolling",
+      "to": "strategi",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bolling",
+      "to": "talib",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bolling",
+      "to": "tulind",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bolling",
+      "to": "tulip",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "emitt",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "event",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "lodash",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "minimist",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "mongodb",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "path",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "sampl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "boot",
+      "to": "zenbot",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "telegram",
+      "final_weight": 3.983333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "breakout",
+      "to": "bullish",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "breakout",
+      "to": "calc",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "breakout",
+      "to": "kumo",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "breakout",
+      "to": "score",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "breakout",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullish",
+      "to": "calc",
+      "final_weight": 2.533332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullish",
+      "to": "chikou",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullish",
+      "to": "cross",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullish",
+      "to": "kumo",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bullish",
+      "to": "senkou",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "chikou",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "cross",
+      "final_weight": 5.4,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "darwin",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "fit",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "intersect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "kumo",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "placement",
+      "final_weight": 3.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "price",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "score",
+      "final_weight": 3.799998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "senkou",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calc",
+      "to": "strategi",
+      "final_weight": 4.699998,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candlestick",
+      "to": "echart",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "capit",
+      "to": "output",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cci",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ccxt",
+      "to": "exchang",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cex",
+      "to": "exchang",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cexio",
+      "to": "exchang",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cexio",
+      "to": "node",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chanc",
+      "to": "crossov",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chanc",
+      "to": "mutat",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chanc",
+      "to": "phenotyp",
+      "final_weight": 1.95,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chanc",
+      "to": "random",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chikou",
+      "to": "cross",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chikou",
+      "to": "placement",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chikou",
+      "to": "score",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chikou",
+      "to": "strategi",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "child",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cliff",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clock",
+      "to": "engin",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cluster",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cmd",
+      "to": "zenbot",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "codemap",
+      "to": "exchang",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "codemap",
+      "to": "output",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "codemap",
+      "to": "stub",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "exchang",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coinbas",
+      "to": "pro",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "cursor",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "factori",
+      "final_weight": 2.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "marker",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "sim",
+      "final_weight": 2.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "stream",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "collect",
+      "to": "trade",
+      "final_weight": 3.216666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "currenc",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "darwin",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "engin",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "exchang",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "selector",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "sell",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "trick",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "darwin",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "distrust",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "filenam",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "generat",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "input",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "launch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "phenotyp",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "simul",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "strategi",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "task",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "trust",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "command",
+      "to": "zenbot",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "competit",
+      "to": "phenotyp",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "condit",
+      "to": "consum",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "condit",
+      "to": "reach",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "event",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "factori",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "marker",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "queue",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "record",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "requir",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "rtn",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "consum",
+      "to": "trade",
+      "final_weight": 2.566666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cont",
+      "to": "launch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "content",
+      "to": "launch",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "content",
+      "to": "nix",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "content",
+      "to": "win",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convnetj",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cross",
+      "to": "intersect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cross",
+      "to": "score",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cross",
+      "to": "senkou",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cross",
+      "to": "strategi",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crossov",
+      "to": "phenotyp",
+      "final_weight": 2.15,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crossov",
+      "to": "strategi",
+      "final_weight": 1.366667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crossund",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crypto",
+      "to": "marker",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crypto",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "css",
+      "to": "extract",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "css",
+      "to": "mini",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "css",
+      "to": "webpack",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "darwin",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "distrust",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "generat",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "json",
+      "final_weight": 3.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "simul",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csv",
+      "to": "trust",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ctor",
+      "to": "darwin",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ctor",
+      "to": "genet",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "engin",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "fake",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "omit",
+      "final_weight": 1.916667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "pad",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "trick",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cursor",
+      "to": "sim",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cursor",
+      "to": "stream",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cycl",
+      "to": "darwin",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "evolv",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "fit",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "generat",
+      "final_weight": 4.299999,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "genet",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "geneticalgorithm",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "ignor",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "iter",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "json",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "launch",
+      "final_weight": 2.083333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "minimum",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "moment",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "numbro",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "parallel",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "path",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "pheno",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "phenotyp",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "popul",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "sim",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "simul",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "stat",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "strategi",
+      "final_weight": 2.733333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "trade",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "undefin",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "darwin",
+      "to": "yarg",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "deposit",
+      "to": "engin",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dirnam",
+      "to": "exist",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "json",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "output",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "parallel",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "period",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "precis",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "product",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "roundp",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "sell",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "shellj",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "sim",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "task",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "threshold",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distrust",
+      "to": "trust",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "donchian",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "echart",
+      "to": "mark",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "echart",
+      "to": "scatter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "echart",
+      "to": "toolbox",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "echart",
+      "to": "zoom",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ehler",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "talib",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ema",
+      "to": "wto",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emitt",
+      "to": "engin",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emitt",
+      "to": "event",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "event",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "exchang",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "factori",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "fake",
+      "final_weight": 5.066664,
+      "count": 8
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "input",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "lodash",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "lolex",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "moment",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "nice",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "notifi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "numbro",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "order",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "path",
+      "final_weight": 1.916666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "pct",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "product",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "project",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "readlin",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "requir",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "rsi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "sell",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "spi",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "timebucket",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "engin",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "exchang",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "factori",
+      "final_weight": 2.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "fake",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "gdax",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "gemini",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "kraken",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "lodash",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "minimist",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "moment",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "mongodb",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "node",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "numbro",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "objectifi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "opt",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "pair",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "path",
+      "final_weight": 2.283333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "poloniex",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "pro",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "product",
+      "final_weight": 1.416666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "selector",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "stub",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "superag",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "trade",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "web",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exist",
+      "to": "path",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "express",
+      "to": "rate",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "macd",
+      "final_weight": 3.8,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "talib",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "extract",
+      "to": "mini",
+      "final_weight": 2.7,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "extract",
+      "to": "webpack",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "phenotyp",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factor",
+      "to": "precis",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "marker",
+      "final_weight": 3.15,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "sell",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "sim",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "factori",
+      "to": "trade",
+      "final_weight": 4.45,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fake",
+      "to": "product",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fake",
+      "to": "project",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fallback",
+      "to": "resolv",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filenam",
+      "to": "launch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filenam",
+      "to": "nix",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finenamewin",
+      "to": "launch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fit",
+      "to": "ignor",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fit",
+      "to": "launch",
+      "final_weight": 2.033333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fit",
+      "to": "phenotyp",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gain",
+      "to": "rsi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "input",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "json",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "launch",
+      "final_weight": 3.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "prefix",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "sim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "simul",
+      "final_weight": 3.15,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "generat",
+      "to": "task",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hlc",
+      "to": "period",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hma",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hma",
+      "to": "tulind",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iff",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ignor",
+      "to": "launch",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "incom",
+      "to": "slack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "incom",
+      "to": "webhook",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "instal",
+      "to": "post",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "instal",
+      "to": "shellj",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "intersect",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iter",
+      "to": "sim",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "slimscrol",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "output",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "regexp",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "sim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "simul",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "trust",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jsonexport",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kumo",
+      "to": "score",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kumo",
+      "to": "strategi",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lauch",
+      "to": "launch",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "launch",
+      "to": "line",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "launch",
+      "to": "nix",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "launch",
+      "to": "simul",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "launch",
+      "to": "win",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "learn",
+      "to": "real",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "learn",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lite",
+      "to": "stat",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lite",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lodash",
+      "to": "sim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lookback",
+      "to": "src",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "loss",
+      "to": "rsi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lowest",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lrc",
+      "to": "regress",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "strategi",
+      "final_weight": 2.566666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "talib",
+      "final_weight": 2.566666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "macd",
+      "to": "tulind",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "objectifi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "requir",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "marker",
+      "to": "selector",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "match",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "math",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mathj",
+      "to": "srsi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mathj",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "milli",
+      "to": "target",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mini",
+      "to": "webpack",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "minimist",
+      "to": "sell",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "minimist",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "minimist",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "minimum",
+      "to": "trade",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "moment",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "moment",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "momentum",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mutat",
+      "to": "phenotyp",
+      "final_weight": 2.15,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mutat",
+      "to": "strategi",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "prowl",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "telegram",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "normal",
+      "to": "objectifi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "normal",
+      "to": "rsi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "normal",
+      "to": "selector",
+      "final_weight": 5.083333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numbro",
+      "to": "sell",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numbro",
+      "to": "sim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numbro",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numbro",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "objectifi",
+      "to": "selector",
+      "final_weight": 5.083333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "objectifi",
+      "to": "sell",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "objectifi",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "objectifi",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ohlc",
+      "to": "period",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "oldgrowth",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "oldmean",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "optim",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "path",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "pheno",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "price",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "profit",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "rate",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "raw",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "regexp",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "roi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "simul",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "strategi",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "task",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "trade",
+      "final_weight": 2.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "trust",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "win",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "prod",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "parallel",
+      "to": "trust",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "webpack",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "zenbot",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "ratio",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "phenotyp",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "src",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "period",
+      "to": "trust",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "phenotyp",
+      "to": "random",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "phenotyp",
+      "to": "strategi",
+      "final_weight": 3.683333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "phenotyp",
+      "to": "track",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pivot",
+      "to": "strategi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "placement",
+      "to": "price",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "placement",
+      "to": "score",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "placement",
+      "to": "strategi",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "post",
+      "to": "shellj",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ppo",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ppo",
+      "to": "talib",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prclose",
+      "to": "renko",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "precis",
+      "to": "rsi",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "precis",
+      "to": "trust",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "precss",
+      "to": "webpack",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "predict",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prefix",
+      "to": "simul",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "rsi",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "score",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "price",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prod",
+      "to": "product",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "product",
+      "to": "trust",
+      "final_weight": 1.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "program",
+      "to": "zenbot",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "propen",
+      "to": "renko",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pushbullet",
+      "to": "pusher",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "readlin",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "renko",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "report",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "requir",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolv",
+      "to": "src",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolv",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "roundp",
+      "to": "trust",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rsi",
+      "to": "srsi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rsi",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rsi",
+      "to": "tulind",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "score",
+      "to": "senkou",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "sell",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "sim",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "trade",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sell",
+      "to": "threshold",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sell",
+      "to": "trust",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "semver",
+      "to": "zenbot",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "senkou",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "shellj",
+      "to": "trust",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sim",
+      "to": "simul",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sim",
+      "to": "timebucket",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sim",
+      "to": "trust",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "simpl",
+      "to": "xmpp",
+      "final_weight": 1.933333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "simplexmpp",
+      "to": "xmpp",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "simul",
+      "to": "task",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slack",
+      "to": "webhook",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "slow",
+      "to": "stochast",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sma",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "spawn",
+      "to": "trade",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "srsi",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stat",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stddev",
+      "to": "strategi",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stoch",
+      "to": "strategi",
+      "final_weight": 1.933333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stoch",
+      "to": "talib",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stoch",
+      "to": "tulind",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stoch",
+      "to": "tulip",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stochrsi",
+      "to": "strategi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stochrsi",
+      "to": "talib",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stochrsi",
+      "to": "tulind",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "task",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "trend",
+      "final_weight": 2.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "trix",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "trust",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "tulip",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "ultosc",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "vwap",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "wto",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "talib",
+      "to": "trix",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "talib",
+      "to": "ultosc",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "talib",
+      "to": "volum",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "talib",
+      "to": "willr",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "task",
+      "to": "trust",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "telegram",
+      "to": "wrapper",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "threshold",
+      "to": "trust",
+      "final_weight": 1.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "timebucket",
+      "to": "trade",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "undefin",
+      "to": "variabl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "version",
+      "to": "zenbot",
+      "final_weight": 0.65,
+      "count": 1
+    }
+  ]
+}

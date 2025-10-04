@@ -1,0 +1,802 @@
+﻿[
+  {
+    "Concept": "map",
+    "Count": 863
+  },
+  {
+    "Concept": "sensor",
+    "Count": 572
+  },
+  {
+    "Concept": "imag",
+    "Count": 550
+  },
+  {
+    "Concept": "pandora",
+    "Count": 465
+  },
+  {
+    "Concept": "hole",
+    "Count": 452
+  },
+  {
+    "Concept": "robot",
+    "Count": 445
+  },
+  {
+    "Concept": "publish",
+    "Count": 380
+  },
+  {
+    "Concept": "pose",
+    "Count": 379
+  },
+  {
+    "Concept": "frame",
+    "Count": 376
+  },
+  {
+    "Concept": "thermal",
+    "Count": 351
+  },
+  {
+    "Concept": "control",
+    "Count": 349
+  },
+  {
+    "Concept": "slam",
+    "Count": 337
+  },
+  {
+    "Concept": "detect",
+    "Count": 336
+  },
+  {
+    "Concept": "node",
+    "Count": 330
+  },
+  {
+    "Concept": "detector",
+    "Count": 319
+  },
+  {
+    "Concept": "filter",
+    "Count": 311
+  },
+  {
+    "Concept": "obstacl",
+    "Count": 304
+  },
+  {
+    "Concept": "processor",
+    "Count": 301
+  },
+  {
+    "Concept": "victim",
+    "Count": 297
+  },
+  {
+    "Concept": "transform",
+    "Count": 290
+  },
+  {
+    "Concept": "laser",
+    "Count": 281
+  },
+  {
+    "Concept": "featur",
+    "Count": 268
+  },
+  {
+    "Concept": "topic",
+    "Count": 265
+  },
+  {
+    "Concept": "crsm",
+    "Count": 262
+  },
+  {
+    "Concept": "pdata",
+    "Count": 260
+  },
+  {
+    "Concept": "connector",
+    "Count": 257
+  },
+  {
+    "Concept": "path",
+    "Count": 245
+  },
+  {
+    "Concept": "depth",
+    "Count": 231
+  },
+  {
+    "Concept": "vision",
+    "Count": 231
+  },
+  {
+    "Concept": "mode",
+    "Count": 227
+  },
+  {
+    "Concept": "srv",
+    "Count": 225
+  },
+  {
+    "Concept": "ptr",
+    "Count": 224
+  },
+  {
+    "Concept": "threshold",
+    "Count": 212
+  },
+  {
+    "Concept": "rapp",
+    "Count": 211
+  },
+  {
+    "Concept": "alert",
+    "Count": 203
+  },
+  {
+    "Concept": "current",
+    "Count": 200
+  },
+  {
+    "Concept": "rgb",
+    "Count": 197
+  },
+  {
+    "Concept": "posit",
+    "Count": 190
+  },
+  {
+    "Concept": "color",
+    "Count": 187
+  },
+  {
+    "Concept": "loader",
+    "Count": 186
+  },
+  {
+    "Concept": "stamp",
+    "Count": 182
+  },
+  {
+    "Concept": "user",
+    "Count": 177
+  },
+  {
+    "Concept": "action",
+    "Count": 177
+  },
+  {
+    "Concept": "ros",
+    "Count": 177
+  },
+  {
+    "Concept": "rate",
+    "Count": 173
+  },
+  {
+    "Concept": "model",
+    "Count": 171
+  },
+  {
+    "Concept": "distanc",
+    "Count": 165
+  },
+  {
+    "Concept": "marker",
+    "Count": 164
+  },
+  {
+    "Concept": "fusion",
+    "Count": 164
+  },
+  {
+    "Concept": "vcs",
+    "Count": 162
+  },
+  {
+    "Concept": "subscrib",
+    "Count": 160
+  },
+  {
+    "Concept": "height",
+    "Count": 160
+  },
+  {
+    "Concept": "edg",
+    "Count": 160
+  },
+  {
+    "Concept": "stdr",
+    "Count": 156
+  },
+  {
+    "Concept": "target",
+    "Count": 155
+  },
+  {
+    "Concept": "cloud",
+    "Count": 155
+  },
+  {
+    "Concept": "visual",
+    "Count": 154
+  },
+  {
+    "Concept": "goal",
+    "Count": 146
+  },
+  {
+    "Concept": "hardwar",
+    "Count": 143
+  },
+  {
+    "Concept": "angl",
+    "Count": 141
+  },
+  {
+    "Concept": "motion",
+    "Count": 140
+  },
+  {
+    "Concept": "leddar",
+    "Count": 139
+  },
+  {
+    "Concept": "linear",
+    "Count": 137
+  },
+  {
+    "Concept": "scale",
+    "Count": 136
+  },
+  {
+    "Concept": "pub",
+    "Count": 136
+  },
+  {
+    "Concept": "scan",
+    "Count": 136
+  },
+  {
+    "Concept": "valid",
+    "Count": 130
+  },
+  {
+    "Concept": "extractor",
+    "Count": 127
+  },
+  {
+    "Concept": "pdev",
+    "Count": 126
+  },
+  {
+    "Concept": "communic",
+    "Count": 126
+  },
+  {
+    "Concept": "initi",
+    "Count": 124
+  },
+  {
+    "Concept": "sound",
+    "Count": 124
+  },
+  {
+    "Concept": "coverag",
+    "Count": 124
+  },
+  {
+    "Concept": "creator",
+    "Count": 123
+  },
+  {
+    "Concept": "veloc",
+    "Count": 123
+  },
+  {
+    "Concept": "probabl",
+    "Count": 121
+  },
+  {
+    "Concept": "orient",
+    "Count": 120
+  },
+  {
+    "Concept": "roi",
+    "Count": 119
+  },
+  {
+    "Concept": "pitch",
+    "Count": 119
+  },
+  {
+    "Concept": "sourc",
+    "Count": 117
+  },
+  {
+    "Concept": "timeout",
+    "Count": 117
+  },
+  {
+    "Concept": "input",
+    "Count": 117
+  },
+  {
+    "Concept": "grid",
+    "Count": 117
+  },
+  {
+    "Concept": "yaw",
+    "Count": 116
+  },
+  {
+    "Concept": "hazmat",
+    "Count": 114
+  },
+  {
+    "Concept": "spad",
+    "Count": 113
+  },
+  {
+    "Concept": "rfid",
+    "Count": 112
+  },
+  {
+    "Concept": "barrel",
+    "Count": 112
+  },
+  {
+    "Concept": "offset",
+    "Count": 111
+  },
+  {
+    "Concept": "imu",
+    "Count": 110
+  },
+  {
+    "Concept": "lite",
+    "Count": 109
+  },
+  {
+    "Concept": "diff",
+    "Count": 108
+  },
+  {
+    "Concept": "particl",
+    "Count": 108
+  },
+  {
+    "Concept": "encod",
+    "Count": 107
+  },
+  {
+    "Concept": "measur",
+    "Count": 104
+  },
+  {
+    "Concept": "mask",
+    "Count": 104
+  },
+  {
+    "Concept": "devic",
+    "Count": 102
+  },
+  {
+    "Concept": "match",
+    "Count": 101
+  },
+  {
+    "Concept": "wheel",
+    "Count": 100
+  },
+  {
+    "Concept": "explor",
+    "Count": 99
+  },
+  {
+    "Concept": "platform",
+    "Count": 99
+  },
+  {
+    "Concept": "frontier",
+    "Count": 98
+  },
+  {
+    "Concept": "command",
+    "Count": 98
+  },
+  {
+    "Concept": "cost",
+    "Count": 98
+  },
+  {
+    "Concept": "descriptor",
+    "Count": 97
+  },
+  {
+    "Concept": "motor",
+    "Count": 96
+  },
+  {
+    "Concept": "timer",
+    "Count": 96
+  },
+  {
+    "Concept": "mcps",
+    "Count": 95
+  },
+  {
+    "Concept": "box",
+    "Count": 94
+  },
+  {
+    "Concept": "trajectori",
+    "Count": 92
+  },
+  {
+    "Concept": "post",
+    "Count": 92
+  },
+  {
+    "Concept": "sonar",
+    "Count": 91
+  },
+  {
+    "Concept": "landoltc",
+    "Count": 91
+  },
+  {
+    "Concept": "ontolog",
+    "Count": 90
+  },
+  {
+    "Concept": "classifi",
+    "Count": 90
+  },
+  {
+    "Concept": "system",
+    "Count": 90
+  },
+  {
+    "Concept": "tuningparm",
+    "Count": 88
+  },
+  {
+    "Concept": "factori",
+    "Count": 87
+  },
+  {
+    "Concept": "code",
+    "Count": 87
+  },
+  {
+    "Concept": "pre",
+    "Count": 86
+  },
+  {
+    "Concept": "hard",
+    "Count": 86
+  },
+  {
+    "Concept": "enhanc",
+    "Count": 85
+  },
+  {
+    "Concept": "epo",
+    "Count": 85
+  },
+  {
+    "Concept": "costmap",
+    "Count": 83
+  },
+  {
+    "Concept": "output",
+    "Count": 82
+  },
+  {
+    "Concept": "event",
+    "Count": 81
+  },
+  {
+    "Concept": "thresh",
+    "Count": 81
+  },
+  {
+    "Concept": "com",
+    "Count": 80
+  },
+  {
+    "Concept": "planner",
+    "Count": 80
+  },
+  {
+    "Concept": "joint",
+    "Count": 79
+  },
+  {
+    "Concept": "serial",
+    "Count": 79
+  },
+  {
+    "Concept": "cluster",
+    "Count": 78
+  },
+  {
+    "Concept": "geometri",
+    "Count": 78
+  },
+  {
+    "Concept": "center",
+    "Count": 78
+  },
+  {
+    "Concept": "std",
+    "Count": 77
+  },
+  {
+    "Concept": "outlin",
+    "Count": 77
+  },
+  {
+    "Concept": "wrapper",
+    "Count": 77
+  },
+  {
+    "Concept": "convert",
+    "Count": 77
+  },
+  {
+    "Concept": "img",
+    "Count": 76
+  },
+  {
+    "Concept": "actuat",
+    "Count": 75
+  },
+  {
+    "Concept": "soft",
+    "Count": 74
+  },
+  {
+    "Concept": "roll",
+    "Count": 74
+  },
+  {
+    "Concept": "rectangl",
+    "Count": 74
+  },
+  {
+    "Concept": "search",
+    "Count": 73
+  },
+  {
+    "Concept": "extract",
+    "Count": 72
+  },
+  {
+    "Concept": "dss",
+    "Count": 72
+  },
+  {
+    "Concept": "svm",
+    "Count": 72
+  },
+  {
+    "Concept": "twist",
+    "Count": 72
+  },
+  {
+    "Concept": "trigger",
+    "Count": 72
+  },
+  {
+    "Concept": "metric",
+    "Count": 71
+  },
+  {
+    "Concept": "steer",
+    "Count": 70
+  },
+  {
+    "Concept": "plane",
+    "Count": 70
+  },
+  {
+    "Concept": "cognit",
+    "Count": 70
+  },
+  {
+    "Concept": "ogmpp",
+    "Count": 69
+  },
+  {
+    "Concept": "generat",
+    "Count": 69
+  },
+  {
+    "Concept": "vel",
+    "Count": 69
+  },
+  {
+    "Concept": "odom",
+    "Count": 69
+  },
+  {
+    "Concept": "blob",
+    "Count": 68
+  },
+  {
+    "Concept": "channel",
+    "Count": 67
+  },
+  {
+    "Concept": "occup",
+    "Count": 67
+  },
+  {
+    "Concept": "record",
+    "Count": 66
+  },
+  {
+    "Concept": "boost",
+    "Count": 65
+  },
+  {
+    "Concept": "origin",
+    "Count": 65
+  },
+  {
+    "Concept": "cal",
+    "Count": 65
+  },
+  {
+    "Concept": "nois",
+    "Count": 65
+  },
+  {
+    "Concept": "exist",
+    "Count": 64
+  },
+  {
+    "Concept": "random",
+    "Count": 64
+  },
+  {
+    "Concept": "poi",
+    "Count": 64
+  },
+  {
+    "Concept": "perform",
+    "Count": 63
+  },
+  {
+    "Concept": "gpio",
+    "Count": 63
+  },
+  {
+    "Concept": "freq",
+    "Count": 63
+  },
+  {
+    "Concept": "regist",
+    "Count": 63
+  },
+  {
+    "Concept": "score",
+    "Count": 62
+  },
+  {
+    "Concept": "sigma",
+    "Count": 62
+  },
+  {
+    "Concept": "profil",
+    "Count": 61
+  },
+  {
+    "Concept": "audio",
+    "Count": 61
+  },
+  {
+    "Concept": "speech",
+    "Count": 61
+  },
+  {
+    "Concept": "period",
+    "Count": 60
+  },
+  {
+    "Concept": "dist",
+    "Count": 59
+  },
+  {
+    "Concept": "keypoint",
+    "Count": 59
+  },
+  {
+    "Concept": "dev",
+    "Count": 59
+  },
+  {
+    "Concept": "radius",
+    "Count": 59
+  },
+  {
+    "Concept": "rgbd",
+    "Count": 59
+  },
+  {
+    "Concept": "signal",
+    "Count": 59
+  },
+  {
+    "Concept": "ctrl",
+    "Count": 59
+  },
+  {
+    "Concept": "pid",
+    "Count": 59
+  },
+  {
+    "Concept": "ogm",
+    "Count": 59
+  },
+  {
+    "Concept": "effector",
+    "Count": 59
+  },
+  {
+    "Concept": "shadow",
+    "Count": 59
+  },
+  {
+    "Concept": "drone",
+    "Count": 59
+  },
+  {
+    "Concept": "iter",
+    "Count": 58
+  },
+  {
+    "Concept": "pcl",
+    "Count": 58
+  },
+  {
+    "Concept": "calcul",
+    "Count": 57
+  },
+  {
+    "Concept": "core",
+    "Count": 57
+  },
+  {
+    "Concept": "estim",
+    "Count": 57
+  },
+  {
+    "Concept": "predat",
+    "Count": 57
+  },
+  {
+    "Concept": "nav",
+    "Count": 57
+  },
+  {
+    "Concept": "report",
+    "Count": 56
+  },
+  {
+    "Concept": "plan",
+    "Count": 55
+  },
+  {
+    "Concept": "annot",
+    "Count": 55
+  }
+]

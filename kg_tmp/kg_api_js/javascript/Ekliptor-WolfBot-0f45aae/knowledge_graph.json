@@ -1,0 +1,9523 @@
+{
+  "nodes": [
+    {
+      "type": "CONCEPT",
+      "name": "abap",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "abc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ace",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "actionscript",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "activ",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ada",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "adapt",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "addon",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "address",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "age",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "align",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "alpha",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ambianc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "angl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "anim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ansi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "apach",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "appl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "applescript",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "arr",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "arrow",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "asciidoc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "assembl",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "assign",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "attach",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "autohotkey",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backend",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "backtest",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "balanc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bar",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "batchfil",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "beautifi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "behavior",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "beta",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bind",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "block",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "blue",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bootstrap",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "border",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bound",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "box",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bright",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bro",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "browser",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "browserutil",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "bundl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cabal",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "calcul",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "candl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "canon",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "canva",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "caption",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cell",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "center",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "channel",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chao",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "char",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "charact",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chart",
+      "count": 24
+    },
+    {
+      "type": "CONCEPT",
+      "name": "child",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chrome",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "chromevox",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cirru",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "clojur",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cloud",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cmyk",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cobalt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cobol",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coffe",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coin",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "coldfus",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "collect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "color",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "colum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "colvi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "comp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "compat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "complet",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "constant",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "constrain",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "constructor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "control",
+      "count": 11
+    },
+    {
+      "type": "CONCEPT",
+      "name": "convers",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "convert",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "core",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "correct",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "crawl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "crete",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "crimson",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "csharp",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "css",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ctor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "cur",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "currenc",
+      "count": 15
+    },
+    {
+      "type": "CONCEPT",
+      "name": "current",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dark",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dart",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datafe",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dataset",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datepick",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "datetimepick",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dawn",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "day",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "decim",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delet",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "delta",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "depth",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "desc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "detail",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dev",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "devic",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "devtool",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diff",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "diffc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "digit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dimens",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "direct",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "disconnect",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "distanc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "django",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dockerfil",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dom",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dot",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "dreamweav",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "drool",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "durat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "eclips",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "editor",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "eff",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "eiffel",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "eighti",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ej",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ejson",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "elast",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "elem",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "elixir",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "elm",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "emac",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "emit",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "emmet",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "equiti",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "erlang",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "escap",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "event",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "eventemitt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "exchang",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expir",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "expon",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ext",
+      "count": 17
+    },
+    {
+      "type": "CONCEPT",
+      "name": "extern",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "featur",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "feed",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fetch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "filenam",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "filter",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "finger",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "flatten",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "font",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fortran",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "fraction",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ftl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gcode",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gherkin",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "github",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gitignor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "glsl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gob",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gobston",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "golang",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "graph",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "graphqlschema",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gray",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "groovi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "group",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gruvbox",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gulp",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "gulpfil",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "haml",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hand",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "handlebar",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "haskel",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hax",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hcg",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "height",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "highlight",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "histori",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hjson",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hlp",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "holder",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hour",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hsl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hsv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "html",
+      "count": 25
+    },
+    {
+      "type": "CONCEPT",
+      "name": "hwb",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "idl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ien",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ilen",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "imag",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "indent",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "indic",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "industri",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "inf",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "infin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ini",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "initi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ink",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "input",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "inst",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "integ",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "interv",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "iplast",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jack",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jade",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jen",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jlen",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jqueri",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jshint",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "json",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jsoneditor",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jsoniq",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jsp",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "jsx",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "julia",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "katzenmilch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "keybind",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "keyword",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "klass",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kotlin",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "kuroir",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lab",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "languag",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "latex",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "layout",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lean",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "legend",
+      "count": 10
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lend",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lent",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lib",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "light",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "limit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "line",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "link",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lint",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "liquid",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lisp",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lite",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "live",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "livescript",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "local",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "locat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "login",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "logiql",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lookup",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lsl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ltr",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lua",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "luapag",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "lucen",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "magnitud",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "makefil",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "manag",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "map",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mark",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "markdown",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "marker",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "market",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mask",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "master",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "match",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "matlab",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "maze",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mel",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "memoiz",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "merbivor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "meta",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "middl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "midnight",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mip",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mipsassembl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mirror",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mix",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mode",
+      "count": 138
+    },
+    {
+      "type": "CONCEPT",
+      "name": "model",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "modelist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "modern",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "moment",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mono",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "monokai",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mous",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "multi",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "multiselect",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mushcod",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "mysql",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nan",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nest",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "network",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nice",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "night",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nix",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "node",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notif",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notifi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "notifyt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "nsis",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "numer",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "objectivec",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ocaml",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "offset",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "oop",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "opcod",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "opt",
+      "count": 7
+    },
+    {
+      "type": "CONCEPT",
+      "name": "optim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "oracl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "order",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "origin",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "outer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "output",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "overflow",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pad",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pair",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "parent",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "partial",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pascal",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pastel",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "path",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "percent",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "perl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "persist",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pgsql",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "php",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "picker",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pig",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pixel",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "plain",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "plot",
+      "count": 9
+    },
+    {
+      "type": "CONCEPT",
+      "name": "pluck",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "polyfil",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "posit",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "powershel",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "praat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "predict",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prepar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "progress",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prolog",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "prop",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "protobuf",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "radial",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "radius",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rate",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ratio",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "razor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rdoc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "readi",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "real",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "realtim",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reason",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rebuild",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "receiv",
+      "count": 6
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rect",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "redraw",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regex",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "regexp",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "reload",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "render",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "replac",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resiz",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resolut",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "resolv",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "respond",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "restart",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "restor",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "retriev",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rgb",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rhtml",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "root",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "round",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rout",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "router",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rst",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rtl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rubi",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "rust",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sass",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scad",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scala",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "schema",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scheme",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scope",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "script",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "scss",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "search",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "searchbox",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sel",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "selector",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sentiment",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "serial",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "setter",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "shallow",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "shim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "simpl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "singl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "site",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sizer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sjs",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "slope",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "smarti",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "snippet",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "social",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "soft",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "solar",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sort",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sortabl",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sourc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "soy",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "space",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sparql",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spellcheck",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "spike",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sql",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sqlserver",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "squar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "src",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stat",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "statusbar",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "store",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strategi",
+      "count": 20
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strict",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stringifi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "strip",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stripe",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "struc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "style",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "stylus",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sub",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "subscrib",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "surrog",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "svg",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "swift",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "swig",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "symbol",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "sync",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tab",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tabstop",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tangent",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "target",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tau",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tbodi",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tcl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "termin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tex",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "textil",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "textmat",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tfoot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "thead",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "theme",
+      "count": 36
+    },
+    {
+      "type": "CONCEPT",
+      "name": "themelist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ths",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tick",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "ticker",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timer",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "timescal",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "titl",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "token",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "toml",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tomorrow",
+      "count": 5
+    },
+    {
+      "type": "CONCEPT",
+      "name": "toplist",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "touch",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trade",
+      "count": 14
+    },
+    {
+      "type": "CONCEPT",
+      "name": "translat",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "trend",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "tsx",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "turtl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "twig",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "twilight",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "txt",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "typedoc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "typescript",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "uid",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "undefin",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "uniqu",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unit",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unseri",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "unsubscrib",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "user",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "userag",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "utc",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vala",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vbscript",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "veloc",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "verilog",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vhdl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vibrant",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vim",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "vis",
+      "count": 3
+    },
+    {
+      "type": "CONCEPT",
+      "name": "visibl",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "volum",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "web",
+      "count": 4
+    },
+    {
+      "type": "CONCEPT",
+      "name": "webpack",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "websocket",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "whitespac",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wizard",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wolfbot",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wollok",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "wrap",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "xcode",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "xhr",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "xqueri",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "xyz",
+      "count": 1
+    },
+    {
+      "type": "CONCEPT",
+      "name": "yaml",
+      "count": 2
+    },
+    {
+      "type": "CONCEPT",
+      "name": "yesterday",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "from": "abap",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "abc",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "actionscript",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "activ",
+      "to": "chart",
+      "final_weight": 2.466668,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "activ",
+      "to": "opt",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "activ",
+      "to": "plot",
+      "final_weight": 2.0,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "activ",
+      "to": "sort",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "activ",
+      "to": "sortabl",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ada",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adapt",
+      "to": "bundl",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adapt",
+      "to": "chart",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adapt",
+      "to": "ltr",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adapt",
+      "to": "rect",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "adapt",
+      "to": "rtl",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "addon",
+      "to": "event",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "addon",
+      "to": "strategi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "address",
+      "to": "memoiz",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "age",
+      "to": "coin",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "age",
+      "to": "market",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "age",
+      "to": "social",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "block",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "border",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "bundl",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "chart",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "dimens",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "offset",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "align",
+      "to": "pixel",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "alpha",
+      "to": "core",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ambianc",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "angl",
+      "to": "core",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "anim",
+      "to": "complet",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ansi",
+      "to": "bundl",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ansi",
+      "to": "chart",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "apach",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "appl",
+      "to": "bundl",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "appl",
+      "to": "chart",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "applescript",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arr",
+      "to": "readi",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arr",
+      "to": "spike",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arr",
+      "to": "volum",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arrow",
+      "to": "currenc",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arrow",
+      "to": "current",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arrow",
+      "to": "oracl",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arrow",
+      "to": "pair",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arrow",
+      "to": "predict",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "arrow",
+      "to": "trend",
+      "final_weight": 2.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "asciidoc",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "assembl",
+      "to": "mip",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "assembl",
+      "to": "mode",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "assign",
+      "to": "bundl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "assign",
+      "to": "sourc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "assign",
+      "to": "undefin",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "attach",
+      "to": "bootstrap",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "attach",
+      "to": "ien",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "attach",
+      "to": "jqueri",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "attach",
+      "to": "node",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "autohotkey",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backend",
+      "to": "xhr",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "bundl",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "constructor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "control",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "event",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "hour",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "progress",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "backtest",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "currenc",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "balanc",
+      "to": "lent",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "candl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "datafe",
+      "final_weight": 2.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "histori",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "meta",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "readi",
+      "final_weight": 1.25,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "realtim",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "resolut",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "subscrib",
+      "final_weight": 3.1,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "symbol",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "trade",
+      "final_weight": 2.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "uid",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bar",
+      "to": "unsubscrib",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "batchfil",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "beautifi",
+      "to": "ext",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "behavior",
+      "to": "group",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "beta",
+      "to": "core",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bind",
+      "to": "jqueri",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bind",
+      "to": "resiz",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "block",
+      "to": "offset",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "blue",
+      "to": "night",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "blue",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "blue",
+      "to": "tomorrow",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bootstrap",
+      "to": "datat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bootstrap",
+      "to": "datetimepick",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bootstrap",
+      "to": "jqueri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bootstrap",
+      "to": "moment",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bootstrap",
+      "to": "multiselect",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "border",
+      "to": "bundl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "border",
+      "to": "chart",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "border",
+      "to": "pixel",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bot",
+      "to": "restart",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bound",
+      "to": "core",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bound",
+      "to": "rect",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "bundl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "center",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "chart",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "legend",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "box",
+      "to": "radius",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bright",
+      "to": "night",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bright",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bright",
+      "to": "tomorrow",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bro",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "browser",
+      "to": "browserutil",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "browser",
+      "to": "bundl",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "browser",
+      "to": "web",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "browser",
+      "to": "websocket",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "browser",
+      "to": "wolfbot",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "chart",
+      "final_weight": 4.783333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "cmyk",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "coin",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "color",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "complet",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "control",
+      "final_weight": 3.683333,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "core",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "ctor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "datafe",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "dataset",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "diff",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "diffc",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "direct",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "editor",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "ejson",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "escap",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "flatten",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "gray",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "group",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "hcg",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "hex",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "histori",
+      "final_weight": 2.9,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "hsl",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "hsv",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "hwb",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "inf",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "json",
+      "final_weight": 2.883333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "keyword",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "lab",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "lch",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "legend",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "lend",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "login",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "ltr",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "manag",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "map",
+      "final_weight": 0.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "market",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "memoiz",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "nan",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "offset",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "optim",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "oracl",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "percent",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "plot",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "readi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "receiv",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "replac",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "restart",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "restor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "rgb",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "rout",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "router",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "rtl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "script",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "social",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "store",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "strategi",
+      "final_weight": 1.45,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "surrog",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "trade",
+      "final_weight": 2.9,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "wrap",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "bundl",
+      "to": "xyz",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cabal",
+      "to": "haskel",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cabal",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "datafe",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "depth",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "histori",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "interv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "resolut",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "calcul",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "datafe",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "realtim",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "candl",
+      "to": "trade",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "canva",
+      "to": "core",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "ien",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "jqueri",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "opt",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "selector",
+      "final_weight": 4.416666,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "setter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cell",
+      "to": "vis",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "core",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "distanc",
+      "final_weight": 2.0,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "legend",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "center",
+      "to": "radial",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chao",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "cmyk",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "coin",
+      "final_weight": 10.883333,
+      "count": 14
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "color",
+      "final_weight": 2.016667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "complet",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "constructor",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "control",
+      "final_weight": 7.5,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "core",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "cur",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "currenc",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "current",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "dataset",
+      "final_weight": 1.5,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "day",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "delet",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "diffc",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "direct",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "dom",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "gray",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "hcg",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "hex",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "hour",
+      "final_weight": 4.5,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "hsl",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "hsv",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "html",
+      "final_weight": 2.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "hwb",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "keyword",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "lab",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "lch",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "legend",
+      "final_weight": 12.7,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "lib",
+      "final_weight": 4.0,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "line",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "ltr",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "market",
+      "final_weight": 8.416665,
+      "count": 10
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "network",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "offset",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "opt",
+      "final_weight": 2.466668,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "plot",
+      "final_weight": 10.300002,
+      "count": 11
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "render",
+      "final_weight": 2.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "restor",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "rgb",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "rout",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "rtl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "sentiment",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "social",
+      "final_weight": 5.049999,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "sort",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "sortabl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "stat",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "strategi",
+      "final_weight": 5.583333,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "surrog",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "tick",
+      "final_weight": 4.5,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "trade",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "wrap",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "xyz",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chart",
+      "to": "yesterday",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "child",
+      "to": "prop",
+      "final_weight": 2.316667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "child",
+      "to": "schema",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "child",
+      "to": "strategi",
+      "final_weight": 4.333334,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "child",
+      "to": "translat",
+      "final_weight": 2.933334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chrome",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "chromevox",
+      "to": "ext",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cirru",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "clojur",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cloud",
+      "to": "midnight",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cloud",
+      "to": "theme",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cobalt",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cobol",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coffe",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coffe",
+      "to": "shim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "constructor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "crawl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "day",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "hour",
+      "final_weight": 3.249999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "html",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "legend",
+      "final_weight": 4.933332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "lib",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "market",
+      "final_weight": 3.3,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "opt",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "plot",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "spike",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "tick",
+      "final_weight": 2.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "ticker",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coin",
+      "to": "volum",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "coldfus",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "color",
+      "to": "plot",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "colum",
+      "to": "indic",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "colum",
+      "to": "parent",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "colum",
+      "to": "replac",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "colvi",
+      "to": "detail",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "colvi",
+      "to": "event",
+      "final_weight": 1.633333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comp",
+      "to": "currenc",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comp",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "comp",
+      "to": "rate",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "compat",
+      "to": "jqueri",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "compat",
+      "to": "map",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "compat",
+      "to": "modern",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constrain",
+      "to": "core",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constrain",
+      "to": "node",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "control",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "datafe",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "disconnect",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "editor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "feed",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "histori",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "json",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "legend",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "lend",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "login",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "manag",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "map",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "market",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "oracl",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "plot",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "receiv",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "router",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "script",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "social",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "store",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "strategi",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "trade",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "websocket",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "constructor",
+      "to": "wolfbot",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "currenc",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "dataset",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "datepick",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "exchang",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "histori",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "html",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "json",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "legend",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "lend",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "lib",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "mode",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "opt",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "parent",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "picker",
+      "final_weight": 1.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "plot",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "prepar",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "reload",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "render",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "replac",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "restor",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "titl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "trade",
+      "final_weight": 2.5,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "control",
+      "to": "visibl",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convers",
+      "to": "rout",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "convert",
+      "to": "json",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "current",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "delta",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "devic",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "distanc",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "expon",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "filter",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "fraction",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "height",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "ilen",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "infin",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "jlen",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "line",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "magnitud",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "mous",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "nest",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "nice",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "node",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "pad",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "parent",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "pixel",
+      "final_weight": 1.899999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "radial",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "ratio",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "rect",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "round",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "slope",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "squar",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "tangent",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "tau",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "core",
+      "to": "touch",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "correct",
+      "to": "predict",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crawl",
+      "to": "hour",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crawl",
+      "to": "market",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crawl",
+      "to": "ticker",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crete",
+      "to": "histori",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crete",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crete",
+      "to": "lend",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crete",
+      "to": "meta",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crete",
+      "to": "trade",
+      "final_weight": 3.916667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crimson",
+      "to": "editor",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "crimson",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "csharp",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "css",
+      "to": "lint",
+      "final_weight": 2.05,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "css",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "css",
+      "to": "shim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cur",
+      "to": "html",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cur",
+      "to": "initi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cur",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cur",
+      "to": "multi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cur",
+      "to": "plot",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cur",
+      "to": "singl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "cur",
+      "to": "strategi",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "datafe",
+      "final_weight": 2.466666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "day",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "dom",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "eff",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "html",
+      "final_weight": 4.633334,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "lend",
+      "final_weight": 2.133334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "lent",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "limit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "network",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "pair",
+      "final_weight": 7.4,
+      "count": 7
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "plot",
+      "final_weight": 2.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "predict",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "rate",
+      "final_weight": 3.083335,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "social",
+      "final_weight": 3.866666,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "strategi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "symbol",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "tick",
+      "final_weight": 1.9,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "ticker",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "toplist",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "trade",
+      "final_weight": 3.083333,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "currenc",
+      "to": "trend",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "histori",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "hour",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "legend",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "path",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "predict",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "router",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "current",
+      "to": "trend",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dark",
+      "to": "pastel",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dark",
+      "to": "solar",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dark",
+      "to": "theme",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dart",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "depth",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "histori",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "mark",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "pair",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "readi",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "realtim",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "resolv",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "respond",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "search",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "subscrib",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "symbol",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "timescal",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "trade",
+      "final_weight": 4.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datafe",
+      "to": "unsubscrib",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datepick",
+      "to": "lib",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datetimepick",
+      "to": "jqueri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "datetimepick",
+      "to": "moment",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dawn",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "eff",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "html",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "legend",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "market",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "rate",
+      "final_weight": 2.0,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "day",
+      "to": "social",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "decim",
+      "to": "html",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "decim",
+      "to": "jqueri",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "decim",
+      "to": "numer",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "decim",
+      "to": "replac",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delet",
+      "to": "plot",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "delta",
+      "to": "slope",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "depth",
+      "to": "histori",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "depth",
+      "to": "interv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "depth",
+      "to": "resolut",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "depth",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "desc",
+      "to": "mode",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "desc",
+      "to": "root",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "desc",
+      "to": "strategi",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "event",
+      "final_weight": 3.066666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "ien",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "jqueri",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "klass",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "detail",
+      "to": "visibl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dev",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dev",
+      "to": "trade",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "devic",
+      "to": "pixel",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "devic",
+      "to": "ratio",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "devtool",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "percent",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "diff",
+      "to": "predict",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "digit",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dimens",
+      "to": "offset",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "direct",
+      "to": "origin",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "direct",
+      "to": "restor",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "direct",
+      "to": "style",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "disconnect",
+      "to": "emit",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "disconnect",
+      "to": "reason",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "disconnect",
+      "to": "restart",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "distanc",
+      "to": "radial",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "django",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dockerfil",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "multi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "plot",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dom",
+      "to": "singl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dot",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "dreamweav",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "drool",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "event",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "durat",
+      "to": "strategi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eclips",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "editor",
+      "to": "event",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "editor",
+      "to": "html",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "editor",
+      "to": "json",
+      "final_weight": 4.7,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "editor",
+      "to": "strategi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "editor",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eff",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eff",
+      "to": "rate",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eiffel",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eighti",
+      "to": "night",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eighti",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "eighti",
+      "to": "tomorrow",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ej",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elast",
+      "to": "ext",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elast",
+      "to": "lite",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elast",
+      "to": "tabstop",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elem",
+      "to": "replac",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elixir",
+      "to": "html",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elixir",
+      "to": "mode",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "elm",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emac",
+      "to": "keybind",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emit",
+      "to": "histori",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emit",
+      "to": "reason",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emit",
+      "to": "router",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "emmet",
+      "to": "ext",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "equiti",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "erlang",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "escap",
+      "to": "html",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "escap",
+      "to": "jqueri",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "escap",
+      "to": "map",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "escap",
+      "to": "match",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "escap",
+      "to": "regexp",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "escap",
+      "to": "replac",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "escap",
+      "to": "sourc",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "html",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "ien",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "jqueri",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "strategi",
+      "final_weight": 4.816667,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "event",
+      "to": "visibl",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "html",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "link",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "pair",
+      "final_weight": 3.016667,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "rebuild",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "search",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "spike",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "strategi",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "symbol",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "volum",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "exchang",
+      "to": "wizard",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "login",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "manag",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "expir",
+      "to": "sub",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "highlight",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "keybind",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "languag",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "link",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "lite",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "marker",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "modelist",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "searchbox",
+      "final_weight": 1.733333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "spellcheck",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "statusbar",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "tabstop",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "themelist",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "token",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "userag",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ext",
+      "to": "whitespac",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "extern",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "feed",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "jqueri",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "notat",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fetch",
+      "to": "src",
+      "final_weight": 1.35,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filenam",
+      "to": "plain",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "jqueri",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "map",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "filter",
+      "to": "selector",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finger",
+      "to": "idl",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "finger",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flatten",
+      "to": "input",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flatten",
+      "to": "output",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flatten",
+      "to": "shallow",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "flatten",
+      "to": "strict",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fortran",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "fraction",
+      "to": "nice",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ftl",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gcode",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gherkin",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "github",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gitignor",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "glsl",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gob",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gobston",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "golang",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "graph",
+      "to": "rout",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "graphqlschema",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "groovi",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gruvbox",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gulp",
+      "to": "gulpfil",
+      "final_weight": 1.916666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gulp",
+      "to": "typedoc",
+      "final_weight": 1.3,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "gulpfil",
+      "to": "typedoc",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "haml",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "handlebar",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "haskel",
+      "to": "mode",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hax",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "interv",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "locat",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "replac",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "resolut",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "router",
+      "final_weight": 4.083333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "stat",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "strategi",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "histori",
+      "to": "trade",
+      "final_weight": 6.783333,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hjson",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "html",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "legend",
+      "final_weight": 5.116667,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "market",
+      "final_weight": 3.249999,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "tick",
+      "final_weight": 2.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "ticker",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "hour",
+      "to": "unit",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "initi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "jqueri",
+      "final_weight": 3.133332,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "lend",
+      "final_weight": 3.033334,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "lent",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "limit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "market",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "mode",
+      "final_weight": 3.3,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "network",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "numer",
+      "final_weight": 2.433333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "predict",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "progress",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "rate",
+      "final_weight": 3.083335,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "render",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "rubi",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "shim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "site",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "social",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "spike",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "stat",
+      "final_weight": 1.616667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "strategi",
+      "final_weight": 10.366668,
+      "count": 12
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "strip",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "tab",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "trade",
+      "final_weight": 1.850001,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "unit",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "volum",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "html",
+      "to": "wrap",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "idl",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ien",
+      "to": "order",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ien",
+      "to": "pluck",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ien",
+      "to": "reload",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ien",
+      "to": "selector",
+      "final_weight": 1.266666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ien",
+      "to": "uniqu",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ien",
+      "to": "vis",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imag",
+      "to": "multi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "imag",
+      "to": "singl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indent",
+      "to": "outer",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indent",
+      "to": "singl",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indic",
+      "to": "parent",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indic",
+      "to": "prepar",
+      "final_weight": 1.233334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indic",
+      "to": "replac",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "indic",
+      "to": "simpl",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "industri",
+      "to": "mono",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "industri",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "inf",
+      "to": "nan",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ini",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "initi",
+      "to": "tab",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ink",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "ink",
+      "to": "vibrant",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "notif",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "notifi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "notifyt",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "search",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "symbol",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "input",
+      "to": "user",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "inst",
+      "to": "selector",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "iplast",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jack",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jade",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jen",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "map",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "numer",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "opt",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "order",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "pluck",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "redraw",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "regex",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "reload",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "replac",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "resiz",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "scope",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "search",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "selector",
+      "final_weight": 2.349999,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "strip",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "uniqu",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jqueri",
+      "to": "vis",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "prop",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "restor",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "shim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "store",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "timer",
+      "final_weight": 1.4,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "json",
+      "to": "txt",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jsoniq",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jsp",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "jsx",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "julia",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "katzenmilch",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "keybind",
+      "to": "vim",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kotlin",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "kuroir",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "latex",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lean",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "legend",
+      "to": "market",
+      "final_weight": 4.933332,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "legend",
+      "to": "plot",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "legend",
+      "to": "radius",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "legend",
+      "to": "social",
+      "final_weight": 2.466666,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "legend",
+      "to": "tick",
+      "final_weight": 2.1,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lend",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lend",
+      "to": "rate",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lend",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lend",
+      "to": "stat",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lend",
+      "to": "trade",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lib",
+      "to": "market",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lib",
+      "to": "social",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "light",
+      "to": "solar",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "light",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "line",
+      "to": "plot",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "link",
+      "to": "notif",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "liquid",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lisp",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lite",
+      "to": "tabstop",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "live",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "live",
+      "to": "script",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "livescript",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "strategi",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "local",
+      "to": "trade",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "locat",
+      "to": "router",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "login",
+      "to": "manag",
+      "final_weight": 5.6,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "login",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "login",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "logiql",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lookup",
+      "to": "strategi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lookup",
+      "to": "translat",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lsl",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lua",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lua",
+      "to": "shim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "luapag",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "lucen",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "magnitud",
+      "to": "squar",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "makefil",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "manag",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "map",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mark",
+      "to": "resolut",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mark",
+      "to": "symbol",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mark",
+      "to": "timescal",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mark",
+      "to": "trade",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "markdown",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "opcod",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "spike",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "tick",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "ticker",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "market",
+      "to": "volum",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mask",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "master",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "match",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "matlab",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "maze",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mel",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "merbivor",
+      "to": "soft",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "merbivor",
+      "to": "theme",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "meta",
+      "to": "readi",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "meta",
+      "to": "stat",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "meta",
+      "to": "trade",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "midnight",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mip",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mipsassembl",
+      "to": "mode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "mushcod",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "mysql",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "nix",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "nsis",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "objectivec",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "ocaml",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "pascal",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "perl",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "pgsql",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "php",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "pig",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "plain",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "powershel",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "praat",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "prolog",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "protobuf",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "razor",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "rdoc",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "rhtml",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "rst",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "rubi",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "rust",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "sass",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "scad",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "scala",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "scheme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "script",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "scss",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "search",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "sjs",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "smarti",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "snippet",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "soy",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "space",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "sparql",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "sql",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "sqlserver",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "strategi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "stylus",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "svg",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "swift",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "swig",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "tcl",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "tex",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "textil",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "toml",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "trade",
+      "final_weight": 1.2,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "tsx",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "turtl",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "twig",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "typescript",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "vala",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "vbscript",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "veloc",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "verilog",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "vhdl",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "wollok",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "xqueri",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mode",
+      "to": "yaml",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "model",
+      "to": "rout",
+      "final_weight": 1.983333,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "mono",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "monokai",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multi",
+      "to": "opt",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multi",
+      "to": "sel",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multi",
+      "to": "selector",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "multi",
+      "to": "singl",
+      "final_weight": 1.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "night",
+      "to": "theme",
+      "final_weight": 4.4,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "night",
+      "to": "tomorrow",
+      "final_weight": 4.4,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "parent",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "rout",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "node",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "notif",
+      "to": "notifi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "notif",
+      "to": "notifyt",
+      "final_weight": 1.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "notif",
+      "to": "translat",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "numer",
+      "to": "replac",
+      "final_weight": 1.8,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opcod",
+      "to": "oracl",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opcod",
+      "to": "receiv",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opcod",
+      "to": "script",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opcod",
+      "to": "social",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opcod",
+      "to": "strategi",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opcod",
+      "to": "stringifi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opcod",
+      "to": "trade",
+      "final_weight": 1.566666,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opt",
+      "to": "sel",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opt",
+      "to": "selector",
+      "final_weight": 3.950001,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opt",
+      "to": "sentiment",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opt",
+      "to": "singl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "opt",
+      "to": "tick",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "oracl",
+      "to": "predict",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "oracl",
+      "to": "render",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "oracl",
+      "to": "trend",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "order",
+      "to": "pluck",
+      "final_weight": 2.516667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "order",
+      "to": "prepar",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "order",
+      "to": "prop",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "order",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "receiv",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "origin",
+      "to": "restor",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "output",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "predict",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "rebuild",
+      "final_weight": 2.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "strategi",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "trade",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "trend",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pair",
+      "to": "wizard",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "parent",
+      "to": "sel",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "parent",
+      "to": "strategi",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "parent",
+      "to": "trade",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pastel",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "schema",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "trade",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "path",
+      "to": "webpack",
+      "final_weight": 1.283333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "predict",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "percent",
+      "to": "progress",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "persist",
+      "to": "receiv",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "php",
+      "to": "shim",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pixel",
+      "to": "ratio",
+      "final_weight": 2.0,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "social",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "sort",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "plot",
+      "to": "tick",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "pluck",
+      "to": "prop",
+      "final_weight": 1.433334,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "posit",
+      "to": "reload",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "predict",
+      "to": "real",
+      "final_weight": 1.316667,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "predict",
+      "to": "trend",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "sel",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prepar",
+      "to": "simpl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prop",
+      "to": "restor",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prop",
+      "to": "schema",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prop",
+      "to": "strategi",
+      "final_weight": 1.933334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "prop",
+      "to": "translat",
+      "final_weight": 2.550001,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "readi",
+      "to": "resolut",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "readi",
+      "to": "resolv",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "readi",
+      "to": "search",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "readi",
+      "to": "symbol",
+      "final_weight": 2.033334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "readi",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "realtim",
+      "to": "subscrib",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "realtim",
+      "to": "trade",
+      "final_weight": 1.683333,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rebuild",
+      "to": "titl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "receiv",
+      "to": "subscrib",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "receiv",
+      "to": "unsubscrib",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "rect",
+      "to": "rtl",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "regexp",
+      "to": "replac",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "reload",
+      "to": "xhr",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "script",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "social",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "strategi",
+      "final_weight": 2.5,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "render",
+      "to": "wrap",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "replac",
+      "to": "router",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "replac",
+      "to": "sel",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "replac",
+      "to": "titl",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "subscrib",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolut",
+      "to": "timescal",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolv",
+      "to": "symbol",
+      "final_weight": 5.7,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolv",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "resolv",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "respond",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "root",
+      "to": "strategi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "schema",
+      "to": "strategi",
+      "final_weight": 2.6,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "schema",
+      "to": "trade",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "schema",
+      "to": "translat",
+      "final_weight": 3.8,
+      "count": 4
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "scope",
+      "to": "struc",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "symbol",
+      "final_weight": 2.4,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "search",
+      "to": "user",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sel",
+      "to": "selector",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sel",
+      "to": "singl",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "singl",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "trade",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "selector",
+      "to": "vis",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "serial",
+      "to": "store",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "shim",
+      "to": "xqueri",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "site",
+      "to": "target",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "social",
+      "to": "utc",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "soft",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "solar",
+      "to": "theme",
+      "final_weight": 2.2,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sort",
+      "to": "uniqu",
+      "final_weight": 0.633333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "spike",
+      "to": "volum",
+      "final_weight": 2.933334,
+      "count": 3
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "sqlserver",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "src",
+      "to": "uniqu",
+      "final_weight": 0.716667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "stat",
+      "to": "trade",
+      "final_weight": 2.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "store",
+      "to": "sync",
+      "final_weight": 0.783333,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "store",
+      "to": "unseri",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strat",
+      "to": "strategi",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strat",
+      "to": "translat",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "trade",
+      "final_weight": 3.9,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "translat",
+      "final_weight": 6.116667,
+      "count": 6
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "strategi",
+      "to": "wizard",
+      "final_weight": 0.616667,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "subscrib",
+      "to": "symbol",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "subscrib",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "subscrib",
+      "to": "uid",
+      "final_weight": 1.9,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "subscrib",
+      "to": "unsubscrib",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "symbol",
+      "to": "ticker",
+      "final_weight": 1.0,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "symbol",
+      "to": "timescal",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "symbol",
+      "to": "trade",
+      "final_weight": 1.8,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "symbol",
+      "to": "user",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "target",
+      "to": "webpack",
+      "final_weight": 0.65,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "termin",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "textmat",
+      "to": "theme",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "theme",
+      "to": "tomorrow",
+      "final_weight": 5.5,
+      "count": 5
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "theme",
+      "to": "twilight",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "theme",
+      "to": "vibrant",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "theme",
+      "to": "xcode",
+      "final_weight": 1.1,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "timescal",
+      "to": "trade",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "trade",
+      "to": "unsubscrib",
+      "final_weight": 0.9,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "uid",
+      "to": "unsubscrib",
+      "final_weight": 0.7,
+      "count": 1
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "web",
+      "to": "websocket",
+      "final_weight": 1.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "web",
+      "to": "wolfbot",
+      "final_weight": 1.6,
+      "count": 2
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "websocket",
+      "to": "wolfbot",
+      "final_weight": 1.9,
+      "count": 1
+    }
+  ]
+}

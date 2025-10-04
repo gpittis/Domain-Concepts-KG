@@ -1,0 +1,8308 @@
+{
+  "nodes": [
+    {
+      "type": "REPO",
+      "name": "REPO_ANON_GLOBAL_1",
+      "weight": 0.1,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm laser",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm slam crsm laser",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm laser crsm laser",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "initialized",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm laser",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "angle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "angle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "initialized",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser rays",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser angle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser angle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser angle",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "scan",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm map",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm slam crsm map",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm map crsm map",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "height",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "originx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "originy",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm map expand map",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "expansion",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "originx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "originy",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "height",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map expansion expansions expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "height",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "originx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "originy",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm slam",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm slam crsm slam",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam crsm slam",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "initial patch",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "initial patch",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "robot pose",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "robot pose",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "robot pose theta",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "transformation",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map originx slam laser robot center slam ocgd map originy",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path publishing timer",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "robot pose publishing timer",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map publishing timer",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "transform",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "origin",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam occupancy grid publish topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot trajectory publish topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam trajectory publisher frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam laser subscriber topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam footprint frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam map frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam laser frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam disparity",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam ocgd",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam obstacle density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam scan selection meters",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam hill climbing iterations",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam occupancy grid map freq",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot pose freq",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam trajectory freq",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam laser robot center",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam laser robot center",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam desired picked rays",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam transformation",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "tempx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "tempy",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "sinth",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "costh",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "tttx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ttty",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "transformation",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier dth",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "dth",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "tempx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "tempy",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "sinth",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "costh",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "tttx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ttty",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "transformation",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trier dth",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam calculate critical rays",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ray",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser rays",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "local pos",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "tete",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ray",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser scan density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ray",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "scan selections",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "local pos",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam scans",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "rays picked",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "fitness",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "erased",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trajectory",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser scan distance",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser scan distance",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser scan",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser scan",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser scan",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "robot pose",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "robot pose",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "robot pose theta",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trajectory",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trajectory",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "trajectory theta",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam expansion",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam expand map",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam map probabilities",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "measure",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "measid",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "xtt",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "ytt",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "diff",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "expansion expansions",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "measure",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser subscriber",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "laser",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser subscriber",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam ogm publisher",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "occupancy grid publisher",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam ogm publisher",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam publish ogm",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "height",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid stamp",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid resolution",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid height",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid origin position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid origin position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "grid",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam map probability",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam map",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot pose",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam trajectory",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam publish robot pose",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "translation",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "rotation",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "transform",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam trajectory publisher",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path publisher",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam trajectory publisher",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam publish trajectory",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path pose position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path pose position",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path stamp",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "path frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam disparity",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "disparity",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam disparity",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam initial map",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam map",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam ocgd",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "ocgd",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam ocgd",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam density",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "density",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam obstacle density",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "density",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam obstacle density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam scan selection meters",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "scan selection meters",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam scan selection meters",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam hill climbing iterations",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "iterations",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam hill climbing iterations",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser robot center",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam laser robot center",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam occupancy grid map freq",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "freq",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam occupancy grid map freq",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot pose freq",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "freq",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot pose freq",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam trajectory freq",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "freq",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam trajectory freq",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam desired picked rays",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "rays",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam desired picked rays",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam occupancy grid publish topic",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam occupancy grid publish topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot trajectory publish topic",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam robot trajectory publish topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam trajectory publisher frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam trajectory publisher frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser subscriber topic",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam laser subscriber topic",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam footprint frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam footprint frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam map frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam map frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam laser frame",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam disparity",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam initial map",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam ocgd",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam density",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam obstacle density",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam scan selection meters",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam hill climbing iterations",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser robot center",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam occupancy grid map freq",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot pose freq",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam trajectory freq",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam desired picked rays",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam occupancy grid publish topic",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam robot trajectory publish topic",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam trajectory publisher frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser subscriber topic",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam footprint frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam map frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "crsm slam laser frame",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm slam node",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm slam crsm slam",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "FUNCTION",
+      "name": "FUNCTION_ANON_crsm slam node_1",
+      "weight": 0.9,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "slam",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm hill climbing",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm transformation",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm hill climbing person",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "fitness",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm laser",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "ros",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "sensor laser scan",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm laser",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm laser scan",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm laser",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "initialized",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "scan",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "angles",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm laser",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm laser",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm laser",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser rays",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser angle",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser angle",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser angle",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm laser scan",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm laser scan",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "distance",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "density",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm laser scan",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "rays",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "distance",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "density",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm laser scan",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm map",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm map",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "map",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm expansion",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "expansions",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm map",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "expand map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "exp",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm map",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm map",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "height",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "originx",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "originy",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "LOCAL_VAR",
+      "name": "originx",
+      "weight": 0.5,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "theta",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm pose",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm pose",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "theta",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm slam",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "iostream",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "cstdlib",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "cmath",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "transform broadcaster",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "transform",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "ros",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "geometry quaternion",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "nav occupancy grid",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "nav path",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm laser",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm hill climbing",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm pose",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm map",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "crsm slam",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm slam",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "occupancy grid publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "path publisher",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "slam frame broadcaster",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "expansion",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "map",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "fitness",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "density",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "transformation",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot pose",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "slam",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot trajectory",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "scan selections",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "path publishing timer",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot pose publishing timer",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "map publishing timer",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "expansion",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "expand map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm slam",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "crsm slam",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "map probabilities",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "calculate critical rays",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "transformation",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "scans",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser subscriber",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser subscriber",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "ogm publisher",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "ogm publisher",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "publish ogm",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "publish robot pose",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "trajectory publisher",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "trajectory publisher",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "publish trajectory",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "map probability",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot pose",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "trajectory",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "disparity",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "disparity",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "initial map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "ocgd",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "ocgd",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "density",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "density",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "obstacle density",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "density",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "scan selection meters",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "scan selection meters",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hill climbing iterations",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "iterations",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser robot center",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "occupancy grid map freq",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "freq",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot pose freq",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "freq",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "trajectory freq",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "freq",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "desired picked rays",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "rays",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "occupancy grid publish topic",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot trajectory publish topic",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "trajectory publisher frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser subscriber topic",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "topic",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "footprint frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "map frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "PARAM",
+      "name": "frame",
+      "weight": 0.6,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "disparity",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "initial map",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "ocgd",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "density",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "obstacle density",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "scan selection meters",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "hill climbing iterations",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser robot center",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "occupancy grid map freq",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot pose freq",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "trajectory freq",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "desired picked rays",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "occupancy grid publish topic",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "robot trajectory publish topic",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "trajectory publisher frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser subscriber topic",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "footprint frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "map frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "METHOD",
+      "name": "laser frame",
+      "weight": 0.85,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm slam",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "IMPORT",
+      "name": "cstring",
+      "weight": 0.65,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm slam",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "disparity",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "map",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "ocgd",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "density",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "obstacle density",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "scan selection meters",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "hill climbing iterations",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser robot center",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "occupancy grid map freq",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot pose freq",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "trajectory freq",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "desired picked rays",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "occupancy grid publish topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "robot trajectory publish topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "trajectory publisher frame",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser subscriber topic",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "frame",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "footprint frame",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "frame",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "map frame",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "laser frame",
+      "weight": 0.7,
+      "depth": 0
+    },
+    {
+      "type": "FILE",
+      "name": "crsm transformation",
+      "weight": 0.55,
+      "depth": 0
+    },
+    {
+      "type": "CLASS",
+      "name": "crsm transformation",
+      "weight": 0.95,
+      "depth": 0
+    },
+    {
+      "type": "ATTRIBUTE",
+      "name": "dth",
+      "weight": 0.7,
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm laser",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm laser",
+      "to": "crsm slam crsm laser",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm laser",
+      "to": "crsm laser crsm laser",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser crsm laser",
+      "to": "initialized",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm laser",
+      "to": "crsm laser",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "angle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "angle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "initialized",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "laser rays",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "laser",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "laser angle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "laser angle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "laser angle",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser",
+      "to": "scan",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm map",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm map",
+      "to": "crsm slam crsm map",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm map",
+      "to": "crsm map crsm map",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map crsm map",
+      "to": "height",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map crsm map",
+      "to": "originx",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map crsm map",
+      "to": "originy",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm map",
+      "to": "crsm map expand map",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm map expand map",
+      "to": "expansion",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "originx",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "originy",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "height",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "map expansion expansions expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "height",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "originx",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map expand map",
+      "to": "originy",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm slam",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "crsm slam crsm slam",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam crsm slam",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "initial patch",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "initial patch",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "robot pose",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "robot pose",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "robot pose theta",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "transformation",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "map originx slam laser robot center slam ocgd map originy",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "path publishing timer",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "robot pose publishing timer",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam crsm slam",
+      "to": "map publishing timer",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "transform",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "origin",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam occupancy grid publish topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam robot trajectory publish topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam trajectory publisher frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam laser subscriber topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam footprint frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam map frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam laser frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam disparity",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam ocgd",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam obstacle density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam scan selection meters",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam hill climbing iterations",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam occupancy grid map freq",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam robot pose freq",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam trajectory freq",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam laser robot center",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam laser robot center",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam desired picked rays",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam robot",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam",
+      "to": "slam robot",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam transformation",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "tempx",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "tempy",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "sinth",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "costh",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "tttx",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "ttty",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "transformation",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier dth",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "dth",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "tempx",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "tempy",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "sinth",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "costh",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "tttx",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "ttty",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "transformation",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam transformation",
+      "to": "trier dth",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam calculate critical rays",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "ray",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "laser rays",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "local pos",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "tete",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "ray",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "laser scan density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "ray",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "scan selections",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam calculate critical rays",
+      "to": "local pos",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam scans",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "rays picked",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "fitness",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "laser",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "erased",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "trajectory",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "laser scan distance",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "laser scan distance",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "laser scan",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "laser scan",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "laser scan",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "robot pose",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "robot pose",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "robot pose theta",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "trajectory",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "trajectory",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "trajectory theta",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scans",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam expansion",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam expansion",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam expansion",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam expansion",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam expansion",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam expand map",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam map probabilities",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "measure",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "measid",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "xtt",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "ytt",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "diff",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "expansion expansions",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "measure",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map probabilities",
+      "to": "map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser subscriber",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam laser subscriber",
+      "to": "laser",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser subscriber",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam ogm publisher",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam ogm publisher",
+      "to": "occupancy grid publisher",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam ogm publisher",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam publish ogm",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "height",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid stamp",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid resolution",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid height",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid origin position",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid origin position",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish ogm",
+      "to": "grid",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam map probability",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam map",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot pose",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam trajectory",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam publish robot pose",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish robot pose",
+      "to": "translation",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish robot pose",
+      "to": "rotation",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish robot pose",
+      "to": "transform",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam trajectory publisher",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam trajectory publisher",
+      "to": "path publisher",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam trajectory publisher",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam publish trajectory",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish trajectory",
+      "to": "path",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish trajectory",
+      "to": "path",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish trajectory",
+      "to": "path pose position",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish trajectory",
+      "to": "path pose position",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish trajectory",
+      "to": "path stamp",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam publish trajectory",
+      "to": "path frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam disparity",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam disparity",
+      "to": "disparity",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam disparity",
+      "to": "slam disparity",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam initial map",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam initial map",
+      "to": "slam map",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam ocgd",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam ocgd",
+      "to": "ocgd",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam ocgd",
+      "to": "slam ocgd",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam density",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam density",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam density",
+      "to": "slam density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam obstacle density",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam obstacle density",
+      "to": "density",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam obstacle density",
+      "to": "slam obstacle density",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam scan selection meters",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam scan selection meters",
+      "to": "scan selection meters",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam scan selection meters",
+      "to": "slam scan selection meters",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam hill climbing iterations",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam hill climbing iterations",
+      "to": "iterations",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam hill climbing iterations",
+      "to": "slam hill climbing iterations",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser robot center",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam laser robot center",
+      "to": "slam laser robot center",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam occupancy grid map freq",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam occupancy grid map freq",
+      "to": "freq",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam occupancy grid map freq",
+      "to": "slam occupancy grid map freq",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot pose freq",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam robot pose freq",
+      "to": "freq",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam robot pose freq",
+      "to": "slam robot pose freq",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam trajectory freq",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam trajectory freq",
+      "to": "freq",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam trajectory freq",
+      "to": "slam trajectory freq",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam desired picked rays",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam desired picked rays",
+      "to": "rays",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam desired picked rays",
+      "to": "slam desired picked rays",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam robot",
+      "to": "slam robot",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam robot",
+      "to": "slam robot",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam occupancy grid publish topic",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam occupancy grid publish topic",
+      "to": "topic",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam occupancy grid publish topic",
+      "to": "slam occupancy grid publish topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot trajectory publish topic",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam robot trajectory publish topic",
+      "to": "topic",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam robot trajectory publish topic",
+      "to": "slam robot trajectory publish topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam trajectory publisher frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam trajectory publisher frame",
+      "to": "frame",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam trajectory publisher frame",
+      "to": "slam trajectory publisher frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser subscriber topic",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam laser subscriber topic",
+      "to": "topic",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam laser subscriber topic",
+      "to": "slam laser subscriber topic",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam frame",
+      "to": "frame",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam frame",
+      "to": "slam frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam footprint frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam footprint frame",
+      "to": "frame",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam footprint frame",
+      "to": "slam footprint frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam frame",
+      "to": "frame",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam frame",
+      "to": "slam frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam map frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam map frame",
+      "to": "frame",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam map frame",
+      "to": "slam map frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm slam laser frame",
+      "to": "frame",
+      "from_type": "FUNCTION",
+      "to_type": "PARAM",
+      "from_weight": 0.9,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.716667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm slam laser frame",
+      "to": "slam laser frame",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam disparity",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam initial map",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam ocgd",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam density",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam obstacle density",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam scan selection meters",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam hill climbing iterations",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser robot center",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam occupancy grid map freq",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot pose freq",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam trajectory freq",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam desired picked rays",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam occupancy grid publish topic",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam robot trajectory publish topic",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam trajectory publisher frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser subscriber topic",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam footprint frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam map frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam laser frame",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm slam node",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam node",
+      "to": "crsm slam crsm slam",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam node",
+      "to": "FUNCTION_ANON_crsm slam node_1",
+      "from_type": "FILE",
+      "to_type": "FUNCTION",
+      "from_weight": 0.55,
+      "to_weight": 0.9,
+      "edge_weight": 0.9,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "FUNCTION_ANON_crsm slam node_1",
+      "to": "slam",
+      "from_type": "FUNCTION",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.9,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm hill climbing",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm hill climbing",
+      "to": "crsm transformation",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm hill climbing",
+      "to": "crsm hill climbing person",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm hill climbing person",
+      "to": "fitness",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm laser",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm laser",
+      "to": "ros",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm laser",
+      "to": "sensor laser scan",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm laser",
+      "to": "crsm laser",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm laser",
+      "to": "crsm laser scan",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm laser",
+      "to": "crsm laser",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "initialized",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "scan",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "angles",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm laser",
+      "to": "crsm laser",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm laser",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm laser",
+      "to": "crsm laser",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "laser rays",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "laser",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "laser angle",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "laser angle",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser",
+      "to": "laser angle",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm laser scan",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm laser scan",
+      "to": "crsm",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm laser scan",
+      "to": "crsm laser scan",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser scan",
+      "to": "distance",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm laser scan",
+      "to": "density",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm laser scan",
+      "to": "crsm laser scan",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "crsm laser scan",
+      "to": "rays",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser scan",
+      "to": "distance",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm laser scan",
+      "to": "density",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm laser scan",
+      "to": "crsm laser scan",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm map",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm map",
+      "to": "crsm map",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm map",
+      "to": "map",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm map",
+      "to": "crsm expansion",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm expansion",
+      "to": "expansions",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm map",
+      "to": "crsm map",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm map",
+      "to": "crsm map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm map",
+      "to": "crsm map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm map",
+      "to": "expand map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "expand map",
+      "to": "exp",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm map",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm map",
+      "to": "crsm map",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm map",
+      "to": "height",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm map",
+      "to": "originx",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm map",
+      "to": "originy",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm map",
+      "to": "crsm map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_LOCAL_VAR",
+      "from": "crsm map",
+      "to": "originx",
+      "from_type": "METHOD",
+      "to_type": "LOCAL_VAR",
+      "from_weight": 0.85,
+      "to_weight": 0.5,
+      "edge_weight": 0.5,
+      "final_weight": 0.616667
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm",
+      "to": "crsm",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm",
+      "to": "theta",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm",
+      "to": "crsm",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm pose",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm pose",
+      "to": "crsm pose",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm pose",
+      "to": "theta",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm slam",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "iostream",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "cstdlib",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "cmath",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "transform broadcaster",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "transform",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "ros",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "geometry quaternion",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "nav occupancy grid",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "nav path",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "crsm laser",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "crsm hill climbing",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "crsm pose",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "crsm map",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "crsm slam",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "laser",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "occupancy grid publisher",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "path publisher",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "slam frame broadcaster",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "expansion",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "map",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "laser",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "fitness",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "density",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "transformation",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "robot pose",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "slam",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "robot trajectory",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "scan selections",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "path publishing timer",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "robot pose publishing timer",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "map publishing timer",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "expansion",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "expand map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "crsm slam",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "crsm slam",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "map probabilities",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "calculate critical rays",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "transformation",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "scans",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser subscriber",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser subscriber",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "ogm publisher",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "ogm publisher",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "publish ogm",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "publish robot pose",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "trajectory publisher",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "trajectory publisher",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "publish trajectory",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "map probability",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot pose",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "trajectory",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "disparity",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "disparity",
+      "to": "disparity",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "initial map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "ocgd",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "ocgd",
+      "to": "ocgd",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "density",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "density",
+      "to": "density",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "obstacle density",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "obstacle density",
+      "to": "density",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "scan selection meters",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "scan selection meters",
+      "to": "scan selection meters",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "hill climbing iterations",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "hill climbing iterations",
+      "to": "iterations",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser robot center",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "occupancy grid map freq",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "occupancy grid map freq",
+      "to": "freq",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot pose freq",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "robot pose freq",
+      "to": "freq",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "trajectory freq",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "trajectory freq",
+      "to": "freq",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "desired picked rays",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "desired picked rays",
+      "to": "rays",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "occupancy grid publish topic",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "occupancy grid publish topic",
+      "to": "topic",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot trajectory publish topic",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "robot trajectory publish topic",
+      "to": "topic",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "trajectory publisher frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "trajectory publisher frame",
+      "to": "frame",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser subscriber topic",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "laser subscriber topic",
+      "to": "topic",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "frame",
+      "to": "frame",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "footprint frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "footprint frame",
+      "to": "frame",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "frame",
+      "to": "frame",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "map frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "map frame",
+      "to": "frame",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_PARAM",
+      "from": "laser frame",
+      "to": "frame",
+      "from_type": "METHOD",
+      "to_type": "PARAM",
+      "from_weight": 0.85,
+      "to_weight": 0.6,
+      "edge_weight": 0.65,
+      "final_weight": 0.7
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "disparity",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "initial map",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "ocgd",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "density",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "obstacle density",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "scan selection meters",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "hill climbing iterations",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser robot center",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "occupancy grid map freq",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot pose freq",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "trajectory freq",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "desired picked rays",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "occupancy grid publish topic",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "robot trajectory publish topic",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "trajectory publisher frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser subscriber topic",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "footprint frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "map frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "HAS_METHOD",
+      "from": "crsm slam",
+      "to": "laser frame",
+      "from_type": "CLASS",
+      "to_type": "METHOD",
+      "from_weight": 0.95,
+      "to_weight": 0.85,
+      "edge_weight": 0.9,
+      "final_weight": 0.9
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm slam",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "IMPORTS",
+      "from": "crsm slam",
+      "to": "cstring",
+      "from_type": "FILE",
+      "to_type": "IMPORT",
+      "from_weight": 0.55,
+      "to_weight": 0.65,
+      "edge_weight": 0.7,
+      "final_weight": 0.633333
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm slam",
+      "to": "crsm slam",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "disparity",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "map",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "ocgd",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "density",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "obstacle density",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "scan selection meters",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "hill climbing iterations",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "laser robot center",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "occupancy grid map freq",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "robot pose freq",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "trajectory freq",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "desired picked rays",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "robot",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "occupancy grid publish topic",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "robot trajectory publish topic",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "trajectory publisher frame",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "laser subscriber topic",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "frame",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "footprint frame",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "frame",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "map frame",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm slam",
+      "to": "laser frame",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    },
+    {
+      "type": "EXISTS_IN",
+      "from": "crsm transformation",
+      "to": "REPO_ANON_GLOBAL_1",
+      "from_type": "FILE",
+      "to_type": "REPO",
+      "from_weight": 0.55,
+      "to_weight": 0.1,
+      "edge_weight": 0.3,
+      "final_weight": 0.316667
+    },
+    {
+      "type": "FILE_CONTAINS",
+      "from": "crsm transformation",
+      "to": "crsm transformation",
+      "from_type": "FILE",
+      "to_type": "CLASS",
+      "from_weight": 0.55,
+      "to_weight": 0.95,
+      "edge_weight": 0.9,
+      "final_weight": 0.8
+    },
+    {
+      "type": "HAS_ATTRIBUTE",
+      "from": "crsm transformation",
+      "to": "dth",
+      "from_type": "CLASS",
+      "to_type": "ATTRIBUTE",
+      "from_weight": 0.95,
+      "to_weight": 0.7,
+      "edge_weight": 0.7,
+      "final_weight": 0.783333
+    }
+  ]
+}

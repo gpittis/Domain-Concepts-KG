@@ -1,0 +1,95 @@
+[
+  [
+    {
+      "file": "robot"
+    },
+    {
+      "imports": [
+        "rospy",
+        "actionlib simple action",
+        "actionlib simple action",
+        "nodelet srv nodelet",
+        "nodelet srv nodelet unload",
+        "stdr spawn robot action",
+        "stdr spawn robot",
+        "stdr register robot action",
+        "stdr register robot goal",
+        "stdr srv robot",
+        "stdr srv robot",
+        "threading"
+      ]
+    },
+    {
+      "global_variables": [
+        "robot"
+      ]
+    },
+    {
+      "functions": []
+    },
+    {
+      "classes": [
+        {
+          "name": "robot",
+          "attributes": [
+            "nodelet",
+            "unload nodelet",
+            "register robot",
+            "",
+            ""
+          ],
+          "methods": [
+            {
+              "name": "",
+              "params": [
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "nodelet",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                ""
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "unload nodelet",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            },
+            {
+              "name": "register robot",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [
+                "register goal"
+              ],
+              "nested_functions": []
+            },
+            {
+              "name": "robot",
+              "params": [
+                "",
+                ""
+              ],
+              "local_variables": [],
+              "nested_functions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "globalSetup.js",
+    "comments": []
+  },
+  {
+    "file": "globalTeardown.js",
+    "comments": []
+  },
+  {
+    "file": "index.js",
+    "comments": []
+  },
+  {
+    "file": "setup.js",
+    "comments": []
+  },
+  {
+    "file": "setupTests.js",
+    "comments": []
+  },
+  {
+    "file": "testEnvironment.js",
+    "comments": []
+  },
+  {
+    "file": "jest.config.js",
+    "comments": []
+  },
+  {
+    "file": "magic8bot.js",
+    "comments": []
+  }
+]
