@@ -181,7 +181,7 @@ def run_concept_filter(input_json: str, output_json: str | None = None) -> Path:
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(cleaned, f, ensure_ascii=False, indent=2)
 
-    print(f"[ok] {in_path} -> {out_path}")
+    # print(f"[ok] {in_path} -> {out_path}")
     return out_path
 
 

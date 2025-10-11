@@ -123,6 +123,12 @@ def _prepare_workspace_github(url: str) -> tuple[Path, Path]:
     req = urllib.request.Request(api_url, method="GET")
     req.add_header("Accept", "application/vnd.github+json")
     req.add_header("X-GitHub-Api-Version", "2022-11-28")
+    req.add_header("User-Agent", "kg-api-parser/1.0")
+
+    # NEW: use token if provided
+    token = os.getenv("GITHUB_TOKEN")
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
 
     # Download the response into a zip file inside the temporary folder
     zip_path = tmp_root / "repo.zip"

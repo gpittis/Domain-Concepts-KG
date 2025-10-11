@@ -125,13 +125,13 @@ def knowledge_graph_definition(
         if len(tokens) >= 2:
 
             # For each distinct token pair co-existing in the same structured node name,
-            # add a co-existence contribution of 2 * node_weight to the (u, v) relationship’s final_weight.
+            # add a co-existence contribution of <node_weight> to the (u, v) relationship’s final_weight.
             
             # Example : CLASS("render img") with CLASS_node_weight = 0.95,
-            # contributes 2 * 0.95 = 1.90 to the relationship (img, render).
-            # So i have : (img) -[relationship_final_weight += 1.90] -> (render)
+            # contributes 0.95 to the relationship (img, render).
+            # So i have : (img) -[relationship_final_weight += 0.95] -> (render)
 
-            base_w = 2.0 * node_weight # node_weight = weight of the originating structured node.
+            base_w = node_weight # node_weight = weight of the originating structured node.
 
             # Build co-existence edges from this structured node’s tokens.
             # sorted(set(tokens)) : unique tokens from this name, in stable order.
@@ -203,7 +203,7 @@ def run_kg_builder_from_structured_graph(
     output_path: str,
     uri: str = "bolt://localhost:7687",
     user: str = "neo4j",
-    password: str = "11111111",
+    password: str = "22222222",
     database: str = "structured-graph",
 ) -> Path:
     """
@@ -218,6 +218,6 @@ def run_kg_builder_from_structured_graph(
     with open(out_p, "w", encoding="utf-8") as f:
         json.dump(kg_json, f, ensure_ascii=False, indent=2)
 
-    print(f"[DONE] KNOWLEDGE GRAPH JSON: {out_p}")
-    print(f"KNOWLEDGE GRAPH JSON={out_p}")
+    # print(f"[DONE] KNOWLEDGE GRAPH JSON: {out_p}")
+    # print(f"KNOWLEDGE GRAPH JSON={out_p}")
     return out_p

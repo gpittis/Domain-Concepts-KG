@@ -172,8 +172,8 @@ def run_js_parser(codebase_dir: str, output_dir: str | None = None, node_script:
     with open(comments_json, "w", encoding="utf-8") as out_c:
         json.dump(comments_output, out_c, ensure_ascii=False, indent=2)
 
-    print(f"[DONE] JSON: {main_json}")
-    print(f"[DONE] Comments: {comments_json}")
+    # print(f"[DONE] JSON: {main_json}")
+    # print(f"[DONE] Comments: {comments_json}")
     return main_json, comments_json
 
 

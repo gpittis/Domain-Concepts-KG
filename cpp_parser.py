@@ -447,7 +447,17 @@ def run_cpp_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin: 
     exts = (".cpp", ".cc", ".cxx", ".h", ".hpp", ".hh", ".hxx")
     cpp_files = [p for p in codebase_root.rglob("*") if p.suffix.lower() in exts]
     if not cpp_files:
-        raise RuntimeError(f"Not found cpp files in {codebase_root}")
+        print(f"[C++][WARN] No .cpp files in {codebase_root} — skipping.", file=sys.stderr)
+
+        # Produce empty artifacts to keep the pipeline happy
+        output_json   = out_root / "static_analysis_output_cpp_lang.json"
+        comments_json = out_root / "comments_only_cpp_lang.json"
+
+        # Create empty jsons
+        output_json.write_text("[]", encoding="utf-8")
+        comments_json.write_text("[]", encoding="utf-8")
+
+        return output_json, comments_json
     
     # Convert each source file to srcML XML
     # Output XML is stored as basename.extension.xml
@@ -471,8 +481,8 @@ def run_cpp_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin: 
 
     analyze_folder(str(xml_root), str(output_json), str(comments_json))
 
-    print(f"[DONE] JSON: {output_json}")
-    print(f"[DONE] Comments: {comments_json}")
+    # print(f"[DONE] JSON: {output_json}")
+    # print(f"[DONE] Comments: {comments_json}")
     return output_json, comments_json
 
 

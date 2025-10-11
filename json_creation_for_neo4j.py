@@ -411,8 +411,8 @@ def run_kg_builder(cleaned_json_path: str, output_path: str | None = None) -> Pa
     with open(out_p, "w", encoding="utf-8") as f:
         json.dump(kg_json, f, indent=2, ensure_ascii=False)
     
-    print(f"[DONE] KG JSON: {out_p}")
-    print(f"KG_JSON={out_p}")
+    # print(f"[DONE] KG JSON: {out_p}")
+    # print(f"KG_JSON={out_p}")
 
     return out_p
 

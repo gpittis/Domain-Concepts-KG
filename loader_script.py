@@ -7,7 +7,7 @@ from pathlib import Path
 def run_neo4j_loader(intermediate_json_path: str, 
                      uri: str = "bolt://localhost:7687", 
                      user: str = "neo4j", 
-                     password: str="11111111",
+                     password: str="22222222",
                      database: str = "neo4j", 
                      repo_url: str = "unknown-repo-url") -> tuple[int, int]:
 
@@ -206,9 +206,9 @@ def run_neo4j_loader(intermediate_json_path: str,
             # Count how many nodes and relationships are now in the DB
             nc = s.run("MATCH (n) RETURN count(n) AS c").single()["c"]
             rc = s.run("MATCH ()-[r]->() RETURN count(r) AS c").single()["c"]
-            print(f"[DONE] Neo4j load complete. nodes={nc}, relationships={rc}")
-            print(f"NEO4J_NODES={nc}")
-            print(f"NEO4J_RELATIONSHIPS={rc}")
+            # print(f"[DONE] Neo4j load complete. nodes={nc}, relationships={rc}")
+            # print(f"NEO4J_NODES={nc}")
+            # print(f"NEO4J_RELATIONSHIPS={rc}")
             print("NEO4J_OK=1")
             return nc, rc
 

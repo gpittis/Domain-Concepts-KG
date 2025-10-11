@@ -335,8 +335,20 @@ def run_c_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin: st
     out_root.mkdir(parents=True, exist_ok=True)
     xml_root.mkdir(parents=True, exist_ok=True)
 
-    # Collect .c/.h files by extension
-    c_files: list[Path] = [p for p in codebase_root.rglob("*") if p.suffix.lower() in (".c", ".h")]
+    # Collect .c files by extension
+    c_files: list[Path] = [p for p in codebase_root.rglob("*.c")]
+    if not c_files:
+        print(f"[C_LANG][WARN] No .c files in {codebase_root} — skipping.", file=sys.stderr)
+
+        # Produce empty artifacts to keep the pipeline happy
+        output_json   = out_root / "static_analysis_output_c_lang.json"
+        comments_json = out_root / "comments_only_c_lang.json"
+
+        # Create empty jsons
+        output_json.write_text("[]", encoding="utf-8")
+        comments_json.write_text("[]", encoding="utf-8")
+
+        return output_json, comments_json
 
     # Convert each source file to srcML XML
     # Output XML is stored as basename.extension.xml
@@ -359,7 +371,7 @@ def run_c_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin: st
 
     analyze_folder(str(xml_root), str(output_json), str(comments_json))
     
-    print(f"[DONE] JSON: {output_json}")
-    print(f"[DONE] Comments: {comments_json}")
+    # print(f"[DONE] JSON: {output_json}")
+    # print(f"[DONE] Comments: {comments_json}")
     return output_json, comments_json
 

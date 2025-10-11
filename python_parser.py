@@ -490,7 +490,7 @@ def run_python_parser(codebase_dir: str, output_dir: str | None = None) -> tuple
     finally:
         os.chdir(old_cwd)
 
-    print(f"[DONE] JSON: {main_json}")
-    print(f"[DONE] Comments: {comments_json}")
+    # print(f"[DONE] JSON: {main_json}")
+    # print(f"[DONE] Comments: {comments_json}")
     return main_json, comments_json
 

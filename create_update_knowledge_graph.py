@@ -7,7 +7,7 @@ def run_knowledge_graph_loader(
     input_json_path: str,
     uri: str = "bolt://localhost:7687",
     user: str = "neo4j",
-    password: str = "11111111",
+    password: str = "22222222",
     database: str = "knowledge-graph",
 ) -> tuple[int, int]:
     
@@ -68,7 +68,7 @@ def run_knowledge_graph_loader(
                         r.to_node_name   = row.to
                 """, rows=rels)
 
-            print(f"[OK] Loaded: nodes={len(nodes)}, relationships={len(rels)}")
+            # print(f"[OK] Loaded: nodes={len(nodes)}, relationships={len(rels)}")
             return len(nodes), len(rels)
     finally:
         driver.close()

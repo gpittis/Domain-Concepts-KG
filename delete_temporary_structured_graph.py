@@ -3,7 +3,7 @@ from neo4j import GraphDatabase
 def run_structured_graph_cleanup(
     uri: str = "bolt://localhost:7687",
     user: str = "neo4j",
-    password: str = "11111111",
+    password: str = "22222222",
     database: str = "structured-graph",
 ) -> None:
     """

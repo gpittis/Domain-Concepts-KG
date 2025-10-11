@@ -411,7 +411,17 @@ def run_java_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin:
     # Collect .java files by extension
     java_files = [p for p in codebase_root.rglob("*.java")]
     if not java_files:
-        raise RuntimeError(f"Not found java files in {codebase_root}")
+        print(f"[JAVA][WARN] No .java files in {codebase_root} — skipping.", file=sys.stderr)
+        
+        # Produce empty artifacts to keep the pipeline happy
+        output_json   = out_root / "static_analysis_output_java_lang.json"
+        comments_json = out_root / "comments_only_java_lang.json"
+
+        # Create empty jsons
+        output_json.write_text("[]", encoding="utf-8")
+        comments_json.write_text("[]", encoding="utf-8")
+
+        return output_json, comments_json
 
     # Convert each source file to srcML XML
     # Output XML is stored as basename.extension.xml
@@ -434,8 +444,8 @@ def run_java_parser(codebase_dir: str, output_dir: str | None = None, srcml_bin:
 
     analyze_folder(str(xml_root), str(output_json), str(comments_json))
 
-    print(f"[DONE] JSON: {output_json}")
-    print(f"[DONE] Comments: {comments_json}")
+    # print(f"[DONE] JSON: {output_json}")
+    # print(f"[DONE] Comments: {comments_json}")
     return output_json, comments_json
 
 
