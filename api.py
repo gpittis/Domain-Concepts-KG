@@ -15,6 +15,7 @@ from loader_script import run_neo4j_loader
 from knowledge_graph_define_json import run_kg_builder_from_structured_graph
 from create_update_knowledge_graph import run_knowledge_graph_loader
 from delete_temporary_structured_graph import run_structured_graph_cleanup
+from graph_better_visualization import make_better_graph_visualization
 from pathlib import Path
 from urllib.parse import urlparse
 from fastapi import FastAPI, HTTPException
@@ -157,6 +158,7 @@ def run_parser(choice: str, repo_url: str) -> None:
       6) Build Knowledge Graph JSON from the temporary Structured Graph
       7) Create/update the final Knowledge Graph
       8) Cleanup the temporary structured-graph
+      9) Graph Better Visualization
     Always cleans up temporary workspace.
     """
 
@@ -240,6 +242,13 @@ def run_parser(choice: str, repo_url: str) -> None:
             print("[cleanup] structured-graph cleared.")
         except Exception as e:
             print(f"[warn] structured-graph cleanup failed: {e}", file=sys.stderr)
+
+        # 9) Graph Better Visualization
+        try:
+            make_better_graph_visualization()
+            print("[graph-visualization] completed")
+        except Exception as e:
+            print(f"[warn] graph-visualization failed: {e}", file=sys.stderr)
 
     finally:
         # Always clean tmp workspace
