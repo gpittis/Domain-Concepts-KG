@@ -547,7 +547,7 @@ DETACH DELETE n
 
 Για να τρέξει το api.py πρέπει :
 
-- ```pip install libcst lxml fastapi pydantic uvicorn "neo4j==5.28.2" nltk```
+- ```pip install libcst lxml fastapi pydantic uvicorn "neo4j==5.28.2" nltk pymongo pyvis```
 
 - ```npm install @babel/parser @babel/traverse```
 
