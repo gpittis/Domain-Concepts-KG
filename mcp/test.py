@@ -115,8 +115,11 @@ async def main():
         # "Find 15 functional requirements for cryptocurrency trading domain."
         # "Find 15 functional requirements for crypto-currency trading domain."
         # "Find 15 functional requirements for crypto trading bot domain."
-        # 
-        user_query = "Find 15 functional requirements for computer vision domain."
+        # "Find 15 functional requirements for computer vision domain."
+        user_query = "Give me 15 functional requirements for the crypto trading bot domain, " \
+        "so that, based on these, I will create the syntax of a domain specific language to enable citized developers to easily configure and setup crypto trading bot pipelines, " \
+        "without deep technical knowledge of the domain."
+
         print(f"💬 Query: {user_query}\n")
         
         messages = [
@@ -129,14 +132,17 @@ async def main():
         {"role": "user", "content": user_query},
         {"role": "user", 
          "content": 
-         "Your goal is to identify Functional Requirements (FRs) for the domain mentioned in the user prompt (only if a domain is present). "
+         "Your goal is to identify Functional Requirements (FRs) for a Domain-Specific Language (DSL) for the domain mentioned in the user prompt (only if a domain is present). "
+         "**The FRs MUST belong ONLY to the provided domain and NOT to other relative domains.**"
          "If the domain name is complex (e.g., Robot Operating System), split it into its component words (e.g., robot, operating, system), and run the necessary tools using both: "
          "(a) the abbreviation of the domain (e.g., ros), and "
          "(b) each component word (e.g., robot, operating, system) as a separate argument. "
-         "You MUST steme every word in domain's name. (i.e. nltk Snowball stemmer) and run additionally the necessary tools."
+         "(c) You MUST steme every word in domain's name. (i.e. nltk Snowball stemmer) and run additionally the necessary tools."
          "All tool arguments MUST be lowercase. "
-         "For every Functional Requirement produced, clearly mention the concepts and relationships from which it was derived. "
-         "The FRs MUST belong ONLY to the provided domain, and MUST NOT include implementation-level or design-level requirements. "
+         "For every Functional Requirement produced, clearly mention the concepts/relationships from which it was derived. "
+         "Assume the user has basic familiarity with the domain, but no deep technical knowledge."
+         "Each FR MUST be phrased as a capability of the DSL (e.g., 'The grammar should support : ') and targets what the DSL must express, parameterize, or validate, NOT how it is implemented. "
+         "Do NOT reference any algorithms, libraries, or framework implementations in the FRs ensuring that the DSL remains usable by non-experts. I DONT want the words algorithms,libraries,frameworks."
          "At the end of your response, list all tools used along with the exact arguments passed to each."}]
 
         # Call Claude
