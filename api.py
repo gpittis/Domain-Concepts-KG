@@ -4,18 +4,18 @@ import tempfile
 import shutil
 import zipfile
 import urllib.request
-from python_parser import run_python_parser
-from c_lang_parser import run_c_parser
-from cpp_parser import run_cpp_parser
-from java_parser import run_java_parser
-from python_wrapper_for_js_parser import run_js_parser
-from stopwords_filter import run_concept_filter
-from json_creation_for_neo4j import run_kg_builder
-from loader_script import run_neo4j_loader
-from knowledge_graph_define_json import run_kg_builder_from_structured_graph
-from create_update_knowledge_graph import run_knowledge_graph_loader
-from delete_temporary_structured_graph import run_structured_graph_cleanup
-from graph_better_visualization import make_better_graph_visualization
+from .parsers.python_parser.python_parser import run_python_parser
+from .parsers.c_parser.c_lang_parser import run_c_parser
+from .parsers.cpp_parser.cpp_parser import run_cpp_parser
+from .parsers.java_parser.java_parser import run_java_parser
+from .parsers.javascript_parser.python_wrapper_for_js_parser import run_js_parser
+from .concept_filter.stopwords_filter import run_concept_filter
+from .structured_graph.json_creation_for_neo4j import run_kg_builder
+from .structured_graph.loader_script import run_neo4j_loader
+from .knowledge_graph.knowledge_graph_define_json import run_kg_builder_from_structured_graph
+from .knowledge_graph.update_knowledge_graph import run_knowledge_graph_loader
+from .structured_graph.delete_temporary_structured_graph import run_structured_graph_cleanup
+from .live_update_kg.graph_better_visualization import make_better_graph_visualization
 from pathlib import Path
 from urllib.parse import urlparse
 from fastapi import FastAPI, HTTPException
