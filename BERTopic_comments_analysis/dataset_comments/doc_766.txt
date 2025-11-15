@@ -1,1 +1,0 @@
-Gets the ocgd of CRSM_SlamParameters

@@ -1,1 +1,0 @@
-n.createTimer(ros::Duration(1.0/slamParams.robot_pose_tf_freq),

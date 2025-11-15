@@ -1,1 +1,0 @@
-Sets the weight of a connection

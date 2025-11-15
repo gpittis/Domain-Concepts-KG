@@ -1,1 +1,0 @@
-Node* : The node corresponding to the specific cell

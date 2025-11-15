@@ -1,1 +1,0 @@
-Prints information about the node

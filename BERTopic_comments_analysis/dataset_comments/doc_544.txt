@@ -1,1 +1,0 @@
-Gets the base_frame of CRSM_SlamParameters

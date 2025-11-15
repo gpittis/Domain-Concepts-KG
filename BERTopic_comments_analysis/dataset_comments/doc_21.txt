@@ -1,1 +1,0 @@
-Visualizes the graph and the path

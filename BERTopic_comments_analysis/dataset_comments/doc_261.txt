@@ -1,1 +1,0 @@
-Typedef for easier iteration of the map

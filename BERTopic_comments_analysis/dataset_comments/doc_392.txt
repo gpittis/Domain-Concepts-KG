@@ -1,1 +1,0 @@
-ROS_ERROR_STREAM(robotPose.x << " - " << robotPose.y << " " << robotPose.theta << "\n");

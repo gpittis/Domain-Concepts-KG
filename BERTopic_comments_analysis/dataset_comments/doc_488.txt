@@ -1,1 +1,0 @@
-Sets the world_frame of CRSM_SlamParameters

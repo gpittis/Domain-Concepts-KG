@@ -1,1 +1,0 @@
-g [ogmpp_graph::Graph&] The produced graph

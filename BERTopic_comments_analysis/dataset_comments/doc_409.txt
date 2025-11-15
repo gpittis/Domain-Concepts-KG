@@ -1,1 +1,0 @@
-ROS_ERROR_STREAM(width << " " << height << " " << grid.info.origin.position.x << " " << grid.info.origin.position.y);

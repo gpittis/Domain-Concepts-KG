@@ -1,1 +1,0 @@
-Handles a node, along with its connections

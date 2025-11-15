@@ -1,1 +1,0 @@
-rays [int] The desired number of picked rays [algorithm specific]

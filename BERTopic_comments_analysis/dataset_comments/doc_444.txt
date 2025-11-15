@@ -1,1 +1,0 @@
-density [double] Map update density (0-127)

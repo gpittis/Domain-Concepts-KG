@@ -1,1 +1,0 @@
-< Holds the map of the environment

@@ -1,1 +1,0 @@
-topic [std::string] The laser subscriber topic

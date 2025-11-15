@@ -1,1 +1,0 @@
-double Scan density lower boundary for a scan-part identification

@@ -1,1 +1,0 @@
-begin [ogmpp_graph::Cell] The start cell

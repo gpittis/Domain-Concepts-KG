@@ -1,1 +1,0 @@
-Fix map size according to the laser scans

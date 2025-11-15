@@ -1,1 +1,0 @@
-!< Laser rays's angles with regard to the robot's orientation

@@ -1,1 +1,0 @@
-exp [crsm_slam::CrsmExpansion] The expansion to be made

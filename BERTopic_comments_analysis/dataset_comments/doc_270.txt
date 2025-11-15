@@ -1,1 +1,0 @@
-parent_id [unsigned long] The parent's id. Default value is 0

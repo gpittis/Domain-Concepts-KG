@@ -1,1 +1,0 @@
-The container of a laser range finder scan.

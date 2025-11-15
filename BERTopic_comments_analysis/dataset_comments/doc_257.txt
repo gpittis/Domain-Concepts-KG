@@ -1,1 +1,0 @@
-The OGMPP Graph related namespace

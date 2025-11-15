@@ -1,1 +1,0 @@
-Function that fixes the path from start to stop using A*.

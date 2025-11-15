@@ -1,1 +1,0 @@
-Gets the robot_length of CRSM_SlamParameters

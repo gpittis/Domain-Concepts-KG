@@ -1,1 +1,0 @@
-freq [double] The occupancy grid map publishing frequency

@@ -1,1 +1,0 @@
-topic [std::string] The occupancy grid publishing topic

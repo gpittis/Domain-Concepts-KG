@@ -1,1 +1,0 @@
-point [const CrsmPoint &] : the point for the operator to be applied

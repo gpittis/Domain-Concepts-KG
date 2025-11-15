@@ -1,1 +1,0 @@
-Constructor. Initialises the probability container with a specific map size

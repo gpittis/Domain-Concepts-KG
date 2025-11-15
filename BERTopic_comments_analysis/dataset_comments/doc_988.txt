@@ -1,1 +1,0 @@
-!< [OC]cupancy [G]rid [D]imentionality - the width and height in meters of a pixel

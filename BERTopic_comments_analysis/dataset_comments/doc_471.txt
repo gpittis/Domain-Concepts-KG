@@ -1,1 +1,0 @@
-width [double] The robot width

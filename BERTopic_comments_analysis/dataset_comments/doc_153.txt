@@ -1,1 +1,0 @@
-Initializes a node with a pose

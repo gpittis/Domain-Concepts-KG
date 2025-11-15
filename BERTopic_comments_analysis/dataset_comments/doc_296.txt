@@ -1,1 +1,0 @@
-Returns a specific neighbor of the node

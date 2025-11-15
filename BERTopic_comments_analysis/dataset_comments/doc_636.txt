@@ -1,1 +1,0 @@
-!< Holds the irregularities of a specific scan in terms of distance

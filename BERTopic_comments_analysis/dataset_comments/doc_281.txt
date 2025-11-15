@@ -1,1 +1,0 @@
-Cell : The node's pose

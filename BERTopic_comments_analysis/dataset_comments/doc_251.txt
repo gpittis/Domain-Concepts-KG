@@ -1,1 +1,0 @@
-Returns a node from a specific cell (if the node exists)

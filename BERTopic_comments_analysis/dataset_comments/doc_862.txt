@@ -1,1 +1,0 @@
-The container of the laser range finder information.

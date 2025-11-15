@@ -1,1 +1,0 @@
-The container of the basic element of hill climbing. (a person or individual, with transformation as genome)

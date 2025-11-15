@@ -1,1 +1,0 @@
-Reallocs the map to a specific direction

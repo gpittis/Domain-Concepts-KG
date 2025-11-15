@@ -1,1 +1,0 @@
-reverse_neighborhood [bool] If true the neighborhood is created

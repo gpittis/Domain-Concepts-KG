@@ -1,1 +1,0 @@
-dx [double] Translation in x axis of laser in comparison to robot center

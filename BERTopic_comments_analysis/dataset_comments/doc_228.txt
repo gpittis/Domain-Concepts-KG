@@ -1,1 +1,0 @@
-map_resolution [float] The map's resolution needed for the

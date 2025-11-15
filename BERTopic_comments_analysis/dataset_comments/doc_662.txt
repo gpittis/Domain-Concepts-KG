@@ -1,1 +1,0 @@
-Starts the OccupancyGrid publisher, posting to occupancy_grid_publish_topic from parameters

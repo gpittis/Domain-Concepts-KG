@@ -1,1 +1,0 @@
-The main slam class. Contains the main functionalities of CRSM slam.

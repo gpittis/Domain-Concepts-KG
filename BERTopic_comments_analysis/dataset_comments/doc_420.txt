@@ -1,1 +1,0 @@
-Returns the robot trajectory in a vector of CrsmPose structures

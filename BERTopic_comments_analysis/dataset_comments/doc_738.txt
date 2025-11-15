@@ -1,1 +1,0 @@
-topic [std::string] The trajectory publishing topic

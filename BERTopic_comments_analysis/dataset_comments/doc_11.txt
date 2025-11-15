@@ -1,1 +1,0 @@
-Check if we have a new node

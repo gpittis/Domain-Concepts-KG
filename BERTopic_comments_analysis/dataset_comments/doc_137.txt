@@ -1,1 +1,0 @@
-Function to visualize the graph in rviz

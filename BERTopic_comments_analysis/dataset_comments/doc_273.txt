@@ -1,1 +1,0 @@
-cell [Cell] The cell whose coordinates will produce the Cantor

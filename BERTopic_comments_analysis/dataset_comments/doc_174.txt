@@ -1,1 +1,0 @@
-node [Node*] The node to be erased

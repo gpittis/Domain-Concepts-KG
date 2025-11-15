@@ -1,1 +1,0 @@
-< The ROS NodeHandle, needed to load params

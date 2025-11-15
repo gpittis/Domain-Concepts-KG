@@ -1,1 +1,0 @@
-is_parent [bool] True if it is its parent

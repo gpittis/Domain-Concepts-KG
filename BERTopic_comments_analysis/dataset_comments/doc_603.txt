@@ -1,1 +1,0 @@
-publish map and trajectory

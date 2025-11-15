@@ -1,1 +1,0 @@
-!< The individual's genome. Holds the robot possible transformation

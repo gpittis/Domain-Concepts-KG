@@ -1,1 +1,0 @@
-for(set<int>::const_iterator it=scanSelections.begin();it!=scanSelections.end();it++)

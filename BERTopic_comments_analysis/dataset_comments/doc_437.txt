@@ -1,1 +1,0 @@
-Sets the map_size of CRSM_SlamParameters

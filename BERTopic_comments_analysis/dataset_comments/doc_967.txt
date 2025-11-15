@@ -1,1 +1,0 @@
-Holds a robot 2D pose

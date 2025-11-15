@@ -1,1 +1,0 @@
-if( oldtt < 100 && prevtt < 100 ) break;

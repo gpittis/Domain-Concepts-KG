@@ -1,1 +1,0 @@
-float: The square of eucledian distance between the two cells

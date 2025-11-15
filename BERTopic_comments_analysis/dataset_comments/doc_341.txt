@@ -1,1 +1,0 @@
-Reads the CRSM slam parameters from the yaml file and fills the CrsmSlamParameters structure

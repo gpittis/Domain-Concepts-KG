@@ -1,1 +1,0 @@
-std::string The trajectory frame ID

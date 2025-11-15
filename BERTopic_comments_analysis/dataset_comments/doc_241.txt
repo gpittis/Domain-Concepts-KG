@@ -1,1 +1,0 @@
-weight [float] The connection's weight. -1 if the euclidean distance

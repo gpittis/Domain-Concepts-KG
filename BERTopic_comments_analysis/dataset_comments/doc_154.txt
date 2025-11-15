@@ -1,1 +1,0 @@
-pose [Cell] The node's coordinates

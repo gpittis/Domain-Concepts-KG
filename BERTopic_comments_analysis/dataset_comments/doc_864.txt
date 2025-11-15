@@ -1,1 +1,0 @@
-!< The maximum nominal laser distance (in meters)

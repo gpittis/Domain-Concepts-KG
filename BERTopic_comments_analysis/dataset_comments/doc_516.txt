@@ -1,1 +1,0 @@
-Gets the max_hill_climbing_iterations of CRSM_SlamParameters

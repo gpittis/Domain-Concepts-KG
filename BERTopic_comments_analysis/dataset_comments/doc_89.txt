@@ -1,1 +1,0 @@
-Sets up the class variables for each unit test call

@@ -1,1 +1,0 @@
-Function that creates the graph structure of the planner. It
