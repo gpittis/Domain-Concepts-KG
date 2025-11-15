@@ -6,36 +6,23 @@ from pathlib import Path
 
 # ---------- Node weights ----------
 NODE_WEIGHTS = {
-    "REPO": 0.10, # Repository 
-    "FILE": 0.55, # File 
-    "IMPORT": 0.65, # Import 
-    "GLOBAL_VAR": 0.70, # Global variable 
+    "REPO": 0.05, # Repository 
+    "FILE": 0.50, # File 
+    "IMPORT": 0.60, # Import 
+    "GLOBAL_VAR": 0.65, # Global variable 
     "CLASS": 0.95, # Top-level class
-    "NESTED_CLASS": 0.70, # Class defined inside another class/function
+    "NESTED_CLASS": 0.45, # Class defined inside another class/function
     "FUNCTION": 0.90, # Top-level function
-    "NESTED_FUNCTION": 0.70, # Function defined inside another function
+    "NESTED_FUNCTION": 0.45, # Function defined inside another function
     "METHOD": 0.85, # Class method
-    "PARAM": 0.60, # Function/method parameter
-    "LOCAL_VAR": 0.50, # Local variable inside a function/method
-    "ATTRIBUTE": 0.70, # Class attribute
+    "PARAM": 0.40, # Function/method parameter
+    "LOCAL_VAR": 0.20, # Local variable inside a function/method
+    "ATTRIBUTE": 0.65, # Class attribute
 }
 
 # Decay factor for nested nodes: deeper levels lose importance
 LAMBDA_DECAY = 0.95
 
-# ---------- Edge base weights ----------
-EDGE_WEIGHTS = {
-    "EXISTS_IN": 0.30, # FILE → REPO
-    "FILE_CONTAINS": 0.90, # FILE → CLASS/FUNCTION
-    "IMPORTS": 0.70, # FILE → IMPORT
-    "HAS_GLOBAL_VAR": 0.70, # FILE → GLOBAL_VAR
-    "HAS_ATTRIBUTE": 0.70, # CLASS → ATTRIBUTE
-    "HAS_METHOD": 0.90, # CLASS → METHOD
-    "HAS_PARAM": 0.65, # FUNCTION/METHOD → PARAM
-    "HAS_LOCAL_VAR": 0.50, # FUNCTION/METHOD → LOCAL_VAR
-    "HAS_NESTED_FUNCTION": 0.70, # FUNCTION/METHOD → NESTED_FUNCTION
-    "HAS_NESTED_CLASS": 0.70, # CLASS → NESTED_CLASS or FUNCTION → NESTED_CLASS
-}
 # -----------------------------------------------------
 
 
@@ -131,17 +118,15 @@ def transform_to_kg(cleaned_json) -> dict:
     def add_edge(edge_type, source, target, from_type=None, to_type=None):
         """
         Add an edge (relationship) between two nodes.
-        - edge_base: the base weight from EDGE_WEIGHTS
         - from_w, to_w: the weights of from and target nodes
-        - final_w: average of (edge_base, from_w, to_w) → ensures balanced influence
-        - Every weight (edge_base weight, from node weight, target node weight) are considered equally important.
+        - final_w: average of (from_w, to_w) → ensures balanced influence
+        - Every weight (from node weight, target node weight) are considered equally important.
         """
-        edge_base = EDGE_WEIGHTS.get(edge_type, 0.0)
         from_w = node_weights.get((from_type, source), 0.0)
         to_w   = node_weights.get((to_type, target), 0.0)
 
-        # Compute the final edge weight as the average of the three components
-        final_w = round((edge_base + from_w + to_w) / 3, 6)
+        # Compute the final edge weight as the average of the two components
+        final_w = round((from_w + to_w) / 2, 6)
 
         # Build edge object and add to edges list
         edges.append({
@@ -152,8 +137,7 @@ def transform_to_kg(cleaned_json) -> dict:
             "to_type": to_type, # type of target node 
             "from_weight": from_w, # weight of from node
             "to_weight": to_w, # weight of target node
-            "edge_weight": edge_base, # edge_base weight
-            "final_weight": final_w # final weight = (from_w + to_w + edge_base)/3
+            "final_weight": final_w # final weight = (from_w + to_w)/2
         })
 
     def iter_files(payload):
