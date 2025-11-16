@@ -91,8 +91,7 @@ def run_neo4j_loader(intermediate_json_path: str,
                 return (
                     e.get("type"),
                     e.get("from_type"), e.get("from"), e.get("from_weight"),
-                    e.get("to_type"),   e.get("to"),   e.get("to_weight"),
-                    e.get("edge_weight"), e.get("final_weight"),
+                    e.get("to_type"),   e.get("to"),   e.get("to_weight"), e.get("final_weight"),
                 )
 
             # These counts how many times each unique node or edge appears in the JSON.
@@ -158,11 +157,11 @@ def run_neo4j_loader(intermediate_json_path: str,
                 rt, ft, tt = e.get("type"), e.get("from_type"), e.get("to_type")
                 fr, to = e.get("from"), e.get("to")
                 fw, tw = e.get("from_weight"), e.get("to_weight")
-                ew, fw2 = e.get("edge_weight"), e.get("final_weight")
+                fw2 = e.get("final_weight")
 
                 # If any required field is missing → skip this edge
                 if not (rt and ft and tt and fr is not None and to is not None and
-                        fw is not None and tw is not None and ew is not None and fw2 is not None):
+                        fw is not None and tw is not None and fw2 is not None):
                     continue
 
                 # Build a unique key for this edge
@@ -196,7 +195,6 @@ def run_neo4j_loader(intermediate_json_path: str,
                         to_type:      row.to_type,
                         from_weight:  row.from_weight,
                         to_weight:    row.to_weight,
-                        edge_weight:  row.edge_weight,
                         final_weight: row.final_weight
                     }}]->(b)
                     SET r.normalized_appearances = row.normalized_appearances
