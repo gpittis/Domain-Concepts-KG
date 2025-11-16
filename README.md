@@ -550,6 +550,7 @@ DETACH DELETE n
 - ```pip install libcst lxml fastapi pydantic uvicorn "neo4j==5.28.2" nltk pymongo pyvis```
 
 - ```npm install @babel/parser @babel/traverse```
+- ```npm install @babel/parser@7.28.4 @babel/traverse@7.28.4 @babel/types@7.28.4```
 
 - να εχει εγκατασταθει το srcml διοτι αλλιως ΔΕΝ θα τρεξουν οι parsers (c, cpp, java) που το χρησιμοποιουν
 
