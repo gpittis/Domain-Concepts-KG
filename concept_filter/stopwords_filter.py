@@ -14,10 +14,10 @@ from pathlib import Path
 # - https://github.com/abbrcode/abbreviations-in-code
 # - chat gpt 
 STOPWORD_FILES = [
-    Path("common_code_words_manually_collected.json"),
-    Path("stopwords_list_from_stopwords_iso_github_repo.json"),
-    Path("nltk_english_stopwords.json"),
-    Path("common_verbs_list.json")
+    Path("concept_filter/common_code_words_manually_collected.json"),
+    Path("concept_filter/stopwords_list_from_stopwords_iso_github_repo.json"),
+    Path("concept_filter/nltk_english_stopwords.json"),
+    Path("concept_filter/common_verbs_list.json")
 ]
 
 def _load_word_list_json(path: Path) -> list[str]:
