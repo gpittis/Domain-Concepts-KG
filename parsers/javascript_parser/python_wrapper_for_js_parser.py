@@ -50,7 +50,7 @@ def extract_comment_lines(code):
 # ----------------------------------------------------------------
 # Wrapper for the JavaScript parser (Node.js + JSON transformation)
 # ----------------------------------------------------------------
-def run_js_parser(codebase_dir: str, output_dir: str | None = None, node_script: str = "babel_javascript_parser.js") -> tuple[Path, Path]:
+def run_js_parser(codebase_dir: str, output_dir: str | None = None, node_script: str = "parsers/javascript_parser/babel_javascript_parser.js") -> tuple[Path, Path]:
 
     """
     Takes a local folder with JavaScript code,
