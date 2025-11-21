@@ -16,7 +16,7 @@ load_dotenv()
 
 API_URL = os.getenv("API_URL")
 API_KEY = os.getenv("API_KEY")
-MCP_SERVER_PATH = os.getenv("MCP_SERVER_PATH", "./mcp_server.py")
+MCP_SERVER_PATH = os.getenv("MCP_SERVER_PATH", "./mcp/mcp_server.py")
 
 
 async def get_mcp_tools(server_path: str) -> tuple:
@@ -53,7 +53,7 @@ async def get_mcp_tools(server_path: str) -> tuple:
     return mcp_client, server_context, tools
 
 
-def call_claude_api(messages: list, tools: list, max_tokens: int = 8000) -> dict:
+def call_claude_api(messages: list, tools: list, max_tokens: int = 20000) -> dict:
     """Call the /llms/claude_tools endpoint"""
     payload = {
         "messages": {"messages": messages},
@@ -116,8 +116,8 @@ async def main():
         # "Find 15 functional requirements for crypto-currency trading domain."
         # "Find 15 functional requirements for crypto trading bot domain."
         # "Find 15 functional requirements for computer vision domain."
-        user_query = "Give me 15 functional requirements for the crypto trading bot domain, " \
-        "so that, based on these, I will create the syntax of a domain specific language to enable citized developers to easily configure and setup crypto trading bot pipelines, " \
+        user_query = "Give me 15 functional requirements for the SLAM (Simultaneous Localization and Mapping) domain, " \
+        "so that, based on these, I will create the syntax of a domain specific language to enable citized developers to easily configure and setup slam pipelines, " \
         "without deep technical knowledge of the domain."
 
         print(f"💬 Query: {user_query}\n")

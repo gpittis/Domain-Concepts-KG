@@ -23,17 +23,9 @@ NEO4J_URI = "neo4j://localhost:7687"
 NEO4J_USERNAME = "neo4j"
 NEO4J_PASSWORD = "22222222"
 NEO4J_DATABASE = "knowledge-graph"
-DEFAULT_LIMIT_NEIGHBORS = 200
-DEFAULT_MIN_WEIGHT = 0.3
-DEFAULT_MIN_COUNT = 1
 # Timeout settings
 QUERY_TIMEOUT_SECONDS = 60  # Max time per Cypher query
 APP_TOOL_TIMEOUT_SECONDS = 10  # General timeout per tool execution
-
-# Result limits (How many ROWS. In other words, how many nodes/edges)
-DEFAULT_LIMIT_EDGES = 1000
-DEFAULT_LIMIT_NODES = 1000
-MAX_LIMIT = 2000
 
 # ----------------------------
 # Neo4j driver initialization
@@ -52,9 +44,9 @@ def _clamp_limit(value: int, default_value: int) -> int:
         v = int(value)
     except Exception:
         v = default_value
-    return max(1, min(v, MAX_LIMIT))
+    return max(1, min(v, 2000))
 
-def _query_top_related_concepts(limit: int = DEFAULT_LIMIT_EDGES) -> List[Dict[str, Any]]:
+def _query_top_related_concepts(limit: int = 1000) -> List[Dict[str, Any]]:
     """
     Query the top "weighted" relationships between Concepts(nodes), ordered by "final_weight" (descending).
 
@@ -83,7 +75,7 @@ def _query_top_related_concepts(limit: int = DEFAULT_LIMIT_EDGES) -> List[Dict[s
     """
 
     # Ensure the provided limit stays within safe bounds
-    lim = _clamp_limit(limit, DEFAULT_LIMIT_EDGES)
+    lim = _clamp_limit(limit, 1000)
 
     # Open a session to the Neo4j database and run the Cypher Query. 
     with _driver.session(database=NEO4J_DATABASE) as session:
@@ -101,7 +93,7 @@ def _query_top_related_concepts(limit: int = DEFAULT_LIMIT_EDGES) -> List[Dict[s
             })
         return rows
 
-def _query_top_concepts(limit: int = DEFAULT_LIMIT_NODES) -> List[Dict[str, Any]]:
+def _query_top_concepts(limit: int = 1000) -> List[Dict[str, Any]]:
     """
     Return the most frequent Concepts(nodes) ordered by their "count" property (descending).
 
@@ -125,7 +117,7 @@ def _query_top_concepts(limit: int = DEFAULT_LIMIT_NODES) -> List[Dict[str, Any]
     """
 
     # Keep the "limit" within safe bounds
-    lim = _clamp_limit(limit, DEFAULT_LIMIT_NODES)
+    lim = _clamp_limit(limit, 1000)
 
     # Open a session to the Neo4j database and run the Cypher Query.
     with _driver.session(database=NEO4J_DATABASE) as session:
@@ -146,10 +138,7 @@ def _query_neighbors_for_domain_provided_by_user(
     limit: int = 200,
 ) -> List[Dict[str, Any]]:
     """
-    Return neighbors Concepts around the given Concept (domain_name) in the user prompt, filtered by:
-      - relationship weight >= min_weight
-      - neighbor count   >= min_count
-    Ordered by weight DESC, relationship count DESC, neighbor name ASC.
+    Return neighbors Concepts around the given Concept (domain_name) in the user prompt ordered by weight DESC
 
     Parameters
     ----------
@@ -196,68 +185,128 @@ def _query_neighbors_for_domain_provided_by_user(
             })
         return rows
 
-def _query_neighbors_level2_for_domain(
+def _query_neighbors_multi_level(
     domain_name: str,
-    top_first: int = 40,      # πόσους L1 κρατάμε
-    limit_per_seed: int = 20  # πόσους L2 ανά L1
+    max_level: int = 1,
+    per_level_limit: int = 100,
+    global_limit: int = 1000,
 ) -> List[Dict[str, Any]]:
+    
     """
-    Επιστρέφει μόνο LEVEL-2 neighbors:
-      - Πρώτα βρίσκει τους top-<top_first> L1 γείτονες του seed (χωρίς φίλτρα).
-      - Για κάθε L1, επιστρέφει τους top-<limit_per_seed> L2 γείτονές του.
-    Επιστρέφει rows με:
-      domain_name, seed_l1,
-      neighbor, final_weight
-    """
-    # clamps
-    tf = max(1, min(int(top_first), 200))
-    lps = max(1, min(int(limit_per_seed), 200))
+    Multi-level exploration around a seed domain_name, implemented by repeatedly calling the Level-1 helper.
 
-    cypher = """
-    // Επιλογή top L1 γειτόνων (με βάση final_weight, rel_count, όνομα)
-    MATCH (seed:Concept {name: $domain_name})-[r1:RELATED_TO]-(l1:Concept)
-    WITH seed, l1, r1
-    ORDER BY r1.final_weight DESC
-    WITH seed, collect(l1)[0..$top_first] AS seeds1
+    IMPORTANT:
+      - At each level, for each seed node, we fetch its top-Level-1 neighbors,
+        sorted by edge.final_weight (using _query_neighbors_for_domain_provided_by_user).
 
-    // Για κάθε L1, πάρε top L2 γείτονες
-    UNWIND seeds1 AS s1
-    MATCH (s1)-[r2:RELATED_TO]-(n2:Concept)
-    WHERE n2 <> s1
-    WITH seed, s1, n2, r2
-    ORDER BY r2.final_weight DESC
-    WITH seed, s1,
-         collect({
-           seed_l1: s1.name,
-           seed_l1_count: s1.count,
-           neighbor: n2.name,
-           neighbor_count: n2.count,
-           final_weight: r2.final_weight,
-           rel_count: r2.count
-         })[0..$limit_per_seed] AS top2
-    UNWIND top2 AS t2
-    RETURN
-      seed.name            AS domain_name,
-      t2.seed_l1           AS seed_l1,
-      t2.neighbor          AS neighbor,
-      t2.final_weight      AS final_weight
+    Returns rows with:
+      - domain_name : the seed of this hop (local seed at this level)
+      - neighbor    : the neighbor discovered from that seed
+      - level       : hop distance from the root domain_name (1..max_level)
+      - final_weight: weight of the edge (seed -> neighbor)
     """
 
+    # We use step-by-step Level-1 queries (from level 0 up to max_level), instead of one big Cypher query. 
+
+    # One large "multi-hop" query can easily blow up in size, 
+    # because Neo4j tries to explore too many paths at once. 
+    # On big or dense graphs this often causes memory errors (dbms.memory.transaction.total.max error).
+
+    # With the step-by-step approach:
+    # - each Neo4j query stays small and safe,
+    # - we limit branching with per_level_limit and global_limit,
+    # - and the expensive logic runs in Python script instead of Neo4j KG, so the database never runs out of memory.
+
+    # Normalize / clamp parameters
+    max_level = max(1, int(max_level))
+    per_level_limit = max(1, min(int(per_level_limit), 500))
+    global_limit = max(1, min(int(global_limit), 5000))
+
+    # Level-0 frontier = only the original user-provided domain.
+    # The frontier is the queue of nodes whose Level-1 neighbors we will explore at the next level.
+    frontier = [{
+        "name": domain_name, # seed node name for the next hop
+        "level": 0, # 0 hops away from the root
+    }]
+
+    # Collected results across ALL levels (1..max_level)
     rows: List[Dict[str, Any]] = []
-    with _driver.session(database=NEO4J_DATABASE or None) as session:
-        result = session.run(cypher, 
-                             domain_name=domain_name, 
-                             top_first=tf, 
-                             limit_per_seed = lps, 
-                             timeout=QUERY_TIMEOUT_SECONDS)
-        for rec in result:
-            rows.append({
-                "domain_name":    rec["domain_name"],
-                "seed_l1":        rec["seed_l1"],
-                "neighbor":       rec["neighbor"],
-                "final_weight":   rec["final_weight"],
-            })
-    return rows
+
+    # Multi-level loop:
+    # level-1 → explore direct (Level-1) neighbors of the original root domain provided by user.
+    # level-2 → explore direct neighbors of all nodes found at level 1
+    # level-3 → explore direct neighbors of all nodes found at level 2
+    # level-4 → ... etc.
+
+    # For example:
+    # max_level = 1 → returns only level-1 neighbors of the root domain.
+    # max_level = 2 → returns both level-1 and level-2 neighbors of the root domain.
+    # max_level = 3 → returns level-1, level-2, and level-3 neighbors of the root domain.
+    for level in range(1, max_level + 1):
+
+        # If there are no more nodes to expand (frontier is empty),
+        # OR we have already collected at least global_limit results,
+        # we stop the multi-level search early.
+        if not frontier or len(rows) >= global_limit:
+            break
+        
+        # Seeds for the next level will be stored here
+        new_frontier: List[Dict[str, Any]] = []
+
+        # For every seed node in the current frontier, perform a simple Level-1 neighbors query
+        for node in frontier:
+
+            # Safety check: if we've already hit global_limit, we stop expanding further.
+            if len(rows) >= global_limit:
+                break
+            
+            # The "seed" concept whose direct neighbors we are about to query.
+            seed_name = node["name"]
+
+            # Fetch the top Level-1 neighbors for this seed.
+            neighbors = _query_neighbors_for_domain_provided_by_user(
+                domain_name=seed_name,
+                limit=per_level_limit,
+            )
+
+            # For each neighbor returned by the Level-1 helper function,
+            # we create a record that describes the (seed -> neighbor) pair
+            # at the current level of the multi-level search.
+            for n in neighbors:
+
+                # Safety check
+                if len(rows) >= global_limit:
+                    break
+                
+                # Neighbor node name (e.g. "laser", "map", "order", ...)
+                neigh_name = n["neighbor"]
+
+                # edge weight for (seed_name -> neighbor) pair
+                edge_weight = float(n["final_weight"] or 0.0)
+
+                # Append result row
+                rows.append({
+                    "domain_name": seed_name, # seed for this hop
+                    "neighbor": neigh_name, # direct neighbor of this seed
+                    "level": level, # hop distance from the root domain concept provided by user
+                    "final_weight": edge_weight,  # final weight of the pair
+                })
+
+                # This neighbor becomes a seed for the next level
+                new_frontier.append({
+                    "name": neigh_name,
+                    "level": level,
+                })
+
+        # Replace frontier with newly collected seeds for the next hop
+        frontier = new_frontier
+
+    # Optional sorting: by level ASC, final_weight DESC, neighbor ASC
+    rows.sort(key=lambda r: (r["level"], -r["final_weight"], r["neighbor"]))
+
+    # Return up to global_limit items (already enforced earlier).
+    # (so the slicing is optional)
+    return rows[:global_limit]
 
 # --------------------------
 # MCP server & exposed tools
@@ -272,7 +321,7 @@ mcp = FastMCP("neo4j-graph-server")
         "Return top RELATED_TO edges ordered by final_weight desc. "
         "Args: limit (int, default 1000)."
     ))
-def neo4j_top_related_concepts(limit: int = DEFAULT_LIMIT_EDGES) -> Dict[str, Any]:
+def neo4j_top_related_concepts(limit: int = 1000) -> Dict[str, Any]:
     """
     Executes "_query_top_related_concepts" function and finds the top "weighted" relationships.
     In other words, finds the TOP RELATED Concepts.
@@ -284,7 +333,7 @@ def neo4j_top_related_concepts(limit: int = DEFAULT_LIMIT_EDGES) -> Dict[str, An
     # Build the response payload
     return {
         "edges": rows,
-        "limit": _clamp_limit(limit, DEFAULT_LIMIT_EDGES),
+        "limit": _clamp_limit(limit, 1000),
     }
 
 # tool 2
@@ -292,7 +341,7 @@ def neo4j_top_related_concepts(limit: int = DEFAULT_LIMIT_EDGES) -> Dict[str, An
         "Return top concepts ordered by count desc. "
         "Args: limit (int, default 1000)."
     ))
-def neo4j_top_concepts(limit: int = DEFAULT_LIMIT_NODES) -> Dict[str, Any]:
+def neo4j_top_concepts(limit: int = 1000) -> Dict[str, Any]:
     """
     Executes "_query_top_concepts" function and finds the most frequent Concepts.
     """
@@ -303,52 +352,43 @@ def neo4j_top_concepts(limit: int = DEFAULT_LIMIT_NODES) -> Dict[str, Any]:
     # Build the response payload
     return {
         "nodes": rows,
-        "limit": _clamp_limit(limit, DEFAULT_LIMIT_NODES),
+        "limit": _clamp_limit(limit, 1000),
     }
 
-# tool 3
+# tool 3 
 @mcp.tool(description=(
-    "Return top neighbors for a given Concept(Domain Name provided by user) by final_weight (desc). "
-    "Args: domain_name (str, required), limit (int, default 500)."
+    "Return multi-level neighbors for a given Concept (domain_name) in the Neo4j KG.\n"
+    "Args:\n"
+    "  - domain_name (str, required): seed Concept name (root).\n"
+    "  - max_level (int, default 1): how many hops away to explore "
+    "        (1 = level-1 only, 2 = level-1 + level-2, 3 = level-1 + level-2 + level-3 etc).\n"
+    "  - per_level_limit (int, default 100): max Level-1 neighbors per seed per level.\n"
+    "  - global_limit (int, default 1000): max total (all levels) pairs to return.\n"
+    "The LLM should start with max_level=1 and increase it only when broader context is needed."
+    "The search is level-by-level: each level uses only direct (Level-1) neighbors of the previous level."
+    "Weights are local to each hop (no cumulative path weights)."
 ))
-def neo4j_neighbors_for_domain(domain_name: str, limit: int = 500) -> Dict[str, Any]:
-    """
-    Executes the minimal neighbor query (no count/weight filters).
-    Returns a JSON string with neighbors and the applied limit.
-    """
-    rows = _query_neighbors_for_domain_provided_by_user(domain_name=domain_name, limit=limit)
+def neo4j_neighbors_for_domain(
+    domain_name: str,
+    max_level: int = 1,
+    per_level_limit: int = 100,
+    global_limit: int = 1000,
+) -> Dict[str, Any]:
+    
+    # Run the multi-level neighbor search helper
+    rows = _query_neighbors_multi_level(
+        domain_name=domain_name,
+        max_level=max_level,
+        per_level_limit=per_level_limit,
+        global_limit=global_limit,
+    )
     return {
-        "domain_name": domain_name,
-        "limit": _clamp_limit(limit, 200),
-        "neighbors": rows,
+        "domain_name": domain_name,  # root Concept
+        "max_level": max_level, # depth explored
+        "per_level_limit": per_level_limit, # max neighbors per seed per level
+        "global_limit": global_limit, # max total result rows
+        "neighbors": rows, # list of {domain_name, neighbor, level, final_weight} 
     }
-
-# tool 4
-@mcp.tool(description=(
-    "Return only Level-2 neighbors for a given Concept (Domain Name provided by user). "
-    "First selects the top_first Level-1 neighbors of the seed by final_weight (desc), "
-    "then for each of them returns the top limit_per_seed Level-2 neighbors. "
-    "Args: domain_name (str, required), top_first (int, default 100), limit_per_seed (int, default 20)."
-))
-def neo4j_neighbors_level2_for_domain(domain_name: str, top_first: int = 100, limit_per_seed: int = 20) -> Dict[str, Any]:
-    """
-    Executes the Level-2 neighbors query (no weight/count filters).
-    Returns a JSON string with rows and the applied limits.
-    """
-    # optional server-side clamp (keeps numbers sane even if client doesn't)
-    tf = max(1, min(int(top_first), 200))
-    lps = max(1, min(int(limit_per_seed), 200))
-
-    rows = _query_neighbors_level2_for_domain(
-            domain_name=domain_name,
-            top_first=tf,
-            limit_per_seed=lps)
-    return {
-            "domain_name": domain_name,
-            "top_first": tf,
-            "limit_per_seed": lps,
-            "records": rows,  # each record: domain_name, domain_count, seed_l1, seed_l1_count, neighbor, neighbor_count, final_weight, rel_count
-        }
 
 if __name__ == "__main__":
     # Run the MCP server.
