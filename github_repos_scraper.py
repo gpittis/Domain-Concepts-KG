@@ -8,14 +8,28 @@ from pathlib import Path
 
 # ---------- Configuration ----------
 
-STATE_FILE = "scraper_state.json"   # Stores current_page so we can resume across runs
-OUTPUT_FILE = "repos.json"          # File consumed by automate_post_requests.py
-DEFAULT_QUERY = "machine learning"  # Default search query if user presses Enter
-RESULTS_PER_BATCH = 500             # How many repo URLs we want per scraping cycle
-PER_PAGE = 100                      # GitHub Search API max per_page
-SLEEP_SECONDS = 60  # π.χ. 1 ώρα == 3600 secs μεταξύ full passes
+# Stores the pagination state for EACH query variant.
+# This allows the scraper to resume where it left off on the next run,
+# and ensures we eventually retrieve all ~1000 available repo URLs per query.
+# (GitHub Search API never returns more than the first ~1000 results for any single query.)
+STATE_FILE = "scraper_state.json" 
 
-# Variants of the same base query
+# file that contains the JSON ARRAY with repo URLs.
+# This file is consumed by automate_post_requests.py
+OUTPUT_FILE = "repos.json"     
+
+DEFAULT_QUERY = "machine learning"  # Default search query if user presses Enter (without providing any query)
+
+RESULTS_PER_BATCH = 500             # How many repo URLs we want per scraping cycle
+
+PER_PAGE = 100                      # GitHub Search API max per_page (so for 500 repo URLs we want 500/100 = 5 API pages)
+
+SLEEP_SECONDS = 60                  # e.g. 1 hour == 3600 secs between full passes. (Now im using 60 seconds for speed)
+
+# Variants of the same base query. 
+# ONLY by using MULTIPLE QUERIES enables us to collect more than 1000 unique repo URLs, 
+# For example, for "machine learning" we collected around 1300 unique repos across these query variations.
+# (In the future, we may add more queries for a specific domain name)
 QUERY_VARIANTS = [
     "{base}",                 # plain base query
     "{base} stars:>100",      # with stars > 100
@@ -27,26 +41,53 @@ QUERY_VARIANTS = [
 
 def load_state():
     """
-    Load scraper state for all queries from a JSON file.
+    Load the scraper state for all query variants from the JSON state file.
 
-    The state structure is a dict mapping:
-        effective_query -> {"current_page": int}
+    The state file keeps track of pagination per query, so that each query
+    can resume from the last fetched page on the next run.
 
-    If the file does not exist or is invalid, return an empty dict.
+    The structure of the state is:
+
+        {
+            "<query_1>": {"current_page": <int>},
+            "<query_2>": {"current_page": <int>},
+            ...
+        }
+
+    For example:
+
+        {
+            "machine learning": {"current_page": 11},
+            "machine learning stars:>100": {"current_page": 10},
+            "machine learning forks:>500": {"current_page": 2}
+        }
+
+    If the state file does not exist or cannot be parsed, an empty dict is returned,
+    meaning all queries will start from page 1.
     """
     p = Path(STATE_FILE)
     if not p.exists():
+        # No state file yet: start fresh (from page 1)
         return {}
     try:
+        # Read and parse the JSON state from disk
         return json.loads(p.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         # If the state file is broken, start with an empty state
         return {}
 
-
 def save_state(state: dict) -> None:
     """
-    Save scraper state for all queries to a JSON file.
+    Save scraper state for all query variants to the JSON state file.
+
+    The "state" parameter must be a dictionary of the form:
+
+        {
+            "<query>": {"current_page": <int>},
+            ...
+        }
+
+    This function overwrites the existing state file with the new contents.
     """
     Path(STATE_FILE).write_text(
         json.dumps(state, ensure_ascii=False, indent=2),
@@ -64,8 +105,10 @@ def fetch_repo_links(query,
                      start_page=1):
     """
     Fetches multiple GitHub repository URLs automatically using the GitHub Search API,
-    starting from a given page and scanning as many pages as needed until n_repos
-    URLs are collected or there are no more results.
+    starting from a given page and scanning as many pages as needed until n_repos URLs are collected or there are no more results.
+    (For the first 500 repo URLS --> pages 1-5)
+    (For the following 500 repo URLs --> pages 6-10)
+    (Github Search API dont give more than 1000 repo URLs for a specific query)
 
     Args:
         query (str): The search query string (e.g., "machine learning").
@@ -144,15 +187,18 @@ def fetch_repo_links(query,
 
 
 def run_one_full_pass(user_query: str, token: str | None) -> None:
+   
     """
-    Εκτελεί ΕΝΑ πλήρες πέρασμα πάνω από όλα τα query variants.
-    Δεν ρωτάει τον χρήστη, ούτε ξαναδιαβάζει το token.
-    Χρησιμοποιεί και ενημερώνει το per-query state.
+    Performs ONE full pass over all query variants.
+
+    Does not ask the user, nor re-read the token.
+    Uses and updates per-query state.
     """
+    
     # Build the 3 query variants
     queries = [tpl.format(base=user_query) for tpl in QUERY_VARIANTS]
 
-    # Load global state (per-query pages)
+    # Load state (per-query pages)
     state = load_state()
 
     # Process each query variant separately, with its own page state
@@ -207,14 +253,10 @@ def run_one_full_pass(user_query: str, token: str | None) -> None:
             save_state(state)
             print(f"[INFO] Updated state for query {effective_query!r}: next start_page = {current_page}", file=sys.stderr)
 
-            # Optional: sleep between pages if you want to throttle things a bit.
-            # time.sleep(600)
-
     print("[INFO] All query variants completed for this pass.", file=sys.stderr)
-
-    # Στο τέλος ενός FULL pass, reset-άρουμε τα pages όλων των queries σε 1,
-    # ώστε στο επόμενο pass να ξανασκανάρουμε από την αρχή (page 1).
-    state = load_state()
+    
+    # At the end of a FULL pass, we reset the pages of all queries to 1,
+    # so that in the next pass we can rescan from the beginning (page 1).
     for effective_query in queries:
         state[effective_query] = {"current_page": 1}
     save_state(state)
@@ -228,8 +270,9 @@ def main():
     - Then forever:
         * runs one full pass over all query variants
         * sleeps for SLEEP_SECONDS
-        * repeats
+        * repeats the same process
     """
+
     # Read GitHub personal access token from environment variable.
     token = os.getenv("GITHUB_TOKEN")
 
@@ -248,7 +291,6 @@ def main():
         run_one_full_pass(user_query, token)
         print(f"[INFO] FULL PASS finished. Sleeping for {SLEEP_SECONDS} seconds before restarting...", file=sys.stderr)
         time.sleep(SLEEP_SECONDS)
-
 
 if __name__ == "__main__":
     main()
