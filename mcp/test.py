@@ -173,6 +173,42 @@ async def main():
                 # print() ####################
             print()
 
+
+            """
+            Enhanced Part of Deep Learning DSL
+
+            "The FRs must focus on dataset definition, 
+            multi-stage training workflows,
+            Model architecture definition (layers, blocks, attention, parameter Sharing),
+            transfer learning (pretrained/checkpoint initialization, freeze/unfreeze, head replacement), 
+            and retraining triggers/strategies (new data, metric drop, drift). "
+            """
+
+            """
+            Enhanced Part of Machine Learning over Data Streams DSL
+
+            "The FRs must focus on stream-based dataset definition (sources, schemas, time semantics, and evolution), 
+            windowed and stateful processing (windows, aggregations, out-of-order handling), 
+            incremental feature engineering and online learning over streams, 
+            end-to-end pipeline orchestration (connectors, data, models, metrics, and outputs), 
+            real-time inference and evaluation, 
+            concept and data drift detection, 
+            and retraining triggers and policies driven by streaming conditions (new data volume, metric degradation, and sustained drift)."
+            """
+
+            """
+            Enhanced Part of Natural Language Processing pipelines and Machine Learning DSL
+
+            "The FRs must focus on text data definition and preprocessing pipelines,
+            linguistic representations and embeddings,
+            task-centric NLP workflows,
+            information extraction tasks (Named Entity Recognition, Entity Typing, Relation Extraction),
+            annotation and labeling semantics,
+            end-to-end pipeline orchestration,
+            real-time and batch inference over text,
+            language-specific drift and adaptation,
+            and retraining strategies driven by changes in language, topics, and performance."
+            """
             # User prompt: asks the model to produce requirements and optionally use tools.
             user_prompt = (
                 "Give me 15 functional requirements for the Deep Learning domain, "
