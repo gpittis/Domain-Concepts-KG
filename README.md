@@ -1,5 +1,29 @@
 # Diploma-Thesis
-Domain Concepts Knowledge Graph (**Structured Graph** + **Knowledge Graph**) created by static analysis
+<img width="225" height="225" alt="lxml" src="https://github.com/user-attachments/assets/be2e00bd-e795-4ccd-984f-379fe59cfc40" />
+<img width="225" height="225" alt="mongodb" src="https://github.com/user-attachments/assets/88d6fb4d-8150-4830-8ebb-a50d040e0a73" />
+<img width="1244" height="356" alt="LibCST" src="https://github.com/user-attachments/assets/6d8410e1-5ef4-4a0c-be2a-d361c8c091bf" />
+<img width="1059" height="812" alt="mcp" src="https://github.com/user-attachments/assets/5a1d71e5-a0b1-41f0-8de0-21b3bde05d9f" />
+<img width="1638" height="744" alt="babel" src="https://github.com/user-attachments/assets/37092de9-8bf4-4728-9fed-d8b7fbbb2c0d" />
+<img width="280" height="280" alt="srcML" src="https://github.com/user-attachments/assets/df1083c4-46fd-43f0-b9b1-79bbcb414689" />
+<img width="1024" height="369" alt="fastAPI" src="https://github.com/user-attachments/assets/c9e14015-29b4-47d5-b357-122222d85769" />
+<img width="834" height="313" alt="Neo4j-logo" src="https://github.com/user-attachments/assets/86321275-628d-425d-a23e-58176b8837f4" />
+<img width="800" height="330" alt="issel_logo" src="https://github.com/user-attachments/assets/e21bbd8c-1129-4e75-aa68-e85066a1e95f" />
+
+<p align=center>
+<img src="https://github.com/user-attachments/assets/82054402-8a7c-4169-b487-45459a1a8ffb" height=100px width:auto />
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="https://github.com/user-attachments/assets/05c6720b-ea29-4b04-9185-771bddad251c" height=100px width:auto />
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="https://github.com/user-attachments/assets/769ad7c1-beee-4bc9-a786-10e4763cfeb1" height=100px width:auto />
+</p>
+
+## Overview
+
+This repository contains materials related to assignments of the Software Engineering 1 course of ECE, Aristotle University of Thessaloniki.
+
+>Course professor: [Andreas Symeonidis](https://people.auth.gr/symeonid/).
+
+> Made with valuable help from the [ISSEL](https://lab.issel.ee.auth.gr/) team.
 
 
 ## Structured Graph
