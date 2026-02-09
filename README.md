@@ -1,4 +1,4 @@
-# Domain-Concepts-KG
+# Diploma-Thesis
 Domain Concepts Knowledge Graph (**Structured Graph** + **Knowledge Graph**) created by static analysis
 
 
