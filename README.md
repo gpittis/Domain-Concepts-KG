@@ -1,41 +1,31 @@
 # Diploma-Thesis
 <p align="center">
-  <a href="[issel](https://github.com/robotics-4-all)" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/e21bbd8c-1129-4e75-aa68-e85066a1e95f" alt="issel" height="100" />
+  <a href="https://github.com/robotics-4-all">
+    <img src="https://github.com/user-attachments/assets/e21bbd8c-1129-4e75-aa68-e85066a1e95f" height="35"/>
   </a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="[neo4j](https://github.com/neo4j)" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/86321275-628d-425d-a23e-58176b8837f4" alt="Neo4j" height="100" />
+  <a href="https://github.com/neo4j">
+    <img src="https://github.com/user-attachments/assets/86321275-628d-425d-a23e-58176b8837f4" height="35"/>
   </a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="https://github.com/modelcontextprotocol" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/5a1d71e5-a0b1-41f0-8de0-21b3bde05d9f" alt="mcp" height="100" />
+  <a href="https://github.com/modelcontextprotocol">
+    <img src="https://github.com/user-attachments/assets/5a1d71e5-a0b1-41f0-8de0-21b3bde05d9f" height="35"/>
   </a>
-</p>
-<p align="center">
-  <a href="https://github.com/srcML" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/df1083c4-46fd-43f0-b9b1-79bbcb414689" alt="srcML" height="100" />
+  <a href="https://github.com/srcML">
+    <img src="https://github.com/user-attachments/assets/df1083c4-46fd-43f0-b9b1-79bbcb414689" height="35"/>
   </a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="https://github.com/lxml" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/be2e00bd-e795-4ccd-984f-379fe59cfc40" alt="lxml" height="100" />
+  <a href="https://github.com/lxml">
+    <img src="https://github.com/user-attachments/assets/be2e00bd-e795-4ccd-984f-379fe59cfc40" height="35"/>
   </a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="https://github.com/Instagram/LibCST" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/6d8410e1-5ef4-4a0c-be2a-d361c8c091bf" alt="LibCST" height="100" />
+  <a href="https://github.com/Instagram/LibCST">
+    <img src="https://github.com/user-attachments/assets/6d8410e1-5ef4-4a0c-be2a-d361c8c091bf" height="35"/>
   </a>
-</p>
-<p align="center">
-  <a href="https://github.com/babel" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/37092de9-8bf4-4728-9fed-d8b7fbbb2c0d" alt="babel" height="100" />
+  <a href="https://github.com/babel">
+    <img src="https://github.com/user-attachments/assets/37092de9-8bf4-4728-9fed-d8b7fbbb2c0d" height="35"/>
   </a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="https://github.com/mongodb" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/88d6fb4d-8150-4830-8ebb-a50d040e0a73" alt="mongodb" height="100" />
+  <a href="https://github.com/mongodb">
+    <img src="https://github.com/user-attachments/assets/88d6fb4d-8150-4830-8ebb-a50d040e0a73" height="35"/>
   </a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="https://github.com/fastapi" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/c9e14015-29b4-47d5-b357-122222d85769" alt="fastAPI" height="100" />
+  <a href="https://github.com/fastapi">
+    <img src="https://github.com/user-attachments/assets/c9e14015-29b4-47d5-b357-122222d85769" height="35"/>
   </a>
 </p>
 
