@@ -4,7 +4,7 @@ from collections import defaultdict, Counter
 import hashlib
 from pathlib import Path
 
-def run_neo4j_loader(intermediate_json_path: str, 
+def run_sg_loader(intermediate_json_path: str, 
                      uri: str = "bolt://localhost:7687", 
                      user: str = "neo4j", 
                      password: str="22222222",

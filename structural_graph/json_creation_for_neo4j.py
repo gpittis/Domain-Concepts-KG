@@ -358,7 +358,7 @@ def transform_to_kg(cleaned_json) -> dict:
     return {"nodes": nodes, "edges": edges}
 
 
-def run_kg_builder(cleaned_json_path: str, output_path: str | None = None) -> Path:
+def run_sg_builder(cleaned_json_path: str, output_path: str | None = None) -> Path:
     """
     Παίρνει το cleaned JSON (αφού έχει περάσει από το concept filter),
     καλεί transform_to_kg(...) και γράφει ένα ενδιάμεσο JSON με nodes/edges.

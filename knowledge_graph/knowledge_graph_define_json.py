@@ -199,7 +199,7 @@ def knowledge_graph_definition(
 
 # Implement wrapper for the knowledge_graph_definition function
 # We call this wrapper from api.
-def run_kg_builder_from_structured_graph(
+def run_kg_builder_from_structural_graph(
     output_path: str,
     uri: str = "bolt://localhost:7687",
     user: str = "neo4j",

@@ -10,11 +10,11 @@ from parsers.cpp_parser.cpp_parser import run_cpp_parser
 from parsers.java_parser.java_parser import run_java_parser
 from parsers.javascript_parser.python_wrapper_for_js_parser import run_js_parser
 from concept_filter.stopwords_filter import run_concept_filter
-from structured_graph.json_creation_for_neo4j import run_kg_builder
-from structured_graph.loader_script import run_neo4j_loader
-from knowledge_graph.knowledge_graph_define_json import run_kg_builder_from_structured_graph
+from structural_graph.json_creation_for_neo4j import run_sg_builder
+from structural_graph.loader_script import run_sg_loader
+from knowledge_graph.knowledge_graph_define_json import run_kg_builder_from_structural_graph
 from knowledge_graph.update_knowledge_graph import run_knowledge_graph_loader
-from structured_graph.delete_temporary_structured_graph import run_structured_graph_cleanup
+from structural_graph.delete_temporary_structural_graph import run_structural_graph_cleanup
 from live_update_kg.graph_better_visualization import make_better_graph_visualization
 from pathlib import Path
 from urllib.parse import urlparse
@@ -193,18 +193,18 @@ def run_parser(choice: str, repo_url: str) -> None:
             print(f"[warn] concept filter failed/skipped: {e}", file=sys.stderr)
             filtered_json = main_json_path 
 
-        # 4) Build Structured Graph JSON 
+        # 4) Build Structural Graph JSON 
         try:
-            kg_json_path = run_kg_builder(Path(filtered_json))
+            kg_json_path = run_sg_builder(Path(filtered_json))
             print(f"[done] KG JSON -> {kg_json_path}")
         except Exception as e:
             print(f"[warn] KG builder failed/skipped: {e}", file=sys.stderr)
             kg_json_path = None
 
-        # 5) load the Structured Graph JSON into Neo4j and create the temporary Structured Graph
+        # 5) load the Structured Graph JSON into Neo4j and create the temporary Structural Graph
         try:
             if kg_json_path and Path(kg_json_path).exists():
-                nodes, rels = run_neo4j_loader(Path(kg_json_path), repo_url=str(repo_url), database="structured-graph")
+                nodes, rels = run_sg_loader(Path(kg_json_path), repo_url=str(repo_url), database="structured-graph")
                 print(
                     f"[neo4j-out] nodes={nodes} relationships={rels} ok=True")
             else:
@@ -217,7 +217,7 @@ def run_parser(choice: str, repo_url: str) -> None:
             base_dir = (kg_json_path.parent if kg_json_path else main_json_path.parent)
             kg_from_structured = base_dir / "knowledge_graph.json"
 
-            kg_from_structured_path = run_kg_builder_from_structured_graph(
+            kg_from_structured_path = run_kg_builder_from_structural_graph(
                 output_path=str(kg_from_structured))
             print(f"[done] JSON : KNOWLEDGE GRAPH FROM STRUCTURED GRAPH -> {kg_from_structured_path}")
         except Exception as e:
@@ -238,7 +238,7 @@ def run_parser(choice: str, repo_url: str) -> None:
         
         # 8) Cleanup the temporary structured-graph
         try:
-            run_structured_graph_cleanup()  # χρησιμοποιεί τα defaults
+            run_structural_graph_cleanup()  # χρησιμοποιεί τα defaults
             print("[cleanup] structured-graph cleared.")
         except Exception as e:
             print(f"[warn] structured-graph cleanup failed: {e}", file=sys.stderr)

@@ -1,6 +1,6 @@
 from neo4j import GraphDatabase
 
-def run_structured_graph_cleanup(
+def run_structural_graph_cleanup(
     uri: str = "bolt://localhost:7687",
     user: str = "neo4j",
     password: str = "22222222",
