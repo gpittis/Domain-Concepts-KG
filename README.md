@@ -161,7 +161,7 @@ For each individual source code file, the following information is extracted:
      - any nested functions (**nested_functions**) they may contain, and
    - any nested classes (**nested_classes**) they may contain.
 
-Nested syntactic structures are detected only by the Python parser.
+Nested syntactic structures are detected only by the Python parser (and only nested classes by Java parser).
 
 ```
 [
