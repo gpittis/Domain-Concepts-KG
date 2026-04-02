@@ -306,6 +306,8 @@ The [Structural Graph (SG)](./structural_graph) represents, in graph form, the c
 
 For the construction of the SG, an [intermediate file](./structural_graph/json_creation_for_neo4j.py) is first created, containing all the output information of the concept filter in the form of nodes and edges. Then, the data from this file are [loaded into the Neo4j software](./structural_graph/loader_script.py), thereby enabling the construction of the temporary SG.
 
+(⚠️ **Note**: In the comments, the structural graph is often referred to as “structured”. This reflects an earlier naming convention and will be updated in future versions for consistency and clarity.)
+
 ## SG Intermediate File
 The intermediate file **maps each category of syntactic structure to a specific node type**. Additionally, it **maps each type of programming relationship between two syntactic structures to a specific edge type**.
 
