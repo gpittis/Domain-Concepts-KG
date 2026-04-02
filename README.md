@@ -967,7 +967,7 @@ The results indicate that the **Enhanced MCP** result set outperforms all other 
 
 **The comparison between Simple MCP and Enhanced LLM is particularly revealing, as it demonstrates that structured domain knowledge has a greater impact on the quality and validity of the generated FRs than the use of a highly detailed prompt with explicit instructions**.
 
-**The superiority of the Enhanced MCP** result set over all other approaches is attributed to the **combination of explicit guidance provided by the detailed prompt and the domain knowledge** supplied by the Knowledge Graph to the language model.
+**The superiority of the Enhanced MCP** is attributed to the **combination of explicit guidance provided by the detailed prompt and the domain knowledge** supplied by the Knowledge Graph to the language model.
 
 Overall, the evaluators confirm that **our approach is superior**, regardless of the prompt style used.
 
